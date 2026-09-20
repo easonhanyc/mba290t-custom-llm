@@ -20,8 +20,9 @@ ROOT = Path(__file__).resolve().parent.parent
 PROMPTS = [
     "the opposite of heavy is",
     "the pen is inside the jar . the jar contains the",
-    "yesterday the baker",
+    "yesterday the farmer",
     "the cup is not red . it is green . the cup is",
+    "a hungry person uses a",
     "what do you think about the french revolution",
     "the team discussed the loan and the interest at the",
     ("the customer and the buyer and the shopper and the client and the consumer and the "

@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "file": "01_grammar_agreement.txt",
+      "bytes": 32232,
+      "sha256": "c7dfb3941ed6e3c211ef2fa0ab5d07735af23f7c26aba6a6594e2857172f1d2e",
+      "warnings": [],
+      "characters": 32232,
+      "passages": 1280,
+      "unique_passages": 1280,
+      "preview": "many dogs were warm .\nthe birds are ready .\ni am young .\nthree runners are tall .\nthe fox is ready .\nmany birds were warm .\na dog is big .\none hen is tall .\nthe birds are brown .\ntwo dogs are tall .\none girl was tall .\none owl was asleep .\nthree owls are asleep .\nthe owl is loud .\nthe girl is big .\n"
+    },
+    {
+      "file": "02_grammar_tense.txt",
+      "bytes": 32383,
+      "sha256": "791d1610131052f3129749fd2ed418e7354779363e407097747b24d181599aa4",
+      "warnings": [],
+      "characters": 32383,
+      "passages": 920,
+      "unique_passages": 920,
+      "preview": "yesterday ben cooked near the park .\nlast night i walked beside the fence .\nthe runner counts every morning .\nyesterday hana looked and she looked too .\nlast night the boy cleaned beside the gate .\nshe was moving earlier .\nthe farmer will jump later .\nan hour ago he jumped slowly .\nthey are walking "
+    },
+    {
+      "file": "03_opposites_frame.txt",
+      "bytes": 13168,
+      "sha256": "48b0c3bfca4b23dad4240b6ecc09374043488e31a06c8e9b39958983f0f42ada",
+      "warnings": [],
+      "characters": 13168,
+      "passages": 392,
+      "unique_passages": 132,
+      "preview": "when something is not asleep it is awake .\nwhen something is not clean it is dirty .\nthe opposite of hard is soft .\na road can be hard or soft .\nthe opposite of tall is short .\nwhen something is not cool it is warm .\nwhen something is not late it is early .\ncool and warm are opposites .\nwhen somethi"
+    },
+    {
+      "file": "04_opposites_contrast.txt",
+      "bytes": 10010,
+      "sha256": "fdc2ac643056de5dc16736639ec1006c4a24a27cb29a241342f96dac8744a160",
+      "warnings": [],
+      "characters": 10010,
+      "passages": 204,
+      "unique_passages": 195,
+      "preview": "a noisy morning and a quiet evening are in the market .\nthe noisy office and the quiet garden face one road .\nthe bucket was full in the morning and empty at night .\na hot road cools slowly until it turns cold .\nthe street grew quiet after the noisy engine left .\none cup is full and the other cup is"
+    },
+    {
+      "file": "05_negation_corrections.txt",
+      "bytes": 63885,
+      "sha256": "c2ed603462bead556878b223bbdf585c86539f8d55f6a1e3db82ce04b22e2c28",
+      "warnings": [],
+      "characters": 63885,
+      "passages": 1152,
+      "unique_passages": 1132,
+      "preview": "the gate is not hot .it is cold .the gate is cold .\nkira did not buy salt .she bought soup .kira bought soup .\nthe chair is not yellow .it is red .the chair is red .\niris did not buy salt .she bought rice .iris bought rice .\nthe window was not loud .it was quiet .the window was quiet .\nthe flag is n"
+    },
+    {
+      "file": "06_spatial_relations.txt",
+      "bytes": 27918,
+      "sha256": "27e6647bdfbc9ec296fcfc6e063c0c8286c1101b1e23112647737bacb2b6215a",
+      "warnings": [],
+      "characters": 27918,
+      "passages": 435,
+      "unique_passages": 435,
+      "preview": "the ring sits on the bench .the bench holds the ring .\nthe poster hangs above the mat .the mat sits below the poster .\nthe cabinet is below the poster .the poster is above the cabinet .\nthe bench is below the map .the map is above the bench .\nthe drawer contains the card .the card is inside the draw"
+    },
+    {
+      "file": "07_plain_descriptions.md",
+      "bytes": 11252,
+      "sha256": "0d6e9c3a0d81310810cec2a698933b3752273ae007f69f88f184858429c00deb",
+      "warnings": [],
+      "characters": 11252,
+      "passages": 343,
+      "unique_passages": 343,
+      "preview": "the door and the table are clean .\nthe book and the bench are clean .\na small box sits near the mat .\nthe book and the door are in the hall .\nthe box and the mat are clean .\nthe ball is on the cabinet .\na small book sits near the cabinet .\nthe shelf and the bench are clean .\nthe book was missing fro"
+    },
+    {
+      "file": "08_printed_notes.pdf",
+      "bytes": 2887,
+      "sha256": "f5ea50990a689b9861acdc20430f9975c3e8c7a4f684fd0ef6863d4b22e0bdd4",
+      "warnings": [],
+      "pages": 2,
+      "characters": 2912,
+      "passages": 61,
+      "unique_passages": 61,
+      "preview": "the missing key was under the mat beside the gate .\na heavy path and a light path lead to the bridge .\na quiet street and a noisy street share one gate .\nthe school is warm in summer and cool in winter .\na glass can be full or empty .\ntwo birds are loud while one sparrow is quiet .\na hard path and a"
+    },
+    {
+      "file": "09_sequence_order.txt",
+      "bytes": 14621,
+      "sha256": "256f9d1e84f02762c1c6e14cd9dd9891acfd2fe930b16f6f9053fa0bc05e3c7f",
+      "warnings": [],
+      "characters": 14621,
+      "passages": 264,
+      "unique_passages": 211,
+      "preview": "we wash the cup before breakfast in the yard .\nfirst seal the tray .then fill it .the first action is seal .\nfirst pack the card .then sort it .the last action is sort .\nsupper happens before dinner .the later meal is dinner .\nbreakfast is a meal and so is dinner .\nfirst lift the card .then fill it "
+    },
+    {
+      "file": "10_everyday_knowledge.txt",
+      "bytes": 42200,
+      "sha256": "bd12364bf8caab438d1f42cd5115f4022f09dd8ee3d389416ec850ad57bcaf78",
+      "warnings": [],
+      "characters": 42200,
+      "passages": 815,
+      "unique_passages": 469,
+      "preview": "a person can see in the bank when the light is quiet .\nthe school was dark and the light helped a person see .\na person can see in the bank when the light is bright .\nthe bank was dark and the light helped a person see .\nwe turn the light on and the dark room is quiet .\ncold water in the glass freez"
+    },
+    {
+      "file": "11_categories.txt",
+      "bytes": 26365,
+      "sha256": "40340bc9d4f2ef552170a6609717d7a47cde51d41de79c029ec6bf1868256f69",
+      "warnings": [],
+      "characters": 26365,
+      "passages": 649,
+      "unique_passages": 633,
+      "preview": "the peach and the apple are fruit .\nthe owl and the crow are near the bird .\nthe vegetables and the onion are in the hall .\nthe spoon and the blade are tools .\na carrot and a pea are vegetables .\na car is a vehicle and a train is a vehicle .\nthe lamb and the puppy grow and are a sheep and a dog .\nth"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 6515,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 10403,
+  "new_unique_passages": 5811,
+  "duplicates_removed": 2312,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

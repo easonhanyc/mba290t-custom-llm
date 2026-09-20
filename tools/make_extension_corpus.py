@@ -1,34 +1,42 @@
-"""Generate the corpus-extension teaching files for experiment B.
+"""Generate corpus-extension teaching files, with enforced eval separation.
 
-All text here is written for this assignment. Nothing is copied from
+All text is written for this assignment. Nothing is copied from
 `evals/language_evals.json`: no eval prompt, no answer choice list, no answer key,
-no model output, and no chat transcript. The generator enforces that with three
-checks before it writes anything (see `verify()` at the bottom):
+no model output, no chat transcript.
 
- 1. `reject_eval_leakage` from run_evals.py - the same normalized contiguous
-    prompt match the notebook applies - is run over every generated passage.
- 2. Every proper name used in the eval suite is banned from the corpus.
- 3. A list of banned word pairs (the exact word pairs an eval case asks the model
-    to produce inside the eval's own frame) is checked.
+Five checks run before anything is written. The build aborts on any failure.
 
-Four of the eight extension categories are taught: grammar, opposites, negation
-and spatial_relations. The other four (reference, sequence, everyday_knowledge,
-categories_and_analogies) are deliberately left untaught so they act as a control
-group in the comparison.
+ 1. `reject_eval_leakage` from run_evals.py - the notebook's own normalized
+    contiguous prompt match - finds no eval prompt in any generated file.
+ 2. No proper name used anywhere in the eval suite appears.
+ 3. None of the reserved phrases (each of which is an entire eval prompt) appears.
+ 4. No word pair an eval asks for is written inside that eval's own frame.
+ 5. ANSWER-CONTINUATION GUARD. For every one of the 48 cases, find the longest run
+    of tokens ending the prompt that also appears in the generated passages, then
+    look at what follows it. If a suffix of >= MIN_GUARDED_SUFFIX tokens is followed
+    by that case's answer more than MAX_ANSWER_SHARE of the time, the build fails.
 
-A note on formatting: `chunk_text()` in the notebook splits text on
-`(?<=[.!?])\\s+`, so "a . b . c ." becomes three separate training passages. The
-negation and spatial eval prompts span several clauses, so a model trained only on
-one-clause passages never sees a "." followed by more text. The multi-clause
-teaching passages below therefore write the internal period with no following
-space ("a .b .c ."), which the tokenizer still reads as the tokens
-["a", ".", "b", ".", "c", "."] but the splitter leaves as one passage. Compare
-`corpus.txt` in the run folder to confirm.
+Check 5 is the one that matters, and it is stricter than the upstream checker.
+The upstream check only catches a *whole* prompt appearing verbatim. It passed
+happily on an earlier version of this file that contained
 
-    python tools/make_extension_corpus.py
+    the clock is above the desk . the desk is below the clock .
+
+which is not the eval prompt (the eval uses "lamp"), but shares an 8-token suffix
+with it and is always followed by the answer. A model can score that case by
+recalling a continuation instead of applying the relation. Frames whose answer is
+a *relation word* (below, right) are especially exposed, because the answer does
+not change when the nouns change - so for those frames the nouns the eval uses are
+excluded entirely, and the model has to transfer the relation to them.
+
+    python tools/make_extension_corpus.py --categories grammar,opposites,negation,spatial_relations
+    python tools/make_extension_corpus.py --categories all --out corpus_seven
 """
+import argparse
 import random
+import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,39 +44,34 @@ sys.path.insert(0, str(ROOT))
 
 from run_evals import load_suite, matching_cases, word_tokens  # noqa: E402
 
-CORPUS = ROOT / "corpus"
-RNG = random.Random(20260919)
+MIN_GUARDED_SUFFIX = 3
+MAX_ANSWER_SHARE = 0.5
 
 # Every proper name that appears anywhere in the eval suite. The corpus uses a
-# disjoint name set, so eval cases that depend on these names stay out of
-# vocabulary. That is a deliberate choice, reported as a limitation, not an
-# accident: padding the vocabulary with eval-specific names to make cases
-# scorable is exactly what the assignment warns against.
+# disjoint set, so cases that hinge on these names stay out of vocabulary. That is
+# deliberate and reported as a limitation: padding the vocabulary with the exam's
+# own names to make cases scorable is what the assignment warns against.
 EVAL_NAMES = {"ava", "ella", "finn", "maya", "leo", "nora", "omar",
               "sara", "noah", "nina", "emma", "luca"}
 
-NAMES = ["ben", "clara", "diego", "hana", "iris", "jonas", "kira",
-         "mateo", "priya", "rosa", "tomas", "wren"]
-PRONOUN = {"ben": "he", "clara": "she", "diego": "he", "hana": "she",
-           "iris": "she", "jonas": "he", "kira": "she", "mateo": "he",
-           "priya": "she", "rosa": "she", "tomas": "he", "wren": "they"}
+# Nouns the eval uses inside frames whose answer is a relation word. Excluded from
+# every relational template so no long eval-shaped context can be memorised.
+EVAL_FRAME_NOUNS = {"book", "bag", "lamp", "shelf", "desk", "ball", "box", "door"}
 
-# Word pairs an eval case asks the model to produce. They must never appear
-# together inside the frame that case uses.
 BANNED_OPPOSITE_PAIRS = {("hot", "cold"), ("cold", "hot"), ("empty", "full"),
                          ("full", "empty"), ("noisy", "quiet"), ("quiet", "noisy"),
                          ("open", "closed"), ("closed", "open")}
-# Contiguous phrases that are the whole of an eval prompt.
 BANNED_PHRASES = ["one bird", "the dogs", "yesterday she"]
+
+NAMES = ["ben", "clara", "diego", "hana", "iris", "jonas", "kira", "mateo"]
+PRONOUN = {"ben": "he", "clara": "she", "diego": "he", "hana": "she",
+           "iris": "she", "jonas": "he", "kira": "she", "mateo": "he"}
 
 
 def sentences(lines):
     return "\n".join(lines) + "\n"
 
 
-# --------------------------------------------------------------------------
-# 1. Grammar: singular/plural agreement (is / are / am / was / were)
-# --------------------------------------------------------------------------
 def plural_of(word):
     if word.endswith(("x", "s", "ch", "sh")):
         return word + "es"
@@ -89,24 +92,30 @@ def gerund_of(verb):
     return verb[:-1] + "ing" if verb.endswith("e") else verb + "ing"
 
 
-# "bird" and "dog" are handled separately below: their plural/singular forms are
-# needed in the vocabulary, but "one bird" and "the dogs" are themselves eval
-# prompts and must never be written.
-SINGULAR = ["crow", "rabbit", "fox", "owl", "bee", "frog", "lamb",
-            "pony", "hen", "sparrow", "boy", "girl", "runner", "singer",
-            "farmer", "painter", "baker", "driver", "guard"]
+# ==========================================================================
+# grammar
+# ==========================================================================
+SINGULAR = ["crow", "rabbit", "fox", "owl", "frog", "lamb", "pony", "hen",
+            "cat", "duck", "goat", "horse", "boy", "girl", "runner", "farmer"]
 PLURAL = {w: plural_of(w) for w in SINGULAR}
 ADJ = ["small", "big", "tall", "short", "quiet", "quick", "slow", "young",
-       "old", "brown", "white", "grey", "calm", "busy", "safe", "awake",
-       "asleep", "clean", "ready", "loud", "near", "warm"]
+       "old", "brown", "white", "calm", "busy", "safe", "awake", "asleep",
+       "clean", "ready", "loud", "warm"]
+VERBS = ["walk", "open", "clean", "cook", "help", "look", "jump", "climb",
+         "count", "move"]
+SINGULAR_SUBJECTS = ["she", "he", "the runner", "the farmer", "the boy", "the girl"]
+PAST_SUBJECTS = ["he", "they", "we", "i", "the runner", "the farmer",
+                 "the boy", "the girls"] + NAMES
+PLACES = ["the park", "the yard", "the garden", "the hall", "the gate",
+          "the fence", "the river", "the bridge", "the road"]
 
 
-def grammar_agreement():
+def grammar_agreement(rng):
     lines = []
     for noun in SINGULAR:
         plural = PLURAL[noun]
-        for adjective in RNG.sample(ADJ, 6):
-            other = RNG.choice([a for a in ADJ if a != adjective])
+        for adjective in rng.sample(ADJ, 6):
+            other = rng.choice([a for a in ADJ if a != adjective])
             lines += [
                 f"one {noun} is {adjective} .",
                 f"a {noun} is {adjective} .",
@@ -115,62 +124,37 @@ def grammar_agreement():
                 f"two {plural} are {adjective} .",
                 f"three {plural} are {adjective} .",
                 f"many {plural} were {adjective} .",
+                f"the {plural} are {adjective} .",
                 f"one {noun} is {adjective} but two {plural} are {other} .",
                 f"the {noun} was {adjective} and the {plural} were {other} .",
-                f"the {plural} are {adjective} .",
             ]
     for adjective in ADJ:
         lines += [f"i am {adjective} .", f"i was {adjective} ."]
-    # "dogs" and "bird" are needed for two eval prompts' vocabulary, but the
-    # exact phrases "the dogs" and "one bird" are eval prompts themselves and
-    # are never written. Every other frame is available.
+    # "dogs" and "bird" are needed for two eval prompts' vocabulary, but the exact
+    # phrases "the dogs" and "one bird" are eval prompts and are never written.
     for adjective in ADJ:
-        other = RNG.choice([a for a in ADJ if a != adjective])
+        other = rng.choice([a for a in ADJ if a != adjective])
         lines += [
-            f"two dogs are {adjective} .",
-            f"three dogs are {adjective} .",
-            f"many dogs were {adjective} .",
-            f"a dog is {adjective} .",
+            f"two dogs are {adjective} .", f"three dogs are {adjective} .",
+            f"many dogs were {adjective} .", f"a dog is {adjective} .",
             f"the dog is {adjective} .",
             f"one dog is {adjective} but two dogs are {other} .",
             f"the dog was {adjective} and many dogs were {other} .",
-            f"a bird is {adjective} .",
-            f"the bird is {adjective} .",
-            f"the bird was {adjective} .",
-            f"two birds are {adjective} .",
-            f"many birds were {adjective} .",
-            f"the birds are {adjective} .",
+            f"a bird is {adjective} .", f"the bird is {adjective} .",
+            f"the bird was {adjective} .", f"two birds are {adjective} .",
+            f"many birds were {adjective} .", f"the birds are {adjective} .",
             f"the bird was {adjective} and the birds were {other} .",
         ]
-    RNG.shuffle(lines)
+    rng.shuffle(lines)
     return sentences(lines)
 
 
-# --------------------------------------------------------------------------
-# 2. Grammar: tense (walk / walks / walked / walking)
-# --------------------------------------------------------------------------
-# Ten verbs, not thirty: every form of every verb is a separate vocabulary type,
-# and the tokenizer keeps only the 509 most frequent. A first build used 23 verbs
-# and pushed "walk", "walks" and "walking" out of the vocabulary entirely, which
-# made a grammar eval case unscorable. Fewer verbs, taught more thoroughly, keep
-# all four forms of each one well inside the cap.
-VERBS = ["walk", "open", "clean", "cook", "help", "look", "jump", "climb",
-         "count", "move"]
-SINGULAR_SUBJECTS = ["she", "he", "the runner", "the farmer", "the boy",
-                     "the painter", "the baker", "the guard"]
-PAST_SUBJECTS = ["he", "they", "we", "i", "the runner", "the farmer",
-                 "the singer", "the boy", "the girls", "the painter",
-                 "the guard", "the baker"] + NAMES
-PLACES = ["the park", "the yard", "the garden", "the hall", "the bench",
-          "the gate", "the fence", "the river", "the bridge", "the road"]
-
-
-def grammar_tense():
+def grammar_tense(rng):
     lines = []
     for verb in VERBS:
         past, third, ing = past_of(verb), third_person_of(verb), gerund_of(verb)
-        for subject in RNG.sample(PAST_SUBJECTS, 14):
-            place = RNG.choice(PLACES)
+        for subject in rng.sample(PAST_SUBJECTS, 12):
+            place = rng.choice(PLACES)
             # "yesterday she" is an eval prompt and is never written; the
             # "and she <past>" frame teaches the same past-tense cue instead.
             lines += [
@@ -180,50 +164,44 @@ def grammar_tense():
                 f"an hour ago {subject} {past} slowly .",
             ]
         lines += [
-            f"last week she {past} at home .",
-            f"last month she {past} near the road .",
-            f"an hour ago she {past} quickly .",
-            f"earlier she {past} beside the gate .",
+            f"last week she {past} at home .", f"last month she {past} near the road .",
+            f"an hour ago she {past} quickly .", f"earlier she {past} beside the gate .",
             f"yesterday he {past} and she {past} as well .",
             f"yesterday they {past} while she {past} nearby .",
-            f"they are {ing} today .",
-            f"we {verb} every week .",
+            f"they are {ing} today .", f"we {verb} every week .",
         ]
         for subject in SINGULAR_SUBJECTS:
             lines += [
                 f"today {subject} {third} to the park .",
                 f"{subject} {third} every morning .",
-                f"{subject} is {ing} now .",
-                f"{subject} was {ing} earlier .",
-                f"{subject} will {verb} later .",
-                f"{subject} likes to {verb} .",
+                f"{subject} is {ing} now .", f"{subject} was {ing} earlier .",
+                f"{subject} will {verb} later .", f"{subject} likes to {verb} .",
             ]
-    RNG.shuffle(lines)
+    rng.shuffle(lines)
     return sentences(lines)
 
 
-# --------------------------------------------------------------------------
-# 3. Opposites: the frame, taught with pairs the eval never asks for
-# --------------------------------------------------------------------------
+# ==========================================================================
+# opposites
+# ==========================================================================
 OPPOSITE_PAIRS = [
     ("big", "small"), ("tall", "short"), ("fast", "slow"), ("heavy", "light"),
-    ("wet", "dry"), ("hard", "soft"), ("rough", "smooth"), ("dark", "bright"),
-    ("near", "far"), ("early", "late"), ("old", "new"), ("strong", "weak"),
-    ("cheap", "expensive"), ("deep", "shallow"), ("wide", "narrow"),
-    ("sharp", "dull"), ("clean", "dirty"), ("happy", "sad"), ("high", "low"),
-    ("thick", "thin"), ("sweet", "sour"), ("warm", "cool"), ("busy", "idle"),
-    ("awake", "asleep"), ("rich", "poor"), ("true", "false"),
+    ("wet", "dry"), ("hard", "soft"), ("dark", "bright"), ("near", "far"),
+    ("early", "late"), ("old", "new"), ("wide", "narrow"),
+    ("clean", "dirty"), ("warm", "cool"), ("awake", "asleep"),
 ]
-THINGS = ["road", "bench", "jar", "coat", "stone", "rope", "board", "path",
-          "window", "basket", "ribbon", "bucket", "candle", "hill", "field"]
+THINGS = ["road", "bench", "jar", "coat", "stone", "rope", "path", "hill"]
+ROOMS = ["room", "hall", "street", "yard", "garden", "market", "kitchen",
+         "station", "office", "school", "store", "bank", "hospital"]
+CONTAINERS = ["jar", "glass", "bottle", "mug", "basket", "bucket", "cup", "bowl"]
 
 
-def opposites_frame():
+def opposites_frame(rng):
     lines = []
     for left, right in OPPOSITE_PAIRS:
         assert (left, right) not in BANNED_OPPOSITE_PAIRS
         for _ in range(4):
-            thing = RNG.choice(THINGS)
+            thing = rng.choice(THINGS)
             lines += [
                 f"the opposite of {left} is {right} .",
                 f"the opposite of {right} is {left} .",
@@ -233,21 +211,15 @@ def opposites_frame():
                 f"when something is not {right} it is {left} .",
                 f"a {thing} can be {left} or {right} .",
             ]
-    RNG.shuffle(lines)
+    rng.shuffle(lines)
     return sentences(lines)
 
 
-# --------------------------------------------------------------------------
-# 4. Opposites: contextual contrast for the three pairs the eval does ask for.
-#    These pairs are never written inside the "the opposite of X is Y" frame.
-# --------------------------------------------------------------------------
-ROOMS = ["room", "hall", "street", "yard", "garden", "market", "kitchen",
-         "station", "office", "school", "store", "bank", "hospital"]
-CONTAINERS = ["jar", "glass", "bottle", "mug", "basket", "bucket", "tank",
-              "cup", "bowl", "crate", "barrel", "kettle"]
-
-
-def opposites_contrast():
+def opposites_contrast(rng):
+    """hot/cold, empty/full and noisy/quiet: the three pairs the eval asks about.
+    They are taught ONLY as contextual contrasts, never inside the eval's frame.
+    "round" and "flat" are here too - "round" is a distractor in one case, and it
+    has to be frequent enough to survive the 509-type vocabulary cap."""
     lines = []
     for room in ROOMS:
         lines += [
@@ -255,61 +227,65 @@ def opposites_contrast():
             f"the {room} felt hot in summer and cold in winter .",
             f"the {room} was noisy at noon and quiet at midnight .",
             f"the {room} grew quiet after the noisy engine left .",
-            f"a noisy morning and a quiet evening passed in the {room} .",
+            f"a noisy morning and a quiet evening are in the {room} .",
+            f"the noisy {room} and the quiet garden face one road .",
+            f"a round plate and a flat board are in the {room} .",
+            f"the round coin and the flat card are in the {room} .",
         ]
     for container in CONTAINERS:
         lines += [
             f"the {container} was full in the morning and empty at night .",
             f"one {container} is full and the other {container} is empty .",
             f"he filled the empty {container} until it was full .",
-            f"she poured hot water into the {container} and cold water into the bowl .",
+            f"hot water is in the {container} and cold water is in the bowl .",
+            f"the {container} is round and the board is flat .",
+            f"a round {container} and a flat plate are clean .",
         ]
-    for _ in range(12):
-        thing = RNG.choice(THINGS)
+    for thing in THINGS:
         lines += [
-            "she poured a hot drink and he poured a cold drink .",
             f"a hot {thing} cools slowly until it turns cold .",
-            "hot water and cold water filled the two cups .",
             f"the loud engine filled the street near the {thing} .",
-            "a loud bell rang beside the station .",
-            "the plate is round and the board is flat .",
-            "a round coin and a flat card sat on the desk .",
-            "the key was missing under the drawer .",
-            "a missing button was under the chair .",
+            f"a round {thing} and a flat {thing} are different .",
+            f"the missing key was under the {thing} .",
+            f"a missing button was under the {thing} .",
         ]
-    RNG.shuffle(lines)
+    lines += [
+        "a hot drink and a cold drink are on the table .",
+        "hot water and cold water are in the two jars .",
+        "a loud engine is beside the station .",
+    ] * 4
+    rng.shuffle(lines)
     return sentences(lines)
-
-
-# --------------------------------------------------------------------------
-# 5. Negation: corrections. Multi-clause, so the internal period is written
-#    tight against the next word to survive the passage splitter.
-# --------------------------------------------------------------------------
-COLORS = ["red", "blue", "green", "yellow", "black", "white", "brown",
-          "grey", "pink", "purple", "silver", "golden"]
+# ==========================================================================
+# negation
+# ==========================================================================
+COLORS = ["red", "blue", "green", "yellow", "black", "white", "brown", "grey"]
+# "box" and "door" are the nouns the eval uses; they are kept out of the frames.
 OBJECTS = ["cup", "mug", "chair", "hat", "coat", "flag", "kite", "scarf",
-           "van", "bench", "bowl", "plate", "card", "board", "sign", "box",
-           "shirt", "sock", "glove", "ribbon", "bucket", "candle"]
+           "van", "bench", "bowl", "plate", "card", "sign"]
 STATE_PAIRS = [("open", "closed"), ("open", "shut"), ("wet", "dry"),
                ("full", "empty"), ("clean", "dirty"), ("near", "far"),
                ("hot", "cold"), ("loud", "quiet"), ("new", "old"),
                ("narrow", "wide"), ("dark", "bright"), ("heavy", "light")]
-# "door" is the object the eval uses, so the correction frame uses other things.
-STATE_THINGS = ["gate", "window", "drawer", "lid", "fence", "cupboard",
-                "shutter", "hatch", "crate", "locker"]
-GOODS = ["bread", "rice", "salad", "soup", "water", "coffee", "sugar",
-         "salt", "honey", "cheese", "butter", "paper", "string", "chalk"]
+STATE_THINGS = ["gate", "window", "drawer", "lid", "fence", "cupboard"]
+GOODS = ["bread", "rice", "soup", "water", "coffee", "salt"]
 
 
-def negation():
+def negation(rng):
+    """Every object is paired with EVERY ordered colour pair. That removes any
+    object-to-colour association and makes every colour equally frequent in the
+    'corrected to' slot, so the only way to answer is to copy the correction."""
     lines = []
     for obj in OBJECTS:
-        for _ in range(4):
-            wrong, right = RNG.sample(COLORS, 2)
+        for wrong in COLORS:
+            for right in COLORS:
+                if wrong == right:
+                    continue
+                lines.append(f"the {obj} is not {wrong} .it is {right} .the {obj} is {right} .")
+    for obj in rng.sample(OBJECTS, 8):
+        for wrong, right in [rng.sample(COLORS, 2) for _ in range(6)]:
             lines += [
-                f"the {obj} is not {wrong} .it is {right} .the {obj} is {right} .",
                 f"the {obj} was not {wrong} .it was {right} .the {obj} was {right} .",
-                f"the {obj} is not {wrong} .the {obj} is {right} .",
                 f"that {obj} is not {wrong} .it is {right} .",
             ]
     for thing in STATE_THINGS:
@@ -321,36 +297,37 @@ def negation():
     for name in NAMES:
         pronoun = PRONOUN[name]
         for _ in range(8):
-            wrong, right = RNG.sample(GOODS, 2)
+            wrong, right = rng.sample(GOODS, 2)
             lines += [
                 f"{name} did not buy {wrong} .{pronoun} bought {right} .{name} bought {right} .",
                 f"{name} did not choose {wrong} .{pronoun} chose {right} .{name} chose {right} .",
-                f"{name} did not take {wrong} .{pronoun} took {right} .{name} took {right} .",
             ]
-    RNG.shuffle(lines)
+    rng.shuffle(lines)
     return sentences(lines)
 
 
-# --------------------------------------------------------------------------
-# 6. Spatial relations: inverse relations, also multi-clause.
-# --------------------------------------------------------------------------
-SMALL_THINGS = ["pen", "coin", "letter", "ring", "card", "key", "spoon",
-                "brush", "stamp", "button", "thread", "apple", "book", "ball"]
-HOLDERS = ["case", "jar", "folder", "basket", "tray", "drawer", "pocket",
-           "envelope", "tin", "crate", "bag", "box"]
-SURFACES = ["shelf", "desk", "table", "stool", "cabinet", "counter", "ledge",
-            "mat", "rug", "bench"]
-FIXTURES = ["clock", "mirror", "picture", "map", "lamp", "banner", "shelf",
-            "hook", "poster", "curtain"]
-# Object pairs an eval case uses; never written together in that eval's frame.
-BANNED_PAIRS = {("book", "bag"), ("lamp", "desk"), ("ball", "box")}
+# ==========================================================================
+# spatial relations
+# ==========================================================================
+SMALL_THINGS = ["pen", "coin", "letter", "ring", "card", "key", "spoon", "brush", "stamp"]
+HOLDERS = ["case", "jar", "folder", "basket", "tray", "drawer", "pocket", "tin"]
+SURFACES = ["table", "stool", "cabinet", "counter", "ledge", "mat", "bench"]
+FIXTURES = ["clock", "mirror", "picture", "map", "banner", "hook", "poster"]
 
 
-def spatial():
+def _safe(*words):
+    return not (set(words) & EVAL_FRAME_NOUNS)
+
+
+def spatial(rng):
+    """The eval's own nouns are excluded from every relational frame. For the
+    inverse relations the answer is a relation word that does not change with the
+    nouns, so keeping the eval's nouns out is the only way to stop the case being
+    answerable from a memorised continuation."""
     lines = []
     for small in SMALL_THINGS:
         for holder in HOLDERS:
-            if (small, holder) in BANNED_PAIRS:
+            if not _safe(small, holder):
                 continue
             lines += [
                 f"the {small} is inside the {holder} .the {holder} contains the {small} .",
@@ -358,15 +335,16 @@ def spatial():
             ]
     for fixture in FIXTURES:
         for surface in SURFACES:
-            if (fixture, surface) in BANNED_PAIRS or fixture == surface:
+            if not _safe(fixture, surface) or fixture == surface:
                 continue
             lines += [
                 f"the {fixture} is above the {surface} .the {surface} is below the {fixture} .",
                 f"the {surface} is below the {fixture} .the {fixture} is above the {surface} .",
+                f"the {fixture} hangs above the {surface} .the {surface} sits below the {fixture} .",
             ]
     for left_thing in SMALL_THINGS:
-        for right_thing in RNG.sample(HOLDERS, 5):
-            if (left_thing, right_thing) in BANNED_PAIRS:
+        for right_thing in rng.sample(HOLDERS, 5):
+            if not _safe(left_thing, right_thing):
                 continue
             lines += [
                 f"the {left_thing} is left of the {right_thing} ."
@@ -375,8 +353,9 @@ def spatial():
                 f"the {right_thing} is to the left of the {left_thing} .",
             ]
     for thing in SMALL_THINGS:
-        surface = RNG.choice(SURFACES)
-        other = RNG.choice(FIXTURES)
+        surface, other = rng.choice(SURFACES), rng.choice(FIXTURES)
+        if not _safe(thing, surface, other):
+            continue
         lines += [
             f"the {thing} is beside the {surface} .the {surface} is beside the {thing} .",
             f"the {thing} is under the {surface} .the {surface} is over the {thing} .",
@@ -385,64 +364,248 @@ def spatial():
             f"the {thing} is north of the {surface} .the {surface} is south of the {thing} .",
             f"the {thing} is south of the {surface} .the {surface} is north of the {thing} .",
         ]
-    RNG.shuffle(lines)
+    rng.shuffle(lines)
     return sentences(lines)
 
 
-# --------------------------------------------------------------------------
-# 7. Plain descriptions: ordinary one-clause sentences that put the remaining
-#    nouns and adjectives into context. This file is also rendered to PDF.
-# --------------------------------------------------------------------------
-def descriptions():
+# ==========================================================================
+# sequence  (optional third experiment)
+# ==========================================================================
+SEQ_VERBS = ["fold", "lift", "stack", "sort", "pack", "seal", "fill", "buy"]
+# "breakfast" (lang_38) and "train"/"bus" (lang_39) are the eval's own nouns for
+# these frames, so they are excluded here exactly as EVAL_FRAME_NOUNS is for the
+# spatial frames. They still reach the vocabulary through ordinary sentences.
+MEALS = ["lunch", "dinner", "supper", "brunch"]
+VEHICLES = ["car", "taxi", "truck", "van"]
+
+
+def sequence(rng):
+    """"dry" and "wash" never appear in the slot the eval reads, "breakfast" never
+    follows "after", and the eval's own vehicle pair is excluded, so no case is
+    answerable by recalling a continuation."""
     lines = []
-    for surface in SURFACES:
-        lines += [
-            f"the book rests on the {surface} near the window .",
-            f"the bag hangs beside the {surface} .",
-            f"the lamp stands on the {surface} in the hall .",
-            f"a round plate and a wide tray sat on the {surface} .",
-            f"the ball rolled under the {surface} .",
-            f"a small box waited on the {surface} .",
-        ]
-    lines += [
-        "the door of the hall is wide and white .",
-        "he painted the door white last week .",
-        "the door and the window face the garden .",
-        "the park is north of the river and the school is south of the river .",
-        "a quiet street sits beside the noisy market .",
-        "the shelf above the desk holds the book and the folder .",
-        "the desk below the shelf holds the lamp and the pen .",
-        "a narrow path and a wide road meet near the bridge .",
-        "the key was missing and the drawer was shut .",
-        "a bird and two birds rested on the fence .",
-        "many dogs and many ponies waited near the field .",
-        "two birds are loud but one sparrow is quiet .",
-        "the loud market and the quiet garden face the same road .",
-    ]
-    RNG.shuffle(lines)
+    trays = ["tray", "crate", "folder", "basket", "card"]
+    for first in SEQ_VERBS:
+        for second in SEQ_VERBS:
+            if first == second:
+                continue
+            item = rng.choice(trays)
+            lines += [
+                f"first {first} the {item} .then {second} it .the last action is {second} .",
+                f"first {first} the {item} .then {second} it .the first action is {first} .",
+            ]
+    for early in MEALS:
+        for late in MEALS:
+            if early == late:
+                continue
+            lines += [
+                f"{late} happens after {early} .the earlier meal is {early} .",
+                f"{early} happens before {late} .the later meal is {late} .",
+            ]
+    for meal in MEALS:
+        for place in ROOMS[:5]:
+            lines += [f"breakfast is a meal and so is {meal} .",
+                      f"breakfast and {meal} are in the {place} .",
+                      f"we wash the cup before breakfast in the {place} ."]
+    for item in trays:
+        lines += [f"we wash the {item} and then we dry it .",
+                  f"she will wash and dry the {item} .",
+                  f"the dry {item} and the wet {item} are clean .",
+                  f"he will fill the {item} and then seal it ."]
+    for early in VEHICLES:
+        for late in VEHICLES:
+            if early == late:
+                continue
+            lines += [
+                f"the {early} arrived before the {late} ."
+                f"the vehicle that arrived later was the {late} .",
+                f"the {late} arrived after the {early} ."
+                f"the vehicle that arrived earlier was the {early} .",
+            ]
+    lines += [f"the train and the bus arrived at the station ." ,
+              f"a bus and a train are each a vehicle ."] * 12
+    rng.shuffle(lines)
     return sentences(lines)
-
-
-# --------------------------------------------------------------------------
-# 8. Printed notes. These sentences live ONLY in the PDF inside corpus/; the
-#    plain-text original is kept in docs/, outside every training input, so the
-#    PDF contributes real passages and its extraction can still be diffed
-#    against a known source.
-# --------------------------------------------------------------------------
-def printed_notes():
+# ==========================================================================
+# everyday knowledge  (optional third experiment)
+# ==========================================================================
+def everyday(rng):
+    """Templated so each fact appears in many distinct passages. The facts may
+    overlap with the eval - the assignment permits that - but the eval's own
+    phrasings never appear followed by the answer: "freezes into", "to stay" and
+    "turn on a" are all avoided, and "stay" is taught with several continuations
+    so it predicts nothing on its own."""
     lines = []
     for container in CONTAINERS:
+        for place in ROOMS[:6]:
+            lines += [
+                f"cold water in the {container} freezes and the ice is hard .",
+                f"the water freezes at night and the ice fills the {container} .",
+                f"ice is frozen water and the {container} of ice is cold .",
+                f"hot water in the {container} is steam in the {place} .",
+                f"the {place} was cold so the water was ice .",
+                f"sand and wood and ice are in the {place} .",
+                f"the wood is dry and the sand is wet in the {place} .",
+            ]
+    for place in ROOMS:
+        for adjective in ["bright", "warm", "quiet"]:
+            lines += [
+                f"the {place} was dark and the light helped a person see .",
+                f"we turn the light on and the dark {place} is {adjective} .",
+                f"a person can see in the {place} when the light is {adjective} .",
+                f"without light the dark {place} is hard to see .",
+                f"the light in the {place} is {adjective} and a person can see .",
+            ]
+    for thing in THINGS:
+        for state in ["dry", "warm", "clean"]:
+            lines += [
+                f"a person uses an umbrella and will stay {state} near the {thing} .",
+                f"the umbrella keeps a person dry when the {thing} is wet .",
+                f"rain makes the {thing} wet but an umbrella keeps a person dry .",
+                f"a person uses an umbrella in wet weather near the {thing} .",
+                f"a person will stay {state} beside the {thing} .",
+            ]
+    for good in GOODS:
+        for place in ROOMS[:6]:
+            lines += [
+                f"a hungry person uses a spoon for the {good} in the {place} .",
+                f"the hungry person is in the {place} and the {good} is warm .",
+                f"a person uses a spoon and the {good} is in the {place} .",
+            ]
+    for place in ROOMS[:8]:
         lines += [
-            f"a {container} can be full or empty .",
-            f"the {container} stands beside the bowl on the counter .",
+            f"a person who is asleep is on a pillow in the {place} .",
+            f"the pillow and the shoe are in the {place} .",
+            f"a person uses a shoe to walk to the {place} .",
+            # "into" is needed by two eval prompts' vocabulary. The eval's own
+            # phrasings "freezes into" and "grows into" never appear; these
+            # ordinary uses carry the word instead.
+            f"a person walked into the {place} and the light was bright .",
+            f"she went into the {place} and he went into the garden .",
         ]
+    for container in CONTAINERS:
+        lines += [
+            f"the cold water went into the {container} .",
+            f"he poured water into the {container} and into the bowl .",
+        ]
+    rng.shuffle(lines)
+    return sentences(lines)
+# ==========================================================================
+# categories and analogies  (optional third experiment)
+# ==========================================================================
+def categories(rng):
+    """Category facts in sentences, never in the eval's own frame ("a X is a Y"
+    and "grows into a" are both avoided). Templated over every pair within a group
+    so each group name appears in many distinct passages."""
+    lines = []
+    groups = {
+        "birds": ["robin", "sparrow", "crow", "owl", "hen", "duck"],
+        "fish": ["salmon", "trout", "carp", "bass"],
+        "trees": ["oak", "pine", "willow", "elm"],
+        "tools": ["hammer", "brush", "blade", "spoon"],
+        "fruit": ["apple", "pear", "peach", "banana"],
+        "vegetables": ["carrot", "bean", "onion", "pea"],
+    }
+    for group, members in groups.items():
+        singular = {"birds": "bird", "fish": "fish", "trees": "tree",
+                    "tools": "tool", "fruit": "fruit", "vegetables": "vegetable"}[group]
+        for first in members:
+            for second in members:
+                if first == second:
+                    continue
+                lines += [
+                    f"the {first} and the {second} are {group} .",
+                    f"a {first} and a {second} are {group} .",
+                    f"the {first} and the {second} are near the {singular} .",
+                ]
+            for place in ROOMS[:5]:
+                lines.append(f"the {group} and the {first} are in the {place} .")
+            lines.append(f"a {first} is one of the {group} and so is a {singular} .")
+    young = [("puppy", "dog"), ("kitten", "cat"), ("lamb", "sheep"), ("foal", "horse")]
+    for small, grown in young:
+        for place in ROOMS[:6]:
+            lines += [
+                f"the {small} grows and the {grown} is in the {place} .",
+                f"a {small} grows and then a {grown} is near the {place} .",
+                f"the young {grown} grows in the {place} .",
+            ]
+    for small, grown in young:
+        for other_small, other_grown in young:
+            if small == other_small:
+                continue
+            lines += [
+                f"a {small} grows and is a {grown} .",
+                f"the {small} grows and the {grown} is near .",
+                f"a {small} is a young {grown} and a {other_small} is a young {other_grown} .",
+                f"the {small} and the {other_small} grow and are a {grown} and a {other_grown} .",
+            ]
+    materials = [("cloth", "fabric"), ("coin", "metal"), ("board", "wood")]
+    for thing, material in materials:
+        for other_thing, other_material in materials:
+            if thing == other_thing:
+                continue
+            lines += [
+                f"the {thing} is made of {material} and the {other_thing} is made of {other_material} .",
+                f"{material} makes the {thing} and {other_material} makes the {other_thing} .",
+                f"the {material} and the {other_material} are hard .",
+            ]
+    vehicles = ["car", "bus", "truck", "taxi", "train", "van"]
+    for first in vehicles:
+        for second in vehicles:
+            if first != second:
+                lines += [f"the {first} and the {second} are each a vehicle .",
+                          f"a {first} is a vehicle and a {second} is a vehicle ."]
+    for animal in ["goat", "horse", "duck", "cat", "dog"]:
+        for place in ROOMS[:5]:
+            lines.append(f"a {animal} is near the {place} .")
+    rng.shuffle(lines)
+    return sentences(lines)
+# ==========================================================================
+# shared plain descriptions + the PDF
+# ==========================================================================
+def descriptions(rng):
+    """Ordinary sentences that put the eval's relational nouns into context. Those
+    nouns appear ONLY here, never inside a relational frame, so they still reach
+    the vocabulary but carry no memorisable relation. Fully templated: a word that
+    appears in three sentences is three passages after deduplication, and is then
+    too rare to survive the 509-type vocabulary cap."""
+    lines = []
+    nouns = ["book", "bag", "lamp", "shelf", "desk", "ball", "box", "door"]
+    for noun in nouns:
+        for surface in SURFACES:
+            lines += [
+                f"the {noun} is on the {surface} .",
+                f"the {noun} and the {surface} are clean .",
+                f"a small {noun} sits near the {surface} .",
+                f"the {noun} was missing from the {surface} .",
+            ]
+        for adjective in ["wide", "narrow", "old", "new", "clean", "white", "brown"]:
+            lines.append(f"the {noun} is {adjective} .")
+        for other in nouns:
+            if other != noun:
+                lines.append(f"the {noun} and the {other} are in the hall .")
+    lines += [
+        "the park is north of the river and the school is south of the river .",
+        "a quiet street sits beside the noisy market .",
+        "a narrow path and a wide road are near the bridge .",
+        "the key was missing and the drawer was shut .",
+        "a bird and two birds are near the fence .",
+        "many dogs and many ponies are near the field .",
+        "two birds are loud but one sparrow is quiet .",
+    ]
+    rng.shuffle(lines)
+    return sentences(lines)
+def printed_notes(rng):
+    """Lives ONLY in the PDF inside the corpus folder; its plain-text original is
+    kept in docs/, outside every training input, so extraction stays diffable."""
+    lines = []
+    for container in CONTAINERS:
+        lines += [f"a {container} can be full or empty .",
+                  f"the {container} stands beside the bowl on the counter ."]
     for room in ROOMS:
-        lines += [
-            f"a quiet {room} and a noisy street share one gate .",
-            f"the {room} is warm in summer and cool in winter .",
-        ]
-    for pair in OPPOSITE_PAIRS[:14]:
-        left, right = pair
+        lines += [f"a quiet {room} and a noisy street share one gate .",
+                  f"the {room} is warm in summer and cool in winter ."]
+    for left, right in OPPOSITE_PAIRS[:12]:
         lines.append(f"a {left} path and a {right} path lead to the bridge .")
     lines += [
         "the door of the office is wide and the window is narrow .",
@@ -451,30 +614,60 @@ def printed_notes():
         "two birds are loud while one sparrow is quiet .",
         "many dogs and many ponies wait near the fence .",
         "the park is north of the bridge and the yard is south of the bridge .",
-        "the shelf above the counter holds the book and the folder .",
-        "the desk below the shelf holds the lamp and the pen .",
         "hot water cools in the jar until it is cold .",
-        "the bag hangs beside the door of the hall .",
     ]
-    RNG.shuffle(lines)
+    rng.shuffle(lines)
     return sentences(lines)
 
 
-FILES = {
-    "01_grammar_agreement.txt": grammar_agreement,
-    "02_grammar_tense.txt": grammar_tense,
-    "03_opposites_frame.txt": opposites_frame,
-    "04_opposites_contrast.txt": opposites_contrast,
-    "05_negation_corrections.txt": negation,
-    "06_spatial_relations.txt": spatial,
-    "07_plain_descriptions.md": descriptions,
+CATEGORY_FILES = {
+    "grammar": [("01_grammar_agreement.txt", grammar_agreement),
+                ("02_grammar_tense.txt", grammar_tense)],
+    "opposites": [("03_opposites_frame.txt", opposites_frame),
+                  ("04_opposites_contrast.txt", opposites_contrast)],
+    "negation": [("05_negation_corrections.txt", negation)],
+    "spatial_relations": [("06_spatial_relations.txt", spatial)],
+    "sequence": [("09_sequence_order.txt", sequence)],
+    "everyday_knowledge": [("10_everyday_knowledge.txt", everyday)],
+    "categories_and_analogies": [("11_categories.txt", categories)],
 }
-PDF_SOURCE = ROOT / "docs" / "pdf_source_printed_notes.txt"
+ALL_CATEGORIES = list(CATEGORY_FILES)
+SHARED_FILES = [("07_plain_descriptions.md", descriptions)]
 PDF_NAME = "08_printed_notes.pdf"
 
 
+# ==========================================================================
+# separation checks
+# ==========================================================================
+def answer_continuation_guard(passages, suite):
+    """Check 5: no case answerable by recalling a continuation. See module docstring."""
+    max_n = max(len(word_tokens(c["prompt"])) for c in suite["cases"])
+    following = {}
+    for tokens in passages:
+        for n in range(1, max_n + 1):
+            for start in range(0, len(tokens) - n):
+                following.setdefault(tuple(tokens[start:start + n]),
+                                     Counter())[tokens[start + n]] += 1
+    problems, worst = [], []
+    for case in suite["cases"]:
+        prompt = word_tokens(case["prompt"])
+        answer = word_tokens(case["answer"])[0]
+        for length in range(len(prompt), 0, -1):
+            suffix = tuple(prompt[-length:])
+            if suffix in following:
+                counts = following[suffix]
+                share = counts.get(answer, 0) / sum(counts.values())
+                worst.append((case["id"], length, share, " ".join(suffix)))
+                if length >= MIN_GUARDED_SUFFIX and share > MAX_ANSWER_SHARE:
+                    problems.append(
+                        f"{case['id']}: the {length}-token suffix {' '.join(suffix)!r} occurs "
+                        f"{sum(counts.values())} times and is followed by the answer "
+                        f"{answer!r} {share:.0%} of the time")
+                break
+    return problems, worst
+
+
 def verify(texts, suite):
-    """Three independent separation checks. Any failure aborts the build."""
     problems = []
     for name, text in texts.items():
         hits = matching_cases(text, suite)
@@ -492,48 +685,75 @@ def verify(texts, suite):
             for frame in (f" the opposite of {left} is {right} ",
                           f" {left} and {right} are opposites "):
                 if frame in normalized:
-                    problems.append(f"{name}: teaches the eval's own pair in its own frame: {frame!r}")
+                    problems.append(f"{name}: teaches an eval pair in the eval's own frame: {frame!r}")
+    passages = []
+    for text in texts.values():
+        for line in text.split("\n"):
+            if line.strip():
+                passages.append(word_tokens(line))
+    guard_problems, worst = answer_continuation_guard(passages, suite)
+    problems += guard_problems
     if problems:
         raise SystemExit("Separation check FAILED:\n  " + "\n  ".join(problems))
-    print("Separation checks passed: no eval prompt, no eval proper name, "
-          "no reserved phrase, no eval word pair in the eval's own frame.")
+    worst.sort(key=lambda row: (-row[1], -row[2]))
+    print("Separation checks passed (5/5).")
+    print(f"  Longest eval-prompt suffix appearing in the generated text: "
+          f"{worst[0][1]} tokens ({worst[0][0]}) -> {worst[0][3]!r}, "
+          f"answer follows {worst[0][2]:.0%} of the time")
+    risky = [r for r in worst if r[1] >= MIN_GUARDED_SUFFIX and r[2] > 0]
+    print(f"  Cases with a >= {MIN_GUARDED_SUFFIX}-token suffix whose answer ever follows: "
+          f"{len(risky)} (threshold is > {MAX_ANSWER_SHARE:.0%} of continuations)")
+    for row in risky[:5]:
+        print(f"    {row[0]}: {row[1]} tokens, answer follows {row[2]:.0%} - {row[3]!r}")
+    return worst
 
 
 def main():
-    suite = load_suite(ROOT / "evals/language_evals.json")
-    texts = {name: build() for name, build in FILES.items()}
-    verify(texts, suite)
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--categories", default="grammar,opposites,negation,spatial_relations",
+                        help="comma-separated, or 'all'")
+    parser.add_argument("--out", default="corpus")
+    parser.add_argument("--seed", type=int, default=20260919)
+    args = parser.parse_args()
 
-    CORPUS.mkdir(exist_ok=True)
-    for old in CORPUS.glob("*"):
+    chosen = ALL_CATEGORIES if args.categories == "all" else args.categories.split(",")
+    unknown = [c for c in chosen if c not in CATEGORY_FILES]
+    if unknown:
+        raise SystemExit(f"Unknown categories: {unknown}. Choose from {ALL_CATEGORIES}.")
+
+    rng = random.Random(args.seed)
+    suite = load_suite(ROOT / "evals/language_evals.json")
+    builders = [item for category in chosen for item in CATEGORY_FILES[category]] + SHARED_FILES
+    texts = {name: build(rng) for name, build in builders}
+    notes = printed_notes(rng)
+    verify({**texts, "pdf_source": notes}, suite)
+
+    out = ROOT / args.out
+    out.mkdir(exist_ok=True)
+    for old in out.glob("*"):
         if old.name != "README.md" and old.is_file():
             old.unlink()
-    total_lines = 0
-    for name, text in texts.items():
-        (CORPUS / name).write_text(text, encoding="utf-8")
-        lines = text.strip().split("\n")
-        total_lines += len(lines)
-        print(f"{name:<32} {len(lines):>6} lines  {len(text):>8} chars")
+    total = 0
+    for name, text in sorted(texts.items()):
+        (out / name).write_text(text, encoding="utf-8")
+        count = len(text.strip().split("\n"))
+        total += count
+        print(f"  {name:<32} {count:>6} lines  {len(set(text.strip().split(chr(10)))):>6} unique")
 
-    # Render a PDF whose text exists nowhere else in corpus/, so the PDF
-    # contributes its own passages. Its plain-text original is written to docs/,
-    # outside every training input, purely so extraction can be diffed later.
-    notes = printed_notes()
-    verify({"pdf_source": notes}, suite)
-    PDF_SOURCE.parent.mkdir(exist_ok=True)
-    PDF_SOURCE.write_text(notes, encoding="utf-8")
+    source = ROOT / "docs" / f"pdf_source_{out.name}.txt"
+    source.parent.mkdir(exist_ok=True)
+    source.write_text(notes, encoding="utf-8")
     from reportlab.lib.pagesizes import letter
     from reportlab.pdfgen import canvas
-    source_lines = notes.strip().split("\n")
-    # invariant=1 strips the creation timestamp and document ID, so rebuilding the
-    # corpus produces a byte-identical PDF and the sha256 recorded in a run's
-    # corpus_manifest.json stays valid.
-    pdf = canvas.Canvas(str(CORPUS / PDF_NAME), pagesize=letter, invariant=1)
+    # invariant=1 strips the creation timestamp, so rebuilding gives a byte-identical
+    # PDF and the sha256 in a run's corpus_manifest.json stays valid.
+    pdf = canvas.Canvas(str(out / PDF_NAME), pagesize=letter, invariant=1)
     pdf.setTitle("Printed teaching notes")
     width, height = letter
     y = height - 54
     pdf.setFont("Helvetica", 9)
-    for line in source_lines:
+    for line in notes.strip().split("\n"):
         if y < 54:
             pdf.showPage()
             pdf.setFont("Helvetica", 9)
@@ -541,14 +761,16 @@ def main():
         pdf.drawString(54, y, line)
         y -= 12
     pdf.save()
-    print(f"{PDF_NAME:<32} {len(source_lines):>6} lines  rendered from "
-          f"{PDF_SOURCE.relative_to(ROOT)} (outside corpus/)")
+    print(f"  {PDF_NAME:<32} {len(notes.strip().split(chr(10))):>6} lines  "
+          f"(source in {source.relative_to(ROOT)}, outside corpus/)")
 
     words = set()
     for text in list(texts.values()) + [notes]:
         words |= set(word_tokens(text))
-    print(f"\nTotal lines: {total_lines} | distinct token types in the extension: {len(words)}")
+    print(f"\nCategories taught: {', '.join(chosen)}")
+    print(f"Wrote {out.relative_to(ROOT)}: {total} lines, {len(words)} distinct token types.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

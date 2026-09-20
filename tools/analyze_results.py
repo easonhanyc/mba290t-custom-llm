@@ -22,11 +22,20 @@ sys.path.insert(0, str(ROOT))
 
 from run_evals import load_model, word_tokens  # noqa: E402
 
-EXPERIMENTS = ["starter", "expanded"]
+EXPERIMENTS = ["starter", "expanded", "seven"]
 STAGES = ["untrained", "final"]
-TAUGHT = ["grammar", "opposites", "negation", "spatial_relations"]
-CONTROL = ["reference", "sequence", "everyday_knowledge", "categories_and_analogies"]
+# Which extension categories each corpus teaches.
+TAUGHT_BY = {
+    "starter": [],
+    "expanded": ["grammar", "opposites", "negation", "spatial_relations"],
+    "seven": ["grammar", "opposites", "negation", "spatial_relations",
+              "sequence", "everyday_knowledge", "categories_and_analogies"],
+}
+EXTENSION_CATS = ["grammar", "opposites", "negation", "spatial_relations",
+                  "sequence", "everyday_knowledge", "categories_and_analogies", "reference"]
 STARTER_CATS = ["domain_context", "domain_place", "new_wording"]
+LABEL = {"starter": "starter corpus", "expanded": "extension (4 categories)",
+         "seven": "extension (7 categories)"}
 
 
 def run_dir(experiment):
@@ -72,31 +81,31 @@ def comparison():
 
 def markdown(data):
     lines = ["# Measured comparison", "",
-             "All four result sets, produced by the unchanged 48-case suite "
+             "Every result set below was produced by the unchanged 48-case suite "
              f"(`suite_sha256` `{data['suite_sha256'][:16]}…`, identical in every run).", "",
              "| Experiment | Stage | Correct / 48 | Scorable / 48 | All-case success | Accuracy among scorable | Vocabulary |",
              "|---|---|---:|---:|---:|---:|---:|"]
     for row in data["four_result_sets"]:
-        lines.append(f"| {row['experiment']} corpus | {row['stage']} | {row['correct']} / 48 | "
+        lines.append(f"| {LABEL[row['experiment']]} | {row['stage']} | {row['correct']} / 48 | "
                      f"{row['scorable']} / 48 | {pct(row['success_rate_all_cases'])} | "
                      f"{pct(row['accuracy_scorable_cases'])} | {row['vocabulary_size']} |")
+    header = "| Category | " + " | ".join(
+        f"{LABEL[e]} {stage}" for e in EXPERIMENTS for stage in STAGES) + " |"
     lines += ["", "## By category", "",
               "`s` is the number of scorable cases: a case whose prompt or whose four "
               "choices contain a word outside the model's vocabulary cannot be scored and "
-              "counts as zero in the all-case rate.", "",
-              "| Category | Group | starter untrained | starter trained | expanded untrained | expanded trained |",
-              "|---|---|---:|---:|---:|---:|"]
-    groups = {c: "starter" for c in STARTER_CATS}
-    groups.update({c: "taught extension" for c in TAUGHT})
-    groups.update({c: "control (not taught)" for c in CONTROL})
-    order = STARTER_CATS + TAUGHT + CONTROL
-    for category in order:
+              "counts as zero in the all-case rate. **Bold** marks a category that corpus "
+              "actually teaches.", "",
+              header, "|---|" + "---:|" * (len(EXPERIMENTS) * len(STAGES))]
+    for category in STARTER_CATS + EXTENSION_CATS:
         cells = []
         for experiment in EXPERIMENTS:
+            taught = category in TAUGHT_BY[experiment]
             for stage in STAGES:
                 v = data["detail"][f"{experiment}/{stage}"]["by_category"][category]
-                cells.append(f"{v['correct']}/{v['total']} (s{v['scorable']})")
-        lines.append(f"| `{category}` | {groups[category]} | " + " | ".join(cells) + " |")
+                cell = f"{v['correct']}/{v['total']} (s{v['scorable']})"
+                cells.append(f"**{cell}**" if taught and stage == "final" else cell)
+        lines.append(f"| `{category}` | " + " | ".join(cells) + " |")
     return "\n".join(lines) + "\n"
 
 
@@ -139,8 +148,8 @@ def choice_probabilities(model, vocabulary, prompt, choices):
     return {c: round(float(probs[stoi[c]]), 5) for c in choices}
 
 
-def diagnostics():
-    model, vocabulary, _ = load_model(run_dir("expanded") / "model.pt")
+def diagnostics(experiment="expanded"):
+    model, vocabulary, _ = load_model(run_dir(experiment) / "model.pt")
     colours = ["blue", "green", "yellow", "red"]
     objects = ["box", "cup", "mug", "chair", "hat", "coat", "flag", "kite",
                "scarf", "van", "bench", "bowl", "plate", "card", "board", "sign"]
@@ -180,7 +189,7 @@ def diagnostics():
         })
 
     return {
-        "model": "experiments/expanded/llm_run/model.pt",
+        "model": f"experiments/{experiment}/llm_run/model.pt",
         "note": ("These probes are inference only. None of them appears in corpus/; they exist "
                  "to explain measured eval failures, not to change any model or score."),
         "negation_copy_probe": {
@@ -216,8 +225,9 @@ def main():
     (out / "embedding_neighbours.json").write_text(json.dumps(neigh, indent=2) + "\n", encoding="utf-8")
     print("Wrote results/embedding_neighbours.json")
 
-    diag = diagnostics()
+    diag = {e: diagnostics(e) for e in ["expanded", "seven"]}
     (out / "diagnostics.json").write_text(json.dumps(diag, indent=2) + "\n", encoding="utf-8")
+    diag = diag["expanded"]
     copy = diag["negation_copy_probe"]
     print(f"\nNegation copy probe: the correction is copied for "
           f"{copy['objects_where_the_copy_works']}/{copy['objects_tested']} objects.")

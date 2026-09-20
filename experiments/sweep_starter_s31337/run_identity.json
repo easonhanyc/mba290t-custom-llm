@@ -1,0 +1,11 @@
+{
+  "experiment": "starter",
+  "seed": 31337,
+  "notebook_run_dir": "20260920T044533_735907Z",
+  "training_steps": 3000,
+  "learning_rate": 0.001,
+  "corpus_mode": "classroom",
+  "corpus_dir": "corpus",
+  "corpus_files": [],
+  "notebook_wall_clock_seconds": 14.4
+}

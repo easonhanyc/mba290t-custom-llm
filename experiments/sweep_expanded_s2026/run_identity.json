@@ -1,0 +1,20 @@
+{
+  "experiment": "expanded",
+  "seed": 2026,
+  "notebook_run_dir": "20260920T044457_635681Z",
+  "training_steps": 3000,
+  "learning_rate": 0.001,
+  "corpus_mode": "classroom",
+  "corpus_dir": "corpus",
+  "corpus_files": [
+    "corpus/01_grammar_agreement.txt",
+    "corpus/02_grammar_tense.txt",
+    "corpus/03_opposites_frame.txt",
+    "corpus/04_opposites_contrast.txt",
+    "corpus/05_negation_corrections.txt",
+    "corpus/06_spatial_relations.txt",
+    "corpus/07_plain_descriptions.md",
+    "corpus/08_printed_notes.pdf"
+  ],
+  "notebook_wall_clock_seconds": 17.3
+}

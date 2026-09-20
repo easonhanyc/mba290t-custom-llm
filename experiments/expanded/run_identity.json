@@ -1,9 +1,10 @@
 {
   "experiment": "expanded",
-  "notebook_run_dir": "20260920T042215_274832Z",
+  "notebook_run_dir": "20260920T044037_798463Z",
   "training_steps": 3000,
   "learning_rate": 0.001,
   "corpus_mode": "classroom",
+  "corpus_dir": "corpus",
   "corpus_files": [
     "corpus/01_grammar_agreement.txt",
     "corpus/02_grammar_tense.txt",
@@ -14,5 +15,5 @@
     "corpus/07_plain_descriptions.md",
     "corpus/08_printed_notes.pdf"
   ],
-  "notebook_wall_clock_seconds": 18.4
+  "notebook_wall_clock_seconds": 17.6
 }

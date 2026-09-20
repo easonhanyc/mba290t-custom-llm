@@ -21,14 +21,19 @@ from pypdf import PdfReader  # noqa: E402
 
 from run_evals import load_suite, matching_cases, word_tokens  # noqa: E402
 
-# The PDF's plain-text original lives in docs/, outside corpus/, so the PDF is
-# the only training source for that text while still being diffable.
-TWINS = {"08_printed_notes.pdf": ROOT / "docs" / "pdf_source_printed_notes.txt"}
+# Each corpus folder's PDF has its plain-text original in docs/, outside every
+# training input, so the PDF is the only training source for that text while the
+# extraction stays diffable against a known original.
+CORPUS_DIRS = ["corpus", "corpus_seven"]
+
+
+def twin_for(pdf_path):
+    return ROOT / "docs" / f"pdf_source_{pdf_path.parent.name}.txt"
 
 
 def main():
     suite = load_suite(ROOT / "evals/language_evals.json")
-    pdfs = sorted((ROOT / "corpus").rglob("*.pdf"))
+    pdfs = [q for d in CORPUS_DIRS for q in sorted((ROOT / d).rglob("*.pdf"))]
     if not pdfs:
         print("No PDFs in corpus/.")
         return 0
@@ -45,7 +50,7 @@ def main():
         extracted = "\n".join(pages)
         tokens = word_tokens(extracted)
         entry = {
-            "file": path.name,
+            "file": str(path.relative_to(ROOT)),
             "bytes": len(data),
             "encrypted": reader.is_encrypted,
             "pages": len(reader.pages),
@@ -55,8 +60,8 @@ def main():
             "distinct_tokens": len(set(tokens)),
             "eval_prompts_found": matching_cases(extracted, suite),
         }
-        twin = TWINS.get(path.name)
-        if twin and twin.exists():
+        twin = twin_for(path)
+        if twin.exists():
             source = word_tokens(twin.read_text(encoding="utf-8"))
             entry["compared_with"] = str(twin.relative_to(ROOT))
             entry["source_tokens"] = len(source)

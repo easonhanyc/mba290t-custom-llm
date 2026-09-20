@@ -1,7 +1,7 @@
 {
   "suite_id": "synthetic-language-v1",
   "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-  "model_sha256": "caf609741058f4485a9e1070ea149a3a1e6b27d4981cd9a62a94e604f35867b8",
+  "model_sha256": "3fef787718bc1f570870513f1a7b07166551798574e5981643f59d585d87ee74",
   "stage": "final",
   "settings": {
     "seed": 2026,
@@ -12,20 +12,20 @@
   "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
   "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
   "overall": {
-    "correct": 33,
+    "correct": 32,
     "total": 48,
     "scorable": 35,
-    "success_rate_all_cases": 0.6875,
-    "accuracy_scorable_cases": 0.9428571428571428,
+    "success_rate_all_cases": 0.6666666666666666,
+    "accuracy_scorable_cases": 0.9142857142857143,
     "coverage": 0.7291666666666666
   },
   "by_group": {
     "extend_corpus": {
-      "correct": 9,
+      "correct": 8,
       "total": 24,
       "scorable": 11,
-      "success_rate_all_cases": 0.375,
-      "accuracy_scorable_cases": 0.8181818181818182,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.7272727272727273,
       "coverage": 0.4583333333333333
     },
     "starter_patterns": {
@@ -87,11 +87,11 @@
       "coverage": 1.0
     },
     "negation": {
-      "correct": 1,
+      "correct": 2,
       "total": 3,
       "scorable": 2,
-      "success_rate_all_cases": 0.3333333333333333,
-      "accuracy_scorable_cases": 0.5,
+      "success_rate_all_cases": 0.6666666666666666,
+      "accuracy_scorable_cases": 1.0,
       "coverage": 0.6666666666666666
     },
     "new_wording": {
@@ -103,11 +103,11 @@
       "coverage": 1.0
     },
     "opposites": {
-      "correct": 2,
+      "correct": 3,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 0.6666666666666666,
-      "accuracy_scorable_cases": 0.6666666666666666,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
       "coverage": 1.0
     },
     "reference": {
@@ -127,11 +127,11 @@
       "coverage": 0.0
     },
     "spatial_relations": {
-      "correct": 3,
+      "correct": 0,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 1.0,
-      "accuracy_scorable_cases": 1.0,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
       "coverage": 1.0
     }
   }

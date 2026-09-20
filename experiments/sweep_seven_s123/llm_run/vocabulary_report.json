@@ -1,0 +1,19 @@
+{
+  "training_types": 520,
+  "retained_types": 509,
+  "training_unknown_rate": 0.0004839880616278132,
+  "validation_unknown_rate": 0.0005420054200542005,
+  "omitted_types": [
+    "cloth",
+    "drink",
+    "field",
+    "fills",
+    "frozen",
+    "jars",
+    "poured",
+    "rest",
+    "stands",
+    "wait",
+    "weather"
+  ]
+}

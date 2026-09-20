@@ -149,7 +149,7 @@ def patch_notebook(nb, corpus_mode, steps, lr, corpus_folder):
     return nb
 
 
-def build_workspace(workspace, use_corpus_files):
+def build_workspace(workspace, use_corpus_files, corpus_dir="corpus"):
     if workspace.exists():
         shutil.rmtree(workspace)
     (workspace / "evals").mkdir(parents=True)
@@ -157,13 +157,14 @@ def build_workspace(workspace, use_corpus_files):
     for name in SUPPORT_FILES:
         shutil.copy2(ROOT / name, workspace / name)
     shutil.copy2(ROOT / "evals/language_evals.json", workspace / "evals/language_evals.json")
-    shutil.copy2(ROOT / "corpus/README.md", workspace / "corpus/README.md")
+    if (ROOT / "corpus/README.md").exists():
+        shutil.copy2(ROOT / "corpus/README.md", workspace / "corpus/README.md")
     copied = []
     if use_corpus_files:
-        for path in sorted((ROOT / "corpus").rglob("*")):
+        for path in sorted((ROOT / corpus_dir).rglob("*")):
             if path.name == "README.md" or not path.is_file():
                 continue
-            target = workspace / "corpus" / path.relative_to(ROOT / "corpus")
+            target = workspace / "corpus" / path.relative_to(ROOT / corpus_dir)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(path, target)
             copied.append(str(path.relative_to(ROOT)))
@@ -173,19 +174,28 @@ def build_workspace(workspace, use_corpus_files):
 def main():
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--experiment", required=True, choices=["starter", "expanded", "smoke"])
+    parser.add_argument("--experiment", required=True)
+    parser.add_argument("--corpus-dir", default="corpus",
+                        help="which corpus folder to copy in (ignored for the starter run)")
     parser.add_argument("--steps", type=int, default=3000)
     parser.add_argument("--lr", type=float, default=0.001)
     parser.add_argument("--corpus-mode", default="classroom")
     parser.add_argument("--workspace", type=Path, default=None)
     parser.add_argument("--timeout", type=int, default=7200)
+    parser.add_argument("--seed", type=int, default=None,
+                        help="override the notebook's SEED (model init, data split, batch order)")
+    parser.add_argument("--label", default=None, help="output subdirectory name")
+    parser.add_argument("--summary-only", action="store_true",
+                        help="keep only the eval summaries and config, not the weights")
     args = parser.parse_args()
 
-    workspace = args.workspace or (ROOT / "experiments" / args.experiment / "workspace")
-    out_dir = ROOT / "experiments" / args.experiment
+    label = args.label or args.experiment
+    workspace = args.workspace or (ROOT / "experiments" / label / "workspace")
+    out_dir = ROOT / "experiments" / label
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    copied = build_workspace(workspace, use_corpus_files=(args.experiment == "expanded"))
+    copied = build_workspace(workspace, use_corpus_files=(args.experiment != "starter"),
+                             corpus_dir=args.corpus_dir)
     print(f"Workspace: {workspace}")
     print(f"Corpus files copied in: {len(copied)}")
     for name in copied:
@@ -193,6 +203,16 @@ def main():
 
     nb = nbformat.read(workspace / "custom_llm.ipynb", as_version=4)
     nb = patch_notebook(nb, args.corpus_mode, args.steps, args.lr, "corpus")
+    if args.seed is not None:
+        patched = False
+        for cell in nb.cells:
+            if cell.cell_type == "code" and "SEED, N_EMBD, N_HEAD" in cell.source:
+                cell.source = cell.source.replace(
+                    "SEED, N_EMBD, N_HEAD, N_LAYER, BLOCK_SIZE, BATCH_SIZE = 42,",
+                    f"SEED, N_EMBD, N_HEAD, N_LAYER, BLOCK_SIZE, BATCH_SIZE = {args.seed},")
+                patched = True
+        if not patched:
+            raise SystemExit("Could not find the SEED line to override.")
 
     started = time.time()
     client = NotebookClient(nb, timeout=args.timeout, kernel_name="python3",
@@ -202,23 +222,32 @@ def main():
     elapsed = time.time() - started
     print(f"Notebook finished in {elapsed:.1f}s")
 
-    executed = out_dir / f"custom_llm_{args.experiment}.executed.ipynb"
-    nbformat.write(nb, executed)
-    print("Executed notebook:", executed.relative_to(ROOT))
+    if not args.summary_only:
+        executed = out_dir / f"custom_llm_{label}.executed.ipynb"
+        nbformat.write(nb, executed)
+        print("Executed notebook:", executed.relative_to(ROOT))
 
     runs = sorted((workspace / "llm_runs").iterdir())
     run_dir = [p for p in runs if p.is_dir()][-1]
     target = out_dir / "llm_run"
     if target.exists():
         shutil.rmtree(target)
-    shutil.copytree(run_dir, target)
-    shutil.copy2(run_dir.with_suffix(".zip"), out_dir / f"{args.experiment}_results.zip")
+    if args.summary_only:
+        target.mkdir(parents=True)
+        for name in ["config.json", "vocabulary_report.json", "training_summary.json",
+                     "history.json", "language_eval_comparison.json", "eval_separation.json"]:
+            shutil.copy2(run_dir / name, target / name)
+    else:
+        shutil.copytree(run_dir, target)
+        shutil.copy2(run_dir.with_suffix(".zip"), out_dir / f"{label}_results.zip")
     (out_dir / "run_identity.json").write_text(json.dumps({
         "experiment": args.experiment,
+        "seed": args.seed if args.seed is not None else 42,
         "notebook_run_dir": run_dir.name,
         "training_steps": args.steps,
         "learning_rate": args.lr,
         "corpus_mode": args.corpus_mode,
+        "corpus_dir": args.corpus_dir,
         "corpus_files": copied,
         "notebook_wall_clock_seconds": round(elapsed, 1),
     }, indent=2) + "\n")

@@ -36,7 +36,17 @@
       "detail": "[]"
     },
     {
-      "check": "expanded: no individual trained passage contains an eval prompt (11,536 passages checked)",
+      "check": "expanded: no individual trained passage contains an eval prompt (10,987 passages checked)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "seven: trained corpus.txt contains no eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "seven: no individual trained passage contains an eval prompt (12,715 passages checked)",
       "pass": true,
       "detail": "[]"
     },
@@ -46,7 +56,12 @@
       "detail": "[]"
     },
     {
-      "check": "expanded: every vocabulary token occurs in that run's own training text (509 tokens checked)",
+      "check": "expanded: every vocabulary token occurs in that run's own training text (438 tokens checked)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "seven: every vocabulary token occurs in that run's own training text (509 tokens checked)",
       "pass": true,
       "detail": "[]"
     }
@@ -54,7 +69,8 @@
   "all_passed": true,
   "reserved_classroom_passages": {
     "starter": 160,
-    "expanded": 160
+    "expanded": 160,
+    "seven": 160
   },
   "reserved_case_ids": [
     "lang_01",
@@ -75,7 +91,7 @@
     "lang_16"
   ],
   "ordinary_words_shared_with_the_suite": {
-    "count": 97,
+    "count": 100,
     "words": [
       ".",
       "a",
@@ -84,7 +100,6 @@
       "am",
       "an",
       "and",
-      "apple",
       "are",
       "asleep",
       "at",
@@ -100,6 +115,7 @@
       "box",
       "bread",
       "buy",
+      "cat",
       "closed",
       "cold",
       "contains",
@@ -111,18 +127,21 @@
       "dogs",
       "door",
       "dry",
+      "duck",
       "earlier",
       "early",
       "empty",
       "fast",
+      "from",
       "full",
+      "goat",
       "green",
       "heavy",
+      "horse",
       "hospital",
       "hot",
       "in",
       "inside",
-      "into",
       "is",
       "it",
       "kitchen",
@@ -217,6 +236,12 @@
       "lang_46",
       "lang_47",
       "lang_48"
+    ],
+    "seven": [
+      "lang_32",
+      "lang_34",
+      "lang_35",
+      "lang_36"
     ]
   },
   "limits": "Contiguous normalized matching cannot detect paraphrase or semantic contamination. Shared ordinary vocabulary is expected and permitted; what must not appear is a test item, its answer list, or model output. The teaching material was written from the eight skill names, using different word pairs, objects and people from the cases."

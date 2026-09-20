@@ -2,93 +2,93 @@
   "files": [
     {
       "file": "01_grammar_agreement.txt",
-      "bytes": 38413,
-      "sha256": "ae80da3ff909ed91b4ac7a351caefbb32b955949266e006021c308ea7d6e841c",
+      "bytes": 32232,
+      "sha256": "c7dfb3941ed6e3c211ef2fa0ab5d07735af23f7c26aba6a6594e2857172f1d2e",
       "warnings": [],
-      "characters": 38413,
-      "passages": 1492,
-      "unique_passages": 1492,
-      "preview": "a baker is old .\none driver is brown .\nthe dog was ready and many dogs were old .\nmany birds were clean .\nthe ponies are clean .\ntwo painters are near .\ntwo dogs are old .\nthe singer was short and the singers were young .\na sparrow is clean .\none fox was loud .\ntwo bees are short .\ntwo sparrows are "
+      "characters": 32232,
+      "passages": 1280,
+      "unique_passages": 1280,
+      "preview": "many dogs were warm .\nthe birds are ready .\ni am young .\nthree runners are tall .\nthe fox is ready .\nmany birds were warm .\na dog is big .\none hen is tall .\nthe birds are brown .\ntwo dogs are tall .\none girl was tall .\none owl was asleep .\nthree owls are asleep .\nthe owl is loud .\nthe girl is big .\n"
     },
     {
       "file": "02_grammar_tense.txt",
-      "bytes": 39813,
-      "sha256": "e612f918b39f7d825fb0844abd9eddfc6de316239b39f408019bcd11b2dbdbeb",
+      "bytes": 32383,
+      "sha256": "791d1610131052f3129749fd2ed418e7354779363e407097747b24d181599aa4",
       "warnings": [],
-      "characters": 39813,
-      "passages": 1120,
-      "unique_passages": 1120,
-      "preview": "the guard will look later .\nan hour ago iris jumped slowly .\nlast month she opened near the road .\nlast night we climbed beside the bridge .\nhe walks every morning .\ntoday the runner moves to the park .\nthe runner was looking earlier .\nthe baker looks every morning .\nyesterday hana climbed near the "
+      "characters": 32383,
+      "passages": 920,
+      "unique_passages": 920,
+      "preview": "yesterday ben cooked near the park .\nlast night i walked beside the fence .\nthe runner counts every morning .\nyesterday hana looked and she looked too .\nlast night the boy cleaned beside the gate .\nshe was moving earlier .\nthe farmer will jump later .\nan hour ago he jumped slowly .\nthey are walking "
     },
     {
       "file": "03_opposites_frame.txt",
-      "bytes": 24824,
-      "sha256": "9efa34af334bbf9c16968f21b0b3ebd46ab0b28c45fcad509738acd3a9db07d8",
+      "bytes": 13168,
+      "sha256": "48b0c3bfca4b23dad4240b6ecc09374043488e31a06c8e9b39958983f0f42ada",
       "warnings": [],
-      "characters": 24824,
-      "passages": 728,
-      "unique_passages": 251,
-      "preview": "when something is not bright it is dark .\nsharp and dull are opposites .\nthe opposite of tall is short .\nthe opposite of hard is soft .\nwhen something is not dark it is bright .\na coat can be happy or sad .\nwhen something is not weak it is strong .\nwhen something is not strong it is weak .\nweak and "
+      "characters": 13168,
+      "passages": 392,
+      "unique_passages": 132,
+      "preview": "when something is not asleep it is awake .\nwhen something is not clean it is dirty .\nthe opposite of hard is soft .\na road can be hard or soft .\nthe opposite of tall is short .\nwhen something is not cool it is warm .\nwhen something is not late it is early .\ncool and warm are opposites .\nwhen somethi"
     },
     {
       "file": "04_opposites_contrast.txt",
-      "bytes": 10845,
-      "sha256": "dbf4b4458a2d33be2f4a51586fa782faeea50a0a257c58da41c944224323a004",
+      "bytes": 10010,
+      "sha256": "fdc2ac643056de5dc16736639ec1006c4a24a27cb29a241342f96dac8744a160",
       "warnings": [],
-      "characters": 10845,
-      "passages": 221,
-      "unique_passages": 140,
-      "preview": "the key was missing under the drawer .\nthe school was hot at noon and cold at midnight .\nthe hospital was hot at noon and cold at midnight .\nthe bowl was full in the morning and empty at night .\na noisy morning and a quiet evening passed in the garden .\na noisy morning and a quiet evening passed in "
+      "characters": 10010,
+      "passages": 204,
+      "unique_passages": 195,
+      "preview": "a noisy morning and a quiet evening are in the market .\nthe noisy office and the quiet garden face one road .\nthe bucket was full in the morning and empty at night .\na hot road cools slowly until it turns cold .\nthe street grew quiet after the noisy engine left .\none cup is full and the other cup is"
     },
     {
       "file": "05_negation_corrections.txt",
-      "bytes": 49290,
-      "sha256": "e1a7d400bb4ac61c6c25252daa73c64d19e2ff161a04468e7f17efda56ffd595",
+      "bytes": 63885,
+      "sha256": "c2ed603462bead556878b223bbdf585c86539f8d55f6a1e3db82ce04b22e2c28",
       "warnings": [],
-      "characters": 49290,
-      "passages": 880,
-      "unique_passages": 851,
-      "preview": "the hatch is not open .it is closed .the hatch is closed .\nben did not choose cheese .he chose butter .ben chose butter .\nmateo did not buy salt .he bought rice .mateo bought rice .\nthe drawer is not wet .it is dry .the drawer is dry .\nthe lid is not dark .it is bright .the lid is bright .\ntomas did"
+      "characters": 63885,
+      "passages": 1152,
+      "unique_passages": 1132,
+      "preview": "the gate is not hot .it is cold .the gate is cold .\nkira did not buy salt .she bought soup .kira bought soup .\nthe chair is not yellow .it is red .the chair is red .\niris did not buy salt .she bought rice .iris bought rice .\nthe window was not loud .it was quiet .the window was quiet .\nthe flag is n"
     },
     {
       "file": "06_spatial_relations.txt",
-      "bytes": 47262,
-      "sha256": "ed267b88434d475a68ca87bce012d8548fbacb406c02a1a0708590a3f5e70367",
+      "bytes": 27918,
+      "sha256": "27e6647bdfbc9ec296fcfc6e063c0c8286c1101b1e23112647737bacb2b6215a",
       "warnings": [],
-      "characters": 47262,
-      "passages": 748,
-      "unique_passages": 748,
-      "preview": "the button is left of the basket .the basket is to the right of the button .\nthe stool is below the banner .the banner is above the stool .\nthe letter is inside the crate .the crate contains the letter .\nthe shelf is below the clock .the clock is above the shelf .\nthe envelope contains the stamp .th"
+      "characters": 27918,
+      "passages": 435,
+      "unique_passages": 435,
+      "preview": "the ring sits on the bench .the bench holds the ring .\nthe poster hangs above the mat .the mat sits below the poster .\nthe cabinet is below the poster .the poster is above the cabinet .\nthe bench is below the map .the map is above the bench .\nthe drawer contains the card .the card is inside the draw"
     },
     {
       "file": "07_plain_descriptions.md",
-      "bytes": 3028,
-      "sha256": "356f1e94eb4357ea9371796e61662714866208e3fd24b083e64b5eadc3797a0a",
+      "bytes": 11252,
+      "sha256": "c9dece971885061066b2d6adf6d99325ec60180c2fdac03fe14c2ba2870718e1",
       "warnings": [],
-      "characters": 3028,
-      "passages": 73,
-      "unique_passages": 73,
-      "preview": "the book rests on the cabinet near the window .\nthe book rests on the table near the window .\na round plate and a wide tray sat on the table .\na small box waited on the ledge .\nthe lamp stands on the shelf in the hall .\na round plate and a wide tray sat on the cabinet .\nthe book rests on the desk ne"
+      "characters": 11252,
+      "passages": 343,
+      "unique_passages": 343,
+      "preview": "the bag is wide .\na small ball sits near the counter .\nthe book is on the stool .\na small door sits near the table .\nthe bag is on the mat .\nthe book was missing from the mat .\na small door sits near the stool .\nthe box and the cabinet are clean .\nthe bag was missing from the mat .\nthe desk is on th"
     },
     {
       "file": "08_printed_notes.pdf",
-      "bytes": 3194,
-      "sha256": "ca45d8153e3ebedb53d5da3b45e182e32073b3bb3c1e6fc66b1932bf06d2de6d",
+      "bytes": 2866,
+      "sha256": "20bf792fc631fe0f4b29bebfe214fa9874b33a5a083663f513015f9a6eaae4ad",
       "warnings": [],
       "pages": 2,
-      "characters": 3504,
-      "passages": 74,
-      "unique_passages": 74,
-      "preview": "the tank stands beside the bowl on the counter .\nthe mug stands beside the bowl on the counter .\na bottle can be full or empty .\na quiet kitchen and a noisy street share one gate .\nthe garden is warm in summer and cool in winter .\na heavy path and a light path lead to the bridge .\nthe yard is warm i"
+      "characters": 2912,
+      "passages": 61,
+      "unique_passages": 61,
+      "preview": "a quiet street and a noisy street share one gate .\na wide path and a narrow path lead to the bridge .\nthe mug stands beside the bowl on the counter .\na quiet store and a noisy street share one gate .\nthe glass stands beside the bowl on the counter .\na bucket can be full or empty .\na quiet school and"
     }
   ],
   "ignored": [],
-  "external_passages": 5336,
+  "external_passages": 4787,
   "mode": "classroom",
   "base_passages": 6200,
-  "unique_passages": 9340,
-  "new_unique_passages": 4748,
-  "duplicates_removed": 2196,
+  "unique_passages": 9090,
+  "new_unique_passages": 4498,
+  "duplicates_removed": 1897,
   "max_passage_tokens": 47,
   "split_unit": "deduplicated passage, not source file"
 }
