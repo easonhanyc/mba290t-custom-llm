@@ -1,0 +1,880 @@
+the hatch is not open .it is closed .the hatch is closed .
+ben did not choose cheese .he chose butter .ben chose butter .
+mateo did not buy salt .he bought rice .mateo bought rice .
+the drawer is not wet .it is dry .the drawer is dry .
+the lid is not dark .it is bright .the lid is bright .
+tomas did not choose salt .he chose sugar .tomas chose sugar .
+the drawer is not heavy .it is light .the drawer is light .
+the fence was not wet .it was dry .the fence was dry .
+the gate was not open .it was shut .the gate was shut .
+the cupboard was not dark .it was bright .the cupboard was bright .
+diego did not buy salad .he bought water .diego bought water .
+mateo did not take butter .he took string .mateo took string .
+kira did not buy honey .she bought salt .kira bought salt .
+the fence was not heavy .it was light .the fence was light .
+the ribbon is not purple .the ribbon is red .
+the flag is not grey .the flag is purple .
+the window is not wet .it is dry .the window is dry .
+kira did not choose water .she chose paper .kira chose paper .
+rosa did not take rice .she took water .rosa took water .
+the cupboard was not loud .it was quiet .the cupboard was quiet .
+diego did not take salt .he took honey .diego took honey .
+the lid was not narrow .it was wide .the lid was wide .
+that card is not blue .it is white .
+rosa did not choose cheese .she chose string .rosa chose string .
+that scarf is not purple .it is brown .
+that ribbon is not red .it is green .
+the drawer was not open .it was shut .the drawer was shut .
+iris did not choose chalk .she chose butter .iris chose butter .
+the shirt is not grey .the shirt is black .
+the gate is not narrow .it is wide .the gate is wide .
+hana did not buy honey .she bought coffee .hana bought coffee .
+kira did not take rice .she took sugar .kira took sugar .
+the lid was not loud .it was quiet .the lid was quiet .
+the bucket was not purple .it was brown .the bucket was brown .
+the bowl is not blue .the bowl is golden .
+rosa did not choose salad .she chose paper .rosa chose paper .
+diego did not choose cheese .he chose salad .diego chose salad .
+the box was not pink .it was silver .the box was silver .
+clara did not buy sugar .she bought string .clara bought string .
+jonas did not take soup .he took water .jonas took water .
+the lid was not open .it was closed .the lid was closed .
+the window was not wet .it was dry .the window was dry .
+the ribbon was not purple .it was red .the ribbon was red .
+that mug is not yellow .it is golden .
+the window was not hot .it was cold .the window was cold .
+the glove is not red .the glove is yellow .
+the cupboard was not wet .it was dry .the cupboard was dry .
+diego did not choose honey .he chose bread .diego chose bread .
+that cup is not pink .it is yellow .
+clara did not choose honey .she chose paper .clara chose paper .
+the bucket is not purple .the bucket is brown .
+hana did not buy paper .she bought salad .hana bought salad .
+the crate is not near .it is far .the crate is far .
+that van is not red .it is pink .
+priya did not buy soup .she bought salt .priya bought salt .
+that plate is not brown .it is white .
+the box was not purple .it was yellow .the box was yellow .
+jonas did not choose water .he chose bread .jonas chose bread .
+the box is not green .the box is yellow .
+priya did not take salt .she took water .priya took water .
+ben did not choose paper .he chose bread .ben chose bread .
+the flag is not grey .it is purple .the flag is purple .
+kira did not choose rice .she chose sugar .kira chose sugar .
+that board is not black .it is purple .
+the hatch was not full .it was empty .the hatch was empty .
+the kite was not brown .it was yellow .the kite was yellow .
+jonas did not choose soup .he chose string .jonas chose string .
+the gate is not heavy .it is light .the gate is light .
+jonas did not buy chalk .he bought bread .jonas bought bread .
+the cup is not green .the cup is purple .
+that bucket is not silver .it is green .
+the glove was not red .it was yellow .the glove was yellow .
+that hat is not golden .it is purple .
+the gate is not wet .it is dry .the gate is dry .
+the ribbon was not brown .it was red .the ribbon was red .
+that glove is not grey .it is silver .
+the bowl was not white .it was grey .the bowl was grey .
+iris did not take salad .she took chalk .iris took chalk .
+the van is not black .it is golden .the van is golden .
+rosa did not take salad .she took rice .rosa took rice .
+wren did not choose rice .they chose sugar .wren chose sugar .
+jonas did not choose soup .he chose water .jonas chose water .
+the bowl is not white .it is grey .the bowl is grey .
+the bucket is not purple .it is brown .the bucket is brown .
+the lid is not open .it is closed .the lid is closed .
+the drawer was not wet .it was dry .the drawer was dry .
+the window is not new .it is old .the window is old .
+the crate is not new .it is old .the crate is old .
+the gate was not heavy .it was light .the gate was light .
+tomas did not choose string .he chose cheese .tomas chose cheese .
+ben did not choose honey .he chose string .ben chose string .
+the drawer was not hot .it was cold .the drawer was cold .
+the coat is not red .the coat is green .
+the box is not purple .the box is yellow .
+the locker was not wet .it was dry .the locker was dry .
+the glove is not grey .the glove is silver .
+tomas did not choose salt .he chose chalk .tomas chose chalk .
+the coat is not green .the coat is grey .
+ben did not choose string .he chose sugar .ben chose sugar .
+the shutter was not heavy .it was light .the shutter was light .
+the glove was not grey .it was silver .the glove was silver .
+that cup is not green .it is brown .
+the candle is not silver .it is blue .the candle is blue .
+the drawer is not open .it is closed .the drawer is closed .
+kira did not take salad .she took cheese .kira took cheese .
+clara did not buy sugar .she bought water .clara bought water .
+jonas did not buy soup .he bought water .jonas bought water .
+the shutter is not hot .it is cold .the shutter is cold .
+the drawer was not new .it was old .the drawer was old .
+the window is not near .it is far .the window is far .
+priya did not choose chalk .she chose water .priya chose water .
+the fence is not open .it is closed .the fence is closed .
+the flag is not grey .the flag is purple .
+jonas did not choose cheese .he chose salad .jonas chose salad .
+the crate is not full .it is empty .the crate is empty .
+ben did not choose salad .he chose honey .ben chose honey .
+the sign is not golden .it is grey .the sign is grey .
+kira did not take coffee .she took honey .kira took honey .
+the window was not heavy .it was light .the window was light .
+the window is not open .it is shut .the window is shut .
+the cupboard is not dark .it is bright .the cupboard is bright .
+the window was not open .it was shut .the window was shut .
+the mug is not grey .the mug is blue .
+the cupboard was not heavy .it was light .the cupboard was light .
+iris did not take water .she took honey .iris took honey .
+the crate was not wet .it was dry .the crate was dry .
+the kite is not yellow .the kite is pink .
+wren did not take chalk .they took paper .wren took paper .
+that candle is not black .it is white .
+the lid was not open .it was shut .the lid was shut .
+hana did not buy bread .she bought salad .hana bought salad .
+the hat is not golden .it is purple .the hat is purple .
+that plate is not blue .it is yellow .
+the shutter was not clean .it was dirty .the shutter was dirty .
+iris did not choose water .she chose honey .iris chose honey .
+ben did not buy salad .he bought honey .ben bought honey .
+that ribbon is not golden .it is grey .
+the cupboard was not near .it was far .the cupboard was far .
+the cupboard is not new .it is old .the cupboard is old .
+the hatch is not open .it is shut .the hatch is shut .
+the hatch was not near .it was far .the hatch was far .
+the lid is not new .it is old .the lid is old .
+the bucket was not brown .it was white .the bucket was white .
+the cupboard was not hot .it was cold .the cupboard was cold .
+the fence is not loud .it is quiet .the fence is quiet .
+the scarf was not purple .it was brown .the scarf was brown .
+that van is not brown .it is blue .
+wren did not buy chalk .they bought paper .wren bought paper .
+iris did not take soup .she took salad .iris took salad .
+the plate is not white .it is purple .the plate is purple .
+the board is not purple .it is yellow .the board is yellow .
+diego did not buy rice .he bought paper .diego bought paper .
+the van is not brown .the van is blue .
+the card is not black .the card is white .
+mateo did not choose salt .he chose rice .mateo chose rice .
+kira did not buy honey .she bought soup .kira bought soup .
+the mug was not grey .it was blue .the mug was blue .
+that sock is not green .it is white .
+that chair is not blue .it is red .
+jonas did not take soup .he took water .jonas took water .
+the crate is not heavy .it is light .the crate is light .
+that bucket is not brown .it is white .
+the bucket was not silver .it was green .the bucket was green .
+priya did not buy string .she bought water .priya bought water .
+the gate was not new .it was old .the gate was old .
+the van was not red .it was pink .the van was pink .
+the locker is not clean .it is dirty .the locker is dirty .
+the chair is not blue .it is red .the chair is red .
+the sign was not red .it was yellow .the sign was yellow .
+the box was not green .it was yellow .the box was yellow .
+the card is not blue .the card is white .
+the locker is not near .it is far .the locker is far .
+iris did not buy chalk .she bought butter .iris bought butter .
+the shirt is not grey .it is black .the shirt is black .
+the cup is not green .it is brown .the cup is brown .
+iris did not take cheese .she took coffee .iris took coffee .
+the cupboard was not full .it was empty .the cupboard was empty .
+the bench is not golden .it is pink .the bench is pink .
+the fence was not dark .it was bright .the fence was bright .
+the shirt was not silver .it was golden .the shirt was golden .
+the cupboard was not new .it was old .the cupboard was old .
+that flag is not pink .it is red .
+the lid is not clean .it is dirty .the lid is dirty .
+the scarf is not green .it is golden .the scarf is golden .
+diego did not take salad .he took bread .diego took bread .
+the locker is not wet .it is dry .the locker is dry .
+the locker was not open .it was shut .the locker was shut .
+the van was not golden .it was brown .the van was brown .
+the lid is not wet .it is dry .the lid is dry .
+the shutter is not dark .it is bright .the shutter is bright .
+iris did not buy cheese .she bought coffee .iris bought coffee .
+that sign is not golden .it is grey .
+rosa did not take soup .she took honey .rosa took honey .
+mateo did not buy salt .he bought salad .mateo bought salad .
+the window was not narrow .it was wide .the window was wide .
+that bowl is not red .it is silver .
+ben did not take string .he took sugar .ben took sugar .
+clara did not buy soup .she bought rice .clara bought rice .
+tomas did not buy soup .he bought coffee .tomas bought coffee .
+the crate is not hot .it is cold .the crate is cold .
+kira did not take water .she took paper .kira took paper .
+the coat is not brown .it is silver .the coat is silver .
+the plate is not blue .the plate is brown .
+the shirt was not grey .it was black .the shirt was black .
+the chair was not pink .it was white .the chair was white .
+the shutter is not wet .it is dry .the shutter is dry .
+tomas did not choose salad .he chose sugar .tomas chose sugar .
+the hat is not red .the hat is white .
+the locker is not open .it is shut .the locker is shut .
+kira did not take butter .she took string .kira took string .
+that coat is not green .it is grey .
+kira did not buy water .she bought bread .kira bought bread .
+hana did not buy honey .she bought paper .hana bought paper .
+the sock is not green .it is white .the sock is white .
+that bowl is not blue .it is golden .
+the locker was not open .it was closed .the locker was closed .
+the drawer was not narrow .it was wide .the drawer was wide .
+the crate is not open .it is closed .the crate is closed .
+the bowl is not black .the bowl is pink .
+the hat is not red .it is white .the hat is white .
+the sock is not blue .it is yellow .the sock is yellow .
+the shutter is not new .it is old .the shutter is old .
+the shutter was not hot .it was cold .the shutter was cold .
+priya did not choose water .she chose soup .priya chose soup .
+the bench is not red .the bench is white .
+ben did not buy paper .he bought bread .ben bought bread .
+clara did not choose sugar .she chose string .clara chose string .
+tomas did not take salad .he took sugar .tomas took sugar .
+the lid is not near .it is far .the lid is far .
+the fence was not near .it was far .the fence was far .
+the bench is not golden .the bench is pink .
+the cupboard was not clean .it was dirty .the cupboard was dirty .
+the drawer was not near .it was far .the drawer was far .
+wren did not choose salt .they chose water .wren chose water .
+priya did not buy soup .she bought salt .priya bought salt .
+the shutter was not loud .it was quiet .the shutter was quiet .
+priya did not take string .she took water .priya took water .
+diego did not choose salad .he chose bread .diego chose bread .
+the card is not blue .it is white .the card is white .
+mateo did not take salt .he took salad .mateo took salad .
+the drawer is not hot .it is cold .the drawer is cold .
+the drawer was not full .it was empty .the drawer was empty .
+clara did not take chalk .she took rice .clara took rice .
+mateo did not buy salt .he bought salad .mateo bought salad .
+the ribbon was not golden .it was grey .the ribbon was grey .
+the fence is not wet .it is dry .the fence is dry .
+jonas did not take soup .he took string .jonas took string .
+ben did not take coffee .he took string .ben took string .
+wren did not choose chalk .they chose water .wren chose water .
+the board was not black .it was blue .the board was blue .
+iris did not buy bread .she bought butter .iris bought butter .
+that board is not black .it is blue .
+the locker is not narrow .it is wide .the locker is wide .
+the kite is not brown .the kite is yellow .
+clara did not choose soup .she chose rice .clara chose rice .
+the drawer was not open .it was closed .the drawer was closed .
+the mug is not yellow .it is golden .the mug is golden .
+hana did not choose honey .she chose coffee .hana chose coffee .
+mateo did not buy bread .he bought honey .mateo bought honey .
+the bowl was not black .it was pink .the bowl was pink .
+the van is not golden .the van is brown .
+the coat is not brown .the coat is silver .
+mateo did not choose salt .he chose salad .mateo chose salad .
+rosa did not buy cheese .she bought string .rosa bought string .
+the cupboard was not narrow .it was wide .the cupboard was wide .
+priya did not take soup .she took salt .priya took salt .
+ben did not take honey .he took salt .ben took salt .
+mateo did not take string .he took water .mateo took water .
+the bowl is not red .the bowl is silver .
+the hatch is not near .it is far .the hatch is far .
+ben did not take salad .he took honey .ben took honey .
+the coat was not red .it was green .the coat was green .
+hana did not take paper .she took salad .hana took salad .
+the fence was not hot .it was cold .the fence was cold .
+that card is not white .it is brown .
+the cupboard is not narrow .it is wide .the cupboard is wide .
+kira did not buy rice .she bought sugar .kira bought sugar .
+the sign is not red .the sign is yellow .
+the window was not clean .it was dirty .the window was dirty .
+priya did not buy string .she bought soup .priya bought soup .
+the lid is not loud .it is quiet .the lid is quiet .
+the candle is not silver .the candle is blue .
+that plate is not blue .it is brown .
+clara did not buy rice .she bought cheese .clara bought cheese .
+the fence is not open .it is shut .the fence is shut .
+that cup is not silver .it is black .
+the hatch is not clean .it is dirty .the hatch is dirty .
+tomas did not buy salt .he bought honey .tomas bought honey .
+ben did not take cheese .he took butter .ben took butter .
+the candle is not black .it is white .the candle is white .
+the locker was not clean .it was dirty .the locker was dirty .
+priya did not take string .she took soup .priya took soup .
+ben did not take salad .he took honey .ben took honey .
+the lid is not hot .it is cold .the lid is cold .
+wren did not choose bread .they chose salad .wren chose salad .
+the gate is not hot .it is cold .the gate is cold .
+wren did not take butter .they took salad .wren took salad .
+the hatch is not full .it is empty .the hatch is empty .
+the fence was not narrow .it was wide .the fence was wide .
+that candle is not silver .it is blue .
+the van was not brown .it was blue .the van was blue .
+the hat is not blue .it is purple .the hat is purple .
+the board is not black .the board is blue .
+that board is not purple .it is yellow .
+the shirt is not silver .the shirt is golden .
+that card is not black .it is white .
+wren did not buy salt .they bought coffee .wren bought coffee .
+jonas did not choose soup .he chose water .jonas chose water .
+the scarf was not yellow .it was brown .the scarf was brown .
+that kite is not silver .it is white .
+iris did not buy salad .she bought chalk .iris bought chalk .
+the fence was not open .it was shut .the fence was shut .
+the fence is not heavy .it is light .the fence is light .
+the gate is not open .it is closed .the gate is closed .
+wren did not buy rice .they bought sugar .wren bought sugar .
+the shutter is not open .it is closed .the shutter is closed .
+the candle was not grey .it was silver .the candle was silver .
+the bucket is not brown .the bucket is white .
+the fence is not full .it is empty .the fence is empty .
+the hat was not red .it was white .the hat was white .
+mateo did not choose bread .he chose honey .mateo chose honey .
+the candle is not pink .it is green .the candle is green .
+rosa did not buy soup .she bought honey .rosa bought honey .
+the board is not black .the board is purple .
+the lid was not new .it was old .the lid was old .
+the fence is not dark .it is bright .the fence is bright .
+diego did not buy salt .he bought honey .diego bought honey .
+the hatch is not loud .it is quiet .the hatch is quiet .
+kira did not take honey .she took salt .kira took salt .
+the fence is not new .it is old .the fence is old .
+the bench is not red .it is white .the bench is white .
+the hatch was not new .it was old .the hatch was old .
+the board is not white .the board is brown .
+the cup was not silver .it was black .the cup was black .
+the candle is not grey .it is silver .the candle is silver .
+the locker is not loud .it is quiet .the locker is quiet .
+the window was not near .it was far .the window was far .
+the sock is not blue .it is red .the sock is red .
+jonas did not buy soup .he bought string .jonas bought string .
+clara did not buy paper .she bought honey .clara bought honey .
+that box is not pink .it is silver .
+kira did not take water .she took bread .kira took bread .
+the cupboard was not open .it was closed .the cupboard was closed .
+the flag is not black .it is yellow .the flag is yellow .
+jonas did not take chalk .he took bread .jonas took bread .
+the locker was not loud .it was quiet .the locker was quiet .
+hana did not buy salad .she bought honey .hana bought honey .
+the van is not red .it is pink .the van is pink .
+jonas did not choose chalk .he chose bread .jonas chose bread .
+the crate was not full .it was empty .the crate was empty .
+the crate is not clean .it is dirty .the crate is dirty .
+the drawer is not narrow .it is wide .the drawer is wide .
+jonas did not take salt .he took soup .jonas took soup .
+the gate is not near .it is far .the gate is far .
+the window is not narrow .it is wide .the window is wide .
+the window is not open .it is closed .the window is closed .
+the bowl is not blue .it is golden .the bowl is golden .
+the gate was not dark .it was bright .the gate was bright .
+the glove is not green .the glove is red .
+the mug was not yellow .it was golden .the mug was golden .
+kira did not choose honey .she chose soup .kira chose soup .
+mateo did not choose salt .he chose salad .mateo chose salad .
+the glove is not grey .it is silver .the glove is silver .
+priya did not buy water .she bought soup .priya bought soup .
+the window is not full .it is empty .the window is empty .
+the bucket is not yellow .the bucket is silver .
+the hat is not yellow .it is brown .the hat is brown .
+the hatch was not loud .it was quiet .the hatch was quiet .
+clara did not choose chalk .she chose rice .clara chose rice .
+the bench was not golden .it was pink .the bench was pink .
+that sock is not blue .it is red .
+the scarf is not purple .it is brown .the scarf is brown .
+the board is not black .it is purple .the board is purple .
+that hat is not red .it is white .
+iris did not take bread .she took butter .iris took butter .
+the box was not red .it was purple .the box was purple .
+the van is not golden .it is brown .the van is brown .
+the hat is not golden .the hat is purple .
+that glove is not red .it is yellow .
+diego did not choose rice .he chose paper .diego chose paper .
+wren did not take salt .they took water .wren took water .
+jonas did not take cheese .he took salad .jonas took salad .
+iris did not choose soup .she chose salad .iris chose salad .
+the hatch was not narrow .it was wide .the hatch was wide .
+the shirt was not brown .it was white .the shirt was white .
+the ribbon is not red .the ribbon is green .
+that glove is not brown .it is white .
+the hatch was not clean .it was dirty .the hatch was dirty .
+the crate is not loud .it is quiet .the crate is quiet .
+hana did not take salad .she took honey .hana took honey .
+ben did not take paper .he took bread .ben took bread .
+the gate was not open .it was closed .the gate was closed .
+the gate was not near .it was far .the gate was far .
+the kite is not yellow .it is pink .the kite is pink .
+priya did not buy water .she bought soup .priya bought soup .
+diego did not choose salad .he chose water .diego chose water .
+tomas did not buy coffee .he bought salad .tomas bought salad .
+the sock was not blue .it was yellow .the sock was yellow .
+the box is not red .the box is purple .
+the sock was not blue .it was red .the sock was red .
+that shirt is not grey .it is black .
+rosa did not choose rice .she chose water .rosa chose water .
+the box is not red .it is purple .the box is purple .
+the plate is not blue .it is brown .the plate is brown .
+jonas did not buy soup .he bought water .jonas bought water .
+that flag is not grey .it is purple .
+the shutter is not open .it is shut .the shutter is shut .
+the scarf is not yellow .it is brown .the scarf is brown .
+the fence is not clean .it is dirty .the fence is dirty .
+wren did not choose cheese .they chose salad .wren chose salad .
+the drawer is not open .it is shut .the drawer is shut .
+the locker was not dark .it was bright .the locker was bright .
+the kite is not yellow .it is silver .the kite is silver .
+the crate is not narrow .it is wide .the crate is wide .
+diego did not choose sugar .he chose cheese .diego chose cheese .
+the sign is not yellow .the sign is grey .
+the cupboard is not full .it is empty .the cupboard is empty .
+tomas did not buy salt .he bought sugar .tomas bought sugar .
+jonas did not choose salt .he chose soup .jonas chose soup .
+that bench is not golden .it is pink .
+the kite was not yellow .it was pink .the kite was pink .
+the hatch is not narrow .it is wide .the hatch is wide .
+the glove is not red .it is yellow .the glove is yellow .
+the window is not dark .it is bright .the window is bright .
+the board is not purple .the board is yellow .
+the candle was not black .it was white .the candle was white .
+the cup is not pink .the cup is yellow .
+the van is not black .the van is golden .
+rosa did not choose honey .she chose salt .rosa chose salt .
+the shutter was not narrow .it was wide .the shutter was wide .
+rosa did not buy salad .she bought rice .rosa bought rice .
+that mug is not grey .it is blue .
+priya did not take soup .she took salt .priya took salt .
+kira did not choose salad .she chose cheese .kira chose cheese .
+clara did not choose sugar .she chose water .clara chose water .
+the cup is not pink .it is yellow .the cup is yellow .
+priya did not choose soup .she chose salt .priya chose salt .
+jonas did not take water .he took bread .jonas took bread .
+that hat is not blue .it is purple .
+the locker was not hot .it was cold .the locker was cold .
+that coat is not red .it is green .
+the lid is not full .it is empty .the lid is empty .
+rosa did not choose soup .she chose honey .rosa chose honey .
+the shutter was not new .it was old .the shutter was old .
+the window is not clean .it is dirty .the window is dirty .
+the locker is not full .it is empty .the locker is empty .
+that sign is not pink .it is blue .
+that box is not red .it is purple .
+the coat is not golden .it is red .the coat is red .
+the bench was not red .it was white .the bench was white .
+the crate was not near .it was far .the crate was far .
+the hatch is not dark .it is bright .the hatch is bright .
+jonas did not buy bread .he bought water .jonas bought water .
+that coat is not brown .it is silver .
+the bowl was not blue .it was golden .the bowl was golden .
+mateo did not buy water .he bought honey .mateo bought honey .
+rosa did not take salt .she took string .rosa took string .
+the card is not white .it is brown .the card is brown .
+iris did not buy water .she bought honey .iris bought honey .
+ben did not buy honey .he bought string .ben bought string .
+iris did not take water .she took honey .iris took honey .
+the bucket was not yellow .it was silver .the bucket was silver .
+that van is not black .it is golden .
+diego did not buy butter .he bought string .diego bought string .
+the plate was not blue .it was brown .the plate was brown .
+kira did not buy butter .she bought string .kira bought string .
+mateo did not buy bread .he bought honey .mateo bought honey .
+the board was not purple .it was yellow .the board was yellow .
+the ribbon is not brown .it is red .the ribbon is red .
+the locker was not heavy .it was light .the locker was light .
+hana did not choose honey .she chose paper .hana chose paper .
+iris did not choose bread .she chose butter .iris chose butter .
+the lid was not hot .it was cold .the lid was cold .
+the drawer was not loud .it was quiet .the drawer was quiet .
+mateo did not take salt .he took salad .mateo took salad .
+tomas did not take rice .he took butter .tomas took butter .
+wren did not choose salt .they chose coffee .wren chose coffee .
+the scarf was not green .it was golden .the scarf was golden .
+clara did not take honey .she took paper .clara took paper .
+the glove was not green .it was red .the glove was red .
+the drawer is not new .it is old .the drawer is old .
+that candle is not grey .it is silver .
+the sock is not blue .the sock is yellow .
+rosa did not choose salt .she chose string .rosa chose string .
+the bowl is not black .it is pink .the bowl is pink .
+that flag is not grey .it is purple .
+the bench is not golden .it is brown .the bench is brown .
+the plate is not blue .the plate is yellow .
+mateo did not take salt .he took rice .mateo took rice .
+the gate is not clean .it is dirty .the gate is dirty .
+the shirt is not silver .it is golden .the shirt is golden .
+kira did not buy salad .she bought cheese .kira bought cheese .
+tomas did not buy salt .he bought chalk .tomas bought chalk .
+priya did not take water .she took soup .priya took soup .
+the scarf was not pink .it was golden .the scarf was golden .
+the flag is not pink .it is red .the flag is red .
+the card is not yellow .the card is grey .
+the kite is not silver .the kite is white .
+that box is not purple .it is yellow .
+the bucket is not brown .it is white .the bucket is white .
+the gate is not open .it is shut .the gate is shut .
+the cup was not green .it was brown .the cup was brown .
+that sign is not red .it is yellow .
+the van is not brown .it is blue .the van is blue .
+the card is not black .it is white .the card is white .
+iris did not choose cheese .she chose coffee .iris chose coffee .
+the window was not full .it was empty .the window was empty .
+the locker was not narrow .it was wide .the locker was wide .
+the coat was not green .it was grey .the coat was grey .
+kira did not choose honey .she chose salt .kira chose salt .
+that chair is not pink .it is white .
+the flag is not black .the flag is yellow .
+diego did not take rice .he took paper .diego took paper .
+the cup was not green .it was purple .the cup was purple .
+that scarf is not green .it is golden .
+the flag is not grey .it is purple .the flag is purple .
+hana did not take honey .she took coffee .hana took coffee .
+the van is not red .the van is pink .
+mateo did not choose butter .he chose string .mateo chose string .
+the lid is not narrow .it is wide .the lid is wide .
+the hat was not golden .it was purple .the hat was purple .
+the mug is not grey .it is blue .the mug is blue .
+the box is not green .it is yellow .the box is yellow .
+the crate was not open .it was closed .the crate was closed .
+the hatch was not open .it was shut .the hatch was shut .
+the coat is not green .it is grey .the coat is grey .
+the sign is not pink .it is blue .the sign is blue .
+that box is not green .it is yellow .
+the hatch is not wet .it is dry .the hatch is dry .
+the ribbon is not purple .it is red .the ribbon is red .
+rosa did not buy honey .she bought salt .rosa bought salt .
+the card was not blue .it was white .the card was white .
+the cupboard is not wet .it is dry .the cupboard is dry .
+that bench is not red .it is white .
+the board was not black .it was purple .the board was purple .
+the shirt was not silver .it was golden .the shirt was golden .
+the kite is not yellow .the kite is silver .
+iris did not buy water .she bought honey .iris bought honey .
+the locker is not open .it is closed .the locker is closed .
+that van is not golden .it is brown .
+the shutter is not heavy .it is light .the shutter is light .
+priya did not choose water .she chose soup .priya chose soup .
+the cupboard is not open .it is closed .the cupboard is closed .
+hana did not buy salad .she bought butter .hana bought butter .
+the hat is not blue .the hat is purple .
+the glove is not green .it is red .the glove is red .
+the mug is not purple .it is red .the mug is red .
+tomas did not take soup .he took coffee .tomas took coffee .
+the bench is not green .it is purple .the bench is purple .
+the bench was not golden .it was brown .the bench was brown .
+clara did not take paper .she took honey .clara took honey .
+rosa did not buy salt .she bought string .rosa bought string .
+the locker is not hot .it is cold .the locker is cold .
+the sign was not golden .it was grey .the sign was grey .
+the drawer is not clean .it is dirty .the drawer is dirty .
+the shirt is not silver .it is golden .the shirt is golden .
+the crate was not dark .it was bright .the crate was bright .
+kira did not take honey .she took soup .kira took soup .
+the crate is not dark .it is bright .the crate is bright .
+that cup is not green .it is purple .
+that scarf is not pink .it is golden .
+the coat was not golden .it was red .the coat was red .
+the kite was not silver .it was white .the kite was white .
+iris did not buy butter .she bought honey .iris bought honey .
+the bench was not green .it was purple .the bench was purple .
+the cup is not silver .the cup is black .
+clara did not choose rice .she chose cheese .clara chose cheese .
+the drawer was not clean .it was dirty .the drawer was dirty .
+wren did not take salt .they took coffee .wren took coffee .
+the kite was not yellow .it was silver .the kite was silver .
+the hatch is not hot .it is cold .the hatch is cold .
+rosa did not take coffee .she took honey .rosa took honey .
+that plate is not white .it is purple .
+the gate was not loud .it was quiet .the gate was quiet .
+the chair is not yellow .it is green .the chair is green .
+that scarf is not yellow .it is brown .
+the sign was not yellow .it was grey .the sign was grey .
+diego did not choose salt .he chose honey .diego chose honey .
+that kite is not yellow .it is pink .
+wren did not buy salt .they bought water .wren bought water .
+the window is not loud .it is quiet .the window is quiet .
+iris did not choose water .she chose honey .iris chose honey .
+priya did not take water .she took soup .priya took soup .
+kira did not choose butter .she chose string .kira chose string .
+diego did not take sugar .he took cheese .diego took cheese .
+hana did not take paper .she took soup .hana took soup .
+the ribbon is not golden .the ribbon is grey .
+the hat was not blue .it was purple .the hat was purple .
+rosa did not take salad .she took paper .rosa took paper .
+iris did not take butter .she took honey .iris took honey .
+the fence was not new .it was old .the fence was old .
+the hat was not yellow .it was brown .the hat was brown .
+the shutter is not full .it is empty .the shutter is empty .
+the shutter is not clean .it is dirty .the shutter is dirty .
+the cup is not green .the cup is brown .
+the sock was not brown .it was golden .the sock was golden .
+the bucket is not silver .it is green .the bucket is green .
+the gate is not dark .it is bright .the gate is bright .
+the window was not new .it was old .the window was old .
+tomas did not take salt .he took chalk .tomas took chalk .
+the plate is not brown .it is white .the plate is white .
+the drawer was not heavy .it was light .the drawer was light .
+tomas did not buy string .he bought cheese .tomas bought cheese .
+the scarf is not pink .the scarf is golden .
+the shirt is not brown .the shirt is white .
+the crate was not hot .it was cold .the crate was cold .
+wren did not buy butter .they bought salad .wren bought salad .
+the lid was not near .it was far .the lid was far .
+hana did not choose salad .she chose butter .hana chose butter .
+that hat is not yellow .it is brown .
+the fence is not near .it is far .the fence is far .
+the glove was not brown .it was white .the glove was white .
+ben did not choose coffee .he chose string .ben chose string .
+that bowl is not black .it is pink .
+the lid is not open .it is shut .the lid is shut .
+the cup was not pink .it was yellow .the cup was yellow .
+the card was not yellow .it was grey .the card was grey .
+hana did not take salad .she took butter .hana took butter .
+hana did not choose salad .she chose honey .hana chose honey .
+the ribbon was not red .it was green .the ribbon was green .
+the cupboard was not open .it was shut .the cupboard was shut .
+the ribbon is not golden .it is grey .the ribbon is grey .
+the crate was not narrow .it was wide .the crate was wide .
+tomas did not choose salt .he chose honey .tomas chose honey .
+hana did not choose paper .she chose salad .hana chose salad .
+diego did not choose butter .he chose string .diego chose string .
+jonas did not take bread .he took water .jonas took water .
+the plate is not brown .the plate is white .
+the glove is not brown .it is white .the glove is white .
+the hatch was not wet .it was dry .the hatch was dry .
+the crate is not wet .it is dry .the crate is dry .
+that candle is not pink .it is green .
+the bowl was not red .it was silver .the bowl was silver .
+the flag was not grey .it was purple .the flag was purple .
+the fence was not full .it was empty .the fence was empty .
+the mug was not white .it was black .the mug was black .
+the plate was not blue .it was yellow .the plate was yellow .
+the card is not white .the card is brown .
+that sock is not blue .it is yellow .
+rosa did not buy rice .she bought water .rosa bought water .
+the fence was not clean .it was dirty .the fence was dirty .
+the locker was not new .it was old .the locker was old .
+hana did not choose bread .she chose salad .hana chose salad .
+the hatch was not hot .it was cold .the hatch was cold .
+the fence is not narrow .it is wide .the fence is wide .
+diego did not buy cheese .he bought salad .diego bought salad .
+the fence was not loud .it was quiet .the fence was quiet .
+the cup is not silver .it is black .the cup is black .
+rosa did not choose salad .she chose rice .rosa chose rice .
+the window is not hot .it is cold .the window is cold .
+the box is not purple .it is yellow .the box is yellow .
+jonas did not buy salt .he bought soup .jonas bought soup .
+the cupboard is not clean .it is dirty .the cupboard is dirty .
+clara did not buy honey .she bought paper .clara bought paper .
+the candle is not pink .the candle is green .
+the chair is not purple .the chair is pink .
+rosa did not buy salad .she bought paper .rosa bought paper .
+diego did not take butter .he took string .diego took string .
+that shirt is not silver .it is golden .
+that chair is not yellow .it is green .
+the window was not open .it was closed .the window was closed .
+that bench is not green .it is purple .
+the cupboard is not hot .it is cold .the cupboard is cold .
+mateo did not choose water .he chose honey .mateo chose honey .
+ben did not choose salad .he chose honey .ben chose honey .
+the bowl is not white .the bowl is grey .
+the card was not white .it was brown .the card was brown .
+the gate was not narrow .it was wide .the gate was wide .
+the candle was not pink .it was green .the candle was green .
+the lid was not wet .it was dry .the lid was dry .
+that sign is not yellow .it is grey .
+the sock is not blue .the sock is red .
+the locker is not new .it is old .the locker is old .
+that flag is not black .it is yellow .
+the crate was not loud .it was quiet .the crate was quiet .
+the kite is not silver .it is white .the kite is white .
+wren did not choose chalk .they chose paper .wren chose paper .
+the box is not pink .the box is silver .
+the mug is not white .the mug is black .
+clara did not take soup .she took rice .clara took rice .
+hana did not choose cheese .she chose chalk .hana chose chalk .
+diego did not take honey .he took bread .diego took bread .
+the ribbon is not red .it is green .the ribbon is green .
+mateo did not buy butter .he bought string .mateo bought string .
+the cupboard is not heavy .it is light .the cupboard is light .
+the bowl is not red .it is silver .the bowl is silver .
+the card was not black .it was white .the card was white .
+hana did not take honey .she took paper .hana took paper .
+the hat is not yellow .the hat is brown .
+tomas did not take coffee .he took salad .tomas took salad .
+the shutter is not near .it is far .the shutter is far .
+the lid was not dark .it was bright .the lid was bright .
+wren did not take chalk .they took water .wren took water .
+tomas did not take string .he took cheese .tomas took cheese .
+clara did not buy chalk .she bought rice .clara bought rice .
+the shutter was not dark .it was bright .the shutter was bright .
+the gate was not hot .it was cold .the gate was cold .
+iris did not buy soup .she bought salad .iris bought salad .
+the scarf is not yellow .the scarf is brown .
+the gate was not full .it was empty .the gate was empty .
+the chair was not blue .it was red .the chair was red .
+hana did not choose paper .she chose soup .hana chose soup .
+diego did not buy honey .he bought bread .diego bought bread .
+the lid was not full .it was empty .the lid was empty .
+that bowl is not white .it is grey .
+the flag was not black .it was yellow .the flag was yellow .
+the locker was not near .it was far .the locker was far .
+the shutter was not open .it was shut .the shutter was shut .
+the cupboard is not loud .it is quiet .the cupboard is quiet .
+ben did not buy coffee .he bought string .ben bought string .
+the sock was not green .it was white .the sock was white .
+the kite is not brown .it is yellow .the kite is yellow .
+the gate is not new .it is old .the gate is old .
+mateo did not take water .he took honey .mateo took honey .
+priya did not choose string .she chose water .priya chose water .
+the shutter is not loud .it is quiet .the shutter is quiet .
+iris did not choose salad .she chose chalk .iris chose chalk .
+that coat is not golden .it is red .
+wren did not buy cheese .they bought salad .wren bought salad .
+the chair is not purple .it is pink .the chair is pink .
+the scarf is not purple .the scarf is brown .
+tomas did not take salt .he took sugar .tomas took sugar .
+mateo did not take bread .he took honey .mateo took honey .
+the mug was not purple .it was red .the mug was red .
+the scarf is not pink .it is golden .the scarf is golden .
+mateo did not take bread .he took honey .mateo took honey .
+that sock is not brown .it is golden .
+that kite is not yellow .it is silver .
+the card is not yellow .it is grey .the card is grey .
+the hatch was not dark .it was bright .the hatch was bright .
+the coat is not golden .the coat is red .
+rosa did not choose coffee .she chose honey .rosa chose honey .
+that mug is not white .it is black .
+that kite is not brown .it is yellow .
+the drawer is not near .it is far .the drawer is far .
+the sign is not yellow .it is grey .the sign is grey .
+priya did not choose salt .she chose water .priya chose water .
+the crate was not new .it was old .the crate was old .
+the sign is not red .it is yellow .the sign is yellow .
+the chair is not pink .the chair is white .
+that ribbon is not purple .it is red .
+that card is not yellow .it is grey .
+the drawer is not dark .it is bright .the drawer is bright .
+kira did not choose water .she chose bread .kira chose bread .
+clara did not take sugar .she took soup .clara took soup .
+jonas did not buy cheese .he bought salad .jonas bought salad .
+ben did not buy salad .he bought honey .ben bought honey .
+the cup is not green .it is purple .the cup is purple .
+the sign is not golden .the sign is grey .
+hana did not take cheese .she took chalk .hana took chalk .
+the van was not black .it was golden .the van was golden .
+the locker was not full .it was empty .the locker was empty .
+hana did not buy cheese .she bought chalk .hana bought chalk .
+the scarf is not green .the scarf is golden .
+the drawer is not full .it is empty .the drawer is empty .
+the sock is not brown .it is golden .the sock is golden .
+clara did not take sugar .she took string .clara took string .
+rosa did not buy coffee .she bought honey .rosa bought honey .
+ben did not choose honey .he chose salt .ben chose salt .
+the bucket is not yellow .it is silver .the bucket is silver .
+tomas did not choose coffee .he chose salad .tomas chose salad .
+the glove is not brown .the glove is white .
+the mug is not white .it is black .the mug is black .
+wren did not take rice .they took sugar .wren took sugar .
+diego did not buy sugar .he bought cheese .diego bought cheese .
+the sock is not brown .the sock is golden .
+clara did not take sugar .she took water .clara took water .
+the shutter was not open .it was closed .the shutter was closed .
+the hatch is not heavy .it is light .the hatch is light .
+priya did not choose string .she chose soup .priya chose soup .
+the crate was not heavy .it was light .the crate was light .
+the ribbon is not brown .the ribbon is red .
+the hatch was not open .it was closed .the hatch was closed .
+the candle is not grey .the candle is silver .
+the locker is not heavy .it is light .the locker is light .
+diego did not take salad .he took water .diego took water .
+the board is not white .it is brown .the board is brown .
+that ribbon is not brown .it is red .
+mateo did not buy string .he bought water .mateo bought water .
+kira did not buy water .she bought paper .kira bought paper .
+wren did not take cheese .they took salad .wren took salad .
+the crate was not open .it was shut .the crate was shut .
+diego did not buy salad .he bought bread .diego bought bread .
+rosa did not take cheese .she took string .rosa took string .
+wren did not take bread .they took salad .wren took salad .
+kira did not buy coffee .she bought honey .kira bought honey .
+that chair is not purple .it is pink .
+the chair is not yellow .the chair is green .
+kira did not choose coffee .she chose honey .kira chose honey .
+the shutter was not wet .it was dry .the shutter was dry .
+the gate is not full .it is empty .the gate is empty .
+priya did not buy chalk .she bought water .priya bought water .
+the locker is not dark .it is bright .the locker is bright .
+the cupboard is not open .it is shut .the cupboard is shut .
+the chair is not pink .it is white .the chair is white .
+ben did not buy cheese .he bought butter .ben bought butter .
+the crate is not open .it is shut .the crate is shut .
+the lid was not heavy .it was light .the lid was light .
+the gate is not loud .it is quiet .the gate is quiet .
+the shutter is not narrow .it is wide .the shutter is wide .
+priya did not take chalk .she took water .priya took water .
+the lid is not heavy .it is light .the lid is light .
+tomas did not buy salad .he bought sugar .tomas bought sugar .
+the lid was not clean .it was dirty .the lid was dirty .
+the mug is not yellow .the mug is golden .
+hana did not buy paper .she bought soup .hana bought soup .
+the plate was not brown .it was white .the plate was white .
+ben did not take honey .he took string .ben took string .
+the sign was not pink .it was blue .the sign was blue .
+that glove is not green .it is red .
+the hatch is not new .it is old .the hatch is old .
+that board is not white .it is brown .
+the fence is not hot .it is cold .the fence is cold .
+that bench is not golden .it is brown .
+the hatch was not heavy .it was light .the hatch was light .
+diego did not take cheese .he took salad .diego took salad .
+wren did not choose butter .they chose salad .wren chose salad .
+iris did not choose butter .she chose honey .iris chose honey .
+hana did not take bread .she took salad .hana took salad .
+clara did not buy sugar .she bought soup .clara bought soup .
+that shirt is not brown .it is white .
+jonas did not choose bread .he chose water .jonas chose water .
+the chair was not purple .it was pink .the chair was pink .
+the sock is not green .the sock is white .
+the flag is not pink .the flag is red .
+the board was not white .it was brown .the board was brown .
+the gate was not clean .it was dirty .the gate was dirty .
+the coat was not brown .it was silver .the coat was silver .
+wren did not buy bread .they bought salad .wren bought salad .
+jonas did not buy water .he bought bread .jonas bought bread .
+the gate was not wet .it was dry .the gate was dry .
+the shirt is not silver .the shirt is golden .
+the cupboard is not near .it is far .the cupboard is far .
+the shutter was not near .it was far .the shutter was far .
+clara did not take rice .she took cheese .clara took cheese .
+the bench is not green .the bench is purple .
+the mug is not purple .the mug is red .
+the window was not dark .it was bright .the window was bright .
+the bench is not golden .the bench is brown .
+mateo did not choose bread .he chose honey .mateo chose honey .
+the candle is not black .the candle is white .
+the bucket is not silver .the bucket is green .
+ben did not buy honey .he bought salt .ben bought salt .
+the sign is not pink .the sign is blue .
+the plate is not white .the plate is purple .
+wren did not buy chalk .they bought water .wren bought water .
+that mug is not purple .it is red .
+that bucket is not purple .it is brown .
+the fence was not open .it was closed .the fence was closed .
+clara did not choose sugar .she chose soup .clara chose soup .
+the drawer was not dark .it was bright .the drawer was bright .
+iris did not take chalk .she took butter .iris took butter .
+priya did not choose soup .she chose salt .priya chose salt .
+the coat is not red .it is green .the coat is green .
+the window is not heavy .it is light .the window is light .
+tomas did not take salt .he took honey .tomas took honey .
+priya did not buy salt .she bought water .priya bought water .
+the box is not pink .it is silver .the box is silver .
+clara did not choose paper .she chose honey .clara chose honey .
+the crate was not clean .it was dirty .the crate was dirty .
+that shirt is not silver .it is golden .
+the chair is not blue .the chair is red .
+the chair was not yellow .it was green .the chair was green .
+the plate was not white .it was purple .the plate was purple .
+mateo did not choose string .he chose water .mateo chose water .
+the flag was not grey .it was purple .the flag was purple .
+that bucket is not yellow .it is silver .
+the flag was not pink .it was red .the flag was red .
+the board is not black .it is blue .the board is blue .
+tomas did not choose soup .he chose coffee .tomas chose coffee .
+rosa did not take honey .she took salt .rosa took salt .
+the shirt is not brown .it is white .the shirt is white .
+the candle was not silver .it was blue .the candle was blue .
+ben did not buy string .he bought sugar .ben bought sugar .
+the drawer is not loud .it is quiet .the drawer is quiet .
+the window was not loud .it was quiet .the window was quiet .
+tomas did not choose rice .he chose butter .tomas chose butter .
+the shutter was not full .it was empty .the shutter was empty .
+tomas did not buy rice .he bought butter .tomas bought butter .
+the plate is not blue .it is yellow .the plate is yellow .

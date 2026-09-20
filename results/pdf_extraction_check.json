@@ -1,0 +1,19 @@
+[
+  {
+    "file": "08_printed_notes.pdf",
+    "bytes": 3194,
+    "encrypted": false,
+    "pages": 2,
+    "pages_with_no_text": [],
+    "characters_extracted": 3504,
+    "tokens_extracted": 787,
+    "distinct_tokens": 127,
+    "eval_prompts_found": [],
+    "compared_with": "docs/pdf_source_printed_notes.txt",
+    "source_tokens": 787,
+    "token_multisets_identical": true,
+    "token_sequence_identical": true,
+    "types_only_in_pdf": [],
+    "types_only_in_source": []
+  }
+]

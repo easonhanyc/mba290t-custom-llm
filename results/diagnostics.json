@@ -1,0 +1,277 @@
+{
+  "model": "experiments/expanded/llm_run/model.pt",
+  "note": "These probes are inference only. None of them appears in corpus/; they exist to explain measured eval failures, not to change any model or score.",
+  "negation_copy_probe": {
+    "question": "lang_31 asks the model to copy the corrected colour back. It failed on 'box'. Does the copy work for other objects taught the same way?",
+    "prompt_template": "the {object} is not red . it is blue . the {object} is",
+    "objects_where_the_copy_works": 3,
+    "objects_tested": 16,
+    "results": [
+      {
+        "object": "box",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.15777,
+          "green": 0.0077,
+          "yellow": 0.35284,
+          "red": 0.00995
+        }
+      },
+      {
+        "object": "cup",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.29958,
+          "green": 0.01076,
+          "yellow": 0.31861,
+          "red": 0.01731
+        }
+      },
+      {
+        "object": "mug",
+        "argmax_among_colours": "blue",
+        "copies_the_correction": true,
+        "probabilities": {
+          "blue": 0.3204,
+          "green": 0.0063,
+          "yellow": 0.25181,
+          "red": 0.02361
+        }
+      },
+      {
+        "object": "chair",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.2869,
+          "green": 0.01148,
+          "yellow": 0.31215,
+          "red": 0.02208
+        }
+      },
+      {
+        "object": "hat",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.17473,
+          "green": 0.00409,
+          "yellow": 0.35599,
+          "red": 0.0217
+        }
+      },
+      {
+        "object": "coat",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.1443,
+          "green": 0.08135,
+          "yellow": 0.15501,
+          "red": 0.10313
+        }
+      },
+      {
+        "object": "flag",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.12216,
+          "green": 0.00629,
+          "yellow": 0.45884,
+          "red": 0.07758
+        }
+      },
+      {
+        "object": "kite",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.17654,
+          "green": 0.00401,
+          "yellow": 0.47089,
+          "red": 0.00943
+        }
+      },
+      {
+        "object": "scarf",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.19534,
+          "green": 0.01092,
+          "yellow": 0.30101,
+          "red": 0.01539
+        }
+      },
+      {
+        "object": "van",
+        "argmax_among_colours": "blue",
+        "copies_the_correction": true,
+        "probabilities": {
+          "blue": 0.29006,
+          "green": 0.01897,
+          "yellow": 0.24318,
+          "red": 0.04722
+        }
+      },
+      {
+        "object": "bench",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.23836,
+          "green": 0.00927,
+          "yellow": 0.26243,
+          "red": 0.01222
+        }
+      },
+      {
+        "object": "bowl",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.25064,
+          "green": 0.01511,
+          "yellow": 0.25895,
+          "red": 0.0217
+        }
+      },
+      {
+        "object": "plate",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.24436,
+          "green": 0.00352,
+          "yellow": 0.32681,
+          "red": 0.01346
+        }
+      },
+      {
+        "object": "card",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.12223,
+          "green": 0.0033,
+          "yellow": 0.27006,
+          "red": 0.00674
+        }
+      },
+      {
+        "object": "board",
+        "argmax_among_colours": "blue",
+        "copies_the_correction": true,
+        "probabilities": {
+          "blue": 0.27315,
+          "green": 0.0072,
+          "yellow": 0.27165,
+          "red": 0.02729
+        }
+      },
+      {
+        "object": "sign",
+        "argmax_among_colours": "yellow",
+        "copies_the_correction": false,
+        "probabilities": {
+          "blue": 0.12874,
+          "green": 0.00441,
+          "yellow": 0.47278,
+          "red": 0.01353
+        }
+      }
+    ]
+  },
+  "opposites_margin_probe": {
+    "question": "lang_30 ('the opposite of noisy is') chose 'loud' over 'quiet'. How close was it, and does the frame work for pairs taught inside it?",
+    "results": [
+      {
+        "word": "noisy",
+        "expected": "quiet",
+        "argmax": "loud",
+        "correct": false,
+        "margin_over_runner_up": 0.0006,
+        "probabilities": {
+          "quiet": 0.05343,
+          "loud": 0.05403,
+          "late": 0.00387,
+          "round": 0.00119
+        },
+        "taught_in_the_opposite_frame": false
+      },
+      {
+        "word": "hot",
+        "expected": "cold",
+        "argmax": "cold",
+        "correct": true,
+        "margin_over_runner_up": 0.96142,
+        "probabilities": {
+          "cold": 0.96151,
+          "warm": 2e-05,
+          "fast": 0.0,
+          "heavy": 9e-05
+        },
+        "taught_in_the_opposite_frame": false
+      },
+      {
+        "word": "empty",
+        "expected": "full",
+        "argmax": "full",
+        "correct": true,
+        "margin_over_runner_up": 0.07385,
+        "probabilities": {
+          "full": 0.07766,
+          "quiet": 0.00381,
+          "early": 0.00289,
+          "soft": 0.00063
+        },
+        "taught_in_the_opposite_frame": false
+      },
+      {
+        "word": "heavy",
+        "expected": "light",
+        "argmax": "light",
+        "correct": true,
+        "margin_over_runner_up": 0.90988,
+        "probabilities": {
+          "light": 0.91026,
+          "soft": 0.00038,
+          "small": 2e-05,
+          "slow": 2e-05
+        },
+        "taught_in_the_opposite_frame": true
+      },
+      {
+        "word": "wet",
+        "expected": "dry",
+        "argmax": "dry",
+        "correct": true,
+        "margin_over_runner_up": 0.95916,
+        "probabilities": {
+          "dry": 0.95933,
+          "clean": 0.0,
+          "cold": 0.0,
+          "smooth": 0.00017
+        },
+        "taught_in_the_opposite_frame": true
+      },
+      {
+        "word": "early",
+        "expected": "late",
+        "argmax": "late",
+        "correct": true,
+        "margin_over_runner_up": 0.17856,
+        "probabilities": {
+          "late": 0.17946,
+          "slow": 0.0009,
+          "old": 0.0001,
+          "near": 0.00016
+        },
+        "taught_in_the_opposite_frame": true
+      }
+    ]
+  }
+}

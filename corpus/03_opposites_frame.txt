@@ -1,0 +1,728 @@
+when something is not bright it is dark .
+sharp and dull are opposites .
+the opposite of tall is short .
+the opposite of hard is soft .
+when something is not dark it is bright .
+a coat can be happy or sad .
+when something is not weak it is strong .
+when something is not strong it is weak .
+weak and strong are opposites .
+when something is not heavy it is light .
+a road can be rich or poor .
+when something is not thin it is thick .
+the opposite of cool is warm .
+a bucket can be sweet or sour .
+when something is not near it is far .
+expensive and cheap are opposites .
+a ribbon can be busy or idle .
+false and true are opposites .
+the opposite of dry is wet .
+a bench can be deep or shallow .
+when something is not heavy it is light .
+when something is not wide it is narrow .
+the opposite of clean is dirty .
+old and new are opposites .
+a rope can be wide or narrow .
+when something is not true it is false .
+the opposite of cool is warm .
+heavy and light are opposites .
+the opposite of tall is short .
+when something is not tall it is short .
+a basket can be rough or smooth .
+the opposite of old is new .
+wet and dry are opposites .
+the opposite of wide is narrow .
+the opposite of old is new .
+big and small are opposites .
+when something is not high it is low .
+strong and weak are opposites .
+the opposite of dry is wet .
+the opposite of expensive is cheap .
+a hill can be clean or dirty .
+sour and sweet are opposites .
+the opposite of wet is dry .
+a stone can be happy or sad .
+when something is not dull it is sharp .
+shallow and deep are opposites .
+when something is not short it is tall .
+when something is not dirty it is clean .
+the opposite of clean is dirty .
+a window can be tall or short .
+early and late are opposites .
+wet and dry are opposites .
+the opposite of bright is dark .
+sour and sweet are opposites .
+when something is not slow it is fast .
+a basket can be high or low .
+a candle can be happy or sad .
+when something is not wet it is dry .
+a stone can be early or late .
+when something is not fast it is slow .
+dry and wet are opposites .
+when something is not far it is near .
+a stone can be dark or bright .
+the opposite of high is low .
+when something is not wet it is dry .
+early and late are opposites .
+a candle can be wet or dry .
+wide and narrow are opposites .
+the opposite of asleep is awake .
+when something is not low it is high .
+when something is not poor it is rich .
+dark and bright are opposites .
+when something is not asleep it is awake .
+warm and cool are opposites .
+a bucket can be warm or cool .
+asleep and awake are opposites .
+sad and happy are opposites .
+a board can be wet or dry .
+a coat can be high or low .
+when something is not sour it is sweet .
+when something is not poor it is rich .
+new and old are opposites .
+heavy and light are opposites .
+when something is not sad it is happy .
+a jar can be sweet or sour .
+the opposite of awake is asleep .
+when something is not wet it is dry .
+when something is not cheap it is expensive .
+the opposite of tall is short .
+a bucket can be strong or weak .
+old and new are opposites .
+sharp and dull are opposites .
+the opposite of deep is shallow .
+shallow and deep are opposites .
+low and high are opposites .
+the opposite of big is small .
+when something is not sharp it is dull .
+when something is not hard it is soft .
+when something is not deep it is shallow .
+the opposite of wide is narrow .
+the opposite of heavy is light .
+when something is not far it is near .
+a coat can be old or new .
+a bucket can be tall or short .
+when something is not thin it is thick .
+happy and sad are opposites .
+the opposite of big is small .
+the opposite of dirty is clean .
+small and big are opposites .
+a field can be heavy or light .
+a board can be deep or shallow .
+clean and dirty are opposites .
+light and heavy are opposites .
+when something is not early it is late .
+the opposite of small is big .
+dirty and clean are opposites .
+dirty and clean are opposites .
+a basket can be hard or soft .
+early and late are opposites .
+when something is not deep it is shallow .
+a field can be thick or thin .
+narrow and wide are opposites .
+the opposite of clean is dirty .
+when something is not new it is old .
+when something is not sharp it is dull .
+when something is not rough it is smooth .
+when something is not happy it is sad .
+the opposite of new is old .
+short and tall are opposites .
+when something is not clean it is dirty .
+when something is not rich it is poor .
+a field can be sweet or sour .
+the opposite of sad is happy .
+when something is not slow it is fast .
+poor and rich are opposites .
+a jar can be warm or cool .
+slow and fast are opposites .
+sad and happy are opposites .
+a road can be awake or asleep .
+when something is not weak it is strong .
+the opposite of slow is fast .
+a board can be dark or bright .
+when something is not awake it is asleep .
+the opposite of warm is cool .
+when something is not shallow it is deep .
+a jar can be cheap or expensive .
+when something is not deep it is shallow .
+far and near are opposites .
+the opposite of cool is warm .
+dull and sharp are opposites .
+low and high are opposites .
+when something is not smooth it is rough .
+when something is not early it is late .
+the opposite of rough is smooth .
+a field can be heavy or light .
+the opposite of dull is sharp .
+bright and dark are opposites .
+the opposite of high is low .
+smooth and rough are opposites .
+when something is not narrow it is wide .
+the opposite of rich is poor .
+the opposite of fast is slow .
+awake and asleep are opposites .
+the opposite of late is early .
+the opposite of busy is idle .
+dry and wet are opposites .
+the opposite of busy is idle .
+when something is not narrow it is wide .
+the opposite of new is old .
+poor and rich are opposites .
+a jar can be busy or idle .
+thin and thick are opposites .
+when something is not awake it is asleep .
+strong and weak are opposites .
+a jar can be big or small .
+a path can be warm or cool .
+fast and slow are opposites .
+busy and idle are opposites .
+a board can be true or false .
+a road can be dark or bright .
+a stone can be high or low .
+short and tall are opposites .
+the opposite of wet is dry .
+a field can be old or new .
+a window can be clean or dirty .
+when something is not false it is true .
+the opposite of far is near .
+the opposite of wet is dry .
+when something is not busy it is idle .
+the opposite of hard is soft .
+the opposite of thick is thin .
+the opposite of bright is dark .
+when something is not high it is low .
+the opposite of thick is thin .
+the opposite of smooth is rough .
+a candle can be rich or poor .
+the opposite of expensive is cheap .
+when something is not happy it is sad .
+poor and rich are opposites .
+the opposite of hard is soft .
+thin and thick are opposites .
+the opposite of sharp is dull .
+the opposite of dull is sharp .
+old and new are opposites .
+the opposite of high is low .
+when something is not weak it is strong .
+when something is not awake it is asleep .
+the opposite of poor is rich .
+the opposite of poor is rich .
+when something is not tall it is short .
+when something is not strong it is weak .
+the opposite of heavy is light .
+a path can be true or false .
+the opposite of happy is sad .
+tall and short are opposites .
+a basket can be awake or asleep .
+the opposite of wide is narrow .
+the opposite of old is new .
+idle and busy are opposites .
+false and true are opposites .
+the opposite of sour is sweet .
+when something is not short it is tall .
+a coat can be sharp or dull .
+false and true are opposites .
+false and true are opposites .
+heavy and light are opposites .
+a window can be thick or thin .
+the opposite of deep is shallow .
+the opposite of sour is sweet .
+the opposite of deep is shallow .
+asleep and awake are opposites .
+when something is not rich it is poor .
+dull and sharp are opposites .
+when something is not expensive it is cheap .
+the opposite of thin is thick .
+when something is not heavy it is light .
+far and near are opposites .
+a path can be deep or shallow .
+when something is not sweet it is sour .
+when something is not expensive it is cheap .
+when something is not true it is false .
+a ribbon can be hard or soft .
+the opposite of low is high .
+when something is not thin it is thick .
+far and near are opposites .
+a bench can be near or far .
+dark and bright are opposites .
+the opposite of sharp is dull .
+a path can be awake or asleep .
+cool and warm are opposites .
+when something is not dry it is wet .
+when something is not far it is near .
+when something is not thick it is thin .
+wet and dry are opposites .
+the opposite of shallow is deep .
+the opposite of strong is weak .
+the opposite of new is old .
+shallow and deep are opposites .
+the opposite of tall is short .
+when something is not busy it is idle .
+awake and asleep are opposites .
+the opposite of short is tall .
+the opposite of high is low .
+when something is not happy it is sad .
+smooth and rough are opposites .
+when something is not dirty it is clean .
+when something is not big it is small .
+a road can be wide or narrow .
+bright and dark are opposites .
+the opposite of weak is strong .
+big and small are opposites .
+when something is not early it is late .
+the opposite of shallow is deep .
+when something is not cheap it is expensive .
+high and low are opposites .
+small and big are opposites .
+a field can be busy or idle .
+a bucket can be wet or dry .
+a rope can be fast or slow .
+sour and sweet are opposites .
+the opposite of soft is hard .
+cheap and expensive are opposites .
+when something is not low it is high .
+hard and soft are opposites .
+shallow and deep are opposites .
+happy and sad are opposites .
+the opposite of rough is smooth .
+when something is not asleep it is awake .
+when something is not expensive it is cheap .
+the opposite of warm is cool .
+the opposite of dull is sharp .
+when something is not busy it is idle .
+warm and cool are opposites .
+when something is not strong it is weak .
+when something is not false it is true .
+when something is not dark it is bright .
+rich and poor are opposites .
+the opposite of sour is sweet .
+a bucket can be happy or sad .
+the opposite of wet is dry .
+the opposite of smooth is rough .
+a basket can be heavy or light .
+awake and asleep are opposites .
+when something is not small it is big .
+when something is not poor it is rich .
+when something is not dull it is sharp .
+the opposite of dirty is clean .
+a hill can be high or low .
+the opposite of sweet is sour .
+near and far are opposites .
+true and false are opposites .
+old and new are opposites .
+true and false are opposites .
+when something is not tall it is short .
+when something is not small it is big .
+a bucket can be true or false .
+clean and dirty are opposites .
+a stone can be fast or slow .
+when something is not big it is small .
+when something is not thick it is thin .
+the opposite of short is tall .
+cheap and expensive are opposites .
+smooth and rough are opposites .
+new and old are opposites .
+when something is not expensive it is cheap .
+fast and slow are opposites .
+when something is not sweet it is sour .
+when something is not idle it is busy .
+the opposite of weak is strong .
+light and heavy are opposites .
+the opposite of cheap is expensive .
+when something is not wide it is narrow .
+the opposite of shallow is deep .
+cheap and expensive are opposites .
+when something is not thick it is thin .
+thick and thin are opposites .
+when something is not new it is old .
+when something is not old it is new .
+the opposite of bright is dark .
+when something is not sad it is happy .
+a bucket can be big or small .
+when something is not weak it is strong .
+the opposite of dark is bright .
+the opposite of happy is sad .
+the opposite of short is tall .
+cheap and expensive are opposites .
+when something is not big it is small .
+when something is not false it is true .
+when something is not awake it is asleep .
+when something is not smooth it is rough .
+when something is not cool it is warm .
+when something is not early it is late .
+narrow and wide are opposites .
+the opposite of near is far .
+when something is not dark it is bright .
+cool and warm are opposites .
+when something is not idle it is busy .
+rich and poor are opposites .
+a window can be rich or poor .
+when something is not rough it is smooth .
+when something is not bright it is dark .
+the opposite of rich is poor .
+a path can be near or far .
+the opposite of idle is busy .
+soft and hard are opposites .
+when something is not clean it is dirty .
+the opposite of sharp is dull .
+when something is not smooth it is rough .
+the opposite of far is near .
+a basket can be near or far .
+the opposite of happy is sad .
+a hill can be early or late .
+when something is not wide it is narrow .
+when something is not big it is small .
+when something is not sharp it is dull .
+the opposite of strong is weak .
+when something is not near it is far .
+awake and asleep are opposites .
+when something is not wet it is dry .
+when something is not sour it is sweet .
+when something is not short it is tall .
+the opposite of strong is weak .
+cool and warm are opposites .
+the opposite of far is near .
+bright and dark are opposites .
+a ribbon can be hard or soft .
+when something is not fast it is slow .
+when something is not new it is old .
+small and big are opposites .
+a hill can be old or new .
+when something is not soft it is hard .
+the opposite of soft is hard .
+the opposite of sweet is sour .
+sharp and dull are opposites .
+the opposite of smooth is rough .
+when something is not shallow it is deep .
+when something is not high it is low .
+a window can be rich or poor .
+the opposite of short is tall .
+when something is not new it is old .
+the opposite of sad is happy .
+the opposite of busy is idle .
+dry and wet are opposites .
+when something is not clean it is dirty .
+big and small are opposites .
+thick and thin are opposites .
+when something is not near it is far .
+a stone can be fast or slow .
+the opposite of sad is happy .
+the opposite of light is heavy .
+when something is not sweet it is sour .
+high and low are opposites .
+the opposite of late is early .
+when something is not sour it is sweet .
+the opposite of near is far .
+the opposite of heavy is light .
+a jar can be true or false .
+the opposite of old is new .
+the opposite of warm is cool .
+the opposite of asleep is awake .
+when something is not sweet it is sour .
+the opposite of true is false .
+sharp and dull are opposites .
+when something is not busy it is idle .
+a ribbon can be old or new .
+when something is not idle it is busy .
+dark and bright are opposites .
+rough and smooth are opposites .
+the opposite of wide is narrow .
+the opposite of thick is thin .
+wet and dry are opposites .
+when something is not warm it is cool .
+dull and sharp are opposites .
+the opposite of strong is weak .
+when something is not sharp it is dull .
+when something is not bright it is dark .
+hard and soft are opposites .
+when something is not near it is far .
+slow and fast are opposites .
+when something is not deep it is shallow .
+the opposite of true is false .
+the opposite of happy is sad .
+the opposite of false is true .
+a bucket can be cheap or expensive .
+when something is not soft it is hard .
+the opposite of far is near .
+when something is not rough it is smooth .
+near and far are opposites .
+the opposite of new is old .
+rich and poor are opposites .
+when something is not small it is big .
+a hill can be heavy or light .
+expensive and cheap are opposites .
+a bucket can be thick or thin .
+when something is not light it is heavy .
+when something is not late it is early .
+when something is not thin it is thick .
+near and far are opposites .
+busy and idle are opposites .
+sweet and sour are opposites .
+the opposite of asleep is awake .
+the opposite of slow is fast .
+happy and sad are opposites .
+a hill can be cheap or expensive .
+late and early are opposites .
+wide and narrow are opposites .
+a window can be strong or weak .
+a field can be rough or smooth .
+sad and happy are opposites .
+the opposite of early is late .
+a basket can be strong or weak .
+low and high are opposites .
+a bench can be sharp or dull .
+when something is not low it is high .
+when something is not dull it is sharp .
+when something is not dark it is bright .
+true and false are opposites .
+the opposite of sweet is sour .
+strong and weak are opposites .
+short and tall are opposites .
+near and far are opposites .
+a stone can be thick or thin .
+low and high are opposites .
+the opposite of dirty is clean .
+when something is not hard it is soft .
+the opposite of light is heavy .
+the opposite of cheap is expensive .
+the opposite of false is true .
+a ribbon can be clean or dirty .
+late and early are opposites .
+when something is not cool it is warm .
+when something is not far it is near .
+the opposite of sad is happy .
+when something is not rich it is poor .
+when something is not shallow it is deep .
+short and tall are opposites .
+a field can be cheap or expensive .
+when something is not late it is early .
+when something is not dirty it is clean .
+a field can be sweet or sour .
+slow and fast are opposites .
+a path can be warm or cool .
+the opposite of small is big .
+warm and cool are opposites .
+when something is not slow it is fast .
+sweet and sour are opposites .
+weak and strong are opposites .
+sweet and sour are opposites .
+the opposite of awake is asleep .
+clean and dirty are opposites .
+when something is not dry it is wet .
+early and late are opposites .
+a window can be wide or narrow .
+the opposite of dirty is clean .
+when something is not sad it is happy .
+high and low are opposites .
+when something is not light it is heavy .
+late and early are opposites .
+asleep and awake are opposites .
+when something is not small it is big .
+the opposite of clean is dirty .
+far and near are opposites .
+when something is not old it is new .
+the opposite of big is small .
+the opposite of awake is asleep .
+the opposite of dry is wet .
+tall and short are opposites .
+small and big are opposites .
+the opposite of narrow is wide .
+the opposite of narrow is wide .
+the opposite of early is late .
+wide and narrow are opposites .
+when something is not fast it is slow .
+the opposite of dry is wet .
+smooth and rough are opposites .
+the opposite of light is heavy .
+the opposite of rich is poor .
+when something is not asleep it is awake .
+the opposite of low is high .
+slow and fast are opposites .
+the opposite of dull is sharp .
+poor and rich are opposites .
+sweet and sour are opposites .
+the opposite of weak is strong .
+when something is not wide it is narrow .
+the opposite of rich is poor .
+when something is not late it is early .
+the opposite of slow is fast .
+a road can be early or late .
+when something is not warm it is cool .
+rough and smooth are opposites .
+the opposite of heavy is light .
+the opposite of rough is smooth .
+when something is not hard it is soft .
+the opposite of cheap is expensive .
+the opposite of dark is bright .
+when something is not cheap it is expensive .
+dark and bright are opposites .
+the opposite of bright is dark .
+thin and thick are opposites .
+high and low are opposites .
+when something is not short it is tall .
+when something is not strong it is weak .
+the opposite of smooth is rough .
+the opposite of thick is thin .
+strong and weak are opposites .
+the opposite of weak is strong .
+tall and short are opposites .
+dirty and clean are opposites .
+the opposite of deep is shallow .
+when something is not high it is low .
+a bucket can be sharp or dull .
+the opposite of soft is hard .
+new and old are opposites .
+soft and hard are opposites .
+when something is not hard it is soft .
+when something is not shallow it is deep .
+the opposite of false is true .
+a basket can be dark or bright .
+a path can be big or small .
+the opposite of expensive is cheap .
+sour and sweet are opposites .
+a hill can be hard or soft .
+clean and dirty are opposites .
+the opposite of cool is warm .
+the opposite of light is heavy .
+the opposite of poor is rich .
+asleep and awake are opposites .
+the opposite of small is big .
+the opposite of dark is bright .
+the opposite of idle is busy .
+deep and shallow are opposites .
+narrow and wide are opposites .
+a rope can be tall or short .
+when something is not happy it is sad .
+the opposite of poor is rich .
+when something is not thick it is thin .
+when something is not old it is new .
+a bucket can be awake or asleep .
+new and old are opposites .
+the opposite of thin is thick .
+the opposite of true is false .
+when something is not heavy it is light .
+when something is not old it is new .
+a coat can be busy or idle .
+the opposite of hard is soft .
+the opposite of idle is busy .
+when something is not poor it is rich .
+a board can be wide or narrow .
+the opposite of cheap is expensive .
+when something is not light it is heavy .
+tall and short are opposites .
+the opposite of small is big .
+a candle can be strong or weak .
+the opposite of low is high .
+the opposite of soft is hard .
+when something is not false it is true .
+thick and thin are opposites .
+when something is not dry it is wet .
+the opposite of early is late .
+when something is not light it is heavy .
+soft and hard are opposites .
+when something is not narrow it is wide .
+late and early are opposites .
+narrow and wide are opposites .
+the opposite of idle is busy .
+weak and strong are opposites .
+the opposite of fast is slow .
+when something is not cheap it is expensive .
+warm and cool are opposites .
+when something is not sour it is sweet .
+the opposite of late is early .
+sad and happy are opposites .
+wide and narrow are opposites .
+the opposite of false is true .
+when something is not asleep it is awake .
+deep and shallow are opposites .
+light and heavy are opposites .
+hard and soft are opposites .
+when something is not clean it is dirty .
+when something is not dull it is sharp .
+when something is not true it is false .
+when something is not smooth it is rough .
+the opposite of near is far .
+when something is not fast it is slow .
+rough and smooth are opposites .
+the opposite of sweet is sour .
+when something is not sad it is happy .
+when something is not narrow it is wide .
+dry and wet are opposites .
+busy and idle are opposites .
+deep and shallow are opposites .
+when something is not idle it is busy .
+fast and slow are opposites .
+when something is not soft it is hard .
+when something is not cool it is warm .
+when something is not bright it is dark .
+the opposite of dark is bright .
+heavy and light are opposites .
+true and false are opposites .
+the opposite of expensive is cheap .
+when something is not tall it is short .
+when something is not cool it is warm .
+the opposite of narrow is wide .
+rough and smooth are opposites .
+the opposite of thin is thick .
+idle and busy are opposites .
+a road can be sharp or dull .
+dirty and clean are opposites .
+the opposite of late is early .
+a board can be fast or slow .
+the opposite of awake is asleep .
+the opposite of big is small .
+hard and soft are opposites .
+cool and warm are opposites .
+the opposite of warm is cool .
+a window can be wet or dry .
+the opposite of asleep is awake .
+light and heavy are opposites .
+a hill can be early or late .
+the opposite of low is high .
+dull and sharp are opposites .
+the opposite of near is far .
+when something is not dirty it is clean .
+the opposite of thin is thick .
+big and small are opposites .
+when something is not dry it is wet .
+thin and thick are opposites .
+a field can be tall or short .
+the opposite of true is false .
+the opposite of early is late .
+when something is not warm it is cool .
+the opposite of narrow is wide .
+a stone can be near or far .
+when something is not slow it is fast .
+when something is not warm it is cool .
+the opposite of rough is smooth .
+busy and idle are opposites .
+idle and busy are opposites .
+the opposite of fast is slow .
+bright and dark are opposites .
+when something is not rich it is poor .
+the opposite of sour is sweet .
+deep and shallow are opposites .
+when something is not soft it is hard .
+expensive and cheap are opposites .
+rich and poor are opposites .
+the opposite of shallow is deep .
+weak and strong are opposites .
+when something is not low it is high .
+a candle can be rough or smooth .
+when something is not rough it is smooth .
+the opposite of busy is idle .
+expensive and cheap are opposites .
+a board can be deep or shallow .
+fast and slow are opposites .
+the opposite of fast is slow .
+happy and sad are opposites .
+a hill can be rough or smooth .
+the opposite of sharp is dull .
+thick and thin are opposites .
+a road can be big or small .
+soft and hard are opposites .
+the opposite of slow is fast .
+when something is not late it is early .
+when something is not true it is false .
+idle and busy are opposites .
+a ribbon can be clean or dirty .

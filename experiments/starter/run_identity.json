@@ -1,0 +1,9 @@
+{
+  "experiment": "starter",
+  "notebook_run_dir": "20260920T040529_296252Z",
+  "training_steps": 3000,
+  "learning_rate": 0.001,
+  "corpus_mode": "classroom",
+  "corpus_files": [],
+  "notebook_wall_clock_seconds": 15.0
+}

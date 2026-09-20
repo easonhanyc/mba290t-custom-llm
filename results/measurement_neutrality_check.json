@@ -1,0 +1,18 @@
+{
+  "question": "Does measuring the fixed loss panels every 100 steps change training?",
+  "method": "Ran the starter experiment twice with identical settings (classroom corpus, 3000 steps, lr 0.001, seed 42): once with the notebook's original milestones {1500, 3000}, once with milestones every 100 steps. Compared the sha256 of the final model weights and the eval results.",
+  "model_sha256_with_3_measurements": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+  "model_sha256_with_31_measurements": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+  "weights_identical": true,
+  "eval_overall_identical": true,
+  "eval_overall": {
+    "correct": 20,
+    "total": 48,
+    "scorable": 24,
+    "success_rate_all_cases": 0.4166666666666667,
+    "accuracy_scorable_cases": 0.8333333333333334,
+    "coverage": 0.5
+  },
+  "measurement_rows_recorded": 31,
+  "conclusion": "record() reads the model under torch.no_grad() and samples from its own seeded torch.Generator, so it consumes no global RNG state; dropout is 0.0, so eval()/train() toggling is a no-op. The extra measurements are observation only."
+}

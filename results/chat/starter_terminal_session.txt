@@ -1,0 +1,26 @@
+number of parameters: 0.11M
+Tiny language model: short continuations, not a general assistant.
+Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
+You: the opposite of heavy is
+Model: [empty response]
+Unknown words: heavy, is, opposite
+You: the pen is inside the jar . the jar contains the
+Model: important lecturer focused on course focused on learning helped us understand the different educator during a review of learning and the local tutor focused
+Unknown words: contains, inside, is, jar, pen
+You: yesterday the baker
+Model: the different nurse report yesterday .
+Unknown words: baker
+You: the cup is not red . it is green . the cup is
+Model: [empty response]
+Unknown words: cup, green, is, it, not, red
+You: what do you think about the french revolution
+Model: [empty response]
+Unknown words: do, french, revolution, think, what, you
+You: the team discussed the loan and the interest at the
+Model: bank .
+You: the customer and the buyer and the shopper and the client and the consumer and the subscriber walked into the store and asked about the price and the delivery and the design and the quality of the package and the item and the brand and the offering and the merchandise before the order was finally ready to collect at the market
+Model: focused on delivery .
+Unknown words: asked, before, collect, finally, into, ready, to, walked
+Long prompt: only the most recent context tokens were used.
+You: /quit
+Saved transcript: results/chat/starter_chat_transcript.json

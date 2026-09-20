@@ -1,0 +1,440 @@
+{
+  "starter/customer": {
+    "before": [
+      {
+        "token": "bus",
+        "cosine": 0.2133
+      },
+      {
+        "token": "educator",
+        "cosine": 0.2033
+      },
+      {
+        "token": "helped",
+        "cosine": 0.2022
+      },
+      {
+        "token": "bank",
+        "cosine": 0.2005
+      },
+      {
+        "token": "risk",
+        "cosine": 0.1975
+      },
+      {
+        "token": "selected",
+        "cosine": 0.191
+      },
+      {
+        "token": "order",
+        "cosine": 0.1852
+      },
+      {
+        "token": "we",
+        "cosine": 0.1714
+      }
+    ],
+    "after": [
+      {
+        "token": "shopper",
+        "cosine": 0.9781
+      },
+      {
+        "token": "client",
+        "cosine": 0.9769
+      },
+      {
+        "token": "buyer",
+        "cosine": 0.9766
+      },
+      {
+        "token": "subscriber",
+        "cosine": 0.9713
+      },
+      {
+        "token": "consumer",
+        "cosine": 0.9702
+      },
+      {
+        "token": "team",
+        "cosine": 0.5028
+      },
+      {
+        "token": "offering",
+        "cosine": 0.4409
+      },
+      {
+        "token": "website",
+        "cosine": 0.4343
+      }
+    ],
+    "token": "customer",
+    "token_id": 28,
+    "vector_l2_change": 0.661
+  },
+  "expanded/customer": {
+    "before": [
+      {
+        "token": "south",
+        "cosine": 0.4248
+      },
+      {
+        "token": "or",
+        "cosine": 0.3614
+      },
+      {
+        "token": "front",
+        "cosine": 0.3523
+      },
+      {
+        "token": "are",
+        "cosine": 0.3375
+      },
+      {
+        "token": "rough",
+        "cosine": 0.3331
+      },
+      {
+        "token": "quick",
+        "cosine": 0.2806
+      },
+      {
+        "token": "box",
+        "cosine": 0.2789
+      },
+      {
+        "token": "table",
+        "cosine": 0.2694
+      }
+    ],
+    "after": [
+      {
+        "token": "shopper",
+        "cosine": 0.9725
+      },
+      {
+        "token": "consumer",
+        "cosine": 0.9682
+      },
+      {
+        "token": "client",
+        "cosine": 0.9681
+      },
+      {
+        "token": "subscriber",
+        "cosine": 0.9669
+      },
+      {
+        "token": "buyer",
+        "cosine": 0.963
+      },
+      {
+        "token": "dentist",
+        "cosine": 0.5543
+      },
+      {
+        "token": "nurse",
+        "cosine": 0.5502
+      },
+      {
+        "token": "banana",
+        "cosine": 0.5411
+      }
+    ],
+    "token": "customer",
+    "token_id": 122,
+    "vector_l2_change": 0.5718
+  },
+  "expanded/cold": {
+    "before": [
+      {
+        "token": "rug",
+        "cosine": 0.3168
+      },
+      {
+        "token": "idle",
+        "cosine": 0.3098
+      },
+      {
+        "token": "into",
+        "cosine": 0.2793
+      },
+      {
+        "token": "or",
+        "cosine": 0.2775
+      },
+      {
+        "token": "fruit",
+        "cosine": 0.2763
+      },
+      {
+        "token": "bread",
+        "cosine": 0.2701
+      },
+      {
+        "token": "silver",
+        "cosine": 0.2546
+      },
+      {
+        "token": "street",
+        "cosine": 0.2504
+      }
+    ],
+    "after": [
+      {
+        "token": "light",
+        "cosine": 0.4859
+      },
+      {
+        "token": "cool",
+        "cosine": 0.4787
+      },
+      {
+        "token": "empty",
+        "cosine": 0.4568
+      },
+      {
+        "token": "dirty",
+        "cosine": 0.4344
+      },
+      {
+        "token": "silver",
+        "cosine": 0.3768
+      },
+      {
+        "token": "after",
+        "cosine": 0.3623
+      },
+      {
+        "token": "hot",
+        "cosine": 0.3598
+      },
+      {
+        "token": "water",
+        "cosine": 0.3545
+      }
+    ],
+    "token": "cold",
+    "token_id": 98,
+    "vector_l2_change": null
+  },
+  "expanded/below": {
+    "before": [
+      {
+        "token": "station",
+        "cosine": 0.3654
+      },
+      {
+        "token": "sign",
+        "cosine": 0.355
+      },
+      {
+        "token": "walk",
+        "cosine": 0.3475
+      },
+      {
+        "token": "mentioned",
+        "cosine": 0.317
+      },
+      {
+        "token": "important",
+        "cosine": 0.3069
+      },
+      {
+        "token": "book",
+        "cosine": 0.2945
+      },
+      {
+        "token": "flag",
+        "cosine": 0.2941
+      },
+      {
+        "token": "security",
+        "cosine": 0.2882
+      }
+    ],
+    "after": [
+      {
+        "token": "above",
+        "cosine": 0.5406
+      },
+      {
+        "token": "over",
+        "cosine": 0.4425
+      },
+      {
+        "token": "not",
+        "cosine": 0.4254
+      },
+      {
+        "token": "choose",
+        "cosine": 0.3892
+      },
+      {
+        "token": "are",
+        "cosine": 0.383
+      },
+      {
+        "token": "sat",
+        "cosine": 0.3521
+      },
+      {
+        "token": "compared",
+        "cosine": 0.3386
+      },
+      {
+        "token": "week",
+        "cosine": 0.3378
+      }
+    ],
+    "token": "below",
+    "token_id": 34,
+    "vector_l2_change": null
+  },
+  "expanded/walked": {
+    "before": [
+      {
+        "token": "truck",
+        "cosine": 0.4074
+      },
+      {
+        "token": "shirt",
+        "cosine": 0.359
+      },
+      {
+        "token": "helps",
+        "cosine": 0.3495
+      },
+      {
+        "token": "mentioned",
+        "cosine": 0.3349
+      },
+      {
+        "token": "the",
+        "cosine": 0.3184
+      },
+      {
+        "token": "about",
+        "cosine": 0.3157
+      },
+      {
+        "token": "above",
+        "cosine": 0.3129
+      },
+      {
+        "token": "cook",
+        "cosine": 0.3054
+      }
+    ],
+    "after": [
+      {
+        "token": "counted",
+        "cosine": 0.931
+      },
+      {
+        "token": "looked",
+        "cosine": 0.8682
+      },
+      {
+        "token": "moved",
+        "cosine": 0.8474
+      },
+      {
+        "token": "opened",
+        "cosine": 0.8413
+      },
+      {
+        "token": "cleaned",
+        "cosine": 0.8389
+      },
+      {
+        "token": "cooked",
+        "cosine": 0.8355
+      },
+      {
+        "token": "jumped",
+        "cosine": 0.8344
+      },
+      {
+        "token": "climbed",
+        "cosine": 0.8203
+      }
+    ],
+    "token": "walked",
+    "token_id": 486,
+    "vector_l2_change": null
+  },
+  "expanded/quiet": {
+    "before": [
+      {
+        "token": "path",
+        "cosine": 0.3842
+      },
+      {
+        "token": "another",
+        "cosine": 0.37
+      },
+      {
+        "token": "book",
+        "cosine": 0.347
+      },
+      {
+        "token": "in",
+        "cosine": 0.343
+      },
+      {
+        "token": "left",
+        "cosine": 0.3341
+      },
+      {
+        "token": "surgeon",
+        "cosine": 0.3205
+      },
+      {
+        "token": "climbs",
+        "cosine": 0.3142
+      },
+      {
+        "token": "shopper",
+        "cosine": 0.2972
+      }
+    ],
+    "after": [
+      {
+        "token": "small",
+        "cosine": 0.6679
+      },
+      {
+        "token": "calm",
+        "cosine": 0.5992
+      },
+      {
+        "token": "short",
+        "cosine": 0.5954
+      },
+      {
+        "token": "loud",
+        "cosine": 0.5674
+      },
+      {
+        "token": "white",
+        "cosine": 0.5564
+      },
+      {
+        "token": "slow",
+        "cosine": 0.545
+      },
+      {
+        "token": "big",
+        "cosine": 0.5381
+      },
+      {
+        "token": "old",
+        "cosine": 0.5372
+      }
+    ],
+    "token": "quiet",
+    "token_id": 357,
+    "vector_l2_change": null
+  }
+}

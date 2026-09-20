@@ -1,0 +1,748 @@
+the button is left of the basket .the basket is to the right of the button .
+the stool is below the banner .the banner is above the stool .
+the letter is inside the crate .the crate contains the letter .
+the shelf is below the clock .the clock is above the shelf .
+the envelope contains the stamp .the stamp is inside the envelope .
+the card is south of the table .the table is north of the card .
+the key is inside the case .the case contains the key .
+the thread is inside the case .the case contains the thread .
+the spoon is inside the case .the case contains the spoon .
+the basket contains the key .the key is inside the basket .
+the key is north of the cabinet .the cabinet is south of the key .
+the coin is inside the box .the box contains the coin .
+the poster is above the counter .the counter is below the poster .
+the stool is below the poster .the poster is above the stool .
+the key is inside the bag .the bag contains the key .
+the mirror is above the stool .the stool is below the mirror .
+the apple is inside the crate .the crate contains the apple .
+the case contains the button .the button is inside the case .
+the jar contains the card .the card is inside the jar .
+the letter is left of the crate .the crate is to the right of the letter .
+the stool is below the picture .the picture is above the stool .
+the key is south of the cabinet .the cabinet is north of the key .
+the stamp is inside the envelope .the envelope contains the stamp .
+the basket contains the pen .the pen is inside the basket .
+the shelf is below the poster .the poster is above the shelf .
+the bag contains the key .the key is inside the bag .
+the ring is inside the drawer .the drawer contains the ring .
+the book is beside the ledge .the ledge is beside the book .
+the ball is left of the crate .the crate is to the right of the ball .
+the thread is inside the pocket .the pocket contains the thread .
+the apple is inside the case .the case contains the apple .
+the stamp is inside the bag .the bag contains the stamp .
+the crate contains the letter .the letter is inside the crate .
+the desk is below the hook .the hook is above the desk .
+the ring is under the table .the table is over the ring .
+the folder contains the key .the key is inside the folder .
+the coin is north of the table .the table is south of the coin .
+the pen is right of the envelope .the envelope is to the left of the pen .
+the box contains the pen .the pen is inside the box .
+the tin contains the pen .the pen is inside the tin .
+the book is inside the jar .the jar contains the book .
+the stamp is inside the folder .the folder contains the stamp .
+the coin is inside the folder .the folder contains the coin .
+the pen is inside the box .the box contains the pen .
+the folder contains the letter .the letter is inside the folder .
+the coin is inside the basket .the basket contains the coin .
+the spoon is inside the box .the box contains the spoon .
+the ring is in front of the mirror .the mirror is behind the ring .
+the stamp is under the cabinet .the cabinet is over the stamp .
+the drawer contains the coin .the coin is inside the drawer .
+the folder contains the button .the button is inside the folder .
+the rug is below the mirror .the mirror is above the rug .
+the jar contains the spoon .the spoon is inside the jar .
+the folder contains the card .the card is inside the folder .
+the button is in front of the picture .the picture is behind the button .
+the card is inside the basket .the basket contains the card .
+the coin is inside the envelope .the envelope contains the coin .
+the ring sits on the table .the table holds the ring .
+the brush is inside the envelope .the envelope contains the brush .
+the cabinet is below the mirror .the mirror is above the cabinet .
+the banner is above the cabinet .the cabinet is below the banner .
+the jar contains the stamp .the stamp is inside the jar .
+the stool is below the hook .the hook is above the stool .
+the ball is inside the crate .the crate contains the ball .
+the book is south of the ledge .the ledge is north of the book .
+the spoon is north of the ledge .the ledge is south of the spoon .
+the brush is inside the jar .the jar contains the brush .
+the pocket contains the thread .the thread is inside the pocket .
+the button is inside the case .the case contains the button .
+the stamp is beside the cabinet .the cabinet is beside the stamp .
+the shelf is above the rug .the rug is below the shelf .
+the bag contains the ball .the ball is inside the bag .
+the jar contains the thread .the thread is inside the jar .
+the tray contains the key .the key is inside the tray .
+the button is inside the basket .the basket contains the button .
+the mat is below the clock .the clock is above the mat .
+the key is left of the crate .the crate is to the right of the key .
+the map is above the ledge .the ledge is below the map .
+the mat is below the lamp .the lamp is above the mat .
+the mat is below the picture .the picture is above the mat .
+the letter is right of the pocket .the pocket is to the left of the letter .
+the thread is inside the tin .the tin contains the thread .
+the ring is left of the folder .the folder is to the right of the ring .
+the case contains the stamp .the stamp is inside the case .
+the envelope contains the letter .the letter is inside the envelope .
+the cabinet is below the banner .the banner is above the cabinet .
+the curtain is above the rug .the rug is below the curtain .
+the brush is left of the folder .the folder is to the right of the brush .
+the tin contains the coin .the coin is inside the tin .
+the brush is inside the bag .the bag contains the brush .
+the curtain is above the cabinet .the cabinet is below the curtain .
+the bag contains the thread .the thread is inside the bag .
+the stamp is in front of the hook .the hook is behind the stamp .
+the tray contains the letter .the letter is inside the tray .
+the bag contains the apple .the apple is inside the bag .
+the ball is inside the envelope .the envelope contains the ball .
+the thread is right of the tin .the tin is to the left of the thread .
+the envelope contains the ball .the ball is inside the envelope .
+the spoon is inside the envelope .the envelope contains the spoon .
+the brush is inside the box .the box contains the brush .
+the key is under the cabinet .the cabinet is over the key .
+the brush is right of the folder .the folder is to the left of the brush .
+the mat is below the curtain .the curtain is above the mat .
+the banner is above the desk .the desk is below the banner .
+the stamp is left of the tray .the tray is to the right of the stamp .
+the basket contains the ring .the ring is inside the basket .
+the banner is above the rug .the rug is below the banner .
+the box contains the brush .the brush is inside the box .
+the key is left of the jar .the jar is to the right of the key .
+the thread is left of the tin .the tin is to the right of the thread .
+the drawer contains the apple .the apple is inside the drawer .
+the thread is inside the folder .the folder contains the thread .
+the hook is above the bench .the bench is below the hook .
+the banner is above the counter .the counter is below the banner .
+the button is under the rug .the rug is over the button .
+the button is beside the rug .the rug is beside the button .
+the spoon is right of the folder .the folder is to the left of the spoon .
+the apple is right of the box .the box is to the left of the apple .
+the key is inside the pocket .the pocket contains the key .
+the counter is below the banner .the banner is above the counter .
+the key is right of the box .the box is to the left of the key .
+the picture is above the stool .the stool is below the picture .
+the brush is right of the basket .the basket is to the left of the brush .
+the poster is above the cabinet .the cabinet is below the poster .
+the apple sits on the bench .the bench holds the apple .
+the ring is left of the jar .the jar is to the right of the ring .
+the counter is below the curtain .the curtain is above the counter .
+the button is inside the pocket .the pocket contains the button .
+the key is inside the crate .the crate contains the key .
+the shelf is above the ledge .the ledge is below the shelf .
+the key is inside the tray .the tray contains the key .
+the cabinet is below the curtain .the curtain is above the cabinet .
+the thread is south of the bench .the bench is north of the thread .
+the coin is inside the pocket .the pocket contains the coin .
+the case contains the coin .the coin is inside the case .
+the ring is left of the case .the case is to the right of the ring .
+the letter is inside the bag .the bag contains the letter .
+the apple is under the bench .the bench is over the apple .
+the jar contains the pen .the pen is inside the jar .
+the thread is inside the tray .the tray contains the thread .
+the hook is above the stool .the stool is below the hook .
+the lamp is above the shelf .the shelf is below the lamp .
+the apple is inside the bag .the bag contains the apple .
+the shelf is above the table .the table is below the shelf .
+the brush is right of the jar .the jar is to the left of the brush .
+the mirror is above the counter .the counter is below the mirror .
+the key is right of the folder .the folder is to the left of the key .
+the map is above the shelf .the shelf is below the map .
+the book is inside the pocket .the pocket contains the book .
+the box contains the button .the button is inside the box .
+the card is north of the table .the table is south of the card .
+the curtain is above the ledge .the ledge is below the curtain .
+the apple is right of the folder .the folder is to the left of the apple .
+the tray contains the ring .the ring is inside the tray .
+the tray contains the apple .the apple is inside the tray .
+the ball is right of the crate .the crate is to the left of the ball .
+the crate contains the pen .the pen is inside the crate .
+the thread is beside the bench .the bench is beside the thread .
+the map is above the rug .the rug is below the map .
+the banner is above the stool .the stool is below the banner .
+the ledge is below the clock .the clock is above the ledge .
+the spoon is left of the crate .the crate is to the right of the spoon .
+the key is left of the case .the case is to the right of the key .
+the letter is right of the bag .the bag is to the left of the letter .
+the crate contains the apple .the apple is inside the crate .
+the spoon is left of the basket .the basket is to the right of the spoon .
+the poster is above the ledge .the ledge is below the poster .
+the case contains the book .the book is inside the case .
+the map is above the stool .the stool is below the map .
+the bench is below the banner .the banner is above the bench .
+the letter is right of the drawer .the drawer is to the left of the letter .
+the ledge is below the poster .the poster is above the ledge .
+the stamp is inside the tin .the tin contains the stamp .
+the letter is right of the tray .the tray is to the left of the letter .
+the table is below the hook .the hook is above the table .
+the case contains the ball .the ball is inside the case .
+the folder contains the coin .the coin is inside the folder .
+the book is inside the envelope .the envelope contains the book .
+the pocket contains the book .the book is inside the pocket .
+the card is left of the envelope .the envelope is to the right of the card .
+the book is inside the tin .the tin contains the book .
+the ledge is below the hook .the hook is above the ledge .
+the table is below the mirror .the mirror is above the table .
+the case contains the pen .the pen is inside the case .
+the spoon is under the ledge .the ledge is over the spoon .
+the card is inside the case .the case contains the card .
+the drawer contains the ring .the ring is inside the drawer .
+the coin sits on the table .the table holds the coin .
+the poster is above the desk .the desk is below the poster .
+the pen is beside the desk .the desk is beside the pen .
+the table is below the clock .the clock is above the table .
+the coin is left of the folder .the folder is to the right of the coin .
+the clock is above the counter .the counter is below the clock .
+the key is inside the box .the box contains the key .
+the key is right of the case .the case is to the left of the key .
+the curtain is above the bench .the bench is below the curtain .
+the box contains the thread .the thread is inside the box .
+the letter is inside the case .the case contains the letter .
+the box contains the letter .the letter is inside the box .
+the mat is below the hook .the hook is above the mat .
+the jar contains the key .the key is inside the jar .
+the bag contains the brush .the brush is inside the bag .
+the button is right of the case .the case is to the left of the button .
+the card is left of the tray .the tray is to the right of the card .
+the coin is inside the case .the case contains the coin .
+the mirror is above the ledge .the ledge is below the mirror .
+the brush is inside the basket .the basket contains the brush .
+the letter is inside the jar .the jar contains the letter .
+the basket contains the brush .the brush is inside the basket .
+the brush is inside the tin .the tin contains the brush .
+the apple is in front of the mirror .the mirror is behind the apple .
+the ball is beside the bench .the bench is beside the ball .
+the jar contains the ring .the ring is inside the jar .
+the envelope contains the card .the card is inside the envelope .
+the crate contains the key .the key is inside the crate .
+the hook is above the shelf .the shelf is below the hook .
+the pen is inside the tray .the tray contains the pen .
+the bench is below the poster .the poster is above the bench .
+the key is inside the drawer .the drawer contains the key .
+the case contains the card .the card is inside the case .
+the rug is below the shelf .the shelf is above the rug .
+the ring is right of the envelope .the envelope is to the left of the ring .
+the stamp sits on the cabinet .the cabinet holds the stamp .
+the button is inside the jar .the jar contains the button .
+the ring is inside the pocket .the pocket contains the ring .
+the card is right of the tray .the tray is to the left of the card .
+the letter is right of the crate .the crate is to the left of the letter .
+the key is in front of the lamp .the lamp is behind the key .
+the book is left of the basket .the basket is to the right of the book .
+the ring is left of the tin .the tin is to the right of the ring .
+the bag contains the stamp .the stamp is inside the bag .
+the spoon is inside the bag .the bag contains the spoon .
+the brush is right of the drawer .the drawer is to the left of the brush .
+the tin contains the card .the card is inside the tin .
+the stamp is left of the jar .the jar is to the right of the stamp .
+the button sits on the rug .the rug holds the button .
+the ball is inside the folder .the folder contains the ball .
+the spoon is left of the folder .the folder is to the right of the spoon .
+the letter is inside the box .the box contains the letter .
+the clock is above the rug .the rug is below the clock .
+the apple is inside the tray .the tray contains the apple .
+the ledge is below the map .the map is above the ledge .
+the spoon is right of the crate .the crate is to the left of the spoon .
+the thread is right of the envelope .the envelope is to the left of the thread .
+the button is inside the crate .the crate contains the button .
+the rug is below the lamp .the lamp is above the rug .
+the card is right of the basket .the basket is to the left of the card .
+the card is inside the pocket .the pocket contains the card .
+the thread is left of the envelope .the envelope is to the right of the thread .
+the crate contains the brush .the brush is inside the crate .
+the ball is north of the bench .the bench is south of the ball .
+the stamp is north of the cabinet .the cabinet is south of the stamp .
+the spoon sits on the ledge .the ledge holds the spoon .
+the crate contains the ball .the ball is inside the crate .
+the thread is inside the jar .the jar contains the thread .
+the apple is inside the box .the box contains the apple .
+the coin is inside the drawer .the drawer contains the coin .
+the ledge is below the banner .the banner is above the ledge .
+the spoon is inside the basket .the basket contains the spoon .
+the folder contains the ball .the ball is inside the folder .
+the coin is right of the folder .the folder is to the left of the coin .
+the picture is above the rug .the rug is below the picture .
+the basket contains the book .the book is inside the basket .
+the tin contains the key .the key is inside the tin .
+the card is inside the bag .the bag contains the card .
+the pen is under the desk .the desk is over the pen .
+the card is inside the box .the box contains the card .
+the ledge is below the mirror .the mirror is above the ledge .
+the stool is below the shelf .the shelf is above the stool .
+the pen is left of the envelope .the envelope is to the right of the pen .
+the lamp is above the mat .the mat is below the lamp .
+the box contains the key .the key is inside the box .
+the key is right of the crate .the crate is to the left of the key .
+the spoon is left of the tin .the tin is to the right of the spoon .
+the ring is inside the basket .the basket contains the ring .
+the card is right of the tin .the tin is to the left of the card .
+the thread is inside the bag .the bag contains the thread .
+the coin is left of the basket .the basket is to the right of the coin .
+the coin is inside the tray .the tray contains the coin .
+the ring is north of the table .the table is south of the ring .
+the banner is above the table .the table is below the banner .
+the stamp is inside the tray .the tray contains the stamp .
+the picture is above the shelf .the shelf is below the picture .
+the ring is inside the folder .the folder contains the ring .
+the ball is inside the tray .the tray contains the ball .
+the crate contains the thread .the thread is inside the crate .
+the picture is above the table .the table is below the picture .
+the thread is left of the pocket .the pocket is to the right of the thread .
+the drawer contains the button .the button is inside the drawer .
+the pocket contains the ring .the ring is inside the pocket .
+the letter is left of the drawer .the drawer is to the right of the letter .
+the book is north of the ledge .the ledge is south of the book .
+the ring is left of the envelope .the envelope is to the right of the ring .
+the folder contains the spoon .the spoon is inside the folder .
+the apple is inside the basket .the basket contains the apple .
+the key is inside the jar .the jar contains the key .
+the rug is below the poster .the poster is above the rug .
+the table is below the banner .the banner is above the table .
+the pocket contains the spoon .the spoon is inside the pocket .
+the shelf is below the hook .the hook is above the shelf .
+the brush sits on the shelf .the shelf holds the brush .
+the book is inside the basket .the basket contains the book .
+the folder contains the stamp .the stamp is inside the folder .
+the pen sits on the desk .the desk holds the pen .
+the mirror is above the rug .the rug is below the mirror .
+the clock is above the desk .the desk is below the clock .
+the thread is right of the jar .the jar is to the left of the thread .
+the brush is left of the basket .the basket is to the right of the brush .
+the pocket contains the letter .the letter is inside the pocket .
+the envelope contains the coin .the coin is inside the envelope .
+the shelf is above the counter .the counter is below the shelf .
+the brush is inside the crate .the crate contains the brush .
+the shelf is below the curtain .the curtain is above the shelf .
+the thread is under the bench .the bench is over the thread .
+the bench is below the hook .the hook is above the bench .
+the bench is below the curtain .the curtain is above the bench .
+the shelf is below the map .the map is above the shelf .
+the brush is left of the jar .the jar is to the right of the brush .
+the tray contains the button .the button is inside the tray .
+the pen is inside the drawer .the drawer contains the pen .
+the lamp is above the bench .the bench is below the lamp .
+the letter is under the shelf .the shelf is over the letter .
+the brush is left of the envelope .the envelope is to the right of the brush .
+the curtain is above the counter .the counter is below the curtain .
+the brush is right of the envelope .the envelope is to the left of the brush .
+the spoon is inside the folder .the folder contains the spoon .
+the ring is inside the bag .the bag contains the ring .
+the tray contains the spoon .the spoon is inside the tray .
+the table is below the lamp .the lamp is above the table .
+the spoon is inside the tray .the tray contains the spoon .
+the hook is above the desk .the desk is below the hook .
+the folder contains the apple .the apple is inside the folder .
+the stamp is left of the basket .the basket is to the right of the stamp .
+the clock is above the bench .the bench is below the clock .
+the card is inside the crate .the crate contains the card .
+the pen is inside the jar .the jar contains the pen .
+the apple is north of the bench .the bench is south of the apple .
+the bag contains the spoon .the spoon is inside the bag .
+the stamp is inside the box .the box contains the stamp .
+the ball is inside the case .the case contains the ball .
+the tin contains the book .the book is inside the tin .
+the coin is in front of the hook .the hook is behind the coin .
+the coin is inside the jar .the jar contains the coin .
+the stamp is right of the case .the case is to the left of the stamp .
+the key is left of the box .the box is to the right of the key .
+the counter is below the clock .the clock is above the counter .
+the desk is below the banner .the banner is above the desk .
+the mat is below the mirror .the mirror is above the mat .
+the box contains the spoon .the spoon is inside the box .
+the button is north of the rug .the rug is south of the button .
+the thread is inside the envelope .the envelope contains the thread .
+the desk is below the clock .the clock is above the desk .
+the box contains the apple .the apple is inside the box .
+the counter is below the mirror .the mirror is above the counter .
+the ledge is below the shelf .the shelf is above the ledge .
+the map is above the mat .the mat is below the map .
+the basket contains the card .the card is inside the basket .
+the cabinet is below the lamp .the lamp is above the cabinet .
+the clock is above the shelf .the shelf is below the clock .
+the crate contains the spoon .the spoon is inside the crate .
+the button is right of the jar .the jar is to the left of the button .
+the apple is left of the folder .the folder is to the right of the apple .
+the bag contains the coin .the coin is inside the bag .
+the letter is south of the shelf .the shelf is north of the letter .
+the ring is inside the case .the case contains the ring .
+the mat is below the poster .the poster is above the mat .
+the apple is inside the folder .the folder contains the apple .
+the hook is above the mat .the mat is below the hook .
+the ring is inside the tin .the tin contains the ring .
+the thread is inside the basket .the basket contains the thread .
+the stamp is right of the tray .the tray is to the left of the stamp .
+the shelf is below the banner .the banner is above the shelf .
+the ball is right of the envelope .the envelope is to the left of the ball .
+the stamp is left of the box .the box is to the right of the stamp .
+the ledge is below the lamp .the lamp is above the ledge .
+the ring is inside the jar .the jar contains the ring .
+the hook is above the ledge .the ledge is below the hook .
+the button is inside the drawer .the drawer contains the button .
+the counter is below the map .the map is above the counter .
+the letter is left of the tray .the tray is to the right of the letter .
+the apple is left of the bag .the bag is to the right of the apple .
+the pen is right of the bag .the bag is to the left of the pen .
+the table is below the shelf .the shelf is above the table .
+the apple is south of the bench .the bench is north of the apple .
+the stool is below the mirror .the mirror is above the stool .
+the crate contains the ring .the ring is inside the crate .
+the apple is inside the tin .the tin contains the apple .
+the ball is right of the tray .the tray is to the left of the ball .
+the coin is inside the tin .the tin contains the coin .
+the rug is below the curtain .the curtain is above the rug .
+the folder contains the ring .the ring is inside the folder .
+the mirror is above the shelf .the shelf is below the mirror .
+the spoon is inside the tin .the tin contains the spoon .
+the envelope contains the button .the button is inside the envelope .
+the desk is below the curtain .the curtain is above the desk .
+the brush is inside the drawer .the drawer contains the brush .
+the drawer contains the book .the book is inside the drawer .
+the counter is below the picture .the picture is above the counter .
+the tray contains the card .the card is inside the tray .
+the ledge is below the curtain .the curtain is above the ledge .
+the lamp is above the table .the table is below the lamp .
+the poster is above the rug .the rug is below the poster .
+the key is inside the basket .the basket contains the key .
+the curtain is above the shelf .the shelf is below the curtain .
+the envelope contains the book .the book is inside the envelope .
+the book is under the ledge .the ledge is over the book .
+the button is inside the box .the box contains the button .
+the stamp is right of the box .the box is to the left of the stamp .
+the tin contains the ring .the ring is inside the tin .
+the jar contains the apple .the apple is inside the jar .
+the drawer contains the pen .the pen is inside the drawer .
+the pen is in front of the banner .the banner is behind the pen .
+the tin contains the brush .the brush is inside the tin .
+the book is left of the tray .the tray is to the right of the book .
+the letter is inside the pocket .the pocket contains the letter .
+the book is inside the crate .the crate contains the book .
+the button is inside the tray .the tray contains the button .
+the ring is inside the tray .the tray contains the ring .
+the letter is inside the tin .the tin contains the letter .
+the ring is right of the case .the case is to the left of the ring .
+the ball sits on the bench .the bench holds the ball .
+the letter is inside the envelope .the envelope contains the letter .
+the pen is inside the bag .the bag contains the pen .
+the bag contains the ring .the ring is inside the bag .
+the brush is inside the folder .the folder contains the brush .
+the button is right of the bag .the bag is to the left of the button .
+the pocket contains the ball .the ball is inside the pocket .
+the button is left of the tin .the tin is to the right of the button .
+the button is south of the rug .the rug is north of the button .
+the letter is north of the shelf .the shelf is south of the letter .
+the drawer contains the spoon .the spoon is inside the drawer .
+the brush is in front of the lamp .the lamp is behind the brush .
+the brush is north of the shelf .the shelf is south of the brush .
+the thread is right of the bag .the bag is to the left of the thread .
+the tray contains the ball .the ball is inside the tray .
+the crate contains the book .the book is inside the crate .
+the stamp is inside the crate .the crate contains the stamp .
+the basket contains the thread .the thread is inside the basket .
+the map is above the table .the table is below the map .
+the picture is above the ledge .the ledge is below the picture .
+the curtain is above the mat .the mat is below the curtain .
+the spoon is in front of the shelf .the shelf is behind the spoon .
+the card is inside the tray .the tray contains the card .
+the spoon is beside the ledge .the ledge is beside the spoon .
+the pen is north of the desk .the desk is south of the pen .
+the tin contains the ball .the ball is inside the tin .
+the key is beside the cabinet .the cabinet is beside the key .
+the spoon is right of the tin .the tin is to the left of the spoon .
+the thread is north of the bench .the bench is south of the thread .
+the case contains the ring .the ring is inside the case .
+the lamp is above the ledge .the ledge is below the lamp .
+the poster is above the shelf .the shelf is below the poster .
+the case contains the spoon .the spoon is inside the case .
+the stool is below the curtain .the curtain is above the stool .
+the crate contains the button .the button is inside the crate .
+the letter is beside the shelf .the shelf is beside the letter .
+the button is inside the tin .the tin contains the button .
+the tin contains the button .the button is inside the tin .
+the poster is above the bench .the bench is below the poster .
+the map is above the bench .the bench is below the map .
+the basket contains the stamp .the stamp is inside the basket .
+the key is inside the folder .the folder contains the key .
+the book is left of the tin .the tin is to the right of the book .
+the pen is inside the crate .the crate contains the pen .
+the letter is inside the drawer .the drawer contains the letter .
+the lamp is above the rug .the rug is below the lamp .
+the case contains the letter .the letter is inside the case .
+the rug is below the clock .the clock is above the rug .
+the tray contains the brush .the brush is inside the tray .
+the cabinet is below the poster .the poster is above the cabinet .
+the coin is left of the envelope .the envelope is to the right of the coin .
+the counter is below the lamp .the lamp is above the counter .
+the thread is inside the box .the box contains the thread .
+the card is under the table .the table is over the card .
+the lamp is above the cabinet .the cabinet is below the lamp .
+the basket contains the ball .the ball is inside the basket .
+the book is inside the folder .the folder contains the book .
+the pocket contains the pen .the pen is inside the pocket .
+the card is left of the pocket .the pocket is to the right of the card .
+the coin is inside the crate .the crate contains the coin .
+the box contains the stamp .the stamp is inside the box .
+the brush is under the shelf .the shelf is over the brush .
+the ball is inside the drawer .the drawer contains the ball .
+the ball is inside the tin .the tin contains the ball .
+the box contains the card .the card is inside the box .
+the jar contains the coin .the coin is inside the jar .
+the ring is inside the envelope .the envelope contains the ring .
+the table is below the curtain .the curtain is above the table .
+the envelope contains the thread .the thread is inside the envelope .
+the clock is above the mat .the mat is below the clock .
+the bench is below the clock .the clock is above the bench .
+the tray contains the book .the book is inside the tray .
+the rug is below the picture .the picture is above the rug .
+the bag contains the letter .the letter is inside the bag .
+the ball is left of the envelope .the envelope is to the right of the ball .
+the tin contains the stamp .the stamp is inside the tin .
+the letter sits on the shelf .the shelf holds the letter .
+the lamp is above the stool .the stool is below the lamp .
+the pen is inside the pocket .the pocket contains the pen .
+the book is in front of the hook .the hook is behind the book .
+the pocket contains the key .the key is inside the pocket .
+the box contains the coin .the coin is inside the box .
+the curtain is above the table .the table is below the curtain .
+the envelope contains the key .the key is inside the envelope .
+the book is inside the tray .the tray contains the book .
+the tray contains the thread .the thread is inside the tray .
+the jar contains the brush .the brush is inside the jar .
+the shelf is above the stool .the stool is below the shelf .
+the pocket contains the coin .the coin is inside the pocket .
+the spoon is inside the jar .the jar contains the spoon .
+the bench is below the shelf .the shelf is above the bench .
+the book is right of the case .the case is to the left of the book .
+the apple is left of the tray .the tray is to the right of the apple .
+the cabinet is below the picture .the picture is above the cabinet .
+the case contains the key .the key is inside the case .
+the stool is below the map .the map is above the stool .
+the ball is left of the jar .the jar is to the right of the ball .
+the apple is right of the bag .the bag is to the left of the apple .
+the book is inside the box .the box contains the book .
+the bench is below the map .the map is above the bench .
+the card is left of the tin .the tin is to the right of the card .
+the picture is above the bench .the bench is below the picture .
+the desk is below the shelf .the shelf is above the desk .
+the bench is below the mirror .the mirror is above the bench .
+the jar contains the button .the button is inside the jar .
+the pocket contains the brush .the brush is inside the pocket .
+the counter is below the shelf .the shelf is above the counter .
+the thread is left of the bag .the bag is to the right of the thread .
+the pen is left of the crate .the crate is to the right of the pen .
+the envelope contains the ring .the ring is inside the envelope .
+the spoon is inside the pocket .the pocket contains the spoon .
+the drawer contains the key .the key is inside the drawer .
+the coin is right of the crate .the crate is to the left of the coin .
+the pen is right of the crate .the crate is to the left of the pen .
+the stamp is inside the case .the case contains the stamp .
+the letter is inside the basket .the basket contains the letter .
+the pen is inside the envelope .the envelope contains the pen .
+the book is right of the basket .the basket is to the left of the book .
+the cabinet is below the shelf .the shelf is above the cabinet .
+the thread is left of the jar .the jar is to the right of the thread .
+the stamp is inside the pocket .the pocket contains the stamp .
+the pen is right of the box .the box is to the left of the pen .
+the pocket contains the card .the card is inside the pocket .
+the hook is above the counter .the counter is below the hook .
+the ball is under the bench .the bench is over the ball .
+the ring is right of the folder .the folder is to the left of the ring .
+the button is right of the basket .the basket is to the left of the button .
+the folder contains the brush .the brush is inside the folder .
+the brush is inside the pocket .the pocket contains the brush .
+the curtain is above the stool .the stool is below the curtain .
+the counter is below the poster .the poster is above the counter .
+the coin is left of the crate .the crate is to the right of the coin .
+the picture is above the counter .the counter is below the picture .
+the pen is inside the basket .the basket contains the pen .
+the envelope contains the apple .the apple is inside the envelope .
+the ring is beside the table .the table is beside the ring .
+the rug is below the map .the map is above the rug .
+the brush is inside the tray .the tray contains the brush .
+the folder contains the book .the book is inside the folder .
+the button is left of the bag .the bag is to the right of the button .
+the mirror is above the desk .the desk is below the mirror .
+the apple is inside the pocket .the pocket contains the apple .
+the pen is inside the folder .the folder contains the pen .
+the mirror is above the mat .the mat is below the mirror .
+the button is inside the envelope .the envelope contains the button .
+the apple is left of the envelope .the envelope is to the right of the apple .
+the key sits on the cabinet .the cabinet holds the key .
+the ring is right of the jar .the jar is to the left of the ring .
+the button is right of the tin .the tin is to the left of the button .
+the drawer contains the brush .the brush is inside the drawer .
+the coin is beside the table .the table is beside the coin .
+the desk is below the map .the map is above the desk .
+the button is inside the folder .the folder contains the button .
+the coin is right of the case .the case is to the left of the coin .
+the poster is above the table .the table is below the poster .
+the folder contains the pen .the pen is inside the folder .
+the basket contains the coin .the coin is inside the basket .
+the case contains the thread .the thread is inside the case .
+the basket contains the spoon .the spoon is inside the basket .
+the mat is below the banner .the banner is above the mat .
+the ledge is below the picture .the picture is above the ledge .
+the clock is above the stool .the stool is below the clock .
+the tray contains the stamp .the stamp is inside the tray .
+the stamp is inside the drawer .the drawer contains the stamp .
+the picture is above the cabinet .the cabinet is below the picture .
+the tin contains the letter .the letter is inside the tin .
+the basket contains the letter .the letter is inside the basket .
+the tin contains the apple .the apple is inside the tin .
+the crate contains the coin .the coin is inside the crate .
+the coin is right of the envelope .the envelope is to the left of the coin .
+the map is above the counter .the counter is below the map .
+the book sits on the ledge .the ledge holds the book .
+the book is right of the tin .the tin is to the left of the book .
+the key is inside the tin .the tin contains the key .
+the button is inside the bag .the bag contains the button .
+the counter is below the hook .the hook is above the counter .
+the card is right of the envelope .the envelope is to the left of the card .
+the pen is left of the box .the box is to the right of the pen .
+the tray contains the coin .the coin is inside the tray .
+the hook is above the cabinet .the cabinet is below the hook .
+the map is above the cabinet .the cabinet is below the map .
+the card is inside the drawer .the drawer contains the card .
+the ball is in front of the mirror .the mirror is behind the ball .
+the tin contains the thread .the thread is inside the tin .
+the box contains the ring .the ring is inside the box .
+the pen is left of the pocket .the pocket is to the right of the pen .
+the mat is below the map .the map is above the mat .
+the ball is south of the bench .the bench is north of the ball .
+the brush is inside the case .the case contains the brush .
+the ball is left of the tray .the tray is to the right of the ball .
+the hook is above the rug .the rug is below the hook .
+the envelope contains the spoon .the spoon is inside the envelope .
+the ball is right of the jar .the jar is to the left of the ball .
+the thread is in front of the map .the map is behind the thread .
+the desk is below the poster .the poster is above the desk .
+the coin is right of the basket .the basket is to the left of the coin .
+the pen is inside the tin .the tin contains the pen .
+the mirror is above the cabinet .the cabinet is below the mirror .
+the case contains the brush .the brush is inside the case .
+the key is right of the jar .the jar is to the left of the key .
+the poster is above the stool .the stool is below the poster .
+the book is right of the tray .the tray is to the left of the book .
+the banner is above the mat .the mat is below the banner .
+the banner is above the shelf .the shelf is below the banner .
+the shelf is below the lamp .the lamp is above the shelf .
+the apple is inside the envelope .the envelope contains the apple .
+the cabinet is below the clock .the clock is above the cabinet .
+the card is inside the folder .the folder contains the card .
+the card is inside the jar .the jar contains the card .
+the picture is above the desk .the desk is below the picture .
+the desk is below the mirror .the mirror is above the desk .
+the curtain is above the desk .the desk is below the curtain .
+the card is inside the envelope .the envelope contains the card .
+the button is left of the jar .the jar is to the right of the button .
+the book is inside the drawer .the drawer contains the book .
+the cabinet is below the map .the map is above the cabinet .
+the brush is south of the shelf .the shelf is north of the brush .
+the crate contains the stamp .the stamp is inside the crate .
+the ring is right of the tin .the tin is to the left of the ring .
+the ball is inside the jar .the jar contains the ball .
+the mirror is above the bench .the bench is below the mirror .
+the drawer contains the thread .the thread is inside the drawer .
+the brush is left of the drawer .the drawer is to the right of the brush .
+the thread sits on the bench .the bench holds the thread .
+the shelf is above the mat .the mat is below the shelf .
+the stamp is inside the basket .the basket contains the stamp .
+the spoon is inside the drawer .the drawer contains the spoon .
+the clock is above the ledge .the ledge is below the clock .
+the envelope contains the pen .the pen is inside the envelope .
+the shelf is below the picture .the picture is above the shelf .
+the brush is beside the shelf .the shelf is beside the brush .
+the ball is inside the pocket .the pocket contains the ball .
+the apple is right of the tray .the tray is to the left of the apple .
+the book is inside the case .the case contains the book .
+the mat is below the shelf .the shelf is above the mat .
+the poster is above the mat .the mat is below the poster .
+the bag contains the pen .the pen is inside the bag .
+the card is right of the pocket .the pocket is to the left of the card .
+the shelf is above the bench .the bench is below the shelf .
+the coin is left of the case .the case is to the right of the coin .
+the crate contains the card .the card is inside the crate .
+the spoon is right of the basket .the basket is to the left of the spoon .
+the bench is below the picture .the picture is above the bench .
+the hook is above the table .the table is below the hook .
+the ring is inside the box .the box contains the ring .
+the thread is inside the drawer .the drawer contains the thread .
+the key is left of the folder .the folder is to the right of the key .
+the pen is inside the case .the case contains the pen .
+the ball is inside the bag .the bag contains the ball .
+the stamp is right of the jar .the jar is to the left of the stamp .
+the spoon is left of the envelope .the envelope is to the right of the spoon .
+the coin is south of the table .the table is north of the coin .
+the stamp is left of the case .the case is to the right of the stamp .
+the bag contains the button .the button is inside the bag .
+the book is left of the case .the case is to the right of the book .
+the stamp is inside the jar .the jar contains the stamp .
+the table is below the map .the map is above the table .
+the cabinet is below the hook .the hook is above the cabinet .
+the bag contains the card .the card is inside the bag .
+the pen is right of the pocket .the pocket is to the left of the pen .
+the map is above the desk .the desk is below the map .
+the card is in front of the picture .the picture is behind the card .
+the apple is inside the drawer .the drawer contains the apple .
+the drawer contains the stamp .the stamp is inside the drawer .
+the thread is right of the pocket .the pocket is to the left of the thread .
+the envelope contains the brush .the brush is inside the envelope .
+the card sits on the table .the table holds the card .
+the jar contains the letter .the letter is inside the jar .
+the spoon is inside the crate .the crate contains the spoon .
+the mirror is above the table .the table is below the mirror .
+the apple is beside the bench .the bench is beside the apple .
+the shelf is below the mirror .the mirror is above the shelf .
+the apple is right of the envelope .the envelope is to the left of the apple .
+the lamp is above the counter .the counter is below the lamp .
+the key is inside the envelope .the envelope contains the key .
+the thread is inside the crate .the crate contains the thread .
+the stamp is right of the basket .the basket is to the left of the stamp .
+the letter is inside the tray .the tray contains the letter .
+the clock is above the table .the table is below the clock .
+the jar contains the ball .the ball is inside the jar .
+the rug is below the banner .the banner is above the rug .
+the stamp is south of the cabinet .the cabinet is north of the stamp .
+the box contains the book .the book is inside the box .
+the pocket contains the apple .the apple is inside the pocket .
+the spoon is right of the envelope .the envelope is to the left of the spoon .
+the coin is inside the bag .the bag contains the coin .
+the stool is below the clock .the clock is above the stool .
+the case contains the apple .the apple is inside the case .
+the card is beside the table .the table is beside the card .
+the bench is below the lamp .the lamp is above the bench .
+the apple is inside the jar .the jar contains the apple .
+the spoon is south of the ledge .the ledge is north of the spoon .
+the ring is inside the crate .the crate contains the ring .
+the drawer contains the ball .the ball is inside the drawer .
+the jar contains the book .the book is inside the jar .
+the pen is left of the bag .the bag is to the right of the pen .
+the letter is left of the bag .the bag is to the right of the letter .
+the drawer contains the card .the card is inside the drawer .
+the basket contains the apple .the apple is inside the basket .
+the banner is above the bench .the bench is below the banner .
+the pocket contains the button .the button is inside the pocket .
+the shelf is above the cabinet .the cabinet is below the shelf .
+the folder contains the thread .the thread is inside the folder .
+the coin is under the table .the table is over the coin .
+the card is inside the tin .the tin contains the card .
+the ring is south of the table .the table is north of the ring .
+the stool is below the lamp .the lamp is above the stool .
+the basket contains the button .the button is inside the basket .
+the letter is inside the folder .the folder contains the letter .
+the desk is below the picture .the picture is above the desk .
+the pocket contains the stamp .the stamp is inside the pocket .
+the card is left of the basket .the basket is to the right of the card .
+the letter is left of the pocket .the pocket is to the right of the letter .
+the table is below the poster .the poster is above the table .
+the table is below the picture .the picture is above the table .
+the picture is above the mat .the mat is below the picture .
+the rug is below the hook .the hook is above the rug .
+the ball is inside the basket .the basket contains the ball .
+the drawer contains the letter .the letter is inside the drawer .
+the tray contains the pen .the pen is inside the tray .
+the shelf is above the desk .the desk is below the shelf .
+the button is left of the case .the case is to the right of the button .
+the clock is above the cabinet .the cabinet is below the clock .
+the letter is in front of the banner .the banner is behind the letter .
+the pen is south of the desk .the desk is north of the pen .
+the banner is above the ledge .the ledge is below the banner .
+the apple is left of the box .the box is to the right of the apple .
+the tin contains the spoon .the spoon is inside the tin .

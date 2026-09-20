@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+/llm_runs/
+experiments/*/workspace/
+
+# NOTE: unlike the upstream starter, corpus/ is NOT ignored here. Every corpus
+# file in this repository was written by tools/make_extension_corpus.py for this
+# assignment; there is no third-party or private text to withhold, and the
+# assignment asks for the corpus to be shared when permitted.
