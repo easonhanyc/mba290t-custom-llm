@@ -13,10 +13,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.17893,
-            "green": 0.09337,
-            "yellow": 0.0021,
-            "red": 0.00866
+            "blue": 0.8563,
+            "green": 0.00942,
+            "yellow": 5e-05,
+            "red": 0.00552
           }
         },
         {
@@ -24,10 +24,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89164,
-            "green": 0.00412,
-            "yellow": 0.00349,
-            "red": 0.00065
+            "blue": 0.94441,
+            "green": 0.0129,
+            "yellow": 4e-05,
+            "red": 0.00172
           }
         },
         {
@@ -35,10 +35,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89455,
-            "green": 0.00436,
-            "yellow": 0.0033,
-            "red": 0.00078
+            "blue": 0.94372,
+            "green": 0.00988,
+            "yellow": 4e-05,
+            "red": 0.00209
           }
         },
         {
@@ -46,10 +46,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89514,
-            "green": 0.00491,
-            "yellow": 0.00732,
-            "red": 0.0022
+            "blue": 0.9412,
+            "green": 0.01094,
+            "yellow": 4e-05,
+            "red": 0.00239
           }
         },
         {
@@ -57,10 +57,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.88995,
-            "green": 0.00483,
-            "yellow": 0.00503,
-            "red": 0.00112
+            "blue": 0.9421,
+            "green": 0.01099,
+            "yellow": 4e-05,
+            "red": 0.00218
           }
         },
         {
@@ -68,10 +68,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.90174,
-            "green": 0.00315,
-            "yellow": 0.00522,
-            "red": 0.00092
+            "blue": 0.94251,
+            "green": 0.01303,
+            "yellow": 4e-05,
+            "red": 0.00158
           }
         },
         {
@@ -79,10 +79,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.88793,
-            "green": 0.00423,
-            "yellow": 0.00606,
-            "red": 0.00122
+            "blue": 0.93738,
+            "green": 0.01558,
+            "yellow": 4e-05,
+            "red": 0.00185
           }
         },
         {
@@ -90,10 +90,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89293,
-            "green": 0.00377,
-            "yellow": 0.005,
-            "red": 0.00088
+            "blue": 0.93606,
+            "green": 0.01612,
+            "yellow": 4e-05,
+            "red": 0.00178
           }
         },
         {
@@ -101,10 +101,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.90501,
-            "green": 0.00352,
-            "yellow": 0.00397,
-            "red": 0.00102
+            "blue": 0.94192,
+            "green": 0.01361,
+            "yellow": 5e-05,
+            "red": 0.0025
           }
         },
         {
@@ -112,10 +112,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89497,
-            "green": 0.00451,
-            "yellow": 0.00643,
-            "red": 0.00158
+            "blue": 0.93867,
+            "green": 0.01368,
+            "yellow": 4e-05,
+            "red": 0.0017
           }
         },
         {
@@ -123,10 +123,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.88614,
-            "green": 0.00462,
-            "yellow": 0.00489,
-            "red": 0.00114
+            "blue": 0.93868,
+            "green": 0.01702,
+            "yellow": 5e-05,
+            "red": 0.00247
           }
         },
         {
@@ -134,10 +134,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.87799,
-            "green": 0.00667,
-            "yellow": 0.00253,
-            "red": 0.00072
+            "blue": 0.93642,
+            "green": 0.0111,
+            "yellow": 3e-05,
+            "red": 0.00234
           }
         },
         {
@@ -145,10 +145,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89585,
-            "green": 0.00451,
-            "yellow": 0.00445,
-            "red": 0.00118
+            "blue": 0.94415,
+            "green": 0.0126,
+            "yellow": 4e-05,
+            "red": 0.00152
           }
         },
         {
@@ -156,10 +156,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.88839,
-            "green": 0.00563,
-            "yellow": 0.00454,
-            "red": 0.00139
+            "blue": 0.94334,
+            "green": 0.01552,
+            "yellow": 4e-05,
+            "red": 0.00179
           }
         },
         {
@@ -167,10 +167,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.79901,
-            "green": 0.01447,
-            "yellow": 0.00286,
-            "red": 0.00132
+            "blue": 0.85972,
+            "green": 0.02618,
+            "yellow": 6e-05,
+            "red": 0.00114
           }
         },
         {
@@ -178,10 +178,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89058,
-            "green": 0.00494,
-            "yellow": 0.00598,
-            "red": 0.00139
+            "blue": 0.94139,
+            "green": 0.01265,
+            "yellow": 6e-05,
+            "red": 0.0019
           }
         }
       ]
@@ -194,12 +194,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.06713,
+          "margin_over_runner_up": 0.15038,
           "probabilities": {
-            "quiet": 0.0755,
-            "loud": 0.00829,
-            "late": 0.00837,
-            "round": 0.00161
+            "quiet": 0.16386,
+            "loud": 0.01348,
+            "late": 0.00089,
+            "round": 0.00235
           },
           "taught_in_the_opposite_frame": false
         },
@@ -208,26 +208,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.92663,
+          "margin_over_runner_up": 0.5386,
           "probabilities": {
-            "cold": 0.92671,
-            "warm": 8e-05,
-            "fast": 1e-05,
-            "heavy": 2e-05
+            "cold": 0.53901,
+            "warm": 0.00041,
+            "fast": 0.00034,
+            "heavy": 4e-05
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "full",
-          "correct": true,
-          "margin_over_runner_up": 0.03495,
+          "argmax": "soft",
+          "correct": false,
+          "margin_over_runner_up": 0.00192,
           "probabilities": {
-            "full": 0.05259,
-            "quiet": 0.00098,
-            "early": 0.01723,
-            "soft": 0.01764
+            "full": 0.00381,
+            "quiet": 0.0001,
+            "early": 0.00857,
+            "soft": 0.01049
           },
           "taught_in_the_opposite_frame": false
         },
@@ -236,12 +236,12 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.72363,
+          "margin_over_runner_up": 0.6916,
           "probabilities": {
-            "light": 0.73911,
-            "soft": 0.01548,
-            "small": 0.00014,
-            "slow": 0.00036
+            "light": 0.69278,
+            "soft": 0.00118,
+            "small": 4e-05,
+            "slow": 0.00082
           },
           "taught_in_the_opposite_frame": true
         },
@@ -250,12 +250,12 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.63712,
+          "margin_over_runner_up": 0.5476,
           "probabilities": {
-            "dry": 0.64571,
-            "clean": 0.00137,
-            "cold": 0.00859,
-            "warm": 0.00136
+            "dry": 0.55163,
+            "clean": 0.0013,
+            "cold": 0.0026,
+            "warm": 0.00403
           },
           "taught_in_the_opposite_frame": true
         },
@@ -264,12 +264,12 @@
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.17772,
+          "margin_over_runner_up": 0.14348,
           "probabilities": {
-            "late": 0.18324,
-            "slow": 0.00552,
-            "old": 0.00034,
-            "near": 0.00085
+            "late": 0.15153,
+            "slow": 0.00346,
+            "old": 0.00079,
+            "near": 0.00805
           },
           "taught_in_the_opposite_frame": true
         }
@@ -282,18 +282,18 @@
     "negation_copy_probe": {
       "question": "lang_31 asks the model to copy the corrected colour back. It failed on 'box'. Does the copy work for other objects taught the same way?",
       "prompt_template": "the {object} is not red . it is blue . the {object} is",
-      "objects_where_the_copy_works": 15,
+      "objects_where_the_copy_works": 16,
       "objects_tested": 16,
       "results": [
         {
           "object": "box",
-          "argmax_among_colours": "red",
-          "copies_the_correction": false,
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.20446,
-            "green": 0.09015,
-            "yellow": 0.02244,
-            "red": 0.24189
+            "blue": 0.86791,
+            "green": 0.00064,
+            "yellow": 0.00684,
+            "red": 0.03923
           }
         },
         {
@@ -301,10 +301,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93601,
-            "green": 0.01447,
-            "yellow": 0.0063,
-            "red": 0.00919
+            "blue": 0.90829,
+            "green": 0.00058,
+            "yellow": 0.00162,
+            "red": 0.01302
           }
         },
         {
@@ -312,10 +312,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92667,
-            "green": 0.01711,
-            "yellow": 0.00754,
-            "red": 0.01259
+            "blue": 0.90178,
+            "green": 0.00066,
+            "yellow": 0.00233,
+            "red": 0.01371
           }
         },
         {
@@ -323,10 +323,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92783,
-            "green": 0.01506,
-            "yellow": 0.00756,
-            "red": 0.01157
+            "blue": 0.903,
+            "green": 0.00066,
+            "yellow": 0.00211,
+            "red": 0.01363
           }
         },
         {
@@ -334,10 +334,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92541,
-            "green": 0.01549,
-            "yellow": 0.0076,
-            "red": 0.01232
+            "blue": 0.91179,
+            "green": 0.00059,
+            "yellow": 0.00167,
+            "red": 0.01309
           }
         },
         {
@@ -345,10 +345,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93528,
-            "green": 0.01522,
-            "yellow": 0.00578,
-            "red": 0.00952
+            "blue": 0.89396,
+            "green": 0.00067,
+            "yellow": 0.00217,
+            "red": 0.01061
           }
         },
         {
@@ -356,10 +356,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92948,
-            "green": 0.01646,
-            "yellow": 0.00729,
-            "red": 0.01152
+            "blue": 0.91353,
+            "green": 0.00072,
+            "yellow": 0.00214,
+            "red": 0.01978
           }
         },
         {
@@ -367,10 +367,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9366,
-            "green": 0.01302,
-            "yellow": 0.0067,
-            "red": 0.01086
+            "blue": 0.90675,
+            "green": 0.00047,
+            "yellow": 0.00154,
+            "red": 0.01347
           }
         },
         {
@@ -378,10 +378,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92846,
-            "green": 0.01312,
-            "yellow": 0.00629,
-            "red": 0.00876
+            "blue": 0.89578,
+            "green": 0.0009,
+            "yellow": 0.0026,
+            "red": 0.01465
           }
         },
         {
@@ -389,10 +389,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92094,
-            "green": 0.01901,
-            "yellow": 0.01079,
-            "red": 0.01111
+            "blue": 0.9033,
+            "green": 0.00059,
+            "yellow": 0.00208,
+            "red": 0.01323
           }
         },
         {
@@ -400,10 +400,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92686,
-            "green": 0.01818,
-            "yellow": 0.00862,
-            "red": 0.00906
+            "blue": 0.89832,
+            "green": 0.001,
+            "yellow": 0.0026,
+            "red": 0.01367
           }
         },
         {
@@ -411,10 +411,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92353,
-            "green": 0.01535,
-            "yellow": 0.00855,
-            "red": 0.01127
+            "blue": 0.91413,
+            "green": 0.0008,
+            "yellow": 0.00264,
+            "red": 0.01841
           }
         },
         {
@@ -422,10 +422,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.91367,
-            "green": 0.01808,
-            "yellow": 0.00855,
-            "red": 0.01261
+            "blue": 0.90906,
+            "green": 0.00067,
+            "yellow": 0.00199,
+            "red": 0.01441
           }
         },
         {
@@ -433,10 +433,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.91076,
-            "green": 0.02166,
-            "yellow": 0.01064,
-            "red": 0.01428
+            "blue": 0.89148,
+            "green": 0.00095,
+            "yellow": 0.00285,
+            "red": 0.01478
           }
         },
         {
@@ -444,10 +444,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.01605,
-            "green": 0.00153,
-            "yellow": 0.00103,
-            "red": 0.00377
+            "blue": 0.76275,
+            "green": 0.00026,
+            "yellow": 0.00094,
+            "red": 0.01194
           }
         },
         {
@@ -455,10 +455,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.92526,
-            "green": 0.01589,
-            "yellow": 0.00765,
-            "red": 0.01118
+            "blue": 0.89727,
+            "green": 0.00036,
+            "yellow": 0.00119,
+            "red": 0.01198
           }
         }
       ]
@@ -471,12 +471,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.29865,
+          "margin_over_runner_up": 0.31336,
           "probabilities": {
-            "quiet": 0.30086,
-            "loud": 0.00221,
-            "late": 0.00015,
-            "round": 5e-05
+            "quiet": 0.31584,
+            "loud": 0.00248,
+            "late": 0.00031,
+            "round": 6e-05
           },
           "taught_in_the_opposite_frame": false
         },
@@ -485,26 +485,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.7305,
+          "margin_over_runner_up": 0.94349,
           "probabilities": {
-            "cold": 0.73241,
-            "warm": 0.00191,
-            "fast": 4e-05,
-            "heavy": 5e-05
+            "cold": 0.94459,
+            "warm": 0.0011,
+            "fast": 2e-05,
+            "heavy": 0.00028
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "early",
+          "argmax": "quiet",
           "correct": false,
-          "margin_over_runner_up": 0.00163,
+          "margin_over_runner_up": 0.05185,
           "probabilities": {
-            "full": 0.01413,
-            "quiet": 0.0041,
-            "early": 0.01576,
-            "soft": 0.01146
+            "full": 0.00378,
+            "quiet": 0.05609,
+            "early": 0.00424,
+            "soft": 0.00069
           },
           "taught_in_the_opposite_frame": false
         },
@@ -513,12 +513,12 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.81225,
+          "margin_over_runner_up": 0.81912,
           "probabilities": {
-            "light": 0.81345,
-            "soft": 0.00015,
-            "small": 0.00025,
-            "slow": 0.0012
+            "light": 0.81949,
+            "soft": 4e-05,
+            "small": 0.00011,
+            "slow": 0.00037
           },
           "taught_in_the_opposite_frame": true
         },
@@ -527,12 +527,12 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.84503,
+          "margin_over_runner_up": 0.55489,
           "probabilities": {
-            "dry": 0.86064,
-            "clean": 0.00037,
-            "cold": 0.00955,
-            "warm": 0.01561
+            "dry": 0.58464,
+            "clean": 0.00712,
+            "cold": 0.00884,
+            "warm": 0.02975
           },
           "taught_in_the_opposite_frame": true
         },
@@ -541,12 +541,12 @@
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.39803,
+          "margin_over_runner_up": 0.15471,
           "probabilities": {
-            "late": 0.40945,
-            "slow": 0.01142,
-            "old": 0.00103,
-            "near": 7e-05
+            "late": 0.19084,
+            "slow": 0.00047,
+            "old": 0.00019,
+            "near": 0.03613
           },
           "taught_in_the_opposite_frame": true
         }
@@ -567,10 +567,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9931,
-            "green": 0.00093,
-            "yellow": 0.00019,
-            "red": 2e-05
+            "blue": 0.97134,
+            "green": 0.00097,
+            "yellow": 0.00044,
+            "red": 0.00284
           }
         },
         {
@@ -578,10 +578,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99396,
-            "green": 0.0007,
-            "yellow": 0.00015,
-            "red": 1e-05
+            "blue": 0.9927,
+            "green": 0.0002,
+            "yellow": 9e-05,
+            "red": 0.00205
           }
         },
         {
@@ -589,10 +589,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99403,
-            "green": 0.00082,
-            "yellow": 0.00017,
-            "red": 2e-05
+            "blue": 0.99241,
+            "green": 0.00028,
+            "yellow": 0.00014,
+            "red": 0.00157
           }
         },
         {
@@ -600,10 +600,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99249,
-            "green": 0.00078,
-            "yellow": 0.00014,
-            "red": 2e-05
+            "blue": 0.99244,
+            "green": 0.0002,
+            "yellow": 0.00011,
+            "red": 0.00224
           }
         },
         {
@@ -611,10 +611,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99144,
-            "green": 0.00211,
-            "yellow": 0.00046,
-            "red": 5e-05
+            "blue": 0.99257,
+            "green": 0.0002,
+            "yellow": 9e-05,
+            "red": 0.00204
           }
         },
         {
@@ -622,10 +622,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99347,
-            "green": 0.00062,
-            "yellow": 0.00018,
-            "red": 2e-05
+            "blue": 0.99396,
+            "green": 0.00015,
+            "yellow": 8e-05,
+            "red": 0.0018
           }
         },
         {
@@ -633,10 +633,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99294,
-            "green": 0.00126,
-            "yellow": 0.00022,
-            "red": 3e-05
+            "blue": 0.99199,
+            "green": 0.0003,
+            "yellow": 0.00013,
+            "red": 0.00191
           }
         },
         {
@@ -644,10 +644,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99254,
-            "green": 0.00067,
-            "yellow": 0.00014,
-            "red": 1e-05
+            "blue": 0.99295,
+            "green": 0.00019,
+            "yellow": 8e-05,
+            "red": 0.0018
           }
         },
         {
@@ -655,10 +655,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99356,
-            "green": 0.001,
-            "yellow": 0.0002,
-            "red": 2e-05
+            "blue": 0.99377,
+            "green": 0.00017,
+            "yellow": 6e-05,
+            "red": 0.00182
           }
         },
         {
@@ -666,10 +666,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9943,
-            "green": 0.00068,
-            "yellow": 0.00014,
-            "red": 1e-05
+            "blue": 0.99435,
+            "green": 0.00015,
+            "yellow": 7e-05,
+            "red": 0.00143
           }
         },
         {
@@ -677,10 +677,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99284,
-            "green": 0.00045,
-            "yellow": 0.00015,
-            "red": 1e-05
+            "blue": 0.9943,
+            "green": 0.00014,
+            "yellow": 8e-05,
+            "red": 0.00114
           }
         },
         {
@@ -688,10 +688,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99439,
-            "green": 0.00069,
-            "yellow": 0.00021,
-            "red": 1e-05
+            "blue": 0.99314,
+            "green": 0.00022,
+            "yellow": 8e-05,
+            "red": 0.00157
           }
         },
         {
@@ -699,10 +699,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99304,
-            "green": 0.00076,
-            "yellow": 0.00022,
-            "red": 1e-05
+            "blue": 0.9924,
+            "green": 0.00022,
+            "yellow": 0.0001,
+            "red": 0.00136
           }
         },
         {
@@ -710,10 +710,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99349,
-            "green": 0.00073,
-            "yellow": 0.00016,
-            "red": 1e-05
+            "blue": 0.99376,
+            "green": 0.0001,
+            "yellow": 4e-05,
+            "red": 0.00213
           }
         },
         {
@@ -721,10 +721,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.91187,
-            "green": 0.0002,
-            "yellow": 0.00012,
-            "red": 1e-05
+            "blue": 0.97808,
+            "green": 7e-05,
+            "yellow": 3e-05,
+            "red": 0.00175
           }
         },
         {
@@ -732,10 +732,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99333,
-            "green": 0.00076,
-            "yellow": 0.00014,
-            "red": 1e-05
+            "blue": 0.99358,
+            "green": 0.00018,
+            "yellow": 7e-05,
+            "red": 0.00172
           }
         }
       ]
@@ -748,12 +748,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.05241,
+          "margin_over_runner_up": 0.35552,
           "probabilities": {
-            "quiet": 0.06252,
-            "loud": 0.01011,
-            "late": 0.00182,
-            "round": 0.0001
+            "quiet": 0.35907,
+            "loud": 0.00355,
+            "late": 0.00018,
+            "round": 0.0002
           },
           "taught_in_the_opposite_frame": false
         },
@@ -762,26 +762,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.5912,
+          "margin_over_runner_up": 0.29129,
           "probabilities": {
-            "cold": 0.59174,
-            "warm": 0.00054,
-            "fast": 0.0,
-            "heavy": 0.0
+            "cold": 0.32913,
+            "warm": 0.03784,
+            "fast": 5e-05,
+            "heavy": 0.00158
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "full",
-          "correct": true,
-          "margin_over_runner_up": 0.09081,
+          "argmax": "early",
+          "correct": false,
+          "margin_over_runner_up": 0.00359,
           "probabilities": {
-            "full": 0.09106,
-            "quiet": 0.00022,
-            "early": 0.00024,
-            "soft": 0.00025
+            "full": 0.00255,
+            "quiet": 0.00121,
+            "early": 0.00614,
+            "soft": 0.00033
           },
           "taught_in_the_opposite_frame": false
         },
@@ -790,9 +790,9 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.97813,
+          "margin_over_runner_up": 0.99053,
           "probabilities": {
-            "light": 0.97822,
+            "light": 0.99062,
             "soft": 0.0,
             "small": 0.0,
             "slow": 9e-05
@@ -804,12 +804,12 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.9818,
+          "margin_over_runner_up": 0.97328,
           "probabilities": {
-            "dry": 0.98542,
-            "clean": 0.00032,
-            "cold": 0.0,
-            "warm": 0.00362
+            "dry": 0.97331,
+            "clean": 0.0,
+            "cold": 3e-05,
+            "warm": 3e-05
           },
           "taught_in_the_opposite_frame": true
         },
@@ -818,12 +818,289 @@
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.84981,
+          "margin_over_runner_up": 0.72245,
           "probabilities": {
-            "late": 0.84991,
-            "slow": 9e-05,
-            "old": 0.0001,
-            "near": 5e-05
+            "late": 0.72429,
+            "slow": 6e-05,
+            "old": 1e-05,
+            "near": 0.00184
+          },
+          "taught_in_the_opposite_frame": true
+        }
+      ]
+    }
+  },
+  "unpaired": {
+    "model": "experiments/unpaired/llm_run/model.pt",
+    "note": "These probes are inference only. None of them appears in corpus/; they exist to explain measured eval failures, not to change any model or score.",
+    "negation_copy_probe": {
+      "question": "lang_31 asks the model to copy the corrected colour back. It failed on 'box'. Does the copy work for other objects taught the same way?",
+      "prompt_template": "the {object} is not red . it is blue . the {object} is",
+      "objects_where_the_copy_works": 16,
+      "objects_tested": 16,
+      "results": [
+        {
+          "object": "box",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.96899,
+            "green": 1e-05,
+            "yellow": 0.00053,
+            "red": 0.00138
+          }
+        },
+        {
+          "object": "cup",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98992,
+            "green": 0.0,
+            "yellow": 0.00048,
+            "red": 0.00069
+          }
+        },
+        {
+          "object": "mug",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98935,
+            "green": 0.0,
+            "yellow": 0.0004,
+            "red": 0.0007
+          }
+        },
+        {
+          "object": "chair",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98989,
+            "green": 0.0,
+            "yellow": 0.00042,
+            "red": 0.00065
+          }
+        },
+        {
+          "object": "hat",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99114,
+            "green": 0.0,
+            "yellow": 0.00053,
+            "red": 0.00077
+          }
+        },
+        {
+          "object": "coat",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.9907,
+            "green": 0.0,
+            "yellow": 0.00058,
+            "red": 0.00068
+          }
+        },
+        {
+          "object": "flag",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.9913,
+            "green": 0.0,
+            "yellow": 0.00069,
+            "red": 0.0007
+          }
+        },
+        {
+          "object": "kite",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99072,
+            "green": 0.0,
+            "yellow": 0.00062,
+            "red": 0.00068
+          }
+        },
+        {
+          "object": "scarf",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99077,
+            "green": 0.0,
+            "yellow": 0.0006,
+            "red": 0.00076
+          }
+        },
+        {
+          "object": "van",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.9893,
+            "green": 0.0,
+            "yellow": 0.00049,
+            "red": 0.00106
+          }
+        },
+        {
+          "object": "bench",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98966,
+            "green": 0.0,
+            "yellow": 0.00073,
+            "red": 0.00095
+          }
+        },
+        {
+          "object": "bowl",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98815,
+            "green": 0.0,
+            "yellow": 0.00046,
+            "red": 0.00061
+          }
+        },
+        {
+          "object": "plate",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.9901,
+            "green": 0.0,
+            "yellow": 0.00063,
+            "red": 0.00057
+          }
+        },
+        {
+          "object": "card",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98762,
+            "green": 0.0,
+            "yellow": 0.0007,
+            "red": 0.0008
+          }
+        },
+        {
+          "object": "board",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.98222,
+            "green": 1e-05,
+            "yellow": 0.00045,
+            "red": 0.00131
+          }
+        },
+        {
+          "object": "sign",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99066,
+            "green": 0.0,
+            "yellow": 0.00051,
+            "red": 0.00075
+          }
+        }
+      ]
+    },
+    "opposites_margin_probe": {
+      "question": "lang_30 ('the opposite of noisy is') chose 'loud' over 'quiet'. How close was it, and does the frame work for pairs taught inside it?",
+      "results": [
+        {
+          "word": "noisy",
+          "expected": "quiet",
+          "argmax": "quiet",
+          "correct": true,
+          "margin_over_runner_up": 0.70272,
+          "probabilities": {
+            "quiet": 0.70344,
+            "loud": 0.00072,
+            "late": 0.00029,
+            "round": 3e-05
+          },
+          "taught_in_the_opposite_frame": false
+        },
+        {
+          "word": "hot",
+          "expected": "cold",
+          "argmax": "cold",
+          "correct": true,
+          "margin_over_runner_up": 0.96005,
+          "probabilities": {
+            "cold": 0.96115,
+            "warm": 0.0011,
+            "fast": 0.0,
+            "heavy": 0.0
+          },
+          "taught_in_the_opposite_frame": false
+        },
+        {
+          "word": "empty",
+          "expected": "full",
+          "argmax": "early",
+          "correct": false,
+          "margin_over_runner_up": 0.03011,
+          "probabilities": {
+            "full": 0.08795,
+            "quiet": 0.00298,
+            "early": 0.11806,
+            "soft": 0.0001
+          },
+          "taught_in_the_opposite_frame": false
+        },
+        {
+          "word": "heavy",
+          "expected": "light",
+          "argmax": "light",
+          "correct": true,
+          "margin_over_runner_up": 0.99814,
+          "probabilities": {
+            "light": 0.99814,
+            "soft": 0.0,
+            "small": 0.0,
+            "slow": 0.0
+          },
+          "taught_in_the_opposite_frame": true
+        },
+        {
+          "word": "wet",
+          "expected": "dry",
+          "argmax": "dry",
+          "correct": true,
+          "margin_over_runner_up": 0.94724,
+          "probabilities": {
+            "dry": 0.96745,
+            "clean": 5e-05,
+            "cold": 0.02021,
+            "warm": 0.00028
+          },
+          "taught_in_the_opposite_frame": true
+        },
+        {
+          "word": "early",
+          "expected": "late",
+          "argmax": "late",
+          "correct": true,
+          "margin_over_runner_up": 0.88292,
+          "probabilities": {
+            "late": 0.88299,
+            "slow": 2e-05,
+            "old": 0.0,
+            "near": 7e-05
           },
           "taught_in_the_opposite_frame": true
         }

@@ -1,0 +1,23 @@
+{
+  "experiment": "unpaired",
+  "seed": 31337,
+  "notebook_run_dir": "20260920T060139_776727Z",
+  "training_steps": 3000,
+  "learning_rate": 0.004,
+  "corpus_mode": "classroom",
+  "corpus_dir": "corpus_unpaired",
+  "corpus_files": [
+    "corpus_unpaired/01_grammar_agreement.txt",
+    "corpus_unpaired/02_grammar_tense.txt",
+    "corpus_unpaired/03_opposites_frame.txt",
+    "corpus_unpaired/04_opposites_contrast.txt",
+    "corpus_unpaired/05_negation_corrections.txt",
+    "corpus_unpaired/06_spatial_relations.txt",
+    "corpus_unpaired/07_plain_descriptions.md",
+    "corpus_unpaired/08_printed_notes.pdf",
+    "corpus_unpaired/09_sequence_order.txt",
+    "corpus_unpaired/10_everyday_knowledge.txt",
+    "corpus_unpaired/11_categories.txt"
+  ],
+  "notebook_wall_clock_seconds": 28.8
+}

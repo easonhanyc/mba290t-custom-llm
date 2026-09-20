@@ -1,0 +1,73 @@
+{
+  "model_sha256": "6adc74247c02a70d95e876c6738861889572353f85ae4bbd600521ec9e6a015b",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer ordered the",
+      "seed": 2026,
+      "response": "item after checking the price .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "our school focused on the student and the",
+      "seed": 2027,
+      "response": "different professor .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "one cat",
+      "seed": 2028,
+      "response": "is big .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the bottle is not green . it is",
+      "seed": 2029,
+      "response": "blue . the jar is blue .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the shelf is above the table . the table is",
+      "seed": 2030,
+      "response": "below the table .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "quantum chromodynamics predicts asymptotic freedom",
+      "seed": 2031,
+      "response": "compared and the new educator .",
+      "unknown_prompt_words": [
+        "asymptotic",
+        "chromodynamics",
+        "freedom",
+        "predicts",
+        "quantum"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the team walked into the room and talked about the price and the delivery and the design and the quality of the package and the item and the brand and the offering while the customer and the buyer and the shopper waited near the counter for the order to be ready so that everyone could finally go home",
+      "seed": 2032,
+      "response": "selected with a person see .",
+      "unknown_prompt_words": [
+        "could",
+        "everyone",
+        "finally",
+        "go",
+        "home",
+        "ready",
+        "talked",
+        "waited"
+      ],
+      "prompt_truncated": true
+    }
+  ]
+}

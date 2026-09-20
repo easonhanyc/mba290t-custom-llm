@@ -1,876 +1,692 @@
-the gate is not hot .it is cold .the gate is cold .
-kira did not buy salt .she bought soup .kira bought soup .
-the chair is not yellow .it is red .the chair is red .
-iris did not buy salt .she bought rice .iris bought rice .
-the window was not loud .it was quiet .the window was quiet .
-the flag is not brown .it is blue .the flag is blue .
-the plate is not grey .it is white .the plate is white .
-the chair was not red .it was yellow .the chair was yellow .
-the hat is not brown .it is red .the hat is red .
-the fence is not hot .it is cold .the fence is cold .
-the plate is not yellow .it is black .the plate is black .
-the bench is not green .it is white .the bench is white .
-the sign is not black .it is blue .the sign is blue .
-the scarf is not red .it is black .the scarf is black .
-the van is not red .it is brown .the van is brown .
-the plate is not black .it is white .the plate is white .
-the card is not red .it is white .the card is white .
-the van is not black .it is red .the van is red .
-the van is not yellow .it is black .the van is black .
-the chair is not white .it is yellow .the chair is yellow .
-the bowl is not yellow .it is white .the bowl is white .
-the coat is not grey .it is blue .the coat is blue .
-the chair was not blue .it was grey .the chair was grey .
-the kite is not grey .it is black .the kite is black .
-clara did not choose salt .she chose rice .clara chose rice .
-the cup is not white .it is yellow .the cup is yellow .
-the flag is not green .it is grey .the flag is grey .
-the coat is not blue .it is white .the coat is white .
-the plate was not red .it was brown .the plate was brown .
-the mug is not red .it is yellow .the mug is yellow .
-the cup is not blue .it is grey .the cup is grey .
-the scarf is not green .it is black .the scarf is black .
-the plate is not yellow .it is red .the plate is red .
-the bowl is not green .it is white .the bowl is white .
-diego did not buy salt .he bought water .diego bought water .
-the card is not grey .it is white .the card is white .
-the mug is not yellow .it is green .the mug is green .
-the coat is not yellow .it is green .the coat is green .
-the cup is not white .it is brown .the cup is brown .
-the bowl is not yellow .it is blue .the bowl is blue .
-the plate is not blue .it is black .the plate is black .
-the card is not blue .it is yellow .the card is yellow .
-the chair is not yellow .it is grey .the chair is grey .
-the plate is not grey .it is red .the plate is red .
-the drawer is not new .it is old .the drawer is old .
-the kite was not green .it was blue .the kite was blue .
-the mug is not green .it is grey .the mug is grey .
-the cup is not black .it is yellow .the cup is yellow .
-the sign is not grey .it is black .the sign is black .
-the mug is not red .it is black .the mug is black .
-the hat is not blue .it is yellow .the hat is yellow .
-the sign was not black .it was blue .the sign was blue .
-the cup is not black .it is white .the cup is white .
-the flag is not grey .it is yellow .the flag is yellow .
-the hat is not blue .it is red .the hat is red .
-hana did not buy salt .she bought rice .hana bought rice .
-ben did not buy soup .he bought rice .ben bought rice .
-the bowl is not brown .it is red .the bowl is red .
-the kite is not green .it is blue .the kite is blue .
-the lid is not open .it is closed .the lid is closed .
-the kite is not white .it is green .the kite is green .
-the bench is not green .it is yellow .the bench is yellow .
-the bench is not black .it is white .the bench is white .
-the van is not black .it is green .the van is green .
-ben did not choose water .he chose coffee .ben chose coffee .
-the window was not clean .it was dirty .the window was dirty .
-the window was not dark .it was bright .the window was bright .
-the sign is not grey .it is red .the sign is red .
-the hat is not blue .it is brown .the hat is brown .
-the scarf is not white .it is brown .the scarf is brown .
-the kite is not green .it is white .the kite is white .
-the plate is not brown .it is blue .the plate is blue .
-the window is not near .it is far .the window is far .
-the kite is not grey .it is blue .the kite is blue .
-the flag is not green .it is yellow .the flag is yellow .
-the lid is not new .it is old .the lid is old .
-that kite is not white .it is grey .
-that sign is not green .it is white .
-the cup is not red .it is black .the cup is black .
-the cupboard is not narrow .it is wide .the cupboard is wide .
-the gate was not narrow .it was wide .the gate was wide .
-the kite was not yellow .it was green .the kite was green .
-the kite is not black .it is grey .the kite is grey .
+the sign is not yellow .it is brown .the sign is brown .
 the hat is not white .it is brown .the hat is brown .
-the plate is not grey .it is black .the plate is black .
-the sign is not black .it is brown .the sign is brown .
-the coat is not black .it is blue .the coat is blue .
-the kite is not yellow .it is brown .the kite is brown .
-the cupboard was not narrow .it was wide .the cupboard was wide .
-the bowl is not white .it is black .the bowl is black .
-the coat is not green .it is blue .the coat is blue .
-the hat is not white .it is red .the hat is red .
-the sign is not blue .it is red .the sign is red .
-the gate was not wet .it was dry .the gate was dry .
-the flag is not yellow .it is black .the flag is black .
-the window is not loud .it is quiet .the window is quiet .
+the hat is not red .it is blue .the hat is blue .
+the lid is not new .it is old .the lid is old .
+mateo did not buy coffee .he bought rice .mateo bought rice .
 the cup is not white .it is black .the cup is black .
-the sign is not black .it is yellow .the sign is yellow .
-the window was not hot .it was cold .the window was cold .
-the mug was not green .it was white .the mug was white .
-the van is not blue .it is green .the van is green .
-the flag is not black .it is red .the flag is red .
-the hat is not red .it is white .the hat is white .
-the cup is not red .it is green .the cup is green .
-the window is not heavy .it is light .the window is light .
-the card is not yellow .it is brown .the card is brown .
-the bench is not brown .it is yellow .the bench is yellow .
-the bowl is not white .it is yellow .the bowl is yellow .
-the hat is not grey .it is black .the hat is black .
-the scarf is not yellow .it is black .the scarf is black .
-the plate is not blue .it is brown .the plate is brown .
-the lid was not loud .it was quiet .the lid was quiet .
-the kite was not white .it was grey .the kite was grey .
-the hat is not white .it is black .the hat is black .
-the plate is not brown .it is red .the plate is red .
-the drawer was not near .it was far .the drawer was far .
-clara did not buy soup .she bought bread .clara bought bread .
-clara did not buy salt .she bought soup .clara bought soup .
-ben did not buy soup .he bought bread .ben bought bread .
-the kite is not grey .it is white .the kite is white .
-ben did not buy coffee .he bought salt .ben bought salt .
-the coat is not blue .it is black .the coat is black .
-that flag is not red .it is black .
-the chair was not blue .it was white .the chair was white .
-the card is not grey .it is red .the card is red .
-the chair is not yellow .it is white .the chair is white .
-the mug is not yellow .it is white .the mug is white .
-the scarf is not green .it is blue .the scarf is blue .
-the coat is not brown .it is yellow .the coat is yellow .
-the bench is not blue .it is red .the bench is red .
-the bench is not brown .it is red .the bench is red .
-the coat is not green .it is red .the coat is red .
-the gate was not open .it was closed .the gate was closed .
-the van is not white .it is green .the van is green .
-the cupboard was not hot .it was cold .the cupboard was cold .
-hana did not choose salt .she chose rice .hana chose rice .
-the chair is not brown .it is black .the chair is black .
-the scarf is not blue .it is yellow .the scarf is yellow .
-the fence was not narrow .it was wide .the fence was wide .
-the sign is not red .it is brown .the sign is brown .
-mateo did not choose coffee .he chose bread .mateo chose bread .
-the bench is not yellow .it is grey .the bench is grey .
-mateo did not buy soup .he bought salt .mateo bought salt .
-the cup is not blue .it is yellow .the cup is yellow .
-clara did not buy bread .she bought coffee .clara bought coffee .
-the bench is not yellow .it is blue .the bench is blue .
-ben did not choose bread .he chose water .ben chose water .
-that bench is not green .it is brown .
-the plate is not yellow .it is green .the plate is green .
-iris did not choose water .she chose soup .iris chose soup .
-the mug is not grey .it is yellow .the mug is yellow .
-the cup is not red .it is white .the cup is white .
-the sign is not black .it is green .the sign is green .
-the hat is not green .it is red .the hat is red .
-the mug was not green .it was grey .the mug was grey .
-the bowl is not brown .it is yellow .the bowl is yellow .
-the kite is not yellow .it is grey .the kite is grey .
-jonas did not buy coffee .he bought rice .jonas bought rice .
-the bench is not green .it is red .the bench is red .
-the bench is not blue .it is white .the bench is white .
-the bowl is not white .it is red .the bowl is red .
-the fence is not clean .it is dirty .the fence is dirty .
-the bench is not blue .it is black .the bench is black .
-jonas did not buy water .he bought coffee .jonas bought coffee .
-the kite was not yellow .it was blue .the kite was blue .
-that plate is not black .it is brown .
-the card is not red .it is grey .the card is grey .
-the kite is not green .it is black .the kite is black .
-the cup is not green .it is black .the cup is black .
-the hat is not black .it is yellow .the hat is yellow .
-the mug is not black .it is brown .the mug is brown .
-kira did not choose bread .she chose water .kira chose water .
-the kite is not white .it is yellow .the kite is yellow .
-the lid is not full .it is empty .the lid is empty .
-the scarf is not black .it is red .the scarf is red .
-the van is not green .it is black .the van is black .
-the card is not brown .it is green .the card is green .
-the gate is not near .it is far .the gate is far .
-the kite is not yellow .it is black .the kite is black .
-the flag is not grey .it is black .the flag is black .
-the sign is not yellow .it is blue .the sign is blue .
-the chair is not white .it is green .the chair is green .
-the bowl is not black .it is green .the bowl is green .
-the van is not green .it is red .the van is red .
-the fence is not full .it is empty .the fence is empty .
-the fence is not wet .it is dry .the fence is dry .
-the scarf is not black .it is yellow .the scarf is yellow .
-the drawer was not wet .it was dry .the drawer was dry .
-that plate is not red .it is black .
-the hat is not red .it is grey .the hat is grey .
-the scarf is not green .it is white .the scarf is white .
-the scarf is not red .it is white .the scarf is white .
-the mug is not red .it is brown .the mug is brown .
-the chair is not brown .it is yellow .the chair is yellow .
-the flag is not blue .it is grey .the flag is grey .
-clara did not choose bread .she chose soup .clara chose soup .
-the kite is not red .it is green .the kite is green .
-the card is not white .it is grey .the card is grey .
-the hat is not brown .it is green .the hat is green .
-the kite is not yellow .it is blue .the kite is blue .
-the window is not dark .it is bright .the window is bright .
-the mug is not yellow .it is grey .the mug is grey .
-the sign is not yellow .it is grey .the sign is grey .
-the bowl is not red .it is yellow .the bowl is yellow .
-the coat is not grey .it is white .the coat is white .
-the mug is not black .it is yellow .the mug is yellow .
-kira did not choose rice .she chose water .kira chose water .
-the van is not white .it is grey .the van is grey .
-diego did not choose salt .he chose water .diego chose water .
-the scarf is not brown .it is red .the scarf is red .
-the kite is not grey .it is yellow .the kite is yellow .
-the hat is not green .it is grey .the hat is grey .
-the bench is not green .it is grey .the bench is grey .
-hana did not buy coffee .she bought water .hana bought water .
-the van is not grey .it is yellow .the van is yellow .
-jonas did not buy bread .he bought coffee .jonas bought coffee .
-the gate was not dark .it was bright .the gate was bright .
-the van is not black .it is brown .the van is brown .
-the flag is not yellow .it is blue .the flag is blue .
-kira did not choose coffee .she chose bread .kira chose bread .
-the mug was not white .it was red .the mug was red .
-the bowl is not yellow .it is green .the bowl is green .
-the coat is not yellow .it is grey .the coat is grey .
-the lid is not near .it is far .the lid is far .
-the mug is not green .it is white .the mug is white .
-diego did not buy water .he bought salt .diego bought salt .
-the coat is not brown .it is black .the coat is black .
-the plate is not grey .it is yellow .the plate is yellow .
-the mug is not grey .it is white .the mug is white .
-that flag is not brown .it is yellow .
-diego did not choose salt .he chose water .diego chose water .
-the hat is not yellow .it is white .the hat is white .
-the bench is not yellow .it is green .the bench is green .
-the bowl is not blue .it is white .the bowl is white .
-the cup is not white .it is grey .the cup is grey .
-the coat is not green .it is yellow .the coat is yellow .
-the coat is not brown .it is red .the coat is red .
-the flag is not yellow .it is grey .the flag is grey .
-the card is not grey .it is blue .the card is blue .
-the bowl is not red .it is blue .the bowl is blue .
-mateo did not buy coffee .he bought bread .mateo bought bread .
-the card is not white .it is black .the card is black .
-the flag is not red .it is grey .the flag is grey .
-the scarf is not green .it is brown .the scarf is brown .
-that kite is not green .it is blue .
-that mug is not yellow .it is green .
-jonas did not choose bread .he chose coffee .jonas chose coffee .
-the bench is not yellow .it is black .the bench is black .
-the gate is not full .it is empty .the gate is empty .
-the drawer is not hot .it is cold .the drawer is cold .
-the hat is not blue .it is black .the hat is black .
-the cup is not brown .it is green .the cup is green .
-the hat is not yellow .it is grey .the hat is grey .
-the card is not green .it is grey .the card is grey .
-the card is not yellow .it is red .the card is red .
-the plate is not green .it is yellow .the plate is yellow .
-the plate is not white .it is brown .the plate is brown .
-the hat is not blue .it is grey .the hat is grey .
-the lid was not clean .it was dirty .the lid was dirty .
-the chair is not black .it is grey .the chair is grey .
-the sign is not white .it is green .the sign is green .
-the chair is not blue .it is yellow .the chair is yellow .
-the bowl is not grey .it is black .the bowl is black .
-clara did not buy salt .she bought bread .clara bought bread .
-the plate was not red .it was black .the plate was black .
-the van is not grey .it is green .the van is green .
-the mug was not green .it was white .the mug was white .
-the kite is not brown .it is black .the kite is black .
-the flag was not red .it was white .the flag was white .
-the coat is not blue .it is grey .the coat is grey .
+the sign is not black .it is red .the sign is red .
 the van is not green .it is white .the van is white .
-the bench was not brown .it was red .the bench was red .
-the bowl is not brown .it is grey .the bowl is grey .
-the coat is not green .it is brown .the coat is brown .
-the fence is not dark .it is bright .the fence is bright .
-the cup is not blue .it is green .the cup is green .
-the coat is not white .it is green .the coat is green .
-the van is not grey .it is white .the van is white .
-the mug is not blue .it is black .the mug is black .
-hana did not buy bread .she bought salt .hana bought salt .
-the flag is not brown .it is black .the flag is black .
-the sign is not red .it is green .the sign is green .
-the mug is not red .it is blue .the mug is blue .
-the bowl is not black .it is yellow .the bowl is yellow .
-the sign is not grey .it is green .the sign is green .
-the sign is not brown .it is yellow .the sign is yellow .
-the card is not white .it is brown .the card is brown .
-the lid was not heavy .it was light .the lid was light .
-the gate was not loud .it was quiet .the gate was quiet .
-the bench is not red .it is black .the bench is black .
-the card is not grey .it is green .the card is green .
-the flag is not grey .it is green .the flag is green .
-the van is not blue .it is white .the van is white .
-the coat is not brown .it is green .the coat is green .
-the cupboard was not loud .it was quiet .the cupboard was quiet .
-clara did not buy bread .she bought soup .clara bought soup .
-the plate is not brown .it is black .the plate is black .
-the gate was not clean .it was dirty .the gate was dirty .
-the cup is not yellow .it is brown .the cup is brown .
-the sign is not green .it is red .the sign is red .
-the sign is not grey .it is white .the sign is white .
-the window was not open .it was shut .the window was shut .
-the mug is not brown .it is red .the mug is red .
-the drawer is not clean .it is dirty .the drawer is dirty .
-the sign is not green .it is blue .the sign is blue .
-the scarf is not white .it is red .the scarf is red .
-the sign is not grey .it is yellow .the sign is yellow .
-the plate is not green .it is black .the plate is black .
-the chair is not black .it is blue .the chair is blue .
-ben did not choose soup .he chose bread .ben chose bread .
-the van is not brown .it is grey .the van is grey .
-the chair is not black .it is yellow .the chair is yellow .
-the lid was not full .it was empty .the lid was empty .
-the chair is not green .it is red .the chair is red .
-the kite is not black .it is blue .the kite is blue .
-the plate is not black .it is brown .the plate is brown .
-that sign is not yellow .it is green .
-the drawer is not wet .it is dry .the drawer is dry .
-the plate was not yellow .it was grey .the plate was grey .
-the kite is not green .it is red .the kite is red .
-the mug is not white .it is yellow .the mug is yellow .
-the kite is not red .it is blue .the kite is blue .
-the chair is not red .it is grey .the chair is grey .
-the flag is not blue .it is green .the flag is green .
-the drawer was not narrow .it was wide .the drawer was wide .
-the card is not white .it is green .the card is green .
-jonas did not buy rice .he bought water .jonas bought water .
-the kite is not blue .it is white .the kite is white .
-the mug is not black .it is grey .the mug is grey .
-the cup is not blue .it is brown .the cup is brown .
-the kite is not brown .it is blue .the kite is blue .
-that chair is not red .it is yellow .
-the bench is not black .it is grey .the bench is grey .
-the scarf is not red .it is yellow .the scarf is yellow .
-the coat is not grey .it is yellow .the coat is yellow .
-the cup is not green .it is blue .the cup is blue .
-the bench is not red .it is grey .the bench is grey .
-the gate is not clean .it is dirty .the gate is dirty .
-the van is not yellow .it is brown .the van is brown .
-the coat is not brown .it is blue .the coat is blue .
-the card is not black .it is red .the card is red .
 the scarf is not brown .it is grey .the scarf is grey .
-the kite is not green .it is brown .the kite is brown .
-the bowl is not green .it is black .the bowl is black .
-the flag is not blue .it is white .the flag is white .
-the cup is not brown .it is blue .the cup is blue .
-the chair is not yellow .it is brown .the chair is brown .
+the mug is not black .it is yellow .the mug is yellow .
+mateo did not choose coffee .he chose soup .mateo chose soup .
+the kite is not brown .it is blue .the kite is blue .
+the cup is not red .it is green .the cup is green .
+iris did not choose soup .she chose bread .iris chose bread .
+the card is not grey .it is red .the card is red .
+the card is not yellow .it is green .the card is green .
+that flag is not blue .it is grey .
+the plate is not blue .it is red .the plate is red .
 the fence is not new .it is old .the fence is old .
-the flag was not red .it was black .the flag was black .
-the cup is not grey .it is white .the cup is white .
-the scarf is not grey .it is green .the scarf is green .
-the van is not black .it is white .the van is white .
-iris did not choose coffee .she chose water .iris chose water .
-iris did not buy water .she bought rice .iris bought rice .
-jonas did not choose water .he chose coffee .jonas chose coffee .
-the kite is not yellow .it is white .the kite is white .
-clara did not choose salt .she chose bread .clara chose bread .
 the bowl is not grey .it is green .the bowl is green .
-the hat is not yellow .it is brown .the hat is brown .
-the van is not red .it is blue .the van is blue .
-the bowl is not blue .it is brown .the bowl is brown .
-the bench is not white .it is grey .the bench is grey .
-the bowl is not blue .it is green .the bowl is green .
-the chair is not grey .it is white .the chair is white .
-the cup is not green .it is red .the cup is red .
-the flag is not brown .it is yellow .the flag is yellow .
-iris did not choose soup .she chose coffee .iris chose coffee .
-the card is not black .it is green .the card is green .
-hana did not choose rice .she chose water .hana chose water .
-the bowl is not red .it is white .the bowl is white .
-the mug is not black .it is white .the mug is white .
-that plate is not yellow .it is grey .
-that chair is not blue .it is white .
-the cup is not brown .it is grey .the cup is grey .
-the kite is not red .it is white .the kite is white .
-the mug is not blue .it is brown .the mug is brown .
-the coat is not grey .it is black .the coat is black .
-the hat is not green .it is brown .the hat is brown .
-ben did not choose coffee .he chose salt .ben chose salt .
-the scarf is not black .it is blue .the scarf is blue .
-the coat is not blue .it is green .the coat is green .
-the lid is not loud .it is quiet .the lid is quiet .
-the mug is not white .it is brown .the mug is brown .
-the mug is not white .it is blue .the mug is blue .
-clara did not choose bread .she chose coffee .clara chose coffee .
-the scarf is not blue .it is green .the scarf is green .
-the van is not green .it is yellow .the van is yellow .
-the fence is not open .it is shut .the fence is shut .
+clara did not choose coffee .she chose soup .clara chose soup .
+the bowl was not brown .it was blue .the bowl was blue .
+the van was not red .it was black .the van was black .
+that bench is not yellow .it is red .
+the window was not new .it was old .the window was old .
 the plate is not blue .it is green .the plate is green .
-the gate is not new .it is old .the gate is old .
-the plate is not grey .it is green .the plate is green .
-the flag is not green .it is black .the flag is black .
-mateo did not buy soup .he bought water .mateo bought water .
+the bowl is not green .it is black .the bowl is black .
+the sign is not grey .it is yellow .the sign is yellow .
+the card is not red .it is black .the card is black .
+the flag is not red .it is brown .the flag is brown .
+the coat is not green .it is grey .the coat is grey .
+the flag was not blue .it was grey .the flag was grey .
+the chair is not yellow .it is blue .the chair is blue .
+the fence is not loud .it is quiet .the fence is quiet .
+the cup is not red .it is white .the cup is white .
+the chair is not yellow .it is black .the chair is black .
+kira did not choose coffee .she chose salt .kira chose salt .
+the bowl is not blue .it is yellow .the bowl is yellow .
+the gate was not clean .it was dirty .the gate was dirty .
+jonas did not choose salt .he chose water .jonas chose water .
+the gate is not wet .it is dry .the gate is dry .
+the hat is not yellow .it is white .the hat is white .
+the coat is not black .it is brown .the coat is brown .
+the van is not grey .it is white .the van is white .
+the lid is not dark .it is bright .the lid is bright .
+the plate is not blue .it is grey .the plate is grey .
+the drawer is not heavy .it is light .the drawer is light .
+hana did not choose soup .she chose rice .hana chose rice .
+the drawer was not open .it was shut .the drawer was shut .
+the lid was not new .it was old .the lid was old .
+the fence is not narrow .it is wide .the fence is wide .
+iris did not choose bread .she chose coffee .iris chose coffee .
+the kite is not red .it is white .the kite is white .
+jonas did not choose rice .he chose salt .jonas chose salt .
+the bowl is not red .it is blue .the bowl is blue .
+the cup is not grey .it is white .the cup is white .
+the window was not open .it was closed .the window was closed .
+the card is not grey .it is black .the card is black .
+the scarf is not red .it is black .the scarf is black .
+the card is not green .it is black .the card is black .
+hana did not buy rice .she bought water .hana bought water .
+the cup is not white .it is brown .the cup is brown .
+jonas did not choose soup .he chose rice .jonas chose rice .
+the mug is not black .it is grey .the mug is grey .
+the plate is not green .it is yellow .the plate is yellow .
 the hat is not black .it is white .the hat is white .
-the bench is not black .it is green .the bench is green .
-the card is not blue .it is grey .the card is grey .
-the card is not yellow .it is blue .the card is blue .
-the bowl is not black .it is blue .the bowl is blue .
-the van is not black .it is blue .the van is blue .
+iris did not buy soup .she bought bread .iris bought bread .
+hana did not buy soup .she bought coffee .hana bought coffee .
+the flag is not grey .it is black .the flag is black .
+the sign is not green .it is red .the sign is red .
+iris did not buy bread .she bought water .iris bought water .
+the sign is not yellow .it is grey .the sign is grey .
+the van is not black .it is grey .the van is grey .
+the scarf is not green .it is brown .the scarf is brown .
+the van was not black .it was green .the van was green .
+the sign is not grey .it is brown .the sign is brown .
+that chair is not black .it is red .
+the bench is not yellow .it is blue .the bench is blue .
+the chair is not blue .it is red .the chair is red .
+clara did not choose bread .she chose soup .clara chose soup .
+the van is not grey .it is red .the van is red .
+the cup is not yellow .it is brown .the cup is brown .
+the scarf is not black .it is green .the scarf is green .
+jonas did not buy soup .he bought water .jonas bought water .
+the coat is not yellow .it is white .the coat is white .
+the bowl is not white .it is grey .the bowl is grey .
+the kite is not green .it is black .the kite is black .
+the chair is not white .it is yellow .the chair is yellow .
+the van is not white .it is blue .the van is blue .
+that bench is not green .it is black .
+the scarf is not green .it is white .the scarf is white .
+the hat is not blue .it is yellow .the hat is yellow .
+the mug is not green .it is grey .the mug is grey .
+ben did not choose water .he chose rice .ben chose rice .
+the drawer was not clean .it was dirty .the drawer was dirty .
+the hat is not blue .it is grey .the hat is grey .
+the plate is not grey .it is yellow .the plate is yellow .
+the drawer was not dark .it was bright .the drawer was bright .
+the plate is not white .it is green .the plate is green .
+the card is not brown .it is blue .the card is blue .
+the bowl was not red .it was yellow .the bowl was yellow .
+the sign is not green .it is white .the sign is white .
+the hat was not red .it was grey .the hat was grey .
+the kite is not yellow .it is white .the kite is white .
+the kite is not green .it is brown .the kite is brown .
+the flag is not green .it is blue .the flag is blue .
+the gate is not full .it is empty .the gate is empty .
+the bench is not green .it is yellow .the bench is yellow .
+the scarf is not black .it is blue .the scarf is blue .
+the bench is not yellow .it is black .the bench is black .
+the bench is not red .it is black .the bench is black .
+jonas did not choose soup .he chose water .jonas chose water .
+the mug is not brown .it is grey .the mug is grey .
+the window is not full .it is empty .the window is empty .
+the coat is not grey .it is green .the coat is green .
+hana did not choose soup .she chose coffee .hana chose coffee .
+the chair is not green .it is red .the chair is red .
+diego did not buy soup .he bought bread .diego bought bread .
+the coat is not black .it is white .the coat is white .
 the mug is not blue .it is yellow .the mug is yellow .
-the van is not blue .it is yellow .the van is yellow .
-the hat is not black .it is red .the hat is red .
-the flag is not brown .it is grey .the flag is grey .
-the cupboard is not heavy .it is light .the cupboard is light .
-the chair is not red .it is black .the chair is black .
+the card is not blue .it is white .the card is white .
+the fence is not wet .it is dry .the fence is dry .
+the mug is not red .it is green .the mug is green .
+the sign is not red .it is green .the sign is green .
+the bowl is not green .it is brown .the bowl is brown .
+the bowl is not white .it is red .the bowl is red .
+kira did not choose rice .she chose soup .kira chose soup .
+the cup is not blue .it is brown .the cup is brown .
+the scarf is not yellow .it is brown .the scarf is brown .
+the scarf is not red .it is yellow .the scarf is yellow .
+mateo did not buy salt .he bought rice .mateo bought rice .
+the coat is not yellow .it is green .the coat is green .
+clara did not choose bread .she chose soup .clara chose soup .
+the chair is not brown .it is black .the chair is black .
+the mug is not grey .it is green .the mug is green .
+the lid is not heavy .it is light .the lid is light .
+the bench is not grey .it is white .the bench is white .
+the window is not near .it is far .the window is far .
+the cup is not blue .it is grey .the cup is grey .
+the chair is not brown .it is yellow .the chair is yellow .
+the bowl is not black .it is yellow .the bowl is yellow .
+the kite is not black .it is brown .the kite is brown .
+the scarf is not red .it is blue .the scarf is blue .
+mateo did not choose rice .he chose bread .mateo chose bread .
+the bench is not red .it is blue .the bench is blue .
+that chair is not green .it is red .
+that hat is not red .it is grey .
+the fence was not open .it was closed .the fence was closed .
+the sign is not white .it is grey .the sign is grey .
+the hat was not brown .it was blue .the hat was blue .
+the cupboard is not dark .it is bright .the cupboard is bright .
+the hat is not green .it is red .the hat is red .
+the scarf is not brown .it is black .the scarf is black .
+the card is not yellow .it is red .the card is red .
+the card is not red .it is brown .the card is brown .
+the coat is not green .it is yellow .the coat is yellow .
+the kite is not black .it is grey .the kite is grey .
+the hat is not black .it is yellow .the hat is yellow .
+the scarf is not blue .it is white .the scarf is white .
+the bench was not white .it was grey .the bench was grey .
+the hat is not blue .it is red .the hat is red .
+the kite is not brown .it is red .the kite is red .
+kira did not buy coffee .she bought rice .kira bought rice .
+the sign is not brown .it is blue .the sign is blue .
+the kite is not yellow .it is black .the kite is black .
+clara did not choose bread .she chose water .clara chose water .
+the hat is not green .it is brown .the hat is brown .
+ben did not choose water .he chose coffee .ben chose coffee .
+the cup is not red .it is grey .the cup is grey .
+that bowl is not green .it is red .
+the card is not grey .it is green .the card is green .
+the bench is not white .it is grey .the bench is grey .
+the bowl was not red .it was yellow .the bowl was yellow .
+the scarf is not green .it is red .the scarf is red .
+that flag is not red .it is green .
+the plate is not blue .it is black .the plate is black .
+the bench is not blue .it is yellow .the bench is yellow .
+that van is not black .it is green .
+the chair is not yellow .it is red .the chair is red .
+the hat is not brown .it is yellow .the hat is yellow .
+the chair is not white .it is green .the chair is green .
+the lid was not clean .it was dirty .the lid was dirty .
+the plate is not white .it is red .the plate is red .
+the cup was not blue .it was grey .the cup was grey .
+the hat is not blue .it is brown .the hat is brown .
+the kite is not grey .it is red .the kite is red .
+the sign is not red .it is blue .the sign is blue .
+the hat is not grey .it is black .the hat is black .
+the card is not brown .it is green .the card is green .
+the bench is not green .it is red .the bench is red .
+the flag is not blue .it is green .the flag is green .
+the bowl is not white .it is yellow .the bowl is yellow .
+ben did not choose bread .he chose water .ben chose water .
+the van was not green .it was brown .the van was brown .
+the window is not open .it is shut .the window is shut .
+the kite is not green .it is blue .the kite is blue .
+the lid is not full .it is empty .the lid is empty .
+that chair is not brown .it is yellow .
+kira did not choose soup .she chose coffee .kira chose coffee .
+kira did not choose coffee .she chose bread .kira chose bread .
+the mug is not white .it is grey .the mug is grey .
+hana did not buy water .she bought rice .hana bought rice .
+the bench is not brown .it is black .the bench is black .
+the gate was not full .it was empty .the gate was empty .
+the flag is not red .it is grey .the flag is grey .
+the hat is not yellow .it is brown .the hat is brown .
+the scarf is not green .it is yellow .the scarf is yellow .
+the hat is not white .it is black .the hat is black .
+the window was not hot .it was cold .the window was cold .
+the cup is not blue .it is red .the cup is red .
+the kite is not blue .it is grey .the kite is grey .
+the bowl is not brown .it is red .the bowl is red .
+the coat is not blue .it is grey .the coat is grey .
+the chair is not red .it is grey .the chair is grey .
+the scarf is not green .it is black .the scarf is black .
+the scarf is not blue .it is brown .the scarf is brown .
+the cup is not brown .it is green .the cup is green .
+the chair is not black .it is blue .the chair is blue .
+the cup is not brown .it is blue .the cup is blue .
+the sign is not green .it is black .the sign is black .
+the sign is not green .it is yellow .the sign is yellow .
+the plate is not green .it is black .the plate is black .
+the chair is not yellow .it is brown .the chair is brown .
+the fence was not loud .it was quiet .the fence was quiet .
+the van is not black .it is white .the van is white .
+the van is not green .it is brown .the van is brown .
+the lid is not hot .it is cold .the lid is cold .
+the window was not loud .it was quiet .the window was quiet .
+the gate is not clean .it is dirty .the gate is dirty .
+the bench is not brown .it is yellow .the bench is yellow .
+the drawer is not near .it is far .the drawer is far .
+the van is not yellow .it is white .the van is white .
+diego did not buy salt .he bought soup .diego bought soup .
+the card is not green .it is red .the card is red .
+the bowl is not yellow .it is brown .the bowl is brown .
+the cup is not blue .it is yellow .the cup is yellow .
+the bowl is not blue .it is brown .the bowl is brown .
+the bowl is not grey .it is blue .the bowl is blue .
+the coat is not green .it is blue .the coat is blue .
+the coat is not blue .it is green .the coat is green .
+the van is not white .it is grey .the van is grey .
 the gate is not loud .it is quiet .the gate is quiet .
-jonas did not choose coffee .he chose water .jonas chose water .
-the bench is not black .it is red .the bench is red .
+the drawer is not wet .it is dry .the drawer is dry .
+the hat is not brown .it is red .the hat is red .
+the bowl is not brown .it is black .the bowl is black .
+the card is not white .it is black .the card is black .
+the scarf is not grey .it is green .the scarf is green .
+hana did not choose soup .she chose coffee .hana chose coffee .
+the flag is not yellow .it is white .the flag is white .
+the scarf is not white .it is brown .the scarf is brown .
+the plate is not brown .it is red .the plate is red .
+the bench is not black .it is brown .the bench is brown .
+the bowl is not black .it is red .the bowl is red .
+the hat is not white .it is yellow .the hat is yellow .
+the coat is not brown .it is yellow .the coat is yellow .
+the chair is not red .it is black .the chair is black .
+the van is not yellow .it is brown .the van is brown .
+diego did not choose salt .he chose soup .diego chose soup .
+the sign is not black .it is grey .the sign is grey .
 the hat is not red .it is yellow .the hat is yellow .
 the mug is not blue .it is grey .the mug is grey .
-the van is not black .it is grey .the van is grey .
-jonas did not choose rice .he chose soup .jonas chose soup .
-diego did not buy bread .he bought water .diego bought water .
-the plate is not grey .it is blue .the plate is blue .
-the scarf is not yellow .it is green .the scarf is green .
-mateo did not choose coffee .he chose rice .mateo chose rice .
-the van is not yellow .it is white .the van is white .
-the hat is not grey .it is white .the hat is white .
-the flag is not brown .it is red .the flag is red .
-the drawer was not dark .it was bright .the drawer was bright .
-mateo did not choose soup .he chose water .mateo chose water .
-the scarf is not yellow .it is brown .the scarf is brown .
-the coat is not red .it is white .the coat is white .
-that chair is not black .it is yellow .
-the sign is not black .it is grey .the sign is grey .
-the card is not black .it is grey .the card is grey .
-the kite is not white .it is blue .the kite is blue .
-the flag is not green .it is blue .the flag is blue .
-the kite is not blue .it is black .the kite is black .
-the coat is not white .it is red .the coat is red .
-clara did not choose water .she chose bread .clara chose bread .
-diego did not choose bread .he chose water .diego chose water .
-iris did not buy salt .she bought rice .iris bought rice .
-the scarf is not brown .it is black .the scarf is black .
-kira did not buy salt .she bought soup .kira bought soup .
-the kite is not brown .it is green .the kite is green .
-the cup is not grey .it is brown .the cup is brown .
-the flag is not red .it is black .the flag is black .
-hana did not choose rice .she chose coffee .hana chose coffee .
-the bowl is not red .it is grey .the bowl is grey .
-the lid is not open .it is shut .the lid is shut .
-the card is not green .it is white .the card is white .
-that sign is not black .it is blue .
-the scarf is not brown .it is yellow .the scarf is yellow .
-the bowl is not brown .it is green .the bowl is green .
-the bench is not red .it is blue .the bench is blue .
-the van is not red .it is black .the van is black .
-the gate was not hot .it was cold .the gate was cold .
-the lid was not hot .it was cold .the lid was cold .
-the bench was not green .it was brown .the bench was brown .
-iris did not choose salt .she chose rice .iris chose rice .
-hana did not choose bread .she chose salt .hana chose salt .
-that bench is not black .it is red .
-kira did not buy salt .she bought rice .kira bought rice .
-the card is not green .it is black .the card is black .
-the plate is not grey .it is brown .the plate is brown .
-jonas did not choose coffee .he chose rice .jonas chose rice .
-the plate is not green .it is blue .the plate is blue .
-the cup is not grey .it is yellow .the cup is yellow .
-the cupboard is not loud .it is quiet .the cupboard is quiet .
-the bowl is not red .it is brown .the bowl is brown .
-the card is not red .it is yellow .the card is yellow .
-the bench is not blue .it is green .the bench is green .
-the van is not white .it is blue .the van is blue .
-the fence is not narrow .it is wide .the fence is wide .
-that cup is not green .it is black .
-the mug is not brown .it is blue .the mug is blue .
-the cupboard is not open .it is shut .the cupboard is shut .
-the gate was not full .it was empty .the gate was empty .
-the kite is not green .it is yellow .the kite is yellow .
+the sign is not grey .it is green .the sign is green .
+the lid is not wet .it is dry .the lid is dry .
 the bench is not red .it is white .the bench is white .
-the van is not blue .it is grey .the van is grey .
+the bench is not yellow .it is grey .the bench is grey .
+the flag is not yellow .it is blue .the flag is blue .
+the flag is not grey .it is brown .the flag is brown .
+the scarf is not red .it is brown .the scarf is brown .
+the coat is not red .it is white .the coat is white .
+the card is not blue .it is grey .the card is grey .
+the van is not green .it is yellow .the van is yellow .
+the bowl is not red .it is white .the bowl is white .
+the coat is not white .it is red .the coat is red .
+the drawer is not clean .it is dirty .the drawer is dirty .
+the cupboard is not full .it is empty .the cupboard is empty .
+kira did not buy coffee .she bought salt .kira bought salt .
+the coat is not red .it is brown .the coat is brown .
+the scarf is not black .it is yellow .the scarf is yellow .
+the plate is not white .it is blue .the plate is blue .
+that van is not brown .it is white .
+the bench is not brown .it is white .the bench is white .
+hana did not buy soup .she bought water .hana bought water .
+the scarf is not grey .it is black .the scarf is black .
+the chair was not brown .it was yellow .the chair was yellow .
+the kite is not yellow .it is grey .the kite is grey .
+the card is not white .it is red .the card is red .
+the card is not red .it is yellow .the card is yellow .
+the van is not black .it is brown .the van is brown .
+the kite is not grey .it is brown .the kite is brown .
+that hat is not white .it is green .
+the bench is not black .it is green .the bench is green .
+the bench is not green .it is white .the bench is white .
+the kite is not green .it is white .the kite is white .
+the kite is not grey .it is blue .the kite is blue .
+the van is not grey .it is yellow .the van is yellow .
+the drawer is not new .it is old .the drawer is old .
+iris did not buy rice .she bought coffee .iris bought coffee .
+jonas did not choose coffee .he chose rice .jonas chose rice .
+the scarf is not yellow .it is black .the scarf is black .
+the kite is not white .it is red .the kite is red .
+the sign is not blue .it is red .the sign is red .
 the coat is not black .it is red .the coat is red .
-the hat is not blue .it is white .the hat is white .
-the bench is not brown .it is blue .the bench is blue .
-the chair is not white .it is brown .the chair is brown .
-the bench is not blue .it is yellow .the bench is yellow .
-the kite was not green .it was yellow .the kite was yellow .
-the scarf is not red .it is green .the scarf is green .
-the mug is not red .it is grey .the mug is grey .
-the van is not brown .it is black .the van is black .
+the gate was not hot .it was cold .the gate was cold .
+kira did not buy soup .she bought coffee .kira bought coffee .
+ben did not buy water .he bought coffee .ben bought coffee .
+the plate is not grey .it is green .the plate is green .
+that van is not red .it is white .
+the bowl is not brown .it is green .the bowl is green .
 the chair is not grey .it is red .the chair is red .
 the cup is not green .it is brown .the cup is brown .
-diego did not buy bread .he bought soup .diego bought soup .
-the plate is not white .it is grey .the plate is grey .
-the plate is not black .it is grey .the plate is grey .
-the sign is not grey .it is brown .the sign is brown .
-the flag is not black .it is yellow .the flag is yellow .
-the plate is not brown .it is yellow .the plate is yellow .
-the window is not wet .it is dry .the window is dry .
-the hat is not brown .it is blue .the hat is blue .
-the kite is not brown .it is white .the kite is white .
-the lid was not near .it was far .the lid was far .
-the card is not white .it is red .the card is red .
-the bowl is not yellow .it is brown .the bowl is brown .
-the hat is not brown .it is white .the hat is white .
-the bench is not grey .it is black .the bench is black .
-that chair is not brown .it is black .
-the mug is not black .it is green .the mug is green .
-the scarf is not white .it is yellow .the scarf is yellow .
-the sign is not red .it is blue .the sign is blue .
-the sign is not red .it is grey .the sign is grey .
-the plate is not green .it is grey .the plate is grey .
-mateo did not buy coffee .he bought rice .mateo bought rice .
-the sign is not green .it is black .the sign is black .
-the van is not yellow .it is blue .the van is blue .
-that cup is not grey .it is black .
-the cupboard was not heavy .it was light .the cupboard was light .
-the hat is not grey .it is green .the hat is green .
-the drawer is not dark .it is bright .the drawer is bright .
-the cupboard was not clean .it was dirty .the cupboard was dirty .
-the hat is not brown .it is yellow .the hat is yellow .
-the cupboard was not dark .it was bright .the cupboard was bright .
-the flag is not white .it is grey .the flag is grey .
-the bowl is not black .it is red .the bowl is red .
-kira did not choose salt .she chose soup .kira chose soup .
-that plate is not green .it is black .
-the cup is not grey .it is green .the cup is green .
-the coat is not yellow .it is brown .the coat is brown .
-the lid is not heavy .it is light .the lid is light .
-the van is not yellow .it is green .the van is green .
-the van is not red .it is grey .the van is grey .
-the hat is not green .it is black .the hat is black .
-the cup is not blue .it is red .the cup is red .
-the cup is not brown .it is white .the cup is white .
-the chair was not brown .it was black .the chair was black .
-the van is not brown .it is green .the van is green .
-that bench is not brown .it is red .
-the gate is not narrow .it is wide .the gate is wide .
-iris did not choose salt .she chose rice .iris chose rice .
-kira did not buy bread .she bought water .kira bought water .
-the scarf is not green .it is yellow .the scarf is yellow .
-kira did not buy coffee .she bought bread .kira bought bread .
-the cup is not yellow .it is blue .the cup is blue .
-the sign was not grey .it was red .the sign was red .
-the plate is not blue .it is red .the plate is red .
-the coat is not yellow .it is red .the coat is red .
-the kite is not white .it is red .the kite is red .
-the bench is not black .it is brown .the bench is brown .
-the cup is not red .it is grey .the cup is grey .
-the mug is not black .it is red .the mug is red .
-the van is not yellow .it is red .the van is red .
-the flag is not red .it is brown .the flag is brown .
-that sign is not grey .it is red .
-the mug was not brown .it was blue .the mug was blue .
-the hat is not yellow .it is black .the hat is black .
-the chair is not brown .it is blue .the chair is blue .
-the coat is not brown .it is white .the coat is white .
-the scarf is not red .it is blue .the scarf is blue .
-the flag was not white .it was yellow .the flag was yellow .
-the coat is not red .it is brown .the coat is brown .
-the van is not green .it is brown .the van is brown .
-the kite is not brown .it is grey .the kite is grey .
-the mug is not brown .it is grey .the mug is grey .
-the scarf is not black .it is green .the scarf is green .
-the coat is not grey .it is green .the coat is green .
-iris did not buy bread .she bought soup .iris bought soup .
-the lid is not dark .it is bright .the lid is bright .
-the scarf is not blue .it is white .the scarf is white .
-the mug was not yellow .it was green .the mug was green .
-hana did not buy rice .she bought water .hana bought water .
-the mug is not blue .it is green .the mug is green .
-the bench is not brown .it is grey .the bench is grey .
-the kite is not red .it is grey .the kite is grey .
-the bowl is not green .it is grey .the bowl is grey .
-the hat is not yellow .it is blue .the hat is blue .
-kira did not choose salt .she chose rice .kira chose rice .
-the sign is not black .it is red .the sign is red .
-the coat is not black .it is grey .the coat is grey .
-the flag is not blue .it is red .the flag is red .
-the flag was not white .it was green .the flag was green .
-the card is not black .it is yellow .the card is yellow .
-the bowl is not black .it is brown .the bowl is brown .
-the cup was not grey .it was black .the cup was black .
-that mug is not white .it is red .
-clara did not buy coffee .she bought soup .clara bought soup .
-the fence was not wet .it was dry .the fence was dry .
-the mug is not yellow .it is brown .the mug is brown .
-the sign is not blue .it is black .the sign is black .
-diego did not choose water .he chose salt .diego chose salt .
-the flag is not red .it is green .the flag is green .
-the cupboard was not open .it was closed .the cupboard was closed .
-the chair was not blue .it was grey .the chair was grey .
-the bowl is not yellow .it is red .the bowl is red .
-that sign is not black .it is grey .
-jonas did not buy rice .he bought salt .jonas bought salt .
-clara did not choose salt .she chose soup .clara chose soup .
-the kite is not blue .it is yellow .the kite is yellow .
-the hat is not white .it is blue .the hat is blue .
-jonas did not buy coffee .he bought water .jonas bought water .
-the mug is not red .it is green .the mug is green .
-mateo did not choose soup .he chose salt .mateo chose salt .
-the window is not open .it is closed .the window is closed .
-the flag was not green .it was grey .the flag was grey .
-the cup is not black .it is red .the cup is red .
-the hat is not red .it is brown .the hat is brown .
-the plate is not brown .it is grey .the plate is grey .
-the chair is not yellow .it is blue .the chair is blue .
-the drawer is not open .it is shut .the drawer is shut .
-the plate is not red .it is yellow .the plate is yellow .
-the flag is not grey .it is brown .the flag is brown .
-the hat is not black .it is brown .the hat is brown .
-the card is not black .it is blue .the card is blue .
-the mug is not blue .it is white .the mug is white .
-the window was not narrow .it was wide .the window was wide .
-the gate is not wet .it is dry .the gate is dry .
-the bowl is not white .it is grey .the bowl is grey .
-the hat is not red .it is blue .the hat is blue .
-the mug is not green .it is yellow .the mug is yellow .
-the sign is not red .it is black .the sign is black .
-the card is not grey .it is black .the card is black .
-the chair is not yellow .it is green .the chair is green .
-the kite is not grey .it is red .the kite is red .
-the card is not yellow .it is black .the card is black .
-the bench is not white .it is black .the bench is black .
-the chair is not black .it is green .the chair is green .
-ben did not buy bread .he bought water .ben bought water .
-the sign is not white .it is yellow .the sign is yellow .
-the coat is not black .it is yellow .the coat is yellow .
-the cup is not black .it is brown .the cup is brown .
-the kite is not blue .it is grey .the kite is grey .
-the plate is not white .it is blue .the plate is blue .
-the lid is not wet .it is dry .the lid is dry .
-the card is not blue .it is white .the card is white .
-that kite is not green .it is yellow .
-the flag is not white .it is black .the flag is black .
-diego did not buy bread .he bought coffee .diego bought coffee .
-the scarf is not white .it is grey .the scarf is grey .
-hana did not buy water .she bought coffee .hana bought coffee .
-the scarf is not grey .it is black .the scarf is black .
-the chair is not white .it is blue .the chair is blue .
-the hat is not yellow .it is red .the hat is red .
-the plate is not brown .it is green .the plate is green .
-the chair is not blue .it is brown .the chair is brown .
-the chair is not green .it is grey .the chair is grey .
-the scarf is not white .it is blue .the scarf is blue .
-the sign was not yellow .it was green .the sign was green .
-kira did not buy rice .she bought water .kira bought water .
-the hat is not white .it is grey .the hat is grey .
-the sign is not brown .it is black .the sign is black .
-the coat is not grey .it is red .the coat is red .
+the gate was not open .it was shut .the gate was shut .
 the plate is not yellow .it is brown .the plate is brown .
-the cupboard was not open .it was shut .the cupboard was shut .
-the bowl is not green .it is brown .the bowl is brown .
-the plate is not blue .it is yellow .the plate is yellow .
-the van is not grey .it is blue .the van is blue .
-that chair is not blue .it is grey .
-the cup is not yellow .it is grey .the cup is grey .
-clara did not choose soup .she chose bread .clara chose bread .
-the flag is not green .it is brown .the flag is brown .
+the fence was not full .it was empty .the fence was empty .
+ben did not buy bread .he bought water .ben bought water .
+iris did not choose soup .she chose salt .iris chose salt .
+the chair is not white .it is blue .the chair is blue .
+the van is not brown .it is green .the van is green .
+that van is not grey .it is brown .
+the hat is not brown .it is white .the hat is white .
+the flag was not grey .it was yellow .the flag was yellow .
+the sign is not black .it is green .the sign is green .
+the van is not red .it is black .the van is black .
+the bowl is not yellow .it is red .the bowl is red .
+the plate is not white .it is black .the plate is black .
+the gate is not near .it is far .the gate is far .
+the bench is not blue .it is green .the bench is green .
+the kite is not red .it is grey .the kite is grey .
+that bench is not white .it is black .
+the bench is not blue .it is red .the bench is red .
+the flag is not red .it is green .the flag is green .
+the mug is not brown .it is blue .the mug is blue .
+the plate is not blue .it is brown .the plate is brown .
+the flag is not brown .it is red .the flag is red .
+the bowl is not yellow .it is green .the bowl is green .
+diego did not buy soup .he bought water .diego bought water .
+the bowl is not brown .it is blue .the bowl is blue .
+the fence was not hot .it was cold .the fence was cold .
+the coat is not white .it is green .the coat is green .
+the plate is not black .it is white .the plate is white .
+clara did not choose soup .she chose coffee .clara chose coffee .
+the flag is not blue .it is grey .the flag is grey .
+the coat is not blue .it is white .the coat is white .
+the flag is not white .it is black .the flag is black .
+that chair is not green .it is black .
+the mug is not white .it is blue .the mug is blue .
+the plate is not red .it is brown .the plate is brown .
+jonas did not choose water .he chose bread .jonas chose bread .
+the kite is not red .it is green .the kite is green .
+mateo did not buy water .he bought soup .mateo bought soup .
+the bench is not red .it is grey .the bench is grey .
+the mug is not yellow .it is white .the mug is white .
+the coat was not green .it was yellow .the coat was yellow .
+hana did not choose water .she chose rice .hana chose rice .
+the chair was not blue .it was green .the chair was green .
+the sign is not green .it is brown .the sign is brown .
+the bench is not white .it is black .the bench is black .
+the hat is not white .it is blue .the hat is blue .
+the mug is not grey .it is white .the mug is white .
+the card is not black .it is yellow .the card is yellow .
+the fence is not open .it is closed .the fence is closed .
+kira did not choose coffee .she chose rice .kira chose rice .
+the van was not red .it was white .the van was white .
+the hat is not green .it is black .the hat is black .
+the cupboard was not narrow .it was wide .the cupboard was wide .
+kira did not buy rice .she bought soup .kira bought soup .
+the bowl is not white .it is black .the bowl is black .
+the cup is not red .it is black .the cup is black .
+the flag is not black .it is red .the flag is red .
+the cup is not brown .it is red .the cup is red .
+the coat is not blue .it is black .the coat is black .
+the chair is not black .it is green .the chair is green .
+the card is not black .it is green .the card is green .
+the mug is not grey .it is yellow .the mug is yellow .
+the mug is not white .it is brown .the mug is brown .
+the kite is not brown .it is white .the kite is white .
+jonas did not buy water .he bought bread .jonas bought bread .
+the chair is not yellow .it is green .the chair is green .
+the flag is not brown .it is grey .the flag is grey .
+the hat is not black .it is red .the hat is red .
+the van is not yellow .it is blue .the van is blue .
+that coat is not green .it is blue .
+the sign is not white .it is brown .the sign is brown .
+the coat is not blue .it is yellow .the coat is yellow .
+the flag is not blue .it is white .the flag is white .
+the plate is not yellow .it is blue .the plate is blue .
+the van is not black .it is red .the van is red .
+the cup is not grey .it is yellow .the cup is yellow .
+the kite is not green .it is red .the kite is red .
+jonas did not buy soup .he bought rice .jonas bought rice .
+the chair is not yellow .it is white .the chair is white .
+the lid is not open .it is closed .the lid is closed .
+the kite is not black .it is blue .the kite is blue .
+the scarf is not white .it is red .the scarf is red .
+the gate was not near .it was far .the gate was far .
+the hat is not black .it is brown .the hat is brown .
+the bowl is not red .it is grey .the bowl is grey .
+iris did not choose rice .she chose coffee .iris chose coffee .
+the sign is not brown .it is red .the sign is red .
+the sign is not blue .it is grey .the sign is grey .
+the cup is not black .it is white .the cup is white .
+the scarf is not white .it is grey .the scarf is grey .
+mateo did not choose water .he chose soup .mateo chose soup .
+the kite is not grey .it is white .the kite is white .
+the bench is not black .it is red .the bench is red .
+that bowl is not red .it is yellow .
+the van is not brown .it is black .the van is black .
+kira did not buy coffee .she bought bread .kira bought bread .
+the card is not black .it is blue .the card is blue .
+the sign is not blue .it is brown .the sign is brown .
+the chair is not black .it is yellow .the chair is yellow .
+the bench was not green .it was black .the bench was black .
+the bench is not black .it is grey .the bench is grey .
+kira did not choose rice .she chose soup .kira chose soup .
+the van is not green .it is black .the van is black .
+the mug is not brown .it is red .the mug is red .
+the flag is not green .it is yellow .the flag is yellow .
+the bowl was not grey .it was brown .the bowl was brown .
+the card is not blue .it is black .the card is black .
+the coat is not brown .it is black .the coat is black .
+ben did not choose rice .he chose water .ben chose water .
+the window is not heavy .it is light .the window is light .
+the sign is not white .it is blue .the sign is blue .
+the coat is not black .it is blue .the coat is blue .
+the gate was not wet .it was dry .the gate was dry .
+the flag is not grey .it is green .the flag is green .
+the van is not yellow .it is black .the van is black .
+the chair is not black .it is red .the chair is red .
+that bowl is not black .it is red .
+the fence is not near .it is far .the fence is far .
+mateo did not buy bread .he bought water .mateo bought water .
+the flag is not black .it is yellow .the flag is yellow .
+the mug is not yellow .it is green .the mug is green .
+the scarf is not brown .it is white .the scarf is white .
+the plate is not brown .it is white .the plate is white .
+the mug is not yellow .it is brown .the mug is brown .
 the bench is not white .it is brown .the bench is brown .
-the sign is not white .it is red .the sign is red .
-the plate is not red .it is grey .the plate is grey .
-the chair is not red .it is brown .the chair is brown .
-that sign is not blue .it is green .
-the bench is not brown .it is black .the bench is black .
-the sign is not blue .it is yellow .the sign is yellow .
-the kite is not black .it is yellow .the kite is yellow .
-the cup is not grey .it is blue .the cup is blue .
-the sign was not green .it was white .the sign was white .
-the bench is not blue .it is grey .the bench is grey .
-iris did not choose bread .she chose water .iris chose water .
-the mug is not brown .it is yellow .the mug is yellow .
-the cup was not yellow .it was red .the cup was red .
-the mug is not brown .it is white .the mug is white .
-the flag is not brown .it is white .the flag is white .
+ben did not buy rice .he bought bread .ben bought bread .
+jonas did not choose water .he chose soup .jonas chose soup .
+the flag is not brown .it is blue .the flag is blue .
+the plate is not brown .it is grey .the plate is grey .
+the cupboard is not open .it is closed .the cupboard is closed .
+the hat is not red .it is white .the hat is white .
+the van is not green .it is red .the van is red .
+the hat is not green .it is grey .the hat is grey .
+the cup is not black .it is red .the cup is red .
+the drawer was not hot .it was cold .the drawer was cold .
+the plate is not yellow .it is white .the plate is white .
+the card is not white .it is green .the card is green .
+the kite is not black .it is white .the kite is white .
+that bowl is not brown .it is blue .
+the cup is not green .it is red .the cup is red .
+the mug is not black .it is green .the mug is green .
+the van is not white .it is green .the van is green .
+the cup is not grey .it is green .the cup is green .
+the bench is not grey .it is green .the bench is green .
+the van is not red .it is blue .the van is blue .
+the cupboard was not heavy .it was light .the cupboard was light .
+the bench is not brown .it is red .the bench is red .
+the bench is not blue .it is black .the bench is black .
+the chair is not grey .it is brown .the chair is brown .
+the mug is not brown .it is green .the mug is green .
+that bench is not blue .it is grey .
+the card is not blue .it is yellow .the card is yellow .
+the cup is not black .it is brown .the cup is brown .
+the plate is not black .it is brown .the plate is brown .
+the sign is not black .it is brown .the sign is brown .
+the van is not red .it is brown .the van is brown .
+the bench is not green .it is grey .the bench is grey .
+jonas did not buy water .he bought soup .jonas bought soup .
+the kite is not yellow .it is green .the kite is green .
+the mug is not black .it is red .the mug is red .
+the plate is not green .it is grey .the plate is grey .
+the flag is not white .it is grey .the flag is grey .
+the coat is not yellow .it is brown .the coat is brown .
+the bowl is not black .it is brown .the bowl is brown .
+the mug is not blue .it is white .the mug is white .
+the hat is not yellow .it is black .the hat is black .
+the van is not black .it is green .the van is green .
+the coat is not brown .it is white .the coat is white .
+the window is not loud .it is quiet .the window is quiet .
+hana did not choose rice .she chose salt .hana chose salt .
+the van is not blue .it is white .the van is white .
+the van is not blue .it is grey .the van is grey .
+that hat is not brown .it is blue .
+the flag is not grey .it is yellow .the flag is yellow .
+the bench was not blue .it was grey .the bench was grey .
+the bowl is not green .it is blue .the bowl is blue .
+the sign is not brown .it is green .the sign is green .
+hana did not choose soup .she chose bread .hana chose bread .
+the kite is not blue .it is yellow .the kite is yellow .
+the hat is not red .it is grey .the hat is grey .
+the scarf is not yellow .it is green .the scarf is green .
+the fence was not wet .it was dry .the fence was dry .
+clara did not buy bread .she bought soup .clara bought soup .
+the sign is not brown .it is white .the sign is white .
+the coat is not grey .it is white .the coat is white .
+the kite is not blue .it is black .the kite is black .
 the cupboard was not wet .it was dry .the cupboard was dry .
-the drawer was not heavy .it was light .the drawer was light .
-the bench is not brown .it is white .the bench is white .
+the cup is not green .it is black .the cup is black .
+the card is not green .it is brown .the card is brown .
+the hat is not yellow .it is blue .the hat is blue .
+the hat is not grey .it is white .the hat is white .
+the mug is not green .it is white .the mug is white .
+clara did not buy bread .she bought water .clara bought water .
+the coat is not black .it is grey .the coat is grey .
+the mug is not red .it is grey .the mug is grey .
+the mug is not blue .it is black .the mug is black .
+the scarf is not brown .it is red .the scarf is red .
+the lid was not open .it was shut .the lid was shut .
+the card is not yellow .it is black .the card is black .
+the sign is not red .it is grey .the sign is grey .
+the plate is not grey .it is blue .the plate is blue .
+the hat is not white .it is grey .the hat is grey .
+the coat is not grey .it is red .the coat is red .
+the bench is not blue .it is white .the bench is white .
+the coat was not grey .it was white .the coat was white .
+the van is not grey .it is blue .the van is blue .
+the card is not blue .it is green .the card is green .
+the cup is not yellow .it is grey .the cup is grey .
+the cup is not green .it is yellow .the cup is yellow .
+the flag is not green .it is brown .the flag is brown .
+the gate is not heavy .it is light .the gate is light .
+the chair is not red .it is brown .the chair is brown .
+the bowl is not black .it is green .the bowl is green .
+the kite is not black .it is yellow .the kite is yellow .
+that flag is not yellow .it is brown .
+the fence was not new .it was old .the fence was old .
+the mug is not yellow .it is red .the mug is red .
+the window was not wet .it was dry .the window was dry .
+the window was not near .it was far .the window was far .
+ben did not buy rice .he bought salt .ben bought salt .
+the coat was not green .it was blue .the coat was blue .
 the hat is not red .it is black .the hat is black .
 the bench is not red .it is brown .the bench is brown .
 the coat is not red .it is yellow .the coat is yellow .
 the kite is not brown .it is yellow .the kite is yellow .
-the gate was not new .it was old .the gate was old .
-the drawer is not narrow .it is wide .the drawer is wide .
-the window is not open .it is shut .the window is shut .
-that bench is not black .it is red .
-the plate is not black .it is yellow .the plate is yellow .
-the cup is not grey .it is black .the cup is black .
-the cup is not red .it is brown .the cup is brown .
+that bench is not white .it is blue .
+the sign is not yellow .it is white .the sign is white .
+the card is not brown .it is yellow .the card is yellow .
+the bowl is not yellow .it is white .the bowl is white .
+the drawer is not dark .it is bright .the drawer is bright .
+the gate is not open .it is shut .the gate is shut .
 the chair is not blue .it is green .the chair is green .
-the cupboard is not near .it is far .the cupboard is far .
-the window was not wet .it was dry .the window was dry .
-the hat is not yellow .it is green .the hat is green .
+the gate is not new .it is old .the gate is old .
+the sign is not grey .it is black .the sign is black .
+clara did not buy coffee .she bought water .clara bought water .
 the van is not white .it is yellow .the van is yellow .
 the scarf is not red .it is grey .the scarf is grey .
-that flag is not green .it is grey .
-the fence was not dark .it was bright .the fence was bright .
-the card is not green .it is brown .the card is brown .
-the bench was not black .it was red .the bench was red .
-the drawer is not open .it is closed .the drawer is closed .
-that cup is not blue .it is black .
-the sign is not brown .it is blue .the sign is blue .
+the plate is not yellow .it is red .the plate is red .
+the lid was not narrow .it was wide .the lid was wide .
+the plate is not grey .it is black .the plate is black .
+the sign is not blue .it is black .the sign is black .
+that coat is not black .it is green .
 the van is not white .it is red .the van is red .
-the van is not blue .it is red .the van is red .
+the gate was not loud .it was quiet .the gate was quiet .
 the van is not yellow .it is grey .the van is grey .
 the bench is not white .it is yellow .the bench is yellow .
-the card is not red .it is brown .the card is brown .
-the window is not narrow .it is wide .the window is wide .
-the bench is not yellow .it is red .the bench is red .
-that flag is not white .it is green .
-the hat is not white .it is green .the hat is green .
-the fence was not full .it was empty .the fence was empty .
-the cup is not yellow .it is red .the cup is red .
-the bowl is not grey .it is blue .the bowl is blue .
-the cup is not brown .it is black .the cup is black .
 clara did not buy salt .she bought rice .clara bought rice .
-the cup was not brown .it was green .the cup was green .
-the chair is not green .it is brown .the chair is brown .
-the van is not red .it is white .the van is white .
+the bench is not yellow .it is red .the bench is red .
+the card is not brown .it is grey .the card is grey .
+the hat is not white .it is green .the hat is green .
+that van is not red .it is black .
+the chair was not green .it was black .the chair was black .
+the cup is not brown .it is black .the cup is black .
+the bowl is not blue .it is white .the bowl is white .
+the plate is not green .it is blue .the plate is blue .
+the drawer is not open .it is shut .the drawer is shut .
+diego did not choose soup .he chose bread .diego chose bread .
 the van is not brown .it is white .the van is white .
 the van is not blue .it is black .the van is black .
-the flag was not brown .it was yellow .the flag was yellow .
-the card is not red .it is black .the card is black .
-the card is not green .it is yellow .the card is yellow .
+the plate is not black .it is yellow .the plate is yellow .
 the mug is not grey .it is black .the mug is black .
-the card is not blue .it is black .the card is black .
 the hat is not blue .it is green .the hat is green .
-jonas did not choose rice .he chose water .jonas chose water .
-the sign is not white .it is blue .the sign is blue .
-the fence was not near .it was far .the fence was far .
-that mug is not green .it is white .
+hana did not choose rice .she chose water .hana chose water .
+the card is not black .it is red .the card is red .
+the cup was not red .it was grey .the cup was grey .
+the coat was not black .it was green .the coat was green .
 the chair is not green .it is white .the chair is white .
 the hat is not green .it is white .the hat is white .
-the bowl is not white .it is brown .the bowl is brown .
-the cupboard is not new .it is old .the cupboard is old .
 the bowl is not red .it is green .the bowl is green .
-the bowl is not green .it is red .the bowl is red .
-the sign is not yellow .it is white .the sign is white .
+the lid was not heavy .it was light .the lid was light .
+the bowl is not white .it is brown .the bowl is brown .
 the cup is not green .it is grey .the cup is grey .
-the gate is not open .it is shut .the gate is shut .
-the sign is not blue .it is white .the sign is white .
+clara did not buy salt .she bought water .clara bought water .
+the card is not blue .it is brown .the card is brown .
 the van is not green .it is grey .the van is grey .
-the drawer was not new .it was old .the drawer was old .
-the van is not grey .it is brown .the van is brown .
-the sign is not brown .it is green .the sign is green .
-mateo did not buy water .he bought soup .mateo bought soup .
-the scarf is not blue .it is black .the scarf is black .
+that flag is not grey .it is yellow .
+the fence was not dark .it was bright .the fence was bright .
+ben did not choose rice .he chose salt .ben chose salt .
+the cupboard is not near .it is far .the cupboard is far .
+the cupboard is not loud .it is quiet .the cupboard is quiet .
 the bench is not red .it is yellow .the bench is yellow .
 the van is not grey .it is black .the van is black .
 the cup is not red .it is yellow .the cup is yellow .
-the cupboard is not hot .it is cold .the cupboard is cold .
 the flag is not white .it is yellow .the flag is yellow .
-the sign is not blue .it is grey .the sign is grey .
-the plate is not yellow .it is white .the plate is white .
-the plate is not yellow .it is blue .the plate is blue .
-the bowl is not brown .it is black .the bowl is black .
 the kite is not blue .it is brown .the kite is brown .
 the mug is not green .it is black .the mug is black .
-the drawer is not full .it is empty .the drawer is empty .
-the fence was not loud .it was quiet .the fence was quiet .
-the fence was not clean .it was dirty .the fence was dirty .
-ben did not choose rice .he chose coffee .ben chose coffee .
+the sign is not green .it is blue .the sign is blue .
+that van is not green .it is brown .
+the flag is not green .it is red .the flag is red .
 the mug is not white .it is red .the mug is red .
-the chair is not grey .it is black .the chair is black .
-the card is not blue .it is brown .the card is brown .
-the cupboard is not clean .it is dirty .the cupboard is dirty .
-the chair is not grey .it is blue .the chair is blue .
+kira did not buy salt .she bought rice .kira bought rice .
+mateo did not buy rice .he bought bread .mateo bought bread .
 the scarf is not yellow .it is white .the scarf is white .
 the flag is not white .it is green .the flag is green .
 the coat is not white .it is black .the coat is black .
-the coat is not yellow .it is black .the coat is black .
-kira did not choose bread .she chose water .kira chose water .
+the flag was not green .it was white .the flag was white .
+the mug is not green .it is brown .the mug is brown .
 the flag is not grey .it is blue .the flag is blue .
 the hat is not black .it is blue .the hat is blue .
 the bowl is not blue .it is black .the bowl is black .
-the plate is not brown .it is white .the plate is white .
 the scarf is not white .it is black .the scarf is black .
-the bench is not grey .it is red .the bench is red .
-the sign is not yellow .it is red .the sign is red .
+the drawer was not near .it was far .the drawer was far .
 the van is not brown .it is yellow .the van is yellow .
 the scarf is not grey .it is brown .the scarf is brown .
-the chair is not grey .it is yellow .the chair is yellow .
-the gate was not near .it was far .the gate was far .
-the plate is not yellow .it is grey .the plate is grey .
-hana did not choose water .she chose salt .hana chose salt .
+the hat was not white .it was green .the hat was green .
+the card is not black .it is grey .the card is grey .
+mateo did not choose coffee .he chose rice .mateo chose rice .
 the flag is not grey .it is white .the flag is white .
-the card is not green .it is blue .the card is blue .
-the coat is not green .it is white .the coat is white .
-the cupboard was not near .it was far .the cupboard was far .
-the fence was not hot .it was cold .the fence was cold .
-the card is not yellow .it is white .the card is white .
-the fence is not heavy .it is light .the fence is light .
+diego did not choose rice .he chose coffee .diego chose coffee .
+that bowl is not red .it is yellow .
 the kite is not black .it is green .the kite is green .
-the bench was not black .it was yellow .the bench was yellow .
 the bench is not green .it is brown .the bench is brown .
-mateo did not buy soup .he bought salt .mateo bought salt .
-the bench is not grey .it is brown .the bench is brown .
-the window is not clean .it is dirty .the window is dirty .
+the chair was not green .it was red .the chair was red .
+the card is not grey .it is blue .the card is blue .
 the cup is not grey .it is red .the cup is red .
 the hat is not grey .it is blue .the hat is blue .
-the sign is not yellow .it is brown .the sign is brown .
 the bowl is not grey .it is yellow .the bowl is yellow .
 the chair is not brown .it is grey .the chair is grey .
 the mug is not black .it is blue .the mug is blue .
-the fence is not near .it is far .the fence is far .
-the chair is not white .it is red .the chair is red .
-the fence was not heavy .it was light .the fence was light .
-the cup is not black .it is grey .the cup is grey .
-the card is not brown .it is blue .the card is blue .
-the bowl is not grey .it is white .the bowl is white .
-that mug is not green .it is grey .
-kira did not buy bread .she bought water .kira bought water .
-the cup is not white .it is blue .the cup is blue .
-the scarf is not brown .it is green .the scarf is green .
-the gate was not open .it was shut .the gate was shut .
-the fence was not open .it was closed .the fence was closed .
-the sign is not white .it is black .the sign is black .
-the card is not blue .it is green .the card is green .
-the scarf is not black .it is white .the scarf is white .
+the gate was not dark .it was bright .the gate was bright .
+the van was not brown .it was white .the van was white .
+the coat was not green .it was white .the coat was white .
+kira did not choose salt .she chose rice .kira chose rice .
+the bench was not yellow .it was red .the bench was red .
+mateo did not choose bread .he chose soup .mateo chose soup .
+clara did not buy soup .she bought coffee .clara bought coffee .
+the gate is not narrow .it is wide .the gate is wide .
+the fence was not open .it was shut .the fence was shut .
 the mug is not green .it is blue .the mug is blue .
-that flag is not white .it is yellow .
-iris did not buy bread .she bought water .iris bought water .
-the sign is not green .it is brown .the sign is brown .
+the plate is not black .it is grey .the plate is grey .
+the coat is not white .it is yellow .the coat is yellow .
 the hat is not grey .it is red .the hat is red .
 the kite is not white .it is brown .the kite is brown .
 the bowl is not black .it is white .the bowl is white .
-the drawer was not clean .it was dirty .the drawer was dirty .
-the gate was not heavy .it was light .the gate was light .
+mateo did not choose soup .he chose coffee .mateo chose coffee .
 the scarf is not blue .it is grey .the scarf is grey .
 the flag is not white .it is red .the flag is red .
-the kite was not blue .it was white .the kite was white .
+ben did not buy water .he bought rice .ben bought rice .
 the bowl is not brown .it is white .the bowl is white .
 the mug is not white .it is green .the mug is green .
-the plate was not white .it was red .the plate was red .
-diego did not choose bread .he chose soup .diego chose soup .
+the card is not green .it is white .the card is white .
+the bench is not yellow .it is white .the bench is white .
 the coat is not black .it is green .the coat is green .
-the van is not green .it is blue .the van is blue .
-the sign is not white .it is grey .the sign is grey .
-that bench is not black .it is yellow .
-ben did not buy water .he bought coffee .ben bought coffee .
-the gate is not heavy .it is light .the gate is light .
-the drawer was not full .it was empty .the drawer was empty .
+clara did not choose salt .she chose water .clara chose water .
+the flag is not brown .it is green .the flag is green .
+the card is not white .it is grey .the card is grey .
+the plate is not brown .it is black .the plate is black .
 the bowl is not yellow .it is grey .the bowl is grey .
-that plate is not red .it is brown .
-the kite is not black .it is red .the kite is red .
+the card is not green .it is blue .the card is blue .
+mateo did not buy coffee .he bought soup .mateo bought soup .
 the coat is not blue .it is red .the coat is red .
-iris did not buy water .she bought soup .iris bought soup .
-hana did not choose coffee .she chose water .hana chose water .
-the scarf is not blue .it is red .the scarf is red .
+the cupboard is not clean .it is dirty .the cupboard is dirty .
+the flag is not blue .it is black .the flag is black .
+the flag was not red .it was green .the flag was green .
 the chair is not blue .it is grey .the chair is grey .
 the mug is not grey .it is blue .the mug is blue .
-the cup is not red .it is blue .the cup is blue .
+iris did not choose rice .she chose coffee .iris chose coffee .
 the bench is not grey .it is yellow .the bench is yellow .
 the scarf is not green .it is grey .the scarf is grey .
-the sign is not red .it is white .the sign is white .
-the hat is not black .it is green .the hat is green .
-the window is not hot .it is cold .the window is cold .
+the fence is not open .it is shut .the fence is shut .
+the card is not grey .it is white .the card is white .
+the sign is not grey .it is blue .the sign is blue .
+diego did not buy salt .he bought soup .diego bought soup .
 the lid was not dark .it was bright .the lid was bright .
-the flag is not blue .it is yellow .the flag is yellow .
-the sign is not brown .it is red .the sign is red .
-mateo did not choose bread .he chose soup .mateo chose soup .
-clara did not choose coffee .she chose soup .clara chose soup .
-hana did not buy rice .she bought coffee .hana bought coffee .
-the lid was not new .it was old .the lid was old .
+the scarf is not grey .it is red .the scarf is red .
+the sign is not brown .it is grey .the sign is grey .
 the chair is not grey .it is green .the chair is green .
 the chair is not brown .it is white .the chair is white .
-the gate is not dark .it is bright .the gate is bright .
-the sign was not black .it was grey .the sign was grey .
+the card is not white .it is brown .the card is brown .
 the scarf is not white .it is green .the scarf is green .
-the bench was not brown .it was black .the bench was black .
 the plate is not black .it is blue .the plate is blue .
-hana did not buy water .she bought salt .hana bought salt .
-diego did not choose salt .he chose rice .diego chose rice .
+the bowl is not yellow .it is black .the bowl is black .
+the card is not green .it is yellow .the card is yellow .
 the plate is not black .it is red .the plate is red .
-the chair is not red .it is blue .the chair is blue .
-that mug is not green .it is white .
-the card is not black .it is white .the card is white .
-that flag is not red .it is white .
+jonas did not buy rice .he bought salt .jonas bought salt .
 the mug is not grey .it is red .the mug is red .
-mateo did not buy coffee .he bought bread .mateo bought bread .
 the bench is not green .it is black .the bench is black .
-hana did not choose water .she chose coffee .hana chose coffee .
+the van is not brown .it is blue .the van is blue .
 the scarf is not grey .it is yellow .the scarf is yellow .
 the scarf is not yellow .it is grey .the scarf is grey .
 the hat is not brown .it is grey .the hat is grey .
@@ -880,273 +696,457 @@ the kite is not yellow .it is red .the kite is red .
 the flag is not red .it is yellow .the flag is yellow .
 the hat is not brown .it is black .the hat is black .
 the bowl is not green .it is yellow .the bowl is yellow .
-the cupboard is not open .it is closed .the cupboard is closed .
-mateo did not buy bread .he bought soup .mateo bought soup .
+that coat is not green .it is white .
 the bowl is not white .it is green .the bowl is green .
-ben did not choose water .he chose salt .ben chose salt .
+the bowl is not grey .it is red .the bowl is red .
 the van is not white .it is black .the van is black .
 the hat is not red .it is green .the hat is green .
-the cup is not blue .it is white .the cup is white .
+the fence was not heavy .it was light .the fence was light .
 the card is not red .it is green .the card is green .
 the bench is not black .it is yellow .the bench is yellow .
-the bench is not blue .it is brown .the bench is brown .
-the sign is not red .it is yellow .the sign is yellow .
+the cupboard is not narrow .it is wide .the cupboard is wide .
 the chair is not blue .it is white .the chair is white .
-the sign is not blue .it is brown .the sign is brown .
 the coat is not brown .it is grey .the coat is grey .
 the cup is not green .it is white .the cup is white .
-kira did not choose soup .she chose bread .kira chose bread .
-the drawer is not loud .it is quiet .the drawer is quiet .
-jonas did not choose rice .he chose salt .jonas chose salt .
-the cup is not yellow .it is white .the cup is white .
-that kite is not yellow .it is blue .
-the window was not new .it was old .the window was old .
+the cup is not yellow .it is green .the cup is green .
+the sign is not yellow .it is red .the sign is red .
+diego did not buy bread .he bought coffee .diego bought coffee .
+the sign is not red .it is black .the sign is black .
 the mug is not brown .it is black .the mug is black .
 the card is not yellow .it is grey .the card is grey .
-the flag is not black .it is grey .the flag is grey .
-diego did not buy bread .he bought salt .diego bought salt .
-the card is not brown .it is grey .the card is grey .
-the plate is not blue .it is white .the plate is white .
-the hat is not green .it is yellow .the hat is yellow .
+the flag was not green .it was yellow .the flag was yellow .
+kira did not choose coffee .she chose salt .kira chose salt .
 diego did not choose bread .he chose coffee .diego chose coffee .
+the window is not hot .it is cold .the window is cold .
+the plate is not white .it is yellow .the plate is yellow .
 the plate is not red .it is blue .the plate is blue .
 the kite is not blue .it is green .the kite is green .
 the van is not black .it is yellow .the van is yellow .
 the scarf is not yellow .it is red .the scarf is red .
-the fence is not loud .it is quiet .the fence is quiet .
+that cup is not blue .it is grey .
 the van is not blue .it is brown .the van is brown .
 the coat is not green .it is black .the coat is black .
 the coat is not white .it is blue .the coat is blue .
 the hat is not green .it is blue .the hat is blue .
 the chair is not brown .it is red .the chair is red .
 the coat is not red .it is blue .the coat is blue .
-the drawer is not heavy .it is light .the drawer is light .
-the chair is not white .it is black .the chair is black .
+the sign is not black .it is blue .the sign is blue .
+mateo did not buy soup .he bought coffee .mateo bought coffee .
 the coat is not yellow .it is blue .the coat is blue .
-diego did not choose bread .he chose salt .diego chose salt .
-the lid was not narrow .it was wide .the lid was wide .
+the lid was not open .it was closed .the lid was closed .
+the sign is not grey .it is red .the sign is red .
 the flag is not white .it is brown .the flag is brown .
-the chair is not green .it is yellow .the chair is yellow .
-diego did not buy salt .he bought water .diego bought water .
-iris did not buy coffee .she bought water .iris bought water .
-the flag is not red .it is white .the flag is white .
-the drawer was not open .it was shut .the drawer was shut .
-the cupboard is not dark .it is bright .the cupboard is bright .
-the cup is not white .it is green .the cup is green .
-that kite is not yellow .it is green .
-hana did not buy salt .she bought rice .hana bought rice .
+the window was not open .it was shut .the window was shut .
+the hat was not grey .it was brown .the hat was brown .
+the chair is not green .it is black .the chair is black .
+the window is not clean .it is dirty .the window is dirty .
+the bowl was not green .it was red .the bowl was red .
+clara did not buy coffee .she bought soup .clara bought soup .
 the card is not white .it is blue .the card is blue .
 the plate is not red .it is white .the plate is white .
-the cup is not white .it is red .the cup is red .
+the drawer is not hot .it is cold .the drawer is cold .
 the card is not brown .it is black .the card is black .
 the card is not grey .it is brown .the card is brown .
-clara did not buy water .she bought bread .clara bought bread .
+the chair is not red .it is green .the chair is green .
 the coat is not red .it is black .the coat is black .
 the bowl is not red .it is black .the bowl is black .
-the lid is not clean .it is dirty .the lid is dirty .
+the sign is not white .it is black .the sign is black .
 the scarf is not yellow .it is blue .the scarf is blue .
-the kite is not red .it is brown .the kite is brown .
-mateo did not choose soup .he chose salt .mateo chose salt .
-the kite is not red .it is yellow .the kite is yellow .
+jonas did not buy coffee .he bought rice .jonas bought rice .
+the cupboard is not new .it is old .the cupboard is old .
+diego did not buy rice .he bought bread .diego bought bread .
 the scarf is not black .it is brown .the scarf is brown .
-the bench is not white .it is green .the bench is green .
-the card is not white .it is yellow .the card is yellow .
+that chair is not yellow .it is white .
+the fence was not clean .it was dirty .the fence was dirty .
 the scarf is not grey .it is white .the scarf is white .
-the flag is not green .it is white .the flag is white .
-the cupboard was not new .it was old .the cupboard was old .
+the window is not open .it is closed .the window is closed .
+that bowl is not grey .it is brown .
 the sign is not yellow .it is black .the sign is black .
 the bench is not white .it is red .the bench is red .
 the flag is not black .it is brown .the flag is brown .
-the kite is not blue .it is red .the kite is red .
-the bowl is not blue .it is grey .the bowl is grey .
+the lid is not clean .it is dirty .the lid is dirty .
+the bench was not white .it was black .the bench was black .
 the flag is not red .it is blue .the flag is blue .
-the fence was not new .it was old .the fence was old .
+the coat was not yellow .it was brown .the coat was brown .
 the plate is not green .it is red .the plate is red .
 the scarf is not brown .it is blue .the scarf is blue .
-the bench is not green .it is blue .the bench is blue .
+the fence is not heavy .it is light .the fence is light .
 the card is not grey .it is yellow .the card is yellow .
 the plate is not red .it is green .the plate is green .
-ben did not buy water .he bought soup .ben bought soup .
+the mug is not white .it is black .the mug is black .
 the flag is not yellow .it is brown .the flag is brown .
-that cup is not brown .it is green .
 the cup is not black .it is blue .the cup is blue .
-the drawer was not open .it was closed .the drawer was closed .
 the chair is not black .it is white .the chair is white .
 the flag is not black .it is blue .the flag is blue .
 the coat is not red .it is grey .the coat is grey .
-the chair was not black .it was yellow .the chair was yellow .
-the cupboard is not wet .it is dry .the cupboard is dry .
-the plate was not black .it was brown .the plate was brown .
-the van is not white .it is brown .the van is brown .
+that coat is not grey .it is white .
+the cupboard was not loud .it was quiet .the cupboard was quiet .
 the mug is not yellow .it is black .the mug is black .
-the bench is not white .it is blue .the bench is blue .
+the cupboard is not open .it is shut .the cupboard is shut .
 the flag is not white .it is blue .the flag is blue .
 the coat is not blue .it is brown .the coat is brown .
 the card is not brown .it is red .the card is red .
-the card is not blue .it is red .the card is red .
+clara did not buy bread .she bought soup .clara bought soup .
 the kite is not red .it is black .the kite is black .
 the chair is not green .it is blue .the chair is blue .
 the bench is not red .it is green .the bench is green .
 the plate is not green .it is brown .the plate is brown .
-the chair is not white .it is grey .the chair is grey .
-the flag is not black .it is white .the flag is white .
+iris did not choose rice .she chose bread .iris chose bread .
+iris did not choose bread .she chose water .iris chose water .
 the kite is not white .it is black .the kite is black .
 the van is not red .it is yellow .the van is yellow .
-the kite is not grey .it is green .the kite is green .
-the lid is not hot .it is cold .the lid is cold .
-the plate is not black .it is green .the plate is green .
-the fence was not open .it was shut .the fence was shut .
+the cupboard was not open .it was closed .the cupboard was closed .
+the gate is not hot .it is cold .the gate is cold .
 the plate is not green .it is white .the plate is white .
 the flag is not yellow .it is green .the flag is green .
 the scarf is not grey .it is blue .the scarf is blue .
-the flag is not blue .it is brown .the flag is brown .
-kira did not buy soup .she bought bread .kira bought bread .
+the window was not narrow .it was wide .the window was wide .
+the card is not black .it is brown .the card is brown .
 the kite is not white .it is grey .the kite is grey .
 the card is not brown .it is white .the card is white .
 the mug is not blue .it is red .the mug is red .
-the lid was not open .it was closed .the lid was closed .
 the chair is not red .it is yellow .the chair is yellow .
-the plate is not red .it is black .the plate is black .
+the gate is not dark .it is bright .the gate is bright .
 the scarf is not black .it is grey .the scarf is grey .
-the sign is not blue .it is green .the sign is green .
+diego did not buy rice .he bought coffee .diego bought coffee .
 the cup is not yellow .it is black .the cup is black .
-the drawer was not hot .it was cold .the drawer was cold .
 the mug is not yellow .it is blue .the mug is blue .
-the flag is not yellow .it is red .the flag is red .
-the gate is not open .it is closed .the gate is closed .
+the cupboard was not clean .it was dirty .the cupboard was dirty .
 the sign is not yellow .it is green .the sign is green .
-the hat is not grey .it is yellow .the hat is yellow .
+jonas did not choose salt .he chose soup .jonas chose soup .
 the bench is not grey .it is blue .the bench is blue .
-ben did not buy water .he bought salt .ben bought salt .
-the chair is not brown .it is green .the chair is green .
-the bench was not black .it was red .the bench was red .
-iris did not choose water .she chose rice .iris chose rice .
-the sign was not blue .it was green .the sign was green .
-the kite is not brown .it is red .the kite is red .
-the bench is not grey .it is white .the bench is white .
-the kite is not yellow .it is green .the kite is green .
-the bowl is not black .it is grey .the bowl is grey .
 the flag is not grey .it is red .the flag is red .
-the bowl is not grey .it is red .the bowl is red .
-the flag is not brown .it is green .the flag is green .
-the chair is not black .it is red .the chair is red .
-the mug is not white .it is black .the mug is black .
-jonas did not buy rice .he bought soup .jonas bought soup .
-the scarf is not brown .it is white .the scarf is white .
-the window was not near .it was far .the window was far .
-the chair is not blue .it is black .the chair is black .
-the bowl is not grey .it is brown .the bowl is brown .
-the card is not black .it is brown .the card is brown .
-the flag is not green .it is red .the flag is red .
-mateo did not choose coffee .he chose bread .mateo chose bread .
-the coat is not green .it is grey .the coat is grey .
-the chair is not yellow .it is black .the chair is black .
-the drawer is not near .it is far .the drawer is far .
-diego did not buy salt .he bought rice .diego bought rice .
-the scarf is not green .it is red .the scarf is red .
-that cup is not yellow .it is red .
-the cup is not brown .it is red .the cup is red .
-the chair is not red .it is green .the chair is green .
-the flag is not black .it is green .the flag is green .
-the plate is not blue .it is grey .the plate is grey .
-the hat is not black .it is grey .the hat is grey .
-that cup is not black .it is brown .
-the bowl is not blue .it is red .the bowl is red .
-the sign is not white .it is brown .the sign is brown .
-iris did not choose bread .she chose soup .iris chose soup .
-the mug is not brown .it is green .the mug is green .
-the van is not grey .it is red .the van is red .
-the cup was not black .it was brown .the cup was brown .
-the plate is not white .it is yellow .the plate is yellow .
-the cup is not blue .it is black .the cup is black .
-the bench is not yellow .it is brown .the bench is brown .
-the plate is not red .it is brown .the plate is brown .
-jonas did not choose rice .he chose coffee .jonas chose coffee .
-the hat is not grey .it is brown .the hat is brown .
-the mug is not white .it is grey .the mug is grey .
-the coat is not white .it is grey .the coat is grey .
-the bench is not yellow .it is white .the bench is white .
-the coat is not grey .it is brown .the coat is brown .
-the window is not full .it is empty .the window is empty .
-the plate is not white .it is red .the plate is red .
-the plate was not green .it was black .the plate was black .
-the scarf is not grey .it is red .the scarf is red .
-the bowl is not white .it is blue .the bowl is blue .
-the sign is not grey .it is blue .the sign is blue .
-the coat is not black .it is brown .the coat is brown .
-the card is not red .it is blue .the card is blue .
-the van is not brown .it is blue .the van is blue .
-the chair is not red .it is white .the chair is white .
-the bowl is not blue .it is yellow .the bowl is yellow .
-the card is not brown .it is yellow .the card is yellow .
-the hat is not white .it is yellow .the hat is yellow .
-the kite is not black .it is white .the kite is white .
-the chair is not grey .it is brown .the chair is brown .
-the cup was not green .it was black .the cup was black .
-the flag is not blue .it is black .the flag is black .
-the bowl is not yellow .it is black .the bowl is black .
-the bench is not black .it is blue .the bench is blue .
-the sign is not black .it is white .the sign is white .
-the kite is not grey .it is brown .the kite is brown .
-the coat is not white .it is yellow .the coat is yellow .
-the mug is not yellow .it is red .the mug is red .
-the drawer was not loud .it was quiet .the drawer was quiet .
-the bench is not brown .it is green .the bench is green .
-the mug is not green .it is red .the mug is red .
-the window was not open .it was closed .the window was closed .
-the coat is not black .it is white .the coat is white .
+the chair is not brown .it is green .the chair is green .
 the coat is not red .it is green .the coat is green .
-the chair is not green .it is black .the chair is black .
-the mug is not grey .it is green .the mug is green .
-jonas did not buy rice .he bought coffee .jonas bought coffee .
-the window was not full .it was empty .the window was empty .
-the flag is not yellow .it is white .the flag is white .
-the cup is not green .it is yellow .the cup is yellow .
-the bench is not grey .it is green .the bench is green .
-the chair is not blue .it is red .the chair is red .
-the sign is not green .it is white .the sign is white .
-the card is not green .it is red .the card is red .
-the cupboard was not full .it was empty .the cupboard was empty .
-the coat is not blue .it is yellow .the coat is yellow .
-the kite is not black .it is brown .the kite is brown .
-the sign is not green .it is grey .the sign is grey .
-the scarf is not blue .it is brown .the scarf is brown .
-the plate is not white .it is green .the plate is green .
-kira did not choose salt .she chose soup .kira chose soup .
-that bench is not brown .it is black .
-that mug is not brown .it is blue .
-that plate is not white .it is red .
-the kite is not green .it is grey .the kite is grey .
+the scarf is not red .it is green .the scarf is green .
+the hat is not yellow .it is red .the hat is red .
+the coat is not grey .it is brown .the coat is brown .
+the hat is not blue .it is white .the hat is white .
+the flag is not green .it is black .the flag is black .
+the fence was not narrow .it was wide .the fence was wide .
+the chair is not grey .it is yellow .the chair is yellow .
+the flag is not yellow .it is black .the flag is black .
+the plate is not brown .it is yellow .the plate is yellow .
+the bowl is not green .it is white .the bowl is white .
+the chair is not grey .it is blue .the chair is blue .
+the mug is not green .it is red .the mug is red .
+the cup is not brown .it is white .the cup is white .
+the bench is not yellow .it is brown .the bench is brown .
+the lid was not full .it was empty .the lid was empty .
+the window is not narrow .it is wide .the window is wide .
+the bowl is not blue .it is grey .the bowl is grey .
+the hat is not grey .it is green .the hat is green .
+the bowl is not grey .it is white .the bowl is white .
+that cup is not brown .it is yellow .
+the van is not blue .it is yellow .the van is yellow .
+the mug is not red .it is brown .the mug is brown .
+the flag is not yellow .it is grey .the flag is grey .
+the kite is not green .it is yellow .the kite is yellow .
+the chair is not white .it is red .the chair is red .
+the cup is not yellow .it is blue .the cup is blue .
+the gate is not open .it is closed .the gate is closed .
+the plate is not yellow .it is grey .the plate is grey .
+the chair is not blue .it is black .the chair is black .
+the gate was not heavy .it was light .the gate was light .
+the cup was not brown .it was yellow .the cup was yellow .
+the drawer was not wet .it was dry .the drawer was dry .
+the mug is not blue .it is brown .the mug is brown .
+the cup was not brown .it was red .the cup was red .
+the sign is not white .it is green .the sign is green .
+the van is not yellow .it is red .the van is red .
+the card is not white .it is yellow .the card is yellow .
+the bench is not white .it is green .the bench is green .
+the gate was not new .it was old .the gate was old .
+the hat is not white .it is red .the hat is red .
+the card is not red .it is grey .the card is grey .
+the scarf is not blue .it is green .the scarf is green .
+the cup is not yellow .it is red .the cup is red .
+the sign is not yellow .it is blue .the sign is blue .
+the bench is not grey .it is brown .the bench is brown .
+iris did not buy bread .she bought coffee .iris bought coffee .
+the mug is not red .it is blue .the mug is blue .
+iris did not choose water .she chose coffee .iris chose coffee .
+the sign is not blue .it is white .the sign is white .
+the sign is not white .it is red .the sign is red .
+diego did not choose rice .he chose bread .diego chose bread .
+the mug is not brown .it is yellow .the mug is yellow .
+that flag is not green .it is white .
+the flag is not red .it is black .the flag is black .
+the kite is not brown .it is grey .the kite is grey .
+the lid is not open .it is shut .the lid is shut .
+the sign is not black .it is yellow .the sign is yellow .
+the cup is not grey .it is blue .the cup is blue .
+the coat is not yellow .it is black .the coat is black .
+the scarf is not blue .it is red .the scarf is red .
+the fence is not full .it is empty .the fence is empty .
+iris did not buy rice .she bought coffee .iris bought coffee .
+the cup is not red .it is brown .the cup is brown .
+the coat is not white .it is grey .the coat is grey .
+the flag is not black .it is green .the flag is green .
+the fence was not near .it was far .the fence was far .
 the mug is not grey .it is brown .the mug is brown .
-that kite is not blue .it is white .
-ben did not choose soup .he chose rice .ben chose rice .
-the chair is not black .it is brown .the chair is brown .
-the mug is not green .it is brown .the mug is brown .
-ben did not buy rice .he bought coffee .ben bought coffee .
-the cup is not yellow .it is green .the cup is green .
-the card is not yellow .it is green .the card is green .
-the sign is not brown .it is white .the sign is white .
-hana did not choose salt .she chose rice .hana chose rice .
-the scarf is not red .it is brown .the scarf is brown .
-the lid was not open .it was shut .the lid was shut .
-that chair is not blue .it is grey .
-the mug is not red .it is white .the mug is white .
-the bowl is not brown .it is blue .the bowl is blue .
-the plate is not white .it is black .the plate is black .
-the coat is not yellow .it is white .the coat is white .
-the sign is not green .it is yellow .the sign is yellow .
-the cup was not blue .it was black .the cup was black .
-the fence is not open .it is closed .the fence is closed .
-the cupboard is not full .it is empty .the cupboard is empty .
-ben did not choose water .he chose soup .ben chose soup .
-the bowl is not green .it is blue .the bowl is blue .
+the bench was not white .it was blue .the bench was blue .
+hana did not buy soup .she bought rice .hana bought rice .
+hana did not buy soup .she bought coffee .hana bought coffee .
 the coat is not white .it is brown .the coat is brown .
-the sign is not brown .it is grey .the sign is grey .
+the chair is not yellow .it is grey .the chair is grey .
+the plate is not black .it is green .the plate is green .
+diego did not choose salt .he chose soup .diego chose soup .
+the bowl is not brown .it is yellow .the bowl is yellow .
+the drawer was not heavy .it was light .the drawer was light .
+the bowl is not black .it is blue .the bowl is blue .
+the flag is not brown .it is yellow .the flag is yellow .
+the scarf is not brown .it is green .the scarf is green .
+kira did not buy rice .she bought soup .kira bought soup .
+the plate is not red .it is black .the plate is black .
+that cup is not white .it is yellow .
+the bowl is not brown .it is grey .the bowl is grey .
+that cup is not red .it is grey .
+the flag is not green .it is white .the flag is white .
+the kite is not grey .it is black .the kite is black .
+that coat is not green .it is yellow .
+hana did not choose soup .she chose water .hana chose water .
+the kite is not red .it is blue .the kite is blue .
+that flag is not green .it is yellow .
+the coat is not yellow .it is red .the coat is red .
+the mug is not red .it is yellow .the mug is yellow .
+the flag is not red .it is white .the flag is white .
+the bench is not brown .it is blue .the bench is blue .
+the kite is not yellow .it is blue .the kite is blue .
+the mug is not brown .it is white .the mug is white .
+the lid is not loud .it is quiet .the lid is quiet .
+the mug is not yellow .it is grey .the mug is grey .
+the scarf is not blue .it is yellow .the scarf is yellow .
+the window was not clean .it was dirty .the window was dirty .
+the chair is not black .it is brown .the chair is brown .
+the drawer was not full .it was empty .the drawer was empty .
+the lid was not hot .it was cold .the lid was cold .
+the flag is not blue .it is brown .the flag is brown .
+the bowl is not white .it is blue .the bowl is blue .
+diego did not buy bread .he bought salt .diego bought salt .
+the kite is not brown .it is green .the kite is green .
+the sign is not black .it is white .the sign is white .
+the hat is not yellow .it is grey .the hat is grey .
+the card is not yellow .it is blue .the card is blue .
+the chair is not green .it is brown .the chair is brown .
+the cup is not white .it is yellow .the cup is yellow .
+the bowl is not blue .it is red .the bowl is red .
+the cup was not black .it was blue .the cup was blue .
+the van is not yellow .it is green .the van is green .
+the sign is not green .it is grey .the sign is grey .
+the sign is not blue .it is yellow .the sign is yellow .
+the coat is not grey .it is blue .the coat is blue .
+the card is not green .it is grey .the card is grey .
+the bench is not grey .it is red .the bench is red .
+the cup is not white .it is red .the cup is red .
+the lid was not loud .it was quiet .the lid was quiet .
+the van is not red .it is white .the van is white .
+the chair is not green .it is yellow .the chair is yellow .
+the plate is not grey .it is white .the plate is white .
+jonas did not buy salt .he bought water .jonas bought water .
+the chair is not red .it is blue .the chair is blue .
+the mug is not blue .it is green .the mug is green .
+the cup is not grey .it is black .the cup is black .
+ben did not choose rice .he chose bread .ben chose bread .
+the sign is not brown .it is black .the sign is black .
+the van is not blue .it is red .the van is red .
+the chair is not white .it is brown .the chair is brown .
+that bench is not white .it is grey .
+the cup is not blue .it is green .the cup is green .
+the plate is not grey .it is brown .the plate is brown .
+the coat is not grey .it is black .the coat is black .
+the drawer was not narrow .it was wide .the drawer was wide .
+the mug is not red .it is black .the mug is black .
+the kite is not white .it is green .the kite is green .
+clara did not choose coffee .she chose water .clara chose water .
+the bowl is not green .it is grey .the bowl is grey .
+the card is not black .it is white .the card is white .
+the cupboard was not new .it was old .the cupboard was old .
+the chair is not red .it is white .the chair is white .
+the flag was not yellow .it was brown .the flag was brown .
+the hat is not green .it is yellow .the hat is yellow .
+the sign is not red .it is brown .the sign is brown .
+the kite is not white .it is yellow .the kite is yellow .
+the window is not wet .it is dry .the window is dry .
+that cup is not black .it is blue .
+the sign is not grey .it is white .the sign is white .
+the plate is not red .it is yellow .the plate is yellow .
+the hat is not black .it is grey .the hat is grey .
+the flag is not brown .it is black .the flag is black .
+the bowl is not green .it is red .the bowl is red .
+the bowl was not black .it was red .the bowl was red .
+the plate is not white .it is grey .the plate is grey .
+the cupboard was not open .it was shut .the cupboard was shut .
+the scarf is not black .it is white .the scarf is white .
+the scarf is not green .it is blue .the scarf is blue .
+the bowl is not grey .it is black .the bowl is black .
+the bowl is not yellow .it is blue .the bowl is blue .
+the scarf is not brown .it is yellow .the scarf is yellow .
+the hat is not blue .it is black .the hat is black .
+mateo did not choose bread .he chose water .mateo chose water .
+the sign is not white .it is yellow .the sign is yellow .
+the cup is not grey .it is brown .the cup is brown .
+that chair is not blue .it is green .
+the cup was not white .it was yellow .the cup was yellow .
+jonas did not buy salt .he bought soup .jonas bought soup .
+the plate is not yellow .it is black .the plate is black .
+the scarf is not black .it is red .the scarf is red .
+the bench is not blue .it is grey .the bench is grey .
+the mug is not green .it is yellow .the mug is yellow .
+the card is not red .it is white .the card is white .
+the cup is not white .it is green .the cup is green .
+kira did not buy coffee .she bought salt .kira bought salt .
+the bench is not green .it is blue .the bench is blue .
+the cup is not blue .it is white .the cup is white .
+the kite is not blue .it is white .the kite is white .
+the kite is not grey .it is green .the kite is green .
+the bench is not white .it is blue .the bench is blue .
+the hat is not black .it is green .the hat is green .
+the van is not black .it is blue .the van is blue .
+diego did not choose bread .he chose salt .diego chose salt .
+the scarf is not white .it is blue .the scarf is blue .
+ben did not choose bread .he chose coffee .ben chose coffee .
+that hat is not white .it is brown .
+the flag is not yellow .it is red .the flag is red .
+the cupboard was not full .it was empty .the cupboard was empty .
+ben did not buy rice .he bought water .ben bought water .
+the chair is not blue .it is brown .the chair is brown .
+the kite is not white .it is blue .the kite is blue .
+the scarf is not blue .it is black .the scarf is black .
+the van is not white .it is brown .the van is brown .
+ben did not buy water .he bought coffee .ben bought coffee .
+the van is not grey .it is brown .the van is brown .
+the bench is not blue .it is brown .the bench is brown .
+the flag is not blue .it is red .the flag is red .
+the plate is not white .it is brown .the plate is brown .
+the chair is not green .it is grey .the chair is grey .
+the kite is not grey .it is yellow .the kite is yellow .
 the lid was not wet .it was dry .the lid was dry .
 the window is not new .it is old .the window is old .
 the cup is not black .it is green .the cup is green .
-iris did not buy soup .she bought coffee .iris bought coffee .
-the window was not heavy .it was light .the window was light .
+clara did not choose salt .she chose rice .clara chose rice .
 the cup is not brown .it is yellow .the cup is yellow .
-mateo did not choose water .he chose soup .mateo chose soup .
 the lid is not narrow .it is wide .the lid is wide .
+the bench is not brown .it is green .the bench is green .
+the plate is not red .it is grey .the plate is grey .
+the hat is not yellow .it is green .the hat is green .
+the bowl is not red .it is yellow .the bowl is yellow .
+the fence is not clean .it is dirty .the fence is dirty .
+the gate was not open .it was closed .the gate was closed .
+the bowl is not grey .it is brown .the bowl is brown .
+the flag is not brown .it is white .the flag is white .
+the cup is not white .it is grey .the cup is grey .
+the plate is not grey .it is red .the plate is red .
+the bowl is not black .it is grey .the bowl is grey .
+the card is not blue .it is red .the card is red .
+the coat is not green .it is brown .the coat is brown .
+the sign is not red .it is white .the sign is white .
+the window was not heavy .it was light .the window was light .
+the mug is not white .it is yellow .the mug is yellow .
+the hat is not red .it is brown .the hat is brown .
+the card is not yellow .it is brown .the card is brown .
+the van is not green .it is blue .the van is blue .
+the cup is not white .it is blue .the cup is blue .
+the sign is not red .it is yellow .the sign is yellow .
+the fence is not dark .it is bright .the fence is bright .
+the coat is not yellow .it is grey .the coat is grey .
+the drawer was not new .it was old .the drawer was old .
+the scarf is not red .it is white .the scarf is white .
+ben did not choose water .he chose coffee .ben chose coffee .
+iris did not buy soup .she bought salt .iris bought salt .
+the cupboard is not hot .it is cold .the cupboard is cold .
+the window is not dark .it is bright .the window is bright .
+the kite is not red .it is yellow .the kite is yellow .
+the flag is not black .it is grey .the flag is grey .
+the kite is not brown .it is black .the kite is black .
+the van is not grey .it is green .the van is green .
+the cup is not yellow .it is white .the cup is white .
+the plate is not blue .it is white .the plate is white .
+the flag is not blue .it is yellow .the flag is yellow .
+that hat is not grey .it is brown .
+the sign is not blue .it is green .the sign is green .
+the coat is not green .it is white .the coat is white .
+the van is not blue .it is green .the van is green .
+the drawer is not loud .it is quiet .the drawer is quiet .
+the coat is not brown .it is red .the coat is red .
+the chair was not black .it was red .the chair was red .
+the plate is not blue .it is yellow .the plate is yellow .
+the drawer was not loud .it was quiet .the drawer was quiet .
+the coat is not brown .it is blue .the coat is blue .
+the van was not grey .it was brown .the van was brown .
+the chair is not grey .it is black .the chair is black .
+the plate is not yellow .it is green .the plate is green .
+the drawer is not open .it is closed .the drawer is closed .
+the sign is not brown .it is yellow .the sign is yellow .
+the fence is not hot .it is cold .the fence is cold .
+the hat is not grey .it is brown .the hat is brown .
+the cup is not brown .it is grey .the cup is grey .
+the kite is not yellow .it is brown .the kite is brown .
+the cupboard was not dark .it was bright .the cupboard was bright .
+mateo did not choose salt .he chose rice .mateo chose rice .
+diego did not choose soup .he chose water .diego chose water .
+the lid is not near .it is far .the lid is far .
+the van is not brown .it is grey .the van is grey .
+the flag is not black .it is white .the flag is white .
+the kite is not blue .it is red .the kite is red .
+the cupboard is not heavy .it is light .the cupboard is light .
+the card is not yellow .it is white .the card is white .
+the chair is not white .it is grey .the chair is grey .
+the cupboard was not near .it was far .the cupboard was far .
+the window was not full .it was empty .the window was empty .
+that hat is not green .it is blue .
+the cup is not black .it is yellow .the cup is yellow .
+the chair is not white .it is black .the chair is black .
+the chair is not brown .it is blue .the chair is blue .
+the drawer is not full .it is empty .the drawer is empty .
+the cup is not red .it is blue .the cup is blue .
+the mug is not black .it is white .the mug is white .
+the plate is not brown .it is green .the plate is green .
+the kite is not red .it is brown .the kite is brown .
+the plate is not brown .it is blue .the plate is blue .
+hana did not buy soup .she bought bread .hana bought bread .
+mateo did not buy bread .he bought soup .mateo bought soup .
+the drawer is not narrow .it is wide .the drawer is wide .
+the bench is not grey .it is black .the bench is black .
+the hat is not brown .it is blue .the hat is blue .
+the coat is not green .it is red .the coat is red .
+the bowl is not red .it is brown .the bowl is brown .
+the mug is not black .it is brown .the mug is brown .
+the flag is not green .it is grey .the flag is grey .
+the scarf is not white .it is yellow .the scarf is yellow .
+the bench is not yellow .it is green .the bench is green .
+the bench is not black .it is white .the bench is white .
+that coat is not yellow .it is brown .
+the gate was not narrow .it was wide .the gate was wide .
+the cupboard is not wet .it is dry .the cupboard is dry .
+the cupboard was not hot .it was cold .the cupboard was cold .
+the hat is not grey .it is yellow .the hat is yellow .
+the bench is not brown .it is grey .the bench is grey .
+the lid was not near .it was far .the lid was far .
+the cup is not blue .it is black .the cup is black .
+the window was not dark .it was bright .the window was bright .
+the van is not red .it is grey .the van is grey .
+the bowl is not blue .it is green .the bowl is green .
+the cup is not green .it is blue .the cup is blue .
+the card is not red .it is blue .the card is blue .
+iris did not buy rice .she bought bread .iris bought bread .
+the coat is not brown .it is green .the coat is green .
+the mug is not red .it is white .the mug is white .
+hana did not buy rice .she bought salt .hana bought salt .
+the cup is not black .it is grey .the cup is grey .
+iris did not buy water .she bought coffee .iris bought coffee .
+that cup is not brown .it is red .
+the hat was not green .it was blue .the hat was blue .
+the bench is not black .it is blue .the bench is blue .
+the hat was not white .it was brown .the hat was brown .
+the chair is not blue .it is yellow .the chair is yellow .
+the coat is not black .it is yellow .the coat is yellow .
+the kite is not green .it is grey .the kite is grey .
+the hat is not brown .it is green .the hat is green .
+the coat is not grey .it is yellow .the coat is yellow .
+the chair is not grey .it is white .the chair is white .
+ben did not buy bread .he bought coffee .ben bought coffee .
+the chair is not black .it is grey .the chair is grey .
+the chair was not yellow .it was white .the chair was white .
+the kite is not black .it is red .the kite is red .
+the drawer was not open .it was closed .the drawer was closed .

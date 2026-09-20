@@ -38,7 +38,7 @@ sys.path.insert(0, str(ROOT))
 
 from run_evals import load_suite, word_tokens  # noqa: E402
 
-EXPERIMENTS = ["starter", "expanded", "seven", "tuned"]
+EXPERIMENTS = ["starter", "expanded", "seven", "tuned", "unpaired"]
 # Long, case-specific overlaps are the danger. A suffix this long that is also
 # followed by the answer is flagged for manual review.
 SUSPICIOUS_SUFFIX_TOKENS = 5

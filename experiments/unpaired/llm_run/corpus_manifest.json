@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "file": "01_grammar_agreement.txt",
+      "bytes": 29944,
+      "sha256": "4f82997a1d3dbe43171d81e9d16f73ba544b129f8dd10d936dd25c4483f085e8",
+      "warnings": [],
+      "characters": 29944,
+      "passages": 1184,
+      "unique_passages": 1184,
+      "preview": "one frog is slow but two frogs are warm .\nthe lamb was short and the lambs were quiet .\none hen is awake .\nmany goats were quiet .\none fox is small but two foxes are short .\none dog is short but two dogs are tall .\none frog is old .\nmany dogs were white .\none crow is tall .\nthe farmer was awake and "
+    },
+    {
+      "file": "02_grammar_tense.txt",
+      "bytes": 32467,
+      "sha256": "320e4a8b3f04f85518e59334fbebd5724841c4e7f149d1c7cdcd966788f5ba21",
+      "warnings": [],
+      "characters": 32467,
+      "passages": 920,
+      "unique_passages": 920,
+      "preview": "yesterday the farmer cooked near the hall .\nthe boy likes to open .\nlast night the boy counted beside the yard .\nhe was cooking earlier .\nlast night he helped beside the bridge .\nan hour ago the girls opened slowly .\nlast night the girls climbed and she climbed too .\nyesterday mateo cooked near the "
+    },
+    {
+      "file": "03_opposites_frame.txt",
+      "bytes": 13161,
+      "sha256": "ebacd4253977b0a19c1bf61e0c516e3bd3e9070718f3568e0b41329393e43f4d",
+      "warnings": [],
+      "characters": 13161,
+      "passages": 392,
+      "unique_passages": 134,
+      "preview": "when something is not soft it is hard .\nwhen something is not dark it is bright .\nthe opposite of warm is cool .\nthe opposite of clean is dirty .\nwhen something is not small it is big .\nthe opposite of hard is soft .\nthe opposite of near is far .\nwhen something is not soft it is hard .\nthe opposite "
+    },
+    {
+      "file": "04_opposites_contrast.txt",
+      "bytes": 9914,
+      "sha256": "13b56e140874bba4e58c444a8b0275a25123dd04f1b8c1aaeff9e638e97b8a6d",
+      "warnings": [],
+      "characters": 9914,
+      "passages": 204,
+      "unique_passages": 195,
+      "preview": "the room grew quiet after the noisy engine left .\nhot water is in the bucket and cold water is in the bowl .\nthe garden was hot at noon and cold at midnight .\na missing button was under the bench .\nhe filled the empty cup until it was full .\nthe bank felt hot in summer and cold in winter .\nhot water"
+    },
+    {
+      "file": "05_negation_corrections.txt",
+      "bytes": 63856,
+      "sha256": "410b05e30225759d2f5a7110ce20afc73e9e5726acb551a18b4f8bbe3844007b",
+      "warnings": [],
+      "characters": 63856,
+      "passages": 1152,
+      "unique_passages": 1136,
+      "preview": "the sign is not yellow .it is brown .the sign is brown .\nthe hat is not white .it is brown .the hat is brown .\nthe hat is not red .it is blue .the hat is blue .\nthe lid is not new .it is old .the lid is old .\nmateo did not buy coffee .he bought rice .mateo bought rice .\nthe cup is not white .it is b"
+    },
+    {
+      "file": "06_spatial_relations.txt",
+      "bytes": 89765,
+      "sha256": "9ed14e7a52d9f41da7455f30991f0a75af9f1c4ddf54ffb8742135bf7b0b9b60",
+      "warnings": [],
+      "characters": 89765,
+      "passages": 1635,
+      "unique_passages": 1635,
+      "preview": "the tray is left of the stamp .the stamp is to the right of the tray .\nthe hook is above the counter .the counter is below the hook .\nthe bench is north of the spoon .the spoon is south of the bench .\nthe bench is over the card .the card is under the bench .\nthe basket is left of the key .the key is"
+    },
+    {
+      "file": "07_plain_descriptions.md",
+      "bytes": 11252,
+      "sha256": "c4838b1aa87ba50907a33d10ab4269c24fbded4ee4b30724538f37a432edeacf",
+      "warnings": [],
+      "characters": 11252,
+      "passages": 343,
+      "unique_passages": 343,
+      "preview": "the desk was missing from the mat .\nthe door and the box are in the hall .\nthe door is brown .\nthe lamp is wide .\nthe box and the book are in the hall .\nthe lamp was missing from the mat .\nthe desk and the door are in the hall .\nthe bag is new .\nthe bag and the cabinet are clean .\nthe shelf and the "
+    },
+    {
+      "file": "08_printed_notes.pdf",
+      "bytes": 2867,
+      "sha256": "49273e4109eac7c6cfba017f355154881a4b397a183ab0ae8cc3b0d3b8531644",
+      "warnings": [],
+      "pages": 2,
+      "characters": 2877,
+      "passages": 61,
+      "unique_passages": 61,
+      "preview": "the garden is warm in summer and cool in winter .\nthe store is warm in summer and cool in winter .\na quiet street and a noisy street share one gate .\na bowl can be full or empty .\na quiet hall and a noisy street share one gate .\nthe kitchen is warm in summer and cool in winter .\nthe bowl is beside t"
+    },
+    {
+      "file": "09_sequence_order.txt",
+      "bytes": 14623,
+      "sha256": "2a1f1ddcb058b5f61449c73d17e5811fe1c630fda8815bf69b34b7966f1863ec",
+      "warnings": [],
+      "characters": 14623,
+      "passages": 264,
+      "unique_passages": 211,
+      "preview": "first buy the basket .then sort it .the first action is buy .\nfirst pack the card .then seal it .the last action is seal .\nthe truck arrived before the taxi .the vehicle that arrived later was the taxi .\nbrunch happens before supper .the later meal is supper .\nwe wash the cup before breakfast in the"
+    },
+    {
+      "file": "10_everyday_knowledge.txt",
+      "bytes": 41312,
+      "sha256": "9757a306d3e6987536cdb9d16edd59b58a3df261bbe209061e54c62b7dd3fe5f",
+      "warnings": [],
+      "characters": 41312,
+      "passages": 815,
+      "unique_passages": 453,
+      "preview": "a person will stay warm beside the stone .\na person can see in the bank when the light is warm .\na person can see in the kitchen when the light is warm .\na person uses an umbrella beside the wet bench .\nthe wood is dry and the sand is wet in the street .\nthe umbrella keeps a person dry when the path"
+    },
+    {
+      "file": "11_categories.txt",
+      "bytes": 21694,
+      "sha256": "84cdfd179d1fb79c0c64c6592759ed1ee903370b9e015e064c46b70312efc34f",
+      "warnings": [],
+      "characters": 21694,
+      "passages": 543,
+      "unique_passages": 495,
+      "preview": "the fish and the salmon are in the hall .\nthe carrot and the onion are near the vegetable .\nthe fabric and the cloth are in the yard .\nthe kid grows and the goat is in the hall .\na onion and a bean are vegetables .\nthe kid grows and the goat is near .\na kid grows and is a goat .\nthe trees and the oa"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 7513,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 11359,
+  "new_unique_passages": 6767,
+  "duplicates_removed": 2354,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

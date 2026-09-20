@@ -52,6 +52,11 @@ MAX_ANSWER_SHARE = 0.5
 # content of the prompt "the dogs" - and are protected by BANNED_PHRASES instead.
 MAX_CONTENT_COVERAGE = 0.75
 MIN_CONTENT_WORDS = 3
+# An answer key is the choice list; a passage reciting this many of a case's four
+# choices is reciting it. Ordered-subsequence coverage catches a prompt rebuilt
+# with words inserted between its tokens.
+MIN_CHOICES_RECITED = 3
+MAX_SUBSEQUENCE_COVERAGE = 0.8
 STOPWORDS = {
     "the", "a", "an", "is", "are", "was", "were", "am", "be", "been", "of", "to",
     "in", "on", "at", "and", "or", "but", "it", "its", "this", "that", "these",
@@ -111,9 +116,8 @@ def gerund_of(verb):
 SINGULAR = ["crow", "rabbit", "fox", "owl", "frog", "lamb", "pony", "hen",
             "cat", "duck", "goat", "horse", "boy", "girl", "runner", "farmer"]
 PLURAL = {w: plural_of(w) for w in SINGULAR}
-ADJ = ["small", "big", "tall", "short", "quiet", "quick", "slow", "young",
-       "old", "brown", "white", "calm", "busy", "safe", "awake", "asleep",
-       "clean", "ready", "loud", "warm"]
+ADJ = ["small", "big", "tall", "short", "quiet", "slow", "old", "brown",
+       "white", "awake", "asleep", "clean", "loud", "warm"]
 VERBS = ["walk", "open", "clean", "cook", "help", "look", "jump", "climb",
          "count", "move"]
 SINGULAR_SUBJECTS = ["she", "he", "the runner", "the farmer", "the boy", "the girl"]
@@ -168,19 +172,23 @@ def grammar_tense(rng):
         past, third, ing = past_of(verb), third_person_of(verb), gerund_of(verb)
         for subject in rng.sample(PAST_SUBJECTS, 12):
             place = rng.choice(PLACES)
-            # "yesterday she" is an eval prompt and is never written; the
-            # "and she <past>" frame teaches the same past-tense cue instead.
+            # "yesterday she" is an eval prompt. Banning the contiguous phrase is
+            # not enough: "yesterday clara walked and she walked too ." contains
+            # the same two tokens in order with a gap, and is followed by the
+            # answer. No frame may pair "yesterday" with "she" at any distance, so
+            # "she" is taught under other past-time cues and the model has to
+            # transfer from "yesterday he/they/we" to "yesterday she".
             lines += [
                 f"yesterday {subject} {past} near {place} .",
-                f"yesterday {subject} {past} and she {past} too .",
+                f"last night {subject} {past} and she {past} too .",
                 f"last night {subject} {past} beside {place} .",
                 f"an hour ago {subject} {past} slowly .",
             ]
         lines += [
-            f"last week she {past} at home .", f"last month she {past} near the road .",
+            f"last week she {past} near the gate .", f"last month she {past} near the road .",
             f"an hour ago she {past} quickly .", f"earlier she {past} beside the gate .",
-            f"yesterday he {past} and she {past} as well .",
-            f"yesterday they {past} while she {past} nearby .",
+            f"last week he {past} and she {past} as well .",
+            f"last month they {past} while she {past} nearby .",
             f"they are {ing} today .", f"we {verb} every week .",
         ]
         for subject in SINGULAR_SUBJECTS:
@@ -248,7 +256,7 @@ def opposites_contrast(rng):
     for container in CONTAINERS:
         lines += [
             f"the {container} was full in the morning and empty at night .",
-            f"one {container} is full and the other {container} is empty .",
+            f"one {container} is full and one {container} is empty .",
             f"he filled the empty {container} until it was full .",
             f"hot water is in the {container} and cold water is in the bowl .",
             f"the {container} is round and the board is flat .",
@@ -256,15 +264,15 @@ def opposites_contrast(rng):
         ]
     for thing in THINGS:
         lines += [
-            f"a hot {thing} cools slowly until it turns cold .",
+            f"a hot {thing} cools slowly and is cold .",
             f"the loud engine filled the street near the {thing} .",
             f"a round {thing} and a flat {thing} are different .",
             f"the missing key was under the {thing} .",
             f"a missing button was under the {thing} .",
         ]
     lines += [
-        "a hot drink and a cold drink are on the table .",
-        "hot water and cold water are in the two jars .",
+        "hot water and cold water are on the table .",
+        "hot water and cold water are in the bowl and the jar .",
         "a loud engine is beside the station .",
     ] * 4
     rng.shuffle(lines)
@@ -330,6 +338,51 @@ FIXTURES = ["clock", "mirror", "picture", "map", "banner", "hook", "poster"]
 
 def _safe(*words):
     return not (set(words) & EVAL_FRAME_NOUNS)
+
+
+def spatial_unpaired(rng):
+    """Experiment E's variant. Every relational passage in spatial() states a
+    relation AND its inverse, so `left` and `right` (and above/below) are almost
+    perfectly co-distributed: nearly every passage containing one contains the
+    other. Next-token prediction then has little pressure to separate them, and
+    in experiment D the nearest neighbour of `right` is `left` at cosine 0.79 -
+    the mechanical reason the left/right eval case is a near-tie.
+
+    This variant adds single-relation passages that mention one direction word
+    without its inverse, so the two words stop appearing in lockstep. The paired
+    passages are kept, because they are what teaches the inverse in the first
+    place; only the co-distribution is broken."""
+    lines = spatial(rng).strip().split("\n")
+    singles = []
+    for small in SMALL_THINGS:
+        for holder in HOLDERS:
+            if not _safe(small, holder):
+                continue
+            singles += [
+                f"the {small} is left of the {holder} .",
+                f"the {holder} is right of the {small} .",
+                f"the {small} is inside the {holder} .",
+            ]
+    for fixture in FIXTURES:
+        for surface in SURFACES:
+            if not _safe(fixture, surface) or fixture == surface:
+                continue
+            singles += [
+                f"the {fixture} is above the {surface} .",
+                f"the {surface} is below the {fixture} .",
+            ]
+    for thing in SMALL_THINGS:
+        for surface in SURFACES:
+            if not _safe(thing, surface):
+                continue
+            singles += [
+                f"the {thing} is north of the {surface} .",
+                f"the {surface} is south of the {thing} .",
+                f"the {thing} is under the {surface} .",
+            ]
+    lines += singles
+    rng.shuffle(lines)
+    return sentences(lines)
 
 
 def spatial(rng):
@@ -469,10 +522,12 @@ def everyday(rng):
             lines += [
                 f"cold water in the {container} freezes and the ice is hard .",
                 f"the water freezes at night and the ice fills the {container} .",
-                f"ice is frozen water and the {container} of ice is cold .",
+                f"ice is cold water and the {container} of ice is hard .",
                 f"hot water in the {container} is steam in the {place} .",
                 f"the {place} was cold so the water was ice .",
-                f"sand and wood and ice are in the {place} .",
+                # "sand and wood and ice" would recite three of one eval case's
+                # four answer choices in a single passage - an answer list.
+                f"sand is on the path near the {place} .",
                 f"the wood is dry and the sand is wet in the {place} .",
             ]
     for place in ROOMS:
@@ -491,9 +546,9 @@ def everyday(rng):
             # guard rejects it. The umbrella-to-dry link is taught without "uses"/"stay".
             lines += [
                 f"the umbrella keeps a person dry when the {thing} is wet .",
-                f"rain makes the {thing} wet but an umbrella keeps a person dry .",
-                f"under an umbrella the {thing} and the walker are dry .",
-                f"a person uses an umbrella in wet weather near the {thing} .",
+                f"water makes the {thing} wet but an umbrella keeps a person dry .",
+                f"under an umbrella the {thing} and the coat are dry .",
+                f"a person uses an umbrella beside the wet {thing} .",
                 f"a person will stay {state} beside the {thing} .",
             ]
     for good in GOODS:
@@ -505,7 +560,7 @@ def everyday(rng):
             ]
     for place in ROOMS[:8]:
         lines += [
-            f"a person who is asleep is on a pillow in the {place} .",
+            f"a person is asleep on a pillow in the {place} .",
             f"the pillow and the shoe are in the {place} .",
             f"a person uses a shoe to walk to the {place} .",
             # "into" is needed by two eval prompts' vocabulary. The eval's own
@@ -517,7 +572,7 @@ def everyday(rng):
     for container in CONTAINERS:
         lines += [
             f"the cold water went into the {container} .",
-            f"he poured water into the {container} and into the bowl .",
+            f"water is in the {container} and in the bowl .",
         ]
     rng.shuffle(lines)
     return sentences(lines)
@@ -626,7 +681,7 @@ def descriptions(rng):
         "a narrow path and a wide road are near the bridge .",
         "the key was missing and the drawer was shut .",
         "a bird and two birds are near the fence .",
-        "many dogs and many ponies are near the field .",
+        "many dogs and many ponies are near the fence .",
         "two birds are loud but one sparrow is quiet .",
     ]
     rng.shuffle(lines)
@@ -637,7 +692,7 @@ def printed_notes(rng):
     lines = []
     for container in CONTAINERS:
         lines += [f"a {container} can be full or empty .",
-                  f"the {container} stands beside the bowl on the counter ."]
+                  f"the {container} is beside the bowl on the counter ."]
     for room in ROOMS:
         lines += [f"a quiet {room} and a noisy street share one gate .",
                   f"the {room} is warm in summer and cool in winter ."]
@@ -645,10 +700,10 @@ def printed_notes(rng):
         lines.append(f"a {left} path and a {right} path lead to the bridge .")
     lines += [
         "the door of the office is wide and the window is narrow .",
-        "a round plate and a flat board rest on the counter .",
+        "a round plate and a flat board are on the counter .",
         "the missing key was under the mat beside the gate .",
         "two birds are loud while one sparrow is quiet .",
-        "many dogs and many ponies wait near the fence .",
+        "many dogs and many ponies are near the gate .",
         "the park is north of the bridge and the yard is south of the bridge .",
         "hot water cools in the jar until it is cold .",
     ]
@@ -663,11 +718,14 @@ CATEGORY_FILES = {
                   ("04_opposites_contrast.txt", opposites_contrast)],
     "negation": [("05_negation_corrections.txt", negation)],
     "spatial_relations": [("06_spatial_relations.txt", spatial)],
+    "spatial_relations_unpaired": [("06_spatial_relations.txt", spatial_unpaired)],
     "sequence": [("09_sequence_order.txt", sequence)],
     "everyday_knowledge": [("10_everyday_knowledge.txt", everyday)],
     "categories_and_analogies": [("11_categories.txt", categories)],
 }
-ALL_CATEGORIES = list(CATEGORY_FILES)
+ALL_CATEGORIES = [c for c in CATEGORY_FILES if not c.endswith("_unpaired")]
+ALL_UNPAIRED = [("spatial_relations_unpaired" if c == "spatial_relations" else c)
+                for c in ALL_CATEGORIES]
 SHARED_FILES = [("07_plain_descriptions.md", descriptions)]
 PDF_NAME = "08_printed_notes.pdf"
 
@@ -728,6 +786,52 @@ def paraphrase_guard(passages, suite):
     return problems, worst
 
 
+def answer_key_guard(passages, suite):
+    """Check 7: no passage may recite three or more of a case's four answer
+    choices. An answer key is the choice list with the right one marked; a
+    sentence listing most of the choices is reciting it, whatever the order."""
+    problems = []
+    for case in suite["cases"]:
+        choices = {word_tokens(c)[0] for c in case["choices"]}
+        for tokens in passages:
+            present = choices & set(tokens)
+            if len(present) >= MIN_CHOICES_RECITED:
+                problems.append(
+                    f"{case['id']}: a passage recites {len(present)} of its 4 answer choices "
+                    f"{sorted(present)}: {' '.join(tokens)!r}")
+                break
+    return problems
+
+
+def subsequence_guard(passages, suite):
+    """Check 8: no passage may contain a case's prompt tokens IN ORDER (gaps
+    allowed) above MAX_SUBSEQUENCE_COVERAGE while also containing the answer.
+    Contiguous matching misses this: banning the phrase "yesterday she" does not
+    stop "yesterday clara walked and she walked too .", which teaches the same
+    two tokens in the same order and is followed by the answer."""
+    problems, worst = [], []
+    for case in suite["cases"]:
+        prompt = word_tokens(case["prompt"])
+        answer = word_tokens(case["answer"])[0]
+        best, best_tokens = 0.0, None
+        for tokens in passages:
+            if answer not in tokens:
+                continue
+            i = 0
+            for token in tokens:
+                if i < len(prompt) and token == prompt[i]:
+                    i += 1
+            coverage = i / len(prompt)
+            if coverage > best:
+                best, best_tokens = coverage, tokens
+        worst.append((case["id"], best))
+        if best > MAX_SUBSEQUENCE_COVERAGE:
+            problems.append(
+                f"{case['id']}: a passage contains {best:.0%} of its prompt tokens in order and "
+                f"also contains the answer {answer!r}: {' '.join(best_tokens)!r}")
+    return problems, worst
+
+
 def verify(texts, suite):
     problems = []
     for name, text in texts.items():
@@ -756,10 +860,13 @@ def verify(texts, suite):
     problems += guard_problems
     paraphrase_problems, paraphrase_worst = paraphrase_guard(passages, suite)
     problems += paraphrase_problems
+    problems += answer_key_guard(passages, suite)
+    subsequence_problems, subsequence_worst = subsequence_guard(passages, suite)
+    problems += subsequence_problems
     if problems:
         raise SystemExit("Separation check FAILED:\n  " + "\n  ".join(problems))
     worst.sort(key=lambda row: (-row[1], -row[2]))
-    print("Separation checks passed (6/6).")
+    print("Separation checks passed (8/8).")
     print(f"  Longest eval-prompt suffix appearing in the generated text: "
           f"{worst[0][1]} tokens ({worst[0][0]}) -> {worst[0][3]!r}, "
           f"answer follows {worst[0][2]:.0%} of the time")
@@ -772,6 +879,10 @@ def verify(texts, suite):
     print(f"  Highest content-word coverage of a case by one passage that also contains "
           f"its answer: {paraphrase_worst[0][1]:.0%} ({paraphrase_worst[0][0]}) "
           f"- limit is {MAX_CONTENT_COVERAGE:.0%}")
+    subsequence_worst.sort(key=lambda row: -row[1])
+    print(f"  Highest ordered-subsequence coverage of a prompt by one passage that also "
+          f"contains its answer: {subsequence_worst[0][1]:.0%} ({subsequence_worst[0][0]}) "
+          f"- limit is {MAX_SUBSEQUENCE_COVERAGE:.0%}")
     return worst
 
 
@@ -779,12 +890,17 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--categories", default="grammar,opposites,negation,spatial_relations",
-                        help="comma-separated, or 'all'")
+                        help="comma-separated, 'all', or 'all-unpaired'")
     parser.add_argument("--out", default="corpus")
     parser.add_argument("--seed", type=int, default=20260919)
     args = parser.parse_args()
 
-    chosen = ALL_CATEGORIES if args.categories == "all" else args.categories.split(",")
+    if args.categories == "all":
+        chosen = ALL_CATEGORIES
+    elif args.categories == "all-unpaired":
+        chosen = ALL_UNPAIRED
+    else:
+        chosen = args.categories.split(",")
     unknown = [c for c in chosen if c not in CATEGORY_FILES]
     if unknown:
         raise SystemExit(f"Unknown categories: {unknown}. Choose from {ALL_CATEGORIES}.")

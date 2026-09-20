@@ -1,7 +1,7 @@
 {
   "suite_id": "heldout-transfer-v1",
   "suite_sha256": "6e2f42928b7dcb14517d18c13e63a1a8a7c1cbbd985d597c7050a9d450d938e9",
-  "model_sha256": "f0ef15cf309ffad268e5f47b03bde05b5f990d949fe65e349aac219467d670a6",
+  "model_sha256": "f4f022e119fb5112c04d227b0b449c88405100e2d789e39d497707f1875598c0",
   "stage": "final",
   "settings": {
     "seed": 2026,
@@ -12,20 +12,20 @@
   "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
   "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
   "overall": {
-    "correct": 11,
+    "correct": 10,
     "total": 16,
     "scorable": 15,
-    "success_rate_all_cases": 0.6875,
-    "accuracy_scorable_cases": 0.7333333333333333,
+    "success_rate_all_cases": 0.625,
+    "accuracy_scorable_cases": 0.6666666666666666,
     "coverage": 0.9375
   },
   "by_group": {
     "heldout": {
-      "correct": 11,
+      "correct": 10,
       "total": 16,
       "scorable": 15,
-      "success_rate_all_cases": 0.6875,
-      "accuracy_scorable_cases": 0.7333333333333333,
+      "success_rate_all_cases": 0.625,
+      "accuracy_scorable_cases": 0.6666666666666666,
       "coverage": 0.9375
     }
   },
@@ -71,11 +71,11 @@
       "coverage": 1.0
     },
     "spatial_relations": {
-      "correct": 3,
+      "correct": 2,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 1.0,
-      "accuracy_scorable_cases": 1.0,
+      "success_rate_all_cases": 0.6666666666666666,
+      "accuracy_scorable_cases": 0.6666666666666666,
       "coverage": 1.0
     }
   }

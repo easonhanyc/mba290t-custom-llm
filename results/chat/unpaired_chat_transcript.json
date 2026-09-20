@@ -1,0 +1,78 @@
+{
+  "model": "experiments/unpaired/llm_run/model.pt",
+  "model_sha256": "6adc74247c02a70d95e876c6738861889572353f85ae4bbd600521ec9e6a015b",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the opposite of heavy is",
+      "seed": 2026,
+      "response": "light .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the pen is inside the jar . the jar contains the",
+      "seed": 2027,
+      "response": "pen .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "yesterday the farmer",
+      "seed": 2028,
+      "response": "cleaned near the river .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the cup is not red . it is green . the cup is",
+      "seed": 2029,
+      "response": "green .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "a hungry person uses a",
+      "seed": 2030,
+      "response": "spoon for the salt in the yard .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "what do you think about the french revolution",
+      "seed": 2031,
+      "response": "hour ago the new client .",
+      "unknown_prompt_words": [
+        "do",
+        "french",
+        "revolution",
+        "think",
+        "what",
+        "you"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the team discussed the loan and the interest at the",
+      "seed": 2032,
+      "response": "bank .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the customer and the buyer and the shopper and the client and the consumer and the subscriber walked into the store and asked about the price and the delivery and the design and the quality of the package and the item and the brand and the offering and the merchandise before the order was finally ready to collect at the market",
+      "seed": 2033,
+      "response": "were tall is quiet garden is quiet garden is quiet street is quiet .",
+      "unknown_prompt_words": [
+        "asked",
+        "collect",
+        "finally",
+        "ready"
+      ],
+      "prompt_truncated": true
+    }
+  ]
+}

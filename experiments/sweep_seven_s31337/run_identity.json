@@ -1,7 +1,7 @@
 {
   "experiment": "seven",
   "seed": 31337,
-  "notebook_run_dir": "20260920T050500_261019Z",
+  "notebook_run_dir": "20260920T055553_077888Z",
   "training_steps": 3000,
   "learning_rate": 0.001,
   "corpus_mode": "classroom",
@@ -19,5 +19,5 @@
     "corpus_seven/10_everyday_knowledge.txt",
     "corpus_seven/11_categories.txt"
   ],
-  "notebook_wall_clock_seconds": 19.0
+  "notebook_wall_clock_seconds": 29.1
 }

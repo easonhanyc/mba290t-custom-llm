@@ -19,7 +19,7 @@
       "robin"
     ],
     "unknown_choices": [],
-    "generated_text": "lambs open slowly busy month market yesterday crows folder package yard rope design bought detail winter case truck grey climbs kira educator she bench",
+    "generated_text": "learned pen truck counting recommended rice and credit on help recommended gate delivery looked they street poster mug loan asleep fast white . taste",
     "prompt_truncated": false,
     "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it.",
     "stage": "untrained",
@@ -45,7 +45,7 @@
       "tools"
     ],
     "unknown_choices": [],
-    "generated_text": "night while shopper soft desk noisy empty bucket one late opens help market fence brown pear jump journey behind night cooked behind something physician",
+    "generated_text": "nurse nurse awake awake he cats left fruit walk station dentist sign shelf a to bus credit ben pear black road it van of",
     "prompt_truncated": false,
     "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence.",
     "stage": "untrained",
@@ -67,14 +67,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "walks": 0.002376577351242304,
-      "walk": 0.002489920472726226,
-      "walked": 0.0022972042206674814,
-      "walking": 0.0016693354118615389
+      "walks": 0.0024959768634289503,
+      "walk": 0.0027796810027211905,
+      "walked": 0.002101364079862833,
+      "walking": 0.0019644161220639944
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "cool explains important hospital important mateo software south earlier on car above bird boys window short report dogs security physician quiet security hot merchandise",
+    "generated_text": "count front old mango narrow bread room bench bread while key hana kira am office lambs front farmers map important mirror inside bottle counts",
     "prompt_truncated": false,
     "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence.",
     "stage": "untrained",
@@ -100,7 +100,7 @@
       "ducklings"
     ],
     "unknown_choices": [],
-    "generated_text": "return nurse fence night platform lead product opens kitchen spoon engine about i course north cupboard frogs are yard above green holds looking reviewed",
+    "generated_text": "room package heavy quiet summer ponies walks tray be stamp owl hall that physician in gate update nurse clara system week boy climbs hot",
     "prompt_truncated": false,
     "reason": "Plural agreement on a noun taught only in the young-animal material.",
     "stage": "untrained",
@@ -122,14 +122,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "closed": 0.002120997291058302,
-      "wide": 0.0018543452024459839,
-      "flat": 0.00184792245272547,
-      "brown": 0.0020015425980091095
+      "closed": 0.002653467934578657,
+      "wide": 0.0021194173023104668,
+      "flat": 0.0023952857591211796,
+      "brown": 0.002094363560900092
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "grey well cleans share yesterday deposit cleaning climbed therapist juice morning park truck jar cools was white poster pony focused dogs tall cooking folder",
+    "generated_text": "hard apple cupboard update selected cleaned goats hens counts sign we stamp board full product box last street farmer from apple about yesterday buy",
     "prompt_truncated": false,
     "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine.",
     "stage": "untrained",
@@ -151,14 +151,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "round": 0.001912031089887023,
-      "wide": 0.0018882411532104015,
-      "grey": 0.002473350614309311,
-      "cool": 0.0027079135179519653
+      "round": 0.0015654481248930097,
+      "wide": 0.0021789800375699997,
+      "grey": 0.0023094313219189644,
+      "cool": 0.0024085433688014746
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "soft hour dry climb garden late care closed share office opened client rest report road return flag brand bottle jars later cooks learned foxes",
+    "generated_text": "store key gate dog learned platform frogs horse question bread tall map share he counted office ducks platform purchase poster chose course climbs mateo",
     "prompt_truncated": false,
     "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame.",
     "stage": "untrained",
@@ -180,14 +180,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "open": 0.002527765231207013,
-      "flat": 0.0018795804353430867,
-      "grey": 0.002474574837833643,
-      "late": 0.0019510769052430987
+      "open": 0.0026173607911914587,
+      "flat": 0.002369694644585252,
+      "grey": 0.002292775083333254,
+      "late": 0.002383098006248474
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "pocket folder open three question doctor left coat grew data street another lecturer peach delivery pony plate will hat narrow return important professor dentist",
+    "generated_text": "recommended hall question letter application investment reviewed horses park mentioned well course well yellow clean product delivery discussion nearby rabbits dogs jar consumer last",
     "prompt_truncated": false,
     "reason": "shut/open is taught only as a negation correction, and in that direction only.",
     "stage": "untrained",
@@ -205,18 +205,18 @@
       "white"
     ],
     "expected": "grey",
-    "predicted_choice": "black",
-    "score": 0,
+    "predicted_choice": "grey",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "grey": 0.0025746312458068132,
-      "brown": 0.0018989186501130462,
-      "black": 0.003045717952772975,
-      "white": 0.002856156788766384
+      "grey": 0.002530821366235614,
+      "brown": 0.001963264076039195,
+      "black": 0.0024685466196388006,
+      "white": 0.0020579283591359854
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "fence hospital climb of jumps student summer girl lesson calm picture that jumping every room noon ben counting different jar asleep old orange basket",
+    "generated_text": "flat jumping dark returned opened report below boy of in girls holds ducks girl every dogs now soup bank walk small iris grey i",
     "prompt_truncated": false,
     "reason": "The correction frame is drilled, but 'basket' is a container in the spatial material and never appears in a colour correction.",
     "stage": "untrained",
@@ -238,14 +238,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "black": 0.003044316079467535,
-      "white": 0.0027345572598278522,
-      "green": 0.002052356954663992,
-      "red": 0.0030828937888145447
+      "black": 0.002483718330040574,
+      "white": 0.0020840370561927557,
+      "green": 0.002034951699897647,
+      "red": 0.002629808383062482
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "quality returned design wide river night harvest pocket awake birds felt nurse flat climbs therapist earlier doctor professor green buy north bread closed card",
+    "generated_text": "walks short fence team update shelf not when explains mango pen loud are open cat spoon store hard felt share hen filled wet dog",
     "prompt_truncated": false,
     "reason": "Same frame, another object that is never corrected for colour in training.",
     "stage": "untrained",
@@ -267,14 +267,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "dirty": 0.0019569476135075092,
-      "clean": 0.0024659642949700356,
-      "wide": 0.0022122354712337255,
-      "brown": 0.0019116203766316175
+      "dirty": 0.0019613238982856274,
+      "clean": 0.0024201602209359407,
+      "wide": 0.0022330768406391144,
+      "brown": 0.0019814034458249807
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "looks pony she hook earlier surgeon engine with field folder checking small empty when us mateo report walk harvest two patient treatment filled teacher",
+    "generated_text": "bridge ring to looking important to lesson lambs desk nurse last another recommended cupboard cupboard inside brown farmers mat banana us has path but",
     "prompt_truncated": false,
     "reason": "A state correction on a surface noun that never appears in a correction.",
     "stage": "untrained",
@@ -296,14 +296,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "below": 0.002174073364585638,
-      "above": 0.0017970195040106773,
-      "beside": 0.0017079878598451614,
-      "inside": 0.0027607895899564028
+      "below": 0.0024357177317142487,
+      "above": 0.0025836152490228415,
+      "beside": 0.0027654331643134356,
+      "inside": 0.0029808238614350557
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "lamp return cup bucket new helping choose soup inside brand above train route are spoon student runner tutor tin crow dogs application was holds",
+    "generated_text": "learning counting every counted river hangs report mentioned returned now from loan face jumped or frogs health full look loud soup river ball rice",
     "prompt_truncated": false,
     "reason": "Above/below inverse with two nouns that never appear in a relational frame in training.",
     "stage": "untrained",
@@ -321,18 +321,18 @@
       "south"
     ],
     "expected": "right",
-    "predicted_choice": "north",
+    "predicted_choice": "south",
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "right": 0.002331467578187585,
-      "left": 0.0021526075433939695,
-      "north": 0.002698764204978943,
-      "south": 0.0024113666731864214
+      "right": 0.002254381775856018,
+      "left": 0.0022615999914705753,
+      "north": 0.0019558165222406387,
+      "south": 0.0030960682779550552
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "after we many later soft jars sign professor bread or in bond were hall hill be open map she walking detail goats climbed room",
+    "generated_text": "asleep car another office yesterday ordered yard banner grew yellow slow item tray helped black missing door count climbed interest open right cabinet we",
     "prompt_truncated": false,
     "reason": "Left/right inverse with two nouns from the negation material, never used relationally.",
     "stage": "untrained",
@@ -350,18 +350,18 @@
       "mat"
     ],
     "expected": "spoon",
-    "predicted_choice": "spoon",
-    "score": 1,
+    "predicted_choice": "mat",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "spoon": 0.0023803645744919777,
-      "sign": 0.0017939060926437378,
-      "gate": 0.002271703677251935,
-      "mat": 0.002233991166576743
+      "spoon": 0.0016637893859297037,
+      "sign": 0.002030859002843499,
+      "gate": 0.0026832344010472298,
+      "mat": 0.002765162382274866
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "flat looked can later farmers dentist mat pear coin cat fence stands girls risk rope mat dog they during face health fast bag review",
+    "generated_text": "foxes moving cooked juice jonas horse selected we juice is physician buy dentist water hens door office scarf walking focused",
     "prompt_truncated": false,
     "reason": "Inside/contains inverse where the answer is a noun, with a container never used in that frame.",
     "stage": "untrained",
@@ -391,7 +391,7 @@
       "tool",
       "tree"
     ],
-    "generated_text": "north park scarf cools duck us return week car jar walking narrow from chose girls ponies path letter doctor jonas midnight duck to purchase",
+    "generated_text": "office quickly that farmers hot ago winter picture crow shelf goats farmer security north were were on design two felt clara duck ball plate",
     "prompt_truncated": false,
     "reason": "Category membership stated in a frame the corpus never uses; the memberships themselves are taught in other wording.",
     "stage": "untrained",
@@ -423,7 +423,7 @@
       "tool",
       "tree"
     ],
-    "generated_text": "green right quiet runners slowly dry shelf book data juice peach about pen selected hill kite gate taste has green safe mortgage foxes slow",
+    "generated_text": "hana slow small tray behind midnight path felt light sign or behind asleep cabinet us <UNK> ball bond report bank bench late flat car",
     "prompt_truncated": false,
     "reason": "Same, across two different categories.",
     "stage": "untrained",
@@ -453,7 +453,7 @@
     "unknown_choices": [
       "fill"
     ],
-    "generated_text": "runners right south old from credit right kira mortgage road awake month cupboard can recommended spoon big wait move open coat apple midnight cleaning",
+    "generated_text": "path slow update rice last help case <UNK> the is grey yard owl counter runner delivery hall we market crows farmer risk cabinet winter",
     "prompt_truncated": false,
     "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs.",
     "stage": "untrained",

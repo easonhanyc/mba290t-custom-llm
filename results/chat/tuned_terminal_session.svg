@@ -4,7 +4,7 @@
 <circle cx="20" cy="19" r="5" fill="#ff5f56"/>
 <circle cx="34" cy="19" r="5" fill="#ffbd2e"/>
 <circle cx="48" cy="19" r="5" fill="#27c93f"/>
-<text x="492" y="24" fill="#8b95a5" text-anchor="middle" font-size="14">chat.py — experiment D (7-category corpus, lr 0.004)</text>
+<text x="492" y="24" fill="#8b95a5" text-anchor="middle" font-size="14">chat.py — experiment D (7-category, lr 0.004)</text>
 <text x="20" y="73" fill="#7c8798" xml:space="preserve" textLength="243.0" lengthAdjust="spacingAndGlyphs">number of parameters: 0.13M</text>
 <text x="20" y="95" fill="#7c8798" xml:space="preserve" textLength="594.0" lengthAdjust="spacingAndGlyphs">Tiny language model: short continuations, not a general assistant.</text>
 <text x="20" y="117" fill="#7c8798" xml:space="preserve" textLength="585.0" lengthAdjust="spacingAndGlyphs">Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.</text>
@@ -13,13 +13,13 @@
 <text x="20" y="183" fill="#7fd1b9" xml:space="preserve" textLength="477.0" lengthAdjust="spacingAndGlyphs">You: the pen is inside the jar . the jar contains the</text>
 <text x="20" y="205" fill="#f0c674" xml:space="preserve" textLength="108.0" lengthAdjust="spacingAndGlyphs">Model: pen .</text>
 <text x="20" y="227" fill="#7fd1b9" xml:space="preserve" textLength="225.0" lengthAdjust="spacingAndGlyphs">You: yesterday the farmer</text>
-<text x="20" y="249" fill="#f0c674" xml:space="preserve" textLength="324.0" lengthAdjust="spacingAndGlyphs">Model: counted and she counted too .</text>
+<text x="20" y="249" fill="#f0c674" xml:space="preserve" textLength="279.0" lengthAdjust="spacingAndGlyphs">Model: cleaned near the river .</text>
 <text x="20" y="271" fill="#7fd1b9" xml:space="preserve" textLength="450.0" lengthAdjust="spacingAndGlyphs">You: the cup is not red . it is green . the cup is</text>
 <text x="20" y="293" fill="#f0c674" xml:space="preserve" textLength="126.0" lengthAdjust="spacingAndGlyphs">Model: green .</text>
 <text x="20" y="315" fill="#7fd1b9" xml:space="preserve" textLength="243.0" lengthAdjust="spacingAndGlyphs">You: a hungry person uses a</text>
-<text x="20" y="337" fill="#f0c674" xml:space="preserve" textLength="360.0" lengthAdjust="spacingAndGlyphs">Model: spoon for the bread in the hall .</text>
+<text x="20" y="337" fill="#f0c674" xml:space="preserve" textLength="351.0" lengthAdjust="spacingAndGlyphs">Model: spoon for the salt in the yard .</text>
 <text x="20" y="359" fill="#7fd1b9" xml:space="preserve" textLength="450.0" lengthAdjust="spacingAndGlyphs">You: what do you think about the french revolution</text>
-<text x="20" y="381" fill="#f0c674" xml:space="preserve" textLength="198.0" lengthAdjust="spacingAndGlyphs">Model: above the jar .</text>
+<text x="20" y="381" fill="#f0c674" xml:space="preserve" textLength="216.0" lengthAdjust="spacingAndGlyphs">Model: at the hospital .</text>
 <text x="20" y="403" fill="#e0796d" xml:space="preserve" textLength="495.0" lengthAdjust="spacingAndGlyphs">Unknown words: do, french, revolution, think, what, you</text>
 <text x="20" y="425" fill="#7fd1b9" xml:space="preserve" textLength="504.0" lengthAdjust="spacingAndGlyphs">You: the team discussed the loan and the interest at the</text>
 <text x="20" y="447" fill="#f0c674" xml:space="preserve" textLength="117.0" lengthAdjust="spacingAndGlyphs">Model: bank .</text>
@@ -28,7 +28,7 @@
 <text x="20" y="513" fill="#7fd1b9" xml:space="preserve" textLength="900.0" lengthAdjust="spacingAndGlyphs">    the package and the item and the brand and the offering and the merchandise before the order was</text>
 <text x="20" y="535" fill="#7fd1b9" xml:space="preserve" textLength="378.0" lengthAdjust="spacingAndGlyphs">    finally ready to collect at the market</text>
 <text x="20" y="557" fill="#f0c674" xml:space="preserve" textLength="72.0" lengthAdjust="spacingAndGlyphs">Model: .</text>
-<text x="20" y="579" fill="#e0796d" xml:space="preserve" textLength="342.0" lengthAdjust="spacingAndGlyphs">Unknown words: asked, collect, finally</text>
+<text x="20" y="579" fill="#e0796d" xml:space="preserve" textLength="405.0" lengthAdjust="spacingAndGlyphs">Unknown words: asked, collect, finally, ready</text>
 <text x="20" y="601" fill="#e0796d" xml:space="preserve" textLength="531.0" lengthAdjust="spacingAndGlyphs">Long prompt: only the most recent context tokens were used.</text>
 <text x="20" y="623" fill="#7fd1b9" xml:space="preserve" textLength="90.0" lengthAdjust="spacingAndGlyphs">You: /quit</text>
 <text x="20" y="645" fill="#7c8798" xml:space="preserve" textLength="513.0" lengthAdjust="spacingAndGlyphs">Saved transcript: results/chat/tuned_chat_transcript.json</text>

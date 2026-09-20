@@ -1,7 +1,7 @@
 {
   "suite_id": "synthetic-language-v1",
   "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-  "model_sha256": "2aad69871ec56deb8ce5aee368e0785249202308ec717272a3dea60d03938062",
+  "model_sha256": "3e8def84b8d038ffec769da336c5b3a5c4a530e2f91a64dfe9d652c8e736e41f",
   "stage": "final",
   "settings": {
     "seed": 2026,
@@ -12,20 +12,20 @@
   "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
   "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
   "overall": {
-    "correct": 39,
+    "correct": 36,
     "total": 48,
     "scorable": 44,
-    "success_rate_all_cases": 0.8125,
-    "accuracy_scorable_cases": 0.8863636363636364,
+    "success_rate_all_cases": 0.75,
+    "accuracy_scorable_cases": 0.8181818181818182,
     "coverage": 0.9166666666666666
   },
   "by_group": {
     "extend_corpus": {
-      "correct": 16,
+      "correct": 13,
       "total": 24,
       "scorable": 20,
-      "success_rate_all_cases": 0.6666666666666666,
-      "accuracy_scorable_cases": 0.8,
+      "success_rate_all_cases": 0.5416666666666666,
+      "accuracy_scorable_cases": 0.65,
       "coverage": 0.8333333333333334
     },
     "starter_patterns": {
@@ -71,11 +71,11 @@
       "coverage": 1.0
     },
     "everyday_knowledge": {
-      "correct": 3,
+      "correct": 1,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 1.0,
-      "accuracy_scorable_cases": 1.0,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
       "coverage": 1.0
     },
     "grammar": {
@@ -103,11 +103,11 @@
       "coverage": 1.0
     },
     "opposites": {
-      "correct": 3,
+      "correct": 2,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 1.0,
-      "accuracy_scorable_cases": 1.0,
+      "success_rate_all_cases": 0.6666666666666666,
+      "accuracy_scorable_cases": 0.6666666666666666,
       "coverage": 1.0
     },
     "reference": {

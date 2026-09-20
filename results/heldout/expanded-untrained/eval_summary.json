@@ -1,7 +1,7 @@
 {
   "suite_id": "heldout-transfer-v1",
   "suite_sha256": "6e2f42928b7dcb14517d18c13e63a1a8a7c1cbbd985d597c7050a9d450d938e9",
-  "model_sha256": "23d6954f9a458eb9ba04f3abaeb061de885c29375b0a99e6f209c8effef9cce7",
+  "model_sha256": "283a094eaaef7390fa361d54e89a9323160f85dd6d64ccb0eda2df1017350f1e",
   "stage": "untrained",
   "settings": {
     "seed": 2026,
@@ -47,11 +47,11 @@
       "coverage": 0.25
     },
     "negation": {
-      "correct": 0,
+      "correct": 1,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 0.0,
-      "accuracy_scorable_cases": 0.0,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
       "coverage": 1.0
     },
     "opposites": {
@@ -71,11 +71,11 @@
       "coverage": 0.0
     },
     "spatial_relations": {
-      "correct": 1,
+      "correct": 0,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 0.3333333333333333,
-      "accuracy_scorable_cases": 0.3333333333333333,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
       "coverage": 1.0
     }
   }

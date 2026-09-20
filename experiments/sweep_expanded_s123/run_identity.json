@@ -1,7 +1,7 @@
 {
   "experiment": "expanded",
   "seed": 123,
-  "notebook_run_dir": "20260920T050319_930317Z",
+  "notebook_run_dir": "20260920T055217_269978Z",
   "training_steps": 3000,
   "learning_rate": 0.001,
   "corpus_mode": "classroom",
@@ -16,5 +16,5 @@
     "corpus/07_plain_descriptions.md",
     "corpus/08_printed_notes.pdf"
   ],
-  "notebook_wall_clock_seconds": 18.4
+  "notebook_wall_clock_seconds": 28.7
 }

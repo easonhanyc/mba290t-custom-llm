@@ -2034,7 +2034,7 @@
           "one"
         ],
         "best_match_any": {
-          "passage": "one hen is tall .",
+          "passage": "one frog is slow but two frogs are warm .",
           "coverage_content": 0.5,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -2042,7 +2042,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "one hen is tall .",
+          "passage": "one frog is slow but two frogs are warm .",
           "coverage_content": 0.5,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -2059,7 +2059,7 @@
           "dogs"
         ],
         "best_match_any": {
-          "passage": "many dogs were warm .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -2067,7 +2067,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "two dogs are tall .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -2092,7 +2092,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "yesterday the farmer walked near the park .",
+          "passage": "yesterday the runner walked near the river .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -2110,7 +2110,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -2118,9 +2118,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a hot road cools slowly until it turns cold .",
+          "passage": "hot water is in the bucket and cold water is in the bowl .",
           "coverage_content": 0.5,
-          "coverage_all": 0.2,
+          "coverage_all": 0.6,
           "shared_content_words": [
             "hot"
           ]
@@ -2136,7 +2136,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -2144,7 +2144,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the bucket was full in the morning and empty at night .",
+          "passage": "he filled the empty cup until it was full .",
           "coverage_content": 0.5,
           "coverage_all": 0.4,
           "shared_content_words": [
@@ -2162,7 +2162,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -2170,7 +2170,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a noisy morning and a quiet evening are in the market .",
+          "passage": "the room grew quiet after the noisy engine left .",
           "coverage_content": 0.5,
           "coverage_all": 0.4,
           "shared_content_words": [
@@ -2189,7 +2189,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not blue . it is red . the hat is red .",
+          "passage": "the hat is not red . it is blue . the hat is blue .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -2198,7 +2198,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not blue . it is red . the hat is red .",
+          "passage": "the hat is not red . it is blue . the hat is blue .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -2221,9 +2221,9 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "kira did not buy salt . she bought soup . kira bought soup .",
+          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
           "coverage_content": 0.5,
-          "coverage_all": 0.667,
+          "coverage_all": 0.556,
           "shared_content_words": [
             "bought",
             "buy",
@@ -2243,18 +2243,18 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the lid is not open . it is closed . the lid is closed .",
+          "passage": "the window was not open . it was closed . the window was closed .",
           "coverage_content": 0.667,
-          "coverage_all": 0.875,
+          "coverage_all": 0.75,
           "shared_content_words": [
             "closed",
             "open"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the lid is not open . it is closed . the lid is closed .",
+          "passage": "the window was not open . it was closed . the window was closed .",
           "coverage_content": 0.667,
-          "coverage_all": 0.875,
+          "coverage_all": 0.75,
           "shared_content_words": [
             "closed",
             "open"
@@ -2274,7 +2274,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the shelf and the book are in the hall .",
+          "passage": "the book was missing from the mat .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -2339,7 +2339,7 @@
           "wash"
         ],
         "best_match_any": {
-          "passage": "last night i walked beside the fence .",
+          "passage": "last night the boy counted beside the yard .",
           "coverage_content": 0.167,
           "coverage_all": 0.273,
           "shared_content_words": [
@@ -2420,7 +2420,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the spoon is inside the pocket . the pocket contains the spoon .",
+          "passage": "the spoon is inside the folder . the folder contains the spoon .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -2449,7 +2449,7 @@
           "lamp"
         ],
         "best_match_any": {
-          "passage": "the desk and the lamp are in the hall .",
+          "passage": "the lamp and the desk are in the hall .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -2458,9 +2458,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the ledge sits below the clock . the clock hangs above the ledge .",
+          "passage": "the clock is above the cabinet . the cabinet is below the clock .",
           "coverage_content": 0.333,
-          "coverage_all": 0.5,
+          "coverage_all": 0.667,
           "shared_content_words": [
             "above"
           ]
@@ -2486,7 +2486,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the tray is left of the spoon . the spoon is to the right of the tray .",
+          "passage": "the pocket is left of the letter . the letter is to the right of the pocket .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -2550,7 +2550,7 @@
           "turn"
         ],
         "best_match_any": {
-          "passage": "the opposite of bright is dark .",
+          "passage": "when something is not dark it is bright .",
           "coverage_content": 0.25,
           "coverage_all": 0.111,
           "shared_content_words": [
@@ -2558,7 +2558,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "when something is not heavy it is light .",
+          "passage": "the opposite of heavy is light .",
           "coverage_content": 0.0,
           "coverage_all": 0.0,
           "shared_content_words": []
@@ -2597,15 +2597,15 @@
           "puppy"
         ],
         "best_match_any": {
-          "passage": "a dog is big .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 0.2,
-          "coverage_all": 0.429,
+          "coverage_all": 0.286,
           "shared_content_words": [
             "dog"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the cat is big .",
+          "passage": "one cat was clean .",
           "coverage_content": 0.0,
           "coverage_all": 0.143,
           "shared_content_words": []
@@ -3426,7 +3426,7 @@
           "one"
         ],
         "best_match_any": {
-          "passage": "one hen is tall .",
+          "passage": "one frog is slow but two frogs are warm .",
           "coverage_content": 0.5,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -3434,7 +3434,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "one hen is tall .",
+          "passage": "one frog is slow but two frogs are warm .",
           "coverage_content": 0.5,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -3451,7 +3451,7 @@
           "dogs"
         ],
         "best_match_any": {
-          "passage": "many dogs were warm .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -3459,7 +3459,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "two dogs are tall .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -3484,7 +3484,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "yesterday the farmer walked near the park .",
+          "passage": "yesterday the runner walked near the river .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -3502,7 +3502,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -3510,9 +3510,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a hot road cools slowly until it turns cold .",
+          "passage": "hot water is in the bucket and cold water is in the bowl .",
           "coverage_content": 0.5,
-          "coverage_all": 0.2,
+          "coverage_all": 0.6,
           "shared_content_words": [
             "hot"
           ]
@@ -3528,7 +3528,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -3536,7 +3536,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the bucket was full in the morning and empty at night .",
+          "passage": "he filled the empty cup until it was full .",
           "coverage_content": 0.5,
           "coverage_all": 0.4,
           "shared_content_words": [
@@ -3554,7 +3554,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -3562,7 +3562,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a noisy morning and a quiet evening are in the market .",
+          "passage": "the room grew quiet after the noisy engine left .",
           "coverage_content": 0.5,
           "coverage_all": 0.4,
           "shared_content_words": [
@@ -3581,7 +3581,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not blue . it is red . the hat is red .",
+          "passage": "the hat is not red . it is blue . the hat is blue .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -3590,7 +3590,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not blue . it is red . the hat is red .",
+          "passage": "the hat is not red . it is blue . the hat is blue .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -3613,9 +3613,9 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "kira did not buy salt . she bought soup . kira bought soup .",
+          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
           "coverage_content": 0.5,
-          "coverage_all": 0.667,
+          "coverage_all": 0.556,
           "shared_content_words": [
             "bought",
             "buy",
@@ -3635,18 +3635,18 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the lid is not open . it is closed . the lid is closed .",
+          "passage": "the window was not open . it was closed . the window was closed .",
           "coverage_content": 0.667,
-          "coverage_all": 0.875,
+          "coverage_all": 0.75,
           "shared_content_words": [
             "closed",
             "open"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the lid is not open . it is closed . the lid is closed .",
+          "passage": "the window was not open . it was closed . the window was closed .",
           "coverage_content": 0.667,
-          "coverage_all": 0.875,
+          "coverage_all": 0.75,
           "shared_content_words": [
             "closed",
             "open"
@@ -3666,7 +3666,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the book was missing from the bench .",
+          "passage": "the book and the bench are clean .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -3690,12 +3690,11 @@
           "who"
         ],
         "best_match_any": {
-          "passage": "a person who is asleep is on a pillow in the market .",
-          "coverage_content": 0.286,
-          "coverage_all": 0.455,
+          "passage": "the hungry person is in the garden and the water is warm .",
+          "coverage_content": 0.143,
+          "coverage_all": 0.273,
           "shared_content_words": [
-            "person",
-            "who"
+            "person"
           ]
         },
         "best_match_containing_the_answer": null
@@ -3713,7 +3712,7 @@
           "omar"
         ],
         "best_match_any": {
-          "passage": "the bird called hen is here .",
+          "passage": "the bird called sparrow is here .",
           "coverage_content": 0.2,
           "coverage_all": 0.375,
           "shared_content_words": [
@@ -3736,7 +3735,7 @@
           "wash"
         ],
         "best_match_any": {
-          "passage": "first fill the tray . then sort it . the last action is sort .",
+          "passage": "first buy the card . then seal it . the last action is seal .",
           "coverage_content": 0.5,
           "coverage_all": 0.727,
           "shared_content_words": [
@@ -3746,9 +3745,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "we wash the folder and then we dry it .",
+          "passage": "she will wash and dry the basket .",
           "coverage_content": 0.333,
-          "coverage_all": 0.545,
+          "coverage_all": 0.364,
           "shared_content_words": [
             "dry",
             "wash"
@@ -3769,7 +3768,7 @@
           "meal"
         ],
         "best_match_any": {
-          "passage": "dinner happens after lunch . the earlier meal is lunch .",
+          "passage": "brunch happens after lunch . the earlier meal is lunch .",
           "coverage_content": 0.833,
           "coverage_all": 0.889,
           "shared_content_words": [
@@ -3805,7 +3804,7 @@
           "vehicle"
         ],
         "best_match_any": {
-          "passage": "the truck arrived before the van . the vehicle that arrived later was the van .",
+          "passage": "the van arrived before the truck . the vehicle that arrived later was the truck .",
           "coverage_content": 0.667,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -3816,13 +3815,13 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a bus and a train are each a vehicle .",
+          "passage": "the train and the bus arrived at the station .",
           "coverage_content": 0.5,
-          "coverage_all": 0.4,
+          "coverage_all": 0.5,
           "shared_content_words": [
+            "arrived",
             "bus",
-            "train",
-            "vehicle"
+            "train"
           ]
         }
       },
@@ -3838,7 +3837,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the spoon is inside the pocket . the pocket contains the spoon .",
+          "passage": "the spoon is inside the folder . the folder contains the spoon .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -3876,9 +3875,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the ledge sits below the clock . the clock hangs above the ledge .",
+          "passage": "the clock is above the cabinet . the cabinet is below the clock .",
           "coverage_content": 0.333,
-          "coverage_all": 0.5,
+          "coverage_all": 0.667,
           "shared_content_words": [
             "above"
           ]
@@ -3904,7 +3903,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the tray is left of the spoon . the spoon is to the right of the tray .",
+          "passage": "the pocket is left of the letter . the letter is to the right of the pocket .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -3923,7 +3922,7 @@
           "water"
         ],
         "best_match_any": {
-          "passage": "the water freezes at night and the ice fills the cup .",
+          "passage": "the water freezes at night and the ice fills the basket .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -3932,7 +3931,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the water freezes at night and the ice fills the cup .",
+          "passage": "the water freezes at night and the ice fills the basket .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -3953,7 +3952,7 @@
           "uses"
         ],
         "best_match_any": {
-          "passage": "a person uses an umbrella in wet weather near the rope .",
+          "passage": "a person uses an umbrella beside the wet hill .",
           "coverage_content": 0.75,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -3963,9 +3962,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "rain makes the road wet but an umbrella keeps a person dry .",
+          "passage": "the umbrella keeps a person dry when the stone is wet .",
           "coverage_content": 0.5,
-          "coverage_all": 0.571,
+          "coverage_all": 0.429,
           "shared_content_words": [
             "person",
             "umbrella"
@@ -3984,23 +3983,23 @@
           "turn"
         ],
         "best_match_any": {
-          "passage": "we turn the light on and the dark room is warm .",
+          "passage": "the room was dark and the light helped a person see .",
           "coverage_content": 0.75,
-          "coverage_all": 0.556,
+          "coverage_all": 0.444,
           "shared_content_words": [
             "dark",
             "room",
-            "turn"
+            "see"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "we turn the light on and the dark room is warm .",
+          "passage": "the room was dark and the light helped a person see .",
           "coverage_content": 0.75,
-          "coverage_all": 0.556,
+          "coverage_all": 0.444,
           "shared_content_words": [
             "dark",
             "room",
-            "turn"
+            "see"
           ]
         }
       },
@@ -4015,7 +4014,7 @@
           "salmon"
         ],
         "best_match_any": {
-          "passage": "the robin and the crow are near the bird .",
+          "passage": "the robin and the sparrow are near the bird .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4024,7 +4023,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the salmon and the carp are near the fish .",
+          "passage": "the trout and the salmon are near the fish .",
           "coverage_content": 0.333,
           "coverage_all": 0.333,
           "shared_content_words": [
@@ -4045,7 +4044,7 @@
           "puppy"
         ],
         "best_match_any": {
-          "passage": "the puppy grows and the dog is near .",
+          "passage": "the puppy grows and the dog is in the street .",
           "coverage_content": 0.6,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -4076,7 +4075,7 @@
           "vegetable"
         ],
         "best_match_any": {
-          "passage": "the bean and the carrot are near the vegetable .",
+          "passage": "the pea and the carrot are near the vegetable .",
           "coverage_content": 0.667,
           "coverage_all": 0.429,
           "shared_content_words": [
@@ -4085,9 +4084,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the apple and the pear are fruit .",
+          "passage": "a apple and a peach are fruit .",
           "coverage_content": 0.333,
-          "coverage_all": 0.286,
+          "coverage_all": 0.429,
           "shared_content_words": [
             "apple"
           ]
@@ -4881,7 +4880,7 @@
           "one"
         ],
         "best_match_any": {
-          "passage": "one hen is tall .",
+          "passage": "one frog is slow but two frogs are warm .",
           "coverage_content": 0.5,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4889,7 +4888,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "one hen is tall .",
+          "passage": "one frog is slow but two frogs are warm .",
           "coverage_content": 0.5,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4906,7 +4905,7 @@
           "dogs"
         ],
         "best_match_any": {
-          "passage": "many dogs were warm .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4914,7 +4913,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "two dogs are tall .",
+          "passage": "one dog is short but two dogs are tall .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4939,7 +4938,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "yesterday the farmer walked near the park .",
+          "passage": "yesterday the runner walked near the river .",
           "coverage_content": 1.0,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4957,7 +4956,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -4965,9 +4964,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a hot road cools slowly until it turns cold .",
+          "passage": "hot water is in the bucket and cold water is in the bowl .",
           "coverage_content": 0.5,
-          "coverage_all": 0.2,
+          "coverage_all": 0.6,
           "shared_content_words": [
             "hot"
           ]
@@ -4983,7 +4982,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -4991,7 +4990,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the bucket was full in the morning and empty at night .",
+          "passage": "he filled the empty cup until it was full .",
           "coverage_content": 0.5,
           "coverage_all": 0.4,
           "shared_content_words": [
@@ -5009,7 +5008,7 @@
           "opposite"
         ],
         "best_match_any": {
-          "passage": "the opposite of hard is soft .",
+          "passage": "the opposite of warm is cool .",
           "coverage_content": 0.5,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -5017,7 +5016,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a noisy morning and a quiet evening are in the market .",
+          "passage": "the room grew quiet after the noisy engine left .",
           "coverage_content": 0.5,
           "coverage_all": 0.4,
           "shared_content_words": [
@@ -5036,7 +5035,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not blue . it is red . the hat is red .",
+          "passage": "the hat is not red . it is blue . the hat is blue .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -5045,7 +5044,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not blue . it is red . the hat is red .",
+          "passage": "the hat is not red . it is blue . the hat is blue .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -5068,9 +5067,9 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "kira did not buy salt . she bought soup . kira bought soup .",
+          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
           "coverage_content": 0.5,
-          "coverage_all": 0.667,
+          "coverage_all": 0.556,
           "shared_content_words": [
             "bought",
             "buy",
@@ -5090,18 +5089,18 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the lid is not open . it is closed . the lid is closed .",
+          "passage": "the window was not open . it was closed . the window was closed .",
           "coverage_content": 0.667,
-          "coverage_all": 0.875,
+          "coverage_all": 0.75,
           "shared_content_words": [
             "closed",
             "open"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the lid is not open . it is closed . the lid is closed .",
+          "passage": "the window was not open . it was closed . the window was closed .",
           "coverage_content": 0.667,
-          "coverage_all": 0.875,
+          "coverage_all": 0.75,
           "shared_content_words": [
             "closed",
             "open"
@@ -5121,7 +5120,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the book was missing from the bench .",
+          "passage": "the book and the bench are clean .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -5145,12 +5144,11 @@
           "who"
         ],
         "best_match_any": {
-          "passage": "a person who is asleep is on a pillow in the market .",
-          "coverage_content": 0.286,
-          "coverage_all": 0.455,
+          "passage": "the hungry person is in the garden and the water is warm .",
+          "coverage_content": 0.143,
+          "coverage_all": 0.273,
           "shared_content_words": [
-            "person",
-            "who"
+            "person"
           ]
         },
         "best_match_containing_the_answer": null
@@ -5168,7 +5166,7 @@
           "omar"
         ],
         "best_match_any": {
-          "passage": "the bird called hen is here .",
+          "passage": "the bird called sparrow is here .",
           "coverage_content": 0.2,
           "coverage_all": 0.375,
           "shared_content_words": [
@@ -5191,7 +5189,7 @@
           "wash"
         ],
         "best_match_any": {
-          "passage": "first fill the tray . then sort it . the last action is sort .",
+          "passage": "first buy the card . then seal it . the last action is seal .",
           "coverage_content": 0.5,
           "coverage_all": 0.727,
           "shared_content_words": [
@@ -5201,9 +5199,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "we wash the folder and then we dry it .",
+          "passage": "she will wash and dry the basket .",
           "coverage_content": 0.333,
-          "coverage_all": 0.545,
+          "coverage_all": 0.364,
           "shared_content_words": [
             "dry",
             "wash"
@@ -5224,7 +5222,7 @@
           "meal"
         ],
         "best_match_any": {
-          "passage": "dinner happens after lunch . the earlier meal is lunch .",
+          "passage": "brunch happens after lunch . the earlier meal is lunch .",
           "coverage_content": 0.833,
           "coverage_all": 0.889,
           "shared_content_words": [
@@ -5260,7 +5258,7 @@
           "vehicle"
         ],
         "best_match_any": {
-          "passage": "the truck arrived before the van . the vehicle that arrived later was the van .",
+          "passage": "the van arrived before the truck . the vehicle that arrived later was the truck .",
           "coverage_content": 0.667,
           "coverage_all": 0.8,
           "shared_content_words": [
@@ -5271,13 +5269,13 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a bus and a train are each a vehicle .",
+          "passage": "the train and the bus arrived at the station .",
           "coverage_content": 0.5,
-          "coverage_all": 0.4,
+          "coverage_all": 0.5,
           "shared_content_words": [
+            "arrived",
             "bus",
-            "train",
-            "vehicle"
+            "train"
           ]
         }
       },
@@ -5293,7 +5291,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the spoon is inside the pocket . the pocket contains the spoon .",
+          "passage": "the spoon is inside the folder . the folder contains the spoon .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -5331,9 +5329,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the ledge sits below the clock . the clock hangs above the ledge .",
+          "passage": "the clock is above the cabinet . the cabinet is below the clock .",
           "coverage_content": 0.333,
-          "coverage_all": 0.5,
+          "coverage_all": 0.667,
           "shared_content_words": [
             "above"
           ]
@@ -5359,7 +5357,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the tray is left of the spoon . the spoon is to the right of the tray .",
+          "passage": "the pocket is left of the letter . the letter is to the right of the pocket .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -5378,7 +5376,7 @@
           "water"
         ],
         "best_match_any": {
-          "passage": "the water freezes at night and the ice fills the cup .",
+          "passage": "the water freezes at night and the ice fills the basket .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -5387,7 +5385,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the water freezes at night and the ice fills the cup .",
+          "passage": "the water freezes at night and the ice fills the basket .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -5408,7 +5406,7 @@
           "uses"
         ],
         "best_match_any": {
-          "passage": "a person uses an umbrella in wet weather near the rope .",
+          "passage": "a person uses an umbrella beside the wet hill .",
           "coverage_content": 0.75,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -5418,9 +5416,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "rain makes the road wet but an umbrella keeps a person dry .",
+          "passage": "the umbrella keeps a person dry when the stone is wet .",
           "coverage_content": 0.5,
-          "coverage_all": 0.571,
+          "coverage_all": 0.429,
           "shared_content_words": [
             "person",
             "umbrella"
@@ -5439,23 +5437,23 @@
           "turn"
         ],
         "best_match_any": {
-          "passage": "we turn the light on and the dark room is warm .",
+          "passage": "the room was dark and the light helped a person see .",
           "coverage_content": 0.75,
-          "coverage_all": 0.556,
+          "coverage_all": 0.444,
           "shared_content_words": [
             "dark",
             "room",
-            "turn"
+            "see"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "we turn the light on and the dark room is warm .",
+          "passage": "the room was dark and the light helped a person see .",
           "coverage_content": 0.75,
-          "coverage_all": 0.556,
+          "coverage_all": 0.444,
           "shared_content_words": [
             "dark",
             "room",
-            "turn"
+            "see"
           ]
         }
       },
@@ -5470,7 +5468,7 @@
           "salmon"
         ],
         "best_match_any": {
-          "passage": "the robin and the crow are near the bird .",
+          "passage": "the robin and the sparrow are near the bird .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -5479,7 +5477,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the salmon and the carp are near the fish .",
+          "passage": "the trout and the salmon are near the fish .",
           "coverage_content": 0.333,
           "coverage_all": 0.333,
           "shared_content_words": [
@@ -5500,7 +5498,7 @@
           "puppy"
         ],
         "best_match_any": {
-          "passage": "the puppy grows and the dog is near .",
+          "passage": "the puppy grows and the dog is in the street .",
           "coverage_content": 0.6,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -5531,7 +5529,7 @@
           "vegetable"
         ],
         "best_match_any": {
-          "passage": "the bean and the carrot are near the vegetable .",
+          "passage": "the pea and the carrot are near the vegetable .",
           "coverage_content": 0.667,
           "coverage_all": 0.429,
           "shared_content_words": [
@@ -5540,9 +5538,1463 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the apple and the pear are fruit .",
+          "passage": "a apple and a peach are fruit .",
           "coverage_content": 0.333,
-          "coverage_all": 0.286,
+          "coverage_all": 0.429,
+          "shared_content_words": [
+            "apple"
+          ]
+        }
+      }
+    ]
+  },
+  "unpaired": {
+    "threshold": 0.8,
+    "min_content_words": 3,
+    "flagged_ids": [
+      "lang_17"
+    ],
+    "flagged_inherited_from_the_provided_classroom_corpus": [
+      "lang_17"
+    ],
+    "flagged_introduced_by_my_teaching_material": [],
+    "cases": [
+      {
+        "id": "lang_01",
+        "category": "domain_context",
+        "prompt": "the report about the customer explains the",
+        "answer": "service",
+        "prompt_content_words": [
+          "about",
+          "customer",
+          "explains",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_02",
+        "category": "domain_context",
+        "prompt": "the report about the merchandise explains the",
+        "answer": "quality",
+        "prompt_content_words": [
+          "about",
+          "explains",
+          "merchandise",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the product explains the quality in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_03",
+        "category": "domain_context",
+        "prompt": "the report about the mortgage explains the",
+        "answer": "payment",
+        "prompt_content_words": [
+          "about",
+          "explains",
+          "mortgage",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the loan explains the payment in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_04",
+        "category": "domain_context",
+        "prompt": "the report about the mango explains the",
+        "answer": "juice",
+        "prompt_content_words": [
+          "about",
+          "explains",
+          "mango",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the apple explains the juice in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_05",
+        "category": "domain_context",
+        "prompt": "the report about the bicycle explains the",
+        "answer": "journey",
+        "prompt_content_words": [
+          "about",
+          "bicycle",
+          "explains",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the car explains the journey in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_06",
+        "category": "domain_context",
+        "prompt": "the report about the application explains the",
+        "answer": "security",
+        "prompt_content_words": [
+          "about",
+          "application",
+          "explains",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the software explains the security in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_07",
+        "category": "domain_context",
+        "prompt": "the report about the surgeon explains the",
+        "answer": "patient",
+        "prompt_content_words": [
+          "about",
+          "explains",
+          "report",
+          "surgeon"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the doctor explains the patient in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_08",
+        "category": "domain_context",
+        "prompt": "the report about the tutor explains the",
+        "answer": "lesson",
+        "prompt_content_words": [
+          "about",
+          "explains",
+          "report",
+          "tutor"
+        ],
+        "best_match_any": {
+          "passage": "the report about the client explains the service in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the report about the teacher explains the lesson in detail .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "about",
+            "explains",
+            "report"
+          ]
+        }
+      },
+      {
+        "id": "lang_09",
+        "category": "domain_place",
+        "prompt": "the team discussed the customer and the service at the",
+        "answer": "store",
+        "prompt_content_words": [
+          "customer",
+          "discussed",
+          "service",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the customer and the purchase at the store .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "customer",
+            "discussed",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the customer and the purchase at the store .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "customer",
+            "discussed",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_10",
+        "category": "domain_place",
+        "prompt": "the team discussed the merchandise and the quality at the",
+        "answer": "market",
+        "prompt_content_words": [
+          "discussed",
+          "merchandise",
+          "quality",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the product and the quality at the market .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "quality",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the product and the quality at the market .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "quality",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_11",
+        "category": "domain_place",
+        "prompt": "the team discussed the mortgage and the payment at the",
+        "answer": "bank",
+        "prompt_content_words": [
+          "discussed",
+          "mortgage",
+          "payment",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the loan and the payment at the bank .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "payment",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the loan and the payment at the bank .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "payment",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_12",
+        "category": "domain_place",
+        "prompt": "the team discussed the mango and the juice at the",
+        "answer": "kitchen",
+        "prompt_content_words": [
+          "discussed",
+          "juice",
+          "mango",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the apple and the juice at the kitchen .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "juice",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the apple and the juice at the kitchen .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "juice",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_13",
+        "category": "domain_place",
+        "prompt": "the team discussed the bicycle and the journey at the",
+        "answer": "station",
+        "prompt_content_words": [
+          "bicycle",
+          "discussed",
+          "journey",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the car and the journey at the station .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "journey",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the car and the journey at the station .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "journey",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_14",
+        "category": "domain_place",
+        "prompt": "the team discussed the application and the security at the",
+        "answer": "office",
+        "prompt_content_words": [
+          "application",
+          "discussed",
+          "security",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the software and the security at the office .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "security",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the software and the security at the office .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "security",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_15",
+        "category": "domain_place",
+        "prompt": "the team discussed the surgeon and the patient at the",
+        "answer": "hospital",
+        "prompt_content_words": [
+          "discussed",
+          "patient",
+          "surgeon",
+          "team"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the doctor and the patient at the hospital .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "patient",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the doctor and the patient at the hospital .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "patient",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_16",
+        "category": "domain_place",
+        "prompt": "the team discussed the tutor and the lesson at the",
+        "answer": "school",
+        "prompt_content_words": [
+          "discussed",
+          "lesson",
+          "team",
+          "tutor"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the teacher and the lesson at the school .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "lesson",
+            "team"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the teacher and the lesson at the school .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.857,
+          "shared_content_words": [
+            "discussed",
+            "lesson",
+            "team"
+          ]
+        }
+      },
+      {
+        "id": "lang_17",
+        "category": "new_wording",
+        "prompt": "our hospital discussed the nurse and the",
+        "answer": "health",
+        "prompt_content_words": [
+          "discussed",
+          "hospital",
+          "nurse"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the nurse and the patient at the hospital .",
+          "coverage_content": 1.0,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "discussed",
+            "hospital",
+            "nurse"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the nurse and the health at the hospital .",
+          "coverage_content": 1.0,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "discussed",
+            "hospital",
+            "nurse"
+          ]
+        }
+      },
+      {
+        "id": "lang_18",
+        "category": "new_wording",
+        "prompt": "yesterday the school discussed the educator and the",
+        "answer": "student",
+        "prompt_content_words": [
+          "discussed",
+          "educator",
+          "school",
+          "yesterday"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the educator and the student at the school .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "discussed",
+            "educator",
+            "school"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the educator and the student at the school .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "discussed",
+            "educator",
+            "school"
+          ]
+        }
+      },
+      {
+        "id": "lang_19",
+        "category": "new_wording",
+        "prompt": "the bank report discussed the bond and the",
+        "answer": "return",
+        "prompt_content_words": [
+          "bank",
+          "bond",
+          "discussed",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the bond and the interest at the bank .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "bank",
+            "bond",
+            "discussed"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the bond and the return at the bank .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "bank",
+            "bond",
+            "discussed"
+          ]
+        }
+      },
+      {
+        "id": "lang_20",
+        "category": "new_wording",
+        "prompt": "our kitchen report discussed the pear and the",
+        "answer": "fruit",
+        "prompt_content_words": [
+          "discussed",
+          "kitchen",
+          "pear",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the pear and the fruit at the kitchen .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "discussed",
+            "kitchen",
+            "pear"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the pear and the fruit at the kitchen .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "discussed",
+            "kitchen",
+            "pear"
+          ]
+        }
+      },
+      {
+        "id": "lang_21",
+        "category": "new_wording",
+        "prompt": "the station report compared the bus and the",
+        "answer": "route",
+        "prompt_content_words": [
+          "bus",
+          "compared",
+          "report",
+          "station"
+        ],
+        "best_match_any": {
+          "passage": "they compared the new bus with another bus at the station .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.667,
+          "shared_content_words": [
+            "bus",
+            "compared",
+            "station"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the bus and the route at the station .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.667,
+          "shared_content_words": [
+            "bus",
+            "station"
+          ]
+        }
+      },
+      {
+        "id": "lang_22",
+        "category": "new_wording",
+        "prompt": "yesterday our office discussed the platform and the",
+        "answer": "update",
+        "prompt_content_words": [
+          "discussed",
+          "office",
+          "platform",
+          "yesterday"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the platform and the code at the office .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "discussed",
+            "office",
+            "platform"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the platform and the update at the office .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "discussed",
+            "office",
+            "platform"
+          ]
+        }
+      },
+      {
+        "id": "lang_23",
+        "category": "new_wording",
+        "prompt": "the store report discussed the subscriber and the",
+        "answer": "support",
+        "prompt_content_words": [
+          "discussed",
+          "report",
+          "store",
+          "subscriber"
+        ],
+        "best_match_any": {
+          "passage": "the team discussed the subscriber and the service at the store .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "discussed",
+            "store",
+            "subscriber"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the subscriber and the support at the store .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.833,
+          "shared_content_words": [
+            "discussed",
+            "store",
+            "subscriber"
+          ]
+        }
+      },
+      {
+        "id": "lang_24",
+        "category": "new_wording",
+        "prompt": "our market report compared the package and the",
+        "answer": "delivery",
+        "prompt_content_words": [
+          "compared",
+          "market",
+          "package",
+          "report"
+        ],
+        "best_match_any": {
+          "passage": "they compared the new package with another package at the market .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.571,
+          "shared_content_words": [
+            "compared",
+            "market",
+            "package"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the team discussed the package and the delivery at the market .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.571,
+          "shared_content_words": [
+            "market",
+            "package"
+          ]
+        }
+      },
+      {
+        "id": "lang_25",
+        "category": "grammar",
+        "prompt": "one bird",
+        "answer": "is",
+        "prompt_content_words": [
+          "bird",
+          "one"
+        ],
+        "best_match_any": {
+          "passage": "one frog is slow but two frogs are warm .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "one"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "one frog is slow but two frogs are warm .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "one"
+          ]
+        }
+      },
+      {
+        "id": "lang_26",
+        "category": "grammar",
+        "prompt": "the dogs",
+        "answer": "are",
+        "prompt_content_words": [
+          "dogs"
+        ],
+        "best_match_any": {
+          "passage": "one dog is short but two dogs are tall .",
+          "coverage_content": 1.0,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "dogs"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "one dog is short but two dogs are tall .",
+          "coverage_content": 1.0,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "dogs"
+          ]
+        }
+      },
+      {
+        "id": "lang_27",
+        "category": "grammar",
+        "prompt": "yesterday she",
+        "answer": "walked",
+        "prompt_content_words": [
+          "yesterday"
+        ],
+        "best_match_any": {
+          "passage": "the new customer was mentioned in the service report yesterday .",
+          "coverage_content": 1.0,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "yesterday"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "yesterday the runner walked near the river .",
+          "coverage_content": 1.0,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "yesterday"
+          ]
+        }
+      },
+      {
+        "id": "lang_28",
+        "category": "opposites",
+        "prompt": "the opposite of hot is",
+        "answer": "cold",
+        "prompt_content_words": [
+          "hot",
+          "opposite"
+        ],
+        "best_match_any": {
+          "passage": "the opposite of warm is cool .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "opposite"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "hot water is in the bucket and cold water is in the bowl .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.6,
+          "shared_content_words": [
+            "hot"
+          ]
+        }
+      },
+      {
+        "id": "lang_29",
+        "category": "opposites",
+        "prompt": "the opposite of empty is",
+        "answer": "full",
+        "prompt_content_words": [
+          "empty",
+          "opposite"
+        ],
+        "best_match_any": {
+          "passage": "the opposite of warm is cool .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "opposite"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "he filled the empty cup until it was full .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.4,
+          "shared_content_words": [
+            "empty"
+          ]
+        }
+      },
+      {
+        "id": "lang_30",
+        "category": "opposites",
+        "prompt": "the opposite of noisy is",
+        "answer": "quiet",
+        "prompt_content_words": [
+          "noisy",
+          "opposite"
+        ],
+        "best_match_any": {
+          "passage": "the opposite of warm is cool .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "opposite"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the room grew quiet after the noisy engine left .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.4,
+          "shared_content_words": [
+            "noisy"
+          ]
+        }
+      },
+      {
+        "id": "lang_31",
+        "category": "negation",
+        "prompt": "the box is not red . it is blue . the box is",
+        "answer": "blue",
+        "prompt_content_words": [
+          "blue",
+          "box",
+          "red"
+        ],
+        "best_match_any": {
+          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.875,
+          "shared_content_words": [
+            "blue",
+            "red"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.875,
+          "shared_content_words": [
+            "blue",
+            "red"
+          ]
+        }
+      },
+      {
+        "id": "lang_32",
+        "category": "negation",
+        "prompt": "ava did not buy tea . she bought milk . ava bought",
+        "answer": "milk",
+        "prompt_content_words": [
+          "ava",
+          "bought",
+          "buy",
+          "did",
+          "milk",
+          "tea"
+        ],
+        "best_match_any": {
+          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.556,
+          "shared_content_words": [
+            "bought",
+            "buy",
+            "did"
+          ]
+        },
+        "best_match_containing_the_answer": null
+      },
+      {
+        "id": "lang_33",
+        "category": "negation",
+        "prompt": "the door is not open . it is closed . the door is",
+        "answer": "closed",
+        "prompt_content_words": [
+          "closed",
+          "door",
+          "open"
+        ],
+        "best_match_any": {
+          "passage": "the window was not open . it was closed . the window was closed .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.75,
+          "shared_content_words": [
+            "closed",
+            "open"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the window was not open . it was closed . the window was closed .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.75,
+          "shared_content_words": [
+            "closed",
+            "open"
+          ]
+        }
+      },
+      {
+        "id": "lang_34",
+        "category": "reference",
+        "prompt": "maya lent a book to leo . leo thanked",
+        "answer": "maya",
+        "prompt_content_words": [
+          "book",
+          "lent",
+          "leo",
+          "maya",
+          "thanked"
+        ],
+        "best_match_any": {
+          "passage": "the box and the book are in the hall .",
+          "coverage_content": 0.2,
+          "coverage_all": 0.25,
+          "shared_content_words": [
+            "book"
+          ]
+        },
+        "best_match_containing_the_answer": null
+      },
+      {
+        "id": "lang_35",
+        "category": "reference",
+        "prompt": "ella gave finn a pencil . the person who received the pencil was",
+        "answer": "finn",
+        "prompt_content_words": [
+          "ella",
+          "finn",
+          "gave",
+          "pencil",
+          "person",
+          "received",
+          "who"
+        ],
+        "best_match_any": {
+          "passage": "a person will stay warm beside the stone .",
+          "coverage_content": 0.143,
+          "coverage_all": 0.364,
+          "shared_content_words": [
+            "person"
+          ]
+        },
+        "best_match_containing_the_answer": null
+      },
+      {
+        "id": "lang_36",
+        "category": "reference",
+        "prompt": "omar called nina . nina answered the call from",
+        "answer": "omar",
+        "prompt_content_words": [
+          "answered",
+          "call",
+          "called",
+          "nina",
+          "omar"
+        ],
+        "best_match_any": {
+          "passage": "the tree called elm is here .",
+          "coverage_content": 0.2,
+          "coverage_all": 0.375,
+          "shared_content_words": [
+            "called"
+          ]
+        },
+        "best_match_containing_the_answer": null
+      },
+      {
+        "id": "lang_37",
+        "category": "sequence",
+        "prompt": "first wash the cup . then dry it . the last action is",
+        "answer": "dry",
+        "prompt_content_words": [
+          "action",
+          "cup",
+          "dry",
+          "first",
+          "last",
+          "wash"
+        ],
+        "best_match_any": {
+          "passage": "first pack the card . then seal it . the last action is seal .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.727,
+          "shared_content_words": [
+            "action",
+            "first",
+            "last"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "we wash the basket and then we dry it .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.545,
+          "shared_content_words": [
+            "dry",
+            "wash"
+          ]
+        }
+      },
+      {
+        "id": "lang_38",
+        "category": "sequence",
+        "prompt": "lunch happens after breakfast . the earlier meal is",
+        "answer": "breakfast",
+        "prompt_content_words": [
+          "after",
+          "breakfast",
+          "earlier",
+          "happens",
+          "lunch",
+          "meal"
+        ],
+        "best_match_any": {
+          "passage": "supper happens after lunch . the earlier meal is lunch .",
+          "coverage_content": 0.833,
+          "coverage_all": 0.889,
+          "shared_content_words": [
+            "after",
+            "earlier",
+            "happens",
+            "lunch",
+            "meal"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "breakfast is a meal and so is lunch .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.556,
+          "shared_content_words": [
+            "breakfast",
+            "lunch",
+            "meal"
+          ]
+        }
+      },
+      {
+        "id": "lang_39",
+        "category": "sequence",
+        "prompt": "the train arrived before the bus . the vehicle that arrived later was the",
+        "answer": "bus",
+        "prompt_content_words": [
+          "arrived",
+          "before",
+          "bus",
+          "later",
+          "train",
+          "vehicle"
+        ],
+        "best_match_any": {
+          "passage": "the truck arrived before the taxi . the vehicle that arrived later was the taxi .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.8,
+          "shared_content_words": [
+            "arrived",
+            "before",
+            "later",
+            "vehicle"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the train and the bus arrived at the station .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "arrived",
+            "bus",
+            "train"
+          ]
+        }
+      },
+      {
+        "id": "lang_40",
+        "category": "spatial_relations",
+        "prompt": "the book is inside the bag . the bag contains the",
+        "answer": "book",
+        "prompt_content_words": [
+          "bag",
+          "book",
+          "contains",
+          "inside"
+        ],
+        "best_match_any": {
+          "passage": "the brush is inside the tray . the tray contains the brush .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "contains",
+            "inside"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the book and the bag are in the hall .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.571,
+          "shared_content_words": [
+            "bag",
+            "book"
+          ]
+        }
+      },
+      {
+        "id": "lang_41",
+        "category": "spatial_relations",
+        "prompt": "the lamp is above the desk . the desk is",
+        "answer": "below",
+        "prompt_content_words": [
+          "above",
+          "desk",
+          "lamp"
+        ],
+        "best_match_any": {
+          "passage": "the lamp and the desk are in the hall .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.667,
+          "shared_content_words": [
+            "desk",
+            "lamp"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the picture hangs above the stool . the stool sits below the picture .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "above"
+          ]
+        }
+      },
+      {
+        "id": "lang_42",
+        "category": "spatial_relations",
+        "prompt": "the ball is left of the box . the box is to the",
+        "answer": "right",
+        "prompt_content_words": [
+          "ball",
+          "box",
+          "left"
+        ],
+        "best_match_any": {
+          "passage": "the box and the ball are in the hall .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.5,
+          "shared_content_words": [
+            "ball",
+            "box"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the spoon is left of the case . the case is to the right of the spoon .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.75,
+          "shared_content_words": [
+            "left"
+          ]
+        }
+      },
+      {
+        "id": "lang_43",
+        "category": "everyday_knowledge",
+        "prompt": "water freezes into",
+        "answer": "ice",
+        "prompt_content_words": [
+          "freezes",
+          "into",
+          "water"
+        ],
+        "best_match_any": {
+          "passage": "cold water in the jar freezes and the ice is hard .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.667,
+          "shared_content_words": [
+            "freezes",
+            "water"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "cold water in the jar freezes and the ice is hard .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.667,
+          "shared_content_words": [
+            "freezes",
+            "water"
+          ]
+        }
+      },
+      {
+        "id": "lang_44",
+        "category": "everyday_knowledge",
+        "prompt": "a person uses an umbrella to stay",
+        "answer": "dry",
+        "prompt_content_words": [
+          "person",
+          "stay",
+          "umbrella",
+          "uses"
+        ],
+        "best_match_any": {
+          "passage": "a person uses an umbrella beside the wet bench .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "person",
+            "umbrella",
+            "uses"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the umbrella keeps a person dry when the path is wet .",
+          "coverage_content": 0.5,
+          "coverage_all": 0.429,
+          "shared_content_words": [
+            "person",
+            "umbrella"
+          ]
+        }
+      },
+      {
+        "id": "lang_45",
+        "category": "everyday_knowledge",
+        "prompt": "to see in a dark room we turn on a",
+        "answer": "light",
+        "prompt_content_words": [
+          "dark",
+          "room",
+          "see",
+          "turn"
+        ],
+        "best_match_any": {
+          "passage": "we turn the light on and the dark room is bright .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.556,
+          "shared_content_words": [
+            "dark",
+            "room",
+            "turn"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "we turn the light on and the dark room is bright .",
+          "coverage_content": 0.75,
+          "coverage_all": 0.556,
+          "shared_content_words": [
+            "dark",
+            "room",
+            "turn"
+          ]
+        }
+      },
+      {
+        "id": "lang_46",
+        "category": "categories_and_analogies",
+        "prompt": "a robin is a bird . a salmon is a",
+        "answer": "fish",
+        "prompt_content_words": [
+          "bird",
+          "robin",
+          "salmon"
+        ],
+        "best_match_any": {
+          "passage": "the bird called robin is here .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.667,
+          "shared_content_words": [
+            "bird",
+            "robin"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "the carp and the salmon are near the fish .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.333,
+          "shared_content_words": [
+            "salmon"
+          ]
+        }
+      },
+      {
+        "id": "lang_47",
+        "category": "categories_and_analogies",
+        "prompt": "a puppy grows into a dog . a kitten grows into a",
+        "answer": "cat",
+        "prompt_content_words": [
+          "dog",
+          "grows",
+          "into",
+          "kitten",
+          "puppy"
+        ],
+        "best_match_any": {
+          "passage": "the puppy grows and the dog is near .",
+          "coverage_content": 0.6,
+          "coverage_all": 0.571,
+          "shared_content_words": [
+            "dog",
+            "grows",
+            "puppy"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "a kitten is a young cat and a puppy is a young dog .",
+          "coverage_content": 0.6,
+          "coverage_all": 0.714,
+          "shared_content_words": [
+            "dog",
+            "kitten",
+            "puppy"
+          ]
+        }
+      },
+      {
+        "id": "lang_48",
+        "category": "categories_and_analogies",
+        "prompt": "a carrot is a vegetable . an apple is a",
+        "answer": "fruit",
+        "prompt_content_words": [
+          "apple",
+          "carrot",
+          "vegetable"
+        ],
+        "best_match_any": {
+          "passage": "the carrot and the onion are near the vegetable .",
+          "coverage_content": 0.667,
+          "coverage_all": 0.429,
+          "shared_content_words": [
+            "carrot",
+            "vegetable"
+          ]
+        },
+        "best_match_containing_the_answer": {
+          "passage": "a apple and a peach are fruit .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.429,
           "shared_content_words": [
             "apple"
           ]

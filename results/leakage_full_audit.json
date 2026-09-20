@@ -1,0 +1,191 @@
+{
+  "checks": {
+    "A": "answer-key recitation",
+    "B": "eval outputs",
+    "C": "chat outputs",
+    "D": "ordered subsequence",
+    "E": "held-out suite"
+  },
+  "eval_continuations_checked": 1093,
+  "chat_replies_checked": 37,
+  "provenance": {
+    "generator_reads_any_results_file": false,
+    "folders": [
+      {
+        "folder": "corpus",
+        "files": 8,
+        "byte_identical_rebuild": true,
+        "differing": []
+      },
+      {
+        "folder": "corpus_seven",
+        "files": 11,
+        "byte_identical_rebuild": true,
+        "differing": []
+      },
+      {
+        "folder": "corpus_unpaired",
+        "files": 11,
+        "byte_identical_rebuild": true,
+        "differing": []
+      }
+    ]
+  },
+  "report": {
+    "starter": {
+      "findings": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "inherited_from_the_provided_classroom_corpus": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "introduced_by_my_teaching_material": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      }
+    },
+    "expanded": {
+      "findings": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "inherited_from_the_provided_classroom_corpus": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "introduced_by_my_teaching_material": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      }
+    },
+    "seven": {
+      "findings": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": [
+          {
+            "id": "held_02",
+            "prompt": "the tools",
+            "passage": "a brush is one of the tools ."
+          }
+        ]
+      },
+      "inherited_from_the_provided_classroom_corpus": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "introduced_by_my_teaching_material": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": [
+          "held_02"
+        ]
+      }
+    },
+    "tuned": {
+      "findings": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": [
+          {
+            "id": "held_02",
+            "prompt": "the tools",
+            "passage": "a brush is one of the tools ."
+          }
+        ]
+      },
+      "inherited_from_the_provided_classroom_corpus": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "introduced_by_my_teaching_material": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": [
+          "held_02"
+        ]
+      }
+    },
+    "unpaired": {
+      "findings": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [
+          {
+            "text": "the ring is inside the drawer .",
+            "case": "lang_43",
+            "file": "experiments/expanded/llm_run/language_evals/final/eval_results.json",
+            "source": "eval generated_text"
+          },
+          {
+            "text": "the ring is inside the drawer .",
+            "case": "lang_43",
+            "file": "results/rerun/expanded-final/eval_results.json",
+            "source": "eval generated_text"
+          }
+        ],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": [
+          {
+            "id": "held_02",
+            "prompt": "the tools",
+            "passage": "the tools and the spade are in the room ."
+          }
+        ]
+      },
+      "inherited_from_the_provided_classroom_corpus": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": []
+      },
+      "introduced_by_my_teaching_material": {
+        "A_answer_key_recited": [],
+        "B_eval_outputs_in_corpus": [
+          "the ring is inside the drawer .",
+          "the ring is inside the drawer ."
+        ],
+        "C_chat_outputs_in_corpus": [],
+        "D_ordered_subsequence": [],
+        "E_heldout_prompt_in_corpus": [
+          "held_02"
+        ]
+      }
+    }
+  }
+}

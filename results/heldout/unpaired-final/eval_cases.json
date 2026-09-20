@@ -1,0 +1,236 @@
+{
+  "suite_id": "heldout-transfer-v1",
+  "version": 1,
+  "authorship": "Written by me for MBA 290T after the training corpora were frozen. This is NOT the assignment's suite; the assignment's 48 cases are in language_evals.json and are unchanged.",
+  "purpose": "The 48-case suite is public and guided my corpus design, so it is a development benchmark and cannot support a claim about unseen generalisation. These 16 cases were authored afterwards, against a corpus that was already final, and were run once. No corpus, setting or model was changed in response to them. Each case uses the same SKILL as a public case but different lexical items, chosen so the item is not drilled: the fillers sit outside the word lists the generator enumerates for that frame. Every prompt and choice word is already in the model's vocabulary, because an out-of-vocabulary item measures coverage rather than skill, and coverage is already measured by the public suite.",
+  "groups": {
+    "heldout": "Same skills as the public extension group, different items, authored after the corpus was frozen."
+  },
+  "scoring": "Identical to the public suite: the prompt alone is fed to the model, the four single-word choices are compared by next-token probability, highest wins, ties score zero.",
+  "cases": [
+    {
+      "id": "held_01",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "one robin",
+      "choices": [
+        "is",
+        "are",
+        "were",
+        "am"
+      ],
+      "answer": "is",
+      "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it."
+    },
+    {
+      "id": "held_02",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "the tools",
+      "choices": [
+        "is",
+        "am",
+        "was",
+        "are"
+      ],
+      "answer": "are",
+      "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence."
+    },
+    {
+      "id": "held_03",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "yesterday the shopper",
+      "choices": [
+        "walks",
+        "walk",
+        "walked",
+        "walking"
+      ],
+      "answer": "walked",
+      "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence."
+    },
+    {
+      "id": "held_04",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "two ducklings",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "am"
+      ],
+      "answer": "are",
+      "reason": "Plural agreement on a noun taught only in the young-animal material."
+    },
+    {
+      "id": "held_05",
+      "group": "heldout",
+      "category": "opposites",
+      "prompt": "the opposite of open is",
+      "choices": [
+        "closed",
+        "wide",
+        "flat",
+        "brown"
+      ],
+      "answer": "closed",
+      "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine."
+    },
+    {
+      "id": "held_06",
+      "group": "heldout",
+      "category": "opposites",
+      "prompt": "the opposite of flat is",
+      "choices": [
+        "round",
+        "wide",
+        "grey",
+        "cool"
+      ],
+      "answer": "round",
+      "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame."
+    },
+    {
+      "id": "held_07",
+      "group": "heldout",
+      "category": "opposites",
+      "prompt": "the opposite of shut is",
+      "choices": [
+        "open",
+        "flat",
+        "grey",
+        "late"
+      ],
+      "answer": "open",
+      "reason": "shut/open is taught only as a negation correction, and in that direction only."
+    },
+    {
+      "id": "held_08",
+      "group": "heldout",
+      "category": "negation",
+      "prompt": "the basket is not brown . it is grey . the basket is",
+      "choices": [
+        "grey",
+        "brown",
+        "black",
+        "white"
+      ],
+      "answer": "grey",
+      "reason": "The correction frame is drilled, but 'basket' is a container in the spatial material and never appears in a colour correction."
+    },
+    {
+      "id": "held_09",
+      "group": "heldout",
+      "category": "negation",
+      "prompt": "the tray is not white . it is black . the tray is",
+      "choices": [
+        "black",
+        "white",
+        "green",
+        "red"
+      ],
+      "answer": "black",
+      "reason": "Same frame, another object that is never corrected for colour in training."
+    },
+    {
+      "id": "held_10",
+      "group": "heldout",
+      "category": "negation",
+      "prompt": "the mat is not clean . it is dirty . the mat is",
+      "choices": [
+        "dirty",
+        "clean",
+        "wide",
+        "brown"
+      ],
+      "answer": "dirty",
+      "reason": "A state correction on a surface noun that never appears in a correction."
+    },
+    {
+      "id": "held_11",
+      "group": "heldout",
+      "category": "spatial_relations",
+      "prompt": "the flag is above the gate . the gate is",
+      "choices": [
+        "below",
+        "above",
+        "beside",
+        "inside"
+      ],
+      "answer": "below",
+      "reason": "Above/below inverse with two nouns that never appear in a relational frame in training."
+    },
+    {
+      "id": "held_12",
+      "group": "heldout",
+      "category": "spatial_relations",
+      "prompt": "the sign is left of the plate . the plate is to the",
+      "choices": [
+        "right",
+        "left",
+        "north",
+        "south"
+      ],
+      "answer": "right",
+      "reason": "Left/right inverse with two nouns from the negation material, never used relationally."
+    },
+    {
+      "id": "held_13",
+      "group": "heldout",
+      "category": "spatial_relations",
+      "prompt": "the spoon is inside the bowl . the bowl contains the",
+      "choices": [
+        "spoon",
+        "sign",
+        "gate",
+        "mat"
+      ],
+      "answer": "spoon",
+      "reason": "Inside/contains inverse where the answer is a noun, with a container never used in that frame."
+    },
+    {
+      "id": "held_14",
+      "group": "heldout",
+      "category": "categories_and_analogies",
+      "prompt": "a pear is a fruit . an onion is a",
+      "choices": [
+        "vegetable",
+        "fruit",
+        "tool",
+        "tree"
+      ],
+      "answer": "vegetable",
+      "reason": "Category membership stated in a frame the corpus never uses; the memberships themselves are taught in other wording."
+    },
+    {
+      "id": "held_15",
+      "group": "heldout",
+      "category": "categories_and_analogies",
+      "prompt": "an oak is a tree . a trout is a",
+      "choices": [
+        "fish",
+        "bird",
+        "tool",
+        "tree"
+      ],
+      "answer": "fish",
+      "reason": "Same, across two different categories."
+    },
+    {
+      "id": "held_16",
+      "group": "heldout",
+      "category": "sequence",
+      "prompt": "first clean the mug . then open it . the last action is",
+      "choices": [
+        "open",
+        "clean",
+        "fill",
+        "buy"
+      ],
+      "answer": "open",
+      "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs."
+    }
+  ]
+}

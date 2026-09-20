@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 
 from run_evals import load_model, word_tokens  # noqa: E402
 
-EXPERIMENTS = ["starter", "expanded", "seven", "tuned"]
+EXPERIMENTS = ["starter", "expanded", "seven", "tuned", "unpaired"]
 STAGES = ["untrained", "final"]
 # Which extension categories each corpus teaches.
 TAUGHT_BY = {
@@ -32,12 +32,15 @@ TAUGHT_BY = {
               "sequence", "everyday_knowledge", "categories_and_analogies"],
     "tuned": ["grammar", "opposites", "negation", "spatial_relations",
               "sequence", "everyday_knowledge", "categories_and_analogies"],
+    "unpaired": ["grammar", "opposites", "negation", "spatial_relations",
+                 "sequence", "everyday_knowledge", "categories_and_analogies"],
 }
 EXTENSION_CATS = ["grammar", "opposites", "negation", "spatial_relations",
                   "sequence", "everyday_knowledge", "categories_and_analogies", "reference"]
 STARTER_CATS = ["domain_context", "domain_place", "new_wording"]
 LABEL = {"starter": "A starter corpus", "expanded": "B extension (4 cat.)",
-         "seven": "C extension (7 cat.)", "tuned": "D extension (7 cat.) lr 0.004"}
+         "seven": "C extension (7 cat.)", "tuned": "D extension (7 cat.) lr 0.004",
+         "unpaired": "E unpaired relations"}
 
 
 def run_dir(experiment):
@@ -227,7 +230,7 @@ def main():
     (out / "embedding_neighbours.json").write_text(json.dumps(neigh, indent=2) + "\n", encoding="utf-8")
     print("Wrote results/embedding_neighbours.json")
 
-    diag = {e: diagnostics(e) for e in ["expanded", "seven", "tuned"]}
+    diag = {e: diagnostics(e) for e in ["expanded", "seven", "tuned", "unpaired"]}
     (out / "diagnostics.json").write_text(json.dumps(diag, indent=2) + "\n", encoding="utf-8")
     diag = diag["expanded"]
     copy = diag["negation_copy_probe"]

@@ -1,22 +1,7 @@
 {
-  "training_types": 523,
-  "retained_types": 509,
-  "training_unknown_rate": 0.0007913233719685333,
-  "validation_unknown_rate": 0.0009092411968920483,
-  "omitted_types": [
-    "button",
-    "field",
-    "fills",
-    "other",
-    "poured",
-    "quickly",
-    "rain",
-    "rest",
-    "stands",
-    "turns",
-    "wait",
-    "walker",
-    "weather",
-    "who"
-  ]
+  "training_types": 505,
+  "retained_types": 505,
+  "training_unknown_rate": 0.0,
+  "validation_unknown_rate": 0.0,
+  "omitted_types": []
 }

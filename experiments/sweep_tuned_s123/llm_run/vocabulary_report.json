@@ -1,24 +1,7 @@
 {
-  "training_types": 525,
-  "retained_types": 509,
-  "training_unknown_rate": 0.0007986107886745847,
-  "validation_unknown_rate": 0.0014375105699306612,
-  "omitted_types": [
-    "drink",
-    "field",
-    "fills",
-    "jars",
-    "month",
-    "nearby",
-    "poured",
-    "rain",
-    "rest",
-    "turns",
-    "wait",
-    "walker",
-    "weather",
-    "well",
-    "while",
-    "who"
-  ]
+  "training_types": 505,
+  "retained_types": 505,
+  "training_unknown_rate": 0.0,
+  "validation_unknown_rate": 0.0,
+  "omitted_types": []
 }

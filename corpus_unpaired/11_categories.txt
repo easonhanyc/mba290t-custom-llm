@@ -1,0 +1,543 @@
+the fish and the salmon are in the hall .
+the carrot and the onion are near the vegetable .
+the fabric and the cloth are in the yard .
+the kid grows and the goat is in the hall .
+a onion and a bean are vegetables .
+the kid grows and the goat is near .
+a kid grows and is a goat .
+the trees and the oak are in the room .
+the fish and the trout are in the hall .
+the bus and the taxi are each a vehicle .
+the birds and the sparrow are in the yard .
+a sparrow and a robin are birds .
+the trees and the pine are in the garden .
+the bass and the carp are near the fish .
+the vegetables and the onion are in the garden .
+a pear and a banana are fruit .
+the fruit and the pear are in the room .
+the salmon and the carp are fish .
+the taxi and the car are each a vehicle .
+a duckling grows and is a duck .
+the carp and the bass are near the fish .
+the tree called elm is here .
+a bean and a onion are vegetables .
+the foal grows and the horse is near .
+the robin and the sparrow are birds .
+the fruit and the apple are in the room .
+the duckling grows and the duck is in the street .
+the pear and the banana are fruit .
+a spade and a brush are tools .
+the kitten grows and the cat is in the street .
+the fabric and the cloth are in the hall .
+the hammer and the brush are tools .
+the puppy grows and the dog is near .
+a hen and a robin are birds .
+a bass and a trout are fish .
+a kitten is a young cat and a lamb is a young sheep .
+the bus and the truck are each a vehicle .
+the cloth is made of fabric and the coin is made of metal .
+the brush and the blade are tools .
+a foal grows and is a horse .
+the peach and the pear are fruit .
+the duckling grows and the duck is near .
+the carrot and the pea are near the vegetable .
+a duckling grows and is a duck .
+the car and the bus are each a vehicle .
+the wood and the board are in the yard .
+the salmon and the trout are fish .
+the blade and the brush are tools .
+the fish and the salmon are in the street .
+a pea is one of the vegetables .
+the pear and the apple are near the fruit .
+the carrot and the bean are vegetables .
+the pear and the peach are near the fruit .
+a kid is a young goat and a kitten is a young cat .
+the tools and the spade are in the room .
+the vegetables and the pea are in the hall .
+a sparrow and a hen are birds .
+the elm and the pine are trees .
+the trees and the willow are in the yard .
+the birds and the robin are in the hall .
+the metal and the coin are in the hall .
+the brush and the hammer are tools .
+a hammer and a spade are tools .
+the sparrow and the crow are birds .
+the lamb grows and the sheep is in the room .
+the robin and the crow are birds .
+the tools and the brush are in the hall .
+the tools and the brush are in the room .
+the duckling grows and the duck is in the yard .
+the peach and the banana are near the fruit .
+the bean and the pea are vegetables .
+the bass and the trout are fish .
+the bird called robin is here .
+the vegetables and the pea are in the room .
+a kitten is a young cat and a duckling is a young duck .
+the foal grows and the horse is near .
+the bass and the carp are fish .
+a oak and a elm are trees .
+the willow and the elm are trees .
+wood makes the board and fabric makes the cloth .
+the carp and the trout are near the fish .
+the fabric and the cloth are in the street .
+the vegetables and the onion are in the street .
+a robin is one of the birds .
+the fish and the bass are in the street .
+the carp and the trout are fish .
+the trees and the elm are in the garden .
+the trees and the elm are in the yard .
+the blade and the spade are near the tool .
+the oak and the elm are near the tree .
+the puppy grows and the dog is in the room .
+the car and the taxi are each a vehicle .
+the willow and the pine are near the tree .
+the kitten grows and the cat is in the room .
+a spade and a hammer are tools .
+the board is made of wood and the cloth is made of fabric .
+the tool called brush is here .
+a bean and a pea are vegetables .
+the foal grows and the horse is in the hall .
+the fish and the salmon are in the garden .
+the tools and the hammer are in the room .
+the elm and the oak are near the tree .
+a foal grows and is a horse .
+the banana and the apple are fruit .
+the fish and the trout are in the room .
+metal makes the coin and fabric makes the cloth .
+the tools and the brush are in the garden .
+the oak and the pine are trees .
+a puppy grows and is a dog .
+the fish and the bass are in the garden .
+the vegetables and the carrot are in the room .
+the fruit and the peach are in the hall .
+a lamb grows and is a sheep .
+the bird called sparrow is here .
+a kid is a young goat and a duckling is a young duck .
+the vegetable called carrot is here .
+a carrot is one of the vegetables .
+a kitten is a young cat and a puppy is a young dog .
+a carrot and a pea are vegetables .
+the banana and the peach are fruit .
+the blade and the hammer are near the tool .
+a lamb is a young sheep and a puppy is a young dog .
+the apple and the banana are fruit .
+the robin and the sparrow are near the bird .
+the fish and the carp are in the hall .
+a trout and a bass are fish .
+the onion and the bean are near the vegetable .
+metal makes the coin and wood makes the board .
+the fruit and the banana are in the street .
+a elm is one of the trees .
+a foal grows and is a horse .
+a willow and a elm are trees .
+the trees and the elm are in the street .
+a carp is one of the fish .
+the apple and the peach are near the fruit .
+the birds and the crow are in the room .
+a pea and a bean are vegetables .
+a apple and a pear are fruit .
+a puppy grows and is a dog .
+the willow and the oak are trees .
+a elm and a oak are trees .
+the pine and the oak are near the tree .
+the brush and the spade are tools .
+the duckling grows and the duck is near .
+the trees and the pine are in the hall .
+the tools and the spade are in the garden .
+the onion and the pea are vegetables .
+the onion and the carrot are near the vegetable .
+the lamb grows and the sheep is in the street .
+the fruit and the peach are in the street .
+the tools and the hammer are in the street .
+the spade and the brush are tools .
+a salmon and a bass are fish .
+the fish and the trout are in the yard .
+a kid is a young goat and a puppy is a young dog .
+a salmon is one of the fish .
+the foal grows and the horse is near .
+the bass and the salmon are near the fish .
+the fabric and the cloth are in the garden .
+the birds and the hen are in the street .
+the trees and the elm are in the room .
+the fish and the salmon are in the yard .
+a spade and a blade are tools .
+the tree called pine is here .
+the peach and the apple are fruit .
+the coin is made of metal and the cloth is made of fabric .
+the kitten grows and the cat is in the hall .
+the tools and the blade are in the hall .
+the puppy grows and the dog is near .
+the birds and the hen are in the hall .
+the tools and the hammer are in the hall .
+a carp and a trout are fish .
+wood makes the board and metal makes the coin .
+the bean and the onion are vegetables .
+the birds and the robin are in the street .
+the vegetables and the pea are in the street .
+a duckling is a young duck and a lamb is a young sheep .
+the lamb grows and the sheep is near .
+a foal is a young horse and a kitten is a young cat .
+the tools and the spade are in the street .
+a blade and a spade are tools .
+the wood and the board are in the garden .
+the metal and the coin are in the garden .
+the trout and the bass are near the fish .
+a crow and a sparrow are birds .
+the hammer and the blade are tools .
+a foal is a young horse and a lamb is a young sheep .
+the onion and the pea are near the vegetable .
+a carp and a salmon are fish .
+the fruit called apple is here .
+the trees and the pine are in the room .
+the trout and the carp are near the fish .
+fabric makes the cloth and wood makes the board .
+the pea and the bean are near the vegetable .
+the fruit called peach is here .
+a banana and a pear are fruit .
+the fruit and the peach are in the room .
+a puppy is a young dog and a lamb is a young sheep .
+the carp and the salmon are fish .
+the hammer and the brush are near the tool .
+the trees and the oak are in the hall .
+the foal grows and the horse is in the garden .
+a foal grows and is a horse .
+a lamb is a young sheep and a kid is a young goat .
+the vegetables and the bean are in the yard .
+a crow and a hen are birds .
+the puppy grows and the dog is in the hall .
+the apple and the banana are near the fruit .
+the tools and the brush are in the yard .
+the vegetables and the carrot are in the yard .
+the fruit and the apple are in the yard .
+a kid grows and is a goat .
+the carrot and the bean are near the vegetable .
+the fruit and the banana are in the room .
+a carrot and a bean are vegetables .
+the fruit and the banana are in the hall .
+the birds and the hen are in the room .
+the banana and the peach are near the fruit .
+a pine and a willow are trees .
+the salmon and the bass are near the fish .
+the elm and the oak are trees .
+the tools and the spade are in the yard .
+the fish called trout is here .
+a puppy is a young dog and a duckling is a young duck .
+a crow is one of the birds .
+the tools and the spade are in the hall .
+the birds and the sparrow are in the room .
+the crow and the sparrow are near the bird .
+the trees and the willow are in the garden .
+the pear and the apple are fruit .
+the fruit and the pear are in the street .
+the metal and the coin are in the yard .
+the trees and the oak are in the yard .
+a carp and a bass are fish .
+the bean and the onion are near the vegetable .
+the pine and the willow are near the tree .
+a apple is one of the fruit .
+the willow and the pine are trees .
+the sparrow and the crow are near the bird .
+the duckling grows and the duck is in the room .
+the fish and the carp are in the yard .
+a brush and a blade are tools .
+a peach and a pear are fruit .
+the kid grows and the goat is near .
+the birds and the sparrow are in the hall .
+the trees and the willow are in the hall .
+the spade and the blade are near the tool .
+a lamb is a young sheep and a foal is a young horse .
+the crow and the robin are birds .
+the foal grows and the horse is near .
+the pine and the elm are trees .
+the fruit and the apple are in the garden .
+the vegetables and the onion are in the yard .
+the hammer and the spade are tools .
+the vegetable called bean is here .
+the duckling grows and the duck is near .
+the kitten grows and the cat is in the yard .
+a kid grows and is a goat .
+a bass and a salmon are fish .
+a duckling is a young duck and a kid is a young goat .
+the banana and the pear are fruit .
+the elm and the willow are trees .
+the fish and the bass are in the yard .
+the pea and the onion are vegetables .
+a banana is one of the fruit .
+a kitten grows and is a cat .
+the board is made of wood and the coin is made of metal .
+the carp and the bass are fish .
+a apple and a banana are fruit .
+the duckling grows and the duck is near .
+a lamb grows and is a sheep .
+the lamb grows and the sheep is in the hall .
+the lamb grows and the sheep is near .
+the birds and the crow are in the street .
+a salmon and a carp are fish .
+a sparrow and a crow are birds .
+the fish and the bass are in the room .
+the salmon and the trout are near the fish .
+a duckling grows and is a duck .
+a elm and a willow are trees .
+the vegetables and the pea are in the yard .
+the pea and the onion are near the vegetable .
+a foal grows and is a horse .
+the pine and the oak are trees .
+the metal and the coin are in the room .
+the tools and the blade are in the room .
+a duckling is a young duck and a kitten is a young cat .
+the tree called willow is here .
+the crow and the hen are near the bird .
+the truck and the bus are each a vehicle .
+the fruit and the apple are in the street .
+the tools and the blade are in the yard .
+the sparrow and the robin are near the bird .
+a puppy is a young dog and a foal is a young horse .
+a blade and a hammer are tools .
+the puppy grows and the dog is near .
+the blade and the hammer are tools .
+the peach and the apple are near the fruit .
+the crow and the hen are birds .
+the trees and the pine are in the yard .
+the fish and the carp are in the garden .
+a oak and a willow are trees .
+the duckling grows and the duck is in the garden .
+the tool called spade is here .
+a robin and a sparrow are birds .
+the wood and the board are in the room .
+the spade and the blade are tools .
+a onion is one of the vegetables .
+a foal is a young horse and a puppy is a young dog .
+the puppy grows and the dog is near .
+the trees and the oak are in the garden .
+the willow and the elm are near the tree .
+a hammer and a brush are tools .
+the spade and the brush are near the tool .
+a oak is one of the trees .
+the apple and the pear are fruit .
+the trout and the salmon are fish .
+the duckling grows and the duck is near .
+a kitten grows and is a cat .
+a pea and a carrot are vegetables .
+a pear and a apple are fruit .
+the fruit and the pear are in the yard .
+a brush and a hammer are tools .
+a duckling is a young duck and a foal is a young horse .
+the tool called blade is here .
+the tree called oak is here .
+a lamb grows and is a sheep .
+the vegetable called onion is here .
+the wood and the board are in the hall .
+a oak and a pine are trees .
+the robin and the hen are birds .
+the salmon and the bass are fish .
+the spade and the hammer are tools .
+the peach and the pear are near the fruit .
+a lamb grows and is a sheep .
+the carrot and the pea are vegetables .
+the vegetables and the carrot are in the garden .
+the puppy grows and the dog is near .
+the elm and the willow are near the tree .
+a onion and a carrot are vegetables .
+the fish called salmon is here .
+the hammer and the blade are near the tool .
+the brush and the spade are near the tool .
+the apple and the pear are near the fruit .
+the vegetables and the bean are in the street .
+the oak and the willow are near the tree .
+the wood and the board are in the street .
+the elm and the pine are near the tree .
+the trout and the salmon are near the fish .
+the robin and the hen are near the bird .
+the fruit and the pear are in the garden .
+the tools and the blade are in the garden .
+a peach is one of the fruit .
+a foal is a young horse and a duckling is a young duck .
+a sparrow is one of the birds .
+a duckling is a young duck and a puppy is a young dog .
+a hen is one of the birds .
+the vegetables and the bean are in the garden .
+a kitten grows and is a cat .
+a blade and a brush are tools .
+the blade and the spade are tools .
+the fruit and the peach are in the garden .
+a pear is one of the fruit .
+the pine and the willow are trees .
+a lamb is a young sheep and a kitten is a young cat .
+the foal grows and the horse is in the yard .
+a peach and a banana are fruit .
+the hen and the crow are birds .
+the pear and the peach are fruit .
+the kitten grows and the cat is near .
+the birds and the sparrow are in the street .
+a pine and a oak are trees .
+a duckling grows and is a duck .
+the fish called bass is here .
+a trout and a carp are fish .
+the puppy grows and the dog is in the street .
+a spade is one of the tools .
+the foal grows and the horse is near .
+the vegetables and the bean are in the hall .
+the fruit and the peach are in the yard .
+the oak and the pine are near the tree .
+the lamb grows and the sheep is near .
+the birds and the sparrow are in the garden .
+a bass and a carp are fish .
+the kid grows and the goat is near .
+the trees and the willow are in the street .
+a foal is a young horse and a kid is a young goat .
+the fruit and the pear are in the hall .
+the bird called crow is here .
+the trees and the pine are in the street .
+a robin and a crow are birds .
+the kitten grows and the cat is near .
+the tools and the brush are in the street .
+a pine is one of the trees .
+the birds and the hen are in the garden .
+the kitten grows and the cat is in the garden .
+the truck and the car are each a vehicle .
+a bean is one of the vegetables .
+a banana and a peach are fruit .
+a puppy grows and is a dog .
+the trees and the willow are in the room .
+the brush and the blade are near the tool .
+a puppy grows and is a dog .
+a bean and a carrot are vegetables .
+a kitten is a young cat and a foal is a young horse .
+the lamb grows and the sheep is near .
+the lamb grows and the sheep is in the garden .
+a pea and a onion are vegetables .
+the fish and the trout are in the street .
+the fruit and the banana are in the yard .
+a lamb grows and is a sheep .
+the hen and the sparrow are birds .
+the banana and the pear are near the fruit .
+the bean and the carrot are near the vegetable .
+the hen and the robin are birds .
+the vegetables and the carrot are in the street .
+a duckling grows and is a duck .
+the fruit called pear is here .
+the hen and the robin are near the bird .
+a hammer and a blade are tools .
+the pea and the carrot are vegetables .
+the bean and the carrot are vegetables .
+the duckling grows and the duck is in the hall .
+the truck and the taxi are each a vehicle .
+the birds and the hen are in the yard .
+the fish called carp is here .
+the sparrow and the hen are birds .
+the birds and the robin are in the yard .
+the hen and the crow are near the bird .
+the coin is made of metal and the board is made of wood .
+the vegetables and the bean are in the room .
+a puppy is a young dog and a kitten is a young cat .
+the crow and the robin are near the bird .
+the fish and the trout are in the garden .
+the salmon and the carp are near the fish .
+the kid grows and the goat is in the garden .
+a brush is one of the tools .
+a kitten is a young cat and a kid is a young goat .
+a carrot and a onion are vegetables .
+the car and the truck are each a vehicle .
+the birds and the robin are in the room .
+the kid grows and the goat is near .
+the spade and the hammer are near the tool .
+the blade and the brush are near the tool .
+a brush and a spade are tools .
+the puppy grows and the dog is in the yard .
+a onion and a pea are vegetables .
+the taxi and the bus are each a vehicle .
+the onion and the bean are vegetables .
+a willow and a oak are trees .
+the foal grows and the horse is in the room .
+the bass and the salmon are fish .
+the foal grows and the horse is in the street .
+the kid grows and the goat is in the room .
+the hammer and the spade are near the tool .
+the bean and the pea are near the vegetable .
+the bass and the trout are near the fish .
+the fabric and the cloth are in the room .
+a salmon and a trout are fish .
+the kid grows and the goat is in the street .
+the trees and the oak are in the street .
+the fish and the salmon are in the room .
+the trout and the carp are fish .
+the trout and the bass are fish .
+a robin and a hen are birds .
+a kid is a young goat and a foal is a young horse .
+the lamb grows and the sheep is in the yard .
+a crow and a robin are birds .
+the apple and the peach are fruit .
+the oak and the willow are trees .
+a trout and a salmon are fish .
+the metal and the coin are in the street .
+a lamb is a young sheep and a duckling is a young duck .
+the tools and the hammer are in the garden .
+fabric makes the cloth and metal makes the coin .
+the kid grows and the goat is near .
+the pea and the bean are vegetables .
+the kitten grows and the cat is near .
+a pine and a elm are trees .
+the trees and the elm are in the hall .
+the onion and the carrot are vegetables .
+the carp and the salmon are near the fish .
+a puppy is a young dog and a kid is a young goat .
+the oak and the elm are trees .
+a hen and a sparrow are birds .
+the banana and the apple are near the fruit .
+a peach and a apple are fruit .
+the vegetables and the onion are in the room .
+the carrot and the onion are vegetables .
+a kitten grows and is a cat .
+the birds and the crow are in the yard .
+a puppy grows and is a dog .
+the crow and the sparrow are birds .
+the pine and the elm are near the tree .
+the vegetables and the pea are in the garden .
+a hammer is one of the tools .
+the hen and the sparrow are near the bird .
+the fish and the carp are in the street .
+a hen and a crow are birds .
+a elm and a pine are trees .
+the pea and the carrot are near the vegetable .
+the puppy grows and the dog is in the garden .
+the brush and the hammer are near the tool .
+a bass is one of the fish .
+the fish and the bass are in the hall .
+the kitten grows and the cat is near .
+the bus and the car are each a vehicle .
+the fruit and the apple are in the hall .
+a banana and a apple are fruit .
+the fruit and the banana are in the garden .
+a willow and a pine are trees .
+the kid grows and the goat is in the yard .
+the taxi and the truck are each a vehicle .
+the fruit called banana is here .
+the birds and the crow are in the garden .
+the birds and the crow are in the hall .
+a kid grows and is a goat .
+the willow and the oak are near the tree .
+a trout is one of the fish .
+the tools and the hammer are in the yard .
+a kid grows and is a goat .
+the kitten grows and the cat is near .
+the pear and the banana are near the fruit .
+the birds and the robin are in the garden .
+a apple and a peach are fruit .
+the tool called hammer is here .
+the vegetables and the onion are in the hall .
+a kid is a young goat and a lamb is a young sheep .
+the bird called hen is here .
+the robin and the crow are near the bird .
+the peach and the banana are fruit .
+the cloth is made of fabric and the board is made of wood .
+the vegetables and the carrot are in the hall .
+a kitten grows and is a cat .
+a blade is one of the tools .
+the fish and the carp are in the room .
+a pear and a peach are fruit .
+the sparrow and the robin are birds .
+the tools and the blade are in the street .
+the vegetable called pea is here .
+the lamb grows and the sheep is near .
+the sparrow and the hen are near the bird .
+a willow is one of the trees .

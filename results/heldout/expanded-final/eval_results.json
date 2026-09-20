@@ -19,7 +19,7 @@
       "robin"
     ],
     "unknown_choices": [],
-    "generated_text": "lambs is beside the cabinet .",
+    "generated_text": "another was full .",
     "prompt_truncated": false,
     "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it.",
     "stage": "final",
@@ -45,7 +45,7 @@
       "tools"
     ],
     "unknown_choices": [],
-    "generated_text": "about the different buyer during a discussion of support .",
+    "generated_text": "brush is under the bench .",
     "prompt_truncated": false,
     "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence.",
     "stage": "final",
@@ -67,14 +67,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "walks": 6.965955981286243e-05,
-      "walk": 5.426061761681922e-06,
-      "walked": 0.0005911132320761681,
-      "walking": 1.4994344383012503e-05
+      "walks": 0.00010770268272608519,
+      "walk": 0.00011699218157446012,
+      "walked": 0.12204732745885849,
+      "walking": 3.5283377656014636e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "and she walked too .",
+    "generated_text": "counted near the hall .",
     "prompt_truncated": false,
     "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence.",
     "stage": "final",
@@ -100,7 +100,7 @@
       "ducklings"
     ],
     "unknown_choices": [],
-    "generated_text": "the team about the new shopper during a discussion of care .",
+    "generated_text": "the important buyer girl was looking earlier .",
     "prompt_truncated": false,
     "reason": "Plural agreement on a noun taught only in the young-animal material.",
     "stage": "final",
@@ -122,14 +122,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "closed": 0.2919222414493561,
-      "wide": 0.0006375251687131822,
-      "flat": 0.00040683450060896575,
-      "brown": 1.0885597475862596e-05
+      "closed": 0.19542346894741058,
+      "wide": 0.002724449848756194,
+      "flat": 0.0009353665518574417,
+      "brown": 7.656217348994687e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "shut .",
+    "generated_text": "light .",
     "prompt_truncated": false,
     "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine.",
     "stage": "final",
@@ -147,18 +147,18 @@
       "cool"
     ],
     "expected": "round",
-    "predicted_choice": "round",
-    "score": 1,
+    "predicted_choice": "wide",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "round": 0.007861879654228687,
-      "wide": 0.00021466070029418916,
-      "grey": 0.00035898591158911586,
-      "cool": 8.961796993389726e-05
+      "round": 0.005590212997049093,
+      "wide": 0.006945731583982706,
+      "grey": 8.400114893447608e-05,
+      "cool": 0.0012575156288221478
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "not black .",
+    "generated_text": "old .",
     "prompt_truncated": false,
     "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame.",
     "stage": "final",
@@ -176,18 +176,18 @@
       "late"
     ],
     "expected": "open",
-    "predicted_choice": "open",
-    "score": 1,
+    "predicted_choice": "late",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "open": 0.028686394914984703,
-      "flat": 0.0011742893839254975,
-      "grey": 0.003269575070589781,
-      "late": 0.006391509901732206
+      "open": 0.007101640570908785,
+      "flat": 0.00013511897122953087,
+      "grey": 0.0011492820922285318,
+      "late": 0.01255878433585167
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "buy brown .",
+    "generated_text": "red .",
     "prompt_truncated": false,
     "reason": "shut/open is taught only as a negation correction, and in that direction only.",
     "stage": "final",
@@ -209,14 +209,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "grey": 0.61520916223526,
-      "brown": 0.0022437528241425753,
-      "black": 0.06942965090274811,
-      "white": 0.005486565642058849
+      "grey": 0.8780320882797241,
+      "brown": 0.001538258045911789,
+      "black": 0.004782551433891058,
+      "white": 0.003816364100202918
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "green .",
+    "generated_text": "grey .",
     "prompt_truncated": false,
     "reason": "The correction frame is drilled, but 'basket' is a container in the spatial material and never appears in a colour correction.",
     "stage": "final",
@@ -238,10 +238,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "black": 0.8688023090362549,
-      "white": 0.003963102120906115,
-      "green": 0.01983213610947132,
-      "red": 0.005741454660892487
+      "black": 0.8237919211387634,
+      "white": 0.02236529253423214,
+      "green": 0.00010678821126930416,
+      "red": 0.004557555541396141
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -267,10 +267,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "dirty": 0.9137061238288879,
-      "clean": 7.82282804721035e-05,
-      "wide": 0.008748074062168598,
-      "brown": 0.00024037022376433015
+      "dirty": 0.8716130256652832,
+      "clean": 2.359835161769297e-05,
+      "wide": 0.02372584119439125,
+      "brown": 0.0003699292428791523
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -292,18 +292,18 @@
       "inside"
     ],
     "expected": "below",
-    "predicted_choice": "above",
+    "predicted_choice": "beside",
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "below": 0.2558019757270813,
-      "above": 0.38260602951049805,
-      "beside": 0.0059667848981916904,
-      "inside": 2.9379149054875597e-05
+      "below": 0.005209638271480799,
+      "above": 7.070102583384141e-05,
+      "beside": 0.006203193683177233,
+      "inside": 0.00012021132715744898
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "below the cup is many .",
+    "generated_text": "over the sign .",
     "prompt_truncated": false,
     "reason": "Above/below inverse with two nouns that never appear in a relational frame in training.",
     "stage": "final",
@@ -325,14 +325,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "right": 0.8040751218795776,
-      "left": 0.006158014759421349,
-      "north": 0.0014306626981124282,
-      "south": 0.0004610064497683197
+      "right": 0.3233811855316162,
+      "left": 0.0008770569693297148,
+      "north": 9.10379967535846e-05,
+      "south": 0.0001237905235029757
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "right of the sign .",
+    "generated_text": "right of the card .",
     "prompt_truncated": false,
     "reason": "Left/right inverse with two nouns from the negation material, never used relationally.",
     "stage": "final",
@@ -354,14 +354,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "spoon": 0.775775671005249,
-      "sign": 0.0004625183646567166,
-      "gate": 1.8943221220979467e-05,
-      "mat": 0.01598528027534485
+      "spoon": 0.1376815140247345,
+      "sign": 7.90996909927344e-06,
+      "gate": 0.0005390975857153535,
+      "mat": 0.0007502540829591453
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "coin .",
+    "generated_text": "brush .",
     "prompt_truncated": false,
     "reason": "Inside/contains inverse where the answer is a noun, with a container never used in that frame.",
     "stage": "final",
@@ -391,7 +391,7 @@
       "tool",
       "tree"
     ],
-    "generated_text": ".",
+    "generated_text": "office .",
     "prompt_truncated": false,
     "reason": "Category membership stated in a frame the corpus never uses; the memberships themselves are taught in other wording.",
     "stage": "final",
@@ -423,7 +423,7 @@
       "tool",
       "tree"
     ],
-    "generated_text": "green .",
+    "generated_text": "discussion of service .",
     "prompt_truncated": false,
     "reason": "Same, across two different categories.",
     "stage": "final",
@@ -453,7 +453,7 @@
     "unknown_choices": [
       "fill"
     ],
-    "generated_text": "dirty .",
+    "generated_text": "hospital is",
     "prompt_truncated": false,
     "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs.",
     "stage": "final",

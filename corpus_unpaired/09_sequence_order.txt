@@ -1,0 +1,264 @@
+first buy the basket .then sort it .the first action is buy .
+first pack the card .then seal it .the last action is seal .
+the truck arrived before the taxi .the vehicle that arrived later was the taxi .
+brunch happens before supper .the later meal is supper .
+we wash the cup before breakfast in the street .
+first stack the card .then buy it .the last action is buy .
+the dry basket and the wet basket are clean .
+breakfast is a meal and so is dinner .
+first buy the card .then fold it .the first action is buy .
+we wash the cup before breakfast in the hall .
+first stack the card .then lift it .the last action is lift .
+the train and the bus arrived at the station .
+first pack the crate .then fill it .the first action is pack .
+she will wash and dry the crate .
+first seal the folder .then sort it .the last action is sort .
+first fold the tray .then buy it .the last action is buy .
+the train and the bus arrived at the station .
+first pack the tray .then stack it .the last action is stack .
+he will fill the crate and then seal it .
+first stack the folder .then sort it .the last action is sort .
+first buy the card .then fill it .the last action is fill .
+first fill the basket .then seal it .the last action is seal .
+breakfast and brunch are in the garden .
+breakfast is a meal and so is supper .
+lunch happens before supper .the later meal is supper .
+brunch happens before lunch .the later meal is lunch .
+first fill the crate .then fold it .the last action is fold .
+a bus and a train are each a vehicle .
+breakfast and dinner are in the hall .
+first seal the crate .then buy it .the first action is seal .
+first pack the card .then lift it .the last action is lift .
+breakfast and supper are in the street .
+first fill the crate .then pack it .the last action is pack .
+first buy the card .then fold it .the last action is fold .
+first lift the folder .then pack it .the first action is lift .
+the taxi arrived before the truck .the vehicle that arrived later was the truck .
+first sort the crate .then lift it .the last action is lift .
+first fold the folder .then fill it .the first action is fold .
+first seal the crate .then fold it .the first action is seal .
+a bus and a train are each a vehicle .
+first lift the card .then stack it .the first action is lift .
+we wash the cup before breakfast in the garden .
+first buy the crate .then stack it .the last action is stack .
+first stack the folder .then pack it .the last action is pack .
+the truck arrived before the car .the vehicle that arrived later was the car .
+we wash the crate and then we dry it .
+the train and the bus arrived at the station .
+dinner happens before lunch .the later meal is lunch .
+breakfast and lunch are in the yard .
+first sort the basket .then seal it .the last action is seal .
+a bus and a train are each a vehicle .
+first fill the crate .then pack it .the first action is fill .
+we wash the cup before breakfast in the yard .
+breakfast is a meal and so is supper .
+first seal the crate .then lift it .the first action is seal .
+the taxi arrived after the car .the vehicle that arrived earlier was the car .
+supper happens before dinner .the later meal is dinner .
+we wash the cup before breakfast in the hall .
+breakfast is a meal and so is brunch .
+first fill the crate .then lift it .the last action is lift .
+the train and the bus arrived at the station .
+the dry crate and the wet crate are clean .
+she will wash and dry the basket .
+dinner happens after brunch .the earlier meal is brunch .
+we wash the card and then we dry it .
+dinner happens before brunch .the later meal is brunch .
+breakfast is a meal and so is lunch .
+we wash the cup before breakfast in the yard .
+the truck arrived after the van .the vehicle that arrived earlier was the van .
+first fill the basket .then stack it .the last action is stack .
+we wash the cup before breakfast in the room .
+a bus and a train are each a vehicle .
+first lift the basket .then fill it .the first action is lift .
+a bus and a train are each a vehicle .
+breakfast and lunch are in the street .
+first pack the card .then buy it .the first action is pack .
+first stack the crate .then fill it .the last action is fill .
+breakfast and dinner are in the street .
+first buy the tray .then seal it .the first action is buy .
+first sort the basket .then fold it .the first action is sort .
+first buy the basket .then pack it .the last action is pack .
+first lift the card .then sort it .the last action is sort .
+breakfast and dinner are in the room .
+first sort the basket .then seal it .the first action is sort .
+we wash the cup before breakfast in the garden .
+breakfast is a meal and so is brunch .
+first fill the crate .then sort it .the first action is fill .
+the van arrived before the taxi .the vehicle that arrived later was the taxi .
+first pack the basket .then fold it .the first action is pack .
+first stack the card .then buy it .the first action is stack .
+the taxi arrived before the van .the vehicle that arrived later was the van .
+first fill the crate .then fold it .the first action is fill .
+breakfast is a meal and so is dinner .
+the dry folder and the wet folder are clean .
+first sort the folder .then buy it .the first action is sort .
+dinner happens after supper .the earlier meal is supper .
+lunch happens after dinner .the earlier meal is dinner .
+first seal the folder .then pack it .the first action is seal .
+she will wash and dry the card .
+first fold the card .then lift it .the last action is lift .
+we wash the folder and then we dry it .
+lunch happens before dinner .the later meal is dinner .
+she will wash and dry the tray .
+breakfast and lunch are in the room .
+first fill the crate .then sort it .the last action is sort .
+the taxi arrived after the truck .the vehicle that arrived earlier was the truck .
+breakfast and supper are in the hall .
+first stack the tray .then fold it .the first action is stack .
+first buy the basket .then sort it .the last action is sort .
+the train and the bus arrived at the station .
+the dry card and the wet card are clean .
+breakfast and supper are in the yard .
+we wash the cup before breakfast in the garden .
+brunch happens before dinner .the later meal is dinner .
+first fold the tray .then buy it .the first action is fold .
+the car arrived before the van .the vehicle that arrived later was the van .
+first sort the crate .then fill it .the last action is fill .
+breakfast is a meal and so is lunch .
+first seal the card .then fill it .the first action is seal .
+first pack the basket .then fold it .the last action is fold .
+first lift the card .then sort it .the first action is lift .
+dinner happens before supper .the later meal is supper .
+breakfast is a meal and so is brunch .
+we wash the cup before breakfast in the garden .
+the train and the bus arrived at the station .
+the taxi arrived before the car .the vehicle that arrived later was the car .
+first lift the tray .then buy it .the first action is lift .
+first seal the crate .then fold it .the last action is fold .
+first lift the card .then stack it .the last action is stack .
+first pack the crate .then fill it .the last action is fill .
+breakfast and dinner are in the yard .
+breakfast is a meal and so is brunch .
+first buy the basket .then lift it .the first action is buy .
+breakfast is a meal and so is supper .
+the dry tray and the wet tray are clean .
+first fold the crate .then seal it .the last action is seal .
+first stack the folder .then pack it .the first action is stack .
+breakfast is a meal and so is supper .
+first seal the folder .then stack it .the first action is seal .
+first sort the card .then stack it .the first action is sort .
+lunch happens before brunch .the later meal is brunch .
+a bus and a train are each a vehicle .
+the train and the bus arrived at the station .
+we wash the cup before breakfast in the room .
+dinner happens after lunch .the earlier meal is lunch .
+first pack the tray .then stack it .the first action is pack .
+a bus and a train are each a vehicle .
+lunch happens after supper .the earlier meal is supper .
+first sort the crate .then lift it .the first action is sort .
+first pack the crate .then sort it .the first action is pack .
+first buy the crate .then stack it .the first action is buy .
+first pack the card .then buy it .the last action is buy .
+breakfast is a meal and so is dinner .
+the train and the bus arrived at the station .
+a bus and a train are each a vehicle .
+first seal the folder .then sort it .the first action is seal .
+first stack the folder .then sort it .the first action is stack .
+first lift the folder .then pack it .the last action is pack .
+first sort the card .then stack it .the last action is stack .
+the train and the bus arrived at the station .
+a bus and a train are each a vehicle .
+we wash the cup before breakfast in the hall .
+he will fill the card and then seal it .
+first fill the tray .then buy it .the last action is buy .
+brunch happens after lunch .the earlier meal is lunch .
+first fill the crate .then lift it .the first action is fill .
+first sort the folder .then pack it .the last action is pack .
+first fold the tray .then sort it .the last action is sort .
+first fold the tray .then sort it .the first action is fold .
+first lift the tray .then buy it .the last action is buy .
+we wash the cup before breakfast in the street .
+a bus and a train are each a vehicle .
+breakfast and lunch are in the garden .
+first lift the crate .then fold it .the last action is fold .
+the car arrived before the truck .the vehicle that arrived later was the truck .
+first stack the card .then lift it .the first action is stack .
+the van arrived before the truck .the vehicle that arrived later was the truck .
+supper happens after dinner .the earlier meal is dinner .
+we wash the cup before breakfast in the yard .
+we wash the cup before breakfast in the street .
+the van arrived after the taxi .the vehicle that arrived earlier was the taxi .
+the car arrived after the taxi .the vehicle that arrived earlier was the taxi .
+first lift the card .then seal it .the first action is lift .
+he will fill the basket and then seal it .
+supper happens before lunch .the later meal is lunch .
+he will fill the folder and then seal it .
+the van arrived after the truck .the vehicle that arrived earlier was the truck .
+breakfast is a meal and so is lunch .
+the car arrived before the taxi .the vehicle that arrived later was the taxi .
+the van arrived before the car .the vehicle that arrived later was the car .
+first fold the basket .then stack it .the last action is stack .
+first stack the card .then seal it .the first action is stack .
+lunch happens after brunch .the earlier meal is brunch .
+first fill the tray .then buy it .the first action is fill .
+we wash the cup before breakfast in the room .
+first buy the card .then fill it .the first action is buy .
+the taxi arrived after the van .the vehicle that arrived earlier was the van .
+first seal the folder .then pack it .the last action is pack .
+the train and the bus arrived at the station .
+first sort the basket .then fold it .the last action is fold .
+first buy the tray .then seal it .the last action is seal .
+first fold the basket .then pack it .the first action is fold .
+brunch happens after supper .the earlier meal is supper .
+breakfast and brunch are in the yard .
+first pack the card .then seal it .the first action is pack .
+first sort the crate .then fill it .the first action is sort .
+the truck arrived after the taxi .the vehicle that arrived earlier was the taxi .
+breakfast and supper are in the room .
+a bus and a train are each a vehicle .
+first lift the basket .then fill it .the last action is fill .
+first stack the card .then seal it .the last action is seal .
+breakfast and dinner are in the garden .
+first seal the crate .then buy it .the last action is buy .
+supper happens before brunch .the later meal is brunch .
+first seal the folder .then stack it .the last action is stack .
+we wash the cup before breakfast in the yard .
+first stack the tray .then fold it .the last action is fold .
+breakfast and lunch are in the hall .
+supper happens after brunch .the earlier meal is brunch .
+she will wash and dry the folder .
+breakfast and brunch are in the room .
+he will fill the tray and then seal it .
+breakfast is a meal and so is brunch .
+breakfast and brunch are in the hall .
+first fold the basket .then stack it .the first action is fold .
+first buy the basket .then lift it .the last action is lift .
+first seal the card .then fill it .the last action is fill .
+brunch happens after dinner .the earlier meal is dinner .
+a bus and a train are each a vehicle .
+breakfast and brunch are in the street .
+we wash the tray and then we dry it .
+breakfast is a meal and so is lunch .
+the car arrived after the truck .the vehicle that arrived earlier was the truck .
+the train and the bus arrived at the station .
+first lift the crate .then fold it .the first action is lift .
+first buy the basket .then pack it .the first action is buy .
+the truck arrived before the van .the vehicle that arrived later was the van .
+breakfast is a meal and so is supper .
+the car arrived after the van .the vehicle that arrived earlier was the van .
+first fold the crate .then seal it .the first action is fold .
+first sort the folder .then pack it .the first action is sort .
+first lift the card .then seal it .the last action is seal .
+we wash the basket and then we dry it .
+breakfast is a meal and so is dinner .
+first fill the basket .then stack it .the first action is fill .
+we wash the cup before breakfast in the street .
+first stack the crate .then fill it .the first action is stack .
+first fill the basket .then seal it .the first action is fill .
+we wash the cup before breakfast in the hall .
+first pack the card .then lift it .the first action is pack .
+breakfast is a meal and so is lunch .
+first seal the crate .then lift it .the last action is lift .
+we wash the cup before breakfast in the room .
+the truck arrived after the car .the vehicle that arrived earlier was the car .
+first sort the folder .then buy it .the last action is buy .
+breakfast and supper are in the garden .
+first pack the crate .then sort it .the last action is sort .
+the van arrived after the car .the vehicle that arrived earlier was the car .
+breakfast is a meal and so is dinner .
+first fold the card .then lift it .the first action is fold .
+the train and the bus arrived at the station .
+first fold the folder .then fill it .the last action is fill .
+first fold the basket .then pack it .the last action is pack .
+supper happens after lunch .the earlier meal is lunch .

@@ -32,7 +32,7 @@ sys.path.insert(0, str(ROOT))
 
 from run_evals import load_suite, word_tokens  # noqa: E402
 
-EXPERIMENTS = ["starter", "expanded", "seven", "tuned"]
+EXPERIMENTS = ["starter", "expanded", "seven", "tuned", "unpaired"]
 MAX_CONTENT_COVERAGE = 0.80
 # A prompt with one or two content words ("the dogs", "yesterday she") is matched at
 # 100% by any legitimate teaching sentence that uses those words - "two dogs are

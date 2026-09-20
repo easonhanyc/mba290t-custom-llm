@@ -36,7 +36,7 @@
       "detail": "[]"
     },
     {
-      "check": "expanded: no individual trained passage contains an eval prompt (11,684 passages checked)",
+      "check": "expanded: no individual trained passage contains an eval prompt (11,588 passages checked)",
       "pass": true,
       "detail": "[]"
     },
@@ -46,7 +46,7 @@
       "detail": "[]"
     },
     {
-      "check": "seven: no individual trained passage contains an eval prompt (13,306 passages checked)",
+      "check": "seven: no individual trained passage contains an eval prompt (13,210 passages checked)",
       "pass": true,
       "detail": "[]"
     },
@@ -56,7 +56,17 @@
       "detail": "[]"
     },
     {
-      "check": "tuned: no individual trained passage contains an eval prompt (13,306 passages checked)",
+      "check": "tuned: no individual trained passage contains an eval prompt (13,210 passages checked)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "unpaired: trained corpus.txt contains no eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "unpaired: no individual trained passage contains an eval prompt (13,713 passages checked)",
       "pass": true,
       "detail": "[]"
     },
@@ -66,17 +76,22 @@
       "detail": "[]"
     },
     {
-      "check": "expanded: every vocabulary token occurs in that run's own training text (438 tokens checked)",
+      "check": "expanded: every vocabulary token occurs in that run's own training text (423 tokens checked)",
       "pass": true,
       "detail": "[]"
     },
     {
-      "check": "seven: every vocabulary token occurs in that run's own training text (509 tokens checked)",
+      "check": "seven: every vocabulary token occurs in that run's own training text (505 tokens checked)",
       "pass": true,
       "detail": "[]"
     },
     {
-      "check": "tuned: every vocabulary token occurs in that run's own training text (509 tokens checked)",
+      "check": "tuned: every vocabulary token occurs in that run's own training text (505 tokens checked)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "unpaired: every vocabulary token occurs in that run's own training text (505 tokens checked)",
       "pass": true,
       "detail": "[]"
     }
@@ -86,7 +101,8 @@
     "starter": 160,
     "expanded": 160,
     "seven": 160,
-    "tuned": 160
+    "tuned": 160,
+    "unpaired": 160
   },
   "reserved_case_ids": [
     "lang_01",
@@ -260,6 +276,12 @@
       "lang_36"
     ],
     "tuned": [
+      "lang_32",
+      "lang_34",
+      "lang_35",
+      "lang_36"
+    ],
+    "unpaired": [
       "lang_32",
       "lang_34",
       "lang_35",

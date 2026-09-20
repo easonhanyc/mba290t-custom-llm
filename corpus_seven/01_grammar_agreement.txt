@@ -1,1280 +1,1184 @@
-many dogs were warm .
-the birds are ready .
-i am young .
-three runners are tall .
-the fox is ready .
-many birds were warm .
-a dog is big .
-one hen is tall .
-the birds are brown .
-two dogs are tall .
-one girl was tall .
-one owl was asleep .
-three owls are asleep .
-the owl is loud .
-the girl is big .
-one runner was white .
-the dog is young .
-the owls are asleep .
-the bird is ready .
-one frog is young .
-two girls are tall .
-one runner is white .
-two farmers are slow .
-the lamb was big and the lambs were young .
-the cat is big .
-a girl is tall .
-the duck was big and the ducks were old .
-many owls were loud .
-one lamb is tall .
-the lamb was brown and the lambs were short .
-the boy was loud and the boys were calm .
-one owl was old .
-a lamb is safe .
-a goat is white .
-three owls are old .
-three lambs are tall .
-one frog was tall .
-a bird is old .
-one dog is warm but two dogs are young .
-one hen was slow .
-one pony is warm .
-three boys are young .
-one cat is old .
-three goats are warm .
-one duck was safe .
-a dog is awake .
-the horses are quiet .
-one goat is young but two goats are loud .
-one horse is clean but two horses are tall .
-the girls are big .
-two dogs are calm .
-one cat is awake .
-one lamb was safe .
-one duck is ready .
-the duck is big .
-a lamb is ready .
-the farmers are old .
-three foxes are warm .
-the bird was big .
-one goat is white .
-the frog is small .
-one boy was old .
-one boy was loud .
-two ponies are tall .
-one dog is loud but two dogs are quick .
-three ducks are calm .
-one hen was loud .
-the lamb is tall .
-three lambs are quick .
-the ducks are ready .
-a horse is quick .
-one rabbit is ready .
-many foxes were white .
-a dog is tall .
-many owls were tall .
-a boy is young .
-two goats are busy .
-a crow is calm .
-the pony is big .
-the crows are white .
-the ducks are white .
-one fox is ready .
-the bird was awake .
-one duck is big but two ducks are old .
-one dog is slow but two dogs are white .
-the dog was clean and many dogs were slow .
-one cat was old .
-three dogs are calm .
-two ducks are big .
-many birds were ready .
-the birds are safe .
-the runners are clean .
-the bird is calm .
-one goat is busy but two goats are old .
-many dogs were loud .
-one pony is tall but two ponies are white .
-the boys are busy .
-three cats are busy .
-the bird was tall and the birds were quiet .
-one crow is white .
-one farmer was old .
-one girl is big but two girls are ready .
-one runner is brown but two runners are warm .
-i was warm .
-a pony is calm .
-a bird is ready .
-the birds are short .
-the dog is awake .
-the birds are quick .
-one crow is loud but two crows are tall .
-many birds were clean .
-a lamb is big .
-one hen is big but two hens are young .
-a owl is old .
-one girl is big .
-the duck was ready and the ducks were tall .
-a dog is quick .
-one rabbit was clean .
-the runner is brown .
-one frog is small but two frogs are clean .
-a fox is young .
-the bird was brown .
-the bird is quick .
-the boys are loud .
-one dog is awake but two dogs are ready .
-one runner is white but two runners are clean .
-the bird was busy and the birds were calm .
-i am short .
-the dog was big and many dogs were old .
-two ponies are calm .
-three horses are slow .
-three boys are busy .
-one crow is busy but two crows are awake .
-one cat is big but two cats are small .
-one boy is clean .
-a girl is brown .
-the owls are loud .
-one horse is loud .
-many dogs were white .
-three girls are big .
-two foxes are quiet .
-one pony is calm .
-three farmers are big .
-three foxes are white .
-many ponies were calm .
-the frogs are quick .
-one goat was white .
-one goat was quick .
-many birds were calm .
-a owl is quiet .
-three crows are calm .
-the birds are small .
-the runner is white .
-i am small .
-a dog is asleep .
-one goat is quick .
-the hens are slow .
-many crows were short .
-many boys were short .
-a bird is tall .
-two owls are tall .
-one hen is asleep but two hens are slow .
-two dogs are awake .
-three rabbits are ready .
-the dog was young and many dogs were tall .
-one rabbit is busy but two rabbits are small .
-one frog is quick .
-i was loud .
-two hens are loud .
-many ponies were warm .
-the bird was safe .
-i was busy .
-many dogs were awake .
-the horses are brown .
-the goat is quick .
-the rabbits are loud .
-three horses are loud .
-the horses are loud .
-three lambs are big .
-one girl is brown .
-the pony was ready and the ponies were quiet .
-two rabbits are busy .
-one fox was young .
-the hen was tall and the hens were white .
-a hen is white .
-a crow is short .
-one pony is tall .
-one owl is quiet .
-one girl was brown .
-one farmer is old .
-the runner was warm and the runners were loud .
-three goats are busy .
-three ponies are warm .
-three lambs are safe .
-the pony was calm and the ponies were awake .
-three dogs are short .
-one goat was quiet .
-the bird was loud and the birds were quick .
-many horses were brown .
-one fox was quick .
-the duck is calm .
-the cats are busy .
-one fox is quick .
-the bird was loud .
-many rabbits were busy .
-two birds are small .
-many lambs were safe .
-one cat was loud .
-one boy is old .
-the bird was young and the birds were tall .
-a hen is tall .
-the crow was loud and the crows were tall .
-the rabbits are busy .
-one fox is white but two foxes are small .
-the foxes are ready .
-one duck is white but two ducks are safe .
-many hens were asleep .
-three dogs are slow .
-one farmer is old but two farmers are brown .
-the girls are brown .
-one frog was short .
-the dog was safe and many dogs were loud .
-the runner is clean .
-three dogs are tall .
-a runner is quick .
-the rabbit is small .
-many crows were busy .
-one dog is safe but two dogs are loud .
-one farmer was slow .
-the cat is old .
-three foxes are quiet .
-many birds were loud .
-two frogs are tall .
-the duck is white .
-the rabbits are clean .
-one owl is asleep .
-the cat is awake .
-the lamb is quick .
-the lambs are big .
-the runner was white and the runners were clean .
-one fox was quiet .
-two boys are young .
-the rabbits are white .
-the dog was awake and many dogs were ready .
-many lambs were tall .
-one cat is brown .
-one horse is loud but two horses are young .
-one owl is loud but two owls are young .
-the rabbit was small and the rabbits were clean .
-one rabbit is loud .
-i am tall .
-a farmer is ready .
-many crows were white .
-the bird was slow .
-one boy is busy but two boys are big .
-the boys are short .
-one crow is calm but two crows are old .
-one fox is warm .
-the goat was quiet and the goats were safe .
-a boy is old .
-one horse was slow .
-three dogs are asleep .
-the hens are tall .
-a bird is short .
-a goat is warm .
-the farmer is clean .
-two horses are quick .
-the runner was clean and the runners were quiet .
-one horse is clean .
-many dogs were quiet .
-the goat is young .
-the horse was clean and the horses were tall .
-one runner is warm but two runners are loud .
-i am loud .
-the farmer is slow .
-the bird is tall .
-the rabbit was white and the rabbits were young .
-the runners are tall .
-one frog is loud but two frogs are quick .
-three ducks are ready .
-one horse was brown .
-the horse was brown and the horses were clean .
-one runner is quick .
-the horses are slow .
-one runner was quick .
-one horse was loud .
-the hen is loud .
-two hens are white .
-the horse is quick .
-three dogs are ready .
-many cats were busy .
-the cats are brown .
-many crows were quiet .
-one girl is tall .
-two horses are quiet .
-three ponies are big .
-a runner is brown .
-the girl was big and the girls were ready .
-the farmers are ready .
-a girl is big .
-the dog was busy and many dogs were calm .
-the farmer is ready .
-many horses were quiet .
-many crows were calm .
-the ducks are warm .
-the birds are slow .
-the bird is young .
-one boy is short .
-i am ready .
-the boys are young .
-two birds are old .
-two girls are brown .
-the birds are big .
-a duck is safe .
-a cat is loud .
-many birds were busy .
-a boy is busy .
-the frog is loud .
-i was awake .
-the bird is warm .
-one frog was loud .
-the crow was calm and the crows were old .
-one farmer was clean .
-two rabbits are small .
-the lambs are safe .
-the fox was ready and the foxes were short .
-three dogs are busy .
-one lamb is ready .
-a bird is young .
-three hens are white .
-the bird was asleep .
-the dog was slow and many dogs were white .
-one girl is tall but two girls are small .
-a dog is clean .
-a crow is busy .
-a fox is ready .
-one rabbit is clean but two rabbits are old .
-the bird is busy .
-the bird is awake .
-two cats are awake .
-a rabbit is clean .
-the goat is warm .
-the fox is white .
-two frogs are young .
-the girl was short and the girls were awake .
-one dog is clean but two dogs are slow .
-the hen is tall .
-the pony was big and the ponies were safe .
-a dog is quiet .
-a fox is white .
-one owl is tall but two owls are awake .
-two runners are white .
-the rabbit was clean and the rabbits were old .
-two rabbits are white .
-one dog is quick but two dogs are brown .
-three dogs are warm .
-many horses were slow .
-a crow is white .
-many birds were quick .
-two hens are tall .
-two lambs are safe .
-the pony is loud .
-i was old .
-one fox was white .
-one girl was short .
-two ponies are big .
-one lamb was ready .
-one boy is young but two boys are warm .
-the bird is slow .
-the bird was short and the birds were calm .
-one goat is busy .
-many runners were quick .
-the owl was asleep and the owls were warm .
-the rabbit is white .
-the runner is tall .
-the hens are asleep .
-one goat is warm .
-two girls are young .
-a dog is small .
-one hen is white .
-two hens are slow .
-the fox is warm .
-two ponies are warm .
-one fox is quick but two foxes are tall .
-a dog is slow .
-one farmer is slow .
-two ducks are ready .
-a dog is calm .
-many birds were brown .
-three girls are young .
-many runners were warm .
-the dog is brown .
-the cats are awake .
-the lambs are brown .
-many ducks were white .
-three ducks are big .
-a runner is warm .
-two birds are safe .
-the crows are short .
-many dogs were safe .
-one rabbit is small but two rabbits are clean .
-the cats are old .
-three girls are short .
-two crows are white .
-many ducks were calm .
-one runner was tall .
-many hens were tall .
-the bird was white .
-the dog is big .
-the dog was tall and many dogs were quiet .
-one runner is tall .
-the fox was quick and the foxes were tall .
-three dogs are old .
-many owls were quiet .
-the runner is warm .
-two lambs are tall .
-two runners are tall .
-one pony is calm but two ponies are awake .
-the runner was brown and the runners were warm .
-one dog is old but two dogs are busy .
-a girl is young .
-a frog is tall .
-two girls are short .
-the bird was short .
-the bird is safe .
-the runners are quick .
-many birds were asleep .
-the rabbits are small .
-the dog was white and many dogs were tall .
-one frog is quick but two frogs are warm .
-one runner is clean .
-the rabbits are ready .
-many ponies were loud .
-i am brown .
-the horses are quick .
-the dog is asleep .
-the boy was busy and the boys were big .
-many horses were clean .
-three frogs are young .
-one dog is young but two dogs are tall .
-the lamb was quick and the lambs were asleep .
-one lamb is ready but two lambs are big .
-a girl is ready .
-a crow is loud .
-one pony is big but two ponies are safe .
-one hen is loud .
-the horse is slow .
-two birds are loud .
-three horses are quiet .
-the crow is calm .
-many birds were small .
-the bird was busy .
-one dog is tall but two dogs are quiet .
-the lambs are quick .
-two dogs are warm .
-a rabbit is white .
-one frog was young .
-many foxes were quiet .
-the dog is quick .
+one frog is slow but two frogs are warm .
+the lamb was short and the lambs were quiet .
+one hen is awake .
 many goats were quiet .
-two rabbits are ready .
-many boys were loud .
-two farmers are clean .
-the girl was tall and the girls were small .
-three cats are big .
-one rabbit is loud but two rabbits are ready .
-the dog is short .
-two cats are loud .
-the bird is old .
-one horse is slow .
-three frogs are small .
-three crows are busy .
-the bird was small .
-one farmer is small .
-the hen was asleep and the hens were slow .
-many girls were brown .
-many cats were old .
-the birds are young .
-the dog was short and many dogs were calm .
-the owl was quiet and the owls were awake .
-many rabbits were ready .
-the dog is old .
-a goat is young .
-i am warm .
-a duck is ready .
-many girls were ready .
-the goat was white and the goats were short .
-three rabbits are white .
-a bird is small .
-many boys were clean .
-the ducks are calm .
-one rabbit was loud .
-the boys are clean .
-the farmer was slow and the farmers were white .
-the bird was clean and the birds were slow .
-two ducks are white .
-one crow was loud .
-two horses are loud .
-one fox is white .
-one hen was white .
-two birds are quick .
-a bird is warm .
-one girl was big .
-two cats are busy .
-a farmer is small .
-the pony was loud and the ponies were quick .
-the birds are tall .
-one dog is brown but two dogs are awake .
-one owl was quiet .
-a hen is slow .
-the pony is ready .
-one hen is asleep .
-one runner was warm .
-the bird is white .
-many runners were tall .
-two rabbits are loud .
-two foxes are quick .
-two dogs are slow .
-two dogs are white .
-one boy is loud .
-one lamb is big but two lambs are young .
-a dog is loud .
-one crow is white but two crows are tall .
-a hen is big .
-the cat is brown .
-a crow is quiet .
-many owls were old .
-the birds are quiet .
-three boys are old .
-one lamb is safe but two lambs are quick .
-two hens are asleep .
-one lamb is safe .
-the boy is old .
-the owl was tall and the owls were awake .
-a bird is clean .
-the birds are old .
-many cats were brown .
-two dogs are ready .
-one farmer was ready .
-the crow is short .
-the farmers are big .
-the goat was young and the goats were loud .
-the farmer was big and the farmers were small .
-one pony is ready but two ponies are quiet .
-the frog is short .
-i am big .
-two horses are slow .
-the dog is ready .
-many girls were tall .
-the cat is loud .
-the cat was big and the cats were small .
-one cat is loud .
-i am quiet .
-many birds were big .
-three rabbits are loud .
-the bird is short .
-two owls are asleep .
-one rabbit was white .
-many lambs were ready .
-one horse is brown .
-three hens are tall .
-the birds are white .
-two birds are warm .
-the lambs are tall .
-one duck is safe .
-one cat was awake .
-a cat is old .
-one horse is slow but two horses are quick .
-one rabbit was ready .
-two dogs are asleep .
-many rabbits were loud .
-the farmer is small .
-two runners are brown .
-the duck was white and the ducks were safe .
-one goat is warm but two goats are white .
-the horse was loud and the horses were young .
-three crows are short .
-two boys are clean .
-the bird is brown .
-the bird was small and the birds were calm .
-one boy was clean .
-i am safe .
-many girls were short .
-one cat is big .
-one fox is ready but two foxes are short .
-two ducks are warm .
-many cats were awake .
-two rabbits are clean .
-three frogs are loud .
-the cat is busy .
-the hen was slow and the hens were white .
-the foxes are warm .
-three dogs are loud .
-the pony was tall and the ponies were white .
-the dog is warm .
-one rabbit was busy .
-one horse is brown but two horses are clean .
-two ponies are loud .
-the ponies are warm .
-i was asleep .
-one boy was short .
-one girl is short .
-many ponies were ready .
-three ducks are warm .
-the frogs are short .
-one rabbit is small .
-one boy is young .
-one girl is short but two girls are awake .
-two frogs are quick .
-one goat is young .
-the cat was loud and the cats were small .
-one boy was young .
-three horses are brown .
-a rabbit is small .
-two crows are quiet .
-one farmer is ready but two farmers are big .
-many boys were busy .
-one hen is white but two hens are young .
-a duck is calm .
-the bird was quiet .
-the cat was old and the cats were small .
-the runners are brown .
-one rabbit is clean .
-many dogs were asleep .
-the farmers are clean .
-two cats are old .
-one crow was quiet .
-a dog is brown .
-the boy was young and the boys were warm .
-the goats are quick .
-three ducks are safe .
-three boys are clean .
-many dogs were ready .
-one pony is big .
-two girls are big .
-many foxes were quick .
-the boy was clean and the boys were quick .
-three goats are white .
-three cats are brown .
-two cats are big .
-the pony is calm .
-one frog is short but two frogs are asleep .
-a runner is white .
-the owls are calm .
-one lamb was big .
-the cat was brown and the cats were safe .
-the frog is tall .
-one dog is white but two dogs are tall .
-three crows are quiet .
-three owls are loud .
-a hen is loud .
-three dogs are quick .
-the owl was old and the owls were small .
-three rabbits are clean .
-three frogs are quick .
-three crows are loud .
-one cat is loud but two cats are small .
-many goats were white .
-the crow is busy .
-i was quick .
-many boys were young .
-the farmer is old .
-many goats were busy .
-one cat is brown but two cats are safe .
-a frog is short .
-a pony is big .
-the cat was awake and the cats were asleep .
-a dog is warm .
+one fox is small but two foxes are short .
+one dog is short but two dogs are tall .
+one frog is old .
+many dogs were white .
+one crow is tall .
+the farmer was awake and the farmers were white .
+many dogs were quiet .
+i am small .
+two frogs are old .
+three owls are brown .
+one pony is white .
 three cats are loud .
-two dogs are old .
-three dogs are clean .
-the duck was warm and the ducks were young .
-one hen is tall but two hens are white .
-i was slow .
-a horse is slow .
-many dogs were short .
-one fox is quiet .
-one girl was ready .
-three hens are loud .
-one girl is young but two girls are tall .
-the hen was white and the hens were young .
-a dog is safe .
-the girl is young .
-a boy is short .
-one lamb was brown .
-the fox was quiet and the foxes were small .
-many farmers were old .
-the bird was calm .
-one boy is short but two boys are big .
-three horses are clean .
-i was brown .
-the crow was short and the crows were loud .
-many ducks were safe .
-one dog is ready but two dogs are awake .
-a boy is clean .
-one dog is busy but two dogs are calm .
-three rabbits are small .
-one cat was brown .
-two dogs are clean .
-one boy is old but two boys are slow .
-one cat is busy .
-three lambs are ready .
-the ponies are tall .
-two owls are calm .
-three cats are awake .
-the bird was tall .
-the girls are ready .
-one owl was loud .
-one rabbit is ready but two rabbits are big .
-many ducks were ready .
-one fox was warm .
-one crow was short .
-the horse is loud .
-a pony is tall .
-many farmers were big .
-the fox is quick .
-two lambs are quick .
-the frog was small and the frogs were clean .
-many goats were quick .
-two goats are white .
-the crow was quiet and the crows were big .
-the bird was old .
-one dog is calm but two dogs are tall .
-two lambs are big .
-one boy is clean but two boys are quick .
-the dog is tall .
-a owl is calm .
-one owl is old but two owls are small .
-the crow is quiet .
-two cats are brown .
-the goats are warm .
-three cats are old .
-the bird was quiet and the birds were ready .
-three lambs are brown .
-the bird was quick and the birds were brown .
-a owl is asleep .
-one duck is calm .
-the bird was awake and the birds were ready .
-the boy was short and the boys were big .
-the girl was ready and the girls were asleep .
-two owls are old .
-the boys are old .
-the fox was warm and the foxes were short .
-the rabbit was ready and the rabbits were big .
-the duck is warm .
-a fox is quiet .
-one crow is loud .
-the crow was busy and the crows were awake .
-the owl is old .
-one lamb is brown but two lambs are short .
-one farmer is clean but two farmers are short .
-the foxes are white .
-one farmer is big .
-many birds were tall .
-many farmers were ready .
-one duck was big .
-the owl was loud and the owls were young .
-the dog is safe .
-a rabbit is loud .
-a rabbit is busy .
-one fox is young .
-a bird is asleep .
-the bird was warm and the birds were young .
-two birds are young .
-one girl was young .
-one dog is big but two dogs are old .
-many dogs were calm .
-the pony was warm and the ponies were ready .
-three hens are slow .
-the boy is young .
-one hen is slow .
-the lamb was tall and the lambs were short .
-one duck was ready .
-two farmers are big .
-three girls are tall .
-the runners are white .
-a farmer is old .
-three foxes are ready .
-one fox is warm but two foxes are short .
-the birds are clean .
-the dog is calm .
-a dog is ready .
-one pony was warm .
-one owl was calm .
-one fox is young but two foxes are slow .
-three farmers are old .
-the cat was busy and the cats were loud .
-two birds are big .
-one crow was calm .
-three dogs are big .
-a horse is quiet .
-two foxes are ready .
-one frog is short .
-many horses were quick .
-many goats were warm .
-two boys are loud .
-the dog is clean .
-the farmers are small .
-the bird was white and the birds were tall .
-many foxes were ready .
-one cat was busy .
-many runners were white .
-the lambs are ready .
-one runner is warm .
-one farmer is slow but two farmers are white .
-the bird is small .
-the duck was calm and the ducks were big .
-many ducks were warm .
-the dog was loud and many dogs were quick .
-two birds are awake .
-two goats are quiet .
-two birds are short .
-many rabbits were clean .
-one duck was calm .
-a horse is clean .
-the horses are clean .
-the bird is big .
-a lamb is brown .
-a duck is big .
-three rabbits are busy .
-three girls are brown .
-one owl is old .
-two crows are busy .
-i was quiet .
-two goats are young .
-one duck was white .
-two foxes are young .
-the bird was ready .
-the farmer was small and the farmers were busy .
-three goats are young .
-many crows were loud .
-one crow is short but two crows are loud .
-a bird is quick .
-many frogs were short .
-three ponies are ready .
-the dog was warm and many dogs were young .
-many dogs were busy .
-the bird was quick .
-i am asleep .
-the bird was safe and the birds were loud .
-many hens were slow .
-one horse is quiet but two horses are short .
-the dog was old and many dogs were busy .
-many runners were clean .
+the lamb was loud and the lambs were warm .
+many goats were loud .
+three lambs are loud .
+the runner is short .
+the bird was awake .
+many birds were big .
+two ponies are tall .
+three crows are asleep .
 a runner is tall .
-many dogs were young .
-many goats were young .
-a lamb is quick .
-the crow was white and the crows were tall .
-three foxes are quick .
-one boy was busy .
-the boy is busy .
-three runners are quick .
-i am awake .
-many hens were big .
-three boys are short .
-one runner is quick but two runners are clean .
-two lambs are ready .
-two frogs are small .
-a bird is calm .
-the girls are young .
-one farmer was big .
-three girls are ready .
-i am white .
-one runner is brown .
-one owl was tall .
-the bird is quiet .
-the frog is young .
-three runners are warm .
-a bird is slow .
-two birds are quiet .
-two dogs are safe .
-the duck is safe .
-many runners were brown .
-the goats are busy .
-one runner is clean but two runners are quiet .
-one pony was calm .
-one lamb is brown .
-the frog was quick and the frogs were warm .
-i am calm .
-many lambs were big .
-two farmers are small .
-one pony is loud .
-i was safe .
-many frogs were quick .
-the farmer was ready and the farmers were big .
-one girl is young .
-the ponies are loud .
-the pony is warm .
-a pony is warm .
-one duck was warm .
-the goats are white .
-i am busy .
-one owl is loud .
-one fox was ready .
-i was tall .
-two runners are quick .
-the bird is loud .
-one duck is safe but two ducks are calm .
-one dog is small but two dogs are calm .
-the hens are loud .
-many dogs were old .
-one duck is warm .
-the runner was tall and the runners were clean .
-the dog was asleep and many dogs were tall .
-the crows are busy .
-a duck is warm .
-one hen is loud but two hens are clean .
-the frogs are loud .
-i was ready .
-many lambs were quick .
-one pony was ready .
-three goats are quiet .
-two birds are asleep .
-many horses were loud .
-a frog is small .
-the ponies are calm .
-i was clean .
-the crows are quiet .
-a lamb is tall .
-one crow is calm .
-many dogs were clean .
-two birds are tall .
-many dogs were tall .
-a farmer is big .
-two birds are ready .
-the hen is slow .
-the ducks are safe .
-many dogs were slow .
-a bird is safe .
-the goat is white .
-a cat is brown .
-three dogs are young .
-the dog is slow .
-many owls were asleep .
-a frog is loud .
-the lamb is safe .
-the bird was warm .
-one girl is ready .
-one goat is white but two goats are short .
-one goat was young .
-the dog is busy .
-three runners are brown .
-two goats are quick .
-a goat is busy .
-the rabbit is loud .
-one owl is quiet but two owls are awake .
-the girl is short .
-a bird is white .
-one fox is quiet but two foxes are small .
-the runner is quick .
-the owls are old .
-three owls are calm .
-the lamb is ready .
-one lamb is tall but two lambs are short .
-the dog was brown and many dogs were awake .
-the girls are tall .
-a owl is tall .
-the girl is ready .
-many frogs were small .
-a owl is loud .
-the owl is tall .
-three boys are loud .
-the dog is loud .
-the lamb is brown .
-one owl is asleep but two owls are warm .
-the rabbit is ready .
-two foxes are white .
-the horse was slow and the horses were quick .
-two birds are calm .
-a horse is brown .
-one pony was loud .
-many girls were young .
-one rabbit is busy .
-one frog is tall .
-the dog was quiet and many dogs were ready .
-three foxes are young .
-many birds were awake .
-three dogs are white .
-one hen was big .
-many dogs were brown .
-one farmer is big but two farmers are small .
-one lamb is big .
-one hen was asleep .
-the girl is brown .
-the horse is clean .
-one cat was big .
-three crows are white .
-many ponies were big .
-two foxes are warm .
-two crows are loud .
-two ducks are calm .
-one owl is calm .
-a pony is loud .
-the duck was safe and the ducks were calm .
-the birds are loud .
-three farmers are clean .
-a girl is short .
-the goats are young .
-one runner was brown .
-three ponies are calm .
-two ponies are ready .
-two birds are white .
-the owls are quiet .
-the cats are big .
-the lamb is big .
-one goat is quiet .
-a duck is white .
-three horses are quick .
-many birds were old .
-many girls were big .
-three dogs are quiet .
-a bird is quiet .
-the bird was old and the birds were busy .
-three dogs are brown .
-one hen is slow but two hens are white .
-three frogs are short .
-one hen was tall .
-one cat is old but two cats are small .
-the bird is clean .
-the frog was short and the frogs were asleep .
-one dog is quiet but two dogs are ready .
-the runners are warm .
-a goat is quiet .
-two birds are clean .
-the bird was slow and the birds were white .
-a farmer is clean .
-i am slow .
-two dogs are busy .
-three farmers are slow .
-one frog is small .
-one duck is calm but two ducks are big .
-the lamb was safe and the lambs were quick .
-two girls are ready .
-a dog is short .
-one horse is quick but two horses are slow .
-two dogs are quick .
-two hens are big .
-the frogs are small .
-three hens are asleep .
-one frog is tall but two frogs are old .
-one crow is quiet but two crows are big .
-one goat is quiet but two goats are safe .
-one goat was busy .
-one crow is busy .
-many hens were loud .
-two birds are busy .
-the farmer was clean and the farmers were short .
-a frog is young .
-two horses are brown .
-two dogs are brown .
-two dogs are short .
-three runners are clean .
-the hens are white .
-a farmer is slow .
-three ponies are tall .
-the hen was big and the hens were young .
-two owls are quiet .
-the foxes are young .
-a bird is busy .
-one rabbit is white but two rabbits are young .
-many owls were calm .
-the foxes are quiet .
-the crow is white .
-one lamb was quick .
-i was big .
-the frogs are tall .
-one horse was quick .
-one goat was warm .
-one dog is short but two dogs are calm .
-the frog is quick .
-the fox was young and the foxes were slow .
-the goat is quiet .
-the dog was ready and many dogs were awake .
-one rabbit is white .
-three dogs are safe .
-one crow was busy .
-three runners are white .
-the foxes are quick .
-the boy is clean .
-a dog is old .
-one cat is busy but two cats are loud .
-the dog was small and many dogs were calm .
-one crow is short .
-the girl is tall .
-the ducks are big .
-the frog was young and the frogs were loud .
-one frog is loud .
-one pony is warm but two ponies are ready .
-one horse was quiet .
-many frogs were loud .
-the goats are quiet .
-a bird is brown .
-the hens are big .
-three farmers are small .
-the dog is white .
-one lamb is quick but two lambs are asleep .
-one goat is quick but two goats are small .
-two dogs are loud .
-the goat is busy .
-the bird was young .
-two goats are warm .
-a cat is awake .
-the farmer was old and the farmers were brown .
-i was white .
-a bird is big .
-i am quick .
-three dogs are small .
 three dogs are awake .
-two owls are loud .
-many birds were quiet .
-one pony is ready .
-the bird was calm and the birds were tall .
-a fox is quick .
-two dogs are young .
-two boys are short .
-the owl is quiet .
-the birds are asleep .
-the goat was quick and the goats were small .
-one owl is tall .
-the goat was warm and the goats were white .
-i am clean .
-the horse was quick and the horses were slow .
-a runner is clean .
-a frog is quick .
-the boy is short .
-the farmers are slow .
-a goat is quick .
-three hens are big .
-three goats are quick .
-the frog was loud and the frogs were quick .
-one duck is warm but two ducks are young .
-two runners are warm .
-one hen is big .
-i am old .
-many farmers were clean .
-the horse was quiet and the horses were short .
-two dogs are big .
-one crow was white .
-the rabbit is clean .
-i was short .
-the birds are busy .
-three owls are tall .
-one runner is tall but two runners are clean .
-one rabbit was small .
-the dog is small .
-the ponies are big .
-the cats are loud .
-the hen is asleep .
-the lamb was ready and the lambs were big .
-many farmers were slow .
-one crow is quiet .
-many hens were white .
-one cat is awake but two cats are asleep .
-the rabbit is busy .
-one duck is big .
-the owl is calm .
-the runner was quick and the runners were clean .
-one girl is brown but two girls are safe .
-many ponies were tall .
-one girl is ready but two girls are asleep .
-many cats were big .
-many ducks were big .
-many birds were white .
-the crows are calm .
-two frogs are short .
-the owls are tall .
-one pony was tall .
-two horses are clean .
-the owl is asleep .
-the bird was brown and the birds were awake .
-one horse is quick .
-two runners are clean .
-one horse is quiet .
-two dogs are small .
-two ducks are safe .
-a cat is busy .
-the birds are calm .
-one duck is white .
-the bird was ready and the birds were awake .
-the bird is asleep .
-many foxes were warm .
-the dog is quiet .
-a bird is awake .
-one owl is calm but two owls are ready .
-one horse was clean .
-many frogs were tall .
-two frogs are loud .
-the frogs are young .
-a rabbit is ready .
-the girl was young and the girls were tall .
-two birds are brown .
-many dogs were quick .
-the dog was quick and many dogs were brown .
-many birds were safe .
-many birds were short .
-one frog was small .
-one runner was clean .
-many birds were slow .
-many cats were loud .
+the goat was clean and the goats were loud .
+the cats are slow .
+one hen was awake .
+a hen is brown .
+the bird is warm .
+the hen was tall and the hens were big .
+one crow is slow but two crows are quiet .
+many birds were awake .
+the farmer is old .
+three ponies are tall .
+the runners are tall .
 the birds are warm .
-a cat is big .
-one lamb is quick .
-many farmers were small .
-a dog is busy .
-the dog was calm and many dogs were tall .
-the bird was asleep and the birds were tall .
-two crows are short .
-the bird was big and the birds were old .
-a boy is loud .
-the girls are short .
-one duck is ready but two ducks are tall .
-a fox is warm .
-the bird was clean .
-one lamb was tall .
-many frogs were young .
-many dogs were big .
-two boys are busy .
-the hen was loud and the hens were clean .
-the girl was brown and the girls were safe .
-many lambs were brown .
-the fox is young .
-many rabbits were white .
-a hen is asleep .
-the fox is quiet .
-the frog was tall and the frogs were old .
-three ponies are loud .
-the boy was old and the boys were slow .
-the birds are awake .
-the rabbit was busy and the rabbits were small .
-two boys are old .
-one frog is young but two frogs are loud .
-one pony is loud but two ponies are quick .
-the hen is big .
-many boys were old .
-the crow is loud .
-the goat was busy and the goats were old .
-three farmers are ready .
-a bird is loud .
-the rabbit was loud and the rabbits were ready .
-two lambs are brown .
-a pony is ready .
-two farmers are ready .
-one pony was big .
-a dog is white .
-i was young .
-many foxes were young .
-two crows are calm .
-the hen is white .
-the owl was calm and the owls were ready .
+a hen is awake .
+a rabbit is white .
+two goats are white .
+one runner is old .
+three horses are old .
+the horses are big .
+the boy is big .
+the goat was asleep and the goats were old .
+the owl is awake .
+one crow was slow .
+many owls were awake .
+three farmers are awake .
+one frog was small .
+three ducks are big .
+one horse was quiet .
+one runner was short .
+one pony is clean .
+one duck is old .
+one cat was clean .
+the pony was awake and the ponies were warm .
+one owl was clean .
+the bird was warm and the birds were white .
+three farmers are old .
+two foxes are short .
+two owls are clean .
+one rabbit is clean .
+three hens are awake .
+one crow is old but two crows are brown .
+one pony is brown .
+many goats were asleep .
+one rabbit was small .
+one pony is tall .
+the fox was quiet and the foxes were old .
+many horses were quiet .
+the boys are old .
+a owl is big .
+two cats are white .
+the dog is white .
+three girls are short .
+many goats were clean .
+many crows were slow .
+three lambs are tall .
+the ponies are tall .
+one rabbit was awake .
+the birds are white .
+one rabbit is awake but two rabbits are clean .
+two birds are brown .
+a fox is quiet .
+one frog is white but two frogs are asleep .
+many ponies were awake .
+three runners are old .
+the foxes are warm .
+the lamb was small and the lambs were short .
+one duck is big but two ducks are slow .
+the rabbit was clean and the rabbits were brown .
+the pony was white and the ponies were tall .
+one rabbit is clean but two rabbits are brown .
+the runner was big and the runners were slow .
+the frog is white .
+the bird is old .
+one goat is asleep but two goats are old .
+two hens are loud .
+the duck was asleep and the ducks were short .
+many boys were big .
+a dog is tall .
+one girl is tall .
+the fox is small .
+the duck was short and the ducks were clean .
+many crows were asleep .
+three runners are white .
+the pony was clean and the ponies were small .
+one girl was asleep .
+three rabbits are slow .
+the fox was short and the foxes were tall .
+one rabbit is slow .
+many ducks were brown .
+the lambs are brown .
+the girl is short .
+a rabbit is clean .
 three ducks are white .
-a dog is young .
-the pony is tall .
-one dog is asleep but two dogs are tall .
-many rabbits were small .
+the runners are white .
+one crow was tall .
+the cats are big .
+one boy was big .
+one farmer is big but two farmers are tall .
+one runner is short .
+two horses are quiet .
+the lamb is brown .
+the crows are asleep .
+the girl is old .
+one horse is white .
+three goats are quiet .
+a girl is warm .
+two crows are slow .
+a dog is short .
+the hen was short and the hens were asleep .
+the girl was white and the girls were slow .
+three horses are small .
+two farmers are big .
+one dog is small but two dogs are warm .
+one goat is short .
+the pony was old and the ponies were asleep .
+two girls are old .
+one fox was white .
+three dogs are old .
+three boys are clean .
+the girl is asleep .
+the crows are tall .
+two ponies are clean .
+many rabbits were awake .
+one girl was old .
+many birds were clean .
+the runner is old .
+one cat is big .
+two birds are short .
+two ponies are awake .
+three girls are warm .
+one rabbit is big .
+the horses are old .
+one boy is small .
+a cat is white .
+one goat was asleep .
+one horse is old but two horses are small .
+two horses are old .
+one pony is old but two ponies are asleep .
+the foxes are awake .
+the bird was brown .
+one goat is white but two goats are warm .
+the bird was tall .
+the frogs are slow .
+a bird is awake .
+one lamb is brown .
+two girls are asleep .
+many runners were short .
+the crow was old and the crows were brown .
+the crow is clean .
+many dogs were clean .
+one dog is slow but two dogs are loud .
+i am warm .
+three crows are big .
+one hen is small .
+i am slow .
+the cat was loud and the cats were clean .
+the hen is loud .
+one runner was tall .
+three frogs are asleep .
+the pony is awake .
+a hen is short .
+a fox is small .
+one cat is loud .
+many boys were loud .
+the foxes are short .
+the boys are loud .
+the dog is tall .
+one hen is awake but two hens are warm .
+a dog is brown .
+a farmer is warm .
+the bird is white .
+one crow is tall but two crows are small .
+i am clean .
+many hens were small .
+two cats are big .
+many girls were old .
+many crows were clean .
+the dog is brown .
+the bird is quiet .
+three girls are white .
+one owl is loud .
+the farmer was warm and the farmers were awake .
+one runner is white but two runners are big .
+two dogs are white .
+the bird was asleep and the birds were clean .
+one hen is brown .
+one dog is white but two dogs are big .
+the horse was quiet and the horses were warm .
+one boy is clean but two boys are old .
+the duck was brown and the ducks were big .
+one fox was quiet .
+many girls were short .
+the farmer was short and the farmers were big .
+the hens are loud .
+the girls are old .
+a goat is short .
+one horse is big but two horses are small .
+two rabbits are clean .
+three dogs are loud .
 the farmer is big .
-the duck is ready .
-many birds were young .
-i was small .
-the fox was white and the foxes were small .
-one farmer is ready .
+the owls are clean .
+the cat is big .
+many ponies were brown .
+a frog is asleep .
+the bird was clean and the birds were big .
+one cat is awake .
+one hen is short .
+two farmers are clean .
+a dog is asleep .
+one girl is asleep but two girls are small .
+the cat was white and the cats were old .
+three owls are clean .
+two rabbits are white .
+the owl was loud and the owls were tall .
+i am tall .
+three horses are white .
+two ducks are white .
+a girl is asleep .
+the foxes are quiet .
+i am big .
+the owl was brown and the owls were short .
+a bird is warm .
+i am brown .
+one boy is small but two boys are warm .
+three ducks are short .
+one boy is big but two boys are small .
+i was warm .
+one rabbit was big .
+three foxes are white .
+many birds were old .
+the rabbits are white .
+the rabbits are big .
+the cat was awake and the cats were big .
+the duck is brown .
+many foxes were short .
+the girl was tall and the girls were clean .
+the boy was old and the boys were brown .
+two hens are small .
+one pony is white but two ponies are tall .
+the pony was brown and the ponies were awake .
+the hens are tall .
+the pony is clean .
+the runners are short .
+the bird is short .
+one boy is big .
+many lambs were short .
+a rabbit is small .
+two runners are short .
+one rabbit is small .
+the frog is quiet .
+three dogs are slow .
+two ducks are brown .
+many ducks were old .
+one rabbit is slow but two rabbits are clean .
+two girls are warm .
+one pony is old .
+many dogs were warm .
+two lambs are big .
+two goats are loud .
+the cat is loud .
+the boy was big and the boys were small .
+two hens are tall .
+many rabbits were big .
+the owl is big .
+the hen is small .
+one dog is brown but two dogs are short .
+the bird was warm .
+three rabbits are small .
+many horses were brown .
+one boy is loud but two boys are short .
+the goat was loud and the goats were brown .
+one duck was old .
+one crow was old .
+one horse was brown .
+one fox is small .
+one girl is old but two girls are quiet .
+a hen is tall .
+one goat is quiet .
+the dog is big .
 two dogs are quiet .
-a horse is loud .
-one farmer is small but two farmers are busy .
-one boy is loud but two boys are calm .
+one owl is clean .
+the cat was clean and the cats were tall .
+one duck is short but two ducks are clean .
+the dog is old .
+the lambs are loud .
+the horses are brown .
+the rabbit is white .
+three cats are slow .
+the rabbit is small .
+the ducks are white .
+the bird was loud and the birds were awake .
+one hen is loud but two hens are big .
+the crow was big and the crows were awake .
+one farmer was big .
+a frog is slow .
+three farmers are big .
+one boy is old .
+one rabbit was slow .
+a girl is short .
+one goat was clean .
+the dog was quiet and many dogs were short .
+one frog is asleep but two frogs are big .
+the boy was loud and the boys were short .
+the ponies are white .
+many hens were loud .
+two runners are tall .
+many cats were big .
+two rabbits are awake .
+one goat is clean but two goats are loud .
+i was loud .
 many dogs were small .
-two farmers are old .
-one frog was quick .
-the crows are loud .
-two birds are slow .
-the horse is quiet .
-three frogs are tall .
-i was calm .
-the ponies are ready .
+the dog was loud and many dogs were awake .
+two rabbits are small .
+the cat is awake .
+a crow is asleep .
+two boys are loud .
+one boy is loud .
+one cat is slow but two cats are tall .
+three girls are old .
+a fox is warm .
+the girl was asleep and the girls were small .
+two ponies are old .
+the fox is warm .
+three ponies are white .
+a frog is quiet .
+the frog was small and the frogs were quiet .
+one farmer is awake but two farmers are white .
+three boys are big .
+the farmer is short .
+many runners were white .
+a dog is old .
+three horses are brown .
+the bird is loud .
+the frog is asleep .
+one lamb is loud but two lambs are warm .
+a bird is asleep .
+i was old .
+three lambs are brown .
+one lamb was tall .
+many cats were clean .
+one horse was old .
+the rabbits are awake .
+a crow is clean .
+one fox was small .
+the horse was white and the horses were loud .
+the owls are small .
+three dogs are clean .
+three dogs are tall .
+the bird was clean .
+three frogs are old .
+i am old .
+one frog is small .
+the ducks are big .
+a crow is tall .
+a hen is small .
+one crow is clean but two crows are big .
+two girls are tall .
+three dogs are short .
+two frogs are asleep .
+a bird is slow .
+the farmer was clean and the farmers were slow .
+many lambs were big .
+three boys are small .
+a runner is old .
+one frog was old .
+two lambs are brown .
+the crow is asleep .
+three farmers are clean .
+the rabbits are small .
+a duck is white .
+three rabbits are clean .
+many frogs were small .
+three horses are big .
+one owl was brown .
+three frogs are small .
+one lamb is big .
+two rabbits are big .
+one goat is white .
+one frog is quiet but two frogs are loud .
+a dog is quiet .
+the fox is awake .
+a goat is loud .
+the owl was clean and the owls were big .
+the lamb was tall and the lambs were clean .
+one farmer is warm but two farmers are awake .
+three ponies are old .
+a horse is quiet .
+i was short .
+one duck is white .
+the owl was big and the owls were slow .
+one boy was loud .
+three goats are white .
+one runner is big .
+a crow is old .
+the lambs are tall .
+three crows are clean .
+one runner was quiet .
+the duck is asleep .
+one hen was tall .
+one goat is loud .
+the dog is asleep .
+one girl is warm .
+the runners are old .
+one owl was big .
+the frogs are asleep .
+three runners are quiet .
+the farmers are big .
+one hen was brown .
+the dog was awake and many dogs were big .
+two ponies are white .
+a cat is clean .
+one boy was old .
+the cat is slow .
+the farmers are clean .
+two cats are slow .
+two crows are tall .
+the rabbit was white and the rabbits were small .
+the dog is slow .
+the horse was old and the horses were small .
+the ducks are brown .
+the dog was slow and many dogs were loud .
+two birds are awake .
+two owls are awake .
+three frogs are white .
+a frog is old .
+many birds were quiet .
+two farmers are warm .
+three crows are old .
+a bird is loud .
+the goat was short and the goats were brown .
+the frog is small .
+a crow is big .
+many ponies were tall .
+three dogs are warm .
+two goats are asleep .
+one lamb is big but two lambs are loud .
+one duck is asleep but two ducks are short .
+three runners are tall .
+two ducks are short .
+two birds are old .
+one cat is white but two cats are old .
+two birds are asleep .
+a runner is white .
+the ducks are short .
+three dogs are quiet .
+a pony is clean .
+the frog is slow .
+i was asleep .
+many owls were brown .
+the goats are quiet .
+the birds are asleep .
+one runner is white .
+one goat is short but two goats are brown .
+one dog is clean but two dogs are big .
+one lamb is tall but two lambs are clean .
+the cat is clean .
+a goat is clean .
+one frog is small but two frogs are quiet .
+a farmer is clean .
+the crow is big .
+one farmer is warm .
+one girl was tall .
+the runner is quiet .
+the hens are small .
+the pony is brown .
+two birds are loud .
+the birds are awake .
+three ducks are old .
+one farmer is clean but two farmers are slow .
+two frogs are quiet .
+many ducks were big .
+one lamb is short but two lambs are quiet .
+two boys are old .
+the farmers are old .
+many farmers were big .
+a owl is brown .
+three crows are slow .
+two hens are brown .
+many girls were white .
+one lamb was big .
+a bird is short .
+one hen is loud .
+one fox is warm .
+three owls are loud .
+one cat is loud but two cats are clean .
+two cats are clean .
 the boy is loud .
-the horse is brown .
-one farmer was small .
-one boy is busy .
+three cats are white .
+the bird was short .
+two dogs are brown .
+three dogs are big .
+one runner was big .
+many runners were quiet .
+one fox is white .
+a goat is asleep .
+i am loud .
+one goat is clean .
+the hen was awake and the hens were warm .
+two cats are loud .
+one goat is quiet but two goats are clean .
+three ducks are asleep .
+one lamb was small .
+one farmer is awake .
+many boys were old .
+many girls were warm .
+a duck is big .
+one horse is quiet but two horses are warm .
+two runners are big .
+the dog is loud .
+a dog is white .
+the ducks are asleep .
+the runner is big .
+three rabbits are white .
+the bird is big .
+the bird was old and the birds were small .
+the farmer was big and the farmers were tall .
+one farmer was clean .
+three lambs are short .
+the ponies are old .
+the bird was big .
+three cats are clean .
+two hens are short .
+i am white .
+a runner is big .
+one rabbit is big but two rabbits are brown .
+many ducks were white .
+a farmer is big .
+one crow was asleep .
+a pony is old .
+i am short .
+the fox is short .
+i was awake .
+the bird was slow and the birds were loud .
+the crow was slow and the crows were quiet .
+a girl is tall .
+many dogs were short .
+the girl is white .
+the goats are clean .
+the dog was clean and many dogs were big .
+a owl is small .
+one owl is brown but two owls are short .
+the crow is slow .
+two cats are awake .
+three cats are big .
+the horse was brown and the horses were awake .
+three lambs are small .
+the dog is small .
+one dog is tall but two dogs are small .
+the duck is big .
+two owls are brown .
+many goats were white .
+one farmer was short .
+the rabbit was big and the rabbits were brown .
+the duck is short .
+a fox is white .
+one crow is old .
+the crow was clean and the crows were big .
+the owl is brown .
+one lamb is small but two lambs are short .
+one horse is brown but two horses are awake .
+the dog is clean .
+three hens are loud .
+the horses are small .
+one duck was asleep .
+i was tall .
+two birds are quiet .
+a rabbit is slow .
+a rabbit is awake .
+one fox is quiet .
+the bird was asleep .
+many horses were white .
+one girl was short .
+the bird was tall and the birds were small .
+the pony was tall and the ponies were slow .
+three hens are tall .
+one hen is tall .
+many dogs were big .
+one duck was white .
+the dog was old and many dogs were small .
+two horses are big .
+the birds are slow .
+three foxes are warm .
+one fox is awake but two foxes are white .
+a bird is tall .
+the runner is white .
+one pony was tall .
+the runner is tall .
+one fox is quiet but two foxes are old .
+two boys are small .
+the cat was slow and the cats were tall .
+one crow was big .
+two dogs are slow .
+two foxes are warm .
+one frog is slow .
+the goat is short .
+two birds are tall .
+many foxes were warm .
+one cat was slow .
+one horse was big .
+the lambs are short .
+many horses were old .
+a girl is old .
+the duck was big and the ducks were slow .
+the farmer is awake .
+one boy was small .
+the bird was slow .
+one horse is white but two horses are loud .
+many rabbits were clean .
+one duck was big .
+two birds are big .
+a lamb is small .
+a duck is asleep .
+three rabbits are awake .
+one goat was loud .
+two dogs are clean .
+many runners were tall .
+two girls are white .
+one dog is warm but two dogs are white .
+one duck was brown .
+two foxes are quiet .
+the girl is warm .
+three boys are loud .
+three goats are short .
+the dog was big and many dogs were warm .
+one crow is asleep but two crows are loud .
+the horse is big .
+many frogs were slow .
+three ponies are brown .
+the bird was white and the birds were big .
+the rabbit is clean .
+many dogs were brown .
+the hens are awake .
+many hens were tall .
+the goat was quiet and the goats were clean .
+the girls are tall .
+many goats were short .
+one runner is short but two runners are tall .
+the crow was tall and the crows were small .
+many girls were asleep .
+a farmer is old .
+many hens were short .
+one girl was warm .
+two frogs are white .
+the dog is short .
+one boy was slow .
+a bird is big .
+many horses were big .
+one owl was loud .
+one lamb was loud .
+the frog is old .
+the goats are asleep .
+two dogs are warm .
+one runner is tall .
 one farmer is clean .
-three owls are quiet .
+the boys are slow .
+the goats are white .
+one horse is small .
+one pony was clean .
+one lamb is small .
+the bird is small .
+the boy is clean .
+many lambs were tall .
+i was slow .
+one pony is awake .
+the bird was awake and the birds were big .
+many frogs were asleep .
+the ponies are awake .
+the pony is tall .
+the dog is awake .
+one farmer is short but two farmers are big .
+the goats are loud .
+one owl is awake .
+one fox was warm .
+the boys are small .
+one runner is quiet .
+one duck is old but two ducks are slow .
+one girl is old .
+two dogs are short .
+many birds were white .
+one duck is short .
+one girl is short .
+the bird was loud .
+a farmer is short .
+one hen is brown but two hens are warm .
+the frogs are small .
+many lambs were loud .
+one pony was brown .
+three goats are asleep .
+the bird was old .
+i was quiet .
+a frog is white .
+many dogs were tall .
+the girls are white .
+the crows are slow .
+a lamb is brown .
+one crow is big .
+three dogs are brown .
+the frogs are white .
+one frog is white .
+a boy is slow .
+a bird is white .
+the runner was quiet and the runners were white .
+the ducks are old .
+the frog was old and the frogs were big .
+the bird was quiet and the birds were short .
+the goat is loud .
+three runners are short .
+many dogs were loud .
+one pony is tall but two ponies are slow .
+many owls were clean .
+a frog is small .
+the lamb is big .
+one dog is asleep but two dogs are clean .
+one goat is loud but two goats are brown .
+one goat was short .
+two goats are quiet .
+a goat is white .
+the rabbit is slow .
+one owl is big but two owls are slow .
+a dog is big .
+one fox is white but two foxes are loud .
+the bird is clean .
+three owls are small .
+the lamb is short .
+one lamb is brown but two lambs are awake .
+a owl is loud .
+many frogs were white .
+a owl is awake .
+the owl is loud .
+three boys are old .
+two dogs are awake .
+many runners were old .
+one owl is clean but two owls are big .
+the rabbit is big .
+the dog was tall and many dogs were small .
+the horse was big and the horses were small .
+the dog was short and many dogs were tall .
+a horse is old .
+one pony was awake .
+i am awake .
+one frog is quiet .
+the foxes are white .
+three foxes are quiet .
+the birds are loud .
+one dog is quiet but two dogs are short .
+the runners are quiet .
+many farmers were clean .
+one lamb is tall .
+one hen was loud .
+one runner was old .
+the runner was tall and the runners were short .
+three crows are tall .
+many ponies were white .
+a bird is small .
+two crows are old .
+two ducks are big .
+one owl is small .
+a pony is awake .
+three girls are asleep .
+the bird is awake .
+the goats are short .
+three ponies are clean .
+two ponies are brown .
+many runners were big .
+many birds were loud .
+the lamb is tall .
+one goat is asleep .
+a duck is brown .
+the birds are clean .
+many girls were tall .
+two owls are big .
+the crow is tall .
+the boy is small .
+a goat is quiet .
+one hen is tall but two hens are big .
+three frogs are slow .
+one hen was small .
+one cat is big but two cats are slow .
+the dog was brown and many dogs were short .
+a dog is warm .
+many owls were small .
+one lamb is short .
+the bird was small and the birds were warm .
+two dogs are asleep .
+one pony is brown but two ponies are awake .
+the dog was asleep and many dogs were clean .
+three hens are small .
+many cats were awake .
+the lambs are small .
+the hens are short .
+the duck was old and the ducks were slow .
+three foxes are short .
+the frog was white and the frogs were asleep .
+the cats are clean .
+two foxes are white .
+the pony is white .
+the girls are warm .
+many dogs were asleep .
+a runner is quiet .
+many farmers were short .
+a dog is small .
+one fox is short but two foxes are tall .
+the girl is tall .
+one duck is brown but two ducks are big .
+the dog was warm and many dogs were white .
+many birds were short .
+the fox was warm and the foxes were white .
+the dog was white and many dogs were big .
+two lambs are short .
+many farmers were awake .
+the cat was big and the cats were slow .
+the bird is tall .
+one owl was small .
+the dog is quiet .
+one frog is asleep .
+a dog is loud .
+the hen was small and the hens were clean .
+a dog is clean .
+the horse is white .
+one farmer was warm .
+three foxes are awake .
+the lamb is small .
+two dogs are small .
+a cat is big .
+the hens are brown .
+two horses are small .
+one owl was awake .
+two birds are clean .
+two boys are big .
+one boy is clean .
+three hens are short .
+the owls are big .
+the owl was awake and the owls were brown .
+the rabbits are slow .
+two girls are short .
+one rabbit is small but two rabbits are big .
+one runner is big but two runners are slow .
+a girl is white .
+a boy is small .
+one farmer was awake .
+one dog is awake but two dogs are big .
+two crows are clean .
+three goats are clean .
+one girl is asleep .
+the farmers are warm .
+three girls are tall .
+one rabbit was clean .
+one rabbit is white but two rabbits are small .
+two birds are warm .
+many foxes were white .
+a cat is awake .
+one fox is warm but two foxes are white .
+a lamb is tall .
+a lamb is loud .
+one cat was big .
+the horse is small .
+a fox is short .
+the rabbit was small and the rabbits were big .
+a lamb is short .
+many boys were small .
+the birds are big .
+one crow is clean .
+one hen was short .
+a crow is slow .
+the hen is tall .
+a runner is short .
+one rabbit was white .
+two birds are white .
+i am quiet .
+the frog was slow and the frogs were warm .
+one cat was white .
+one horse was small .
+one goat was white .
+two runners are quiet .
+one crow is asleep .
+a pony is tall .
+a duck is short .
+many dogs were slow .
+the fox was awake and the foxes were white .
+the runner was short and the runners were tall .
+one fox is awake .
+a boy is big .
+two owls are loud .
+one duck was short .
+many lambs were brown .
+one girl was white .
+one fox was awake .
+one lamb was short .
+many birds were small .
+one owl is awake but two owls are brown .
+two goats are clean .
+many dogs were old .
+the horses are white .
+the bird was big and the birds were warm .
+one horse is old .
+the fox was white and the foxes were loud .
+i was white .
+many ducks were short .
+one runner is old but two runners are short .
+one horse is small but two horses are clean .
+i was big .
+a lamb is big .
+a bird is quiet .
+the lamb is loud .
+three dogs are asleep .
+the duck is old .
+two hens are awake .
+one boy was clean .
+one cat is slow .
+the boy was small and the boys were warm .
+two dogs are loud .
+three farmers are warm .
+one goat was quiet .
+two ducks are asleep .
+many dogs were awake .
+one duck is big .
+the boys are clean .
+three cats are awake .
+one dog is old but two dogs are small .
+many birds were brown .
+one girl is tall but two girls are clean .
+one cat is white .
+one runner is quiet but two runners are white .
+many hens were brown .
+the runner was white and the runners were big .
+the rabbits are clean .
+the goat is asleep .
+the farmer was old and the farmers were small .
+a horse is white .
+the boy was slow and the boys were short .
+three runners are big .
+three goats are loud .
+one dog is loud but two dogs are awake .
+the boy is slow .
+two farmers are old .
+one owl is big .
+a horse is brown .
+the horses are quiet .
+many owls were big .
+one rabbit is white .
+the runners are big .
+many boys were slow .
+the duck was white and the ducks were awake .
+the ponies are clean .
+many horses were small .
+many rabbits were slow .
+a boy is loud .
+one farmer is old .
+a bird is clean .
+one crow was clean .
+the girls are short .
+one girl is short but two girls are loud .
+the lamb was big and the lambs were loud .
+one rabbit is awake .
+two lambs are loud .
+the bird was short and the birds were tall .
+the horse was small and the horses were clean .
+many cats were slow .
+two lambs are tall .
+three hens are brown .
+one fox is short .
+many ponies were clean .
+a horse is big .
+one hen is short but two hens are asleep .
+three lambs are big .
+three dogs are small .
+the owls are awake .
+the farmer is warm .
+the farmers are awake .
+the lambs are big .
+two foxes are awake .
+the frog was asleep and the frogs were big .
+the hen is brown .
+the goat is clean .
+three owls are awake .
+two birds are small .
+the birds are tall .
+one cat is awake but two cats are big .
+one hen is small but two hens are clean .
+the dog is warm .
+the cats are white .
+the boys are big .
+many crows were big .
+many crows were old .
+a boy is clean .
+one cat was awake .
+two owls are small .
+many birds were warm .
+many birds were slow .
+the hen was loud and the hens were big .
+many crows were tall .
+a farmer is awake .
+the cat is white .
+a dog is slow .
+one owl is loud but two owls are tall .
+one frog was quiet .
+a owl is clean .
+two foxes are small .
+many farmers were warm .
+one crow is slow .
+many hens were awake .
+one cat is clean but two cats are tall .
+the rabbit is awake .
+one duck is asleep .
+the owl is small .
+the runner was old and the runners were short .
+one girl is warm but two girls are white .
+many ponies were old .
+one girl is white but two girls are slow .
+many cats were loud .
+many ducks were asleep .
+the crows are big .
+two frogs are slow .
+the owls are loud .
+one pony was old .
+two horses are white .
+the owl is clean .
+one horse is quiet .
+two runners are white .
+one horse is brown .
+the birds are small .
+two ducks are old .
+a cat is slow .
+one duck is brown .
+a bird is old .
+many foxes were awake .
+the bird is slow .
+one owl is small but two owls are loud .
+one horse was white .
+many frogs were quiet .
+two frogs are small .
+the frogs are old .
+a rabbit is big .
+the girl was old and the girls were quiet .
+the bird was quiet .
+one frog was white .
+one runner was white .
+many cats were white .
+the bird is asleep .
+a cat is loud .
+one lamb is loud .
+many farmers were old .
+the birds are old .
+two crows are asleep .
+many birds were tall .
+a boy is old .
+the girls are asleep .
+one duck is white but two ducks are awake .
+a fox is awake .
+a bird is brown .
+one lamb was brown .
+many frogs were old .
+two dogs are tall .
+two boys are slow .
+the hen was brown and the hens were warm .
+the girl was warm and the girls were white .
+many lambs were small .
+the fox is quiet .
+many rabbits were small .
+a hen is loud .
+the fox is white .
+the frog was quiet and the frogs were loud .
+three ponies are awake .
+the boy was clean and the boys were old .
+the rabbit was awake and the rabbits were clean .
+two boys are clean .
+one frog is old but two frogs are big .
+one pony is awake but two ponies are warm .
+the hen is short .
+many boys were clean .
+the crow is old .
+the goat was white and the goats were warm .
+three farmers are short .
+a dog is awake .
+the rabbit was slow and the rabbits were clean .
+two lambs are small .
+many birds were asleep .
+two farmers are short .
+one pony was white .
+i was brown .
+many foxes were quiet .
+two crows are big .
+the hen is awake .
+the owl was small and the owls were loud .
+three ducks are brown .
+three dogs are white .
+the pony is old .
+many rabbits were white .
+the farmer is clean .
+the duck is white .
+the bird was white .
+i was small .
+the fox was small and the foxes were short .
+one farmer is short .
+the birds are quiet .
+a horse is small .
+one farmer is old but two farmers are small .
+one boy is old but two boys are brown .
+two dogs are big .
+two farmers are awake .
+one frog was asleep .
+the crows are old .
+the bird is brown .
+the horse is brown .
+three frogs are quiet .
+i was clean .
+the ponies are brown .
+the boy is old .
+the horse is old .
+one farmer was old .
+one boy is slow .
+one farmer is big .
+three owls are big .
+the cats are awake .
+a pony is brown .
+the farmers are short .
+a pony is white .
+one owl is brown .
+two dogs are old .
+the bird was brown and the birds were short .
+three boys are slow .
+the foxes are small .
+many foxes were small .
+one runner is tall but two runners are short .
+two horses are brown .
+the owls are brown .
+the goat is quiet .
+a duck is old .
+the birds are short .
+three horses are quiet .
+many owls were loud .
+one cat is clean .
+the horse is quiet .
+the goat is white .
+one boy is slow but two boys are short .
+the crow was asleep and the crows were loud .
+one cat was loud .
+one frog was slow .
+three rabbits are big .
+one girl is white .
+the crows are clean .
+two rabbits are slow .
+the cats are loud .
+two birds are slow .
+the birds are brown .
+the frogs are quiet .
+the dog was small and many dogs were warm .
+the bird was small .
+i am asleep .
+the lamb was brown and the lambs were awake .
+two goats are short .
+one horse is big .
+three foxes are small .
+one pony is clean but two ponies are small .
+the girl was short and the girls were loud .
+one dog is big but two dogs are warm .
+two runners are old .
+one crow is big but two crows are awake .
+one fox was short .
