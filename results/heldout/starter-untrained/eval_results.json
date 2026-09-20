@@ -1,0 +1,541 @@
+[
+  {
+    "id": "held_01",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "one robin",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "expected": "is",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "one",
+      "robin"
+    ],
+    "unknown_choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "generated_text": "pear professor item doctor course harvest team physician product checking buyer delivery traffic report the lecturer item offering and system <UNK> taste recommended mentioned",
+    "prompt_truncated": false,
+    "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it.",
+    "stage": "untrained",
+    "sample_seed": 2026
+  },
+  {
+    "id": "held_02",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "the tools",
+    "choices": [
+      "is",
+      "am",
+      "was",
+      "are"
+    ],
+    "expected": "are",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "tools"
+    ],
+    "unknown_choices": [
+      "is",
+      "am",
+      "are"
+    ],
+    "generated_text": "interest with data traffic bank brand journey consumer traffic bond tutor in juice system in was care patient station patient mango offering discussed banana",
+    "prompt_truncated": false,
+    "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence.",
+    "stage": "untrained",
+    "sample_seed": 2027
+  },
+  {
+    "id": "held_03",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "yesterday the shopper",
+    "choices": [
+      "walks",
+      "walk",
+      "walked",
+      "walking"
+    ],
+    "expected": "walked",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [],
+    "unknown_choices": [
+      "walks",
+      "walk",
+      "walked",
+      "walking"
+    ],
+    "generated_text": "review review compared item during item banana us doctor quality juice code credit pear lecturer we",
+    "prompt_truncated": false,
+    "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence.",
+    "stage": "untrained",
+    "sample_seed": 2028
+  },
+  {
+    "id": "held_04",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "two ducklings",
+    "choices": [
+      "are",
+      "is",
+      "was",
+      "am"
+    ],
+    "expected": "are",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "ducklings",
+      "two"
+    ],
+    "unknown_choices": [
+      "are",
+      "is",
+      "am"
+    ],
+    "generated_text": "new was learning software taste discussion report package . compared patient review learned another deposit design taste traffic program today student shopper recommended mentioned",
+    "prompt_truncated": false,
+    "reason": "Plural agreement on a noun taught only in the young-animal material.",
+    "stage": "untrained",
+    "sample_seed": 2029
+  },
+  {
+    "id": "held_05",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of open is",
+    "choices": [
+      "closed",
+      "wide",
+      "flat",
+      "brown"
+    ],
+    "expected": "closed",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "is",
+      "open",
+      "opposite"
+    ],
+    "unknown_choices": [
+      "closed",
+      "wide",
+      "flat",
+      "brown"
+    ],
+    "generated_text": "bicycle discussion learned dentist orange program instructor and about orange shopper client us treatment new about credit another journey after",
+    "prompt_truncated": false,
+    "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine.",
+    "stage": "untrained",
+    "sample_seed": 2030
+  },
+  {
+    "id": "held_06",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of flat is",
+    "choices": [
+      "round",
+      "wide",
+      "grey",
+      "cool"
+    ],
+    "expected": "round",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "flat",
+      "is",
+      "opposite"
+    ],
+    "unknown_choices": [
+      "round",
+      "wide",
+      "grey",
+      "cool"
+    ],
+    "generated_text": "<UNK> deposit design train return support buyer lesson delivery office focused mango support learning compared about course they mentioned tutor bond treatment therapist fruit",
+    "prompt_truncated": false,
+    "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame.",
+    "stage": "untrained",
+    "sample_seed": 2031
+  },
+  {
+    "id": "held_07",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of shut is",
+    "choices": [
+      "open",
+      "flat",
+      "grey",
+      "late"
+    ],
+    "expected": "open",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "is",
+      "opposite",
+      "shut"
+    ],
+    "unknown_choices": [
+      "open",
+      "flat",
+      "grey",
+      "late"
+    ],
+    "generated_text": "learned security health in interest route report professor ordered important a banana price investment purchase harvest the buyer investment on and compared taste harvest",
+    "prompt_truncated": false,
+    "reason": "shut/open is taught only as a negation correction, and in that direction only.",
+    "stage": "untrained",
+    "sample_seed": 2032
+  },
+  {
+    "id": "held_08",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the basket is not brown . it is grey . the basket is",
+    "choices": [
+      "grey",
+      "brown",
+      "black",
+      "white"
+    ],
+    "expected": "grey",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "basket",
+      "brown",
+      "grey",
+      "is",
+      "it",
+      "not"
+    ],
+    "unknown_choices": [
+      "grey",
+      "brown",
+      "black",
+      "white"
+    ],
+    "generated_text": "teacher bank software store recommended juice about apple our yesterday mortgage service and our our student helped today today <UNK> investment reviewed different treatment",
+    "prompt_truncated": false,
+    "reason": "The correction frame is drilled, but 'basket' is a container in the spatial material and never appears in a colour correction.",
+    "stage": "untrained",
+    "sample_seed": 2033
+  },
+  {
+    "id": "held_09",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the tray is not white . it is black . the tray is",
+    "choices": [
+      "black",
+      "white",
+      "green",
+      "red"
+    ],
+    "expected": "black",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "black",
+      "is",
+      "it",
+      "not",
+      "tray",
+      "white"
+    ],
+    "unknown_choices": [
+      "black",
+      "white",
+      "green",
+      "red"
+    ],
+    "generated_text": "route design helped they care recommended merchandise health today market during juice train learned car local instructor today credit risk service customer security peach",
+    "prompt_truncated": false,
+    "reason": "Same frame, another object that is never corrected for colour in training.",
+    "stage": "untrained",
+    "sample_seed": 2034
+  },
+  {
+    "id": "held_10",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the mat is not clean . it is dirty . the mat is",
+    "choices": [
+      "dirty",
+      "clean",
+      "wide",
+      "brown"
+    ],
+    "expected": "dirty",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "clean",
+      "dirty",
+      "is",
+      "it",
+      "mat",
+      "not"
+    ],
+    "unknown_choices": [
+      "dirty",
+      "clean",
+      "wide",
+      "brown"
+    ],
+    "generated_text": "important student new physician data office fruit instructor different bank nurse care payment was us juice another juice merchandise a market discussion about offering",
+    "prompt_truncated": false,
+    "reason": "A state correction on a surface noun that never appears in a correction.",
+    "stage": "untrained",
+    "sample_seed": 2035
+  },
+  {
+    "id": "held_11",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the flag is above the gate . the gate is",
+    "choices": [
+      "below",
+      "above",
+      "beside",
+      "inside"
+    ],
+    "expected": "below",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "above",
+      "flag",
+      "gate",
+      "is"
+    ],
+    "unknown_choices": [
+      "below",
+      "above",
+      "beside",
+      "inside"
+    ],
+    "generated_text": "credit program instructor the data question new doctor system yesterday brand payment credit mortgage update different truck package return website merchandise care interest school",
+    "prompt_truncated": false,
+    "reason": "Above/below inverse with two nouns that never appear in a relational frame in training.",
+    "stage": "untrained",
+    "sample_seed": 2036
+  },
+  {
+    "id": "held_12",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the sign is left of the plate . the plate is to the",
+    "choices": [
+      "right",
+      "left",
+      "north",
+      "south"
+    ],
+    "expected": "right",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "is",
+      "left",
+      "plate",
+      "sign",
+      "to"
+    ],
+    "unknown_choices": [
+      "right",
+      "left",
+      "north",
+      "south"
+    ],
+    "generated_text": "bus traffic about package design selected hospital lesson focused yesterday buyer journey local peach learned program returned service taxi station important train bicycle discussed",
+    "prompt_truncated": false,
+    "reason": "Left/right inverse with two nouns from the negation material, never used relationally.",
+    "stage": "untrained",
+    "sample_seed": 2037
+  },
+  {
+    "id": "held_13",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the spoon is inside the bowl . the bowl contains the",
+    "choices": [
+      "spoon",
+      "sign",
+      "gate",
+      "mat"
+    ],
+    "expected": "spoon",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "bowl",
+      "contains",
+      "inside",
+      "is",
+      "spoon"
+    ],
+    "unknown_choices": [
+      "spoon",
+      "sign",
+      "gate",
+      "mat"
+    ],
+    "generated_text": "professor bus product product discussed a understand selected taste course truck mortgage delivery on after software bicycle and loan detail selected explains update delivery",
+    "prompt_truncated": false,
+    "reason": "Inside/contains inverse where the answer is a noun, with a container never used in that frame.",
+    "stage": "untrained",
+    "sample_seed": 2038
+  },
+  {
+    "id": "held_14",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "a pear is a fruit . an onion is a",
+    "choices": [
+      "vegetable",
+      "fruit",
+      "tool",
+      "tree"
+    ],
+    "expected": "vegetable",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "an",
+      "is",
+      "onion"
+    ],
+    "unknown_choices": [
+      "vegetable",
+      "tool",
+      "tree"
+    ],
+    "generated_text": "harvest focused order course detail lecturer selected reviewed student and lesson a local understand doctor reviewed they report explains detail we today dentist kitchen",
+    "prompt_truncated": false,
+    "reason": "Category membership stated in a frame the corpus never uses; the memberships themselves are taught in other wording.",
+    "stage": "untrained",
+    "sample_seed": 2039
+  },
+  {
+    "id": "held_15",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "an oak is a tree . a trout is a",
+    "choices": [
+      "fish",
+      "bird",
+      "tool",
+      "tree"
+    ],
+    "expected": "fish",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "an",
+      "is",
+      "oak",
+      "tree",
+      "trout"
+    ],
+    "unknown_choices": [
+      "fish",
+      "bird",
+      "tool",
+      "tree"
+    ],
+    "generated_text": "yesterday different bond school review review buyer item team student we focused discussion store brand product detail compared with fruit update patient yesterday was",
+    "prompt_truncated": false,
+    "reason": "Same, across two different categories.",
+    "stage": "untrained",
+    "sample_seed": 2040
+  },
+  {
+    "id": "held_16",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "first clean the mug . then open it . the last action is",
+    "choices": [
+      "open",
+      "clean",
+      "fill",
+      "buy"
+    ],
+    "expected": "open",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "action",
+      "clean",
+      "first",
+      "is",
+      "it",
+      "last",
+      "mug",
+      "open",
+      "then"
+    ],
+    "unknown_choices": [
+      "open",
+      "clean",
+      "fill",
+      "buy"
+    ],
+    "generated_text": "customer journey checking application . review orange doctor another credit payment station quality customer care reviewed with brand question discussed discussed truck different risk",
+    "prompt_truncated": false,
+    "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs.",
+    "stage": "untrained",
+    "sample_seed": 2041
+  }
+]

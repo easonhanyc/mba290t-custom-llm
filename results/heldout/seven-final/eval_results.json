@@ -1,0 +1,463 @@
+[
+  {
+    "id": "held_01",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "one robin",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "expected": "is",
+    "predicted_choice": "is",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.41615983843803406,
+      "are": 0.0440409816801548,
+      "were": 1.4889963495079428e-05,
+      "am": 4.5189874072093517e-05
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "and the willow are near the bird .",
+    "prompt_truncated": false,
+    "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it.",
+    "stage": "final",
+    "sample_seed": 2026
+  },
+  {
+    "id": "held_02",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "the tools",
+    "choices": [
+      "is",
+      "am",
+      "was",
+      "are"
+    ],
+    "expected": "are",
+    "predicted_choice": "was",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.0013430013787001371,
+      "am": 2.082843138850876e-06,
+      "was": 0.0014602923765778542,
+      "are": 4.460328273125924e-05
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "and the blade are in the hall .",
+    "prompt_truncated": false,
+    "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence.",
+    "stage": "final",
+    "sample_seed": 2027
+  },
+  {
+    "id": "held_03",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "yesterday the shopper",
+    "choices": [
+      "walks",
+      "walk",
+      "walked",
+      "walking"
+    ],
+    "expected": "walked",
+    "predicted_choice": "walked",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "walks": 6.88109576003626e-05,
+      "walk": 4.6979064791230485e-05,
+      "walked": 0.05558313429355621,
+      "walking": 0.0003004806931130588
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "pea and the bridge face the bridge .",
+    "prompt_truncated": false,
+    "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence.",
+    "stage": "final",
+    "sample_seed": 2028
+  },
+  {
+    "id": "held_04",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "two ducklings",
+    "choices": [
+      "are",
+      "is",
+      "was",
+      "am"
+    ],
+    "expected": "are",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "ducklings"
+    ],
+    "unknown_choices": [],
+    "generated_text": "are quiet .",
+    "prompt_truncated": false,
+    "reason": "Plural agreement on a noun taught only in the young-animal material.",
+    "stage": "final",
+    "sample_seed": 2029
+  },
+  {
+    "id": "held_05",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of open is",
+    "choices": [
+      "closed",
+      "wide",
+      "flat",
+      "brown"
+    ],
+    "expected": "closed",
+    "predicted_choice": "closed",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "closed": 0.15824779868125916,
+      "wide": 0.001766033354215324,
+      "flat": 0.005535389296710491,
+      "brown": 0.000313188269501552
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "closed .",
+    "prompt_truncated": false,
+    "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine.",
+    "stage": "final",
+    "sample_seed": 2030
+  },
+  {
+    "id": "held_06",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of flat is",
+    "choices": [
+      "round",
+      "wide",
+      "grey",
+      "cool"
+    ],
+    "expected": "round",
+    "predicted_choice": "cool",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "round": 0.003274474525824189,
+      "wide": 0.005767065566033125,
+      "grey": 0.0001419070322299376,
+      "cool": 0.007202785927802324
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "quick .",
+    "prompt_truncated": false,
+    "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame.",
+    "stage": "final",
+    "sample_seed": 2031
+  },
+  {
+    "id": "held_07",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of shut is",
+    "choices": [
+      "open",
+      "flat",
+      "grey",
+      "late"
+    ],
+    "expected": "open",
+    "predicted_choice": "open",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "open": 0.028893059119582176,
+      "flat": 0.002856696490198374,
+      "grey": 0.02102617360651493,
+      "late": 0.012593555264174938
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "brown .",
+    "prompt_truncated": false,
+    "reason": "shut/open is taught only as a negation correction, and in that direction only.",
+    "stage": "final",
+    "sample_seed": 2032
+  },
+  {
+    "id": "held_08",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the basket is not brown . it is grey . the basket is",
+    "choices": [
+      "grey",
+      "brown",
+      "black",
+      "white"
+    ],
+    "expected": "grey",
+    "predicted_choice": "grey",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "grey": 0.9293310642242432,
+      "brown": 0.0040159886702895164,
+      "black": 0.009862791746854782,
+      "white": 0.00039439991815015674
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "grey .",
+    "prompt_truncated": false,
+    "reason": "The correction frame is drilled, but 'basket' is a container in the spatial material and never appears in a colour correction.",
+    "stage": "final",
+    "sample_seed": 2033
+  },
+  {
+    "id": "held_09",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the tray is not white . it is black . the tray is",
+    "choices": [
+      "black",
+      "white",
+      "green",
+      "red"
+    ],
+    "expected": "black",
+    "predicted_choice": "black",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "black": 0.9094858169555664,
+      "white": 0.003048831131309271,
+      "green": 0.013635393232107162,
+      "red": 0.023037249222397804
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "black .",
+    "prompt_truncated": false,
+    "reason": "Same frame, another object that is never corrected for colour in training.",
+    "stage": "final",
+    "sample_seed": 2034
+  },
+  {
+    "id": "held_10",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the mat is not clean . it is dirty . the mat is",
+    "choices": [
+      "dirty",
+      "clean",
+      "wide",
+      "brown"
+    ],
+    "expected": "dirty",
+    "predicted_choice": "dirty",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "dirty": 0.923082172870636,
+      "clean": 0.00010125839617103338,
+      "wide": 0.004537883214652538,
+      "brown": 0.00033692611032165587
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "dirty .",
+    "prompt_truncated": false,
+    "reason": "A state correction on a surface noun that never appears in a correction.",
+    "stage": "final",
+    "sample_seed": 2035
+  },
+  {
+    "id": "held_11",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the flag is above the gate . the gate is",
+    "choices": [
+      "below",
+      "above",
+      "beside",
+      "inside"
+    ],
+    "expected": "below",
+    "predicted_choice": "below",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "below": 0.10872803628444672,
+      "above": 0.0004037465841975063,
+      "beside": 0.08822955936193466,
+      "inside": 0.015136058442294598
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "on the flag .",
+    "prompt_truncated": false,
+    "reason": "Above/below inverse with two nouns that never appear in a relational frame in training.",
+    "stage": "final",
+    "sample_seed": 2036
+  },
+  {
+    "id": "held_12",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the sign is left of the plate . the plate is to the",
+    "choices": [
+      "right",
+      "left",
+      "north",
+      "south"
+    ],
+    "expected": "right",
+    "predicted_choice": "right",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "right": 0.9533161520957947,
+      "left": 0.03480052202939987,
+      "north": 0.0003874677640851587,
+      "south": 4.896047812508186e-06
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "right of the sign .",
+    "prompt_truncated": false,
+    "reason": "Left/right inverse with two nouns from the negation material, never used relationally.",
+    "stage": "final",
+    "sample_seed": 2037
+  },
+  {
+    "id": "held_13",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the spoon is inside the bowl . the bowl contains the",
+    "choices": [
+      "spoon",
+      "sign",
+      "gate",
+      "mat"
+    ],
+    "expected": "spoon",
+    "predicted_choice": "spoon",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "spoon": 0.9642351865768433,
+      "sign": 7.998997375580075e-07,
+      "gate": 3.249861265430809e-06,
+      "mat": 8.571836588089354e-06
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "spoon .",
+    "prompt_truncated": false,
+    "reason": "Inside/contains inverse where the answer is a noun, with a container never used in that frame.",
+    "stage": "final",
+    "sample_seed": 2038
+  },
+  {
+    "id": "held_14",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "a pear is a fruit . an onion is a",
+    "choices": [
+      "vegetable",
+      "fruit",
+      "tool",
+      "tree"
+    ],
+    "expected": "vegetable",
+    "predicted_choice": "vegetable",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "vegetable": 0.003061038674786687,
+      "fruit": 0.0003044561599381268,
+      "tool": 0.0003521408070810139,
+      "tree": 0.0006514912820421159
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "question about the fence .",
+    "prompt_truncated": false,
+    "reason": "Category membership stated in a frame the corpus never uses; the memberships themselves are taught in other wording.",
+    "stage": "final",
+    "sample_seed": 2039
+  },
+  {
+    "id": "held_15",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "an oak is a tree . a trout is a",
+    "choices": [
+      "fish",
+      "bird",
+      "tool",
+      "tree"
+    ],
+    "expected": "fish",
+    "predicted_choice": "tree",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "fish": 0.0003479178121779114,
+      "bird": 0.0006470304215326905,
+      "tool": 0.0003211853327229619,
+      "tree": 0.0014150489587336779
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "person can during a question about the .",
+    "prompt_truncated": false,
+    "reason": "Same, across two different categories.",
+    "stage": "final",
+    "sample_seed": 2040
+  },
+  {
+    "id": "held_16",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "first clean the mug . then open it . the last action is",
+    "choices": [
+      "open",
+      "clean",
+      "fill",
+      "buy"
+    ],
+    "expected": "open",
+    "predicted_choice": "fill",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "open": 0.0019454635912552476,
+      "clean": 0.00039172559627331793,
+      "fill": 0.031003180891275406,
+      "buy": 0.016613341867923737
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "garden .",
+    "prompt_truncated": false,
+    "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs.",
+    "stage": "final",
+    "sample_seed": 2041
+  }
+]

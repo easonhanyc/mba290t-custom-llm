@@ -4,15 +4,15 @@ Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
 You: the opposite of heavy is
 Model: light .
 You: the pen is inside the jar . the jar contains the
-Model: loan .
+Model: pen .
 You: yesterday the farmer
-Model: walked and she steam helped .
+Model: counted and she moved too .
 You: the cup is not red . it is green . the cup is
 Model: green .
 You: a hungry person uses a
-Model: spoon for the rice explains the market .
+Model: spoon for the bread in the hall .
 You: what do you think about the french revolution
-Model: makes the jar .
+Model: makes the road .
 Unknown words: do, french, revolution, think, what, you
 You: the team discussed the loan and the interest at the
 Model: bank .

@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the team discussed the shopper and the service at the store .",
+    "the team discussed the software and the code at the office .",
+    "the kite is not yellow . it is green . the kite is green .",
+    "the local mortgage was mentioned in the return report yesterday ."
+  ],
+  "0.8": [
+    "the mug is not green . it is yellow . the mug is yellow .",
+    "the pen is right of the drawer . the drawer is to the left of the pen .",
+    "the different banana was mentioned in the harvest report yesterday .",
+    "a bass and a bass are fish ."
+  ],
+  "1.2": [
+    "the mug is not green . it is yellow . the mug is yellow .",
+    "the pen is above the bench . the bench is below the pen .",
+    "the report about the teacher explains the learning in detail .",
+    "the local taxi was mentioned in the travel report yesterday ."
+  ]
+}

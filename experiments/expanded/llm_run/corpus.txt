@@ -10146,842 +10146,1539 @@ the window was not heavy . it was light . the window was light .
 the cup is not brown . it is yellow . the cup is yellow .
 mateo did not choose water . he chose soup . mateo chose soup .
 the lid is not narrow . it is wide . the lid is wide .
-the ring sits on the bench . the bench holds the ring .
-the poster hangs above the mat . the mat sits below the poster .
-the cabinet is below the poster . the poster is above the cabinet .
-the bench is below the map . the map is above the bench .
-the drawer contains the card . the card is inside the drawer .
-the brush is left of the basket . the basket is to the right of the brush .
-the map is above the ledge . the ledge is below the map .
-the pen is inside the drawer . the drawer contains the pen .
-the ring is right of the folder . the folder is to the left of the ring .
-the letter is left of the pocket . the pocket is to the right of the letter .
-the table is below the map . the map is above the table .
-the letter is left of the tray . the tray is to the right of the letter .
-the letter is inside the basket . the basket contains the letter .
-the spoon is right of the case . the case is to the left of the spoon .
-the banner is above the counter . the counter is below the banner .
-the hook hangs above the stool . the stool sits below the hook .
-the stamp is inside the basket . the basket contains the stamp .
-the hook hangs above the cabinet . the cabinet sits below the hook .
-the card is left of the folder . the folder is to the right of the card .
-the stool is below the map . the map is above the stool .
-the coin is inside the case . the case contains the coin .
-the pen is left of the drawer . the drawer is to the right of the pen .
-the picture hangs above the counter . the counter sits below the picture .
-the letter is south of the counter . the counter is north of the letter .
-the letter is inside the jar . the jar contains the letter .
-the jar contains the pen . the pen is inside the jar .
-the case contains the spoon . the spoon is inside the case .
-the banner is above the bench . the bench is below the banner .
-the hook is above the bench . the bench is below the hook .
-the folder contains the letter . the letter is inside the folder .
-the spoon is north of the bench . the bench is south of the spoon .
-the ring is inside the case . the case contains the ring .
-the spoon sits on the bench . the bench holds the spoon .
-the spoon is left of the basket . the basket is to the right of the spoon .
-the key is left of the folder . the folder is to the right of the key .
-the drawer contains the letter . the letter is inside the drawer .
-the counter is below the picture . the picture is above the counter .
-the hook hangs above the ledge . the ledge sits below the hook .
-the map hangs above the mat . the mat sits below the map .
-the tray contains the key . the key is inside the tray .
-the jar contains the brush . the brush is inside the jar .
-the tin contains the letter . the letter is inside the tin .
-the poster hangs above the bench . the bench sits below the poster .
-the stool is below the banner . the banner is above the stool .
-the counter is below the clock . the clock is above the counter .
-the pen is under the table . the table is over the pen .
-the ledge is below the mirror . the mirror is above the ledge .
-the stamp is inside the pocket . the pocket contains the stamp .
-the coin is under the counter . the counter is over the coin .
-the hook is above the mat . the mat is below the hook .
-the card is left of the jar . the jar is to the right of the card .
-the clock is above the table . the table is below the clock .
-the hook is above the table . the table is below the hook .
-the stamp is right of the drawer . the drawer is to the left of the stamp .
-the poster is above the bench . the bench is below the poster .
-the folder contains the brush . the brush is inside the folder .
-the ring is inside the tin . the tin contains the ring .
-the key is inside the drawer . the drawer contains the key .
-the pen is left of the pocket . the pocket is to the right of the pen .
-the card is beside the ledge . the ledge is beside the card .
-the mirror hangs above the ledge . the ledge sits below the mirror .
-the tray contains the pen . the pen is inside the tray .
-the banner is above the cabinet . the cabinet is below the banner .
-the ring is left of the folder . the folder is to the right of the ring .
-the hook is above the cabinet . the cabinet is below the hook .
-the map hangs above the counter . the counter sits below the map .
-the case contains the letter . the letter is inside the case .
-the cabinet is below the hook . the hook is above the cabinet .
-the case contains the key . the key is inside the case .
-the stamp is inside the case . the case contains the stamp .
-the stool is below the mirror . the mirror is above the stool .
-the poster is above the table . the table is below the poster .
-the ring is inside the pocket . the pocket contains the ring .
-the brush is right of the basket . the basket is to the left of the brush .
-the map is above the bench . the bench is below the map .
-the drawer contains the key . the key is inside the drawer .
-the tin contains the pen . the pen is inside the tin .
-the pocket contains the card . the card is inside the pocket .
-the coin is inside the jar . the jar contains the coin .
-the card is right of the folder . the folder is to the left of the card .
-the case contains the brush . the brush is inside the case .
-the card is in front of the clock . the clock is behind the card .
-the brush is inside the drawer . the drawer contains the brush .
-the poster hangs above the ledge . the ledge sits below the poster .
-the key is under the ledge . the ledge is over the key .
-the key is left of the jar . the jar is to the right of the key .
-the coin is inside the basket . the basket contains the coin .
-the stamp is south of the cabinet . the cabinet is north of the stamp .
-the mirror hangs above the stool . the stool sits below the mirror .
-the key is left of the tray . the tray is to the right of the key .
-the stamp is right of the basket . the basket is to the left of the stamp .
-the key is north of the ledge . the ledge is south of the key .
-the spoon is inside the basket . the basket contains the spoon .
-the basket contains the coin . the coin is inside the basket .
-the bench is below the clock . the clock is above the bench .
-the case contains the stamp . the stamp is inside the case .
-the poster hangs above the counter . the counter sits below the poster .
-the key is inside the tray . the tray contains the key .
-the ring is left of the jar . the jar is to the right of the ring .
-the spoon is left of the tin . the tin is to the right of the spoon .
-the coin is right of the basket . the basket is to the left of the coin .
-the letter is left of the tin . the tin is to the right of the letter .
-the letter is right of the folder . the folder is to the left of the letter .
-the map is above the cabinet . the cabinet is below the map .
-the stamp is left of the tray . the tray is to the right of the stamp .
-the cabinet is below the banner . the banner is above the cabinet .
-the tray contains the letter . the letter is inside the tray .
-the spoon is right of the jar . the jar is to the left of the spoon .
-the pen is right of the folder . the folder is to the left of the pen .
-the key is inside the folder . the folder contains the key .
-the key is inside the basket . the basket contains the key .
-the letter is inside the tin . the tin contains the letter .
-the case contains the pen . the pen is inside the case .
-the mirror is above the mat . the mat is below the mirror .
-the jar contains the coin . the coin is inside the jar .
-the stool is below the hook . the hook is above the stool .
-the pen is north of the table . the table is south of the pen .
-the coin is left of the drawer . the drawer is to the right of the coin .
-the stamp is right of the tray . the tray is to the left of the stamp .
-the jar contains the card . the card is inside the jar .
-the banner hangs above the mat . the mat sits below the banner .
-the letter is right of the pocket . the pocket is to the left of the letter .
-the pen is left of the folder . the folder is to the right of the pen .
-the basket contains the spoon . the spoon is inside the basket .
-the pen is south of the table . the table is north of the pen .
-the brush is inside the pocket . the pocket contains the brush .
-the hook is above the stool . the stool is below the hook .
-the ledge is below the map . the map is above the ledge .
-the stamp is right of the folder . the folder is to the left of the stamp .
-the mat is below the picture . the picture is above the mat .
-the pocket contains the key . the key is inside the pocket .
-the spoon is inside the jar . the jar contains the spoon .
-the mat is below the map . the map is above the mat .
-the ring is right of the jar . the jar is to the left of the ring .
-the picture is above the stool . the stool is below the picture .
-the mat is below the clock . the clock is above the mat .
-the ring is beside the bench . the bench is beside the ring .
-the stool is below the picture . the picture is above the stool .
-the spoon is in front of the clock . the clock is behind the spoon .
-the ring is in front of the banner . the banner is behind the ring .
-the mirror is above the ledge . the ledge is below the mirror .
-the key is inside the jar . the jar contains the key .
-the clock hangs above the cabinet . the cabinet sits below the clock .
-the coin is in front of the clock . the clock is behind the coin .
-the stamp is in front of the picture . the picture is behind the stamp .
-the brush sits on the cabinet . the cabinet holds the brush .
-the spoon is south of the bench . the bench is north of the spoon .
-the table is below the banner . the banner is above the table .
-the card is inside the jar . the jar contains the card .
-the coin is inside the pocket . the pocket contains the coin .
-the poster hangs above the table . the table sits below the poster .
-the card is north of the ledge . the ledge is south of the card .
-the jar contains the stamp . the stamp is inside the jar .
-the folder contains the spoon . the spoon is inside the folder .
-the ledge is below the banner . the banner is above the ledge .
-the clock is above the counter . the counter is below the clock .
-the brush is south of the cabinet . the cabinet is north of the brush .
-the ring is inside the tray . the tray contains the ring .
-the map hangs above the cabinet . the cabinet sits below the map .
-the tray contains the coin . the coin is inside the tray .
-the key is right of the basket . the basket is to the left of the key .
-the letter is right of the tray . the tray is to the left of the letter .
-the pen is left of the jar . the jar is to the right of the pen .
-the letter is inside the drawer . the drawer contains the letter .
-the letter is under the counter . the counter is over the letter .
-the table is below the picture . the picture is above the table .
-the banner hangs above the bench . the bench sits below the banner .
-the cabinet is below the map . the map is above the cabinet .
-the stamp is under the cabinet . the cabinet is over the stamp .
-the coin is inside the drawer . the drawer contains the coin .
-the key is right of the case . the case is to the left of the key .
-the picture hangs above the cabinet . the cabinet sits below the picture .
-the brush is right of the folder . the folder is to the left of the brush .
-the tin contains the spoon . the spoon is inside the tin .
-the picture is above the cabinet . the cabinet is below the picture .
-the clock is above the ledge . the ledge is below the clock .
-the case contains the coin . the coin is inside the case .
-the banner is above the table . the table is below the banner .
-the card is inside the folder . the folder contains the card .
-the ring is left of the case . the case is to the right of the ring .
-the card is inside the tin . the tin contains the card .
-the ledge is below the poster . the poster is above the ledge .
-the drawer contains the spoon . the spoon is inside the drawer .
-the stamp is left of the basket . the basket is to the right of the stamp .
-the picture is above the table . the table is below the picture .
-the poster hangs above the stool . the stool sits below the poster .
-the mat is below the banner . the banner is above the mat .
-the poster is above the cabinet . the cabinet is below the poster .
-the coin is right of the case . the case is to the left of the coin .
-the letter is left of the drawer . the drawer is to the right of the letter .
-the drawer contains the brush . the brush is inside the drawer .
-the table is below the mirror . the mirror is above the table .
-the card is south of the ledge . the ledge is north of the card .
-the letter is inside the pocket . the pocket contains the letter .
-the drawer contains the pen . the pen is inside the drawer .
-the stamp is left of the drawer . the drawer is to the right of the stamp .
-the ring is left of the pocket . the pocket is to the right of the ring .
-the card is inside the case . the case contains the card .
-the picture hangs above the stool . the stool sits below the picture .
-the map hangs above the stool . the stool sits below the map .
-the spoon is left of the folder . the folder is to the right of the spoon .
-the stamp is north of the cabinet . the cabinet is south of the stamp .
-the bench is below the banner . the banner is above the bench .
-the tin contains the stamp . the stamp is inside the tin .
-the stamp is right of the tin . the tin is to the left of the stamp .
-the map is above the counter . the counter is below the map .
-the cabinet is below the picture . the picture is above the cabinet .
-the spoon is left of the case . the case is to the right of the spoon .
-the banner hangs above the stool . the stool sits below the banner .
-the poster hangs above the cabinet . the cabinet sits below the poster .
-the banner hangs above the table . the table sits below the banner .
-the ledge is below the picture . the picture is above the ledge .
-the cabinet is below the clock . the clock is above the cabinet .
-the pen is inside the tray . the tray contains the pen .
-the clock is above the mat . the mat is below the clock .
-the folder contains the ring . the ring is inside the folder .
-the clock hangs above the table . the table sits below the clock .
-the folder contains the coin . the coin is inside the folder .
-the key is right of the folder . the folder is to the left of the key .
-the card is left of the drawer . the drawer is to the right of the card .
 the poster is above the counter . the counter is below the poster .
-the mirror hangs above the table . the table sits below the mirror .
-the coin is right of the drawer . the drawer is to the left of the coin .
-the mat is below the poster . the poster is above the mat .
-the tray contains the stamp . the stamp is inside the tray .
-the card is inside the pocket . the pocket contains the card .
-the letter is north of the counter . the counter is south of the letter .
-the ring is inside the drawer . the drawer contains the ring .
-the brush is right of the case . the case is to the left of the brush .
-the picture hangs above the mat . the mat sits below the picture .
-the counter is below the poster . the poster is above the counter .
-the basket contains the stamp . the stamp is inside the basket .
-the brush is right of the jar . the jar is to the left of the brush .
-the card is inside the basket . the basket contains the card .
-the poster is above the ledge . the ledge is below the poster .
-the table is below the clock . the clock is above the table .
-the pen is inside the folder . the folder contains the pen .
-the card is left of the basket . the basket is to the right of the card .
-the poster is above the mat . the mat is below the poster .
-the clock is above the bench . the bench is below the clock .
-the pen is right of the drawer . the drawer is to the left of the pen .
-the brush is north of the cabinet . the cabinet is south of the brush .
-the table is below the poster . the poster is above the table .
-the clock hangs above the stool . the stool sits below the clock .
-the spoon is left of the jar . the jar is to the right of the spoon .
-the pen is right of the tin . the tin is to the left of the pen .
-the bench is below the poster . the poster is above the bench .
 the spoon is inside the pocket . the pocket contains the spoon .
-the mirror hangs above the counter . the counter sits below the mirror .
-the hook hangs above the bench . the bench sits below the hook .
-the ring is inside the basket . the basket contains the ring .
-the card is right of the jar . the jar is to the left of the card .
-the key is right of the tray . the tray is to the left of the key .
-the mirror is above the table . the table is below the mirror .
-the stamp is inside the tray . the tray contains the stamp .
-the banner hangs above the ledge . the ledge sits below the banner .
-the folder contains the card . the card is inside the folder .
-the banner is above the ledge . the ledge is below the banner .
-the bench is below the mirror . the mirror is above the bench .
-the brush is inside the tray . the tray contains the brush .
-the jar contains the key . the key is inside the jar .
-the ring is right of the tray . the tray is to the left of the ring .
-the brush is inside the case . the case contains the brush .
-the pen is right of the pocket . the pocket is to the left of the pen .
-the ring is under the bench . the bench is over the ring .
-the spoon is inside the folder . the folder contains the spoon .
-the tray contains the spoon . the spoon is inside the tray .
-the coin sits on the counter . the counter holds the coin .
-the brush is right of the tray . the tray is to the left of the brush .
-the letter is left of the folder . the folder is to the right of the letter .
-the poster is above the stool . the stool is below the poster .
-the clock hangs above the counter . the counter sits below the clock .
-the pocket contains the spoon . the spoon is inside the pocket .
-the mirror is above the cabinet . the cabinet is below the mirror .
-the map is above the stool . the stool is below the map .
-the pen is inside the jar . the jar contains the pen .
-the stamp is inside the drawer . the drawer contains the stamp .
-the key is inside the tin . the tin contains the key .
-the key is inside the case . the case contains the key .
-the banner hangs above the counter . the counter sits below the banner .
-the drawer contains the coin . the coin is inside the drawer .
-the jar contains the letter . the letter is inside the jar .
-the coin is left of the pocket . the pocket is to the right of the coin .
-the pen is inside the case . the case contains the pen .
-the clock hangs above the bench . the bench sits below the clock .
-the drawer contains the ring . the ring is inside the drawer .
-the brush is left of the folder . the folder is to the right of the brush .
-the brush is left of the case . the case is to the right of the brush .
-the pocket contains the pen . the pen is inside the pocket .
-the key is left of the case . the case is to the right of the key .
-the banner is above the stool . the stool is below the banner .
-the banner is above the mat . the mat is below the banner .
-the pen is beside the table . the table is beside the pen .
-the ledge is below the clock . the clock is above the ledge .
-the card is right of the drawer . the drawer is to the left of the card .
-the clock is above the stool . the stool is below the clock .
-the brush is left of the jar . the jar is to the right of the brush .
-the clock hangs above the mat . the mat sits below the clock .
-the bench is below the picture . the picture is above the bench .
-the coin is beside the counter . the counter is beside the coin .
-the picture hangs above the bench . the bench sits below the picture .
-the brush is left of the tray . the tray is to the right of the brush .
-the drawer contains the stamp . the stamp is inside the drawer .
-the mirror hangs above the bench . the bench sits below the mirror .
-the coin is inside the tray . the tray contains the coin .
-the map hangs above the table . the table sits below the map .
-the case contains the ring . the ring is inside the case .
-the mirror is above the counter . the counter is below the mirror .
-the picture is above the mat . the mat is below the picture .
-the tin contains the coin . the coin is inside the tin .
-the pocket contains the brush . the brush is inside the pocket .
-the mat is below the mirror . the mirror is above the mat .
-the coin is left of the folder . the folder is to the right of the coin .
-the pen sits on the table . the table holds the pen .
-the spoon is inside the tray . the tray contains the spoon .
-the mirror is above the stool . the stool is below the mirror .
-the basket contains the key . the key is inside the basket .
-the stool is below the clock . the clock is above the stool .
-the mirror hangs above the mat . the mat sits below the mirror .
-the key is south of the ledge . the ledge is north of the key .
+the jar is left of the spoon . the spoon is to the right of the jar .
+the key is in front of the mirror . the mirror is behind the key .
 the key is beside the ledge . the ledge is beside the key .
-the spoon is right of the tin . the tin is to the left of the spoon .
-the tray contains the brush . the brush is inside the tray .
-the key is inside the pocket . the pocket contains the key .
-the picture is above the ledge . the ledge is below the picture .
-the spoon is inside the drawer . the drawer contains the spoon .
-the hook hangs above the table . the table sits below the hook .
-the ring is right of the case . the case is to the left of the ring .
-the letter is beside the counter . the counter is beside the letter .
-the map hangs above the bench . the bench sits below the map .
-the stamp is inside the folder . the folder contains the stamp .
-the picture hangs above the ledge . the ledge sits below the picture .
-the counter is below the mirror . the mirror is above the counter .
-the spoon is under the bench . the bench is over the spoon .
-the key is left of the basket . the basket is to the right of the key .
-the basket contains the letter . the letter is inside the basket .
-the pocket contains the letter . the letter is inside the pocket .
-the map is above the table . the table is below the map .
-the hook hangs above the counter . the counter sits below the hook .
-the pen is inside the basket . the basket contains the pen .
-the tin contains the ring . the ring is inside the tin .
-the letter is inside the tray . the tray contains the letter .
-the picture hangs above the table . the table sits below the picture .
-the case contains the card . the card is inside the case .
-the tray contains the card . the card is inside the tray .
-the map hangs above the ledge . the ledge sits below the map .
-the coin is inside the tin . the tin contains the coin .
-the letter is right of the drawer . the drawer is to the left of the letter .
-the pen is inside the pocket . the pocket contains the pen .
-the brush is inside the tin . the tin contains the brush .
-the card is left of the tray . the tray is to the right of the card .
-the mat is below the hook . the hook is above the mat .
-the spoon is beside the bench . the bench is beside the spoon .
-the hook is above the ledge . the ledge is below the hook .
-the key is in front of the banner . the banner is behind the key .
-the letter is inside the case . the case contains the letter .
-the brush is inside the jar . the jar contains the brush .
-the tin contains the brush . the brush is inside the tin .
-the pen is in front of the map . the map is behind the pen .
-the clock hangs above the ledge . the ledge sits below the clock .
-the pocket contains the stamp . the stamp is inside the pocket .
-the spoon is inside the case . the case contains the spoon .
-the counter is below the banner . the banner is above the counter .
-the tin contains the card . the card is inside the tin .
-the spoon is inside the tin . the tin contains the spoon .
-the coin is south of the counter . the counter is north of the coin .
-the jar contains the ring . the ring is inside the jar .
-the counter is below the map . the map is above the counter .
-the card sits on the ledge . the ledge holds the card .
-the basket contains the card . the card is inside the basket .
-the counter is below the hook . the hook is above the counter .
-the stamp is inside the tin . the tin contains the stamp .
-the card is right of the basket . the basket is to the left of the card .
-the banner hangs above the cabinet . the cabinet sits below the banner .
-the card is right of the tray . the tray is to the left of the card .
-the basket contains the brush . the brush is inside the basket .
-the pocket contains the coin . the coin is inside the pocket .
-the clock is above the cabinet . the cabinet is below the clock .
-the pen is inside the tin . the tin contains the pen .
-the pen is right of the jar . the jar is to the left of the pen .
-the cabinet is below the mirror . the mirror is above the cabinet .
-the letter sits on the counter . the counter holds the letter .
-the card is inside the drawer . the drawer contains the card .
-the stool is below the poster . the poster is above the stool .
-the ledge is below the hook . the hook is above the ledge .
-the stamp sits on the cabinet . the cabinet holds the stamp .
-the brush is inside the folder . the folder contains the brush .
-the card is under the ledge . the ledge is over the card .
-the spoon is right of the basket . the basket is to the left of the spoon .
-the stamp is beside the cabinet . the cabinet is beside the stamp .
-the coin is left of the basket . the basket is to the right of the coin .
-the pen is left of the tin . the tin is to the right of the pen .
-the stamp is inside the jar . the jar contains the stamp .
-the ring is south of the bench . the bench is north of the ring .
-the jar contains the spoon . the spoon is inside the jar .
-the ring is north of the bench . the bench is south of the ring .
-the ring is left of the tray . the tray is to the right of the ring .
-the coin is right of the folder . the folder is to the left of the coin .
-the basket contains the pen . the pen is inside the basket .
-the pocket contains the ring . the ring is inside the pocket .
-the letter is inside the folder . the folder contains the letter .
-the ring is inside the folder . the folder contains the ring .
-the map is above the mat . the mat is below the map .
-the card is inside the tray . the tray contains the card .
-the folder contains the pen . the pen is inside the folder .
-the mirror hangs above the cabinet . the cabinet sits below the mirror .
-the picture is above the bench . the bench is below the picture .
-the folder contains the key . the key is inside the folder .
-the ring is inside the jar . the jar contains the ring .
-the hook hangs above the mat . the mat sits below the hook .
-the stamp is left of the folder . the folder is to the right of the stamp .
-the bench is below the hook . the hook is above the bench .
-the tin contains the key . the key is inside the tin .
-the letter is right of the tin . the tin is to the left of the letter .
-the key is right of the jar . the jar is to the left of the key .
+the stool sits below the banner . the banner hangs above the stool .
+the spoon is inside the tray . the tray contains the spoon .
 the mirror is above the bench . the bench is below the mirror .
-the brush is under the cabinet . the cabinet is over the brush .
-the stamp is left of the tin . the tin is to the right of the stamp .
-the tray contains the ring . the ring is inside the tray .
-the brush is inside the basket . the basket contains the brush .
-the folder contains the stamp . the stamp is inside the folder .
-the basket contains the ring . the ring is inside the basket .
-the key sits on the ledge . the ledge holds the key .
-the coin is left of the case . the case is to the right of the coin .
-the coin is inside the folder . the folder contains the coin .
+the stamp is right of the drawer . the drawer is to the left of the stamp .
+the key is inside the jar . the jar contains the key .
+the letter is in front of the hook . the hook is behind the letter .
+the letter is under the bench . the bench is over the letter .
+the table is north of the key . the key is south of the table .
+the picture hangs above the bench . the bench sits below the picture .
+the tray contains the key . the key is inside the tray .
+the card is in front of the poster . the poster is behind the card .
+the brush is right of the pocket . the pocket is to the left of the brush .
+the basket is left of the coin . the coin is to the right of the basket .
+the bench is over the pen . the pen is under the bench .
+the stamp is left of the case . the case is to the right of the stamp .
+the mirror hangs above the mat . the mat sits below the mirror .
+the bench is over the brush . the brush is under the bench .
+the case is right of the card . the card is to the left of the case .
+the stamp is beside the cabinet . the cabinet is beside the stamp .
+the key is left of the tray . the tray is to the right of the key .
+the jar contains the letter . the letter is inside the jar .
+the mirror hangs above the table . the table sits below the mirror .
+the stool is north of the spoon . the spoon is south of the stool .
+the ledge sits below the hook . the hook hangs above the ledge .
+the pen is north of the counter . the counter is south of the pen .
+the counter sits below the picture . the picture hangs above the counter .
+the spoon is under the bench . the bench is over the spoon .
+the table sits below the hook . the hook hangs above the table .
+the letter is in front of the picture . the picture is behind the letter .
+the stamp is in front of the hook . the hook is behind the stamp .
+the ring is north of the stool . the stool is south of the ring .
+the spoon is right of the tin . the tin is to the left of the spoon .
+the tin is left of the coin . the coin is to the right of the tin .
+the pen is right of the folder . the folder is to the left of the pen .
+the letter is left of the case . the case is to the right of the letter .
+the pen is north of the cabinet . the cabinet is south of the pen .
+the letter is under the cabinet . the cabinet is over the letter .
+the folder is right of the brush . the brush is to the left of the folder .
+the cabinet is over the card . the card is under the cabinet .
+the basket contains the key . the key is inside the basket .
+the stamp is north of the counter . the counter is south of the stamp .
+the letter is north of the mat . the mat is south of the letter .
+the poster is above the bench . the bench is below the poster .
+the picture is above the ledge . the ledge is below the picture .
+the case contains the card . the card is inside the case .
+the ring sits on the cabinet . the cabinet holds the ring .
+the table is north of the spoon . the spoon is south of the table .
+the bench is over the key . the key is under the bench .
+the counter is north of the spoon . the spoon is south of the counter .
+the card is left of the tray . the tray is to the right of the card .
+the key is left of the case . the case is to the right of the key .
+the pen is right of the jar . the jar is to the left of the pen .
+the card is under the cabinet . the cabinet is over the card .
+the letter sits on the mat . the mat holds the letter .
+the mirror is in front of the card . the card is behind the mirror .
+the card is under the counter . the counter is over the card .
+the brush sits on the mat . the mat holds the brush .
+the folder is left of the stamp . the stamp is to the right of the folder .
+the picture is in front of the spoon . the spoon is behind the picture .
+the key is inside the tin . the tin contains the key .
+the stamp is in front of the picture . the picture is behind the stamp .
+the bench sits below the banner . the banner hangs above the bench .
+the tin contains the ring . the ring is inside the tin .
+the card is north of the stool . the stool is south of the card .
+the tray is right of the stamp . the stamp is to the left of the tray .
+the table is over the ring . the ring is under the table .
+the letter is in front of the banner . the banner is behind the letter .
+the spoon is beside the mat . the mat is beside the spoon .
+the coin is left of the basket . the basket is to the right of the coin .
+the folder contains the brush . the brush is inside the folder .
 the brush is in front of the mirror . the mirror is behind the brush .
-the spoon is right of the folder . the folder is to the left of the spoon .
-the ring is right of the pocket . the pocket is to the left of the ring .
-the coin is right of the pocket . the pocket is to the left of the coin .
-the coin is north of the counter . the counter is south of the coin .
-the brush is beside the cabinet . the cabinet is beside the brush .
-the picture is above the counter . the counter is below the picture .
-the letter is in front of the clock . the clock is behind the letter .
+the case contains the letter . the letter is inside the case .
+the banner hangs above the stool . the stool sits below the banner .
+the letter is north of the counter . the counter is south of the letter .
+the map hangs above the mat . the mat sits below the map .
+the tray contains the pen . the pen is inside the tray .
+the ring is beside the bench . the bench is beside the ring .
+the ring is beside the table . the table is beside the ring .
+the cabinet is north of the stamp . the stamp is south of the cabinet .
+the clock is in front of the spoon . the spoon is behind the clock .
+the counter is below the poster . the poster is above the counter .
+the card sits on the mat . the mat holds the card .
+the spoon is right of the basket . the basket is to the left of the spoon .
+the pen is right of the tin . the tin is to the left of the pen .
+the stamp is under the table . the table is over the stamp .
+the tin contains the pen . the pen is inside the tin .
+the case is right of the ring . the ring is to the left of the case .
+the stamp is under the mat . the mat is over the stamp .
+the tin is right of the ring . the ring is to the left of the tin .
+the ring is left of the tin . the tin is to the right of the ring .
+the table is over the spoon . the spoon is under the table .
+the coin is north of the table . the table is south of the coin .
+the mirror is in front of the letter . the letter is behind the mirror .
+the hook is in front of the spoon . the spoon is behind the hook .
+the counter is over the stamp . the stamp is under the counter .
+the bench is over the stamp . the stamp is under the bench .
+the hook is in front of the key . the key is behind the hook .
+the ring is inside the case . the case contains the ring .
+the card is right of the pocket . the pocket is to the left of the card .
+the cabinet sits below the clock . the clock hangs above the cabinet .
+the coin is north of the stool . the stool is south of the coin .
+the spoon sits on the table . the table holds the spoon .
+the brush is inside the tin . the tin contains the brush .
+the basket is left of the spoon . the spoon is to the right of the basket .
+the drawer is right of the spoon . the spoon is to the left of the drawer .
 the hook is above the counter . the counter is below the hook .
+the hook hangs above the mat . the mat sits below the hook .
+the ring sits on the mat . the mat holds the ring .
+the table is below the poster . the poster is above the table .
+the spoon is in front of the picture . the picture is behind the spoon .
+the key is inside the pocket . the pocket contains the key .
+the key is under the table . the table is over the key .
+the stamp is north of the ledge . the ledge is south of the stamp .
+the stamp is in front of the clock . the clock is behind the stamp .
+the key is left of the folder . the folder is to the right of the key .
+the card is left of the jar . the jar is to the right of the card .
+the coin sits on the mat . the mat holds the coin .
+the coin is under the stool . the stool is over the coin .
+the drawer is right of the card . the card is to the left of the drawer .
+the letter sits on the bench . the bench holds the letter .
+the ring is beside the ledge . the ledge is beside the ring .
+the jar is right of the key . the key is to the left of the jar .
+the counter is north of the ring . the ring is south of the counter .
+the jar contains the ring . the ring is inside the jar .
+the counter is over the ring . the ring is under the counter .
+the ledge sits below the mirror . the mirror hangs above the ledge .
+the tray is right of the coin . the coin is to the left of the tray .
+the picture is above the mat . the mat is below the picture .
+the spoon is left of the tin . the tin is to the right of the spoon .
+the basket is right of the brush . the brush is to the left of the basket .
+the brush sits on the table . the table holds the brush .
+the key is under the counter . the counter is over the key .
+the stamp is inside the tray . the tray contains the stamp .
+the spoon sits on the stool . the stool holds the spoon .
+the bench is north of the pen . the pen is south of the bench .
+the folder is left of the spoon . the spoon is to the right of the folder .
+the table is north of the letter . the letter is south of the table .
+the counter is north of the card . the card is south of the counter .
+the spoon is in front of the clock . the clock is behind the spoon .
+the counter is below the clock . the clock is above the counter .
+the card is in front of the mirror . the mirror is behind the card .
+the table is below the mirror . the mirror is above the table .
+the bench is north of the ring . the ring is south of the bench .
+the drawer is left of the ring . the ring is to the right of the drawer .
+the clock is above the mat . the mat is below the clock .
+the brush is in front of the banner . the banner is behind the brush .
+the ring is beside the stool . the stool is beside the ring .
+the card sits on the ledge . the ledge holds the card .
+the card sits on the table . the table holds the card .
+the pocket contains the stamp . the stamp is inside the pocket .
+the ledge is below the banner . the banner is above the ledge .
+the stamp is north of the mat . the mat is south of the stamp .
+the mirror is in front of the coin . the coin is behind the mirror .
+the counter is below the banner . the banner is above the counter .
+the banner hangs above the cabinet . the cabinet sits below the banner .
+the coin is in front of the banner . the banner is behind the coin .
+the mat is over the coin . the coin is under the mat .
+the banner hangs above the table . the table sits below the banner .
+the letter is north of the ledge . the ledge is south of the letter .
+the key is under the cabinet . the cabinet is over the key .
+the ledge is over the spoon . the spoon is under the ledge .
+the key is in front of the banner . the banner is behind the key .
+the stamp is under the bench . the bench is over the stamp .
+the card sits on the counter . the counter holds the card .
+the case is right of the spoon . the spoon is to the left of the case .
+the folder is right of the ring . the ring is to the left of the folder .
+the brush is right of the drawer . the drawer is to the left of the brush .
+the folder contains the letter . the letter is inside the folder .
+the pen is left of the drawer . the drawer is to the right of the pen .
+the cabinet is over the letter . the letter is under the cabinet .
+the picture is in front of the ring . the ring is behind the picture .
+the ledge is north of the brush . the brush is south of the ledge .
+the card is left of the case . the case is to the right of the card .
+the tin contains the key . the key is inside the tin .
+the coin is inside the case . the case contains the coin .
+the cabinet sits below the map . the map hangs above the cabinet .
+the key is right of the jar . the jar is to the left of the key .
+the coin is in front of the clock . the clock is behind the coin .
+the ring is in front of the map . the map is behind the ring .
+the letter is in front of the map . the map is behind the letter .
+the key sits on the mat . the mat holds the key .
+the brush is in front of the hook . the hook is behind the brush .
+the pen is inside the tin . the tin contains the pen .
+the stamp is under the stool . the stool is over the stamp .
+the clock is in front of the ring . the ring is behind the clock .
+the brush is left of the pocket . the pocket is to the right of the brush .
+the coin is under the cabinet . the cabinet is over the coin .
+the stool is north of the stamp . the stamp is south of the stool .
+the jar is left of the pen . the pen is to the right of the jar .
+the clock is in front of the letter . the letter is behind the clock .
+the banner hangs above the ledge . the ledge sits below the banner .
+the pen is inside the tray . the tray contains the pen .
+the ring is under the mat . the mat is over the ring .
+the map hangs above the bench . the bench sits below the map .
+the mirror is in front of the stamp . the stamp is behind the mirror .
+the ledge is north of the pen . the pen is south of the ledge .
+the pen is beside the cabinet . the cabinet is beside the pen .
+the ledge is north of the card . the card is south of the ledge .
+the jar is right of the spoon . the spoon is to the left of the jar .
+the folder is left of the brush . the brush is to the right of the folder .
+the pen is beside the ledge . the ledge is beside the pen .
+the letter sits on the stool . the stool holds the letter .
+the spoon is right of the case . the case is to the left of the spoon .
+the brush is under the ledge . the ledge is over the brush .
+the coin is right of the basket . the basket is to the left of the coin .
+the stamp sits on the cabinet . the cabinet holds the stamp .
+the banner is above the stool . the stool is below the banner .
+the card is right of the jar . the jar is to the left of the card .
+the pen is beside the stool . the stool is beside the pen .
+the tray contains the brush . the brush is inside the tray .
+the key is beside the counter . the counter is beside the key .
+the bench is over the ring . the ring is under the bench .
+the picture is in front of the stamp . the stamp is behind the picture .
+the basket is left of the ring . the ring is to the right of the basket .
+the basket contains the ring . the ring is inside the basket .
+the cabinet is below the mirror . the mirror is above the cabinet .
+the poster hangs above the counter . the counter sits below the poster .
+the coin sits on the ledge . the ledge holds the coin .
+the mirror is above the counter . the counter is below the mirror .
+the pen is north of the table . the table is south of the pen .
+the pen is right of the case . the case is to the left of the pen .
+the mirror is above the mat . the mat is below the mirror .
+the counter is north of the pen . the pen is south of the counter .
+the letter is north of the stool . the stool is south of the letter .
+the drawer is right of the brush . the brush is to the left of the drawer .
+the basket is left of the stamp . the stamp is to the right of the basket .
+the pen is under the table . the table is over the pen .
+the table is north of the card . the card is south of the table .
+the map is in front of the ring . the ring is behind the map .
+the stool is over the stamp . the stamp is under the stool .
+the drawer contains the spoon . the spoon is inside the drawer .
+the basket contains the spoon . the spoon is inside the basket .
+the tin is right of the spoon . the spoon is to the left of the tin .
+the jar is right of the coin . the coin is to the left of the jar .
+the spoon is under the stool . the stool is over the spoon .
+the basket is left of the brush . the brush is to the right of the basket .
+the stool is over the spoon . the spoon is under the stool .
+the card is in front of the hook . the hook is behind the card .
+the jar is right of the card . the card is to the left of the jar .
+the mat is north of the letter . the letter is south of the mat .
+the basket is right of the card . the card is to the left of the basket .
+the brush is beside the ledge . the ledge is beside the brush .
+the bench is north of the stamp . the stamp is south of the bench .
+the case is left of the stamp . the stamp is to the right of the case .
+the tray is right of the pen . the pen is to the left of the tray .
+the cabinet is below the picture . the picture is above the cabinet .
+the cabinet is north of the letter . the letter is south of the cabinet .
+the cabinet sits below the mirror . the mirror hangs above the cabinet .
+the card is inside the drawer . the drawer contains the card .
+the drawer is left of the brush . the brush is to the right of the drawer .
+the bench sits below the hook . the hook hangs above the bench .
+the ring is left of the tray . the tray is to the right of the ring .
+the mat is below the hook . the hook is above the mat .
+the spoon is beside the counter . the counter is beside the spoon .
+the mat sits below the banner . the banner hangs above the mat .
+the ring is left of the jar . the jar is to the right of the ring .
+the banner is in front of the pen . the pen is behind the banner .
+the map is in front of the spoon . the spoon is behind the map .
+the bench is north of the coin . the coin is south of the bench .
+the mirror is above the table . the table is below the mirror .
+the pen is beside the table . the table is beside the pen .
+the coin is beside the ledge . the ledge is beside the coin .
+the brush is under the stool . the stool is over the brush .
+the key is left of the basket . the basket is to the right of the key .
+the letter is left of the jar . the jar is to the right of the letter .
+the table sits below the map . the map hangs above the table .
+the spoon is beside the table . the table is beside the spoon .
+the pen sits on the ledge . the ledge holds the pen .
+the spoon is beside the bench . the bench is beside the spoon .
+the counter sits below the banner . the banner hangs above the counter .
+the letter is right of the case . the case is to the left of the letter .
+the mat is north of the key . the key is south of the mat .
+the map is in front of the pen . the pen is behind the map .
+the table is over the pen . the pen is under the table .
+the basket is left of the key . the key is to the right of the basket .
+the card is in front of the clock . the clock is behind the card .
+the letter sits on the counter . the counter holds the letter .
+the mat is below the poster . the poster is above the mat .
+the basket is right of the letter . the letter is to the left of the basket .
+the mat is over the stamp . the stamp is under the mat .
+the cabinet is north of the pen . the pen is south of the cabinet .
+the mat is over the brush . the brush is under the mat .
+the letter is left of the basket . the basket is to the right of the letter .
+the ledge is north of the spoon . the spoon is south of the ledge .
+the basket is right of the key . the key is to the left of the basket .
+the pocket is right of the letter . the letter is to the left of the pocket .
+the tray contains the stamp . the stamp is inside the tray .
+the coin is in front of the hook . the hook is behind the coin .
+the coin is beside the cabinet . the cabinet is beside the coin .
+the hook hangs above the counter . the counter sits below the hook .
+the pen is under the mat . the mat is over the pen .
+the stamp is right of the folder . the folder is to the left of the stamp .
+the mirror hangs above the stool . the stool sits below the mirror .
+the ring is under the ledge . the ledge is over the ring .
+the mirror is above the stool . the stool is below the mirror .
+the jar is right of the stamp . the stamp is to the left of the jar .
+the cabinet is over the coin . the coin is under the cabinet .
+the ring is in front of the banner . the banner is behind the ring .
+the coin is inside the pocket . the pocket contains the coin .
+the clock is above the bench . the bench is below the clock .
+the ring is right of the basket . the basket is to the left of the ring .
+the mat sits below the picture . the picture hangs above the mat .
+the ring sits on the bench . the bench holds the ring .
+the brush is north of the counter . the counter is south of the brush .
+the coin sits on the counter . the counter holds the coin .
+the stamp is north of the cabinet . the cabinet is south of the stamp .
+the spoon is north of the stool . the stool is south of the spoon .
+the bench is below the clock . the clock is above the bench .
+the spoon is left of the pocket . the pocket is to the right of the spoon .
+the pen is under the counter . the counter is over the pen .
+the folder contains the stamp . the stamp is inside the folder .
+the pocket contains the letter . the letter is inside the pocket .
+the key is under the stool . the stool is over the key .
+the coin is north of the bench . the bench is south of the coin .
+the banner is above the cabinet . the cabinet is below the banner .
+the bench is north of the key . the key is south of the bench .
+the folder contains the ring . the ring is inside the folder .
+the basket contains the stamp . the stamp is inside the basket .
+the coin sits on the table . the table holds the coin .
+the spoon is left of the basket . the basket is to the right of the spoon .
+the card is right of the basket . the basket is to the left of the card .
+the brush is inside the drawer . the drawer contains the brush .
+the letter is beside the stool . the stool is beside the letter .
+the spoon is beside the stool . the stool is beside the spoon .
+the tray is right of the spoon . the spoon is to the left of the tray .
+the key sits on the counter . the counter holds the key .
+the brush is under the table . the table is over the brush .
+the key sits on the table . the table holds the key .
+the counter is north of the coin . the coin is south of the counter .
+the coin is right of the drawer . the drawer is to the left of the coin .
+the map hangs above the ledge . the ledge sits below the map .
+the mirror is above the ledge . the ledge is below the mirror .
+the card is beside the stool . the stool is beside the card .
+the basket is right of the stamp . the stamp is to the left of the basket .
+the clock hangs above the counter . the counter sits below the clock .
+the brush is right of the basket . the basket is to the left of the brush .
+the pen is inside the folder . the folder contains the pen .
+the ring is beside the cabinet . the cabinet is beside the ring .
+the ring is right of the tin . the tin is to the left of the ring .
+the clock hangs above the bench . the bench sits below the clock .
+the bench sits below the poster . the poster hangs above the bench .
+the mat is north of the stamp . the stamp is south of the mat .
+the mat is below the picture . the picture is above the mat .
+the banner is in front of the letter . the letter is behind the banner .
+the stamp is north of the stool . the stool is south of the stamp .
+the stamp is left of the pocket . the pocket is to the right of the stamp .
+the brush is beside the table . the table is beside the brush .
+the letter is under the mat . the mat is over the letter .
+the picture hangs above the ledge . the ledge sits below the picture .
+the ring is inside the jar . the jar contains the ring .
+the spoon sits on the cabinet . the cabinet holds the spoon .
+the drawer contains the brush . the brush is inside the drawer .
+the ledge is north of the key . the key is south of the ledge .
+the stool is north of the key . the key is south of the stool .
+the ring sits on the ledge . the ledge holds the ring .
+the hook is in front of the pen . the pen is behind the hook .
+the card is beside the bench . the bench is beside the card .
+the key is right of the tray . the tray is to the left of the key .
+the spoon is beside the cabinet . the cabinet is beside the spoon .
+the drawer is right of the stamp . the stamp is to the left of the drawer .
+the picture is in front of the card . the card is behind the picture .
+the pocket is right of the spoon . the spoon is to the left of the pocket .
+the spoon is under the mat . the mat is over the spoon .
+the stamp is inside the tin . the tin contains the stamp .
+the key is inside the basket . the basket contains the key .
+the stamp is beside the stool . the stool is beside the stamp .
+the poster hangs above the mat . the mat sits below the poster .
+the tray is left of the coin . the coin is to the right of the tray .
+the banner is in front of the key . the key is behind the banner .
+the stamp is beside the counter . the counter is beside the stamp .
+the pocket contains the card . the card is inside the pocket .
+the pocket is right of the ring . the ring is to the left of the pocket .
+the pen is inside the drawer . the drawer contains the pen .
+the pen is in front of the clock . the clock is behind the pen .
+the counter is over the key . the key is under the counter .
+the pocket is left of the pen . the pen is to the right of the pocket .
+the mat sits below the clock . the clock hangs above the mat .
+the basket contains the letter . the letter is inside the basket .
+the ring is beside the mat . the mat is beside the ring .
+the counter is below the map . the map is above the counter .
+the stool is north of the card . the card is south of the stool .
+the coin is right of the folder . the folder is to the left of the coin .
+the tin is left of the card . the card is to the right of the tin .
+the coin is left of the case . the case is to the right of the coin .
+the jar is left of the key . the key is to the right of the jar .
+the tray is left of the key . the key is to the right of the tray .
+the pocket is right of the coin . the coin is to the left of the pocket .
+the pen is right of the pocket . the pocket is to the left of the pen .
+the banner is above the mat . the mat is below the banner .
+the pocket contains the coin . the coin is inside the pocket .
+the pen sits on the mat . the mat holds the pen .
+the tin is left of the brush . the brush is to the right of the tin .
+the spoon is north of the ledge . the ledge is south of the spoon .
+the spoon is left of the tray . the tray is to the right of the spoon .
+the case is right of the brush . the brush is to the left of the case .
+the pen is left of the tray . the tray is to the right of the pen .
+the ring is left of the pocket . the pocket is to the right of the ring .
+the clock hangs above the stool . the stool sits below the clock .
+the pen is left of the jar . the jar is to the right of the pen .
+the stool is north of the letter . the letter is south of the stool .
+the tray contains the ring . the ring is inside the tray .
+the bench is over the letter . the letter is under the bench .
+the banner hangs above the counter . the counter sits below the banner .
+the coin is right of the tray . the tray is to the left of the coin .
+the map hangs above the counter . the counter sits below the map .
+the mat sits below the mirror . the mirror hangs above the mat .
+the pen is under the bench . the bench is over the pen .
+the drawer is right of the ring . the ring is to the left of the drawer .
+the key is north of the mat . the mat is south of the key .
+the banner is above the bench . the bench is below the banner .
+the ring is north of the bench . the bench is south of the ring .
+the picture is in front of the brush . the brush is behind the picture .
+the clock is above the cabinet . the cabinet is below the clock .
+the coin is north of the ledge . the ledge is south of the coin .
+the brush is inside the basket . the basket contains the brush .
+the folder is left of the coin . the coin is to the right of the folder .
+the clock is above the table . the table is below the clock .
+the key is beside the bench . the bench is beside the key .
+the letter is inside the folder . the folder contains the letter .
+the brush is in front of the clock . the clock is behind the brush .
+the pen is left of the case . the case is to the right of the pen .
+the spoon is under the cabinet . the cabinet is over the spoon .
+the map is above the table . the table is below the map .
+the drawer contains the card . the card is inside the drawer .
+the letter is beside the mat . the mat is beside the letter .
+the folder contains the key . the key is inside the folder .
+the spoon is right of the folder . the folder is to the left of the spoon .
+the tin contains the card . the card is inside the tin .
+the drawer is left of the card . the card is to the right of the drawer .
+the card is north of the mat . the mat is south of the card .
+the spoon is under the counter . the counter is over the spoon .
+the table is below the map . the map is above the table .
+the brush is inside the case . the case contains the brush .
+the key is north of the table . the table is south of the key .
+the ledge is over the card . the card is under the ledge .
+the tray is right of the ring . the ring is to the left of the tray .
+the pocket is left of the brush . the brush is to the right of the pocket .
+the poster is in front of the ring . the ring is behind the poster .
+the card is inside the basket . the basket contains the card .
+the ledge is below the map . the map is above the ledge .
+the letter is beside the counter . the counter is beside the letter .
+the coin is left of the folder . the folder is to the right of the coin .
+the cabinet is over the stamp . the stamp is under the cabinet .
+the hook is in front of the ring . the ring is behind the hook .
+the clock is above the counter . the counter is below the clock .
+the key is right of the case . the case is to the left of the key .
+the pocket is right of the brush . the brush is to the left of the pocket .
+the tray contains the spoon . the spoon is inside the tray .
+the key is in front of the hook . the hook is behind the key .
+the ring is left of the drawer . the drawer is to the right of the ring .
+the ring is left of the basket . the basket is to the right of the ring .
+the coin is left of the tray . the tray is to the right of the coin .
+the stamp is under the counter . the counter is over the stamp .
+the cabinet is below the map . the map is above the cabinet .
+the jar contains the pen . the pen is inside the jar .
+the drawer contains the key . the key is inside the drawer .
+the picture is above the stool . the stool is below the picture .
+the coin is left of the jar . the jar is to the right of the coin .
+the cabinet is north of the coin . the coin is south of the cabinet .
+the picture hangs above the table . the table sits below the picture .
+the stool is over the ring . the ring is under the stool .
+the drawer contains the stamp . the stamp is inside the drawer .
+the brush is north of the mat . the mat is south of the brush .
+the case is left of the card . the card is to the right of the case .
+the banner hangs above the bench . the bench sits below the banner .
+the basket is left of the pen . the pen is to the right of the basket .
+the key is north of the stool . the stool is south of the key .
+the tin is right of the letter . the letter is to the left of the tin .
+the stamp is in front of the banner . the banner is behind the stamp .
+the cabinet is below the hook . the hook is above the cabinet .
+the spoon is in front of the banner . the banner is behind the spoon .
+the map is above the mat . the mat is below the map .
+the pocket is right of the card . the card is to the left of the pocket .
+the bench is over the coin . the coin is under the bench .
+the ledge is over the ring . the ring is under the ledge .
+the letter is left of the pocket . the pocket is to the right of the letter .
+the drawer is right of the letter . the letter is to the left of the drawer .
+the key sits on the bench . the bench holds the key .
+the card is left of the drawer . the drawer is to the right of the card .
+the stool sits below the map . the map hangs above the stool .
+the stamp is beside the bench . the bench is beside the stamp .
+the tin is left of the spoon . the spoon is to the right of the tin .
+the picture hangs above the stool . the stool sits below the picture .
+the tray is left of the pen . the pen is to the right of the tray .
+the spoon sits on the mat . the mat holds the spoon .
+the key sits on the cabinet . the cabinet holds the key .
+the card is north of the ledge . the ledge is south of the card .
+the poster hangs above the stool . the stool sits below the poster .
+the counter sits below the poster . the poster hangs above the counter .
+the cabinet is over the spoon . the spoon is under the cabinet .
+the key is in front of the map . the map is behind the key .
+the stamp is inside the basket . the basket contains the stamp .
+the drawer contains the coin . the coin is inside the drawer .
+the card sits on the cabinet . the cabinet holds the card .
+the pocket contains the spoon . the spoon is inside the pocket .
+the coin is right of the case . the case is to the left of the coin .
+the tin is left of the letter . the letter is to the right of the tin .
+the key is right of the folder . the folder is to the left of the key .
+the key is in front of the clock . the clock is behind the key .
+the card is right of the drawer . the drawer is to the left of the card .
+the spoon is under the ledge . the ledge is over the spoon .
+the stamp is under the ledge . the ledge is over the stamp .
+the stool sits below the clock . the clock hangs above the stool .
+the card is inside the pocket . the pocket contains the card .
+the coin is inside the folder . the folder contains the coin .
+the stamp is right of the case . the case is to the left of the stamp .
+the ring is in front of the mirror . the mirror is behind the ring .
+the counter is over the card . the card is under the counter .
+the mat is north of the card . the card is south of the mat .
+the pocket contains the brush . the brush is inside the pocket .
+the bench is below the mirror . the mirror is above the bench .
+the bench is below the hook . the hook is above the bench .
+the brush is beside the bench . the bench is beside the brush .
+the case is left of the coin . the coin is to the right of the case .
+the card is left of the tin . the tin is to the right of the card .
+the coin is inside the tin . the tin contains the coin .
+the map is in front of the letter . the letter is behind the map .
+the cabinet is over the key . the key is under the cabinet .
+the counter sits below the mirror . the mirror hangs above the counter .
+the mat is north of the coin . the coin is south of the mat .
+the mirror hangs above the cabinet . the cabinet sits below the mirror .
+the letter is beside the cabinet . the cabinet is beside the letter .
+the hook is above the mat . the mat is below the hook .
+the pocket contains the key . the key is inside the pocket .
+the cabinet is north of the key . the key is south of the cabinet .
+the ring is under the cabinet . the cabinet is over the ring .
+the letter is in front of the mirror . the mirror is behind the letter .
+the jar is right of the pen . the pen is to the left of the jar .
+the letter is inside the tray . the tray contains the letter .
+the poster is in front of the coin . the coin is behind the poster .
+the clock hangs above the ledge . the ledge sits below the clock .
+the stool is north of the pen . the pen is south of the stool .
+the letter is under the stool . the stool is over the letter .
+the ledge sits below the poster . the poster hangs above the ledge .
+the basket contains the coin . the coin is inside the basket .
+the poster is above the cabinet . the cabinet is below the poster .
+the ledge is over the brush . the brush is under the ledge .
+the card is under the bench . the bench is over the card .
+the coin is left of the tin . the tin is to the right of the coin .
+the table is north of the stamp . the stamp is south of the table .
+the brush is right of the tray . the tray is to the left of the brush .
+the brush is north of the stool . the stool is south of the brush .
+the counter is north of the letter . the letter is south of the counter .
+the map hangs above the cabinet . the cabinet sits below the map .
+the brush sits on the counter . the counter holds the brush .
+the basket contains the pen . the pen is inside the basket .
+the folder is right of the letter . the letter is to the left of the folder .
+the folder is right of the key . the key is to the left of the folder .
+the bench is north of the card . the card is south of the bench .
+the stool is below the map . the map is above the stool .
+the ring is right of the case . the case is to the left of the ring .
+the stamp is inside the folder . the folder contains the stamp .
+the letter is right of the tray . the tray is to the left of the letter .
+the tray is left of the letter . the letter is to the right of the tray .
+the ring is right of the pocket . the pocket is to the left of the ring .
+the drawer contains the letter . the letter is inside the drawer .
+the coin is north of the cabinet . the cabinet is south of the coin .
+the mat sits below the poster . the poster hangs above the mat .
+the letter sits on the cabinet . the cabinet holds the letter .
+the stamp is right of the tray . the tray is to the left of the stamp .
+the card is in front of the banner . the banner is behind the card .
+the bench is below the map . the map is above the bench .
+the letter is under the counter . the counter is over the letter .
+the map is in front of the stamp . the stamp is behind the map .
+the ledge is over the pen . the pen is under the ledge .
+the key is beside the cabinet . the cabinet is beside the key .
+the key is right of the tin . the tin is to the left of the key .
+the pen is under the cabinet . the cabinet is over the pen .
+the ring is right of the folder . the folder is to the left of the ring .
+the table sits below the poster . the poster hangs above the table .
+the spoon is in front of the map . the map is behind the spoon .
+the key sits on the ledge . the ledge holds the key .
+the coin is under the counter . the counter is over the coin .
+the pocket is left of the key . the key is to the right of the pocket .
+the poster is above the stool . the stool is below the poster .
+the key is right of the pocket . the pocket is to the left of the key .
+the stamp is left of the jar . the jar is to the right of the stamp .
+the hook is above the bench . the bench is below the hook .
+the map is in front of the coin . the coin is behind the map .
+the stamp is in front of the mirror . the mirror is behind the stamp .
+the hook is above the stool . the stool is below the hook .
+the card is north of the cabinet . the cabinet is south of the card .
+the mat is north of the brush . the brush is south of the mat .
+the stool is over the brush . the brush is under the stool .
+the ring sits on the table . the table holds the ring .
+the ring is north of the table . the table is south of the ring .
+the letter is north of the cabinet . the cabinet is south of the letter .
+the ring is inside the folder . the folder contains the ring .
+the counter is below the picture . the picture is above the counter .
+the basket is right of the pen . the pen is to the left of the basket .
+the hook is in front of the brush . the brush is behind the hook .
+the pocket is right of the pen . the pen is to the left of the pocket .
+the cabinet is north of the spoon . the spoon is south of the cabinet .
+the card is right of the tin . the tin is to the left of the card .
+the cabinet is over the pen . the pen is under the cabinet .
+the poster is in front of the card . the card is behind the poster .
+the pocket is left of the stamp . the stamp is to the right of the pocket .
+the table is north of the coin . the coin is south of the table .
+the key is beside the table . the table is beside the key .
+the letter is right of the basket . the basket is to the left of the letter .
+the counter is north of the key . the key is south of the counter .
+the coin is beside the counter . the counter is beside the coin .
+the pen sits on the table . the table holds the pen .
+the stool is below the poster . the poster is above the stool .
+the coin is in front of the picture . the picture is behind the coin .
+the folder is left of the pen . the pen is to the right of the folder .
+the card is beside the table . the table is beside the card .
+the card is right of the case . the case is to the left of the card .
+the spoon is left of the folder . the folder is to the right of the spoon .
+the poster is in front of the spoon . the spoon is behind the poster .
+the cabinet is north of the ring . the ring is south of the cabinet .
+the jar is left of the coin . the coin is to the right of the jar .
+the banner is above the table . the table is below the banner .
+the clock is above the stool . the stool is below the clock .
+the coin is in front of the map . the map is behind the coin .
+the spoon is north of the table . the table is south of the spoon .
+the spoon is inside the folder . the folder contains the spoon .
+the coin is in front of the mirror . the mirror is behind the coin .
+the ledge is over the stamp . the stamp is under the ledge .
+the mat is north of the pen . the pen is south of the mat .
+the mirror hangs above the ledge . the ledge sits below the mirror .
+the hook hangs above the ledge . the ledge sits below the hook .
+the brush is north of the ledge . the ledge is south of the brush .
+the pen is in front of the map . the map is behind the pen .
+the pen is beside the mat . the mat is beside the pen .
+the poster is in front of the letter . the letter is behind the poster .
+the stamp is north of the table . the table is south of the stamp .
+the card is under the mat . the mat is over the card .
+the bench is below the picture . the picture is above the bench .
+the stool sits below the mirror . the mirror hangs above the stool .
+the pen sits on the cabinet . the cabinet holds the pen .
+the coin is left of the drawer . the drawer is to the right of the coin .
+the stamp sits on the stool . the stool holds the stamp .
+the folder is left of the ring . the ring is to the right of the folder .
+the mat is below the clock . the clock is above the mat .
+the card is inside the case . the case contains the card .
+the jar contains the coin . the coin is inside the jar .
+the stamp is north of the bench . the bench is south of the stamp .
+the card sits on the bench . the bench holds the card .
+the stamp is right of the basket . the basket is to the left of the stamp .
+the letter is in front of the poster . the poster is behind the letter .
+the case is left of the brush . the brush is to the right of the case .
+the brush sits on the ledge . the ledge holds the brush .
+the poster is in front of the stamp . the stamp is behind the poster .
+the ledge is north of the coin . the coin is south of the ledge .
+the tin is right of the card . the card is to the left of the tin .
+the spoon is north of the mat . the mat is south of the spoon .
+the pen is right of the drawer . the drawer is to the left of the pen .
+the spoon is north of the cabinet . the cabinet is south of the spoon .
+the brush is left of the case . the case is to the right of the brush .
+the bench is north of the spoon . the spoon is south of the bench .
+the mat is below the map . the map is above the mat .
+the card is north of the table . the table is south of the card .
+the bench is north of the brush . the brush is south of the bench .
+the tray contains the coin . the coin is inside the tray .
+the tray is right of the brush . the brush is to the left of the tray .
+the case contains the spoon . the spoon is inside the case .
+the pen is inside the basket . the basket contains the pen .
+the key is right of the basket . the basket is to the left of the key .
+the pen is in front of the mirror . the mirror is behind the pen .
+the stamp is in front of the map . the map is behind the stamp .
+the key is left of the jar . the jar is to the right of the key .
+the banner is above the ledge . the ledge is below the banner .
+the stamp is under the cabinet . the cabinet is over the stamp .
+the stool is below the clock . the clock is above the stool .
+the table is north of the brush . the brush is south of the table .
+the coin is beside the mat . the mat is beside the coin .
+the card is beside the ledge . the ledge is beside the card .
+the table sits below the banner . the banner hangs above the table .
+the stamp is right of the tin . the tin is to the left of the stamp .
+the banner is above the counter . the counter is below the banner .
+the ring is in front of the poster . the poster is behind the ring .
+the card is beside the cabinet . the cabinet is beside the card .
+the pen is under the ledge . the ledge is over the pen .
+the case is right of the letter . the letter is to the left of the case .
+the pocket is right of the stamp . the stamp is to the left of the pocket .
+the map hangs above the stool . the stool sits below the map .
+the letter is under the table . the table is over the letter .
+the brush is under the bench . the bench is over the brush .
+the key is inside the tray . the tray contains the key .
+the tray is left of the card . the card is to the right of the tray .
+the table is below the picture . the picture is above the table .
+the pen is under the stool . the stool is over the pen .
+the brush is inside the tray . the tray contains the brush .
+the letter is inside the basket . the basket contains the letter .
+the stamp is beside the table . the table is beside the stamp .
+the stamp is left of the drawer . the drawer is to the right of the stamp .
+the ledge is over the key . the key is under the ledge .
+the map is in front of the card . the card is behind the map .
+the tin is left of the stamp . the stamp is to the right of the tin .
+the mirror is in front of the pen . the pen is behind the mirror .
+the spoon sits on the ledge . the ledge holds the spoon .
+the basket is right of the ring . the ring is to the left of the basket .
+the letter is left of the drawer . the drawer is to the right of the letter .
+the ledge is over the coin . the coin is under the ledge .
+the brush is under the cabinet . the cabinet is over the brush .
+the mirror is above the cabinet . the cabinet is below the mirror .
+the case is left of the ring . the ring is to the right of the case .
+the letter sits on the table . the table holds the letter .
+the coin is under the bench . the bench is over the coin .
+the mat is over the card . the card is under the mat .
+the letter is inside the case . the case contains the letter .
+the hook is above the table . the table is below the hook .
+the mirror hangs above the counter . the counter sits below the mirror .
+the poster hangs above the bench . the bench sits below the poster .
+the key is north of the bench . the bench is south of the key .
 the table is below the hook . the hook is above the table .
-the bag is wide .
-a small ball sits near the counter .
-the book is on the stool .
-a small door sits near the table .
-the bag is on the mat .
-the book was missing from the mat .
-a small door sits near the stool .
-the box and the cabinet are clean .
-the bag was missing from the mat .
-the desk is on the counter .
-a small desk sits near the stool .
-the door was missing from the stool .
-the shelf and the book are in the hall .
-the desk is wide .
-the lamp and the table are clean .
-the lamp is on the cabinet .
-the book is on the table .
-the shelf and the counter are clean .
+the spoon is in front of the hook . the hook is behind the spoon .
+the stamp is inside the pocket . the pocket contains the stamp .
+the letter is right of the drawer . the drawer is to the left of the letter .
+the pocket is left of the letter . the letter is to the right of the pocket .
+the hook is in front of the card . the card is behind the hook .
+the card is inside the jar . the jar contains the card .
+the pen is right of the basket . the basket is to the left of the pen .
+the cabinet is below the clock . the clock is above the cabinet .
+the poster is above the mat . the mat is below the poster .
+the spoon is in front of the poster . the poster is behind the spoon .
+the clock is in front of the pen . the pen is behind the clock .
+the pen is in front of the picture . the picture is behind the pen .
+the table is over the brush . the brush is under the table .
+the letter is beside the table . the table is beside the letter .
+the bench is over the spoon . the spoon is under the bench .
+the tin is right of the stamp . the stamp is to the left of the tin .
+the clock hangs above the cabinet . the cabinet sits below the clock .
+the letter is inside the pocket . the pocket contains the letter .
+the stool is north of the ring . the ring is south of the stool .
+the mat is north of the spoon . the spoon is south of the mat .
+the spoon is right of the jar . the jar is to the left of the spoon .
+the card sits on the stool . the stool holds the card .
+the card is right of the folder . the folder is to the left of the card .
+the ring is right of the tray . the tray is to the left of the ring .
+the bench is north of the letter . the letter is south of the bench .
+the counter is north of the brush . the brush is south of the counter .
+the key is north of the cabinet . the cabinet is south of the key .
+the mat is over the ring . the ring is under the mat .
+the case is right of the coin . the coin is to the left of the case .
+the pen is in front of the hook . the hook is behind the pen .
+the table is over the letter . the letter is under the table .
+the drawer is left of the coin . the coin is to the right of the drawer .
+the brush is left of the tray . the tray is to the right of the brush .
+the key is north of the ledge . the ledge is south of the key .
+the banner is in front of the spoon . the spoon is behind the banner .
+the coin is inside the basket . the basket contains the coin .
+the ledge is over the letter . the letter is under the ledge .
+the hook is above the cabinet . the cabinet is below the hook .
+the table is over the coin . the coin is under the table .
+the stamp is in front of the poster . the poster is behind the stamp .
+the ring is beside the counter . the counter is beside the ring .
+the banner is in front of the brush . the brush is behind the banner .
+the ring is in front of the hook . the hook is behind the ring .
+the table is over the card . the card is under the table .
+the poster is in front of the pen . the pen is behind the poster .
+the picture is in front of the pen . the pen is behind the picture .
+the ledge is below the poster . the poster is above the ledge .
+the pocket is right of the key . the key is to the left of the pocket .
+the spoon is in front of the mirror . the mirror is behind the spoon .
+the drawer is left of the letter . the letter is to the right of the drawer .
+the brush is north of the table . the table is south of the brush .
+the key is in front of the picture . the picture is behind the key .
+the cabinet is north of the card . the card is south of the cabinet .
+the banner is in front of the card . the card is behind the banner .
+the cabinet sits below the banner . the banner hangs above the cabinet .
+the stool is over the letter . the letter is under the stool .
+the counter is over the letter . the letter is under the counter .
+the letter is under the ledge . the ledge is over the letter .
+the case contains the brush . the brush is inside the case .
+the ring is left of the case . the case is to the right of the ring .
+the tray is right of the letter . the letter is to the left of the tray .
+the key is left of the pocket . the pocket is to the right of the key .
+the case is left of the letter . the letter is to the right of the case .
+the key is left of the tin . the tin is to the right of the key .
+the tray is left of the stamp . the stamp is to the right of the tray .
+the spoon sits on the counter . the counter holds the spoon .
+the bench sits below the picture . the picture hangs above the bench .
+the coin is north of the mat . the mat is south of the coin .
+the picture hangs above the counter . the counter sits below the picture .
+the folder contains the spoon . the spoon is inside the folder .
+the cabinet sits below the hook . the hook hangs above the cabinet .
+the map is in front of the key . the key is behind the map .
+the drawer contains the ring . the ring is inside the drawer .
+the bench sits below the clock . the clock hangs above the bench .
+the coin is right of the pocket . the pocket is to the left of the coin .
+the spoon is right of the drawer . the drawer is to the left of the spoon .
+the poster is in front of the key . the key is behind the poster .
+the card is inside the folder . the folder contains the card .
+the stool is over the pen . the pen is under the stool .
+the cabinet sits below the poster . the poster hangs above the cabinet .
+the picture is in front of the coin . the coin is behind the picture .
+the spoon is inside the drawer . the drawer contains the spoon .
+the mirror hangs above the bench . the bench sits below the mirror .
+the tin contains the letter . the letter is inside the tin .
+the stool sits below the picture . the picture hangs above the stool .
+the ring is left of the folder . the folder is to the right of the ring .
+the counter is over the brush . the brush is under the counter .
+the picture is in front of the key . the key is behind the picture .
+the folder contains the card . the card is inside the folder .
+the jar is right of the ring . the ring is to the left of the jar .
+the ledge sits below the banner . the banner hangs above the ledge .
+the tin is left of the pen . the pen is to the right of the tin .
+the poster is above the table . the table is below the poster .
+the pen is inside the case . the case contains the pen .
+the letter is right of the pocket . the pocket is to the left of the letter .
+the coin is inside the jar . the jar contains the coin .
+the cabinet is over the ring . the ring is under the cabinet .
+the mat is over the spoon . the spoon is under the mat .
+the cabinet is over the brush . the brush is under the cabinet .
+the spoon is left of the drawer . the drawer is to the right of the spoon .
+the bench sits below the mirror . the mirror hangs above the bench .
+the brush is left of the tin . the tin is to the right of the brush .
+the pocket is left of the card . the card is to the right of the pocket .
+the pen is beside the bench . the bench is beside the pen .
+the card is in front of the map . the map is behind the card .
+the stool is below the mirror . the mirror is above the stool .
+the ring is under the stool . the stool is over the ring .
+the letter is beside the bench . the bench is beside the letter .
+the letter is inside the tin . the tin contains the letter .
+the brush is left of the jar . the jar is to the right of the brush .
+the stamp is beside the mat . the mat is beside the stamp .
+the table is below the banner . the banner is above the table .
+the letter is beside the ledge . the ledge is beside the letter .
+the folder is right of the stamp . the stamp is to the left of the folder .
+the case contains the stamp . the stamp is inside the case .
+the coin is in front of the poster . the poster is behind the coin .
+the counter is north of the stamp . the stamp is south of the counter .
+the brush is left of the folder . the folder is to the right of the brush .
+the ring is inside the drawer . the drawer contains the ring .
+the ring is in front of the picture . the picture is behind the ring .
+the mat is over the letter . the letter is under the mat .
+the card is under the ledge . the ledge is over the card .
+the card is under the stool . the stool is over the card .
+the cabinet is below the poster . the poster is above the cabinet .
+the tin contains the spoon . the spoon is inside the tin .
+the ring is under the table . the table is over the ring .
+the stamp is left of the folder . the folder is to the right of the stamp .
+the letter is inside the jar . the jar contains the letter .
+the pen is north of the stool . the stool is south of the pen .
+the counter is over the spoon . the spoon is under the counter .
+the brush is left of the drawer . the drawer is to the right of the brush .
+the key is inside the folder . the folder contains the key .
+the table is north of the ring . the ring is south of the table .
+the mat is north of the ring . the ring is south of the mat .
+the spoon is north of the counter . the counter is south of the spoon .
+the pen is north of the bench . the bench is south of the pen .
+the spoon is inside the case . the case contains the spoon .
+the brush is beside the cabinet . the cabinet is beside the brush .
+the banner is in front of the stamp . the stamp is behind the banner .
+the mat sits below the hook . the hook hangs above the mat .
+the pocket is left of the spoon . the spoon is to the right of the pocket .
+the map is above the stool . the stool is below the map .
+the ring is right of the jar . the jar is to the left of the ring .
+the ring is under the counter . the counter is over the ring .
+the spoon is inside the tin . the tin contains the spoon .
+the folder is right of the spoon . the spoon is to the left of the folder .
+the basket is left of the card . the card is to the right of the basket .
+the bench is below the banner . the banner is above the bench .
+the brush is inside the pocket . the pocket contains the brush .
+the tray is left of the brush . the brush is to the right of the tray .
+the case contains the coin . the coin is inside the case .
+the map is in front of the brush . the brush is behind the map .
+the map is above the cabinet . the cabinet is below the map .
+the pen sits on the counter . the counter holds the pen .
+the brush is north of the cabinet . the cabinet is south of the brush .
+the tin is right of the key . the key is to the left of the tin .
+the stamp is right of the pocket . the pocket is to the left of the stamp .
+the case is right of the stamp . the stamp is to the left of the case .
+the brush is beside the stool . the stool is beside the brush .
+the brush sits on the bench . the bench holds the brush .
+the ledge is below the clock . the clock is above the ledge .
+the letter is right of the tin . the tin is to the left of the letter .
+the coin is north of the counter . the counter is south of the coin .
+the clock is in front of the coin . the coin is behind the clock .
+the ledge is below the picture . the picture is above the ledge .
+the bench sits below the map . the map hangs above the bench .
+the brush sits on the stool . the stool holds the brush .
+the mat is over the pen . the pen is under the mat .
+the basket is right of the spoon . the spoon is to the left of the basket .
+the card is right of the tray . the tray is to the left of the card .
+the drawer is left of the spoon . the spoon is to the right of the drawer .
+the tray is right of the key . the key is to the left of the tray .
+the stamp is inside the drawer . the drawer contains the stamp .
+the card is left of the basket . the basket is to the right of the card .
+the pen is left of the tin . the tin is to the right of the pen .
+the map is above the counter . the counter is below the map .
+the ring is in front of the clock . the clock is behind the ring .
+the clock hangs above the mat . the mat sits below the clock .
+the case is left of the key . the key is to the right of the case .
+the picture is above the bench . the bench is below the picture .
+the stamp sits on the table . the table holds the stamp .
+the letter is in front of the clock . the clock is behind the letter .
+the ring sits on the stool . the stool holds the ring .
+the ledge is north of the ring . the ring is south of the ledge .
+the stamp sits on the bench . the bench holds the stamp .
+the picture is above the table . the table is below the picture .
+the picture hangs above the cabinet . the cabinet sits below the picture .
+the key is under the mat . the mat is over the key .
+the card is left of the folder . the folder is to the right of the card .
+the spoon is under the table . the table is over the spoon .
+the poster is in front of the brush . the brush is behind the poster .
+the brush is right of the folder . the folder is to the left of the brush .
+the hook hangs above the bench . the bench sits below the hook .
+the ledge sits below the picture . the picture hangs above the ledge .
+the clock is in front of the brush . the brush is behind the clock .
+the brush is left of the basket . the basket is to the right of the brush .
+the card is in front of the picture . the picture is behind the card .
+the hook is in front of the letter . the letter is behind the hook .
+the letter is left of the tray . the tray is to the right of the letter .
+the pen is in front of the poster . the poster is behind the pen .
+the folder contains the pen . the pen is inside the folder .
+the mat is below the banner . the banner is above the mat .
+the ledge is below the mirror . the mirror is above the ledge .
+the clock is above the ledge . the ledge is below the clock .
+the folder is right of the card . the card is to the left of the folder .
+the ring is inside the basket . the basket contains the ring .
+the basket contains the card . the card is inside the basket .
+the coin is beside the table . the table is beside the coin .
+the key is in front of the poster . the poster is behind the key .
+the case contains the pen . the pen is inside the case .
+the poster is above the ledge . the ledge is below the poster .
+the brush is beside the counter . the counter is beside the brush .
+the basket contains the brush . the brush is inside the basket .
+the stool is below the banner . the banner is above the stool .
+the counter sits below the clock . the clock hangs above the counter .
+the stool is over the card . the card is under the stool .
+the coin is under the mat . the mat is over the coin .
+the coin is inside the drawer . the drawer contains the coin .
+the ledge is north of the letter . the letter is south of the ledge .
+the case contains the key . the key is inside the case .
+the pocket is left of the ring . the ring is to the right of the pocket .
+the tray is right of the card . the card is to the left of the tray .
+the table is below the clock . the clock is above the table .
+the poster hangs above the table . the table sits below the poster .
+the key is right of the drawer . the drawer is to the left of the key .
+the hook hangs above the cabinet . the cabinet sits below the hook .
+the hook is in front of the coin . the coin is behind the hook .
+the key is under the ledge . the ledge is over the key .
+the tin contains the stamp . the stamp is inside the tin .
+the poster hangs above the cabinet . the cabinet sits below the poster .
+the clock is in front of the card . the card is behind the clock .
+the jar is left of the letter . the letter is to the right of the jar .
+the letter is right of the jar . the jar is to the left of the letter .
+the letter is left of the folder . the folder is to the right of the letter .
+the key sits on the stool . the stool holds the key .
+the mat is below the mirror . the mirror is above the mat .
+the pen sits on the bench . the bench holds the pen .
+the banner hangs above the mat . the mat sits below the banner .
+the hook is in front of the stamp . the stamp is behind the hook .
+the tin is right of the pen . the pen is to the left of the tin .
+the ring is north of the cabinet . the cabinet is south of the ring .
+the case contains the ring . the ring is inside the case .
+the basket is left of the letter . the letter is to the right of the basket .
+the stamp is left of the tin . the tin is to the right of the stamp .
+the spoon is inside the jar . the jar contains the spoon .
+the pen is left of the folder . the folder is to the right of the pen .
+the tin is right of the coin . the coin is to the left of the tin .
+the card is north of the counter . the counter is south of the card .
+the ring is north of the mat . the mat is south of the ring .
+the brush is under the counter . the counter is over the brush .
+the ring is inside the tin . the tin contains the ring .
+the coin sits on the cabinet . the cabinet holds the coin .
+the mat sits below the map . the map hangs above the mat .
+the drawer is left of the pen . the pen is to the right of the drawer .
+the jar is left of the stamp . the stamp is to the right of the jar .
+the ring is under the bench . the bench is over the ring .
+the pen is in front of the banner . the banner is behind the pen .
+the spoon is right of the tray . the tray is to the left of the spoon .
+the picture is above the cabinet . the cabinet is below the picture .
+the bench is below the poster . the poster is above the bench .
+the table sits below the mirror . the mirror hangs above the table .
+the counter is below the hook . the hook is above the counter .
+the pen is left of the pocket . the pocket is to the right of the pen .
+the tray contains the letter . the letter is inside the tray .
+the coin is beside the bench . the bench is beside the coin .
+the spoon is left of the jar . the jar is to the right of the spoon .
+the mirror is in front of the ring . the ring is behind the mirror .
+the ledge is below the hook . the hook is above the ledge .
+the card is north of the bench . the bench is south of the card .
+the counter sits below the map . the map hangs above the counter .
+the counter is below the mirror . the mirror is above the counter .
+the coin is left of the pocket . the pocket is to the right of the coin .
+the picture is above the counter . the counter is below the picture .
+the case is right of the key . the key is to the left of the case .
+the counter is over the pen . the pen is under the counter .
+the coin is under the ledge . the ledge is over the coin .
+the drawer contains the pen . the pen is inside the drawer .
+the tray is left of the ring . the ring is to the right of the tray .
+the cabinet is below the banner . the banner is above the cabinet .
+the coin is right of the tin . the tin is to the left of the coin .
+the folder is right of the pen . the pen is to the left of the folder .
+the letter sits on the ledge . the ledge holds the letter .
+the jar contains the brush . the brush is inside the jar .
+the jar contains the stamp . the stamp is inside the jar .
+the spoon is beside the ledge . the ledge is beside the spoon .
+the card is inside the tin . the tin contains the card .
+the key is inside the drawer . the drawer contains the key .
+the folder is left of the letter . the letter is to the right of the folder .
+the card is beside the mat . the mat is beside the card .
+the brush is beside the mat . the mat is beside the brush .
+the pocket contains the pen . the pen is inside the pocket .
+the tin contains the brush . the brush is inside the tin .
+the brush is in front of the map . the map is behind the brush .
+the coin is right of the jar . the jar is to the left of the coin .
+the ring is north of the ledge . the ledge is south of the ring .
+the stamp is inside the jar . the jar contains the stamp .
+the stamp sits on the ledge . the ledge holds the stamp .
+the mat is over the key . the key is under the mat .
+the table sits below the clock . the clock hangs above the table .
+the stool is north of the brush . the brush is south of the stool .
+the pocket contains the ring . the ring is inside the pocket .
+the pen sits on the stool . the stool holds the pen .
+the coin is inside the tray . the tray contains the coin .
+the key is beside the mat . the mat is beside the key .
+the counter is over the coin . the coin is under the counter .
+the map is above the bench . the bench is below the map .
+the pen is north of the mat . the mat is south of the pen .
+the tin is left of the key . the key is to the right of the tin .
+the hook is above the ledge . the ledge is below the hook .
+the drawer is right of the key . the key is to the left of the drawer .
+the stool is over the coin . the coin is under the stool .
+the stamp is inside the case . the case contains the stamp .
+the ring is right of the drawer . the drawer is to the left of the ring .
+the folder is left of the key . the key is to the right of the folder .
+the table is north of the pen . the pen is south of the table .
+the brush is right of the case . the case is to the left of the brush .
+the basket is right of the coin . the coin is to the left of the basket .
+the mirror is in front of the key . the key is behind the mirror .
+the stool sits below the poster . the poster hangs above the stool .
+the jar is left of the ring . the ring is to the right of the jar .
+the drawer is left of the key . the key is to the right of the drawer .
+the stool is below the picture . the picture is above the stool .
+the stamp is beside the ledge . the ledge is beside the stamp .
+the ledge is north of the stamp . the stamp is south of the ledge .
+the hook hangs above the table . the table sits below the hook .
+the cabinet is north of the brush . the brush is south of the cabinet .
+the jar is right of the brush . the brush is to the left of the jar .
+the key is under the bench . the bench is over the key .
+the folder is left of the card . the card is to the right of the folder .
+the brush is inside the folder . the folder contains the brush .
+the stamp is right of the jar . the jar is to the left of the stamp .
+the ring is inside the tray . the tray contains the ring .
+the stamp sits on the mat . the mat holds the stamp .
+the stool is below the hook . the hook is above the stool .
+the counter sits below the hook . the hook hangs above the counter .
+the brush is in front of the poster . the poster is behind the brush .
+the tin is left of the ring . the ring is to the right of the tin .
+the ring sits on the counter . the counter holds the ring .
+the key is left of the drawer . the drawer is to the right of the key .
+the brush is north of the bench . the bench is south of the brush .
+the pocket is left of the coin . the coin is to the right of the pocket .
+the hook hangs above the stool . the stool sits below the hook .
+the tin contains the coin . the coin is inside the tin .
+the ledge sits below the map . the map hangs above the ledge .
+the clock hangs above the table . the table sits below the clock .
+the cabinet sits below the picture . the picture hangs above the cabinet .
+the bench is over the card . the card is under the bench .
+the stool sits below the hook . the hook hangs above the stool .
+the folder contains the coin . the coin is inside the folder .
+the table is over the stamp . the stamp is under the table .
+the ring is north of the counter . the counter is south of the ring .
+the case is left of the pen . the pen is to the right of the case .
+the table sits below the picture . the picture hangs above the table .
+the mirror is in front of the brush . the brush is behind the mirror .
+the folder is right of the coin . the coin is to the left of the folder .
+the banner is in front of the coin . the coin is behind the banner .
+the key is inside the case . the case contains the key .
+the map hangs above the table . the table sits below the map .
+the jar is left of the card . the card is to the right of the jar .
+the case is left of the spoon . the spoon is to the right of the case .
+the picture hangs above the mat . the mat sits below the picture .
+the jar contains the key . the key is inside the jar .
+the letter is north of the bench . the bench is south of the letter .
+the brush sits on the cabinet . the cabinet holds the brush .
+the spoon sits on the bench . the bench holds the spoon .
+the brush is right of the jar . the jar is to the left of the brush .
+the coin sits on the stool . the stool holds the coin .
+the jar is right of the letter . the letter is to the left of the jar .
+the stamp is left of the tray . the tray is to the right of the stamp .
+the brush is inside the jar . the jar contains the brush .
+the jar contains the card . the card is inside the jar .
+the card is inside the tray . the tray contains the card .
+the key is north of the counter . the counter is south of the key .
+the jar contains the spoon . the spoon is inside the jar .
+the spoon is north of the bench . the bench is south of the spoon .
+the mirror is in front of the spoon . the spoon is behind the mirror .
+the pen is inside the pocket . the pocket contains the pen .
+the jar is left of the brush . the brush is to the right of the jar .
+the pen is north of the ledge . the ledge is south of the pen .
+the letter is north of the table . the table is south of the letter .
+the picture is in front of the letter . the letter is behind the picture .
+the coin is under the table . the table is over the coin .
+the pen is left of the basket . the basket is to the right of the pen .
+the banner is in front of the ring . the ring is behind the banner .
+the pen is beside the counter . the counter is beside the pen .
+the map is above the ledge . the ledge is below the map .
+the spoon is left of the case . the case is to the right of the spoon .
+the letter is left of the tin . the tin is to the right of the letter .
+the card is beside the counter . the counter is beside the card .
+the spoon is right of the pocket . the pocket is to the left of the spoon .
+the spoon is inside the basket . the basket contains the spoon .
+the stool is over the key . the key is under the stool .
+the tin is right of the brush . the brush is to the left of the tin .
+the case is right of the pen . the pen is to the left of the case .
+the card is under the table . the table is over the card .
+the pen is inside the jar . the jar contains the pen .
+the drawer is right of the coin . the coin is to the left of the drawer .
+the coin is beside the stool . the stool is beside the coin .
+the drawer is left of the stamp . the stamp is to the right of the drawer .
+the clock is in front of the key . the key is behind the clock .
+the stamp is left of the basket . the basket is to the right of the stamp .
+the ring is inside the pocket . the pocket contains the ring .
+the card is left of the pocket . the pocket is to the right of the card .
+the tray contains the card . the card is inside the tray .
+the pen is right of the tray . the tray is to the left of the pen .
+the brush is right of the tin . the tin is to the left of the brush .
+the brush is under the mat . the mat is over the brush .
+the stamp sits on the counter . the counter holds the stamp .
+the stool is north of the coin . the coin is south of the stool .
+the poster hangs above the ledge . the ledge sits below the poster .
+the ledge sits below the clock . the clock hangs above the ledge .
+the table is over the key . the key is under the table .
+the letter is inside the drawer . the drawer contains the letter .
+the drawer is right of the pen . the pen is to the left of the drawer .
+the letter is right of the folder . the folder is to the left of the letter .
+the tray is left of the spoon . the spoon is to the right of the tray .
+the coin sits on the bench . the bench holds the coin .
+the key is beside the stool . the stool is beside the key .
+the clock is in front of the stamp . the stamp is behind the clock .
+the brush is in front of the picture . the picture is behind the brush .
 the shelf was missing from the ledge .
-the lamp and the bench are clean .
-the desk and the bag are in the hall .
-the door is old .
-the ball and the book are in the hall .
-the desk was missing from the ledge .
-the box and the ball are in the hall .
-a small box sits near the mat .
-the door and the box are in the hall .
-the shelf is on the bench .
-a small bag sits near the bench .
-the box is white .
-the shelf was missing from the cabinet .
-a small shelf sits near the cabinet .
-many dogs and many ponies are near the field .
-a small box sits near the counter .
-the shelf and the bag are in the hall .
-the shelf and the ledge are clean .
-the lamp was missing from the cabinet .
-the bag and the mat are clean .
-the door was missing from the mat .
-the door is new .
-a small shelf sits near the table .
-the lamp was missing from the table .
-the lamp and the door are in the hall .
-the bag and the shelf are in the hall .
-a narrow path and a wide road are near the bridge .
-the ball and the stool are clean .
-the lamp was missing from the counter .
-the door and the mat are clean .
-the lamp is on the mat .
-the bag is clean .
-the shelf was missing from the stool .
-the ball and the box are in the hall .
-the box is clean .
-the desk is on the stool .
-the shelf is on the ledge .
-a small lamp sits near the bench .
-the bag and the table are clean .
-the door was missing from the bench .
-a small shelf sits near the mat .
-the bag was missing from the cabinet .
-a small bag sits near the table .
-the lamp was missing from the stool .
-the ball was missing from the counter .
-the ball and the bench are clean .
-the lamp is wide .
-the ball was missing from the cabinet .
-the book is white .
-a small lamp sits near the table .
-the ball is brown .
-a small lamp sits near the counter .
-the lamp was missing from the mat .
-the door and the ledge are clean .
-the desk is on the ledge .
-the book was missing from the bench .
-a small book sits near the stool .
-the box is on the table .
-the book and the bench are clean .
-the bag is narrow .
-the desk was missing from the bench .
-the bag was missing from the ledge .
-the bag and the stool are clean .
-the desk is on the cabinet .
-a small ball sits near the bench .
-the desk is on the table .
-the ball and the desk are in the hall .
-the door is on the bench .
-the box was missing from the counter .
-a small desk sits near the counter .
-the shelf and the stool are clean .
-the lamp is on the table .
-the door is on the stool .
-the shelf is narrow .
-the bag and the desk are in the hall .
-the door was missing from the counter .
-the ball is white .
-the lamp is on the ledge .
-the lamp and the stool are clean .
-the desk and the table are clean .
-the box and the mat are clean .
-the ball and the counter are clean .
-a small ball sits near the ledge .
-the desk is brown .
-the door is on the mat .
-a small door sits near the cabinet .
-the bag is new .
-a small book sits near the mat .
-the shelf is on the cabinet .
-the box and the book are in the hall .
-a small desk sits near the mat .
-the desk and the shelf are in the hall .
-a small box sits near the bench .
-the shelf and the table are clean .
-the ball and the bag are in the hall .
-a small door sits near the mat .
-the door was missing from the ledge .
-the ball is old .
-the bag and the cabinet are clean .
-the book is clean .
-the door is on the counter .
-the shelf and the bench are clean .
-the book is on the ledge .
-the lamp is on the bench .
-the box is narrow .
-a small shelf sits near the stool .
-the door and the table are clean .
-the book is on the cabinet .
-the lamp is on the stool .
-the ball and the mat are clean .
-the desk is on the bench .
-the box was missing from the stool .
-the ball was missing from the ledge .
-the shelf and the box are in the hall .
-the box was missing from the ledge .
-the door and the shelf are in the hall .
-a small bag sits near the mat .
-the lamp and the bag are in the hall .
-the lamp is new .
-a small desk sits near the bench .
-the box and the ledge are clean .
-the shelf is on the counter .
-a small book sits near the counter .
-a small bag sits near the stool .
-the box and the bench are clean .
-the desk and the mat are clean .
-the door is on the ledge .
-the door is brown .
-the book is wide .
-the lamp is narrow .
-the ball is clean .
-the ball is new .
-the lamp and the counter are clean .
-the box and the lamp are in the hall .
-the desk was missing from the mat .
-the desk is old .
-a small shelf sits near the counter .
-the bag and the counter are clean .
-the desk and the ledge are clean .
-the bag is brown .
-two birds are loud but one sparrow is quiet .
-the bag and the ledge are clean .
-the bag is old .
-a small book sits near the ledge .
-the ball and the door are in the hall .
-a small desk sits near the table .
-the book and the shelf are in the hall .
-the door is on the table .
-the bag is on the table .
-the box and the door are in the hall .
-the ball was missing from the table .
-the ball is on the stool .
-the lamp is old .
-a small bag sits near the counter .
-a small book sits near the table .
-the book is on the bench .
-the box is wide .
-the door and the bench are clean .
-the shelf was missing from the bench .
-the box is on the mat .
-the lamp and the desk are in the hall .
-the ball is narrow .
-the desk and the book are in the hall .
-the shelf and the desk are in the hall .
-the bag and the lamp are in the hall .
-a small door sits near the bench .
-a small bag sits near the cabinet .
-the door is on the cabinet .
-the ball was missing from the bench .
-the lamp is brown .
-the book and the table are clean .
-a small box sits near the table .
-the box and the shelf are in the hall .
-the desk is on the mat .
-a small lamp sits near the stool .
-the lamp and the ledge are clean .
-the shelf is old .
-the bag was missing from the bench .
-the book was missing from the counter .
-the desk is new .
-the shelf was missing from the counter .
-the door is narrow .
-the book and the bag are in the hall .
-the shelf is on the mat .
-the book is on the counter .
-the door is white .
-a quiet street sits beside the noisy market .
-the box is new .
-the lamp is on the counter .
-a small ball sits near the table .
-the lamp is white .
-a small door sits near the counter .
-a small door sits near the ledge .
-the lamp was missing from the ledge .
-the desk was missing from the cabinet .
-the book and the ball are in the hall .
-a small box sits near the stool .
-the box is on the bench .
-the box was missing from the mat .
-the shelf and the lamp are in the hall .
-the door and the ball are in the hall .
-the ball is wide .
-the bag and the bench are clean .
-the book and the counter are clean .
-the box is on the cabinet .
-the bag is on the counter .
-a small desk sits near the ledge .
-the ball was missing from the stool .
-a small ball sits near the mat .
-a small lamp sits near the cabinet .
-the ball and the ledge are clean .
-the box is brown .
-the bag is white .
-the box and the table are clean .
-a small book sits near the cabinet .
-the door is clean .
-the lamp was missing from the bench .
-the park is north of the river and the school is south of the river .
-a small bag sits near the ledge .
-the door and the stool are clean .
-the bag was missing from the stool .
-the door was missing from the table .
-the desk and the lamp are in the hall .
-the ball was missing from the mat .
-the shelf and the cabinet are clean .
-the ball is on the ledge .
-the desk is white .
-the door and the lamp are in the hall .
-the book and the lamp are in the hall .
-the lamp and the cabinet are clean .
-the lamp and the box are in the hall .
-the book was missing from the stool .
-the book and the ledge are clean .
-the box and the counter are clean .
-the box and the stool are clean .
-the book and the desk are in the hall .
-the bag was missing from the table .
-the ball and the lamp are in the hall .
-a small shelf sits near the bench .
-the bag is on the stool .
-the shelf is on the stool .
-the book and the stool are clean .
-the book is narrow .
-the desk and the stool are clean .
-the book is on the mat .
-a small ball sits near the stool .
-the bag and the ball are in the hall .
-the bag and the box are in the hall .
-the box is on the ledge .
-the shelf and the ball are in the hall .
-the book was missing from the cabinet .
-the shelf is brown .
-the shelf was missing from the mat .
-the bag and the door are in the hall .
-the desk is clean .
-the bag was missing from the counter .
-the door and the book are in the hall .
-the shelf is white .
-the desk and the door are in the hall .
-the lamp and the book are in the hall .
-the bag is on the ledge .
-the book was missing from the table .
-the desk and the ball are in the hall .
-the box was missing from the table .
-the shelf and the mat are clean .
-the lamp is clean .
-the ball is on the cabinet .
-the bag is on the bench .
-the ball is on the table .
-the ball and the table are clean .
-the ball is on the mat .
-the book and the mat are clean .
-a small lamp sits near the ledge .
-the shelf and the door are in the hall .
-a small ball sits near the cabinet .
-a small box sits near the ledge .
-the desk was missing from the table .
-the shelf is on the table .
-the door and the counter are clean .
-the desk and the counter are clean .
-the box is old .
-the book is new .
-the box is on the counter .
-a bird and two birds are near the fence .
 the ball is on the counter .
-the door was missing from the cabinet .
-the book is old .
-the shelf is new .
-the desk is narrow .
-the box was missing from the cabinet .
-the key was missing and the drawer was shut .
-a small box sits near the cabinet .
-the door and the bag are in the hall .
-the shelf is wide .
-the box and the desk are in the hall .
-the shelf was missing from the table .
-a small shelf sits near the ledge .
-the bag is on the cabinet .
-the lamp and the ball are in the hall .
-the desk and the bench are clean .
-the box is on the stool .
-the book is brown .
-the door and the desk are in the hall .
-a small book sits near the bench .
-a small lamp sits near the mat .
-the desk and the cabinet are clean .
-the book and the door are in the hall .
-the desk was missing from the counter .
-the lamp and the shelf are in the hall .
-the ball and the shelf are in the hall .
-a small desk sits near the cabinet .
-the door and the cabinet are clean .
-the box and the bag are in the hall .
-the bag and the book are in the hall .
+a small shelf sits near the table .
+the shelf and the book are in the hall .
 the book was missing from the ledge .
-the lamp and the mat are clean .
-the door is wide .
-the desk and the box are in the hall .
-the book and the box are in the hall .
-the ball and the cabinet are clean .
-the ball is on the bench .
-the shelf is clean .
-the book and the cabinet are clean .
-the desk was missing from the stool .
+the door is on the table .
+the book and the lamp are in the hall .
+the shelf was missing from the mat .
+the shelf is on the bench .
+the shelf and the mat are clean .
+a small ball sits near the mat .
+the bag and the counter are clean .
+a small book sits near the stool .
+the desk is old .
+the box is narrow .
+the book was missing from the mat .
+a small shelf sits near the cabinet .
+the book and the door are in the hall .
+the box and the lamp are in the hall .
+the shelf and the box are in the hall .
+the desk is clean .
+the book and the bench are clean .
+the box is on the mat .
+a small ball sits near the table .
+the box and the counter are clean .
+the lamp was missing from the cabinet .
+the bag was missing from the counter .
+the lamp and the stool are clean .
+a small ball sits near the stool .
 the box was missing from the bench .
-a quiet street and a noisy street share one gate .
-a wide path and a narrow path lead to the bridge .
-the mug stands beside the bowl on the counter .
-a quiet store and a noisy street share one gate .
-the glass stands beside the bowl on the counter .
-a bucket can be full or empty .
-a quiet school and a noisy street share one gate .
-the jar stands beside the bowl on the counter .
-a quiet station and a noisy street share one gate .
-the market is warm in summer and cool in winter .
-the kitchen is warm in summer and cool in winter .
-a quiet hospital and a noisy street share one gate .
-a bowl can be full or empty .
-a quiet garden and a noisy street share one gate .
-a fast path and a slow path lead to the bridge .
-a tall path and a short path lead to the bridge .
-a bottle can be full or empty .
-the room is warm in summer and cool in winter .
-a quiet office and a noisy street share one gate .
-the bank is warm in summer and cool in winter .
-a quiet room and a noisy street share one gate .
-many dogs and many ponies wait near the fence .
-the bucket stands beside the bowl on the counter .
-the bottle stands beside the bowl on the counter .
-a quiet bank and a noisy street share one gate .
-a near path and a far path lead to the bridge .
-a hard path and a soft path lead to the bridge .
-a clean path and a dirty path lead to the bridge .
-the hospital is warm in summer and cool in winter .
-two birds are loud while one sparrow is quiet .
-a basket can be full or empty .
-the door of the office is wide and the window is narrow .
-the office is warm in summer and cool in winter .
-a dark path and a bright path lead to the bridge .
-a wet path and a dry path lead to the bridge .
-a quiet yard and a noisy street share one gate .
-the station is warm in summer and cool in winter .
-a mug can be full or empty .
-a quiet hall and a noisy street share one gate .
-the garden is warm in summer and cool in winter .
+the desk and the ball are in the hall .
+the desk and the box are in the hall .
+a small lamp sits near the mat .
+the lamp is new .
+a small lamp sits near the counter .
+the book was missing from the table .
+the desk is wide .
+the ball was missing from the table .
+the box is on the table .
+the book is new .
+the box was missing from the table .
+the bag was missing from the cabinet .
+the book is old .
+the desk is on the table .
+the bag is brown .
+the box and the cabinet are clean .
+the desk is on the stool .
+the door is old .
+a small lamp sits near the bench .
+a small ball sits near the bench .
+the door and the ball are in the hall .
+the shelf and the table are clean .
+the bag and the table are clean .
+the lamp is brown .
+the ball and the ledge are clean .
+the ball is white .
+the lamp and the ledge are clean .
+the door is on the ledge .
+a bird and two birds are near the fence .
+the desk was missing from the counter .
+the ball is on the bench .
+the desk and the bench are clean .
+a small shelf sits near the stool .
+the box was missing from the ledge .
+the ball was missing from the ledge .
+the desk and the table are clean .
+a small bag sits near the cabinet .
+the door and the ledge are clean .
+the door is white .
+the box is old .
+the bag and the ball are in the hall .
+the book is on the stool .
+the book is on the table .
+the book was missing from the stool .
+a small door sits near the counter .
+the door is clean .
+a small desk sits near the counter .
+the desk is on the ledge .
+the bag is on the stool .
+a small bag sits near the mat .
+the door and the bench are clean .
+the door is narrow .
+a small book sits near the ledge .
+the book is on the counter .
+the bag is on the mat .
+the lamp is white .
+the shelf and the stool are clean .
+a small shelf sits near the counter .
+the shelf was missing from the counter .
+the desk is new .
+the box and the ball are in the hall .
+the door and the bag are in the hall .
+the bag and the mat are clean .
+the desk and the stool are clean .
+a small door sits near the cabinet .
+the ball was missing from the stool .
+a small lamp sits near the stool .
+the door is brown .
+the box was missing from the stool .
+a small book sits near the mat .
+the bag and the box are in the hall .
+the door was missing from the mat .
+the box and the bag are in the hall .
+the shelf was missing from the stool .
+a small door sits near the mat .
+the ball is old .
+the desk and the cabinet are clean .
+the book and the bag are in the hall .
+the desk and the book are in the hall .
+the door and the lamp are in the hall .
+the book is wide .
+the door and the shelf are in the hall .
+the bag and the shelf are in the hall .
+the book and the cabinet are clean .
+the desk is on the cabinet .
+the door was missing from the cabinet .
+the box was missing from the mat .
+the book is brown .
+the door was missing from the bench .
+the ball and the box are in the hall .
+a small shelf sits near the ledge .
+the book was missing from the bench .
+the desk and the ledge are clean .
+the door and the table are clean .
+the lamp was missing from the counter .
+the book and the mat are clean .
+the bag is on the bench .
+the lamp and the table are clean .
+the key was missing and the drawer was shut .
+the bag is new .
+the desk is brown .
+the bag and the stool are clean .
+the desk is on the bench .
+the lamp and the shelf are in the hall .
+the door is on the counter .
+the shelf and the ledge are clean .
+the book is narrow .
+a small box sits near the bench .
+the box was missing from the cabinet .
+the shelf is clean .
+the book and the table are clean .
+the desk was missing from the bench .
+the lamp is on the counter .
+the bag and the door are in the hall .
+the ball and the door are in the hall .
+a small lamp sits near the cabinet .
+the box is on the stool .
+a narrow path and a wide road are near the bridge .
+the shelf is on the ledge .
+the shelf is narrow .
+the book was missing from the cabinet .
+the shelf was missing from the cabinet .
+a small bag sits near the stool .
+the ball is narrow .
+the box is new .
+the lamp and the ball are in the hall .
+the book is clean .
+a small desk sits near the table .
+the book is on the bench .
+a small door sits near the ledge .
+the bag is on the cabinet .
+the bag was missing from the bench .
+the box is on the counter .
+the door is on the stool .
+the lamp was missing from the bench .
+the ball and the lamp are in the hall .
+the book is on the cabinet .
+a quiet street sits beside the noisy market .
+the door and the counter are clean .
+the lamp and the counter are clean .
+the desk and the lamp are in the hall .
+the ball and the shelf are in the hall .
+the box is brown .
+the lamp is on the table .
+two birds are loud but one sparrow is quiet .
+the bag was missing from the mat .
+a small bag sits near the counter .
+the book was missing from the counter .
+the shelf is white .
+the ball is on the table .
+the ball was missing from the cabinet .
+a small ball sits near the ledge .
+the box and the mat are clean .
+the bag is wide .
+a small door sits near the stool .
+a small book sits near the counter .
+a small desk sits near the mat .
+the ball is clean .
+the desk was missing from the cabinet .
+the lamp is on the bench .
+the desk was missing from the ledge .
+the shelf is wide .
+the box and the table are clean .
+the door is on the bench .
+the box is white .
+a small ball sits near the cabinet .
+the book and the ledge are clean .
+the door and the cabinet are clean .
+the desk was missing from the mat .
+the box is clean .
+the desk and the shelf are in the hall .
+the bag is white .
+the bag and the lamp are in the hall .
+the ball is on the mat .
+the book is on the mat .
+the box was missing from the counter .
+a small bag sits near the bench .
+the bag is on the ledge .
+a small box sits near the ledge .
+the lamp and the door are in the hall .
+the shelf and the desk are in the hall .
+the bag and the ledge are clean .
+the ball is brown .
+the box is on the cabinet .
+the bag and the bench are clean .
+the shelf is on the cabinet .
+a small box sits near the mat .
+the ball is on the cabinet .
+a small lamp sits near the table .
+the bag is narrow .
+the ball is new .
+the door was missing from the stool .
+the shelf is on the counter .
+the door is on the mat .
+the lamp and the bag are in the hall .
+the shelf is on the stool .
+the shelf is old .
+the lamp is clean .
+the book is on the ledge .
+the desk is on the mat .
+a small lamp sits near the ledge .
+the book and the stool are clean .
+the door was missing from the counter .
+the bag is on the counter .
+the ball and the bench are clean .
+a small box sits near the stool .
+a small desk sits near the stool .
+the book and the desk are in the hall .
+the lamp is wide .
+the ball and the cabinet are clean .
+the shelf was missing from the table .
+the lamp was missing from the mat .
+the bag was missing from the stool .
+the desk and the door are in the hall .
+the desk and the mat are clean .
+the lamp is narrow .
+the bag is on the table .
+the shelf and the counter are clean .
+the box and the bench are clean .
+the ball was missing from the mat .
+the desk was missing from the stool .
+the box and the desk are in the hall .
+a small door sits near the bench .
+the door was missing from the ledge .
+the box and the door are in the hall .
+the lamp and the desk are in the hall .
+the ball and the desk are in the hall .
+a small box sits near the counter .
+the shelf is new .
+a small ball sits near the counter .
+the shelf and the bag are in the hall .
+the desk is narrow .
+the shelf and the bench are clean .
+the door and the mat are clean .
+the box and the shelf are in the hall .
+the ball and the table are clean .
+the book is white .
+the bag was missing from the ledge .
+the book and the ball are in the hall .
+the desk was missing from the table .
+a small desk sits near the ledge .
+the shelf is on the mat .
+the bag and the cabinet are clean .
+the door is new .
+the door and the box are in the hall .
+a small bag sits near the table .
+the ball was missing from the counter .
+a small book sits near the cabinet .
+a small desk sits near the bench .
+the book and the counter are clean .
+the lamp is on the mat .
+the box and the stool are clean .
+a small shelf sits near the mat .
+the lamp is on the cabinet .
+the shelf was missing from the bench .
+a small shelf sits near the bench .
+the desk and the bag are in the hall .
+the box and the ledge are clean .
+the lamp and the book are in the hall .
+the door is on the cabinet .
+the lamp is old .
+a small book sits near the table .
+the park is north of the river and the school is south of the river .
+the shelf and the ball are in the hall .
+the ball is on the stool .
+the ball was missing from the bench .
+a small book sits near the bench .
+the ball and the counter are clean .
+the desk is white .
+many dogs and many ponies are near the field .
+the shelf and the door are in the hall .
+the ball and the book are in the hall .
+a small box sits near the table .
+the box and the book are in the hall .
+the lamp and the box are in the hall .
+the ball is wide .
+the lamp was missing from the ledge .
+the box is on the bench .
+the shelf and the lamp are in the hall .
+the lamp is on the ledge .
+the bag and the desk are in the hall .
+the bag was missing from the table .
+the bag is old .
+the shelf and the cabinet are clean .
+the box is on the ledge .
+the lamp is on the stool .
+the ball and the bag are in the hall .
+the lamp and the bench are clean .
+the door was missing from the table .
+the lamp and the cabinet are clean .
+the bag is clean .
+the ball and the stool are clean .
+the ball is on the ledge .
+the book and the shelf are in the hall .
+the desk is on the counter .
+the lamp was missing from the table .
+the door and the desk are in the hall .
+the door and the book are in the hall .
+the lamp was missing from the stool .
+the box is wide .
+a small box sits near the cabinet .
+the book and the box are in the hall .
+the desk and the counter are clean .
+the bag and the book are in the hall .
+the shelf is brown .
+the ball and the mat are clean .
+the door is wide .
+a small desk sits near the cabinet .
+the door and the stool are clean .
+the lamp and the mat are clean .
+a small bag sits near the ledge .
+a small door sits near the table .
+the shelf is on the table .
 a glass can be full or empty .
+the mug stands beside the bowl on the counter .
+a quiet street and a noisy street share one gate .
 the cup stands beside the bowl on the counter .
-the school is warm in summer and cool in winter .
-the hall is warm in summer and cool in winter .
-a round plate and a flat board rest on the counter .
-a big path and a small path lead to the bridge .
-the park is north of the bridge and the yard is south of the bridge .
-the bowl stands beside the bowl on the counter .
-the store is warm in summer and cool in winter .
-a quiet market and a noisy street share one gate .
-a quiet kitchen and a noisy street share one gate .
-a cup can be full or empty .
-the basket stands beside the bowl on the counter .
-a early path and a late path lead to the bridge .
-hot water cools in the jar until it is cold .
-a heavy path and a light path lead to the bridge .
-a jar can be full or empty .
+a bucket can be full or empty .
 a old path and a new path lead to the bridge .
+the basket stands beside the bowl on the counter .
+the door of the office is wide and the window is narrow .
+two birds are loud while one sparrow is quiet .
+a quiet market and a noisy street share one gate .
+the hall is warm in summer and cool in winter .
+a fast path and a slow path lead to the bridge .
 the missing key was under the mat beside the gate .
-the yard is warm in summer and cool in winter .
+a clean path and a dirty path lead to the bridge .
+a quiet hospital and a noisy street share one gate .
+the park is north of the bridge and the yard is south of the bridge .
+a quiet garden and a noisy street share one gate .
+many dogs and many ponies wait near the fence .
+the bottle stands beside the bowl on the counter .
 the street is warm in summer and cool in winter .
+a tall path and a short path lead to the bridge .
+a quiet station and a noisy street share one gate .
+a wet path and a dry path lead to the bridge .
+a near path and a far path lead to the bridge .
+a dark path and a bright path lead to the bridge .
+the kitchen is warm in summer and cool in winter .
+a cup can be full or empty .
+the glass stands beside the bowl on the counter .
+a hard path and a soft path lead to the bridge .
+the office is warm in summer and cool in winter .
+a round plate and a flat board rest on the counter .
+the market is warm in summer and cool in winter .
+a quiet office and a noisy street share one gate .
+a bowl can be full or empty .
+a quiet store and a noisy street share one gate .
+a quiet hall and a noisy street share one gate .
+a early path and a late path lead to the bridge .
+a quiet bank and a noisy street share one gate .
+the bowl stands beside the bowl on the counter .
+a jar can be full or empty .
+a mug can be full or empty .
+a big path and a small path lead to the bridge .
+a quiet school and a noisy street share one gate .
+a bottle can be full or empty .
+the store is warm in summer and cool in winter .
+a wide path and a narrow path lead to the bridge .
+the bank is warm in summer and cool in winter .
+hot water cools in the jar until it is cold .
+the bucket stands beside the bowl on the counter .
+the hospital is warm in summer and cool in winter .
+a quiet room and a noisy street share one gate .
+the jar stands beside the bowl on the counter .
+the station is warm in summer and cool in winter .
+a heavy path and a light path lead to the bridge .
+the yard is warm in summer and cool in winter .
+the room is warm in summer and cool in winter .
+the school is warm in summer and cool in winter .
+a basket can be full or empty .
+a quiet kitchen and a noisy street share one gate .
+a quiet yard and a noisy street share one gate .
+the garden is warm in summer and cool in winter .

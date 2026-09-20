@@ -15,10 +15,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "service": 0.2295202761888504,
-      "traffic": 0.0009346033330075443,
-      "juice": 0.0015141353942453861,
-      "code": 3.884738544002175e-05
+      "service": 0.24177712202072144,
+      "traffic": 0.0005713315331377089,
+      "juice": 0.00024410297919530421,
+      "code": 2.104686245729681e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -44,14 +44,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "patient": 1.6956095350906253e-05,
-      "interest": 1.3600978491012938e-05,
-      "lesson": 0.0014786734245717525,
-      "quality": 0.203090101480484
+      "patient": 1.5055967196531128e-05,
+      "interest": 7.136965450627031e-06,
+      "lesson": 0.001635451102629304,
+      "quality": 0.21595081686973572
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "price in detail .",
+    "generated_text": "delivery in detail .",
     "prompt_truncated": false,
     "reason": "The starter repeatedly pairs merchandise with quality and related domain words. The other choices belong to different domains.",
     "stage": "final",
@@ -73,10 +73,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "route": 0.00016597160720266402,
-      "security": 0.0013201291440054774,
-      "payment": 0.24819910526275635,
-      "harvest": 0.0006354026263579726
+      "route": 1.1763627298932988e-05,
+      "security": 0.0011070594191551208,
+      "payment": 0.23013842105865479,
+      "harvest": 5.109092307975516e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -102,14 +102,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "risk": 0.0004088807909283787,
-      "juice": 0.2515707015991211,
-      "support": 0.0008383802487514913,
-      "code": 0.001814608694985509
+      "risk": 7.594801718369126e-05,
+      "juice": 0.26152464747428894,
+      "support": 0.00021657852630596608,
+      "code": 0.0005790063296444714
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "taste in detail .",
+    "generated_text": "harvest in detail .",
     "prompt_truncated": false,
     "reason": "The starter repeatedly pairs mango with juice and related domain words. The other choices belong to different domains.",
     "stage": "final",
@@ -131,14 +131,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "journey": 0.22726993262767792,
-      "treatment": 0.0007169044110924006,
-      "price": 0.0006309787859208882,
-      "learning": 3.121086410828866e-05
+      "journey": 0.20930545032024384,
+      "treatment": 0.0009229767601937056,
+      "price": 0.0008306620293296874,
+      "learning": 0.0010245877783745527
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "journey in detail .",
+    "generated_text": "traffic in detail .",
     "prompt_truncated": false,
     "reason": "The starter repeatedly pairs bicycle with journey and related domain words. The other choices belong to different domains.",
     "stage": "final",
@@ -160,14 +160,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "taste": 0.0015609472757205367,
-      "student": 0.0006405378808267415,
-      "payment": 0.00025104667292907834,
-      "security": 0.23453867435455322
+      "taste": 0.001166778733022511,
+      "student": 0.0008123861625790596,
+      "payment": 0.001332344370894134,
+      "security": 0.20128624141216278
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "update in detail .",
+    "generated_text": "code in detail .",
     "prompt_truncated": false,
     "reason": "The starter repeatedly pairs application with security and related domain words. The other choices belong to different domains.",
     "stage": "final",
@@ -189,14 +189,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "fruit": 2.504701478756033e-05,
-      "traffic": 0.0008362125372514129,
-      "patient": 0.27741289138793945,
-      "delivery": 1.0018103239417542e-05
+      "fruit": 0.002079593949019909,
+      "traffic": 0.000501614180393517,
+      "patient": 0.25303083658218384,
+      "delivery": 6.3443662838835735e-06
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "health in detail .",
+    "generated_text": "treatment in detail .",
     "prompt_truncated": false,
     "reason": "The starter repeatedly pairs surgeon with patient and related domain words. The other choices belong to different domains.",
     "stage": "final",
@@ -218,14 +218,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "journey": 5.893470734008588e-05,
-      "lesson": 0.23590809106826782,
-      "interest": 0.0008329805568791926,
-      "design": 0.0014150699134916067
+      "journey": 0.0005956956301815808,
+      "lesson": 0.1953182965517044,
+      "interest": 0.0020118807442486286,
+      "design": 0.0021899857092648745
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "student in detail .",
+    "generated_text": "course in detail .",
     "prompt_truncated": false,
     "reason": "The starter repeatedly pairs tutor with lesson and related domain words. The other choices belong to different domains.",
     "stage": "final",
@@ -247,10 +247,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "store": 0.902021050453186,
-      "market": 0.015296563506126404,
-      "bank": 0.004988212138414383,
-      "kitchen": 0.025282874703407288
+      "store": 0.8997082710266113,
+      "market": 0.014028570614755154,
+      "bank": 0.021427635103464127,
+      "kitchen": 0.0019364412873983383
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -276,10 +276,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "bank": 0.0005240971222519875,
-      "kitchen": 0.0023428178392350674,
-      "station": 0.014555394649505615,
-      "market": 0.9141820669174194
+      "bank": 0.0006357033271342516,
+      "kitchen": 0.008773932233452797,
+      "station": 0.016016101464629173,
+      "market": 0.9014635682106018
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -305,10 +305,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "station": 0.0048053632490336895,
-      "office": 0.020839057862758636,
-      "bank": 0.851498544216156,
-      "kitchen": 0.010195263661444187
+      "station": 0.00019931844144593924,
+      "office": 0.011143924668431282,
+      "bank": 0.9060167670249939,
+      "kitchen": 0.00036089602508582175
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -334,10 +334,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "hospital": 0.013531808741390705,
-      "kitchen": 0.8730795979499817,
-      "station": 0.012938990257680416,
-      "office": 0.029523339122533798
+      "hospital": 0.021638767793774605,
+      "kitchen": 0.8933491110801697,
+      "station": 0.021819747984409332,
+      "office": 0.01502086129039526
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -363,10 +363,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "station": 0.9006677865982056,
-      "office": 0.0005151053774170578,
-      "hospital": 0.015802446752786636,
-      "school": 0.0011779324850067496
+      "station": 0.8919095396995544,
+      "office": 0.0024199255276471376,
+      "hospital": 0.0034479498863220215,
+      "school": 0.01888827048242092
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -392,10 +392,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "store": 0.0004971973248757422,
-      "market": 0.004671360366046429,
-      "bank": 0.005207287613302469,
-      "office": 0.9146773815155029
+      "store": 0.00026003734092228115,
+      "market": 0.00029705357155762613,
+      "bank": 0.017831407487392426,
+      "office": 0.8791394829750061
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -421,10 +421,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "bank": 0.015252872370183468,
-      "kitchen": 0.006140527315437794,
-      "hospital": 0.9089792966842651,
-      "market": 0.00023292112746275961
+      "bank": 0.020628292113542557,
+      "kitchen": 0.014173117466270924,
+      "hospital": 0.8817922472953796,
+      "market": 0.000348846020642668
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -450,10 +450,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "station": 0.0022139931097626686,
-      "school": 0.8720877766609192,
-      "bank": 0.014777609147131443,
-      "kitchen": 0.0003465792105998844
+      "station": 0.020249322056770325,
+      "school": 0.8759916424751282,
+      "bank": 0.04382790997624397,
+      "kitchen": 0.006543527357280254
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -479,14 +479,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "health": 0.13317854702472687,
-      "traffic": 0.0030199845787137747,
-      "price": 0.00040481946780346334,
-      "juice": 0.0005903244600631297
+      "health": 0.04603738710284233,
+      "traffic": 0.00020562387362588197,
+      "price": 2.668476190592628e-05,
+      "juice": 0.0005281827179715037
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "health at detail .",
+    "generated_text": "scarf at the hospital .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -508,14 +508,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "security": 0.001043369877152145,
-      "risk": 0.0004094759642612189,
-      "harvest": 4.78163747175131e-05,
-      "student": 0.011281938292086124
+      "security": 0.0375809408724308,
+      "risk": 0.01398781593888998,
+      "harvest": 0.0017267001094296575,
+      "student": 0.04512500390410423
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "discussion of learning .",
+    "generated_text": "return at the yard .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -537,14 +537,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "code": 8.023147529456764e-05,
-      "taste": 0.00011796141916420311,
-      "return": 0.005524963140487671,
-      "care": 0.00017413138994015753
+      "code": 0.0013628075830638409,
+      "taste": 1.2983733540750109e-05,
+      "return": 0.023052683100104332,
+      "care": 0.000509553705342114
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "discussion of interest .",
+    "generated_text": "local mortgage .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -566,14 +566,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "data": 4.3277527765894774e-06,
-      "fruit": 0.00011948762403335422,
-      "order": 1.2687273738265503e-05,
-      "payment": 1.0433072020532563e-05
+      "data": 0.0066024563275277615,
+      "fruit": 0.19434605538845062,
+      "order": 0.00012409384362399578,
+      "payment": 8.080802945187315e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "new mango .",
+    "generated_text": "fruit .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -595,14 +595,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "route": 0.00900680385529995,
-      "lesson": 8.110337148536928e-06,
-      "design": 8.216471906052902e-05,
-      "patient": 1.696833896858152e-05
+      "route": 0.0033398610539734364,
+      "lesson": 0.00034230956225655973,
+      "design": 0.00017998769180849195,
+      "patient": 0.00013583307736553252
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "van are van .",
+    "generated_text": "drawer hangs above the drawer .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -624,14 +624,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "harvest": 0.0015916891861706972,
-      "journey": 1.2353206329862587e-05,
-      "treatment": 5.3970152293914e-06,
-      "update": 0.027148136869072914
+      "harvest": 0.0002687123487703502,
+      "journey": 0.0003170542768202722,
+      "treatment": 0.000436040892964229,
+      "update": 0.047973357141017914
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "local slowly .",
+    "generated_text": "she cleaned .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -653,14 +653,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "health": 8.585450927967031e-07,
-      "interest": 7.929713319754228e-06,
-      "support": 0.00030870846239849925,
-      "traffic": 2.2490383344120346e-05
+      "health": 0.004708311054855585,
+      "interest": 0.002243942115455866,
+      "support": 0.037241723388433456,
+      "traffic": 0.0009753917111083865
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "important merchandise .",
+    "generated_text": "service .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -682,14 +682,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "code": 6.714234928040241e-07,
-      "delivery": 2.3164950107457116e-05,
-      "student": 2.072491497528972e-06,
-      "juice": 8.401619311371178e-07
+      "code": 1.4724880202265922e-05,
+      "delivery": 0.004571103490889072,
+      "student": 7.77912064222619e-05,
+      "juice": 6.152505375212058e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "new brand .",
+    "generated_text": "price .",
     "prompt_truncated": false,
     "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
     "stage": "final",
@@ -711,14 +711,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "is": 0.7124261856079102,
-      "are": 0.0003588001418393105,
-      "were": 0.0003949130477849394,
-      "am": 1.7868445866042748e-05
+      "is": 0.31181222200393677,
+      "are": 0.00015454477397724986,
+      "were": 4.5564954120891343e-07,
+      "am": 5.021786273573525e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "was tall .",
+    "generated_text": "was slow .",
     "prompt_truncated": false,
     "reason": "A singular third-person subject takes is in the present tense.",
     "stage": "final",
@@ -740,10 +740,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "is": 8.47786504891701e-05,
-      "am": 1.5748870282550342e-05,
-      "was": 4.899759460386122e-06,
-      "are": 0.9945651292800903
+      "is": 0.004210080951452255,
+      "am": 0.0004505988035816699,
+      "was": 0.0015918321441859007,
+      "are": 0.9759936928749084
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -769,14 +769,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "walking": 0.00013564825349021703,
-      "walk": 3.473543984000571e-05,
-      "walked": 0.14332786202430725,
-      "walks": 0.0003158833715133369
+      "walking": 0.00010837121226359159,
+      "walk": 5.449394666356966e-05,
+      "walked": 0.10176865011453629,
+      "walks": 0.00011102684220531955
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "cleaned and she jumped as well .",
+    "generated_text": "desk and she cleaned too .",
     "prompt_truncated": false,
     "reason": "The explicit past-time cue calls for the past-tense form walked.",
     "stage": "final",
@@ -798,14 +798,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "fast": 0.0017490721074864268,
-      "cold": 0.17193904519081116,
-      "warm": 0.005128677934408188,
-      "heavy": 0.0012171699199825525
+      "fast": 3.827058390015736e-05,
+      "cold": 0.7324127554893494,
+      "warm": 0.0019078387413173914,
+      "heavy": 4.581901157507673e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "noisy .",
+    "generated_text": "cold .",
     "prompt_truncated": false,
     "reason": "Hot and cold form the intended temperature contrast.",
     "stage": "final",
@@ -823,14 +823,14 @@
       "soft"
     ],
     "expected": "full",
-    "predicted_choice": "full",
-    "score": 1,
+    "predicted_choice": "early",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "full": 0.0303172804415226,
-      "quiet": 0.0015767994336783886,
-      "early": 0.0007819943712092936,
-      "soft": 0.00013414135901257396
+      "full": 0.014133568853139877,
+      "quiet": 0.004097604192793369,
+      "early": 0.015760356560349464,
+      "soft": 0.011462206952273846
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -856,14 +856,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "loud": 0.018926028162240982,
-      "round": 8.492088818456978e-05,
-      "late": 0.00025599857326596975,
-      "quiet": 0.39764177799224854
+      "loud": 0.002205153927206993,
+      "round": 5.2771287300856784e-05,
+      "late": 0.00014635069237556309,
+      "quiet": 0.30085644125938416
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "noisy .",
+    "generated_text": "warm .",
     "prompt_truncated": false,
     "reason": "Noisy and quiet contrast the amount of sound.",
     "stage": "final",
@@ -881,18 +881,18 @@
       "red"
     ],
     "expected": "blue",
-    "predicted_choice": "blue",
-    "score": 1,
+    "predicted_choice": "red",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "green": 0.11767417937517166,
-      "yellow": 0.007515147794038057,
-      "blue": 0.5893135070800781,
-      "red": 0.00647583045065403
+      "green": 0.09015288203954697,
+      "yellow": 0.022437583655118942,
+      "blue": 0.20445774495601654,
+      "red": 0.24189196527004242
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "blue .",
+    "generated_text": "red .",
     "prompt_truncated": false,
     "reason": "Use the positive color statement rather than the explicitly rejected color.",
     "stage": "final",
@@ -923,7 +923,7 @@
       "milk",
       "tea"
     ],
-    "generated_text": "morning .",
+    "generated_text": "water .",
     "prompt_truncated": false,
     "reason": "The purchase is milk; the tea purchase is explicitly negated.",
     "stage": "final",
@@ -945,10 +945,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "closed": 0.46680670976638794,
-      "open": 1.939379217219539e-05,
-      "wide": 0.0009916875278577209,
-      "missing": 1.0381067113485187e-05
+      "closed": 0.390813946723938,
+      "open": 7.205504516605288e-05,
+      "wide": 0.002299607265740633,
+      "missing": 4.2292253056075424e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -986,7 +986,7 @@
       "omar",
       "maya"
     ],
-    "generated_text": ".",
+    "generated_text": "makes the hall .",
     "prompt_truncated": false,
     "reason": "Leo thanks the person who lent the book, Maya.",
     "stage": "final",
@@ -1013,7 +1013,8 @@
       "finn",
       "gave",
       "pencil",
-      "received"
+      "received",
+      "who"
     ],
     "unknown_choices": [
       "sara",
@@ -1021,7 +1022,7 @@
       "finn",
       "ella"
     ],
-    "generated_text": "dirty .",
+    "generated_text": "light .",
     "prompt_truncated": false,
     "reason": "Finn is the recipient rather than the giver.",
     "stage": "final",
@@ -1046,7 +1047,6 @@
     "unknown_prompt_words": [
       "answered",
       "call",
-      "called",
       "nina",
       "omar"
     ],
@@ -1056,7 +1056,7 @@
       "nina",
       "luca"
     ],
-    "generated_text": "the jar and",
+    "generated_text": "the gate is",
     "prompt_truncated": false,
     "reason": "Omar is the caller; Nina is the person answering.",
     "stage": "final",
@@ -1078,14 +1078,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "dry": 0.005446624010801315,
-      "wash": 0.0067673297598958015,
-      "buy": 0.03760773316025734,
-      "fill": 0.10883954167366028
+      "dry": 0.006635207682847977,
+      "wash": 0.002431654604151845,
+      "buy": 0.08628527075052261,
+      "fill": 0.19953662157058716
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "seal .",
+    "generated_text": "fill .",
     "prompt_truncated": false,
     "reason": "Drying follows washing in the stated sequence.",
     "stage": "final",
@@ -1107,14 +1107,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "lunch": 0.2321852296590805,
-      "dinner": 0.19262659549713135,
-      "supper": 0.1298653781414032,
-      "breakfast": 0.0020007772836834192
+      "lunch": 0.22380207479000092,
+      "dinner": 0.14703595638275146,
+      "supper": 0.13402019441127777,
+      "breakfast": 0.00028654804918915033
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "lunch .",
+    "generated_text": "dinner .",
     "prompt_truncated": false,
     "reason": "The relation after makes breakfast the earlier meal.",
     "stage": "final",
@@ -1136,14 +1136,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "taxi": 0.25662344694137573,
-      "car": 0.251391738653183,
-      "bus": 0.04269605875015259,
-      "train": 0.0463828518986702
+      "taxi": 0.2071283459663391,
+      "car": 0.1992732733488083,
+      "bus": 0.05625005066394806,
+      "train": 0.05578405037522316
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "truck .",
+    "generated_text": "taxi .",
     "prompt_truncated": false,
     "reason": "Reverse the stated before relation to identify the later arrival.",
     "stage": "final",
@@ -1161,18 +1161,18 @@
       "desk"
     ],
     "expected": "book",
-    "predicted_choice": "shelf",
-    "score": 0,
+    "predicted_choice": "book",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "lamp": 0.015223153866827488,
-      "book": 0.016472825780510902,
-      "shelf": 0.02041131816804409,
-      "desk": 0.009960521012544632
+      "lamp": 0.0027719554491341114,
+      "book": 0.003936089109629393,
+      "shelf": 0.002275200095027685,
+      "desk": 0.0030428124591708183
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "hall .",
+    "generated_text": "fence .",
     "prompt_truncated": false,
     "reason": "Restate inside as the inverse relation contains.",
     "stage": "final",
@@ -1190,18 +1190,18 @@
       "beside"
     ],
     "expected": "below",
-    "predicted_choice": "below",
-    "score": 1,
+    "predicted_choice": "beside",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "below": 0.28228333592414856,
-      "above": 0.002447557169944048,
-      "inside": 0.000478918052976951,
-      "beside": 0.0030831687618047
+      "below": 0.00016366080672014505,
+      "above": 1.2809904319510679e-06,
+      "inside": 0.0019569466821849346,
+      "beside": 0.010278236120939255
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "below .",
+    "generated_text": ".",
     "prompt_truncated": false,
     "reason": "Above and below are inverse vertical relations.",
     "stage": "final",
@@ -1219,18 +1219,18 @@
       "right"
     ],
     "expected": "right",
-    "predicted_choice": "left",
-    "score": 0,
+    "predicted_choice": "right",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "left": 0.05591350793838501,
-      "north": 0.0002943082945421338,
-      "south": 0.0004873012949246913,
-      "right": 0.05585682764649391
+      "left": 0.042515914887189865,
+      "north": 0.04097592830657959,
+      "south": 0.03041621297597885,
+      "right": 0.5899962186813354
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "light .",
+    "generated_text": "right of the fence .",
     "prompt_truncated": false,
     "reason": "Reverse the stated horizontal relation; complete with right.",
     "stage": "final",
@@ -1252,14 +1252,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "sand": 6.005092927807709e-06,
-      "wood": 1.5023781998024788e-05,
-      "ice": 0.00041484981193207204,
-      "steam": 1.1184452120005517e-07
+      "sand": 5.282311121845851e-06,
+      "wood": 1.335076285613468e-05,
+      "ice": 4.128411819692701e-05,
+      "steam": 1.0457758037318854e-07
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "the ice is at the mug .",
+    "generated_text": "the ice and he went into the cup .",
     "prompt_truncated": false,
     "reason": "Freezing changes liquid water into ice.",
     "stage": "final",
@@ -1281,14 +1281,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "asleep": 0.0008405312546528876,
-      "dry": 0.12146677821874619,
-      "wet": 0.008597121573984623,
-      "hungry": 1.1468830962257925e-05
+      "asleep": 0.007566552143543959,
+      "dry": 0.430818647146225,
+      "wet": 0.0071961116045713425,
+      "hungry": 9.612675057724118e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "warm near the street .",
+    "generated_text": "warm .",
     "prompt_truncated": false,
     "reason": "An umbrella typically keeps a person dry in rain.",
     "stage": "final",
@@ -1306,18 +1306,18 @@
       "shoe"
     ],
     "expected": "light",
-    "predicted_choice": "spoon",
+    "predicted_choice": "shoe",
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "light": 4.066414476255886e-05,
-      "pillow": 0.0018180538900196552,
-      "spoon": 0.0018617562018334866,
-      "shoe": 0.0014764894731342793
+      "light": 0.001577218878082931,
+      "pillow": 0.001722161890938878,
+      "spoon": 0.00456080911681056,
+      "shoe": 0.029149698093533516
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "person see and a blade .",
+    "generated_text": "bright .",
     "prompt_truncated": false,
     "reason": "A light illuminates a dark room.",
     "stage": "final",
@@ -1335,18 +1335,18 @@
       "fish"
     ],
     "expected": "fish",
-    "predicted_choice": "bird",
+    "predicted_choice": "tree",
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "bird": 0.035521168261766434,
-      "tree": 0.0012880873400717974,
-      "tool": 0.00031803379533812404,
-      "fish": 0.0009564760839566588
+      "bird": 0.0014430423034355044,
+      "tree": 0.0036655724979937077,
+      "tool": 0.003391553182154894,
+      "fish": 0.0010605446295812726
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "horse and a bird .",
+    "generated_text": "last action has a .",
     "prompt_truncated": false,
     "reason": "Salmon belongs to the fish category.",
     "stage": "final",
@@ -1364,18 +1364,18 @@
       "horse"
     ],
     "expected": "cat",
-    "predicted_choice": "horse",
+    "predicted_choice": "goat",
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "duck": 0.004086143337190151,
-      "goat": 0.004726572893559933,
-      "cat": 0.14564460515975952,
-      "horse": 0.14884479343891144
+      "duck": 0.003615157213062048,
+      "goat": 0.004490159917622805,
+      "cat": 0.003476254642009735,
+      "horse": 0.0031913812272250652
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "dog .",
+    "generated_text": "young dog .",
     "prompt_truncated": false,
     "reason": "Match the young animal to its adult category.",
     "stage": "final",
@@ -1397,14 +1397,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "fabric": 0.0005448057199828327,
-      "fruit": 0.00016235836665146053,
-      "metal": 0.0005766202230006456,
-      "vehicle": 0.01702844351530075
+      "fabric": 0.00015377611271105707,
+      "fruit": 0.00017545261653140187,
+      "metal": 0.00018602200725581497,
+      "vehicle": 0.010521044954657555
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "person vehicle and a flat .",
+    "generated_text": "spoon and",
     "prompt_truncated": false,
     "reason": "An apple belongs to the fruit category in this food classification.",
     "stage": "final",

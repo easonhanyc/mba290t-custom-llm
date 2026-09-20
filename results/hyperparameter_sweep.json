@@ -1,0 +1,248 @@
+{
+  "baseline": {
+    "training_steps": 3000,
+    "learning_rate": 0.001,
+    "corpus": "corpus_seven"
+  },
+  "method": "One variable changed per row; corpus, architecture, eval suite and all other settings identical. Two seeds per point.",
+  "points": [
+    {
+      "training_steps": 1500,
+      "learning_rate": 0.001,
+      "changed_from_baseline": "steps",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        31,
+        33
+      ],
+      "mean_correct": 32,
+      "scorable": 44,
+      "mean_final_train_loss": 0.9928,
+      "mean_final_val_loss": 0.9789
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.001,
+      "changed_from_baseline": "baseline",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        34,
+        37
+      ],
+      "mean_correct": 35.5,
+      "scorable": 44,
+      "mean_final_train_loss": 0.8264,
+      "mean_final_val_loss": 0.8184
+    },
+    {
+      "training_steps": 6000,
+      "learning_rate": 0.001,
+      "changed_from_baseline": "steps",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        32,
+        36
+      ],
+      "mean_correct": 34,
+      "scorable": 44,
+      "mean_final_train_loss": 0.8058,
+      "mean_final_val_loss": 0.7865
+    },
+    {
+      "training_steps": 12000,
+      "learning_rate": 0.001,
+      "changed_from_baseline": "steps",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        35,
+        36
+      ],
+      "mean_correct": 35.5,
+      "scorable": 44,
+      "mean_final_train_loss": 0.7901,
+      "mean_final_val_loss": 0.7928
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.0005,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        32,
+        33
+      ],
+      "mean_correct": 32.5,
+      "scorable": 44,
+      "mean_final_train_loss": 0.94,
+      "mean_final_val_loss": 0.942
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.002,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        35,
+        35
+      ],
+      "mean_correct": 35,
+      "scorable": 44,
+      "mean_final_train_loss": 0.8075,
+      "mean_final_val_loss": 0.7919
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.003,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        37,
+        37
+      ],
+      "mean_correct": 37,
+      "scorable": 44,
+      "mean_final_train_loss": 0.8052,
+      "mean_final_val_loss": 0.7882
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.004,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        39,
+        39
+      ],
+      "mean_correct": 39,
+      "scorable": 44,
+      "mean_final_train_loss": 0.7996,
+      "mean_final_val_loss": 0.7885
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.006,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        38,
+        40
+      ],
+      "mean_correct": 39,
+      "scorable": 44,
+      "mean_final_train_loss": 0.793,
+      "mean_final_val_loss": 0.7847
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.008,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        39,
+        37
+      ],
+      "mean_correct": 38,
+      "scorable": 44,
+      "mean_final_train_loss": 0.8003,
+      "mean_final_val_loss": 0.785
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.012,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        39,
+        36
+      ],
+      "mean_correct": 37.5,
+      "scorable": 44,
+      "mean_final_train_loss": 0.798,
+      "mean_final_val_loss": 0.7875
+    },
+    {
+      "training_steps": 3000,
+      "learning_rate": 0.02,
+      "changed_from_baseline": "learning_rate",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        37,
+        36
+      ],
+      "mean_correct": 36.5,
+      "scorable": 44,
+      "mean_final_train_loss": 0.7929,
+      "mean_final_val_loss": 0.7901
+    },
+    {
+      "training_steps": 6000,
+      "learning_rate": 0.004,
+      "changed_from_baseline": "steps",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        38,
+        39
+      ],
+      "mean_correct": 38.5,
+      "scorable": 44,
+      "mean_final_train_loss": 0.7999,
+      "mean_final_val_loss": 0.7964
+    },
+    {
+      "training_steps": 1500,
+      "learning_rate": 0.004,
+      "changed_from_baseline": "steps",
+      "seeds": [
+        42,
+        7
+      ],
+      "correct_by_seed": [
+        38,
+        36
+      ],
+      "mean_correct": 37,
+      "scorable": 44,
+      "mean_final_train_loss": 0.8261,
+      "mean_final_val_loss": 0.8017
+    }
+  ]
+}

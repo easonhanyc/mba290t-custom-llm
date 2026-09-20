@@ -1,6 +1,6 @@
 {
   "model": "experiments/seven/llm_run/model.pt",
-  "model_sha256": "124b10dc2433c0b75e2419f1b3423e70da37dc6397b47cc0ef517599f469cd33",
+  "model_sha256": "f0ef15cf309ffad268e5f47b03bde05b5f990d949fe65e349aac219467d670a6",
   "completed_steps": 3000,
   "fresh_context_per_prompt": true,
   "temperature": 0.8,
@@ -16,14 +16,14 @@
     {
       "prompt": "the pen is inside the jar . the jar contains the",
       "seed": 2027,
-      "response": "loan .",
+      "response": "pen .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
     {
       "prompt": "yesterday the farmer",
       "seed": 2028,
-      "response": "walked and she steam helped .",
+      "response": "counted and she moved too .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
@@ -37,14 +37,14 @@
     {
       "prompt": "a hungry person uses a",
       "seed": 2030,
-      "response": "spoon for the rice explains the market .",
+      "response": "spoon for the bread in the hall .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
     {
       "prompt": "what do you think about the french revolution",
       "seed": 2031,
-      "response": "makes the jar .",
+      "response": "makes the road .",
       "unknown_prompt_words": [
         "do",
         "french",

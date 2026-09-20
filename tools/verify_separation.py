@@ -33,7 +33,7 @@ from run_evals import load_suite, matching_cases, word_tokens  # noqa: E402
 UPSTREAM_SUITE_SHA256 = "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7"
 EVAL_NAMES = {"ava", "ella", "finn", "maya", "leo", "nora", "omar",
               "sara", "noah", "nina", "emma", "luca"}
-EXPERIMENTS = ["starter", "expanded", "seven"]
+EXPERIMENTS = ["starter", "expanded", "seven", "tuned"]
 STAGES = ["untrained", "final"]
 
 

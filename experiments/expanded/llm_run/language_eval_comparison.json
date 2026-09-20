@@ -140,7 +140,7 @@
   "final": {
     "suite_id": "synthetic-language-v1",
     "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-    "model_sha256": "3fef787718bc1f570870513f1a7b07166551798574e5981643f59d585d87ee74",
+    "model_sha256": "4f860a3885386c0079f2f966d372bc3a24c32f349fe3e8e53a2c290892215100",
     "stage": "final",
     "settings": {
       "seed": 2026,
@@ -151,20 +151,20 @@
     "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
     "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
     "overall": {
-      "correct": 32,
+      "correct": 35,
       "total": 48,
       "scorable": 35,
-      "success_rate_all_cases": 0.6666666666666666,
-      "accuracy_scorable_cases": 0.9142857142857143,
+      "success_rate_all_cases": 0.7291666666666666,
+      "accuracy_scorable_cases": 1.0,
       "coverage": 0.7291666666666666
     },
     "by_group": {
       "extend_corpus": {
-        "correct": 8,
+        "correct": 11,
         "total": 24,
         "scorable": 11,
-        "success_rate_all_cases": 0.3333333333333333,
-        "accuracy_scorable_cases": 0.7272727272727273,
+        "success_rate_all_cases": 0.4583333333333333,
+        "accuracy_scorable_cases": 1.0,
         "coverage": 0.4583333333333333
       },
       "starter_patterns": {
@@ -266,11 +266,11 @@
         "coverage": 0.0
       },
       "spatial_relations": {
-        "correct": 0,
+        "correct": 3,
         "total": 3,
         "scorable": 3,
-        "success_rate_all_cases": 0.0,
-        "accuracy_scorable_cases": 0.0,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
         "coverage": 1.0
       }
     }

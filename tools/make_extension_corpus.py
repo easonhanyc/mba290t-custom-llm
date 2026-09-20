@@ -46,6 +46,19 @@ from run_evals import load_suite, matching_cases, word_tokens  # noqa: E402
 
 MIN_GUARDED_SUFFIX = 3
 MAX_ANSWER_SHARE = 0.5
+# Paraphrase guard: no single passage may carry more than this share of a case's
+# content words AND its answer. Cases with fewer than MIN_CONTENT_WORDS content
+# words are exempt - any legitimate sentence using "dogs" covers 100% of the
+# content of the prompt "the dogs" - and are protected by BANNED_PHRASES instead.
+MAX_CONTENT_COVERAGE = 0.75
+MIN_CONTENT_WORDS = 3
+STOPWORDS = {
+    "the", "a", "an", "is", "are", "was", "were", "am", "be", "been", "of", "to",
+    "in", "on", "at", "and", "or", "but", "it", "its", "this", "that", "these",
+    "those", "for", "with", "as", "by", "from", "we", "he", "she", "they", "i",
+    "you", "his", "her", "their", "our", "not", "no", "so", "then", "than", "up",
+    "down", "out", ".", ",", "?", "!", ";", ":", "'", "-",
+}
 
 # Every proper name that appears anywhere in the eval suite. The corpus uses a
 # disjoint set, so cases that hinge on these names stay out of vocabulary. That is
@@ -320,10 +333,15 @@ def _safe(*words):
 
 
 def spatial(rng):
-    """The eval's own nouns are excluded from every relational frame. For the
-    inverse relations the answer is a relation word that does not change with the
-    nouns, so keeping the eval's nouns out is the only way to stop the case being
-    answerable from a memorised continuation."""
+    """The eval's own nouns are excluded from every relational frame. For the inverse
+    relations the answer is a relation word that does not change with the nouns, so
+    keeping the eval's nouns out is the only way to stop the case being answerable
+    from a memorised continuation.
+
+    Every relation is emitted symmetrically: each direction word appears exactly as
+    often as its inverse, and every object pair appears in both orders. An earlier
+    version sampled the pairs, which left `left` and `right` at different frequencies
+    and let the model lean on a prior instead of resolving the direction."""
     lines = []
     for small in SMALL_THINGS:
         for holder in HOLDERS:
@@ -341,9 +359,10 @@ def spatial(rng):
                 f"the {fixture} is above the {surface} .the {surface} is below the {fixture} .",
                 f"the {surface} is below the {fixture} .the {fixture} is above the {surface} .",
                 f"the {fixture} hangs above the {surface} .the {surface} sits below the {fixture} .",
+                f"the {surface} sits below the {fixture} .the {fixture} hangs above the {surface} .",
             ]
     for left_thing in SMALL_THINGS:
-        for right_thing in rng.sample(HOLDERS, 5):
+        for right_thing in HOLDERS:
             if not _safe(left_thing, right_thing):
                 continue
             lines += [
@@ -351,23 +370,32 @@ def spatial(rng):
                 f"the {right_thing} is to the right of the {left_thing} .",
                 f"the {left_thing} is right of the {right_thing} ."
                 f"the {right_thing} is to the left of the {left_thing} .",
+                f"the {right_thing} is left of the {left_thing} ."
+                f"the {left_thing} is to the right of the {right_thing} .",
+                f"the {right_thing} is right of the {left_thing} ."
+                f"the {left_thing} is to the left of the {right_thing} .",
             ]
     for thing in SMALL_THINGS:
-        surface, other = rng.choice(SURFACES), rng.choice(FIXTURES)
-        if not _safe(thing, surface, other):
-            continue
-        lines += [
-            f"the {thing} is beside the {surface} .the {surface} is beside the {thing} .",
-            f"the {thing} is under the {surface} .the {surface} is over the {thing} .",
-            f"the {thing} sits on the {surface} .the {surface} holds the {thing} .",
-            f"the {thing} is in front of the {other} .the {other} is behind the {thing} .",
-            f"the {thing} is north of the {surface} .the {surface} is south of the {thing} .",
-            f"the {thing} is south of the {surface} .the {surface} is north of the {thing} .",
-        ]
+        for surface in SURFACES:
+            if not _safe(thing, surface):
+                continue
+            lines += [
+                f"the {thing} is beside the {surface} .the {surface} is beside the {thing} .",
+                f"the {thing} is under the {surface} .the {surface} is over the {thing} .",
+                f"the {surface} is over the {thing} .the {thing} is under the {surface} .",
+                f"the {thing} sits on the {surface} .the {surface} holds the {thing} .",
+                f"the {thing} is north of the {surface} .the {surface} is south of the {thing} .",
+                f"the {surface} is north of the {thing} .the {thing} is south of the {surface} .",
+            ]
+        for other in FIXTURES:
+            if not _safe(thing, other):
+                continue
+            lines += [
+                f"the {thing} is in front of the {other} .the {other} is behind the {thing} .",
+                f"the {other} is in front of the {thing} .the {thing} is behind the {other} .",
+            ]
     rng.shuffle(lines)
     return sentences(lines)
-
-
 # ==========================================================================
 # sequence  (optional third experiment)
 # ==========================================================================
@@ -458,10 +486,13 @@ def everyday(rng):
             ]
     for thing in THINGS:
         for state in ["dry", "warm", "clean"]:
+            # No passage may carry all of {person, uses, umbrella, stay} together with
+            # the answer "dry" - that would be a reworded test item, and the paraphrase
+            # guard rejects it. The umbrella-to-dry link is taught without "uses"/"stay".
             lines += [
-                f"a person uses an umbrella and will stay {state} near the {thing} .",
                 f"the umbrella keeps a person dry when the {thing} is wet .",
                 f"rain makes the {thing} wet but an umbrella keeps a person dry .",
+                f"under an umbrella the {thing} and the walker are dry .",
                 f"a person uses an umbrella in wet weather near the {thing} .",
                 f"a person will stay {state} beside the {thing} .",
             ]
@@ -494,21 +525,29 @@ def everyday(rng):
 # categories and analogies  (optional third experiment)
 # ==========================================================================
 def categories(rng):
-    """Category facts in sentences, never in the eval's own frame ("a X is a Y"
-    and "grows into a" are both avoided). Templated over every pair within a group
-    so each group name appears in many distinct passages."""
+    """Category facts in sentences, never in the eval's own frame ("a X is a Y" and
+    "grows into a" are both avoided).
+
+    Every group has exactly the same number of members and generates exactly the same
+    number of lines. That balance is the point: an earlier version gave `birds` six
+    members and `vehicle` sixty lines, and the model answered two eval cases with the
+    most frequent category name rather than the right one (`bird` over `fish`,
+    `vehicle` over `fruit`). Equal frequency removes that prior, the same fix that
+    made the negation material work."""
     lines = []
     groups = {
-        "birds": ["robin", "sparrow", "crow", "owl", "hen", "duck"],
+        "birds": ["robin", "sparrow", "crow", "hen"],
         "fish": ["salmon", "trout", "carp", "bass"],
         "trees": ["oak", "pine", "willow", "elm"],
-        "tools": ["hammer", "brush", "blade", "spoon"],
+        "tools": ["hammer", "brush", "blade", "spade"],
         "fruit": ["apple", "pear", "peach", "banana"],
         "vegetables": ["carrot", "bean", "onion", "pea"],
     }
+    singular = {"birds": "bird", "fish": "fish", "trees": "tree",
+                "tools": "tool", "fruit": "fruit", "vegetables": "vegetable"}
     for group, members in groups.items():
-        singular = {"birds": "bird", "fish": "fish", "trees": "tree",
-                    "tools": "tool", "fruit": "fruit", "vegetables": "vegetable"}[group]
+        assert len(members) == 4, "groups must stay the same size"
+        one = singular[group]
         for first in members:
             for second in members:
                 if first == second:
@@ -516,19 +555,16 @@ def categories(rng):
                 lines += [
                     f"the {first} and the {second} are {group} .",
                     f"a {first} and a {second} are {group} .",
-                    f"the {first} and the {second} are near the {singular} .",
+                    f"the {first} and the {second} are near the {one} .",
                 ]
             for place in ROOMS[:5]:
                 lines.append(f"the {group} and the {first} are in the {place} .")
-            lines.append(f"a {first} is one of the {group} and so is a {singular} .")
-    young = [("puppy", "dog"), ("kitten", "cat"), ("lamb", "sheep"), ("foal", "horse")]
-    for small, grown in young:
-        for place in ROOMS[:6]:
             lines += [
-                f"the {small} grows and the {grown} is in the {place} .",
-                f"a {small} grows and then a {grown} is near the {place} .",
-                f"the young {grown} grows in the {place} .",
+                f"a {first} is one of the {group} .",
+                f"the {one} called {first} is here .",
             ]
+    young = [("puppy", "dog"), ("kitten", "cat"), ("lamb", "sheep"),
+             ("foal", "horse"), ("duckling", "duck"), ("kid", "goat")]
     for small, grown in young:
         for other_small, other_grown in young:
             if small == other_small:
@@ -537,8 +573,9 @@ def categories(rng):
                 f"a {small} grows and is a {grown} .",
                 f"the {small} grows and the {grown} is near .",
                 f"a {small} is a young {grown} and a {other_small} is a young {other_grown} .",
-                f"the {small} and the {other_small} grow and are a {grown} and a {other_grown} .",
             ]
+        for place in ROOMS[:5]:
+            lines.append(f"the {small} grows and the {grown} is in the {place} .")
     materials = [("cloth", "fabric"), ("coin", "metal"), ("board", "wood")]
     for thing, material in materials:
         for other_thing, other_material in materials:
@@ -547,17 +584,16 @@ def categories(rng):
             lines += [
                 f"the {thing} is made of {material} and the {other_thing} is made of {other_material} .",
                 f"{material} makes the {thing} and {other_material} makes the {other_thing} .",
-                f"the {material} and the {other_material} are hard .",
             ]
-    vehicles = ["car", "bus", "truck", "taxi", "train", "van"]
+        for place in ROOMS[:5]:
+            lines.append(f"the {material} and the {thing} are in the {place} .")
+    # Kept deliberately small: "vehicle" only needs to be in the vocabulary as a
+    # distractor, and an earlier over-supply of it swamped a different case.
+    vehicles = ["car", "bus", "truck", "taxi"]
     for first in vehicles:
         for second in vehicles:
             if first != second:
-                lines += [f"the {first} and the {second} are each a vehicle .",
-                          f"a {first} is a vehicle and a {second} is a vehicle ."]
-    for animal in ["goat", "horse", "duck", "cat", "dog"]:
-        for place in ROOMS[:5]:
-            lines.append(f"a {animal} is near the {place} .")
+                lines.append(f"the {first} and the {second} are each a vehicle .")
     rng.shuffle(lines)
     return sentences(lines)
 # ==========================================================================
@@ -667,6 +703,31 @@ def answer_continuation_guard(passages, suite):
     return problems, worst
 
 
+def paraphrase_guard(passages, suite):
+    """Check 6: no passage is a reworded test item. See MAX_CONTENT_COVERAGE."""
+    token_sets = [set(p) for p in passages]
+    problems, worst = [], []
+    for case in suite["cases"]:
+        prompt_content = {t for t in word_tokens(case["prompt"]) if t not in STOPWORDS}
+        if len(prompt_content) < MIN_CONTENT_WORDS:
+            continue
+        answer = word_tokens(case["answer"])[0]
+        best, best_index = 0.0, None
+        for index, tokens in enumerate(token_sets):
+            if answer not in tokens:
+                continue
+            coverage = len(prompt_content & tokens) / len(prompt_content)
+            if coverage > best:
+                best, best_index = coverage, index
+        worst.append((case["id"], best, " ".join(passages[best_index]) if best_index is not None else ""))
+        if best > MAX_CONTENT_COVERAGE:
+            problems.append(
+                f"{case['id']}: a single passage covers {best:.0%} of its content words "
+                f"{sorted(prompt_content)} and also contains the answer {answer!r}: "
+                f"{' '.join(passages[best_index])!r}")
+    return problems, worst
+
+
 def verify(texts, suite):
     problems = []
     for name, text in texts.items():
@@ -693,10 +754,12 @@ def verify(texts, suite):
                 passages.append(word_tokens(line))
     guard_problems, worst = answer_continuation_guard(passages, suite)
     problems += guard_problems
+    paraphrase_problems, paraphrase_worst = paraphrase_guard(passages, suite)
+    problems += paraphrase_problems
     if problems:
         raise SystemExit("Separation check FAILED:\n  " + "\n  ".join(problems))
     worst.sort(key=lambda row: (-row[1], -row[2]))
-    print("Separation checks passed (5/5).")
+    print("Separation checks passed (6/6).")
     print(f"  Longest eval-prompt suffix appearing in the generated text: "
           f"{worst[0][1]} tokens ({worst[0][0]}) -> {worst[0][3]!r}, "
           f"answer follows {worst[0][2]:.0%} of the time")
@@ -705,6 +768,10 @@ def verify(texts, suite):
           f"{len(risky)} (threshold is > {MAX_ANSWER_SHARE:.0%} of continuations)")
     for row in risky[:5]:
         print(f"    {row[0]}: {row[1]} tokens, answer follows {row[2]:.0%} - {row[3]!r}")
+    paraphrase_worst.sort(key=lambda row: -row[1])
+    print(f"  Highest content-word coverage of a case by one passage that also contains "
+          f"its answer: {paraphrase_worst[0][1]:.0%} ({paraphrase_worst[0][0]}) "
+          f"- limit is {MAX_CONTENT_COVERAGE:.0%}")
     return worst
 
 

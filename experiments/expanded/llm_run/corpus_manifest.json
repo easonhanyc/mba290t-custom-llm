@@ -52,42 +52,42 @@
     },
     {
       "file": "06_spatial_relations.txt",
-      "bytes": 27918,
-      "sha256": "27e6647bdfbc9ec296fcfc6e063c0c8286c1101b1e23112647737bacb2b6215a",
+      "bytes": 73576,
+      "sha256": "1ca386ee99b0a258baa486ca020822fb395bb18040cec35f79fcce188a7fb252",
       "warnings": [],
-      "characters": 27918,
-      "passages": 435,
-      "unique_passages": 435,
-      "preview": "the ring sits on the bench .the bench holds the ring .\nthe poster hangs above the mat .the mat sits below the poster .\nthe cabinet is below the poster .the poster is above the cabinet .\nthe bench is below the map .the map is above the bench .\nthe drawer contains the card .the card is inside the draw"
+      "characters": 73576,
+      "passages": 1132,
+      "unique_passages": 1132,
+      "preview": "the poster is above the counter .the counter is below the poster .\nthe spoon is inside the pocket .the pocket contains the spoon .\nthe jar is left of the spoon .the spoon is to the right of the jar .\nthe key is in front of the mirror .the mirror is behind the key .\nthe key is beside the ledge .the l"
     },
     {
       "file": "07_plain_descriptions.md",
       "bytes": 11252,
-      "sha256": "c9dece971885061066b2d6adf6d99325ec60180c2fdac03fe14c2ba2870718e1",
+      "sha256": "6560458eab8180fdaf5b2d7132f6dc2766a56ce5b758b5cd26074a81403fac54",
       "warnings": [],
       "characters": 11252,
       "passages": 343,
       "unique_passages": 343,
-      "preview": "the bag is wide .\na small ball sits near the counter .\nthe book is on the stool .\na small door sits near the table .\nthe bag is on the mat .\nthe book was missing from the mat .\na small door sits near the stool .\nthe box and the cabinet are clean .\nthe bag was missing from the mat .\nthe desk is on th"
+      "preview": "the shelf was missing from the ledge .\nthe ball is on the counter .\na small shelf sits near the table .\nthe shelf and the book are in the hall .\nthe book was missing from the ledge .\nthe door is on the table .\nthe book and the lamp are in the hall .\nthe shelf was missing from the mat .\nthe shelf is "
     },
     {
       "file": "08_printed_notes.pdf",
-      "bytes": 2866,
-      "sha256": "20bf792fc631fe0f4b29bebfe214fa9874b33a5a083663f513015f9a6eaae4ad",
+      "bytes": 2909,
+      "sha256": "c971271f489ccc32a4dfbe2aeb69f6d18ddd72a091cc2f6a5cd95870d5e378f1",
       "warnings": [],
       "pages": 2,
       "characters": 2912,
       "passages": 61,
       "unique_passages": 61,
-      "preview": "a quiet street and a noisy street share one gate .\na wide path and a narrow path lead to the bridge .\nthe mug stands beside the bowl on the counter .\na quiet store and a noisy street share one gate .\nthe glass stands beside the bowl on the counter .\na bucket can be full or empty .\na quiet school and"
+      "preview": "a glass can be full or empty .\nthe mug stands beside the bowl on the counter .\na quiet street and a noisy street share one gate .\nthe cup stands beside the bowl on the counter .\na bucket can be full or empty .\na old path and a new path lead to the bridge .\nthe basket stands beside the bowl on the co"
     }
   ],
   "ignored": [],
-  "external_passages": 4787,
+  "external_passages": 5484,
   "mode": "classroom",
   "base_passages": 6200,
-  "unique_passages": 9090,
-  "new_unique_passages": 4498,
+  "unique_passages": 9787,
+  "new_unique_passages": 5195,
   "duplicates_removed": 1897,
   "max_passage_tokens": 47,
   "split_unit": "deduplicated passage, not source file"

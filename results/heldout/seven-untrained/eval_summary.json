@@ -1,0 +1,82 @@
+{
+  "suite_id": "heldout-transfer-v1",
+  "suite_sha256": "6e2f42928b7dcb14517d18c13e63a1a8a7c1cbbd985d597c7050a9d450d938e9",
+  "model_sha256": "31278dc193b0a38dd8a3d11dbdf94981bc3d2b924b2e69a64cb828154ab978cd",
+  "stage": "untrained",
+  "settings": {
+    "seed": 2026,
+    "temperature": 0.8,
+    "max_tokens": 24
+  },
+  "metric": "highest-probability answer among four single-word choices; ties get zero",
+  "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+  "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+  "overall": {
+    "correct": 6,
+    "total": 16,
+    "scorable": 15,
+    "success_rate_all_cases": 0.375,
+    "accuracy_scorable_cases": 0.4,
+    "coverage": 0.9375
+  },
+  "by_group": {
+    "heldout": {
+      "correct": 6,
+      "total": 16,
+      "scorable": 15,
+      "success_rate_all_cases": 0.375,
+      "accuracy_scorable_cases": 0.4,
+      "coverage": 0.9375
+    }
+  },
+  "by_category": {
+    "categories_and_analogies": {
+      "correct": 2,
+      "total": 2,
+      "scorable": 2,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 1.0
+    },
+    "grammar": {
+      "correct": 1,
+      "total": 4,
+      "scorable": 3,
+      "success_rate_all_cases": 0.25,
+      "accuracy_scorable_cases": 0.3333333333333333,
+      "coverage": 0.75
+    },
+    "negation": {
+      "correct": 1,
+      "total": 3,
+      "scorable": 3,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
+      "coverage": 1.0
+    },
+    "opposites": {
+      "correct": 1,
+      "total": 3,
+      "scorable": 3,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
+      "coverage": 1.0
+    },
+    "sequence": {
+      "correct": 1,
+      "total": 1,
+      "scorable": 1,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 1.0
+    },
+    "spatial_relations": {
+      "correct": 0,
+      "total": 3,
+      "scorable": 3,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
+      "coverage": 1.0
+    }
+  }
+}

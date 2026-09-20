@@ -2297,15 +2297,19 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 4340,
+        "occurrences_in_training": 5528,
         "suffix_specificity_distinct_next_tokens": 76,
         "answer": "cold",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.003,
+        "answer_share_of_continuations": 0.0024,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
           ],
           [
             "white",
@@ -2318,10 +2322,6 @@
           [
             "black",
             204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -2332,15 +2332,19 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 4340,
+        "occurrences_in_training": 5528,
         "suffix_specificity_distinct_next_tokens": 76,
         "answer": "full",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0018,
+        "answer_share_of_continuations": 0.0014,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
           ],
           [
             "white",
@@ -2353,10 +2357,6 @@
           [
             "black",
             204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -2367,15 +2367,19 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 4340,
+        "occurrences_in_training": 5528,
         "suffix_specificity_distinct_next_tokens": 76,
         "answer": "quiet",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.009,
+        "answer_share_of_continuations": 0.0071,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
           ],
           [
             "white",
@@ -2388,10 +2392,6 @@
           [
             "black",
             204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -2413,19 +2413,19 @@
             7
           ],
           [
-            "white",
-            1
-          ],
-          [
-            "clean",
-            1
-          ],
-          [
             "narrow",
             1
           ],
           [
-            "wide",
+            "old",
+            1
+          ],
+          [
+            "new",
+            1
+          ],
+          [
+            "brown",
             1
           ]
         ]
@@ -2487,11 +2487,11 @@
             1
           ],
           [
-            "new",
+            "white",
             1
           ],
           [
-            "brown",
+            "clean",
             1
           ],
           [
@@ -2575,15 +2575,19 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.077,
-        "occurrences_in_training": 4340,
+        "occurrences_in_training": 5528,
         "suffix_specificity_distinct_next_tokens": 76,
         "answer": "dry",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0046,
+        "answer_share_of_continuations": 0.0036,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
           ],
           [
             "white",
@@ -2596,10 +2600,6 @@
           [
             "black",
             204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -2610,7 +2610,7 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.111,
-        "occurrences_in_training": 4340,
+        "occurrences_in_training": 5528,
         "suffix_specificity_distinct_next_tokens": 76,
         "answer": "breakfast",
         "answer_follows_in_corpus": false,
@@ -2619,6 +2619,10 @@
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
           ],
           [
             "white",
@@ -2631,10 +2635,6 @@
           [
             "black",
             204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -2645,11 +2645,11 @@
         "longest_matching_suffix": "the",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.071,
-        "occurrences_in_training": 18498,
+        "occurrences_in_training": 21484,
         "suffix_specificity_distinct_next_tokens": 216,
         "answer": "bus",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0017,
+        "answer_share_of_continuations": 0.0015,
         "top_continuations": [
           [
             "new",
@@ -2687,11 +2687,11 @@
         "answer_share_of_continuations": 0.0,
         "top_continuations": [
           [
-            "card",
+            "spoon",
             16
           ],
           [
-            "pen",
+            "key",
             16
           ],
           [
@@ -2699,11 +2699,11 @@
             16
           ],
           [
-            "stamp",
+            "card",
             16
           ],
           [
-            "coin",
+            "ring",
             16
           ]
         ]
@@ -2726,15 +2726,15 @@
             7
           ],
           [
-            "wide",
-            1
-          ],
-          [
-            "brown",
-            1
-          ],
-          [
             "old",
+            1
+          ],
+          [
+            "clean",
+            1
+          ],
+          [
+            "wide",
             1
           ],
           [
@@ -2750,7 +2750,7 @@
         "longest_matching_suffix": "is to the",
         "suffix_tokens": 3,
         "suffix_fraction_of_prompt": 0.231,
-        "occurrences_in_training": 90,
+        "occurrences_in_training": 288,
         "suffix_specificity_distinct_next_tokens": 2,
         "answer": "right",
         "answer_follows_in_corpus": true,
@@ -2758,11 +2758,11 @@
         "top_continuations": [
           [
             "right",
-            45
+            144
           ],
           [
             "left",
-            45
+            144
           ]
         ]
       },
@@ -3881,11 +3881,11 @@
         "longest_matching_suffix": "the bus and the",
         "suffix_tokens": 4,
         "suffix_fraction_of_prompt": 0.5,
-        "occurrences_in_training": 21,
-        "suffix_specificity_distinct_next_tokens": 9,
+        "occurrences_in_training": 19,
+        "suffix_specificity_distinct_next_tokens": 7,
         "answer": "route",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.1905,
+        "answer_share_of_continuations": 0.2105,
         "top_continuations": [
           [
             "travel",
@@ -3904,7 +3904,7 @@
             4
           ],
           [
-            "taxi",
+            "truck",
             1
           ]
         ]
@@ -4009,11 +4009,11 @@
         "longest_matching_suffix": "bird",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.5,
-        "occurrences_in_training": 117,
-        "suffix_specificity_distinct_next_tokens": 4,
+        "occurrences_in_training": 97,
+        "suffix_specificity_distinct_next_tokens": 5,
         "answer": "is",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.3419,
+        "answer_share_of_continuations": 0.4124,
         "top_continuations": [
           [
             "is",
@@ -4025,7 +4025,11 @@
           ],
           [
             ".",
-            36
+            12
+          ],
+          [
+            "called",
+            4
           ],
           [
             "and",
@@ -4102,15 +4106,23 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 5353,
-        "suffix_specificity_distinct_next_tokens": 93,
+        "occurrences_in_training": 6506,
+        "suffix_specificity_distinct_next_tokens": 94,
         "answer": "cold",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0114,
+        "answer_share_of_continuations": 0.0094,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
+          ],
+          [
+            "in",
+            244
           ],
           [
             "white",
@@ -4119,14 +4131,6 @@
           [
             "brown",
             233
-          ],
-          [
-            "black",
-            204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -4137,15 +4141,23 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 5353,
-        "suffix_specificity_distinct_next_tokens": 93,
+        "occurrences_in_training": 6506,
+        "suffix_specificity_distinct_next_tokens": 94,
         "answer": "full",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0015,
+        "answer_share_of_continuations": 0.0012,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
+          ],
+          [
+            "in",
+            244
           ],
           [
             "white",
@@ -4154,14 +4166,6 @@
           [
             "brown",
             233
-          ],
-          [
-            "black",
-            204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -4172,15 +4176,23 @@
         "longest_matching_suffix": "is",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 5353,
-        "suffix_specificity_distinct_next_tokens": 93,
+        "occurrences_in_training": 6506,
+        "suffix_specificity_distinct_next_tokens": 94,
         "answer": "quiet",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0146,
+        "answer_share_of_continuations": 0.012,
         "top_continuations": [
           [
             "not",
             1016
+          ],
+          [
+            "to",
+            288
+          ],
+          [
+            "in",
+            244
           ],
           [
             "white",
@@ -4189,14 +4201,6 @@
           [
             "brown",
             233
-          ],
-          [
-            "black",
-            204
-          ],
-          [
-            "red",
-            203
           ]
         ]
       },
@@ -4222,15 +4226,15 @@
             1
           ],
           [
-            "clean",
-            1
-          ],
-          [
-            "wide",
-            1
-          ],
-          [
             "old",
+            1
+          ],
+          [
+            "new",
+            1
+          ],
+          [
+            "clean",
             1
           ]
         ]
@@ -4288,19 +4292,19 @@
             7
           ],
           [
-            "brown",
-            1
-          ],
-          [
-            "white",
-            1
-          ],
-          [
             "narrow",
             1
           ],
           [
-            "clean",
+            "new",
+            1
+          ],
+          [
+            "wide",
+            1
+          ],
+          [
+            "brown",
             1
           ]
         ]
@@ -4391,11 +4395,7 @@
             7
           ],
           [
-            "pack",
-            7
-          ],
-          [
-            "lift",
+            "buy",
             7
           ],
           [
@@ -4403,7 +4403,11 @@
             7
           ],
           [
-            "fold",
+            "pack",
+            7
+          ],
+          [
+            "fill",
             7
           ]
         ]
@@ -4422,15 +4426,15 @@
         "answer_share_of_continuations": 0.0,
         "top_continuations": [
           [
+            "supper",
+            3
+          ],
+          [
             "dinner",
             3
           ],
           [
             "brunch",
-            3
-          ],
-          [
-            "supper",
             3
           ],
           [
@@ -4453,11 +4457,11 @@
         "answer_share_of_continuations": 0.0,
         "top_continuations": [
           [
-            "taxi",
+            "van",
             3
           ],
           [
-            "truck",
+            "taxi",
             3
           ],
           [
@@ -4465,7 +4469,7 @@
             3
           ],
           [
-            "van",
+            "truck",
             3
           ]
         ]
@@ -4484,11 +4488,11 @@
         "answer_share_of_continuations": 0.0,
         "top_continuations": [
           [
-            "card",
+            "spoon",
             16
           ],
           [
-            "pen",
+            "key",
             16
           ],
           [
@@ -4496,11 +4500,11 @@
             16
           ],
           [
-            "stamp",
+            "card",
             16
           ],
           [
-            "coin",
+            "ring",
             16
           ]
         ]
@@ -4523,19 +4527,19 @@
             7
           ],
           [
+            "clean",
+            1
+          ],
+          [
             "new",
             1
           ],
           [
-            "old",
+            "white",
             1
           ],
           [
-            "brown",
-            1
-          ],
-          [
-            "clean",
+            "wide",
             1
           ]
         ]
@@ -4547,7 +4551,7 @@
         "longest_matching_suffix": "is to the",
         "suffix_tokens": 3,
         "suffix_fraction_of_prompt": 0.231,
-        "occurrences_in_training": 90,
+        "occurrences_in_training": 288,
         "suffix_specificity_distinct_next_tokens": 2,
         "answer": "right",
         "answer_follows_in_corpus": true,
@@ -4555,11 +4559,11 @@
         "top_continuations": [
           [
             "right",
-            45
+            144
           ],
           [
             "left",
-            45
+            144
           ]
         ]
       },
@@ -4589,23 +4593,23 @@
         "longest_matching_suffix": "stay",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.143,
-        "occurrences_in_training": 48,
+        "occurrences_in_training": 24,
         "suffix_specificity_distinct_next_tokens": 3,
         "answer": "dry",
         "answer_follows_in_corpus": true,
         "answer_share_of_continuations": 0.3333,
         "top_continuations": [
           [
-            "warm",
-            16
-          ],
-          [
             "dry",
-            16
+            8
           ],
           [
             "clean",
-            16
+            8
+          ],
+          [
+            "warm",
+            8
           ]
         ]
       },
@@ -4635,31 +4639,31 @@
         "longest_matching_suffix": "is a",
         "suffix_tokens": 2,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 142,
-        "suffix_specificity_distinct_next_tokens": 13,
+        "occurrences_in_training": 110,
+        "suffix_specificity_distinct_next_tokens": 8,
         "answer": "fish",
-        "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0282,
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
         "top_continuations": [
           [
-            "vehicle",
-            60
-          ],
-          [
             "young",
-            24
+            60
           ],
           [
             "meal",
             20
           ],
           [
-            "bird",
-            6
+            "dog",
+            5
           ],
           [
-            "fish",
-            4
+            "duck",
+            5
+          ],
+          [
+            "cat",
+            5
           ]
         ]
       },
@@ -4670,11 +4674,11 @@
         "longest_matching_suffix": "a",
         "suffix_tokens": 1,
         "suffix_fraction_of_prompt": 0.083,
-        "occurrences_in_training": 3756,
-        "suffix_specificity_distinct_next_tokens": 112,
+        "occurrences_in_training": 3541,
+        "suffix_specificity_distinct_next_tokens": 106,
         "answer": "cat",
         "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0069,
+        "answer_share_of_continuations": 0.0031,
         "top_continuations": [
           [
             "discussion",
@@ -4690,11 +4694,11 @@
           ],
           [
             "person",
-            297
+            273
           ],
           [
-            "vehicle",
-            102
+            "spoon",
+            72
           ]
         ]
       },
@@ -4705,31 +4709,31 @@
         "longest_matching_suffix": "is a",
         "suffix_tokens": 2,
         "suffix_fraction_of_prompt": 0.2,
-        "occurrences_in_training": 142,
-        "suffix_specificity_distinct_next_tokens": 13,
+        "occurrences_in_training": 110,
+        "suffix_specificity_distinct_next_tokens": 8,
         "answer": "fruit",
-        "answer_follows_in_corpus": true,
-        "answer_share_of_continuations": 0.0282,
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
         "top_continuations": [
           [
-            "vehicle",
-            60
-          ],
-          [
             "young",
-            24
+            60
           ],
           [
             "meal",
             20
           ],
           [
-            "bird",
-            6
+            "dog",
+            5
           ],
           [
-            "fish",
-            4
+            "duck",
+            5
+          ],
+          [
+            "cat",
+            5
           ]
         ]
       }
@@ -4740,7 +4744,1810 @@
       "tokens": 8,
       "fraction_of_prompt": 0.571
     },
-    "cases_where_the_answer_ever_follows_the_matching_suffix": 35,
+    "cases_where_the_answer_ever_follows_the_matching_suffix": 33,
+    "flagged_for_review": [
+      {
+        "id": "lang_09",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the service at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "store",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "store",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_10",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the quality at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "market",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "market",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_11",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the payment at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "bank",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "bank",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_12",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the juice at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "kitchen",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "kitchen",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_13",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the journey at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "station",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "station",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_14",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the security at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "office",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "office",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_15",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the patient at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "hospital",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "hospital",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_16",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the lesson at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "school",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "school",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_17",
+        "category": "new_wording",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "discussed the nurse and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.714,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "health",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "patient",
+            4
+          ],
+          [
+            "health",
+            4
+          ],
+          [
+            "care",
+            4
+          ],
+          [
+            "treatment",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_18",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the educator and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "student",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "student",
+            4
+          ],
+          [
+            "lesson",
+            4
+          ],
+          [
+            "course",
+            4
+          ],
+          [
+            "learning",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_19",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the bond and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "return",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "interest",
+            4
+          ],
+          [
+            "risk",
+            4
+          ],
+          [
+            "payment",
+            4
+          ],
+          [
+            "return",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_20",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the pear and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "fruit",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "fruit",
+            4
+          ],
+          [
+            "taste",
+            4
+          ],
+          [
+            "juice",
+            4
+          ],
+          [
+            "harvest",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_22",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the platform and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "update",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "code",
+            4
+          ],
+          [
+            "data",
+            4
+          ],
+          [
+            "security",
+            4
+          ],
+          [
+            "update",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_23",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the subscriber and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "support",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "service",
+            4
+          ],
+          [
+            "purchase",
+            4
+          ],
+          [
+            "support",
+            4
+          ],
+          [
+            "order",
+            4
+          ]
+        ]
+      }
+    ],
+    "flagged_ids": [
+      "lang_09",
+      "lang_10",
+      "lang_11",
+      "lang_12",
+      "lang_13",
+      "lang_14",
+      "lang_15",
+      "lang_16",
+      "lang_17",
+      "lang_18",
+      "lang_19",
+      "lang_20",
+      "lang_22",
+      "lang_23"
+    ],
+    "flagged_inherited_from_the_provided_classroom_corpus": [
+      "lang_09",
+      "lang_10",
+      "lang_11",
+      "lang_12",
+      "lang_13",
+      "lang_14",
+      "lang_15",
+      "lang_16",
+      "lang_17",
+      "lang_18",
+      "lang_19",
+      "lang_20",
+      "lang_22",
+      "lang_23"
+    ],
+    "flagged_introduced_by_my_teaching_material": []
+  },
+  "tuned": {
+    "cases": [
+      {
+        "id": "lang_01",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "service",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_02",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "quality",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_03",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "payment",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_04",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "juice",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_05",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "journey",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_06",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "security",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_07",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "patient",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_08",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "explains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.286,
+        "occurrences_in_training": 640,
+        "suffix_specificity_distinct_next_tokens": 32,
+        "answer": "lesson",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0312,
+        "top_continuations": [
+          [
+            "service",
+            20
+          ],
+          [
+            "purchase",
+            20
+          ],
+          [
+            "support",
+            20
+          ],
+          [
+            "order",
+            20
+          ],
+          [
+            "price",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_09",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the service at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "store",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "store",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_10",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the quality at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "market",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "market",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_11",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the payment at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "bank",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "bank",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_12",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the juice at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "kitchen",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "kitchen",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_13",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the journey at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "station",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "station",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_14",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the security at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "office",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "office",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_15",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the patient at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "hospital",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "hospital",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_16",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "and the lesson at the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 20,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "school",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 1.0,
+        "top_continuations": [
+          [
+            "school",
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lang_17",
+        "category": "new_wording",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "discussed the nurse and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.714,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "health",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "patient",
+            4
+          ],
+          [
+            "health",
+            4
+          ],
+          [
+            "care",
+            4
+          ],
+          [
+            "treatment",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_18",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the educator and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "student",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "student",
+            4
+          ],
+          [
+            "lesson",
+            4
+          ],
+          [
+            "course",
+            4
+          ],
+          [
+            "learning",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_19",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the bond and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "return",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "interest",
+            4
+          ],
+          [
+            "risk",
+            4
+          ],
+          [
+            "payment",
+            4
+          ],
+          [
+            "return",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_20",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the pear and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "fruit",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "fruit",
+            4
+          ],
+          [
+            "taste",
+            4
+          ],
+          [
+            "juice",
+            4
+          ],
+          [
+            "harvest",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_21",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "the bus and the",
+        "suffix_tokens": 4,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 19,
+        "suffix_specificity_distinct_next_tokens": 7,
+        "answer": "route",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.2105,
+        "top_continuations": [
+          [
+            "travel",
+            4
+          ],
+          [
+            "route",
+            4
+          ],
+          [
+            "traffic",
+            4
+          ],
+          [
+            "journey",
+            4
+          ],
+          [
+            "truck",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "lang_22",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the platform and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "update",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "code",
+            4
+          ],
+          [
+            "data",
+            4
+          ],
+          [
+            "security",
+            4
+          ],
+          [
+            "update",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_23",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "discussed the subscriber and the",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.625,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "support",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "service",
+            4
+          ],
+          [
+            "purchase",
+            4
+          ],
+          [
+            "support",
+            4
+          ],
+          [
+            "order",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_24",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_matching_suffix": "the package and the",
+        "suffix_tokens": 4,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 16,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "delivery",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.25,
+        "top_continuations": [
+          [
+            "price",
+            4
+          ],
+          [
+            "quality",
+            4
+          ],
+          [
+            "delivery",
+            4
+          ],
+          [
+            "design",
+            4
+          ]
+        ]
+      },
+      {
+        "id": "lang_25",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_matching_suffix": "bird",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 97,
+        "suffix_specificity_distinct_next_tokens": 5,
+        "answer": "is",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.4124,
+        "top_continuations": [
+          [
+            "is",
+            40
+          ],
+          [
+            "was",
+            40
+          ],
+          [
+            ".",
+            12
+          ],
+          [
+            "called",
+            4
+          ],
+          [
+            "and",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "lang_26",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_matching_suffix": "dogs",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 102,
+        "suffix_specificity_distinct_next_tokens": 3,
+        "answer": "are",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.5882,
+        "top_continuations": [
+          [
+            "are",
+            60
+          ],
+          [
+            "were",
+            40
+          ],
+          [
+            "and",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "lang_27",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_matching_suffix": "she",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.5,
+        "occurrences_in_training": 317,
+        "suffix_specificity_distinct_next_tokens": 27,
+        "answer": "walked",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0568,
+        "top_continuations": [
+          [
+            "bought",
+            32
+          ],
+          [
+            "chose",
+            32
+          ],
+          [
+            "looked",
+            18
+          ],
+          [
+            "cooked",
+            18
+          ],
+          [
+            "opened",
+            18
+          ]
+        ]
+      },
+      {
+        "id": "lang_28",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_matching_suffix": "is",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.2,
+        "occurrences_in_training": 6506,
+        "suffix_specificity_distinct_next_tokens": 94,
+        "answer": "cold",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0094,
+        "top_continuations": [
+          [
+            "not",
+            1016
+          ],
+          [
+            "to",
+            288
+          ],
+          [
+            "in",
+            244
+          ],
+          [
+            "white",
+            243
+          ],
+          [
+            "brown",
+            233
+          ]
+        ]
+      },
+      {
+        "id": "lang_29",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_matching_suffix": "is",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.2,
+        "occurrences_in_training": 6506,
+        "suffix_specificity_distinct_next_tokens": 94,
+        "answer": "full",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0012,
+        "top_continuations": [
+          [
+            "not",
+            1016
+          ],
+          [
+            "to",
+            288
+          ],
+          [
+            "in",
+            244
+          ],
+          [
+            "white",
+            243
+          ],
+          [
+            "brown",
+            233
+          ]
+        ]
+      },
+      {
+        "id": "lang_30",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_matching_suffix": "is",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.2,
+        "occurrences_in_training": 6506,
+        "suffix_specificity_distinct_next_tokens": 94,
+        "answer": "quiet",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.012,
+        "top_continuations": [
+          [
+            "not",
+            1016
+          ],
+          [
+            "to",
+            288
+          ],
+          [
+            "in",
+            244
+          ],
+          [
+            "white",
+            243
+          ],
+          [
+            "brown",
+            233
+          ]
+        ]
+      },
+      {
+        "id": "lang_31",
+        "category": "negation",
+        "prompt_tokens": 13,
+        "longest_matching_suffix": "the box is",
+        "suffix_tokens": 3,
+        "suffix_fraction_of_prompt": 0.231,
+        "occurrences_in_training": 14,
+        "suffix_specificity_distinct_next_tokens": 8,
+        "answer": "blue",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "on",
+            7
+          ],
+          [
+            "brown",
+            1
+          ],
+          [
+            "old",
+            1
+          ],
+          [
+            "new",
+            1
+          ],
+          [
+            "clean",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "lang_32",
+        "category": "negation",
+        "prompt_tokens": 12,
+        "longest_matching_suffix": "bought",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.083,
+        "occurrences_in_training": 128,
+        "suffix_specificity_distinct_next_tokens": 6,
+        "answer": "milk",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "water",
+            28
+          ],
+          [
+            "soup",
+            24
+          ],
+          [
+            "rice",
+            22
+          ],
+          [
+            "coffee",
+            20
+          ],
+          [
+            "salt",
+            18
+          ]
+        ]
+      },
+      {
+        "id": "lang_33",
+        "category": "negation",
+        "prompt_tokens": 13,
+        "longest_matching_suffix": "the door is",
+        "suffix_tokens": 3,
+        "suffix_fraction_of_prompt": 0.231,
+        "occurrences_in_training": 14,
+        "suffix_specificity_distinct_next_tokens": 8,
+        "answer": "closed",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "on",
+            7
+          ],
+          [
+            "narrow",
+            1
+          ],
+          [
+            "new",
+            1
+          ],
+          [
+            "wide",
+            1
+          ],
+          [
+            "brown",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "lang_34",
+        "category": "reference",
+        "prompt_tokens": 9,
+        "longest_matching_suffix": "",
+        "suffix_tokens": 0,
+        "suffix_fraction_of_prompt": 0.0,
+        "occurrences_in_training": 0,
+        "suffix_specificity_distinct_next_tokens": 0,
+        "answer": "maya",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": []
+      },
+      {
+        "id": "lang_35",
+        "category": "reference",
+        "prompt_tokens": 13,
+        "longest_matching_suffix": "was",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.077,
+        "occurrences_in_training": 1744,
+        "suffix_specificity_distinct_next_tokens": 56,
+        "answer": "finn",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "mentioned",
+            768
+          ],
+          [
+            "not",
+            120
+          ],
+          [
+            "cold",
+            60
+          ],
+          [
+            "missing",
+            57
+          ],
+          [
+            "ice",
+            48
+          ]
+        ]
+      },
+      {
+        "id": "lang_36",
+        "category": "reference",
+        "prompt_tokens": 9,
+        "longest_matching_suffix": "from",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.111,
+        "occurrences_in_training": 56,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "omar",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "the",
+            56
+          ]
+        ]
+      },
+      {
+        "id": "lang_37",
+        "category": "sequence",
+        "prompt_tokens": 13,
+        "longest_matching_suffix": "it . the last action is",
+        "suffix_tokens": 6,
+        "suffix_fraction_of_prompt": 0.462,
+        "occurrences_in_training": 56,
+        "suffix_specificity_distinct_next_tokens": 8,
+        "answer": "dry",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "sort",
+            7
+          ],
+          [
+            "buy",
+            7
+          ],
+          [
+            "seal",
+            7
+          ],
+          [
+            "pack",
+            7
+          ],
+          [
+            "fill",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "lang_38",
+        "category": "sequence",
+        "prompt_tokens": 9,
+        "longest_matching_suffix": ". the earlier meal is",
+        "suffix_tokens": 5,
+        "suffix_fraction_of_prompt": 0.556,
+        "occurrences_in_training": 12,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "breakfast",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "supper",
+            3
+          ],
+          [
+            "dinner",
+            3
+          ],
+          [
+            "brunch",
+            3
+          ],
+          [
+            "lunch",
+            3
+          ]
+        ]
+      },
+      {
+        "id": "lang_39",
+        "category": "sequence",
+        "prompt_tokens": 14,
+        "longest_matching_suffix": ". the vehicle that arrived later was the",
+        "suffix_tokens": 8,
+        "suffix_fraction_of_prompt": 0.571,
+        "occurrences_in_training": 12,
+        "suffix_specificity_distinct_next_tokens": 4,
+        "answer": "bus",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "van",
+            3
+          ],
+          [
+            "taxi",
+            3
+          ],
+          [
+            "car",
+            3
+          ],
+          [
+            "truck",
+            3
+          ]
+        ]
+      },
+      {
+        "id": "lang_40",
+        "category": "spatial_relations",
+        "prompt_tokens": 11,
+        "longest_matching_suffix": "contains the",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.182,
+        "occurrences_in_training": 144,
+        "suffix_specificity_distinct_next_tokens": 9,
+        "answer": "book",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "spoon",
+            16
+          ],
+          [
+            "key",
+            16
+          ],
+          [
+            "letter",
+            16
+          ],
+          [
+            "card",
+            16
+          ],
+          [
+            "ring",
+            16
+          ]
+        ]
+      },
+      {
+        "id": "lang_41",
+        "category": "spatial_relations",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "the desk is",
+        "suffix_tokens": 3,
+        "suffix_fraction_of_prompt": 0.3,
+        "occurrences_in_training": 14,
+        "suffix_specificity_distinct_next_tokens": 8,
+        "answer": "below",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "on",
+            7
+          ],
+          [
+            "clean",
+            1
+          ],
+          [
+            "new",
+            1
+          ],
+          [
+            "white",
+            1
+          ],
+          [
+            "wide",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "lang_42",
+        "category": "spatial_relations",
+        "prompt_tokens": 13,
+        "longest_matching_suffix": "is to the",
+        "suffix_tokens": 3,
+        "suffix_fraction_of_prompt": 0.231,
+        "occurrences_in_training": 288,
+        "suffix_specificity_distinct_next_tokens": 2,
+        "answer": "right",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.5,
+        "top_continuations": [
+          [
+            "right",
+            144
+          ],
+          [
+            "left",
+            144
+          ]
+        ]
+      },
+      {
+        "id": "lang_43",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 3,
+        "longest_matching_suffix": "into",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.333,
+        "occurrences_in_training": 48,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "ice",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "the",
+            48
+          ]
+        ]
+      },
+      {
+        "id": "lang_44",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 7,
+        "longest_matching_suffix": "stay",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.143,
+        "occurrences_in_training": 24,
+        "suffix_specificity_distinct_next_tokens": 3,
+        "answer": "dry",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.3333,
+        "top_continuations": [
+          [
+            "dry",
+            8
+          ],
+          [
+            "clean",
+            8
+          ],
+          [
+            "warm",
+            8
+          ]
+        ]
+      },
+      {
+        "id": "lang_45",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "on a",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.2,
+        "occurrences_in_training": 8,
+        "suffix_specificity_distinct_next_tokens": 1,
+        "answer": "light",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "pillow",
+            8
+          ]
+        ]
+      },
+      {
+        "id": "lang_46",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "is a",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.2,
+        "occurrences_in_training": 110,
+        "suffix_specificity_distinct_next_tokens": 8,
+        "answer": "fish",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "young",
+            60
+          ],
+          [
+            "meal",
+            20
+          ],
+          [
+            "dog",
+            5
+          ],
+          [
+            "duck",
+            5
+          ],
+          [
+            "cat",
+            5
+          ]
+        ]
+      },
+      {
+        "id": "lang_47",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 12,
+        "longest_matching_suffix": "a",
+        "suffix_tokens": 1,
+        "suffix_fraction_of_prompt": 0.083,
+        "occurrences_in_training": 3541,
+        "suffix_specificity_distinct_next_tokens": 106,
+        "answer": "cat",
+        "answer_follows_in_corpus": true,
+        "answer_share_of_continuations": 0.0031,
+        "top_continuations": [
+          [
+            "discussion",
+            768
+          ],
+          [
+            "question",
+            768
+          ],
+          [
+            "review",
+            768
+          ],
+          [
+            "person",
+            273
+          ],
+          [
+            "spoon",
+            72
+          ]
+        ]
+      },
+      {
+        "id": "lang_48",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 10,
+        "longest_matching_suffix": "is a",
+        "suffix_tokens": 2,
+        "suffix_fraction_of_prompt": 0.2,
+        "occurrences_in_training": 110,
+        "suffix_specificity_distinct_next_tokens": 8,
+        "answer": "fruit",
+        "answer_follows_in_corpus": false,
+        "answer_share_of_continuations": 0.0,
+        "top_continuations": [
+          [
+            "young",
+            60
+          ],
+          [
+            "meal",
+            20
+          ],
+          [
+            "dog",
+            5
+          ],
+          [
+            "duck",
+            5
+          ],
+          [
+            "cat",
+            5
+          ]
+        ]
+      }
+    ],
+    "longest_matching_suffix_any_case": {
+      "id": "lang_39",
+      "suffix": ". the vehicle that arrived later was the",
+      "tokens": 8,
+      "fraction_of_prompt": 0.571
+    },
+    "cases_where_the_answer_ever_follows_the_matching_suffix": 33,
     "flagged_for_review": [
       {
         "id": "lang_09",

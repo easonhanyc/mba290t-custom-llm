@@ -36,7 +36,7 @@
       "detail": "[]"
     },
     {
-      "check": "expanded: no individual trained passage contains an eval prompt (10,987 passages checked)",
+      "check": "expanded: no individual trained passage contains an eval prompt (11,684 passages checked)",
       "pass": true,
       "detail": "[]"
     },
@@ -46,7 +46,17 @@
       "detail": "[]"
     },
     {
-      "check": "seven: no individual trained passage contains an eval prompt (12,715 passages checked)",
+      "check": "seven: no individual trained passage contains an eval prompt (13,306 passages checked)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "tuned: trained corpus.txt contains no eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "tuned: no individual trained passage contains an eval prompt (13,306 passages checked)",
       "pass": true,
       "detail": "[]"
     },
@@ -64,13 +74,19 @@
       "check": "seven: every vocabulary token occurs in that run's own training text (509 tokens checked)",
       "pass": true,
       "detail": "[]"
+    },
+    {
+      "check": "tuned: every vocabulary token occurs in that run's own training text (509 tokens checked)",
+      "pass": true,
+      "detail": "[]"
     }
   ],
   "all_passed": true,
   "reserved_classroom_passages": {
     "starter": 160,
     "expanded": 160,
-    "seven": 160
+    "seven": 160,
+    "tuned": 160
   },
   "reserved_case_ids": [
     "lang_01",
@@ -238,6 +254,12 @@
       "lang_48"
     ],
     "seven": [
+      "lang_32",
+      "lang_34",
+      "lang_35",
+      "lang_36"
+    ],
+    "tuned": [
       "lang_32",
       "lang_34",
       "lang_35",

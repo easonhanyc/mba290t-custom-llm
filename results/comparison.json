@@ -40,49 +40,77 @@
       "model_sha256": "23d6954f9a458eb9ba04f3abaeb061de885c29375b0a99e6f209c8effef9cce7",
       "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
       "vocabulary_size": 441,
-      "train_documents": 8181
+      "train_documents": 8808
     },
     {
       "experiment": "expanded",
       "stage": "final",
-      "correct": 32,
+      "correct": 35,
       "total": 48,
       "scorable": 35,
-      "success_rate_all_cases": 0.6666666666666666,
-      "accuracy_scorable_cases": 0.9142857142857143,
+      "success_rate_all_cases": 0.7291666666666666,
+      "accuracy_scorable_cases": 1.0,
       "coverage": 0.7291666666666666,
-      "model_sha256": "3fef787718bc1f570870513f1a7b07166551798574e5981643f59d585d87ee74",
+      "model_sha256": "4f860a3885386c0079f2f966d372bc3a24c32f349fe3e8e53a2c290892215100",
       "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
       "vocabulary_size": 441,
-      "train_documents": 8181
+      "train_documents": 8808
     },
     {
       "experiment": "seven",
       "stage": "untrained",
-      "correct": 7,
+      "correct": 13,
       "total": 48,
       "scorable": 44,
-      "success_rate_all_cases": 0.14583333333333334,
-      "accuracy_scorable_cases": 0.1590909090909091,
+      "success_rate_all_cases": 0.2708333333333333,
+      "accuracy_scorable_cases": 0.29545454545454547,
       "coverage": 0.9166666666666666,
       "model_sha256": "31278dc193b0a38dd8a3d11dbdf94981bc3d2b924b2e69a64cb828154ab978cd",
       "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
       "vocabulary_size": 512,
-      "train_documents": 9362
+      "train_documents": 9851
     },
     {
       "experiment": "seven",
       "stage": "final",
-      "correct": 35,
+      "correct": 34,
       "total": 48,
       "scorable": 44,
-      "success_rate_all_cases": 0.7291666666666666,
-      "accuracy_scorable_cases": 0.7954545454545454,
+      "success_rate_all_cases": 0.7083333333333334,
+      "accuracy_scorable_cases": 0.7727272727272727,
       "coverage": 0.9166666666666666,
-      "model_sha256": "124b10dc2433c0b75e2419f1b3423e70da37dc6397b47cc0ef517599f469cd33",
+      "model_sha256": "f0ef15cf309ffad268e5f47b03bde05b5f990d949fe65e349aac219467d670a6",
       "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
       "vocabulary_size": 512,
-      "train_documents": 9362
+      "train_documents": 9851
+    },
+    {
+      "experiment": "tuned",
+      "stage": "untrained",
+      "correct": 13,
+      "total": 48,
+      "scorable": 44,
+      "success_rate_all_cases": 0.2708333333333333,
+      "accuracy_scorable_cases": 0.29545454545454547,
+      "coverage": 0.9166666666666666,
+      "model_sha256": "31278dc193b0a38dd8a3d11dbdf94981bc3d2b924b2e69a64cb828154ab978cd",
+      "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+      "vocabulary_size": 512,
+      "train_documents": 9851
+    },
+    {
+      "experiment": "tuned",
+      "stage": "final",
+      "correct": 39,
+      "total": 48,
+      "scorable": 44,
+      "success_rate_all_cases": 0.8125,
+      "accuracy_scorable_cases": 0.8863636363636364,
+      "coverage": 0.9166666666666666,
+      "model_sha256": "2aad69871ec56deb8ce5aee368e0785249202308ec717272a3dea60d03938062",
+      "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+      "vocabulary_size": 512,
+      "train_documents": 9851
     }
   ],
   "detail": {
@@ -443,11 +471,11 @@
     "expanded/final": {
       "by_group": {
         "extend_corpus": {
-          "correct": 8,
+          "correct": 11,
           "total": 24,
           "scorable": 11,
-          "success_rate_all_cases": 0.3333333333333333,
-          "accuracy_scorable_cases": 0.7272727272727273,
+          "success_rate_all_cases": 0.4583333333333333,
+          "accuracy_scorable_cases": 1.0,
           "coverage": 0.4583333333333333
         },
         "starter_patterns": {
@@ -549,11 +577,11 @@
           "coverage": 0.0
         },
         "spatial_relations": {
-          "correct": 0,
+          "correct": 3,
           "total": 3,
           "scorable": 3,
-          "success_rate_all_cases": 0.0,
-          "accuracy_scorable_cases": 0.0,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
           "coverage": 1.0
         }
       }
@@ -561,69 +589,69 @@
     "seven/untrained": {
       "by_group": {
         "extend_corpus": {
-          "correct": 2,
+          "correct": 5,
           "total": 24,
           "scorable": 20,
-          "success_rate_all_cases": 0.08333333333333333,
-          "accuracy_scorable_cases": 0.1,
+          "success_rate_all_cases": 0.20833333333333334,
+          "accuracy_scorable_cases": 0.25,
           "coverage": 0.8333333333333334
         },
         "starter_patterns": {
-          "correct": 1,
+          "correct": 6,
           "total": 16,
           "scorable": 16,
-          "success_rate_all_cases": 0.0625,
-          "accuracy_scorable_cases": 0.0625,
+          "success_rate_all_cases": 0.375,
+          "accuracy_scorable_cases": 0.375,
           "coverage": 1.0
         },
         "starter_transfer": {
+          "correct": 2,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.25,
+          "accuracy_scorable_cases": 0.25,
+          "coverage": 1.0
+        }
+      },
+      "by_category": {
+        "categories_and_analogies": {
+          "correct": 2,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.6666666666666666,
+          "coverage": 1.0
+        },
+        "domain_context": {
           "correct": 4,
           "total": 8,
           "scorable": 8,
           "success_rate_all_cases": 0.5,
           "accuracy_scorable_cases": 0.5,
           "coverage": 1.0
-        }
-      },
-      "by_category": {
-        "categories_and_analogies": {
-          "correct": 0,
-          "total": 3,
-          "scorable": 3,
-          "success_rate_all_cases": 0.0,
-          "accuracy_scorable_cases": 0.0,
-          "coverage": 1.0
-        },
-        "domain_context": {
-          "correct": 0,
-          "total": 8,
-          "scorable": 8,
-          "success_rate_all_cases": 0.0,
-          "accuracy_scorable_cases": 0.0,
-          "coverage": 1.0
         },
         "domain_place": {
-          "correct": 1,
+          "correct": 2,
           "total": 8,
           "scorable": 8,
-          "success_rate_all_cases": 0.125,
-          "accuracy_scorable_cases": 0.125,
+          "success_rate_all_cases": 0.25,
+          "accuracy_scorable_cases": 0.25,
           "coverage": 1.0
         },
         "everyday_knowledge": {
-          "correct": 0,
-          "total": 3,
-          "scorable": 3,
-          "success_rate_all_cases": 0.0,
-          "accuracy_scorable_cases": 0.0,
-          "coverage": 1.0
-        },
-        "grammar": {
           "correct": 1,
           "total": 3,
           "scorable": 3,
           "success_rate_all_cases": 0.3333333333333333,
           "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 1.0
+        },
+        "grammar": {
+          "correct": 0,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.0,
+          "accuracy_scorable_cases": 0.0,
           "coverage": 1.0
         },
         "negation": {
@@ -635,11 +663,11 @@
           "coverage": 0.6666666666666666
         },
         "new_wording": {
-          "correct": 4,
+          "correct": 2,
           "total": 8,
           "scorable": 8,
-          "success_rate_all_cases": 0.5,
-          "accuracy_scorable_cases": 0.5,
+          "success_rate_all_cases": 0.25,
+          "accuracy_scorable_cases": 0.25,
           "coverage": 1.0
         },
         "opposites": {
@@ -659,11 +687,11 @@
           "coverage": 0.0
         },
         "sequence": {
-          "correct": 0,
+          "correct": 1,
           "total": 3,
           "scorable": 3,
-          "success_rate_all_cases": 0.0,
-          "accuracy_scorable_cases": 0.0,
+          "success_rate_all_cases": 0.3333333333333333,
+          "accuracy_scorable_cases": 0.3333333333333333,
           "coverage": 1.0
         },
         "spatial_relations": {
@@ -679,11 +707,11 @@
     "seven/final": {
       "by_group": {
         "extend_corpus": {
-          "correct": 11,
+          "correct": 10,
           "total": 24,
           "scorable": 20,
-          "success_rate_all_cases": 0.4583333333333333,
-          "accuracy_scorable_cases": 0.55,
+          "success_rate_all_cases": 0.4166666666666667,
+          "accuracy_scorable_cases": 0.5,
           "coverage": 0.8333333333333334
         },
         "starter_patterns": {
@@ -745,11 +773,11 @@
           "coverage": 1.0
         },
         "negation": {
-          "correct": 2,
+          "correct": 1,
           "total": 3,
           "scorable": 2,
-          "success_rate_all_cases": 0.6666666666666666,
-          "accuracy_scorable_cases": 1.0,
+          "success_rate_all_cases": 0.3333333333333333,
+          "accuracy_scorable_cases": 0.5,
           "coverage": 0.6666666666666666
         },
         "new_wording": {
@@ -761,11 +789,11 @@
           "coverage": 1.0
         },
         "opposites": {
-          "correct": 3,
+          "correct": 2,
           "total": 3,
           "scorable": 3,
-          "success_rate_all_cases": 1.0,
-          "accuracy_scorable_cases": 1.0,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.6666666666666666,
           "coverage": 1.0
         },
         "reference": {
@@ -785,11 +813,247 @@
           "coverage": 1.0
         },
         "spatial_relations": {
+          "correct": 2,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.6666666666666666,
+          "coverage": 1.0
+        }
+      }
+    },
+    "tuned/untrained": {
+      "by_group": {
+        "extend_corpus": {
+          "correct": 5,
+          "total": 24,
+          "scorable": 20,
+          "success_rate_all_cases": 0.20833333333333334,
+          "accuracy_scorable_cases": 0.25,
+          "coverage": 0.8333333333333334
+        },
+        "starter_patterns": {
+          "correct": 6,
+          "total": 16,
+          "scorable": 16,
+          "success_rate_all_cases": 0.375,
+          "accuracy_scorable_cases": 0.375,
+          "coverage": 1.0
+        },
+        "starter_transfer": {
+          "correct": 2,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.25,
+          "accuracy_scorable_cases": 0.25,
+          "coverage": 1.0
+        }
+      },
+      "by_category": {
+        "categories_and_analogies": {
+          "correct": 2,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.6666666666666666,
+          "coverage": 1.0
+        },
+        "domain_context": {
+          "correct": 4,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.5,
+          "accuracy_scorable_cases": 0.5,
+          "coverage": 1.0
+        },
+        "domain_place": {
+          "correct": 2,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.25,
+          "accuracy_scorable_cases": 0.25,
+          "coverage": 1.0
+        },
+        "everyday_knowledge": {
           "correct": 1,
           "total": 3,
           "scorable": 3,
           "success_rate_all_cases": 0.3333333333333333,
           "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 1.0
+        },
+        "grammar": {
+          "correct": 0,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.0,
+          "accuracy_scorable_cases": 0.0,
+          "coverage": 1.0
+        },
+        "negation": {
+          "correct": 0,
+          "total": 3,
+          "scorable": 2,
+          "success_rate_all_cases": 0.0,
+          "accuracy_scorable_cases": 0.0,
+          "coverage": 0.6666666666666666
+        },
+        "new_wording": {
+          "correct": 2,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.25,
+          "accuracy_scorable_cases": 0.25,
+          "coverage": 1.0
+        },
+        "opposites": {
+          "correct": 1,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.3333333333333333,
+          "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 1.0
+        },
+        "reference": {
+          "correct": 0,
+          "total": 3,
+          "scorable": 0,
+          "success_rate_all_cases": 0.0,
+          "accuracy_scorable_cases": null,
+          "coverage": 0.0
+        },
+        "sequence": {
+          "correct": 1,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.3333333333333333,
+          "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 1.0
+        },
+        "spatial_relations": {
+          "correct": 0,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.0,
+          "accuracy_scorable_cases": 0.0,
+          "coverage": 1.0
+        }
+      }
+    },
+    "tuned/final": {
+      "by_group": {
+        "extend_corpus": {
+          "correct": 16,
+          "total": 24,
+          "scorable": 20,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.8,
+          "coverage": 0.8333333333333334
+        },
+        "starter_patterns": {
+          "correct": 16,
+          "total": 16,
+          "scorable": 16,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 1.0
+        },
+        "starter_transfer": {
+          "correct": 7,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.875,
+          "accuracy_scorable_cases": 0.875,
+          "coverage": 1.0
+        }
+      },
+      "by_category": {
+        "categories_and_analogies": {
+          "correct": 2,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.6666666666666666,
+          "coverage": 1.0
+        },
+        "domain_context": {
+          "correct": 8,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 1.0
+        },
+        "domain_place": {
+          "correct": 8,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 1.0
+        },
+        "everyday_knowledge": {
+          "correct": 3,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 1.0
+        },
+        "grammar": {
+          "correct": 3,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 1.0
+        },
+        "negation": {
+          "correct": 2,
+          "total": 3,
+          "scorable": 2,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 0.6666666666666666
+        },
+        "new_wording": {
+          "correct": 7,
+          "total": 8,
+          "scorable": 8,
+          "success_rate_all_cases": 0.875,
+          "accuracy_scorable_cases": 0.875,
+          "coverage": 1.0
+        },
+        "opposites": {
+          "correct": 3,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 1.0,
+          "accuracy_scorable_cases": 1.0,
+          "coverage": 1.0
+        },
+        "reference": {
+          "correct": 0,
+          "total": 3,
+          "scorable": 0,
+          "success_rate_all_cases": 0.0,
+          "accuracy_scorable_cases": null,
+          "coverage": 0.0
+        },
+        "sequence": {
+          "correct": 1,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.3333333333333333,
+          "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 1.0
+        },
+        "spatial_relations": {
+          "correct": 2,
+          "total": 3,
+          "scorable": 3,
+          "success_rate_all_cases": 0.6666666666666666,
+          "accuracy_scorable_cases": 0.6666666666666666,
           "coverage": 1.0
         }
       }

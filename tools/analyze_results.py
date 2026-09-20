@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 
 from run_evals import load_model, word_tokens  # noqa: E402
 
-EXPERIMENTS = ["starter", "expanded", "seven"]
+EXPERIMENTS = ["starter", "expanded", "seven", "tuned"]
 STAGES = ["untrained", "final"]
 # Which extension categories each corpus teaches.
 TAUGHT_BY = {
@@ -30,12 +30,14 @@ TAUGHT_BY = {
     "expanded": ["grammar", "opposites", "negation", "spatial_relations"],
     "seven": ["grammar", "opposites", "negation", "spatial_relations",
               "sequence", "everyday_knowledge", "categories_and_analogies"],
+    "tuned": ["grammar", "opposites", "negation", "spatial_relations",
+              "sequence", "everyday_knowledge", "categories_and_analogies"],
 }
 EXTENSION_CATS = ["grammar", "opposites", "negation", "spatial_relations",
                   "sequence", "everyday_knowledge", "categories_and_analogies", "reference"]
 STARTER_CATS = ["domain_context", "domain_place", "new_wording"]
-LABEL = {"starter": "starter corpus", "expanded": "extension (4 categories)",
-         "seven": "extension (7 categories)"}
+LABEL = {"starter": "A starter corpus", "expanded": "B extension (4 cat.)",
+         "seven": "C extension (7 cat.)", "tuned": "D extension (7 cat.) lr 0.004"}
 
 
 def run_dir(experiment):
@@ -171,7 +173,7 @@ def diagnostics(experiment="expanded"):
         ("hot", "cold", ["warm", "fast", "heavy"]),
         ("empty", "full", ["quiet", "early", "soft"]),
         ("heavy", "light", ["soft", "small", "slow"]),
-        ("wet", "dry", ["clean", "cold", "smooth"]),
+        ("wet", "dry", ["clean", "cold", "warm"]),
         ("early", "late", ["slow", "old", "near"]),
     ]:
         probs = choice_probabilities(model, vocabulary, f"the opposite of {word} is",
@@ -218,14 +220,14 @@ def main():
 
     neigh = {}
     for experiment in EXPERIMENTS:
-        for probe in ["customer", "cold", "below", "walked", "quiet"]:
+        for probe in ["customer", "cold", "below", "walked", "quiet", "right"]:
             found = neighbours(experiment, probe)
             if found:
                 neigh[f"{experiment}/{probe}"] = found
     (out / "embedding_neighbours.json").write_text(json.dumps(neigh, indent=2) + "\n", encoding="utf-8")
     print("Wrote results/embedding_neighbours.json")
 
-    diag = {e: diagnostics(e) for e in ["expanded", "seven"]}
+    diag = {e: diagnostics(e) for e in ["expanded", "seven", "tuned"]}
     (out / "diagnostics.json").write_text(json.dumps(diag, indent=2) + "\n", encoding="utf-8")
     diag = diag["expanded"]
     copy = diag["negation_copy_probe"]

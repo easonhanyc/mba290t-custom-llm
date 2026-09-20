@@ -13,10 +13,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.68449,
-            "green": 0.00015,
-            "yellow": 0.00103,
-            "red": 0.00233
+            "blue": 0.17893,
+            "green": 0.09337,
+            "yellow": 0.0021,
+            "red": 0.00866
           }
         },
         {
@@ -24,10 +24,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94785,
-            "green": 0.00023,
-            "yellow": 0.00018,
-            "red": 0.00137
+            "blue": 0.89164,
+            "green": 0.00412,
+            "yellow": 0.00349,
+            "red": 0.00065
           }
         },
         {
@@ -35,10 +35,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94837,
-            "green": 0.00021,
-            "yellow": 0.00015,
-            "red": 0.00127
+            "blue": 0.89455,
+            "green": 0.00436,
+            "yellow": 0.0033,
+            "red": 0.00078
           }
         },
         {
@@ -46,10 +46,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95271,
-            "green": 0.00018,
-            "yellow": 0.00011,
-            "red": 0.00093
+            "blue": 0.89514,
+            "green": 0.00491,
+            "yellow": 0.00732,
+            "red": 0.0022
           }
         },
         {
@@ -57,10 +57,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95557,
-            "green": 0.00016,
-            "yellow": 0.00013,
-            "red": 0.0009
+            "blue": 0.88995,
+            "green": 0.00483,
+            "yellow": 0.00503,
+            "red": 0.00112
           }
         },
         {
@@ -68,10 +68,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95659,
-            "green": 0.00013,
-            "yellow": 0.00014,
-            "red": 0.00073
+            "blue": 0.90174,
+            "green": 0.00315,
+            "yellow": 0.00522,
+            "red": 0.00092
           }
         },
         {
@@ -79,10 +79,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95531,
-            "green": 0.00017,
-            "yellow": 0.00013,
-            "red": 0.00088
+            "blue": 0.88793,
+            "green": 0.00423,
+            "yellow": 0.00606,
+            "red": 0.00122
           }
         },
         {
@@ -90,10 +90,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95188,
-            "green": 0.00019,
-            "yellow": 0.00013,
-            "red": 0.00108
+            "blue": 0.89293,
+            "green": 0.00377,
+            "yellow": 0.005,
+            "red": 0.00088
           }
         },
         {
@@ -101,10 +101,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95618,
-            "green": 0.00018,
-            "yellow": 0.00012,
-            "red": 0.00095
+            "blue": 0.90501,
+            "green": 0.00352,
+            "yellow": 0.00397,
+            "red": 0.00102
           }
         },
         {
@@ -112,10 +112,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95712,
-            "green": 0.00017,
-            "yellow": 0.00014,
-            "red": 0.00088
+            "blue": 0.89497,
+            "green": 0.00451,
+            "yellow": 0.00643,
+            "red": 0.00158
           }
         },
         {
@@ -123,10 +123,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95578,
-            "green": 0.00022,
-            "yellow": 0.00027,
-            "red": 0.0015
+            "blue": 0.88614,
+            "green": 0.00462,
+            "yellow": 0.00489,
+            "red": 0.00114
           }
         },
         {
@@ -134,10 +134,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9545,
-            "green": 0.00015,
-            "yellow": 0.00016,
-            "red": 0.00095
+            "blue": 0.87799,
+            "green": 0.00667,
+            "yellow": 0.00253,
+            "red": 0.00072
           }
         },
         {
@@ -145,10 +145,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94963,
-            "green": 0.0002,
-            "yellow": 0.00018,
-            "red": 0.00106
+            "blue": 0.89585,
+            "green": 0.00451,
+            "yellow": 0.00445,
+            "red": 0.00118
           }
         },
         {
@@ -156,10 +156,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95018,
-            "green": 0.00025,
-            "yellow": 0.00021,
-            "red": 0.00152
+            "blue": 0.88839,
+            "green": 0.00563,
+            "yellow": 0.00454,
+            "red": 0.00139
           }
         },
         {
@@ -167,10 +167,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.87493,
-            "green": 0.00069,
-            "yellow": 0.00033,
-            "red": 0.00209
+            "blue": 0.79901,
+            "green": 0.01447,
+            "yellow": 0.00286,
+            "red": 0.00132
           }
         },
         {
@@ -178,10 +178,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95399,
-            "green": 0.00018,
-            "yellow": 0.00012,
-            "red": 0.00086
+            "blue": 0.89058,
+            "green": 0.00494,
+            "yellow": 0.00598,
+            "red": 0.00139
           }
         }
       ]
@@ -194,12 +194,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.41044,
+          "margin_over_runner_up": 0.06713,
           "probabilities": {
-            "quiet": 0.41251,
-            "loud": 0.00185,
-            "late": 0.00049,
-            "round": 0.00207
+            "quiet": 0.0755,
+            "loud": 0.00829,
+            "late": 0.00837,
+            "round": 0.00161
           },
           "taught_in_the_opposite_frame": false
         },
@@ -208,12 +208,12 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.95493,
+          "margin_over_runner_up": 0.92663,
           "probabilities": {
-            "cold": 0.95501,
-            "warm": 3e-05,
+            "cold": 0.92671,
+            "warm": 8e-05,
             "fast": 1e-05,
-            "heavy": 8e-05
+            "heavy": 2e-05
           },
           "taught_in_the_opposite_frame": false
         },
@@ -222,12 +222,12 @@
           "expected": "full",
           "argmax": "full",
           "correct": true,
-          "margin_over_runner_up": 0.02202,
+          "margin_over_runner_up": 0.03495,
           "probabilities": {
-            "full": 0.02439,
-            "quiet": 0.00078,
-            "early": 0.00237,
-            "soft": 0.00133
+            "full": 0.05259,
+            "quiet": 0.00098,
+            "early": 0.01723,
+            "soft": 0.01764
           },
           "taught_in_the_opposite_frame": false
         },
@@ -236,32 +236,40 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.88628,
+          "margin_over_runner_up": 0.72363,
           "probabilities": {
-            "light": 0.88922,
-            "soft": 0.00294,
-            "small": 1e-05,
-            "slow": 0.00029
+            "light": 0.73911,
+            "soft": 0.01548,
+            "small": 0.00014,
+            "slow": 0.00036
           },
           "taught_in_the_opposite_frame": true
         },
         {
           "word": "wet",
-          "unknown": [
-            "smooth"
-          ]
+          "expected": "dry",
+          "argmax": "dry",
+          "correct": true,
+          "margin_over_runner_up": 0.63712,
+          "probabilities": {
+            "dry": 0.64571,
+            "clean": 0.00137,
+            "cold": 0.00859,
+            "warm": 0.00136
+          },
+          "taught_in_the_opposite_frame": true
         },
         {
           "word": "early",
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.14593,
+          "margin_over_runner_up": 0.17772,
           "probabilities": {
-            "late": 0.16256,
-            "slow": 0.01663,
-            "old": 0.00052,
-            "near": 6e-05
+            "late": 0.18324,
+            "slow": 0.00552,
+            "old": 0.00034,
+            "near": 0.00085
           },
           "taught_in_the_opposite_frame": true
         }
@@ -274,18 +282,18 @@
     "negation_copy_probe": {
       "question": "lang_31 asks the model to copy the corrected colour back. It failed on 'box'. Does the copy work for other objects taught the same way?",
       "prompt_template": "the {object} is not red . it is blue . the {object} is",
-      "objects_where_the_copy_works": 16,
+      "objects_where_the_copy_works": 15,
       "objects_tested": 16,
       "results": [
         {
           "object": "box",
-          "argmax_among_colours": "blue",
-          "copies_the_correction": true,
+          "argmax_among_colours": "red",
+          "copies_the_correction": false,
           "probabilities": {
-            "blue": 0.58931,
-            "green": 0.11767,
-            "yellow": 0.00752,
-            "red": 0.00648
+            "blue": 0.20446,
+            "green": 0.09015,
+            "yellow": 0.02244,
+            "red": 0.24189
           }
         },
         {
@@ -293,10 +301,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9591,
-            "green": 0.01029,
-            "yellow": 0.00794,
-            "red": 0.0014
+            "blue": 0.93601,
+            "green": 0.01447,
+            "yellow": 0.0063,
+            "red": 0.00919
           }
         },
         {
@@ -304,10 +312,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95928,
-            "green": 0.01064,
-            "yellow": 0.00779,
-            "red": 0.00146
+            "blue": 0.92667,
+            "green": 0.01711,
+            "yellow": 0.00754,
+            "red": 0.01259
           }
         },
         {
@@ -315,10 +323,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9581,
-            "green": 0.00935,
-            "yellow": 0.00744,
-            "red": 0.00144
+            "blue": 0.92783,
+            "green": 0.01506,
+            "yellow": 0.00756,
+            "red": 0.01157
           }
         },
         {
@@ -326,10 +334,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95779,
-            "green": 0.01293,
-            "yellow": 0.00744,
-            "red": 0.0012
+            "blue": 0.92541,
+            "green": 0.01549,
+            "yellow": 0.0076,
+            "red": 0.01232
           }
         },
         {
@@ -337,10 +345,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.96026,
-            "green": 0.00707,
-            "yellow": 0.00899,
-            "red": 0.00143
+            "blue": 0.93528,
+            "green": 0.01522,
+            "yellow": 0.00578,
+            "red": 0.00952
           }
         },
         {
@@ -348,10 +356,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95613,
-            "green": 0.01372,
-            "yellow": 0.00961,
-            "red": 0.00168
+            "blue": 0.92948,
+            "green": 0.01646,
+            "yellow": 0.00729,
+            "red": 0.01152
           }
         },
         {
@@ -359,10 +367,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95864,
-            "green": 0.0098,
-            "yellow": 0.01007,
-            "red": 0.0021
+            "blue": 0.9366,
+            "green": 0.01302,
+            "yellow": 0.0067,
+            "red": 0.01086
           }
         },
         {
@@ -370,10 +378,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95431,
-            "green": 0.01271,
-            "yellow": 0.00677,
-            "red": 0.00116
+            "blue": 0.92846,
+            "green": 0.01312,
+            "yellow": 0.00629,
+            "red": 0.00876
           }
         },
         {
@@ -381,10 +389,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95216,
-            "green": 0.01343,
-            "yellow": 0.01164,
-            "red": 0.00173
+            "blue": 0.92094,
+            "green": 0.01901,
+            "yellow": 0.01079,
+            "red": 0.01111
           }
         },
         {
@@ -392,10 +400,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.96167,
-            "green": 0.00693,
-            "yellow": 0.00983,
-            "red": 0.00129
+            "blue": 0.92686,
+            "green": 0.01818,
+            "yellow": 0.00862,
+            "red": 0.00906
           }
         },
         {
@@ -403,10 +411,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.96241,
-            "green": 0.00746,
-            "yellow": 0.00721,
-            "red": 0.00125
+            "blue": 0.92353,
+            "green": 0.01535,
+            "yellow": 0.00855,
+            "red": 0.01127
           }
         },
         {
@@ -414,10 +422,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95774,
-            "green": 0.00922,
-            "yellow": 0.0084,
-            "red": 0.00242
+            "blue": 0.91367,
+            "green": 0.01808,
+            "yellow": 0.00855,
+            "red": 0.01261
           }
         },
         {
@@ -425,10 +433,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.96067,
-            "green": 0.00711,
-            "yellow": 0.00724,
-            "red": 0.00131
+            "blue": 0.91076,
+            "green": 0.02166,
+            "yellow": 0.01064,
+            "red": 0.01428
           }
         },
         {
@@ -436,10 +444,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.88316,
-            "green": 0.00311,
-            "yellow": 0.00609,
-            "red": 0.0024
+            "blue": 0.01605,
+            "green": 0.00153,
+            "yellow": 0.00103,
+            "red": 0.00377
           }
         },
         {
@@ -447,10 +455,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.95939,
-            "green": 0.00918,
-            "yellow": 0.00692,
-            "red": 0.00137
+            "blue": 0.92526,
+            "green": 0.01589,
+            "yellow": 0.00765,
+            "red": 0.01118
           }
         }
       ]
@@ -463,12 +471,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.37871,
+          "margin_over_runner_up": 0.29865,
           "probabilities": {
-            "quiet": 0.39764,
-            "loud": 0.01893,
-            "late": 0.00026,
-            "round": 8e-05
+            "quiet": 0.30086,
+            "loud": 0.00221,
+            "late": 0.00015,
+            "round": 5e-05
           },
           "taught_in_the_opposite_frame": false
         },
@@ -477,26 +485,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.16681,
+          "margin_over_runner_up": 0.7305,
           "probabilities": {
-            "cold": 0.17194,
-            "warm": 0.00513,
-            "fast": 0.00175,
-            "heavy": 0.00122
+            "cold": 0.73241,
+            "warm": 0.00191,
+            "fast": 4e-05,
+            "heavy": 5e-05
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "full",
-          "correct": true,
-          "margin_over_runner_up": 0.02874,
+          "argmax": "early",
+          "correct": false,
+          "margin_over_runner_up": 0.00163,
           "probabilities": {
-            "full": 0.03032,
-            "quiet": 0.00158,
-            "early": 0.00078,
-            "soft": 0.00013
+            "full": 0.01413,
+            "quiet": 0.0041,
+            "early": 0.01576,
+            "soft": 0.01146
           },
           "taught_in_the_opposite_frame": false
         },
@@ -505,32 +513,317 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.9519,
+          "margin_over_runner_up": 0.81225,
           "probabilities": {
-            "light": 0.95201,
-            "soft": 1e-05,
-            "small": 3e-05,
-            "slow": 0.00011
+            "light": 0.81345,
+            "soft": 0.00015,
+            "small": 0.00025,
+            "slow": 0.0012
           },
           "taught_in_the_opposite_frame": true
         },
         {
           "word": "wet",
-          "unknown": [
-            "smooth"
-          ]
+          "expected": "dry",
+          "argmax": "dry",
+          "correct": true,
+          "margin_over_runner_up": 0.84503,
+          "probabilities": {
+            "dry": 0.86064,
+            "clean": 0.00037,
+            "cold": 0.00955,
+            "warm": 0.01561
+          },
+          "taught_in_the_opposite_frame": true
         },
         {
           "word": "early",
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.05774,
+          "margin_over_runner_up": 0.39803,
           "probabilities": {
-            "late": 0.0683,
-            "slow": 0.01056,
-            "old": 0.0056,
-            "near": 0.00026
+            "late": 0.40945,
+            "slow": 0.01142,
+            "old": 0.00103,
+            "near": 7e-05
+          },
+          "taught_in_the_opposite_frame": true
+        }
+      ]
+    }
+  },
+  "tuned": {
+    "model": "experiments/tuned/llm_run/model.pt",
+    "note": "These probes are inference only. None of them appears in corpus/; they exist to explain measured eval failures, not to change any model or score.",
+    "negation_copy_probe": {
+      "question": "lang_31 asks the model to copy the corrected colour back. It failed on 'box'. Does the copy work for other objects taught the same way?",
+      "prompt_template": "the {object} is not red . it is blue . the {object} is",
+      "objects_where_the_copy_works": 16,
+      "objects_tested": 16,
+      "results": [
+        {
+          "object": "box",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.9931,
+            "green": 0.00093,
+            "yellow": 0.00019,
+            "red": 2e-05
+          }
+        },
+        {
+          "object": "cup",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99396,
+            "green": 0.0007,
+            "yellow": 0.00015,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "mug",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99403,
+            "green": 0.00082,
+            "yellow": 0.00017,
+            "red": 2e-05
+          }
+        },
+        {
+          "object": "chair",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99249,
+            "green": 0.00078,
+            "yellow": 0.00014,
+            "red": 2e-05
+          }
+        },
+        {
+          "object": "hat",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99144,
+            "green": 0.00211,
+            "yellow": 0.00046,
+            "red": 5e-05
+          }
+        },
+        {
+          "object": "coat",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99347,
+            "green": 0.00062,
+            "yellow": 0.00018,
+            "red": 2e-05
+          }
+        },
+        {
+          "object": "flag",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99294,
+            "green": 0.00126,
+            "yellow": 0.00022,
+            "red": 3e-05
+          }
+        },
+        {
+          "object": "kite",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99254,
+            "green": 0.00067,
+            "yellow": 0.00014,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "scarf",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99356,
+            "green": 0.001,
+            "yellow": 0.0002,
+            "red": 2e-05
+          }
+        },
+        {
+          "object": "van",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.9943,
+            "green": 0.00068,
+            "yellow": 0.00014,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "bench",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99284,
+            "green": 0.00045,
+            "yellow": 0.00015,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "bowl",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99439,
+            "green": 0.00069,
+            "yellow": 0.00021,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "plate",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99304,
+            "green": 0.00076,
+            "yellow": 0.00022,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "card",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99349,
+            "green": 0.00073,
+            "yellow": 0.00016,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "board",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.91187,
+            "green": 0.0002,
+            "yellow": 0.00012,
+            "red": 1e-05
+          }
+        },
+        {
+          "object": "sign",
+          "argmax_among_colours": "blue",
+          "copies_the_correction": true,
+          "probabilities": {
+            "blue": 0.99333,
+            "green": 0.00076,
+            "yellow": 0.00014,
+            "red": 1e-05
+          }
+        }
+      ]
+    },
+    "opposites_margin_probe": {
+      "question": "lang_30 ('the opposite of noisy is') chose 'loud' over 'quiet'. How close was it, and does the frame work for pairs taught inside it?",
+      "results": [
+        {
+          "word": "noisy",
+          "expected": "quiet",
+          "argmax": "quiet",
+          "correct": true,
+          "margin_over_runner_up": 0.05241,
+          "probabilities": {
+            "quiet": 0.06252,
+            "loud": 0.01011,
+            "late": 0.00182,
+            "round": 0.0001
+          },
+          "taught_in_the_opposite_frame": false
+        },
+        {
+          "word": "hot",
+          "expected": "cold",
+          "argmax": "cold",
+          "correct": true,
+          "margin_over_runner_up": 0.5912,
+          "probabilities": {
+            "cold": 0.59174,
+            "warm": 0.00054,
+            "fast": 0.0,
+            "heavy": 0.0
+          },
+          "taught_in_the_opposite_frame": false
+        },
+        {
+          "word": "empty",
+          "expected": "full",
+          "argmax": "full",
+          "correct": true,
+          "margin_over_runner_up": 0.09081,
+          "probabilities": {
+            "full": 0.09106,
+            "quiet": 0.00022,
+            "early": 0.00024,
+            "soft": 0.00025
+          },
+          "taught_in_the_opposite_frame": false
+        },
+        {
+          "word": "heavy",
+          "expected": "light",
+          "argmax": "light",
+          "correct": true,
+          "margin_over_runner_up": 0.97813,
+          "probabilities": {
+            "light": 0.97822,
+            "soft": 0.0,
+            "small": 0.0,
+            "slow": 9e-05
+          },
+          "taught_in_the_opposite_frame": true
+        },
+        {
+          "word": "wet",
+          "expected": "dry",
+          "argmax": "dry",
+          "correct": true,
+          "margin_over_runner_up": 0.9818,
+          "probabilities": {
+            "dry": 0.98542,
+            "clean": 0.00032,
+            "cold": 0.0,
+            "warm": 0.00362
+          },
+          "taught_in_the_opposite_frame": true
+        },
+        {
+          "word": "early",
+          "expected": "late",
+          "argmax": "late",
+          "correct": true,
+          "margin_over_runner_up": 0.84981,
+          "probabilities": {
+            "late": 0.84991,
+            "slow": 9e-05,
+            "old": 0.0001,
+            "near": 5e-05
           },
           "taught_in_the_opposite_frame": true
         }
