@@ -1,7 +1,11 @@
 # corpus_unpaired/ - teaching material for experiment E
 
-Identical to [`../corpus_seven/`](../corpus_seven) except for `06_spatial_relations.txt`. This
-folder exists to test one hypothesis, and the answer turned out to be no.
+Built to differ from [`../corpus_seven/`](../corpus_seven) only in `06_spatial_relations.txt`, which
+is corpus_seven's file plus 503 single-relation passages. Because the generator draws every file
+from one random stream, the extra draws also shift the files generated after it: `07`, `10`, `11`
+and the PDF hold exactly the same lines in a different order, and `09_sequence_order.txt` is a
+different random draw from the same templates. This folder exists to test one hypothesis, and the
+answer turned out to be no.
 
 ```sh
 python tools/make_extension_corpus.py --categories all-unpaired --out corpus_unpaired
@@ -13,13 +17,13 @@ python tools/make_extension_corpus.py --categories all-unpaired --out corpus_unp
 | `02_grammar_tense.txt` | tense: `walk` / `walks` / `walking` / `walked` after time cues | 920 | 920 |
 | `03_opposites_frame.txt` | the frame `the opposite of X is Y`, using pairs the eval never asks for | 392 | 134 |
 | `04_opposites_contrast.txt` | hot/cold, empty/full, noisy/quiet taught **only** as contextual contrasts | 204 | 195 |
-| `05_negation_corrections.txt` | "not A, it is B" corrections - every object x every ordered colour pair | 1,152 | 1,136 |
+| `05_negation_corrections.txt` | "not A, it is B" corrections - every object x every ordered colour pair except each colour's cyclic successor | 1,052 | 1,036 |
 | `06_spatial_relations.txt` | inverse relations, with the eval's own nouns excluded from every frame | 1,635 | 1,635 |
 | `07_plain_descriptions.md` | ordinary sentences carrying the eval's relational nouns into the vocabulary | 343 | 343 |
 | `08_printed_notes.pdf` | the same job as a PDF, so the run exercises the PDF import path | 61 | 61 |
-| `09_sequence_order.txt` | first/then ordering and before/after relations | 264 | 211 |
+| `09_sequence_order.txt` | first/then ordering and before/after relations | 288 | 235 |
 | `10_everyday_knowledge.txt` | simple facts: water and ice, umbrellas and dryness, light and dark | 815 | 453 |
-| `11_categories.txt` | category membership and young/grown animal pairs | 543 | 495 |
+| `11_categories.txt` | category membership and young/grown animal pairs | 1,047 | 747 |
 
 ## The hypothesis, and the result
 
@@ -29,7 +33,7 @@ contains the other. Next-token prediction then has little pressure to separate t
 D the nearest neighbour of `right` is `left` at cosine **0.762** - which, in earlier builds, looked
 like the mechanical reason the left/right eval case came out a near-tie.
 
-This variant keeps all the paired passages (they are what teaches the inverse) and **adds ~500
+This variant keeps all the paired passages (they are what teaches the inverse) and **adds 503
 single-relation passages** that mention one direction word without its inverse, breaking the
 co-distribution. The README's prediction was that the cosine would fall below 0.6 and the spatial
 five-seed mean would rise above 2.4/3.
@@ -52,14 +56,14 @@ record. See section 11 of the main README.
 **1. Internal periods are written tight against the next word.**
 
 ```
-the gate is not open .it is closed .the gate is closed .
+the fence is not open .it is shut .the fence is shut .
 ```
 
 `chunk_text()` in the notebook splits text on `(?<=[.!?])\s+`, so the normally-spaced version
 becomes **three separate training passages**. The negation and spatial eval prompts span several
 clauses, so a model trained only on one-clause passages never sees a `.` with more text after it.
 With no space the splitter leaves the line as one passage and `word_tokens()` still reads it as
-`["the", "gate", "is", "not", "open", ".", "it", ...]` - the same token sequence, kept together.
+`["the", "fence", "is", "not", "open", ".", "it", ...]` - the same token sequence, kept together.
 
 **2. The eval's own nouns are missing from the relational frames, on purpose.**
 
@@ -68,7 +72,7 @@ above/below, left/right or inside/contains frame; they reach the vocabulary only
 `07_plain_descriptions.md`. An earlier version did include them and produced
 `the clock is above the desk . the desk is below the clock .` - not an eval prompt, so every
 upstream check passed, but an 8-token suffix of one, always followed by that case's answer. It
-scored 3/3 on spatial relations; after the fix the five-seed mean is 1.8/3. The lower number is
+scored 3/3 on spatial relations; after the fix the five-seed mean is 2.0/3 for D and 1.4/3 for E. The lower number is
 the real one.
 
 **3. The PDF's plain-text original is not in this folder.**
@@ -98,8 +102,8 @@ can still be diffed against a known original (`../tools/check_pdf_extraction.py`
    the *provided* classroom corpus already does. That corpus reaches 7 tokens against its own
    `domain_place` cases, so 7 is the bar; this material's longest is 6. Teaching a frame
    necessarily shares the frame - it must not also share the frame's specific fillers, which is
-   why the eval's own `red -> blue` and `open -> closed` pairs are excluded from the correction
-   frames even though every other ordered pair is used.
+   why the correction frames drop one cyclic successor pair per colour (removing the eval's own
+   `red -> blue` while every colour stays equally frequent) and never correct `open` to `closed`.
 
 Verify it yourself:
 

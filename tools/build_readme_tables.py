@@ -208,14 +208,87 @@ def temperature_block():
     return rows[:-1]
 
 
+EXTRA_RUNS = {  # configurations whose seed-42 run is not one of the five main experiments
+    "A starter, lr 0.004": "sweep_starterlr_s{seed}",
+    "corpus_seven, lr 0.006": "grid_seven_lr0.006_s{seed}",
+    "corpus_unpaired, lr 0.006": "grid_unpaired_lr0.006_s{seed}",
+    "D settings, batch 16": "batch16_s{seed}",
+    "D settings, batch 64": "batch64_s{seed}",
+}
+MAIN_CONFIGS = {"A starter, lr 0.001": "starter", "B ext-4, lr 0.001": "expanded",
+                "C ext-7, lr 0.001": "seven", "D ext-7, lr 0.004": "tuned",
+                "E unpaired, lr 0.004": "unpaired"}
+BATCH_SEEDS = [42, 7, 123]
+
+
+def config_dir(name, seed):
+    if name in MAIN_CONFIGS:
+        return run_dir(MAIN_CONFIGS[name], seed)
+    return ROOT / "experiments" / EXTRA_RUNS[name].format(seed=seed) / "llm_run"
+
+
+def seed_sweep_json():
+    """results/seed_sweep.json, rebuilt from the run folders every time."""
+    configurations, detail = {}, {}
+    for name in [*MAIN_CONFIGS, *EXTRA_RUNS]:
+        seeds = BATCH_SEEDS if "batch" in name else SEEDS
+        by_seed, detail[name] = {}, {}
+        for seed in seeds:
+            comparison = json.loads((config_dir(name, seed) / "language_eval_comparison.json").read_text())
+            by_seed[str(seed)] = comparison["final"]["overall"]["correct"]
+            detail[name][str(seed)] = {
+                "final": comparison["final"]["overall"], "untrained": comparison["untrained"]["overall"],
+                "cat": {c: [v["correct"], v["total"], v["scorable"]]
+                        for c, v in comparison["final"]["by_category"].items()}}
+        values = list(by_seed.values())
+        configurations[name] = {"by_seed": by_seed, "mean": round(statistics.mean(values), 2),
+                                "stdev": round(statistics.stdev(values), 2)}
+    report = {"seeds": SEEDS, "note": "Only the notebook's SEED changed within a configuration; it "
+              "re-initialises the model, re-shuffles the 90/10 passage split and re-orders the "
+              "training batches. Batch-size rows use three seeds.",
+              "configurations": configurations, "detail": detail}
+    (ROOT / "results" / "seed_sweep.json").write_text(json.dumps(report, indent=2) + "\n")
+    return configurations
+
+
+def grid_table(configurations):
+    rows = ["| Configuration | seed 42 | seed 7 | seed 123 | seed 2026 | seed 31337 | mean | sd |",
+            "|---|---:|---:|---:|---:|---:|---:|---:|"]
+    for label, name, bold in (("`corpus_seven` lr 0.001", "C ext-7, lr 0.001", False),
+                              ("`corpus_seven` lr 0.004", "D ext-7, lr 0.004", True),
+                              ("`corpus_seven` lr 0.006", "corpus_seven, lr 0.006", False),
+                              ("`corpus_unpaired` lr 0.004", "E unpaired, lr 0.004", False),
+                              ("`corpus_unpaired` lr 0.006", "corpus_unpaired, lr 0.006", False)):
+        c = configurations[name]
+        b = "**" if bold else ""
+        cells = " | ".join(f"{b}{c['by_seed'][str(s)]}{b}" for s in SEEDS)
+        rows.append(f"| {b}{label}{b} | {cells} | {b}{c['mean']:.1f}{b} | {c['stdev']:.2f} |")
+    return rows
+
+
+def batch_table(configurations):
+    rows = ["| Batch size (D settings) | seed 42 | seed 7 | seed 123 | mean |", "|---:|---:|---:|---:|---:|"]
+    d = configurations["D ext-7, lr 0.004"]["by_seed"]
+    for size, values in ((16, configurations["D settings, batch 16"]["by_seed"]),
+                         (32, {str(s): d[str(s)] for s in BATCH_SEEDS}),
+                         (64, configurations["D settings, batch 64"]["by_seed"])):
+        vals = [values[str(s)] for s in BATCH_SEEDS]
+        b = "**" if size == 32 else ""
+        rows.append(f"| {b}{size}{' (default)' if size == 32 else ''}{b} | "
+                    + " | ".join(str(v) for v in vals) + f" | {b}{statistics.mean(vals):.1f}{b} |")
+    return rows
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     seed_rows, seed_cat, best = seed_tables()
+    configurations = seed_sweep_json()
     tables = {"results.md": results_table(), "by_group.md": group_table(),
               "by_category.md": category_table(), "loss.md": loss_table(),
               "seeds.md": seed_rows, "seeds_by_category.md": seed_cat,
               "heldout.md": heldout_table(), "hyperparameters.md": hyperparameter_table(),
-              "samples.md": samples_block(), "temperatures.md": temperature_block()}
+              "samples.md": samples_block(), "temperatures.md": temperature_block(),
+              "lr_grid.md": grid_table(configurations), "batch.md": batch_table(configurations)}
     for name, rows in tables.items():
         (OUT / name).write_text("\n".join(rows) + "\n", encoding="utf-8")
         print(f"  {name:<24} {len(rows) - 2:>3} rows")

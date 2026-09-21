@@ -24,7 +24,7 @@ from run_evals import load_suite, matching_cases, word_tokens  # noqa: E402
 # Each corpus folder's PDF has its plain-text original in docs/, outside every
 # training input, so the PDF is the only training source for that text while the
 # extraction stays diffable against a known original.
-CORPUS_DIRS = ["corpus", "corpus_seven"]
+CORPUS_DIRS = ["corpus", "corpus_seven", "corpus_unpaired"]
 
 
 def twin_for(pdf_path):

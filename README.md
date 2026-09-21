@@ -23,7 +23,7 @@ model**: seven taught categories, learning rate 0.004.
 | B extension | trained | **34/48 (70.8%)** | 35/48 (72.9%) | 97.1% | [csv](experiments/expanded/llm_run/language_evals/final/eval_results.csv) · [json](experiments/expanded/llm_run/language_evals/final/eval_results.json) · [summary](experiments/expanded/llm_run/language_evals/final/eval_summary.json) |
 
 The delivered model D scores **40/48** (83.3%), averages 37.4/48 across five seeds, and scores
-**12/16** on a held-out suite I wrote after freezing the corpus. The 48 public cases guided my corpus
+**12/16** on a held-out suite I wrote after first freezing the corpus. The 48 public cases guided my corpus
 design, so they are a development benchmark, not evidence of generalisation.
 
 **Where each graded item is**
@@ -44,7 +44,7 @@ design, so they are a development benchmark, not evidence of generalisation.
 | Failures explained: missing vocabulary vs. a learned pattern | [Coverage vs. skill](#vocabulary-coverage-is-the-gate-and-it-is-not-the-same-as-skill) · [§11](#11-what-failed-and-why) |
 | Beyond the minimum | Five-seed variance: [§8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds). Held-out suite: [§9](#9-a-held-out-suite-written-after-the-corpus-was-frozen) |
 | ***Working result (3)*** | |
-| Trained model and run identity | [`experiments/tuned/llm_run/model.pt`](experiments/tuned/llm_run/model.pt), run `20260920T232038_718861Z`, sha256 `26a8cc1215c4a293…` |
+| Trained model and run identity | [`experiments/tuned/llm_run/model.pt`](experiments/tuned/llm_run/model.pt), run `20260920T232038_718861Z`, weights hash `26a8cc1215c4a293…` |
 | Evals rerun from the saved model | `python run_evals.py --model experiments/tuned/llm_run/model.pt --output results/my-evals`. [`results/rerun/`](results/rerun) reproduces all ten result sets exactly |
 | Chat interface, launch, 3+ real interactions | [`chat.py`](chat.py): `python chat.py --model experiments/tuned/llm_run/model.pt`. [Screenshot](results/chat/tuned_terminal_session.png) · [transcript](results/chat/tuned_chat_transcript.json): 8 real prompts, including two that show its limits. See [§12](#12-chat-interface-and-evidence) |
 | One limitation, one proposed next experiment | [§11](#11-what-failed-and-why) · [§14](#14-what-i-learned-one-limitation-and-my-next-experiment) |
@@ -57,7 +57,8 @@ input. The box below explains the five audits that check this.
 ## Overview of all five experiments
 
 **Five experiments.** A and B are the two the assignment requires and differ *only* in the
-corpus. C, D and E are optional extras, each changing exactly one more thing.
+corpus. C, D and E are optional extras, each changing one more thing (E with a side effect
+explained in [Section 4](#4-the-runs-what-actually-happened)).
 
 | | A — starter | B — extension, 4 cat. | C — extension, 7 cat. | D — C at lr 0.004 | E — D with unpaired relations |
 |---|---|---|---|---|---|
@@ -67,10 +68,13 @@ corpus. C, D and E are optional extras, each changing exactly one more thing.
 | Executed notebook | [A](experiments/starter/custom_llm_starter.executed.ipynb) | [B](experiments/expanded/custom_llm_expanded.executed.ipynb) | [C](experiments/seven/custom_llm_seven.executed.ipynb) | [D](experiments/tuned/custom_llm_tuned.executed.ipynb) | [E](experiments/unpaired/custom_llm_unpaired.executed.ipynb) |
 | Results ZIP | [zip](experiments/starter/starter_results.zip) | [zip](experiments/expanded/expanded_results.zip) | [zip](experiments/seven/seven_results.zip) | [zip](experiments/tuned/tuned_results.zip) | [zip](experiments/unpaired/unpaired_results.zip) |
 | Run folder | [`llm_run/`](experiments/starter/llm_run) `20260920T040529_296252Z` | [`llm_run/`](experiments/expanded/llm_run) `20260920T181941_182326Z` | [`llm_run/`](experiments/seven/llm_run) `20260920T185551_271822Z` | [`llm_run/`](experiments/tuned/llm_run) `20260920T232038_718861Z` | [`llm_run/`](experiments/unpaired/llm_run) `20260920T232109_555281Z` |
-| Weights sha256 | `bf49f05b14d54178…` | `f4a561d786526619…` | `5420c14291c24398…` | `26a8cc1215c4a293…` | `8702c0e49fad37c9…` |
+| Weights hash¹ | `bf49f05b14d54178…` | `f4a561d786526619…` | `5420c14291c24398…` | `26a8cc1215c4a293…` | `8702c0e49fad37c9…` |
 | **All-case success** | **20 / 48** | **34 / 48** | **36 / 48** | **40 / 48** | **37 / 48** |
 | Scorable cases | 24 / 48 | 35 / 48 | 44 / 48 | 44 / 48 | 44 / 48 |
 | **Five-seed mean** | **22.2** ± 1.64 | **32.8** ± 1.30 | **36.0** ± 1.41 | **37.4** ± 1.67 | **37.2** ± 1.92 |
+
+¹ The notebook's `model_hash` over the weight tensors, recorded in every eval, held-out and chat
+file. It is not the sha256 of the `model.pt` file, which also stores the vocabulary and settings.
 
 **The delivered model is D**: `corpus_seven`, 3,000 steps, learning rate 0.004, batch size 32,
 seed 42 — [`experiments/tuned/llm_run/model.pt`](experiments/tuned/llm_run/model.pt). It is the best
@@ -84,8 +88,8 @@ candidates on the final corpus found nothing better
 > ### Eval separation — read this first
 >
 > No eval prompt, reference answer, answer key or eval output is in any training input, and
-> **five independent audits** enforce that. Three of them found real problems in my own
-> corpus, in three successive passes. All are fixed and the corrected numbers are above.
+> **five independent audits** enforce that. Four of them found real problems in my own
+> corpus, in four successive passes. All are fixed and the corrected numbers are above.
 >
 > | Pass | What it checks | What it found in **my** material |
 > |---|---|---|
@@ -101,7 +105,8 @@ candidates on the final corpus found nothing better
 >
 > Because the 48 cases are public and guided my corpus design they are a **development
 > benchmark**. [Section 9](#9-a-held-out-suite-written-after-the-corpus-was-frozen) adds 16
-> cases I wrote afterwards and ran once — the only evidence here about unseen generalisation.
+> cases I wrote afterwards and never used to choose anything — the only evidence here about
+> unseen generalisation.
 
 ---
 
@@ -128,7 +133,8 @@ candidates on the final corpus found nothing better
 ## 1. How to run everything
 
 **Requirements:** Python 3.12, no GPU, no API key, no pretrained weights. Every command below
-finishes in under a minute on an M2 MacBook Air. **The saved models come with the repository:** all five
+finishes in under a minute on an M2 MacBook Air, except the steps / learning-rate sweep (33
+training runs, about 15 minutes). **The saved models come with the repository:** all five
 trained models (`model.pt`, about 0.5 MB each) and their untrained starting points
 (`model_untrained.pt`) are committed under `experiments/*/llm_run/`, so rerunning the evals or the
 chat needs no retraining and no download beyond the clone.
@@ -136,7 +142,7 @@ chat needs no retraining and no download beyond the clone.
 ```bash
 git clone https://github.com/easonhanyc/mba290t-custom-llm && cd mba290t-custom-llm
 python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt                          # torch, pypdf, jupyter
+pip install -r requirements.txt numpy                    # torch, pypdf, jupyter; numpy for the weights hash
 pip install nbclient nbformat pexpect reportlab pillow   # only needed for tools/
 ```
 
@@ -159,7 +165,8 @@ pip install nbclient nbformat pexpect reportlab pillow   # only needed for tools
 | Re-check PDF extraction | `python tools/check_pdf_extraction.py` |
 | Rebuild the teaching corpora | `python tools/make_extension_corpus.py [--categories all\|all-unpaired --out …]` |
 | Rebuild comparison tables and diagnostics | `python tools/analyze_results.py` |
-| Regenerate every numeric table in this README | `python tools/build_readme_tables.py` |
+| Regenerate every numeric table and sample block in this README, and `results/seed_sweep.json` | `python tools/build_readme_tables.py` |
+| Measure how much of the 64D geometry the viewer's 3D map keeps | `python tools/pca_neighbour_check.py` |
 | Rerun the steps / learning-rate sweep | `python tools/hyperparameter_sweep.py` |
 | Run the starter's own unit tests | `python -m unittest test_language_evals test_corpus` |
 
@@ -226,7 +233,8 @@ from "everything got better". C, D and E teach three more, leaving `reference` a
 | **categories_and_analogies** | Category membership, another lookup. | control | ✅ |
 | **reference** | **Never taught.** Its cases hinge on eleven specific first names; the generator bans every proper name in the suite. See [Section 11](#failure-3--the-four-cases-i-chose-not-to-make-scorable). | control | control |
 
-File-by-file: [`corpus/README.md`](corpus/README.md) · [`corpus_seven/README.md`](corpus_seven/README.md).
+File-by-file: [`corpus/README.md`](corpus/README.md) · [`corpus_seven/README.md`](corpus_seven/README.md) ·
+[`corpus_unpaired/README.md`](corpus_unpaired/README.md).
 Manifests: [A](experiments/starter/llm_run/corpus_manifest.json) ·
 [B](experiments/expanded/llm_run/corpus_manifest.json) · [C](experiments/seven/llm_run/corpus_manifest.json) ·
 [D](experiments/tuned/llm_run/corpus_manifest.json) · [E](experiments/unpaired/llm_run/corpus_manifest.json).
@@ -237,8 +245,8 @@ Manifests: [A](experiments/starter/llm_run/corpus_manifest.json) ·
 `(?<=[.!?])\s+`, so a three-clause example written normally becomes *three separate passages*:
 
 ```
-'the gate is not open . it is closed . the gate is closed .'
-  -> ['the gate is not open .', 'it is closed .', 'the gate is closed .']
+'the fence is not open . it is shut . the fence is shut .'
+  -> ['the fence is not open .', 'it is shut .', 'the fence is shut .']
 ```
 
 A model trained only on one-clause passages therefore never sees a `.` with more text after it —
@@ -266,7 +274,7 @@ leaning on a frequency prior instead of doing the work:
 |---|---|---|---|
 | any colour correction answered `yellow` | colours paired randomly, so one was commonest in the corrected slot | every object × every ordered colour pair | copy probe **3/16 → 16/16 objects** |
 | `a salmon is a` answered `bird`; `an apple is a` answered `vehicle` | `birds` had 6 members, `vehicle` 60 lines, other categories 12 | every group exactly 4 members, equal line budgets | both stopped defaulting to the frequent label |
-| `left`/`right` a dead tie | object pairs sampled, leaving the direction words at different frequencies | every relation emitted symmetrically | spatial five-seed mean **1.4 → 1.8/3** |
+| `left`/`right` a dead tie | object pairs sampled, leaving the direction words at different frequencies | every relation emitted symmetrically | spatial five-seed mean **1.4 → 1.8/3** at the time (2.0/3 for the final D) |
 | `left`/`right` *still* a near-tie | the two words are almost perfectly co-distributed | experiment E: add single-relation passages | **prediction falsified**; the final D no longer has this failure, see [Section 11](#failure-1--spatial-relations-and-a-prediction-i-got-wrong) |
 
 **4. The PDF extraction check.** `08_printed_notes.pdf` exercises the PDF import path in every
@@ -302,8 +310,9 @@ comparison is interpretable, with three it is not. D changes one more thing, E o
 **Why an extreme learning rate is a problem.** Too large and each update overshoots — the loss
 oscillates or becomes `NaN`, and the notebook raises `FloatingPointError` rather than saving a
 broken model. Too small and the model crawls: at 1e-6 instead of 1e-3, 3,000 steps would cover
-roughly the distance the current run covers in three. Section 8 shows both ends empirically: 0.0005
-loses 3 cases against the default, and past 0.006 the score falls away again.
+roughly the distance the current run covers in three. An earlier two-seed round (Section 8) shows
+both ends: lr 0.0005 scored 3 cases below the default, and lr 0.02 scored 2.5 below the 0.004–0.006
+peak.
 
 ### My prediction, written before training
 
@@ -316,7 +325,7 @@ loses 3 cases against the default, and past 0.006 the score falls away again.
 
 ### What actually happened
 
-1. ✅ Correct. A's validation loss reaches 0.71 by step 900 and moves 0.005 after that.
+1. ✅ Correct. A's validation loss reaches 0.71 by step 900 and stays within 0.70–0.72 after that.
 2. ⚠️ Half right. `starter_patterns` → **16/16**; `starter_transfer` only **4/8**.
 3. ✅ Correct. 24/24 unscorable for A; held-out unknown-token rate 0.00%.
 4. ⚠️ Mostly right, wrong about which parts. Agreement **3/3** and opposites **3/3** as expected.
@@ -325,9 +334,10 @@ loses 3 cases against the default, and past 0.006 the score falls away again.
    version scored 3/3 by memorisation, and the corrected material reaches five-seed means of 1.4–2.0/3
    (2.0/3 for the delivered model).
 5. ❌ **Wrong, and the most surprising result.** `starter_patterns` stayed at 16/16 and
-   `starter_transfer` went **4/8 → 7–8/8** in every extension, on every seed. Adding grammar and
+   `starter_transfer` rose from **4/8** (A at seed 42; 6.2/8 averaged over five seeds, range 4–8) to
+   **7–8/8** in every extension, on every seed. Adding grammar and
    spatial text made the model *better* at rephrasings of the original business sentences. My best
-   explanation: A's eight rigid frames let the model solve `starter_patterns` by memorising frames,
+   explanation: A's nine rigid templates let the model solve `starter_patterns` by memorising frames,
    and the extension's more varied sentence shapes force the word embeddings themselves to carry
    the domain association — which is what a rephrasing needs. A hypothesis consistent with the
    evidence, not something these 48 cases establish.
@@ -361,8 +371,13 @@ threads, PyTorch 2.14.0, Python 3.12.14. No GPU or MPS backend was used.
 Parameter counts differ only because the embedding and output layers scale with the vocabulary:
 (510 − 136) × 64 = 23,936, exactly 135,808 − 111,872. The transformer blocks are identical, and
 nanoGPT ties the embedding and output weights, so each extra vocabulary row is counted once. C, D
-and E: C and D share a corpus and differ only in learning rate; E differs from D only in
-`06_spatial_relations.txt`.
+and E: C and D share a corpus and differ only in learning rate. E was meant to differ from D only in
+`06_spatial_relations.txt`, which is D's file plus 503 single-relation passages. But the generator
+draws every file from one random stream, so the extra draws shift everything generated after it:
+`07`, `10`, `11` and the PDF hold exactly the same lines in a different order, while
+`09_sequence_order.txt` is a different random draw from the same templates (133 of its 235 distinct
+lines are shared with D's). So E changes the spatial material *and* re-draws the sequence
+material; only the spatial comparison between D and E is clean.
 
 Config and vocabulary reports:
 [A](experiments/starter/llm_run/config.json) / [vocab](experiments/starter/llm_run/vocabulary_report.json) ·
@@ -376,7 +391,10 @@ Config and vocabulary reports:
 All runs are deterministic, and this is now *verified* rather than asserted:
 `tools/leakage_full_audit.py` rebuilds every corpus folder from the generator and diffs it byte for
 byte on every invocation. All three folders rebuild identically, and the generator reads no file
-under `results/` or `llm_runs/`.
+under `results/` or `llm_runs/`. Training is deterministic too: re-running D at four seeds
+reproduced each recorded eval result and loss history exactly, re-running the learning-rate grid and
+batch-size runs reproduced every recorded score, and [`results/rerun/`](results/rerun) reproduces all ten
+eval sets from the saved weights case for case.
 
 ```bash
 python tools/make_extension_corpus.py && shasum -a 256 corpus/*
@@ -393,8 +411,8 @@ here to the latter.
 
 ### What stayed fixed, what training changed, and what changed only at inference
 
-- **Fixed everywhere:** the 48-case suite and its scoring, the architecture (2 blocks, 4 heads,
-  64-number embeddings, 48-token context), training seed 42, batch size 32, the fixed loss panels
+- **Fixed across the five main runs:** the 48-case suite and its scoring, the architecture (2 blocks,
+  4 heads, 64-number embeddings, 48-token context), training seed 42, batch size 32, the fixed loss panels
   (20 training and 20 validation documents, sampled with seeds 123 and 456), and the generation
   settings: samples at temperature 0.8, seed 2026, four samples of at most 32 tokens; eval
   continuations at 0.8 with a fixed per-case seed, at most 24 tokens.
@@ -432,8 +450,8 @@ network should be.
 C and D share a corpus and differ only in learning rate, so their curves *are* comparable: D ends
 lower on both panels — training 0.9199 vs 0.9611, validation 0.7509 vs 0.8186 — and also scores higher
 on the evals. That agreement is not a rule: across learning rates 0.002–0.008 in
-[Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds), validation loss stays within
-0.832–0.842 while the mean eval score ranges from 35.0 to 38.3.
+[Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds)'s sweep, validation loss stays
+within 0.832–0.842 while the mean eval score ranges from 35.0 to 38.3.
 
 Raw values behind the curves and the table below: `history.json` [A](experiments/starter/llm_run/history.json) · [B](experiments/expanded/llm_run/history.json) · [C](experiments/seven/llm_run/history.json) · [D](experiments/tuned/llm_run/history.json) · [E](experiments/unpaired/llm_run/history.json);
 `training.csv` [A](experiments/starter/llm_run/training.csv) · [B](experiments/expanded/llm_run/training.csv) · [C](experiments/seven/llm_run/training.csv) · [D](experiments/tuned/llm_run/training.csv) · [E](experiments/unpaired/llm_run/training.csv).
@@ -646,7 +664,7 @@ at most 32 new tokens. Empty and garbled strings shown as saved.*
 
 Lower temperature sharpens the distribution toward the most likely word; higher flattens it. Honest
 observation: **for experiment A, T=0.8 and T=1.2 produced byte-identical sample sets.** With 136
-words and eight rigid templates the distribution is so peaked that flattening it by 50% does not
+words and nine rigid templates the distribution is so peaked that flattening it by 50% does not
 change which word wins the draw at this seed. The extension models, with 426–510 words and far more
 varied sentence shapes, diversify visibly across all three.
 
@@ -841,8 +859,8 @@ IDs      [1, 484, 12, 109, 16, 328, 3, 2]
 
 A **token** is a piece of text (here a whole word or a punctuation mark). A **token ID** is that
 token's row number in the vocabulary list — an arbitrary integer with no meaning of its own. Proof:
-`customer` is ID **28** in experiment A and a different number in every extension. Same word, same
-architecture, different corpus, different number. The model learns nothing from the number; it uses
+`customer` is ID **28** in experiment A, **108** in B and **123** in C, D and E (which share a
+vocabulary). Same word, same architecture, different corpus, different number. The model learns nothing from the number; it uses
 it only to look up a row.
 
 ### The row it looks up: a 64-number vector
@@ -958,7 +976,8 @@ distribution being *correct*, not the model being indecisive.
 The suite is [`evals/language_evals.json`](evals/language_evals.json), **unchanged** (sha256
 `e8affcd72841e3ed…`, byte-identical to the starter repo's file). The runner is
 [`run_evals.py`](run_evals.py), also unchanged. All ten result sets recorded the same
-`suite_sha256`, which `tools/verify_separation.py` checks.
+`suite_sha256` (`1d7c503f…`, the runner's hash of the parsed suite rather than of the file), which
+`tools/verify_separation.py` checks.
 
 **Scoring rules, as implemented in `run_evals.py`:** only the prompt enters the model — never the
 four choices, the answer or the explanation. The next-token probability is read for each of the four
@@ -1090,8 +1109,10 @@ few (36.0, 0.8555). An earlier round at lr 0.001 found no gain from 12,000 steps
 35.5 at 3,000, two seeds). Past 3,000 steps the model keeps fitting its training passages while the
 held-out panel gets worse, so 3,000 is where I stopped.
 
-**Learning rate mattered more than any other setting**, peaking in a broad 0.004–0.008 band — four
-to eight times the suggested default. Three things make this interesting rather than just a number:
+**Learning rate mattered more than any other setting**, peaking in the sweep in a broad 0.004–0.008
+band — four to eight times the suggested default. (An earlier two-seed round on a previous corpus
+version also tried the extremes: lr 0.0005 scored 32.5 and lr 0.02 scored 36.5, against 35.5 at the
+default.) Three things make this interesting rather than just a number:
 
 - **Validation loss is nearly flat across learning rates 0.002–0.008** (0.832–0.842) while the mean
   eval score moves from 35.0 to 38.3. The loss and the benchmark measure different things, and the loss cannot be used
@@ -1113,16 +1134,30 @@ to eight times the suggested default. Three things make this interesting rather 
 | `corpus_unpaired` lr 0.004 | 37 | 34 | 38 | 38 | 39 | 37.2 | 1.92 |
 | `corpus_unpaired` lr 0.006 | 36 | 37 | 39 | 38 | 36 | 37.2 | 1.30 |
 
-**Batch size, the one remaining setting, is already optimal at the notebook's default.** Three seeds
-each, everything else fixed: batch 16 → 36.7, **batch 32 → 38.0**, batch 64 → 37.7. Smaller batches
-add gradient noise the model cannot absorb at this scale; larger ones buy nothing.
+The lr 0.006 rows are their own runs ([`corpus_seven`](experiments/grid_seven_lr0.006_s42) ·
+[`corpus_unpaired`](experiments/grid_unpaired_lr0.006_s42), one folder per seed); the other rows are
+the C, D and E seed runs.
+
+**Batch size is not worth changing.** Three seeds each, D's settings otherwise
+([runs](experiments/batch16_s42)):
+
+| Batch size (D settings) | seed 42 | seed 7 | seed 123 | mean |
+|---:|---:|---:|---:|---:|
+| 16 | 38 | 36 | 36 | 36.7 |
+| **32 (default)** | 40 | 38 | 36 | **38.0** |
+| 64 | 38 | 38 | 37 | 37.7 |
+
+The spread is within seed-to-seed noise, so the notebook's default stays.
 
 ### Five seeds
 
-Every per-run number in this README comes from seed 42. The notebook's `SEED` controls model
-initialisation, the 90/10 passage shuffle **and** the training batch order, so changing it
-re-randomises everything except the data itself
-([`results/seed_sweep.json`](results/seed_sweep.json)):
+Unless a seed is named, every per-run number in this README comes from seed 42. The notebook's
+`SEED` controls model initialisation, the 90/10 passage shuffle **and** the training batch order,
+so changing it re-randomises everything except the passages themselves. Because the split moves, it
+can even move the vocabulary: B at seed 31337 builds 425 entries instead of 426, because one rare
+word landed only on the validation side (held-out unknown rate 0.019%)
+([`results/seed_sweep.json`](results/seed_sweep.json), rebuilt from the run folders by
+`tools/build_readme_tables.py`):
 
 | Configuration | seed 42 | seed 7 | seed 123 | seed 2026 | seed 31337 | mean | sd |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -1133,9 +1168,10 @@ re-randomises everything except the data itself
 | E unpaired lr 0.004 | 37/48 | 34/48 | 38/48 | 38/48 | 39/48 | 37.2/48 (77.5%) | 1.92 |
 
 **The corpus improvement is robust; the learning-rate improvement is real but small.** A → C is
-**+13.8 cases** on average, roughly ten standard errors — not a seed artifact under any reading.
+**+13.8 cases** on average, about 14 standard errors — not a seed artifact under any reading.
 C → D is **+1.4** with an overlap of ranges: worth taking, worth not overselling. E (unpaired
-relations) is within 0.2 of D, i.e. indistinguishable.
+relations) is within 0.2 of D, i.e. indistinguishable overall — though that comparison also carries
+E's re-drawn sequence file (Section 4).
 
 The honest caution is about my own method. Every setting here was chosen by looking at these 48
 public cases, and twice a setting that looked good on a small sweep did not hold up: lr 0.004 looked
@@ -1231,8 +1267,9 @@ rather than quietly fixing it:
 | Longest prompt-suffix of any held-out case found in training | 6 tokens, answer follows 0% of the time |
 | Maximum share of continuations equal to the answer | 50% — the balanced `left`/`right` floor |
 
-`held_02` passes (`are`) despite that overlap: `tools` appears in training only as a category label,
-never followed by its answer, so the overlap could not supply it. I still did not edit the corpus
+`held_02` passes (`are`) despite that overlap. `tools` appears in training as a category word
+(`… are tools .`, `one of the tools .`) and as the start of a list (`the tools and the spade are …`),
+but `the tools` is never directly followed by `are`, so the overlap could not supply the answer. I still did not edit the corpus
 around it — changing training data in response to my own test would destroy the independence that
 makes the suite worth running. The audit reports it as an advisory rather than a failure for the same
 reason.
@@ -1246,7 +1283,7 @@ scorable, ±1 is about 7 percentage points. Better evidence than the public suit
 ## 10. Keeping the exam out of the textbook
 
 **No eval prompt, reference answer, answer key or eval output appears in any training input of any
-experiment.** Six mechanisms. Three of them caught real problems in my own material, across three
+experiment.** Six mechanisms. Four audits caught real problems in my own material, across four
 successive audit passes, and that history is the part of this section worth reading.
 
 **1. The notebook's own reservation.** Before the split and before the vocabulary is built, every
@@ -1389,17 +1426,18 @@ corpus_unpaired 11 files, byte-identical rebuild: True
 ```
 
 Each corpus is a pure function of the generator and its seed, so no eval output can be inside it. The
-audit does find two saved eval continuations that exactly reproduce a training passage
-(`the ring is inside the drawer .`) — with provenance established, that is the **model memorising a
-passage**, which is worth knowing about the model, not leakage into it.
+audit checks all 1,094 saved eval continuations and 37 saved chat replies against every corpus. With
+the final models none reproduces a training passage. An earlier build had two
+(`the ring is inside the drawer .`); with provenance established, a match like that can only be the
+**model memorising a passage**, never eval output leaking into training.
 
-**Current audit results**, all four audits, all five experiments, with every finding compared against
-the starter-only run to separate inherited from self-inflicted:
+**Current audit results**, all five experiments, with every finding compared against the
+starter-only run to separate inherited from self-inflicted:
 
 | | A | B | C | D | E |
 |---|---|---|---|---|---|
 | Any eval prompt matched in full | no | no | no | no | no |
-| Longest prompt-suffix found in training | 5 tok | 5 tok | 8 tok | 8 tok | 8 tok |
+| Longest prompt-suffix found in training | 5 tok | 5 tok | 6 tok | 6 tok | 6 tok |
 | … followed by the answer? | yes (classroom) | yes (classroom) | **no — 0%** | **no — 0%** | **no — 0%** |
 | n-gram flags · **introduced by me** | 14 · **0** | 14 · **0** | 14 · **0** | 14 · **0** | 14 · **0** |
 | paraphrase flags · **introduced by me** | 1 · **0** | 1 · **0** | 1 · **0** | 1 · **0** | 1 · **0** |
@@ -1420,7 +1458,7 @@ starter experiment, so I report it.
 
 **8. An independent verifier over the committed artifacts.** `python tools/verify_separation.py` →
 [`results/separation_report.json`](results/separation_report.json). All **19 checks pass**, including
-per-passage checks over every one of the 6,200–13,713 passages each model actually trained on, and a
+per-passage checks over every one of the 6,200–14,141 passages each model actually trained on, and a
 check that every vocabulary token occurs in that run's own `corpus.txt` — so nothing was slipped into
 the vocabulary from outside the training text.
 
@@ -1437,8 +1475,9 @@ taught as a contextual contrast rather than as `the opposite of hot is cold`.
 ## 11. What failed, and why
 
 Diagnostics: [`results/diagnostics.json`](results/diagnostics.json), regenerate with
-`python tools/analyze_results.py`. Every probe is inference only, on prompts appearing nowhere in any
-corpus.
+`python tools/analyze_results.py`. Every probe is inference only. The negation probe's prompts appear
+in no corpus; the opposites probe deliberately pairs three untaught words (including the eval's
+`noisy` and `hot`) with three pairs taught inside the frame, as a control.
 
 ### Failure 1 — spatial relations, and a prediction I got wrong
 
@@ -1475,10 +1514,7 @@ What D misses now differs by seed: `lang_40` (`the book is inside the bag . the 
 `book` never follows `contains the` in training, because the eval's own nouns are kept out of the
 spatial frames — and it belongs with the sequence failures in
 [Failure 4](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy).
-Five-seed per-case data for D:
-[seed 42](experiments/tuned/llm_run/language_evals/final/eval_results.csv) is committed; seeds 7, 123,
-2026 and 31337 were re-run deterministically to read their per-case output (each reproduced its
-recorded total exactly).
+Per-case results for D at all five seeds: [42](experiments/tuned/llm_run/language_evals/final/eval_results.csv) · [7](experiments/sweep_tuned_s7/llm_run/language_evals/final/eval_results.csv) · [123](experiments/sweep_tuned_s123/llm_run/language_evals/final/eval_results.csv) · [2026](experiments/sweep_tuned_s2026/llm_run/language_evals/final/eval_results.csv) · [31337](experiments/sweep_tuned_s31337/llm_run/language_evals/final/eval_results.csv).
 
 ### Failure 2 — negation: the model learned the frame, then learned the copy
 
@@ -1563,9 +1599,9 @@ variable. Section 10 of each executed notebook is a second interface using the i
 python chat.py --model experiments/tuned/llm_run/model.pt --transcript results/my-chat.json
 ```
 
-Type prompts, `/quit` to exit. Dependencies: `torch` and `pypdf` from `requirements.txt`; no other
-service is contacted. **Model used below:** experiment D — the delivered model — run
-`20260920T232038_718861Z`, weights sha256 `26a8cc1215c4a293…`, 3,000 completed steps at
+Type prompts, `/quit` to exit. Dependencies: `torch` and `pypdf` from `requirements.txt`, plus
+`numpy` for the weights hash; no other service is contacted. **Model used below:** experiment D — the delivered model — run
+`20260920T232038_718861Z`, weights hash `26a8cc1215c4a293…`, 3,000 completed steps at
 lr 0.004 on the 7-category corpus. It is the same file the eval table in Section 7 scores at 40/48
 and the held-out suite in Section 9 scores at 12/16.
 
@@ -1756,8 +1792,7 @@ training; seeing ahead would be reading the answer.
 
 **How probabilities become text, and what temperature does.** Softmax over vocabulary scores, draw,
 append, repeat until `<EOS>`. Temperature divides the scores before the softmax, so it changes only
-sampling — **no weights change**, confirmed by the model hash being identical before and after, and by
-experiment A's T=0.8 and T=1.2 samples coming out byte-identical.
+sampling — **no weights change**, confirmed by the model hash being identical before and after.
 
 **What I can honestly conclude.** A 136k-parameter model trained for 22 seconds on self-authored
 teaching text learned several narrow, checkable patterns — subject-verb agreement, an `opposite of`
@@ -1826,7 +1861,10 @@ experiments/unpaired/  E: same as D with corpus_unpaired/
   llm_run/                            config, corpus.txt, history, samples/, model.pt,
                                       model_untrained.pt, checkpoint.json, language_evals/…
   *_results.zip                       the complete results ZIP
-experiments/sweep_*/   the five-seed sweeps (summaries only)
+experiments/sweep_*/   the five-seed sweeps (summaries; D's also keep per-case results)
+experiments/sweep_starterlr_*/  A at lr 0.004, five seeds
+experiments/grid_*/    corpus_seven and corpus_unpaired at lr 0.006, five seeds
+experiments/batch*_s*/ D's settings at batch size 16 and 64, three seeds
 experiments/hp_*/      the steps / learning-rate sweeps (summaries only; hp2_* is the latest)
 
 results/
@@ -1839,7 +1877,7 @@ results/
   audit_structural.json             audit 5 - explanations, shared runs, topology, pipeline integrity
                                               <- found the over-long shared run
   readme_tables/                    every numeric table and sample block in this README, regenerated
-  seed_sweep.json                   five seeds x six configurations
+  seed_sweep.json                   every multi-seed configuration, rebuilt from the run folders
   hyperparameter_sweep.json         one-variable steps and learning-rate study (three seeds)
   heldout/                          the held-out suite's results for all five models
   diagnostics.json                  the failure probes from Section 11
@@ -1863,7 +1901,8 @@ full network for inference — different files for different jobs, and neither i
 training-resume checkpoint. The viewer's map is a PCA projection down to 3 dimensions; the neighbour
 lists in [`results/embedding_neighbours.json`](results/embedding_neighbours.json) are cosine
 similarities in the **full 64 dimensions**, which is why a word can look far away on the map and still
-be a near neighbour.
+be a near neighbour. For D the map keeps 23% of the variance, and a word's five nearest dots share
+only 17% with its five true neighbours ([`results/pca_neighbour_check.json`](results/pca_neighbour_check.json)).
 
 ---
 

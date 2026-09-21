@@ -15,13 +15,13 @@ python tools/make_extension_corpus.py --categories all --out corpus_seven
 | `02_grammar_tense.txt` | tense: `walk` / `walks` / `walking` / `walked` after time cues | 920 | 920 |
 | `03_opposites_frame.txt` | the frame `the opposite of X is Y`, using pairs the eval never asks for | 392 | 134 |
 | `04_opposites_contrast.txt` | hot/cold, empty/full, noisy/quiet taught **only** as contextual contrasts | 204 | 195 |
-| `05_negation_corrections.txt` | "not A, it is B" corrections - every object x every ordered colour pair | 1,152 | 1,136 |
+| `05_negation_corrections.txt` | "not A, it is B" corrections - every object x every ordered colour pair except each colour's cyclic successor | 1,052 | 1,036 |
 | `06_spatial_relations.txt` | inverse relations, with the eval's own nouns excluded from every frame | 1,132 | 1,132 |
 | `07_plain_descriptions.md` | ordinary sentences carrying the eval's relational nouns into the vocabulary | 343 | 343 |
 | `08_printed_notes.pdf` | the same job as a PDF, so the run exercises the PDF import path | 61 | 61 |
-| `09_sequence_order.txt` | first/then ordering and before/after relations | 264 | 211 |
+| `09_sequence_order.txt` | first/then ordering and before/after relations | 288 | 235 |
 | `10_everyday_knowledge.txt` | simple facts: water and ice, umbrellas and dryness, light and dark | 815 | 453 |
-| `11_categories.txt` | category membership and young/grown animal pairs | 543 | 495 |
+| `11_categories.txt` | category membership and young/grown animal pairs | 1,047 | 747 |
 
 ## What is different here
 
@@ -43,14 +43,14 @@ frequency removes that prior - the same fix that made the negation material work
 **1. Internal periods are written tight against the next word.**
 
 ```
-the gate is not open .it is closed .the gate is closed .
+the fence is not open .it is shut .the fence is shut .
 ```
 
 `chunk_text()` in the notebook splits text on `(?<=[.!?])\s+`, so the normally-spaced version
 becomes **three separate training passages**. The negation and spatial eval prompts span several
 clauses, so a model trained only on one-clause passages never sees a `.` with more text after it.
 With no space the splitter leaves the line as one passage and `word_tokens()` still reads it as
-`["the", "gate", "is", "not", "open", ".", "it", ...]` - the same token sequence, kept together.
+`["the", "fence", "is", "not", "open", ".", "it", ...]` - the same token sequence, kept together.
 
 **2. The eval's own nouns are missing from the relational frames, on purpose.**
 
@@ -59,7 +59,7 @@ above/below, left/right or inside/contains frame; they reach the vocabulary only
 `07_plain_descriptions.md`. An earlier version did include them and produced
 `the clock is above the desk . the desk is below the clock .` - not an eval prompt, so every
 upstream check passed, but an 8-token suffix of one, always followed by that case's answer. It
-scored 3/3 on spatial relations; after the fix the five-seed mean is 1.8/3. The lower number is
+scored 3/3 on spatial relations; after the fix the five-seed mean is 1.6/3 for C and 2.0/3 for D. The lower number is
 the real one.
 
 **3. The PDF's plain-text original is not in this folder.**
@@ -89,8 +89,8 @@ can still be diffed against a known original (`../tools/check_pdf_extraction.py`
    the *provided* classroom corpus already does. That corpus reaches 7 tokens against its own
    `domain_place` cases, so 7 is the bar; this material's longest is 6. Teaching a frame
    necessarily shares the frame - it must not also share the frame's specific fillers, which is
-   why the eval's own `red -> blue` and `open -> closed` pairs are excluded from the correction
-   frames even though every other ordered pair is used.
+   why the correction frames drop one cyclic successor pair per colour (removing the eval's own
+   `red -> blue` while every colour stays equally frequent) and never correct `open` to `closed`.
 
 Verify it yourself:
 

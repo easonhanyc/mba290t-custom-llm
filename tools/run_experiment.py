@@ -251,6 +251,12 @@ def main():
         for name in ["config.json", "vocabulary_report.json", "training_summary.json",
                      "history.json", "language_eval_comparison.json", "eval_separation.json"]:
             shutil.copy2(run_dir / name, target / name)
+        # Per-case results are small and are what lets a seed's failures be read case by case.
+        for stage in ["untrained", "final"]:
+            (target / "language_evals" / stage).mkdir(parents=True)
+            for name in ["eval_results.csv", "eval_summary.json"]:
+                shutil.copy2(run_dir / "language_evals" / stage / name,
+                             target / "language_evals" / stage / name)
     else:
         shutil.copytree(run_dir, target)
         shutil.copy2(run_dir.with_suffix(".zip"), out_dir / f"{label}_results.zip")
