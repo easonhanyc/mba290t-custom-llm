@@ -4,6 +4,57 @@ Karpathy's nanoGPT trained from scratch at classroom scale, evaluated with the
 **unchanged 48-case language eval suite before and after training** in every experiment,
 plus a working terminal chat interface.
 
+## One-page summary for grading
+
+**What this is.** nanoGPT (2 blocks, 4 heads, 64-number embeddings, 48-token context) trained from
+scratch on a laptop CPU. The two required experiments are **A**, the classroom corpus only, and **B**,
+the classroom corpus plus [`corpus/`](corpus): 5,005 new passages I wrote to teach four extension
+categories (grammar, opposites, negation, spatial relations). Both use 3,000 steps at learning rate
+0.001, so the corpus is the only difference. C, D and E are optional extras. **D is the delivered
+model**: seven taught categories, learning rate 0.004.
+
+**The required four-row comparison.** All 48 unchanged cases, before and after training:
+
+| Experiment | Stage | Correct, all cases | Scorable (coverage) | Accuracy among scorable | Full result set |
+|---|---|---:|---:|---:|---|
+| A starter | untrained | 9/48 (18.8%) | 24/48 (50.0%) | 37.5% | [csv](experiments/starter/llm_run/language_evals/untrained/eval_results.csv) · [json](experiments/starter/llm_run/language_evals/untrained/eval_results.json) · [summary](experiments/starter/llm_run/language_evals/untrained/eval_summary.json) |
+| A starter | trained | **20/48 (41.7%)** | 24/48 (50.0%) | 83.3% | [csv](experiments/starter/llm_run/language_evals/final/eval_results.csv) · [json](experiments/starter/llm_run/language_evals/final/eval_results.json) · [summary](experiments/starter/llm_run/language_evals/final/eval_summary.json) |
+| B extension | untrained | 7/48 (14.6%) | 35/48 (72.9%) | 20.0% | [csv](experiments/expanded/llm_run/language_evals/untrained/eval_results.csv) · [json](experiments/expanded/llm_run/language_evals/untrained/eval_results.json) · [summary](experiments/expanded/llm_run/language_evals/untrained/eval_summary.json) |
+| B extension | trained | **34/48 (70.8%)** | 35/48 (72.9%) | 97.1% | [csv](experiments/expanded/llm_run/language_evals/final/eval_results.csv) · [json](experiments/expanded/llm_run/language_evals/final/eval_results.json) · [summary](experiments/expanded/llm_run/language_evals/final/eval_summary.json) |
+
+The delivered model D scores **40/48** (83.3%), averages 37.4/48 across five seeds, and scores
+**12/16** on a held-out suite I wrote after freezing the corpus. The 48 public cases guided my corpus
+design, so they are a development benchmark, not evidence of generalisation.
+
+**Where each graded item is**
+
+| Rubric item | Evidence |
+|---|---|
+| ***Deliverable quality (4)*** | |
+| Both executed notebooks, outputs visible | [A](experiments/starter/custom_llm_starter.executed.ipynb) · [B](experiments/expanded/custom_llm_expanded.executed.ipynb) (C, D and E are executed too) |
+| Readable source code | The notebook, [`run_evals.py`](run_evals.py) and [`chat.py`](chat.py) are the starter's own. The executed notebooks differ only in [3 changed cells and 1 added results-table cell](#the-three-cells-i-changed-and-why), all documented. My code: [`tools/make_extension_corpus.py`](tools/make_extension_corpus.py) (corpus generator) and [`tools/run_experiment.py`](tools/run_experiment.py) (runner) |
+| Corpus sources, permissions, choices | [§2](#2-the-corpus-sources-permissions-and-what-i-added): all text synthetic and self-authored. PDF extraction [checked](results/pdf_extraction_check.json). [§3](#3-my-three-choices-and-my-prediction): the three settings and my prediction before training |
+| Why these categories, and how the material fills their gaps | [§2 table](#what-i-added-and-the-categories-it-targets) · [`corpus/README.md`](corpus/README.md) |
+| Learning process, from real evidence | [§5](#5-loss-samples-and-temperature): loss curve with its full 31-row table, untrained/halfway/final samples, temperature. [§6](#6-from-a-word-to-a-prediction-tokens-ids-vectors-gradients): one word traced to its ID and 64-number vector, one real gradient and weight update, attention, probabilities |
+| ***Testing & evaluation (3)*** | |
+| Four complete result sets | The table above. All ten sets (five experiments × two stages) are in [§7](#7-the-48-fixed-language-evals-all-ten-result-sets) |
+| Separation checks | `eval_separation.json` for [A](experiments/starter/llm_run/eval_separation.json) · [B](experiments/expanded/llm_run/eval_separation.json), plus five leakage audits with two consecutive clean passes: [§10](#10-keeping-the-exam-out-of-the-textbook) |
+| All-case success, scorable accuracy, coverage, group/category results, free continuations | [§7](#7-the-48-fixed-language-evals-all-ten-result-sets) |
+| Failures explained: missing vocabulary vs. a learned pattern | [Coverage vs. skill](#vocabulary-coverage-is-the-gate-and-it-is-not-the-same-as-skill) · [§11](#11-what-failed-and-why) |
+| Beyond the minimum | Five-seed variance: [§8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds). Held-out suite: [§9](#9-a-held-out-suite-written-after-the-corpus-was-frozen) |
+| ***Working result (3)*** | |
+| Trained model and run identity | [`experiments/tuned/llm_run/model.pt`](experiments/tuned/llm_run/model.pt), run `20260920T232038_718861Z`, sha256 `26a8cc1215c4a293…` |
+| Evals rerun from the saved model | `python run_evals.py --model experiments/tuned/llm_run/model.pt --output results/my-evals`. [`results/rerun/`](results/rerun) reproduces all ten result sets exactly |
+| Chat interface, launch, 3+ real interactions | [`chat.py`](chat.py): `python chat.py --model experiments/tuned/llm_run/model.pt`. [Screenshot](results/chat/tuned_terminal_session.png) · [transcript](results/chat/tuned_chat_transcript.json): 8 real prompts, including two that show its limits. See [§12](#12-chat-interface-and-evidence) |
+| One limitation, one proposed next experiment | [§11](#11-what-failed-and-why) · [§13](#13-what-i-learned-one-limitation-and-my-next-experiment) |
+
+**Eval separation.** No eval prompt, reference answer, answer key or eval output is in any training
+input. The box below explains the five audits that check this.
+
+---
+
+## Overview of all five experiments
+
 **Five experiments.** A and B are the two the assignment requires and differ *only* in the
 corpus. C, D and E are optional extras, each changing exactly one more thing.
 
@@ -300,7 +351,7 @@ All five runs completed. **None was interrupted and none errored** (`"interrupte
 threads, PyTorch 2.14.0, Python 3.12.14. No GPU or MPS backend was used.
 
 Parameter counts differ only because the embedding and output layers scale with the vocabulary:
-(508 − 136) × 64 = 23,808, exactly 135,680 − 111,872. The transformer blocks are identical, and
+(510 − 136) × 64 = 23,936, exactly 135,808 − 111,872. The transformer blocks are identical, and
 nanoGPT ties the embedding and output weights, so each extra vocabulary row is counted once. C, D
 and E: C and D share a corpus and differ only in learning rate; E differs from D only in
 `06_spatial_relations.txt`.
