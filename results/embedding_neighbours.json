@@ -110,40 +110,40 @@
     "after": [
       {
         "token": "shopper",
-        "cosine": 0.9843
-      },
-      {
-        "token": "consumer",
-        "cosine": 0.9777
+        "cosine": 0.9797
       },
       {
         "token": "client",
-        "cosine": 0.9678
+        "cosine": 0.9781
       },
       {
-        "token": "subscriber",
-        "cosine": 0.9659
+        "token": "consumer",
+        "cosine": 0.9692
       },
       {
         "token": "buyer",
-        "cosine": 0.9591
+        "cosine": 0.967
       },
       {
-        "token": "pear",
-        "cosine": 0.5928
+        "token": "subscriber",
+        "cosine": 0.96
       },
       {
-        "token": "banana",
-        "cosine": 0.5831
+        "token": "train",
+        "cosine": 0.606
       },
       {
-        "token": "peach",
-        "cosine": 0.5688
+        "token": "bicycle",
+        "cosine": 0.6039
+      },
+      {
+        "token": "car",
+        "cosine": 0.6028
       }
     ],
     "token": "customer",
     "token_id": 108,
-    "vector_l2_change": 0.5806
+    "vector_l2_change": 0.5669
   },
   "expanded/cold": {
     "before": [
@@ -182,36 +182,36 @@
     ],
     "after": [
       {
-        "token": "empty",
-        "cosine": 0.6008
-      },
-      {
         "token": "cool",
-        "cosine": 0.5827
+        "cosine": 0.5452
       },
       {
-        "token": "learning",
-        "cosine": 0.5105
+        "token": "bright",
+        "cosine": 0.4846
       },
       {
-        "token": "student",
-        "cosine": 0.4945
+        "token": "empty",
+        "cosine": 0.4842
       },
       {
-        "token": "lesson",
-        "cosine": 0.4705
+        "token": "light",
+        "cosine": 0.4712
       },
       {
-        "token": "course",
-        "cosine": 0.4583
+        "token": "slow",
+        "cosine": 0.4324
       },
       {
-        "token": "dry",
-        "cosine": 0.4075
+        "token": "bought",
+        "cosine": 0.4199
       },
       {
-        "token": "return",
-        "cosine": 0.3892
+        "token": "too",
+        "cosine": 0.4111
+      },
+      {
+        "token": "cats",
+        "cosine": 0.4052
       }
     ],
     "token": "cold",
@@ -256,35 +256,35 @@
     "after": [
       {
         "token": "over",
-        "cosine": 0.6499
+        "cosine": 0.6603
       },
       {
         "token": "north",
-        "cosine": 0.5735
+        "cosine": 0.6353
       },
       {
         "token": "filled",
-        "cosine": 0.5457
-      },
-      {
-        "token": "looking",
-        "cosine": 0.4913
-      },
-      {
-        "token": "moving",
-        "cosine": 0.4899
-      },
-      {
-        "token": "sits",
-        "cosine": 0.4895
+        "cosine": 0.5454
       },
       {
         "token": "opening",
-        "cosine": 0.4793
+        "cosine": 0.4817
       },
       {
-        "token": "counting",
-        "cosine": 0.4751
+        "token": "above",
+        "cosine": 0.4715
+      },
+      {
+        "token": "sits",
+        "cosine": 0.4647
+      },
+      {
+        "token": "looking",
+        "cosine": 0.4647
+      },
+      {
+        "token": "near",
+        "cosine": 0.4632
       }
     ],
     "token": "below",
@@ -328,36 +328,36 @@
     ],
     "after": [
       {
-        "token": "opened",
-        "cosine": 0.9468
-      },
-      {
-        "token": "climbed",
-        "cosine": 0.9378
-      },
-      {
         "token": "moved",
-        "cosine": 0.931
+        "cosine": 0.9431
       },
       {
         "token": "cooked",
-        "cosine": 0.9241
+        "cosine": 0.9389
       },
       {
         "token": "counted",
-        "cosine": 0.9203
+        "cosine": 0.928
+      },
+      {
+        "token": "opened",
+        "cosine": 0.924
+      },
+      {
+        "token": "climbed",
+        "cosine": 0.9199
       },
       {
         "token": "jumped",
-        "cosine": 0.919
+        "cosine": 0.917
       },
       {
         "token": "looked",
-        "cosine": 0.909
+        "cosine": 0.9131
       },
       {
         "token": "cleaned",
-        "cosine": 0.844
+        "cosine": 0.8411
       }
     ],
     "token": "walked",
@@ -401,36 +401,36 @@
     ],
     "after": [
       {
-        "token": "small",
-        "cosine": 0.6556
+        "token": "old",
+        "cosine": 0.6664
       },
       {
         "token": "asleep",
-        "cosine": 0.6509
-      },
-      {
-        "token": "old",
-        "cosine": 0.6226
+        "cosine": 0.6654
       },
       {
         "token": "short",
-        "cosine": 0.6025
-      },
-      {
-        "token": "tall",
-        "cosine": 0.5816
-      },
-      {
-        "token": "loud",
-        "cosine": 0.5617
+        "cosine": 0.604
       },
       {
         "token": "slow",
-        "cosine": 0.5449
+        "cosine": 0.5861
       },
       {
-        "token": "warm",
-        "cosine": 0.5145
+        "token": "loud",
+        "cosine": 0.5677
+      },
+      {
+        "token": "tall",
+        "cosine": 0.5597
+      },
+      {
+        "token": "small",
+        "cosine": 0.5521
+      },
+      {
+        "token": "noisy",
+        "cosine": 0.5129
       }
     ],
     "token": "quiet",
@@ -475,35 +475,35 @@
     "after": [
       {
         "token": "left",
-        "cosine": 0.6709
-      },
-      {
-        "token": "north",
-        "cosine": 0.5167
+        "cosine": 0.7022
       },
       {
         "token": "inside",
-        "cosine": 0.4964
+        "cosine": 0.4825
+      },
+      {
+        "token": "north",
+        "cosine": 0.4315
       },
       {
         "token": "under",
-        "cosine": 0.4412
-      },
-      {
-        "token": "beside",
-        "cosine": 0.3805
-      },
-      {
-        "token": "black",
-        "cosine": 0.3728
+        "cosine": 0.3493
       },
       {
         "token": "not",
-        "cosine": 0.3467
+        "cosine": 0.325
       },
       {
-        "token": "station",
-        "cosine": 0.2998
+        "token": "green",
+        "cosine": 0.2951
+      },
+      {
+        "token": "or",
+        "cosine": 0.2765
+      },
+      {
+        "token": "room",
+        "cosine": 0.2763
       }
     ],
     "token": "right",
@@ -513,1315 +513,1315 @@
   "seven/customer": {
     "before": [
       {
-        "token": "bottle",
-        "cosine": 0.4032
+        "token": "farmer",
+        "cosine": 0.4188
       },
       {
-        "token": "market",
-        "cosine": 0.3435
+        "token": "explains",
+        "cosine": 0.3692
       },
       {
-        "token": "road",
-        "cosine": 0.3338
+        "token": "blade",
+        "cosine": 0.3194
       },
       {
-        "token": "pony",
-        "cosine": 0.3326
+        "token": "night",
+        "cosine": 0.2928
       },
       {
-        "token": "coin",
-        "cosine": 0.3236
+        "token": "of",
+        "cosine": 0.29
       },
       {
-        "token": "tree",
-        "cosine": 0.3125
+        "token": "rope",
+        "cosine": 0.2794
       },
       {
-        "token": "stay",
-        "cosine": 0.3125
+        "token": "compared",
+        "cosine": 0.2611
       },
       {
-        "token": "kitten",
-        "cosine": 0.3084
+        "token": "platform",
+        "cosine": 0.2578
       }
     ],
     "after": [
       {
         "token": "subscriber",
-        "cosine": 0.9763
+        "cosine": 0.9834
       },
       {
         "token": "consumer",
-        "cosine": 0.9715
-      },
-      {
-        "token": "shopper",
-        "cosine": 0.9647
+        "cosine": 0.9819
       },
       {
         "token": "buyer",
-        "cosine": 0.9604
+        "cosine": 0.9813
+      },
+      {
+        "token": "shopper",
+        "cosine": 0.974
       },
       {
         "token": "client",
-        "cosine": 0.9598
+        "cosine": 0.9679
       },
       {
-        "token": "therapist",
-        "cosine": 0.6531
+        "token": "platform",
+        "cosine": 0.6428
       },
       {
-        "token": "surgeon",
-        "cosine": 0.6494
+        "token": "application",
+        "cosine": 0.6418
       },
       {
-        "token": "doctor",
-        "cosine": 0.6491
+        "token": "program",
+        "cosine": 0.6326
       }
     ],
     "token": "customer",
-    "token_id": 121,
-    "vector_l2_change": 0.5795
+    "token_id": 123,
+    "vector_l2_change": 0.6128
   },
   "seven/cold": {
     "before": [
       {
-        "token": "software",
-        "cosine": 0.3755
+        "token": "looks",
+        "cosine": 0.3566
       },
       {
-        "token": "chair",
-        "cosine": 0.3517
+        "token": "seal",
+        "cosine": 0.3476
       },
       {
-        "token": "hour",
-        "cosine": 0.308
+        "token": "kite",
+        "cosine": 0.3439
       },
       {
-        "token": "counts",
-        "cosine": 0.2749
+        "token": "lecturer",
+        "cosine": 0.3201
       },
       {
-        "token": ".",
-        "cosine": 0.2672
+        "token": "did",
+        "cosine": 0.2945
       },
       {
-        "token": "short",
-        "cosine": 0.264
+        "token": "bicycle",
+        "cosine": 0.285
       },
       {
-        "token": "mat",
-        "cosine": 0.2594
+        "token": "wash",
+        "cosine": 0.2652
       },
       {
-        "token": "spade",
-        "cosine": 0.253
+        "token": "fence",
+        "cosine": 0.2545
       }
     ],
     "after": [
       {
-        "token": "bright",
-        "cosine": 0.4259
+        "token": "cool",
+        "cosine": 0.4372
       },
       {
-        "token": "empty",
-        "cosine": 0.4182
+        "token": "closed",
+        "cosine": 0.4241
       },
       {
-        "token": "hot",
-        "cosine": 0.3902
+        "token": "walk",
+        "cosine": 0.3918
       },
       {
-        "token": "dry",
-        "cosine": 0.3875
+        "token": "heavy",
+        "cosine": 0.3691
       },
       {
-        "token": "quiet",
+        "token": "small",
         "cosine": 0.3686
       },
       {
-        "token": "cool",
-        "cosine": 0.3535
-      },
-      {
-        "token": "supper",
-        "cosine": 0.3418
+        "token": "bright",
+        "cosine": 0.3683
       },
       {
         "token": "warm",
-        "cosine": 0.3307
+        "cosine": 0.3538
+      },
+      {
+        "token": "big",
+        "cosine": 0.3197
       }
     ],
     "token": "cold",
-    "token_id": 99,
+    "token_id": 101,
     "vector_l2_change": null
   },
   "seven/below": {
     "before": [
       {
-        "token": "during",
-        "cosine": 0.3875
+        "token": "key",
+        "cosine": 0.3222
       },
       {
-        "token": "climbing",
-        "cosine": 0.3791
+        "token": "ball",
+        "cosine": 0.3168
       },
       {
-        "token": "support",
-        "cosine": 0.3495
+        "token": "round",
+        "cosine": 0.3156
       },
       {
-        "token": "climbed",
-        "cosine": 0.3129
+        "token": "dog",
+        "cosine": 0.2992
       },
       {
-        "token": "front",
-        "cosine": 0.303
+        "token": "yard",
+        "cosine": 0.2649
       },
       {
-        "token": "reviewed",
-        "cosine": 0.2944
+        "token": "tutor",
+        "cosine": 0.2638
       },
       {
-        "token": "can",
-        "cosine": 0.2792
+        "token": "we",
+        "cosine": 0.2608
       },
       {
-        "token": "loan",
-        "cosine": 0.2748
+        "token": "room",
+        "cosine": 0.2535
       }
     ],
     "after": [
       {
-        "token": "north",
-        "cosine": 0.6133
-      },
-      {
         "token": "over",
-        "cosine": 0.6013
+        "cosine": 0.6541
       },
       {
-        "token": "fill",
-        "cosine": 0.5217
+        "token": "north",
+        "cosine": 0.5543
       },
       {
-        "token": "something",
-        "cosine": 0.5167
+        "token": "above",
+        "cosine": 0.5156
       },
       {
-        "token": "cleans",
-        "cosine": 0.505
+        "token": "hard",
+        "cosine": 0.5005
       },
       {
-        "token": "made",
-        "cosine": 0.487
+        "token": "under",
+        "cosine": 0.4244
       },
       {
-        "token": "helps",
-        "cosine": 0.4796
+        "token": "steam",
+        "cosine": 0.4204
       },
       {
-        "token": "walks",
-        "cosine": 0.4715
+        "token": "reviewed",
+        "cosine": 0.418
+      },
+      {
+        "token": "recommended",
+        "cosine": 0.3979
       }
     ],
     "token": "below",
-    "token_id": 33,
+    "token_id": 34,
     "vector_l2_change": null
   },
   "seven/walked": {
     "before": [
       {
-        "token": "owls",
-        "cosine": 0.3946
+        "token": "blade",
+        "cosine": 0.286
       },
       {
-        "token": "software",
-        "cosine": 0.364
+        "token": "local",
+        "cosine": 0.2804
       },
       {
-        "token": "truck",
-        "cosine": 0.3275
-      },
-      {
-        "token": "south",
-        "cosine": 0.3262
-      },
-      {
-        "token": "therapist",
-        "cosine": 0.3257
-      },
-      {
-        "token": "flag",
-        "cosine": 0.2952
-      },
-      {
-        "token": "hat",
-        "cosine": 0.2894
-      },
-      {
-        "token": "report",
+        "token": "foal",
         "cosine": 0.2781
+      },
+      {
+        "token": "bought",
+        "cosine": 0.2772
+      },
+      {
+        "token": "trees",
+        "cosine": 0.2701
+      },
+      {
+        "token": "carp",
+        "cosine": 0.2505
+      },
+      {
+        "token": "lesson",
+        "cosine": 0.2458
+      },
+      {
+        "token": "interest",
+        "cosine": 0.2449
       }
     ],
     "after": [
       {
-        "token": "climbed",
-        "cosine": 0.872
-      },
-      {
-        "token": "looked",
-        "cosine": 0.87
-      },
-      {
-        "token": "cleaned",
-        "cosine": 0.8507
-      },
-      {
         "token": "opened",
-        "cosine": 0.849
+        "cosine": 0.8656
       },
       {
-        "token": "cooked",
-        "cosine": 0.8397
-      },
-      {
-        "token": "jumped",
-        "cosine": 0.8351
+        "token": "climbed",
+        "cosine": 0.841
       },
       {
         "token": "counted",
-        "cosine": 0.832
+        "cosine": 0.8391
       },
       {
         "token": "moved",
-        "cosine": 0.8268
+        "cosine": 0.8225
+      },
+      {
+        "token": "jumped",
+        "cosine": 0.8207
+      },
+      {
+        "token": "looked",
+        "cosine": 0.8139
+      },
+      {
+        "token": "cooked",
+        "cosine": 0.8135
+      },
+      {
+        "token": "cleaned",
+        "cosine": 0.7971
       }
     ],
     "token": "walked",
-    "token_id": 479,
+    "token_id": 481,
     "vector_l2_change": null
   },
   "seven/quiet": {
     "before": [
       {
-        "token": "team",
-        "cosine": 0.3935
+        "token": "shoe",
+        "cosine": 0.3633
       },
       {
-        "token": "were",
-        "cosine": 0.3611
+        "token": "boys",
+        "cosine": 0.3045
       },
       {
-        "token": "today",
-        "cosine": 0.3322
+        "token": "mat",
+        "cosine": 0.2945
       },
       {
-        "token": "loud",
-        "cosine": 0.3209
+        "token": "in",
+        "cosine": 0.2819
       },
       {
-        "token": "street",
-        "cosine": 0.2912
+        "token": "see",
+        "cosine": 0.2798
       },
       {
-        "token": "treatment",
-        "cosine": 0.2877
+        "token": "shopper",
+        "cosine": 0.278
       },
       {
-        "token": "nearby",
-        "cosine": 0.2717
+        "token": "client",
+        "cosine": 0.2735
       },
       {
-        "token": "heavy",
-        "cosine": 0.2626
+        "token": "over",
+        "cosine": 0.2688
       }
     ],
     "after": [
       {
-        "token": "bright",
-        "cosine": 0.6722
-      },
-      {
-        "token": "small",
-        "cosine": 0.662
-      },
-      {
         "token": "warm",
-        "cosine": 0.6372
+        "cosine": 0.6403
       },
       {
         "token": "short",
-        "cosine": 0.6245
+        "cosine": 0.6324
       },
       {
-        "token": "old",
-        "cosine": 0.5877
+        "token": "bright",
+        "cosine": 0.626
       },
       {
-        "token": "asleep",
-        "cosine": 0.56
+        "token": "small",
+        "cosine": 0.5899
+      },
+      {
+        "token": "tall",
+        "cosine": 0.5898
       },
       {
         "token": "loud",
-        "cosine": 0.5578
+        "cosine": 0.5642
       },
       {
-        "token": "slow",
-        "cosine": 0.5318
+        "token": "old",
+        "cosine": 0.5641
+      },
+      {
+        "token": "big",
+        "cosine": 0.5387
       }
     ],
     "token": "quiet",
-    "token_id": 365,
+    "token_id": 367,
     "vector_l2_change": null
   },
   "seven/right": {
     "before": [
       {
-        "token": "slowly",
-        "cosine": 0.3764
+        "token": "yard",
+        "cosine": 0.4198
       },
       {
-        "token": "climbs",
-        "cosine": 0.3353
+        "token": "metal",
+        "cosine": 0.3374
       },
       {
-        "token": "runners",
-        "cosine": 0.3212
+        "token": "client",
+        "cosine": 0.3316
       },
       {
-        "token": "choose",
-        "cosine": 0.3165
+        "token": "room",
+        "cosine": 0.3123
       },
       {
-        "token": "bond",
-        "cosine": 0.3122
+        "token": "nearby",
+        "cosine": 0.2948
       },
       {
-        "token": "robin",
-        "cosine": 0.2942
+        "token": "security",
+        "cosine": 0.2893
       },
       {
-        "token": "winter",
-        "cosine": 0.2903
+        "token": "late",
+        "cosine": 0.2639
       },
       {
-        "token": "foxes",
-        "cosine": 0.2881
+        "token": "onion",
+        "cosine": 0.2613
       }
     ],
     "after": [
       {
         "token": "left",
-        "cosine": 0.7837
+        "cosine": 0.7869
       },
       {
         "token": "north",
-        "cosine": 0.4812
+        "cosine": 0.4811
+      },
+      {
+        "token": "front",
+        "cosine": 0.4039
       },
       {
         "token": "not",
-        "cosine": 0.4016
+        "cosine": 0.4024
       },
       {
-        "token": "well",
-        "cosine": 0.3769
+        "token": "yellow",
+        "cosine": 0.3911
       },
       {
-        "token": "blue",
-        "cosine": 0.361
+        "token": "beside",
+        "cosine": 0.3799
+      },
+      {
+        "token": "red",
+        "cosine": 0.3498
       },
       {
         "token": "inside",
-        "cosine": 0.3414
-      },
-      {
-        "token": "over",
-        "cosine": 0.313
-      },
-      {
-        "token": "under",
-        "cosine": 0.312
+        "cosine": 0.3442
       }
     ],
     "token": "right",
-    "token_id": 376,
+    "token_id": 378,
     "vector_l2_change": null
   },
   "tuned/customer": {
     "before": [
       {
-        "token": "bottle",
-        "cosine": 0.4032
+        "token": "farmer",
+        "cosine": 0.4188
       },
       {
-        "token": "market",
-        "cosine": 0.3435
+        "token": "explains",
+        "cosine": 0.3692
       },
       {
-        "token": "road",
-        "cosine": 0.3338
+        "token": "blade",
+        "cosine": 0.3194
       },
       {
-        "token": "pony",
-        "cosine": 0.3326
+        "token": "night",
+        "cosine": 0.2928
       },
       {
-        "token": "coin",
-        "cosine": 0.3236
+        "token": "of",
+        "cosine": 0.29
       },
       {
-        "token": "tree",
-        "cosine": 0.3125
+        "token": "rope",
+        "cosine": 0.2794
       },
       {
-        "token": "stay",
-        "cosine": 0.3125
+        "token": "compared",
+        "cosine": 0.2611
       },
       {
-        "token": "kitten",
-        "cosine": 0.3084
+        "token": "platform",
+        "cosine": 0.2578
       }
     ],
     "after": [
       {
         "token": "shopper",
-        "cosine": 0.9302
-      },
-      {
-        "token": "buyer",
-        "cosine": 0.9056
+        "cosine": 0.951
       },
       {
         "token": "subscriber",
-        "cosine": 0.9043
+        "cosine": 0.9393
+      },
+      {
+        "token": "buyer",
+        "cosine": 0.9388
       },
       {
         "token": "consumer",
-        "cosine": 0.8973
+        "cosine": 0.9284
       },
       {
         "token": "client",
-        "cosine": 0.8945
+        "cosine": 0.8978
       },
       {
-        "token": "offering",
-        "cosine": 0.4875
+        "token": "credit",
+        "cosine": 0.4102
       },
       {
-        "token": "surgeon",
-        "cosine": 0.4708
+        "token": "will",
+        "cosine": 0.3915
       },
       {
-        "token": "train",
-        "cosine": 0.4593
+        "token": "investment",
+        "cosine": 0.3873
       }
     ],
     "token": "customer",
-    "token_id": 121,
-    "vector_l2_change": 0.7332
+    "token_id": 123,
+    "vector_l2_change": 0.7816
   },
   "tuned/cold": {
     "before": [
       {
-        "token": "software",
-        "cosine": 0.3755
+        "token": "looks",
+        "cosine": 0.3566
       },
       {
-        "token": "chair",
-        "cosine": 0.3517
+        "token": "seal",
+        "cosine": 0.3476
       },
       {
-        "token": "hour",
-        "cosine": 0.308
+        "token": "kite",
+        "cosine": 0.3439
       },
       {
-        "token": "counts",
-        "cosine": 0.2749
+        "token": "lecturer",
+        "cosine": 0.3201
       },
       {
-        "token": ".",
-        "cosine": 0.2672
+        "token": "did",
+        "cosine": 0.2945
       },
       {
-        "token": "short",
-        "cosine": 0.264
+        "token": "bicycle",
+        "cosine": 0.285
       },
       {
-        "token": "mat",
-        "cosine": 0.2594
+        "token": "wash",
+        "cosine": 0.2652
       },
       {
-        "token": "spade",
-        "cosine": 0.253
+        "token": "fence",
+        "cosine": 0.2545
       }
     ],
     "after": [
       {
-        "token": "hammer",
-        "cosine": 0.4189
-      },
-      {
-        "token": "fish",
-        "cosine": 0.3795
-      },
-      {
-        "token": "tool",
-        "cosine": 0.3791
-      },
-      {
-        "token": "spade",
-        "cosine": 0.3773
-      },
-      {
-        "token": "walked",
-        "cosine": 0.3443
-      },
-      {
-        "token": "empty",
-        "cosine": 0.3355
-      },
-      {
-        "token": "bass",
-        "cosine": 0.3339
+        "token": "dirty",
+        "cosine": 0.3804
       },
       {
         "token": "month",
-        "cosine": 0.3268
+        "cosine": 0.3721
+      },
+      {
+        "token": "cool",
+        "cosine": 0.3701
+      },
+      {
+        "token": "steam",
+        "cosine": 0.3561
+      },
+      {
+        "token": "see",
+        "cosine": 0.3222
+      },
+      {
+        "token": "has",
+        "cosine": 0.3222
+      },
+      {
+        "token": "likes",
+        "cosine": 0.3171
+      },
+      {
+        "token": "turn",
+        "cosine": 0.317
       }
     ],
     "token": "cold",
-    "token_id": 99,
+    "token_id": 101,
     "vector_l2_change": null
   },
   "tuned/below": {
     "before": [
       {
-        "token": "during",
-        "cosine": 0.3875
+        "token": "key",
+        "cosine": 0.3222
       },
       {
-        "token": "climbing",
-        "cosine": 0.3791
+        "token": "ball",
+        "cosine": 0.3168
       },
       {
-        "token": "support",
-        "cosine": 0.3495
+        "token": "round",
+        "cosine": 0.3156
       },
       {
-        "token": "climbed",
-        "cosine": 0.3129
+        "token": "dog",
+        "cosine": 0.2992
       },
       {
-        "token": "front",
-        "cosine": 0.303
+        "token": "yard",
+        "cosine": 0.2649
       },
       {
-        "token": "reviewed",
-        "cosine": 0.2944
+        "token": "tutor",
+        "cosine": 0.2638
       },
       {
-        "token": "can",
-        "cosine": 0.2792
+        "token": "we",
+        "cosine": 0.2608
       },
       {
-        "token": "loan",
-        "cosine": 0.2748
+        "token": "room",
+        "cosine": 0.2535
       }
     ],
     "after": [
       {
         "token": "over",
-        "cosine": 0.6789
+        "cosine": 0.6454
       },
       {
         "token": "north",
-        "cosine": 0.5425
+        "cosine": 0.5977
       },
       {
-        "token": "sort",
-        "cosine": 0.4812
+        "token": "checking",
+        "cosine": 0.4757
       },
       {
-        "token": "lift",
-        "cosine": 0.4775
+        "token": "selected",
+        "cosine": 0.4749
       },
       {
-        "token": "walking",
-        "cosine": 0.4662
+        "token": "reviewed",
+        "cosine": 0.4595
       },
       {
-        "token": "climbs",
-        "cosine": 0.4556
+        "token": "above",
+        "cosine": 0.4562
       },
       {
-        "token": "grew",
-        "cosine": 0.4541
+        "token": "behind",
+        "cosine": 0.4253
       },
       {
-        "token": "sits",
-        "cosine": 0.4519
+        "token": "recommended",
+        "cosine": 0.4132
       }
     ],
     "token": "below",
-    "token_id": 33,
+    "token_id": 34,
     "vector_l2_change": null
   },
   "tuned/walked": {
     "before": [
       {
-        "token": "owls",
-        "cosine": 0.3946
+        "token": "blade",
+        "cosine": 0.286
       },
       {
-        "token": "software",
-        "cosine": 0.364
+        "token": "local",
+        "cosine": 0.2804
       },
       {
-        "token": "truck",
-        "cosine": 0.3275
-      },
-      {
-        "token": "south",
-        "cosine": 0.3262
-      },
-      {
-        "token": "therapist",
-        "cosine": 0.3257
-      },
-      {
-        "token": "flag",
-        "cosine": 0.2952
-      },
-      {
-        "token": "hat",
-        "cosine": 0.2894
-      },
-      {
-        "token": "report",
+        "token": "foal",
         "cosine": 0.2781
+      },
+      {
+        "token": "bought",
+        "cosine": 0.2772
+      },
+      {
+        "token": "trees",
+        "cosine": 0.2701
+      },
+      {
+        "token": "carp",
+        "cosine": 0.2505
+      },
+      {
+        "token": "lesson",
+        "cosine": 0.2458
+      },
+      {
+        "token": "interest",
+        "cosine": 0.2449
       }
     ],
     "after": [
       {
+        "token": "climbed",
+        "cosine": 0.6433
+      },
+      {
         "token": "jumped",
-        "cosine": 0.6604
+        "cosine": 0.6395
       },
       {
         "token": "counted",
-        "cosine": 0.6387
+        "cosine": 0.608
       },
       {
-        "token": "cooked",
-        "cosine": 0.5851
-      },
-      {
-        "token": "moved",
-        "cosine": 0.5787
-      },
-      {
-        "token": "climbed",
-        "cosine": 0.5571
-      },
-      {
-        "token": "looked",
-        "cosine": 0.5521
-      },
-      {
-        "token": "pear",
-        "cosine": 0.5182
+        "token": "opened",
+        "cosine": 0.5973
       },
       {
         "token": "cleaned",
-        "cosine": 0.5034
+        "cosine": 0.5382
+      },
+      {
+        "token": "looked",
+        "cosine": 0.5181
+      },
+      {
+        "token": "moved",
+        "cosine": 0.4967
+      },
+      {
+        "token": "without",
+        "cosine": 0.4628
       }
     ],
     "token": "walked",
-    "token_id": 479,
+    "token_id": 481,
     "vector_l2_change": null
   },
   "tuned/quiet": {
     "before": [
       {
-        "token": "team",
-        "cosine": 0.3935
+        "token": "shoe",
+        "cosine": 0.3633
       },
       {
-        "token": "were",
-        "cosine": 0.3611
+        "token": "boys",
+        "cosine": 0.3045
       },
       {
-        "token": "today",
-        "cosine": 0.3322
+        "token": "mat",
+        "cosine": 0.2945
       },
       {
-        "token": "loud",
-        "cosine": 0.3209
+        "token": "in",
+        "cosine": 0.2819
       },
       {
-        "token": "street",
-        "cosine": 0.2912
+        "token": "see",
+        "cosine": 0.2798
       },
       {
-        "token": "treatment",
-        "cosine": 0.2877
+        "token": "shopper",
+        "cosine": 0.278
       },
       {
-        "token": "nearby",
-        "cosine": 0.2717
+        "token": "client",
+        "cosine": 0.2735
       },
       {
-        "token": "heavy",
-        "cosine": 0.2626
+        "token": "over",
+        "cosine": 0.2688
       }
     ],
     "after": [
       {
         "token": "bright",
-        "cosine": 0.6415
+        "cosine": 0.5717
       },
       {
         "token": "warm",
-        "cosine": 0.6183
+        "cosine": 0.5601
       },
       {
         "token": "white",
-        "cosine": 0.5266
-      },
-      {
-        "token": "short",
-        "cosine": 0.5207
-      },
-      {
-        "token": "small",
-        "cosine": 0.5123
+        "cosine": 0.5209
       },
       {
         "token": "old",
-        "cosine": 0.5109
+        "cosine": 0.4949
       },
       {
-        "token": "over",
-        "cosine": 0.4982
+        "token": "short",
+        "cosine": 0.4809
       },
       {
-        "token": "service",
-        "cosine": 0.4834
+        "token": "small",
+        "cosine": 0.4431
+      },
+      {
+        "token": "awake",
+        "cosine": 0.3955
+      },
+      {
+        "token": "slow",
+        "cosine": 0.3696
       }
     ],
     "token": "quiet",
-    "token_id": 365,
+    "token_id": 367,
     "vector_l2_change": null
   },
   "tuned/right": {
     "before": [
       {
-        "token": "slowly",
-        "cosine": 0.3764
+        "token": "yard",
+        "cosine": 0.4198
       },
       {
-        "token": "climbs",
-        "cosine": 0.3353
+        "token": "metal",
+        "cosine": 0.3374
       },
       {
-        "token": "runners",
-        "cosine": 0.3212
+        "token": "client",
+        "cosine": 0.3316
       },
       {
-        "token": "choose",
-        "cosine": 0.3165
+        "token": "room",
+        "cosine": 0.3123
       },
       {
-        "token": "bond",
-        "cosine": 0.3122
+        "token": "nearby",
+        "cosine": 0.2948
       },
       {
-        "token": "robin",
-        "cosine": 0.2942
+        "token": "security",
+        "cosine": 0.2893
       },
       {
-        "token": "winter",
-        "cosine": 0.2903
+        "token": "late",
+        "cosine": 0.2639
       },
       {
-        "token": "foxes",
-        "cosine": 0.2881
+        "token": "onion",
+        "cosine": 0.2613
       }
     ],
     "after": [
       {
         "token": "left",
-        "cosine": 0.7909
-      },
-      {
-        "token": "north",
-        "cosine": 0.55
+        "cosine": 0.7615
       },
       {
         "token": "inside",
-        "cosine": 0.459
+        "cosine": 0.5354
       },
       {
-        "token": "over",
-        "cosine": 0.4395
+        "token": "blue",
+        "cosine": 0.4754
       },
       {
-        "token": "button",
-        "cosine": 0.4237
+        "token": "poster",
+        "cosine": 0.4676
       },
       {
-        "token": "vegetable",
-        "cosine": 0.4211
+        "token": "umbrella",
+        "cosine": 0.4526
       },
       {
-        "token": "front",
-        "cosine": 0.42
+        "token": "evening",
+        "cosine": 0.4447
       },
       {
-        "token": "south",
-        "cosine": 0.3982
+        "token": "flat",
+        "cosine": 0.4404
+      },
+      {
+        "token": "happens",
+        "cosine": 0.4242
       }
     ],
     "token": "right",
-    "token_id": 376,
+    "token_id": 378,
     "vector_l2_change": null
   },
   "unpaired/customer": {
     "before": [
       {
-        "token": "bottle",
-        "cosine": 0.4032
+        "token": "farmer",
+        "cosine": 0.4188
       },
       {
-        "token": "market",
-        "cosine": 0.3435
+        "token": "explains",
+        "cosine": 0.3692
       },
       {
-        "token": "road",
-        "cosine": 0.3338
+        "token": "blade",
+        "cosine": 0.3194
       },
       {
-        "token": "pony",
-        "cosine": 0.3326
+        "token": "night",
+        "cosine": 0.2928
       },
       {
-        "token": "coin",
-        "cosine": 0.3236
+        "token": "of",
+        "cosine": 0.29
       },
       {
-        "token": "tree",
-        "cosine": 0.3125
+        "token": "rope",
+        "cosine": 0.2794
       },
       {
-        "token": "stay",
-        "cosine": 0.3125
+        "token": "compared",
+        "cosine": 0.2611
       },
       {
-        "token": "kitten",
-        "cosine": 0.3084
+        "token": "platform",
+        "cosine": 0.2578
       }
     ],
     "after": [
       {
         "token": "consumer",
-        "cosine": 0.9381
+        "cosine": 0.9305
       },
       {
         "token": "buyer",
-        "cosine": 0.9145
-      },
-      {
-        "token": "client",
-        "cosine": 0.9104
+        "cosine": 0.9286
       },
       {
         "token": "shopper",
-        "cosine": 0.8854
+        "cosine": 0.9234
       },
       {
         "token": "subscriber",
-        "cosine": 0.8758
+        "cosine": 0.9065
       },
       {
-        "token": "surgeon",
-        "cosine": 0.5303
+        "token": "client",
+        "cosine": 0.9026
       },
       {
-        "token": "tutor",
-        "cosine": 0.5295
+        "token": "taxi",
+        "cosine": 0.4851
       },
       {
-        "token": "lecturer",
-        "cosine": 0.5133
+        "token": "train",
+        "cosine": 0.4427
+      },
+      {
+        "token": "bicycle",
+        "cosine": 0.4412
       }
     ],
     "token": "customer",
-    "token_id": 121,
-    "vector_l2_change": 0.7475
+    "token_id": 123,
+    "vector_l2_change": 0.7605
   },
   "unpaired/cold": {
     "before": [
       {
-        "token": "software",
-        "cosine": 0.3755
+        "token": "looks",
+        "cosine": 0.3566
       },
       {
-        "token": "chair",
-        "cosine": 0.3517
+        "token": "seal",
+        "cosine": 0.3476
       },
       {
-        "token": "hour",
-        "cosine": 0.308
+        "token": "kite",
+        "cosine": 0.3439
       },
       {
-        "token": "counts",
-        "cosine": 0.2749
+        "token": "lecturer",
+        "cosine": 0.3201
       },
       {
-        "token": ".",
-        "cosine": 0.2672
+        "token": "did",
+        "cosine": 0.2945
       },
       {
-        "token": "short",
-        "cosine": 0.264
+        "token": "bicycle",
+        "cosine": 0.285
       },
       {
-        "token": "mat",
-        "cosine": 0.2594
+        "token": "wash",
+        "cosine": 0.2652
       },
       {
-        "token": "spade",
-        "cosine": 0.253
+        "token": "fence",
+        "cosine": 0.2545
       }
     ],
     "after": [
       {
-        "token": "closed",
-        "cosine": 0.4508
+        "token": "walking",
+        "cosine": 0.4281
       },
       {
-        "token": "shut",
-        "cosine": 0.4144
+        "token": "closed",
+        "cosine": 0.3849
+      },
+      {
+        "token": "filled",
+        "cosine": 0.3804
+      },
+      {
+        "token": "so",
+        "cosine": 0.3793
       },
       {
         "token": "cool",
-        "cosine": 0.4087
+        "cosine": 0.3677
       },
       {
-        "token": "lunch",
-        "cosine": 0.3837
+        "token": "teacher",
+        "cosine": 0.3634
       },
       {
-        "token": "hard",
-        "cosine": 0.3692
+        "token": "fabric",
+        "cosine": 0.3565
       },
       {
-        "token": "empty",
-        "cosine": 0.3689
-      },
-      {
-        "token": "likes",
-        "cosine": 0.3619
-      },
-      {
-        "token": "here",
-        "cosine": 0.3373
+        "token": "code",
+        "cosine": 0.3554
       }
     ],
     "token": "cold",
-    "token_id": 99,
+    "token_id": 101,
     "vector_l2_change": null
   },
   "unpaired/below": {
     "before": [
       {
-        "token": "during",
-        "cosine": 0.3875
+        "token": "key",
+        "cosine": 0.3222
       },
       {
-        "token": "climbing",
-        "cosine": 0.3791
+        "token": "ball",
+        "cosine": 0.3168
       },
       {
-        "token": "support",
-        "cosine": 0.3495
+        "token": "round",
+        "cosine": 0.3156
       },
       {
-        "token": "climbed",
-        "cosine": 0.3129
+        "token": "dog",
+        "cosine": 0.2992
       },
       {
-        "token": "front",
-        "cosine": 0.303
+        "token": "yard",
+        "cosine": 0.2649
       },
       {
-        "token": "reviewed",
-        "cosine": 0.2944
+        "token": "tutor",
+        "cosine": 0.2638
       },
       {
-        "token": "can",
-        "cosine": 0.2792
+        "token": "we",
+        "cosine": 0.2608
       },
       {
-        "token": "loan",
-        "cosine": 0.2748
+        "token": "room",
+        "cosine": 0.2535
       }
     ],
     "after": [
       {
-        "token": "over",
-        "cosine": 0.5552
+        "token": "north",
+        "cosine": 0.6222
       },
       {
-        "token": "north",
+        "token": "over",
         "cosine": 0.5386
       },
       {
-        "token": "under",
-        "cosine": 0.5088
-      },
-      {
         "token": "south",
-        "cosine": 0.5003
+        "cosine": 0.5319
       },
       {
-        "token": "into",
-        "cosine": 0.4522
+        "token": "recommended",
+        "cosine": 0.4812
       },
       {
-        "token": "carp",
-        "cosine": 0.4426
+        "token": "bucket",
+        "cosine": 0.4738
       },
       {
-        "token": "salmon",
-        "cosine": 0.4352
+        "token": "under",
+        "cosine": 0.4607
       },
       {
-        "token": "trout",
-        "cosine": 0.4161
+        "token": "glass",
+        "cosine": 0.4572
+      },
+      {
+        "token": "returned",
+        "cosine": 0.448
       }
     ],
     "token": "below",
-    "token_id": 33,
+    "token_id": 34,
     "vector_l2_change": null
   },
   "unpaired/walked": {
     "before": [
       {
-        "token": "owls",
-        "cosine": 0.3946
+        "token": "blade",
+        "cosine": 0.286
       },
       {
-        "token": "software",
-        "cosine": 0.364
+        "token": "local",
+        "cosine": 0.2804
       },
       {
-        "token": "truck",
-        "cosine": 0.3275
-      },
-      {
-        "token": "south",
-        "cosine": 0.3262
-      },
-      {
-        "token": "therapist",
-        "cosine": 0.3257
-      },
-      {
-        "token": "flag",
-        "cosine": 0.2952
-      },
-      {
-        "token": "hat",
-        "cosine": 0.2894
-      },
-      {
-        "token": "report",
+        "token": "foal",
         "cosine": 0.2781
+      },
+      {
+        "token": "bought",
+        "cosine": 0.2772
+      },
+      {
+        "token": "trees",
+        "cosine": 0.2701
+      },
+      {
+        "token": "carp",
+        "cosine": 0.2505
+      },
+      {
+        "token": "lesson",
+        "cosine": 0.2458
+      },
+      {
+        "token": "interest",
+        "cosine": 0.2449
       }
     ],
     "after": [
       {
-        "token": "moved",
-        "cosine": 0.6783
+        "token": "looked",
+        "cosine": 0.6472
       },
       {
         "token": "jumped",
-        "cosine": 0.6459
-      },
-      {
-        "token": "counted",
-        "cosine": 0.6388
-      },
-      {
-        "token": "climbed",
-        "cosine": 0.6067
-      },
-      {
-        "token": "looked",
-        "cosine": 0.5933
+        "cosine": 0.6267
       },
       {
         "token": "opened",
-        "cosine": 0.5889
+        "cosine": 0.6216
       },
       {
-        "token": "cleaned",
-        "cosine": 0.5655
+        "token": "counted",
+        "cosine": 0.6203
       },
       {
-        "token": "website",
-        "cosine": 0.496
+        "token": "moved",
+        "cosine": 0.5642
+      },
+      {
+        "token": "climbed",
+        "cosine": 0.53
+      },
+      {
+        "token": "cooked",
+        "cosine": 0.5272
+      },
+      {
+        "token": "bought",
+        "cosine": 0.4757
       }
     ],
     "token": "walked",
-    "token_id": 479,
+    "token_id": 481,
     "vector_l2_change": null
   },
   "unpaired/quiet": {
     "before": [
       {
-        "token": "team",
-        "cosine": 0.3935
+        "token": "shoe",
+        "cosine": 0.3633
       },
       {
-        "token": "were",
-        "cosine": 0.3611
+        "token": "boys",
+        "cosine": 0.3045
       },
       {
-        "token": "today",
-        "cosine": 0.3322
+        "token": "mat",
+        "cosine": 0.2945
       },
       {
-        "token": "loud",
-        "cosine": 0.3209
+        "token": "in",
+        "cosine": 0.2819
       },
       {
-        "token": "street",
-        "cosine": 0.2912
+        "token": "see",
+        "cosine": 0.2798
       },
       {
-        "token": "treatment",
-        "cosine": 0.2877
+        "token": "shopper",
+        "cosine": 0.278
       },
       {
-        "token": "nearby",
-        "cosine": 0.2717
+        "token": "client",
+        "cosine": 0.2735
       },
       {
-        "token": "heavy",
-        "cosine": 0.2626
+        "token": "over",
+        "cosine": 0.2688
       }
     ],
     "after": [
       {
-        "token": "warm",
-        "cosine": 0.5603
-      },
-      {
         "token": "bright",
-        "cosine": 0.55
+        "cosine": 0.5803
       },
       {
-        "token": "walked",
-        "cosine": 0.4468
-      },
-      {
-        "token": "small",
-        "cosine": 0.4435
-      },
-      {
-        "token": "slow",
-        "cosine": 0.4119
+        "token": "warm",
+        "cosine": 0.5234
       },
       {
         "token": "short",
-        "cosine": 0.409
+        "cosine": 0.5159
       },
       {
-        "token": "price",
-        "cosine": 0.4046
+        "token": "asleep",
+        "cosine": 0.4953
       },
       {
-        "token": "evening",
-        "cosine": 0.4012
+        "token": "white",
+        "cosine": 0.4876
+      },
+      {
+        "token": "small",
+        "cosine": 0.4638
+      },
+      {
+        "token": "heavy",
+        "cosine": 0.4273
+      },
+      {
+        "token": "tall",
+        "cosine": 0.4016
       }
     ],
     "token": "quiet",
-    "token_id": 365,
+    "token_id": 367,
     "vector_l2_change": null
   },
   "unpaired/right": {
     "before": [
       {
-        "token": "slowly",
-        "cosine": 0.3764
+        "token": "yard",
+        "cosine": 0.4198
       },
       {
-        "token": "climbs",
-        "cosine": 0.3353
+        "token": "metal",
+        "cosine": 0.3374
       },
       {
-        "token": "runners",
-        "cosine": 0.3212
+        "token": "client",
+        "cosine": 0.3316
       },
       {
-        "token": "choose",
-        "cosine": 0.3165
+        "token": "room",
+        "cosine": 0.3123
       },
       {
-        "token": "bond",
-        "cosine": 0.3122
+        "token": "nearby",
+        "cosine": 0.2948
       },
       {
-        "token": "robin",
-        "cosine": 0.2942
+        "token": "security",
+        "cosine": 0.2893
       },
       {
-        "token": "winter",
-        "cosine": 0.2903
+        "token": "late",
+        "cosine": 0.2639
       },
       {
-        "token": "foxes",
-        "cosine": 0.2881
+        "token": "onion",
+        "cosine": 0.2613
       }
     ],
     "after": [
       {
         "token": "left",
-        "cosine": 0.7292
-      },
-      {
-        "token": "north",
-        "cosine": 0.538
+        "cosine": 0.7301
       },
       {
         "token": "inside",
-        "cosine": 0.5307
+        "cosine": 0.4562
       },
       {
-        "token": "tree",
-        "cosine": 0.4525
+        "token": "north",
+        "cosine": 0.4481
       },
       {
-        "token": "tool",
-        "cosine": 0.4301
+        "token": "south",
+        "cosine": 0.4118
       },
       {
-        "token": "front",
-        "cosine": 0.4186
+        "token": "order",
+        "cosine": 0.41
       },
       {
-        "token": "over",
-        "cosine": 0.4133
+        "token": "service",
+        "cosine": 0.4077
       },
       {
-        "token": "stack",
-        "cosine": 0.406
+        "token": "red",
+        "cosine": 0.4047
+      },
+      {
+        "token": "young",
+        "cosine": 0.3996
       }
     ],
     "token": "right",
-    "token_id": 376,
+    "token_id": 378,
     "vector_l2_change": null
   }
 }

@@ -1,11 +1,12 @@
 {
   "experiment": "unpaired",
   "seed": 42,
-  "notebook_run_dir": "20260920T055921_020254Z",
+  "notebook_run_dir": "20260920T232109_555281Z",
   "training_steps": 3000,
   "learning_rate": 0.004,
   "corpus_mode": "classroom",
   "corpus_dir": "corpus_unpaired",
+  "batch_size": null,
   "corpus_files": [
     "corpus_unpaired/01_grammar_agreement.txt",
     "corpus_unpaired/02_grammar_tense.txt",
@@ -19,5 +20,5 @@
     "corpus_unpaired/10_everyday_knowledge.txt",
     "corpus_unpaired/11_categories.txt"
   ],
-  "notebook_wall_clock_seconds": 30.8
+  "notebook_wall_clock_seconds": 30.0
 }

@@ -15,15 +15,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE_STEPS, BASE_LR = 3000, 0.001
-SEEDS = [42, 7]
-POINTS = [(1500, 0.001), (3000, 0.001), (6000, 0.001), (12000, 0.001),
-          (3000, 0.0005), (3000, 0.002), (3000, 0.003), (3000, 0.004),
-          (3000, 0.006), (3000, 0.008), (3000, 0.012), (3000, 0.02),
-          (6000, 0.004), (1500, 0.004)]
+SEEDS = [42, 7, 123]
+POINTS = [(3000, 0.001), (3000, 0.002), (3000, 0.003), (3000, 0.004),
+          (3000, 0.005), (3000, 0.006), (3000, 0.008),
+          (1500, 0.004), (4500, 0.004), (6000, 0.004), (9000, 0.004)]
 
 
 def run(steps, lr, seed):
-    label = f"hp_s{steps}_lr{lr}_seed{seed}"
+    label = f"hp2_s{steps}_lr{lr}_seed{seed}"
     out = ROOT / "experiments" / label / "llm_run" / "language_eval_comparison.json"
     if not out.exists():
         subprocess.run([sys.executable, str(ROOT / "tools/run_experiment.py"),

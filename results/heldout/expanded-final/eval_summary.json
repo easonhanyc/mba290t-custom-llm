@@ -1,7 +1,7 @@
 {
   "suite_id": "heldout-transfer-v1",
   "suite_sha256": "6e2f42928b7dcb14517d18c13e63a1a8a7c1cbbd985d597c7050a9d450d938e9",
-  "model_sha256": "f7c390d82f935a546f9b472f8e587fd489ffe304bac511b8849ceda99a3069d3",
+  "model_sha256": "f4a561d786526619572c29385275346c13fcde2564f653726b1cd79f305919cc",
   "stage": "final",
   "settings": {
     "seed": 2026,
@@ -12,20 +12,20 @@
   "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
   "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
   "overall": {
-    "correct": 7,
+    "correct": 9,
     "total": 16,
     "scorable": 10,
-    "success_rate_all_cases": 0.4375,
-    "accuracy_scorable_cases": 0.7,
+    "success_rate_all_cases": 0.5625,
+    "accuracy_scorable_cases": 0.9,
     "coverage": 0.625
   },
   "by_group": {
     "heldout": {
-      "correct": 7,
+      "correct": 9,
       "total": 16,
       "scorable": 10,
-      "success_rate_all_cases": 0.4375,
-      "accuracy_scorable_cases": 0.7,
+      "success_rate_all_cases": 0.5625,
+      "accuracy_scorable_cases": 0.9,
       "coverage": 0.625
     }
   },
@@ -55,11 +55,11 @@
       "coverage": 1.0
     },
     "opposites": {
-      "correct": 1,
+      "correct": 2,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 0.3333333333333333,
-      "accuracy_scorable_cases": 0.3333333333333333,
+      "success_rate_all_cases": 0.6666666666666666,
+      "accuracy_scorable_cases": 0.6666666666666666,
       "coverage": 1.0
     },
     "sequence": {
@@ -71,11 +71,11 @@
       "coverage": 0.0
     },
     "spatial_relations": {
-      "correct": 2,
+      "correct": 3,
       "total": 3,
       "scorable": 3,
-      "success_rate_all_cases": 0.6666666666666666,
-      "accuracy_scorable_cases": 0.6666666666666666,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
       "coverage": 1.0
     }
   }

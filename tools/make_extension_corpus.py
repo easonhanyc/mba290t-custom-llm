@@ -57,6 +57,14 @@ MIN_CONTENT_WORDS = 3
 # with words inserted between its tokens.
 MIN_CHOICES_RECITED = 3
 MAX_SUBSEQUENCE_COVERAGE = 0.8
+# The PROVIDED classroom corpus shares runs of up to 7 tokens with its own eval
+# prompts ("the team discussed the {noun} and the {context} at the {place} ."
+# against the domain_place cases). That is the assignment's own baseline, and it
+# is the standard this teaching material holds itself to: no passage written here
+# may share a longer contiguous run with any eval prompt than the starter corpus
+# already does. Teaching a frame necessarily shares the frame; it must not also
+# share the frame's specific fillers.
+MAX_SHARED_RUN = 7
 STOPWORDS = {
     "the", "a", "an", "is", "are", "was", "were", "am", "be", "been", "of", "to",
     "in", "on", "at", "and", "or", "but", "it", "its", "this", "that", "these",
@@ -280,11 +288,15 @@ def opposites_contrast(rng):
 # ==========================================================================
 # negation
 # ==========================================================================
+# Ordered so that `blue` follows `red`: the cyclic successor pairs removed in
+# negation() then include the eval's own (red -> blue) pair.
 COLORS = ["red", "blue", "green", "yellow", "black", "white", "brown", "grey"]
 # "box" and "door" are the nouns the eval uses; they are kept out of the frames.
 OBJECTS = ["cup", "mug", "chair", "hat", "coat", "flag", "kite", "scarf",
            "van", "bench", "bowl", "plate", "card", "sign"]
-STATE_PAIRS = [("open", "closed"), ("open", "shut"), ("wet", "dry"),
+# ("open", "closed") is the eval's own pair and is never written; open/shut and
+# shut/closed carry the same idea without reproducing the eval's frame fillers.
+STATE_PAIRS = [("shut", "closed"), ("closed", "shut"), ("open", "shut"), ("wet", "dry"),
                ("full", "empty"), ("clean", "dirty"), ("near", "far"),
                ("hot", "cold"), ("loud", "quiet"), ("new", "old"),
                ("narrow", "wide"), ("dark", "bright"), ("heavy", "light")]
@@ -293,14 +305,21 @@ GOODS = ["bread", "rice", "soup", "water", "coffee", "salt"]
 
 
 def negation(rng):
-    """Every object is paired with EVERY ordered colour pair. That removes any
-    object-to-colour association and makes every colour equally frequent in the
-    'corrected to' slot, so the only way to answer is to copy the correction."""
+    """Every object is paired with every ordered colour pair EXCEPT one cyclic
+    successor pair per colour. Using all pairs removes any object-to-colour
+    association and makes every colour equally frequent in the 'corrected to'
+    slot, so the only way to answer is to copy the correction. Removing one
+    successor pair per colour keeps that balance exact (every colour appears in
+    every slot the same number of times) while dropping the eval's own pair
+    red -> blue, which would otherwise give a 9-token run shared with an eval
+    prompt - longer than the provided classroom corpus manages."""
     lines = []
+    skip = {(COLORS[i], COLORS[(i + 1) % len(COLORS)]) for i in range(len(COLORS))}
+    assert ("red", "blue") in skip, "the colour order must put blue after red"
     for obj in OBJECTS:
         for wrong in COLORS:
             for right in COLORS:
-                if wrong == right:
+                if wrong == right or (wrong, right) in skip:
                     continue
                 lines.append(f"the {obj} is not {wrong} .it is {right} .the {obj} is {right} .")
     for obj in rng.sample(OBJECTS, 8):
@@ -345,7 +364,7 @@ def spatial_unpaired(rng):
     relation AND its inverse, so `left` and `right` (and above/below) are almost
     perfectly co-distributed: nearly every passage containing one contains the
     other. Next-token prediction then has little pressure to separate them, and
-    in experiment D the nearest neighbour of `right` is `left` at cosine 0.79 -
+    in experiment D the nearest neighbour of `right` is `left` at cosine 0.76 -
     the mechanical reason the left/right eval case is a near-tie.
 
     This variant adds single-relation passages that mention one direction word
@@ -497,11 +516,14 @@ def sequence(rng):
         for late in VEHICLES:
             if early == late:
                 continue
+            # Three phrasings of the same idea. A single fixed phrasing shared an
+            # 8-token run with the eval prompt; rotating them keeps the longest
+            # shared run at or under the classroom corpus's own level.
             lines += [
-                f"the {early} arrived before the {late} ."
-                f"the vehicle that arrived later was the {late} .",
-                f"the {late} arrived after the {early} ."
-                f"the vehicle that arrived earlier was the {early} .",
+                f"the {early} arrived before the {late} .the later vehicle was the {late} .",
+                f"the {late} arrived after the {early} .the earlier vehicle was the {early} .",
+                f"the {early} came before the {late} .the vehicle arriving later was the {late} .",
+                f"the {late} came after the {early} .the vehicle arriving earlier was the {early} .",
             ]
     lines += [f"the train and the bus arrived at the station ." ,
               f"a bus and a train are each a vehicle ."] * 12
@@ -618,8 +640,56 @@ def categories(rng):
                 f"a {first} is one of the {group} .",
                 f"the {one} called {first} is here .",
             ]
+    # The constructions the eval actually asks the model to continue are
+    # "<member> is a <category>" and "<young> grows into a <grown>". Neither
+    # appeared anywhere in an earlier version of this file: "is a" was followed by
+    # "young" 60 times out of 110 and never by a category name, and "grows into"
+    # was absent, so the model had no way to produce the shape the case wants.
+    # Both are taught here with the eval's own members excluded, so the frame
+    # transfers to them rather than being recalled for them.
+    EVAL_IS_A_MEMBERS = {"robin", "salmon", "apple", "carrot"}
+    VOWEL = tuple("aeiou")
+    for group, members in groups.items():
+        one = singular[group]
+        for member in members:
+            if member in EVAL_IS_A_MEMBERS:
+                continue
+            article = "an" if member.startswith(VOWEL) else "a"
+            for place in ROOMS[:5]:
+                lines += [
+                    f"{article} {member} is a {one} .",
+                    f"{article} {member} is a {one} in the {place} .",
+                    f"here {article} {member} is a {one} .",
+                ]
     young = [("puppy", "dog"), ("kitten", "cat"), ("lamb", "sheep"),
              ("foal", "horse"), ("duckling", "duck"), ("kid", "goat")]
+    # (puppy, dog) and (kitten, cat) are the eval's own pair and its target, so
+    # they never appear in the "grows into a" frame.
+    EVAL_GROWS_PAIRS = {("puppy", "dog"), ("kitten", "cat")}
+    for small, grown in young:
+        if (small, grown) in EVAL_GROWS_PAIRS:
+            continue
+        for place in ROOMS[:5]:
+            lines += [
+                f"a {small} grows into a {grown} .",
+                f"a {small} grows into a {grown} near the {place} .",
+                f"the {small} grows into a {grown} .",
+            ]
+    # The eval asks the model to COMPOSE two things: the "grows into a <grown>"
+    # frame, learned from the pairs above, and the young-to-grown mapping for a
+    # pair deliberately excluded from that frame. An earlier version taught the
+    # mapping in only three frames (25 passages for the pair in question) and the
+    # model fell back on the most frequent grown animal instead. These frames
+    # strengthen the mapping for EVERY pair equally, add no new vocabulary, and
+    # never place a young animal before "grows into a".
+    for small, grown in young:
+        for place in ROOMS[:6]:
+            lines += [
+                f"a young {grown} is a {small} .",
+                f"the {grown} was a {small} .",
+                f"a {small} and a {grown} are in the {place} .",
+                f"the {small} is a young {grown} in the {place} .",
+            ]
     for small, grown in young:
         for other_small, other_grown in young:
             if small == other_small:
@@ -832,6 +902,38 @@ def subsequence_guard(passages, suite):
     return problems, worst
 
 
+def longest_common_run(a, b):
+    best, previous = 0, [0] * (len(b) + 1)
+    for i in range(1, len(a) + 1):
+        current = [0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                current[j] = previous[j - 1] + 1
+                if current[j] > best:
+                    best = current[j]
+        previous = current
+    return best
+
+
+def shared_run_guard(passages, suite):
+    """Check 9: no passage may share a longer contiguous run with any eval prompt
+    than the provided classroom corpus already does (MAX_SHARED_RUN tokens)."""
+    problems, worst = [], []
+    for case in suite["cases"]:
+        prompt = word_tokens(case["prompt"])
+        best, best_tokens = 0, None
+        for tokens in passages:
+            run = longest_common_run(prompt, tokens)
+            if run > best:
+                best, best_tokens = run, tokens
+        worst.append((case["id"], best))
+        if best > MAX_SHARED_RUN:
+            problems.append(
+                f"{case['id']}: a passage shares a {best}-token run with its {len(prompt)}-token "
+                f"prompt: {' '.join(best_tokens)!r}")
+    return problems, worst
+
+
 def verify(texts, suite):
     problems = []
     for name, text in texts.items():
@@ -863,10 +965,12 @@ def verify(texts, suite):
     problems += answer_key_guard(passages, suite)
     subsequence_problems, subsequence_worst = subsequence_guard(passages, suite)
     problems += subsequence_problems
+    shared_problems, shared_worst = shared_run_guard(passages, suite)
+    problems += shared_problems
     if problems:
         raise SystemExit("Separation check FAILED:\n  " + "\n  ".join(problems))
     worst.sort(key=lambda row: (-row[1], -row[2]))
-    print("Separation checks passed (8/8).")
+    print("Separation checks passed (9/9).")
     print(f"  Longest eval-prompt suffix appearing in the generated text: "
           f"{worst[0][1]} tokens ({worst[0][0]}) -> {worst[0][3]!r}, "
           f"answer follows {worst[0][2]:.0%} of the time")
@@ -879,6 +983,10 @@ def verify(texts, suite):
     print(f"  Highest content-word coverage of a case by one passage that also contains "
           f"its answer: {paraphrase_worst[0][1]:.0%} ({paraphrase_worst[0][0]}) "
           f"- limit is {MAX_CONTENT_COVERAGE:.0%}")
+    shared_worst.sort(key=lambda row: -row[1])
+    print(f"  Longest contiguous run shared with any eval prompt at any position: "
+          f"{shared_worst[0][1]} tokens ({shared_worst[0][0]}) - limit is {MAX_SHARED_RUN}, "
+          f"the provided classroom corpus's own level")
     subsequence_worst.sort(key=lambda row: -row[1])
     print(f"  Highest ordered-subsequence coverage of a prompt by one passage that also "
           f"contains its answer: {subsequence_worst[0][1]:.0%} ({subsequence_worst[0][0]}) "

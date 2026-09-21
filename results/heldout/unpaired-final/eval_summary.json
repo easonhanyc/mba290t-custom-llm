@@ -1,7 +1,7 @@
 {
   "suite_id": "heldout-transfer-v1",
   "suite_sha256": "6e2f42928b7dcb14517d18c13e63a1a8a7c1cbbd985d597c7050a9d450d938e9",
-  "model_sha256": "6adc74247c02a70d95e876c6738861889572353f85ae4bbd600521ec9e6a015b",
+  "model_sha256": "8702c0e49fad37c9fc94ff9dd7e6e814d2fc241fe47905557682e81d1a920dd6",
   "stage": "final",
   "settings": {
     "seed": 2026,
@@ -12,38 +12,38 @@
   "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
   "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
   "overall": {
-    "correct": 11,
+    "correct": 9,
     "total": 16,
     "scorable": 15,
-    "success_rate_all_cases": 0.6875,
-    "accuracy_scorable_cases": 0.7333333333333333,
+    "success_rate_all_cases": 0.5625,
+    "accuracy_scorable_cases": 0.6,
     "coverage": 0.9375
   },
   "by_group": {
     "heldout": {
-      "correct": 11,
+      "correct": 9,
       "total": 16,
       "scorable": 15,
-      "success_rate_all_cases": 0.6875,
-      "accuracy_scorable_cases": 0.7333333333333333,
+      "success_rate_all_cases": 0.5625,
+      "accuracy_scorable_cases": 0.6,
       "coverage": 0.9375
     }
   },
   "by_category": {
     "categories_and_analogies": {
-      "correct": 1,
+      "correct": 0,
       "total": 2,
       "scorable": 2,
-      "success_rate_all_cases": 0.5,
-      "accuracy_scorable_cases": 0.5,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
       "coverage": 1.0
     },
     "grammar": {
-      "correct": 2,
+      "correct": 1,
       "total": 4,
       "scorable": 3,
-      "success_rate_all_cases": 0.5,
-      "accuracy_scorable_cases": 0.6666666666666666,
+      "success_rate_all_cases": 0.25,
+      "accuracy_scorable_cases": 0.3333333333333333,
       "coverage": 0.75
     },
     "negation": {

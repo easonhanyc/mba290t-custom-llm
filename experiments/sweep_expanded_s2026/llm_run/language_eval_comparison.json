@@ -140,7 +140,7 @@
   "final": {
     "suite_id": "synthetic-language-v1",
     "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-    "model_sha256": "bc5d2a7045d14545ecfeef6370e1401848d0ebb9bf148b17a46952296b67c7ed",
+    "model_sha256": "6128042e61caadcf137061f118a6091267c53cc86cdc640e8d8140c69a8f2fd0",
     "stage": "final",
     "settings": {
       "seed": 2026,

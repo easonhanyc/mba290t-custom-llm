@@ -42,52 +42,52 @@
     },
     {
       "file": "05_negation_corrections.txt",
-      "bytes": 63856,
-      "sha256": "410b05e30225759d2f5a7110ce20afc73e9e5726acb551a18b4f8bbe3844007b",
+      "bytes": 58420,
+      "sha256": "3500030410c5997d0e6cf6de1552afd4d805c6ac15797e7f47d1cda570bf1295",
       "warnings": [],
-      "characters": 63856,
-      "passages": 1152,
-      "unique_passages": 1136,
-      "preview": "the sign is not yellow .it is brown .the sign is brown .\nthe hat is not white .it is brown .the hat is brown .\nthe hat is not red .it is blue .the hat is blue .\nthe lid is not new .it is old .the lid is old .\nmateo did not buy coffee .he bought rice .mateo bought rice .\nthe cup is not white .it is b"
+      "characters": 58420,
+      "passages": 1052,
+      "unique_passages": 1036,
+      "preview": "that van is not black .it is green .\nthe fence was not hot .it was cold .the fence was cold .\nthe cupboard was not full .it was empty .the cupboard was empty .\ndiego did not buy rice .he bought bread .diego bought bread .\nthe flag is not black .it is grey .the flag is grey .\njonas did not buy soup ."
     },
     {
       "file": "06_spatial_relations.txt",
       "bytes": 73576,
-      "sha256": "8fac3e37f7b28e0a706d4eb559e72e7933395e1dcbe1f13733c24762b906e7eb",
+      "sha256": "031804039b5a6bf19508884265bf93c2531c715d38ba8033e20c9028a57d0869",
       "warnings": [],
       "characters": 73576,
       "passages": 1132,
       "unique_passages": 1132,
-      "preview": "the coin is beside the stool .the stool is beside the coin .\nthe jar is left of the spoon .the spoon is to the right of the jar .\nthe pen sits on the ledge .the ledge holds the pen .\nthe stamp is beside the table .the table is beside the stamp .\nthe table is over the letter .the letter is under the "
+      "preview": "the pen is left of the drawer .the drawer is to the right of the pen .\nthe drawer is left of the stamp .the stamp is to the right of the drawer .\nthe ring is under the stool .the stool is over the ring .\nthe coin is left of the basket .the basket is to the right of the coin .\nthe banner hangs above "
     },
     {
       "file": "07_plain_descriptions.md",
       "bytes": 11252,
-      "sha256": "e18ce92580f59928ca1e63e09848bc004f457dd9fe74776484a767787a0e2867",
+      "sha256": "651e7b0b16a180529a07c306c8843a933d8f46f213137e164051c1d4adeb2b4d",
       "warnings": [],
       "characters": 11252,
       "passages": 343,
       "unique_passages": 343,
-      "preview": "the shelf is old .\nthe book was missing from the mat .\nthe ball and the shelf are in the hall .\nthe book was missing from the cabinet .\na quiet street sits beside the noisy market .\na small lamp sits near the bench .\nthe ball is on the cabinet .\nthe lamp is old .\nthe bag and the counter are clean .\n"
+      "preview": "the book is on the bench .\nthe ball and the box are in the hall .\nthe lamp is new .\nthe bag is white .\nthe ball is old .\na quiet street sits beside the noisy market .\nthe ball and the desk are in the hall .\nthe book was missing from the ledge .\nthe box is on the stool .\nthe ball was missing from the"
     },
     {
       "file": "08_printed_notes.pdf",
-      "bytes": 2874,
-      "sha256": "e1244d681b60e0f00ea9a06c94b6df1c77c661e157eb9bd81659b418940a5d62",
+      "bytes": 2863,
+      "sha256": "8da3dbcbfa3ce2ea3fcd3b21f147068be8f8a566562ca23d6215e1ee3d1b290c",
       "warnings": [],
       "pages": 2,
       "characters": 2877,
       "passages": 61,
       "unique_passages": 61,
-      "preview": "a dark path and a bright path lead to the bridge .\nthe bottle is beside the bowl on the counter .\nthe jar is beside the bowl on the counter .\na wet path and a dry path lead to the bridge .\nmany dogs and many ponies are near the gate .\na near path and a far path lead to the bridge .\nthe basket is bes"
+      "preview": "the kitchen is warm in summer and cool in winter .\nthe room is warm in summer and cool in winter .\na basket can be full or empty .\nthe door of the office is wide and the window is narrow .\na old path and a new path lead to the bridge .\na big path and a small path lead to the bridge .\na clean path an"
     }
   ],
   "ignored": [],
-  "external_passages": 5388,
+  "external_passages": 5288,
   "mode": "classroom",
   "base_passages": 6200,
-  "unique_passages": 9697,
-  "new_unique_passages": 5105,
+  "unique_passages": 9597,
+  "new_unique_passages": 5005,
   "duplicates_removed": 1891,
   "max_passage_tokens": 47,
   "split_unit": "deduplicated passage, not source file"

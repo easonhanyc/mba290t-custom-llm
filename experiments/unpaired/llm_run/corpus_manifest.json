@@ -42,83 +42,83 @@
     },
     {
       "file": "05_negation_corrections.txt",
-      "bytes": 63856,
-      "sha256": "410b05e30225759d2f5a7110ce20afc73e9e5726acb551a18b4f8bbe3844007b",
+      "bytes": 58420,
+      "sha256": "3500030410c5997d0e6cf6de1552afd4d805c6ac15797e7f47d1cda570bf1295",
       "warnings": [],
-      "characters": 63856,
-      "passages": 1152,
-      "unique_passages": 1136,
-      "preview": "the sign is not yellow .it is brown .the sign is brown .\nthe hat is not white .it is brown .the hat is brown .\nthe hat is not red .it is blue .the hat is blue .\nthe lid is not new .it is old .the lid is old .\nmateo did not buy coffee .he bought rice .mateo bought rice .\nthe cup is not white .it is b"
+      "characters": 58420,
+      "passages": 1052,
+      "unique_passages": 1036,
+      "preview": "that van is not black .it is green .\nthe fence was not hot .it was cold .the fence was cold .\nthe cupboard was not full .it was empty .the cupboard was empty .\ndiego did not buy rice .he bought bread .diego bought bread .\nthe flag is not black .it is grey .the flag is grey .\njonas did not buy soup ."
     },
     {
       "file": "06_spatial_relations.txt",
       "bytes": 89765,
-      "sha256": "9ed14e7a52d9f41da7455f30991f0a75af9f1c4ddf54ffb8742135bf7b0b9b60",
+      "sha256": "71819aad0da8350aadd0a026ab6aebe715ebb2907443df7a329a31000cf53c9e",
       "warnings": [],
       "characters": 89765,
       "passages": 1635,
       "unique_passages": 1635,
-      "preview": "the tray is left of the stamp .the stamp is to the right of the tray .\nthe hook is above the counter .the counter is below the hook .\nthe bench is north of the spoon .the spoon is south of the bench .\nthe bench is over the card .the card is under the bench .\nthe basket is left of the key .the key is"
+      "preview": "the banner is above the counter .\nthe brush sits on the ledge .the ledge holds the brush .\nthe picture is above the cabinet .\nthe spoon is north of the stool .\nthe tin is right of the brush .the brush is to the left of the tin .\nthe ledge is over the ring .the ring is under the ledge .\nthe jar is ri"
     },
     {
       "file": "07_plain_descriptions.md",
       "bytes": 11252,
-      "sha256": "c4838b1aa87ba50907a33d10ab4269c24fbded4ee4b30724538f37a432edeacf",
+      "sha256": "2eb85927372be257c1c5db5c17ef4ff379e99267f1221c9ca69e19e680bd99bd",
       "warnings": [],
       "characters": 11252,
       "passages": 343,
       "unique_passages": 343,
-      "preview": "the desk was missing from the mat .\nthe door and the box are in the hall .\nthe door is brown .\nthe lamp is wide .\nthe box and the book are in the hall .\nthe lamp was missing from the mat .\nthe desk and the door are in the hall .\nthe bag is new .\nthe bag and the cabinet are clean .\nthe shelf and the "
+      "preview": "the desk is clean .\na small box sits near the bench .\nthe shelf and the counter are clean .\na small door sits near the table .\nthe shelf is on the cabinet .\nthe book is on the cabinet .\nthe box was missing from the mat .\nthe box was missing from the table .\na small ball sits near the mat .\nthe book "
     },
     {
       "file": "08_printed_notes.pdf",
-      "bytes": 2867,
-      "sha256": "49273e4109eac7c6cfba017f355154881a4b397a183ab0ae8cc3b0d3b8531644",
+      "bytes": 2904,
+      "sha256": "dad90139d8f3f3107853fff7f90759dcce8b8d4a1231855f42ffa2d4bb5b5d00",
       "warnings": [],
       "pages": 2,
       "characters": 2877,
       "passages": 61,
       "unique_passages": 61,
-      "preview": "the garden is warm in summer and cool in winter .\nthe store is warm in summer and cool in winter .\na quiet street and a noisy street share one gate .\na bowl can be full or empty .\na quiet hall and a noisy street share one gate .\nthe kitchen is warm in summer and cool in winter .\nthe bowl is beside t"
+      "preview": "the bucket is beside the bowl on the counter .\na big path and a small path lead to the bridge .\na glass can be full or empty .\na bottle can be full or empty .\na quiet market and a noisy street share one gate .\nthe room is warm in summer and cool in winter .\na early path and a late path lead to the b"
     },
     {
       "file": "09_sequence_order.txt",
-      "bytes": 14623,
-      "sha256": "2a1f1ddcb058b5f61449c73d17e5811fe1c630fda8815bf69b34b7966f1863ec",
+      "bytes": 16063,
+      "sha256": "3b9bd2915f157218f5f391c4ee1defef4fb2560259e4305d26507d21f8063bc7",
       "warnings": [],
-      "characters": 14623,
-      "passages": 264,
-      "unique_passages": 211,
-      "preview": "first buy the basket .then sort it .the first action is buy .\nfirst pack the card .then seal it .the last action is seal .\nthe truck arrived before the taxi .the vehicle that arrived later was the taxi .\nbrunch happens before supper .the later meal is supper .\nwe wash the cup before breakfast in the"
+      "characters": 16063,
+      "passages": 288,
+      "unique_passages": 235,
+      "preview": "first lift the tray .then pack it .the first action is lift .\nlunch happens before supper .the later meal is supper .\nbreakfast and lunch are in the street .\nfirst pack the card .then buy it .the last action is buy .\nfirst fill the folder .then pack it .the first action is fill .\nbreakfast and suppe"
     },
     {
       "file": "10_everyday_knowledge.txt",
       "bytes": 41312,
-      "sha256": "9757a306d3e6987536cdb9d16edd59b58a3df261bbe209061e54c62b7dd3fe5f",
+      "sha256": "af06a068ef50ad66939ff45beba71a2e68de7dc2e1b954c68a1f6e731dd2570c",
       "warnings": [],
       "characters": 41312,
       "passages": 815,
       "unique_passages": 453,
-      "preview": "a person will stay warm beside the stone .\na person can see in the bank when the light is warm .\na person can see in the kitchen when the light is warm .\na person uses an umbrella beside the wet bench .\nthe wood is dry and the sand is wet in the street .\nthe umbrella keeps a person dry when the path"
+      "preview": "sand is on the path near the hall .\na hungry person uses a spoon for the water in the street .\nthe pillow and the shoe are in the garden .\nhot water in the bottle is steam in the garden .\nwe turn the light on and the dark hospital is quiet .\na person can see in the store when the light is warm .\nund"
     },
     {
       "file": "11_categories.txt",
-      "bytes": 21694,
-      "sha256": "84cdfd179d1fb79c0c64c6592759ed1ee903370b9e015e064c46b70312efc34f",
+      "bytes": 36293,
+      "sha256": "c1730ee154f1c1c4f61ca0d0b6b47bf14d210842cc7da1e15e332d2d7d39173b",
       "warnings": [],
-      "characters": 21694,
-      "passages": 543,
-      "unique_passages": 495,
-      "preview": "the fish and the salmon are in the hall .\nthe carrot and the onion are near the vegetable .\nthe fabric and the cloth are in the yard .\nthe kid grows and the goat is in the hall .\na onion and a bean are vegetables .\nthe kid grows and the goat is near .\na kid grows and is a goat .\nthe trees and the oa"
+      "characters": 36293,
+      "passages": 1047,
+      "unique_passages": 747,
+      "preview": "the foal is a young horse in the hall .\na sparrow and a hen are birds .\na pine is a tree in the street .\na carp is a fish .\na oak is one of the trees .\nthe blade and the brush are tools .\na foal grows into a horse .\nthe salmon and the bass are near the fish .\nthe tools and the blade are in the yard "
     }
   ],
   "ignored": [],
-  "external_passages": 7513,
+  "external_passages": 7941,
   "mode": "classroom",
   "base_passages": 6200,
-  "unique_passages": 11359,
-  "new_unique_passages": 6767,
-  "duplicates_removed": 2354,
+  "unique_passages": 11535,
+  "new_unique_passages": 6943,
+  "duplicates_removed": 2606,
   "max_passage_tokens": 47,
   "split_unit": "deduplicated passage, not source file"
 }

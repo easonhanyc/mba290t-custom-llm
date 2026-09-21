@@ -55,7 +55,7 @@ can still be diffed against a known original (`../tools/check_pdf_extraction.py`
 
 ## Separation from the eval suite
 
-`make_extension_corpus.py` refuses to write anything unless **eight** checks pass:
+`make_extension_corpus.py` refuses to write anything unless **nine** checks pass:
 
 1. `reject_eval_leakage()` - the notebook's own normalized contiguous prompt match.
 2. No proper name used anywhere in the eval suite.
@@ -70,6 +70,12 @@ can still be diffed against a known original (`../tools/check_pdf_extraction.py`
 8. **Ordered-subsequence guard:** no passage may contain more than 80% of a prompt's tokens *in
    order, gaps allowed*, while also containing the answer. Banning the phrase `yesterday she` did
    not stop `yesterday clara walked and she walked too .`; this check does.
+9. **Shared-run guard:** no passage may share a longer contiguous run with any eval prompt than
+   the *provided* classroom corpus already does. That corpus reaches 7 tokens against its own
+   `domain_place` cases, so 7 is the bar; this material's longest is 6. Teaching a frame
+   necessarily shares the frame - it must not also share the frame's specific fillers, which is
+   why the eval's own `red -> blue` and `open -> closed` pairs are excluded from the correction
+   frames even though every other ordered pair is used.
 
 Verify it yourself:
 
@@ -78,6 +84,7 @@ python tools/verify_separation.py
 python tools/leakage_ngram_audit.py
 python tools/leakage_paraphrase_audit.py
 python tools/leakage_full_audit.py
+python tools/audit_structural.py
 ```
 
 Shared ordinary vocabulary is expected and allowed; the test items are not here.

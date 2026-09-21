@@ -15,14 +15,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "is": 0.35177430510520935,
-      "are": 0.0027648734394460917,
-      "were": 3.228699279134162e-05,
-      "am": 2.8741947062371764e-06
+      "is": 0.7811836004257202,
+      "are": 0.0009696379420347512,
+      "were": 5.352592324925354e-06,
+      "am": 1.4893238358126837e-06
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "and light are",
+    "generated_text": "is brown .",
     "prompt_truncated": false,
     "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it.",
     "stage": "final",
@@ -44,14 +44,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "is": 0.0030084296595305204,
-      "am": 1.6194309893080572e-08,
-      "was": 6.445240433095023e-05,
-      "are": 2.5522935175104067e-05
+      "is": 0.0003334055654704571,
+      "am": 4.283329531062918e-07,
+      "was": 0.00012848389451391995,
+      "are": 7.419420398946386e-06
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "and the blade are in the room .",
+    "generated_text": "and the hammer are in the yard .",
     "prompt_truncated": false,
     "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence.",
     "stage": "final",
@@ -73,14 +73,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "walks": 0.0002586033951956779,
-      "walk": 1.4559071132680401e-05,
-      "walked": 0.02562572807073593,
-      "walking": 0.00022579669894184917
+      "walks": 0.00041835050797089934,
+      "walk": 0.000302023661788553,
+      "walked": 0.002463254611939192,
+      "walking": 0.00037082130438648164
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "compared the brand at the delivery .",
+    "generated_text": "explains the explains the support in detail .",
     "prompt_truncated": false,
     "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence.",
     "stage": "final",
@@ -106,7 +106,7 @@
       "ducklings"
     ],
     "unknown_choices": [],
-    "generated_text": "ago the runner can see .",
+    "generated_text": "about the important bus and course at the window was climbing .",
     "prompt_truncated": false,
     "reason": "Plural agreement on a noun taught only in the young-animal material.",
     "stage": "final",
@@ -124,18 +124,18 @@
       "brown"
     ],
     "expected": "closed",
-    "predicted_choice": "closed",
-    "score": 1,
+    "predicted_choice": "wide",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "closed": 0.06028645858168602,
-      "wide": 0.017439458519220352,
-      "flat": 0.0012443839805200696,
-      "brown": 1.416130771758617e-06
+      "closed": 0.059486888349056244,
+      "wide": 0.12528018653392792,
+      "flat": 0.00034535041777417064,
+      "brown": 5.6010405387496576e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "wet .",
+    "generated_text": "shut .",
     "prompt_truncated": false,
     "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine.",
     "stage": "final",
@@ -153,18 +153,18 @@
       "cool"
     ],
     "expected": "round",
-    "predicted_choice": "wide",
-    "score": 0,
+    "predicted_choice": "round",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "round": 0.0006141773192211986,
-      "wide": 0.026820305734872818,
-      "grey": 9.10668823053129e-05,
-      "cool": 0.0002983077720273286
+      "round": 0.001008961582556367,
+      "wide": 0.00033027739846147597,
+      "grey": 0.00048042298294603825,
+      "cool": 0.0004513097810558975
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "quiet .",
+    "generated_text": "near .",
     "prompt_truncated": false,
     "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame.",
     "stage": "final",
@@ -182,18 +182,18 @@
       "late"
     ],
     "expected": "open",
-    "predicted_choice": "open",
-    "score": 1,
+    "predicted_choice": "grey",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "open": 0.005623044446110725,
-      "flat": 0.004124469589442015,
-      "grey": 0.00040590070420876145,
-      "late": 0.003458216553553939
+      "open": 0.012872331775724888,
+      "flat": 0.00010004466457758099,
+      "grey": 0.017654117196798325,
+      "late": 0.0009605212835595012
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "clean .",
+    "generated_text": "open .",
     "prompt_truncated": false,
     "reason": "shut/open is taught only as a negation correction, and in that direction only.",
     "stage": "final",
@@ -215,10 +215,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "grey": 0.938893735408783,
-      "brown": 0.0001761806197464466,
-      "black": 0.011060751043260098,
-      "white": 0.0013861908810213208
+      "grey": 0.8590089678764343,
+      "brown": 0.006245204713195562,
+      "black": 0.0450841560959816,
+      "white": 0.0008528309990651906
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -244,10 +244,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "black": 0.8813447952270508,
-      "white": 0.0001915741158882156,
-      "green": 0.002021552063524723,
-      "red": 0.00045508547918871045
+      "black": 0.8832564353942871,
+      "white": 0.00021927745547145605,
+      "green": 0.02510179951786995,
+      "red": 0.0015517050633206964
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -273,10 +273,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "dirty": 0.7403565049171448,
-      "clean": 0.00031172664603218436,
-      "wide": 0.009889439679682255,
-      "brown": 3.034738801943604e-05
+      "dirty": 0.857031524181366,
+      "clean": 0.0006212825537659228,
+      "wide": 0.014897854067385197,
+      "brown": 0.000808258424513042
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -298,18 +298,18 @@
       "inside"
     ],
     "expected": "below",
-    "predicted_choice": "above",
+    "predicted_choice": "beside",
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "below": 0.09129881858825684,
-      "above": 0.5280164480209351,
-      "beside": 0.017299160361289978,
-      "inside": 0.00030276543111540377
+      "below": 0.0015984531491994858,
+      "above": 0.00010558577923802659,
+      "beside": 0.015205279923975468,
+      "inside": 0.00035156364901922643
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "to the puppy .",
+    "generated_text": "not wet .",
     "prompt_truncated": false,
     "reason": "Above/below inverse with two nouns that never appear in a relational frame in training.",
     "stage": "final",
@@ -331,14 +331,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "right": 0.9170356392860413,
-      "left": 0.051622647792100906,
-      "north": 0.0017905054846778512,
-      "south": 4.044269735459238e-05
+      "right": 0.1270117312669754,
+      "left": 0.003864290891215205,
+      "north": 0.0002455435460433364,
+      "south": 6.219263326556757e-08
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "right of the sign .",
+    "generated_text": "yellow .",
     "prompt_truncated": false,
     "reason": "Left/right inverse with two nouns from the negation material, never used relationally.",
     "stage": "final",
@@ -360,10 +360,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "spoon": 0.8691795468330383,
-      "sign": 1.917079998747795e-06,
-      "gate": 0.0012414342490956187,
-      "mat": 0.0004308611969463527
+      "spoon": 0.5228715538978577,
+      "sign": 0.0009827206376940012,
+      "gate": 0.0004751763481181115,
+      "mat": 0.0021659983322024345
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -385,14 +385,14 @@
       "tree"
     ],
     "expected": "vegetable",
-    "predicted_choice": "tool",
-    "score": 0,
+    "predicted_choice": "vegetable",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "vegetable": 0.00045429650344885886,
-      "fruit": 0.00020408844284247607,
-      "tool": 0.0006103275227360427,
-      "tree": 0.00043320097029209137
+      "vegetable": 0.01745012030005455,
+      "fruit": 0.006216038484126329,
+      "tool": 0.003737611463293433,
+      "tree": 0.015327395871281624
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -414,18 +414,18 @@
       "tree"
     ],
     "expected": "fish",
-    "predicted_choice": "fish",
-    "score": 1,
+    "predicted_choice": "tree",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "fish": 0.015464076772332191,
-      "bird": 0.0009403125150129199,
-      "tool": 0.003128352342173457,
-      "tree": 0.002974783070385456
+      "fish": 0.15662828087806702,
+      "bird": 0.018196621909737587,
+      "tool": 0.009431064128875732,
+      "tree": 0.36310943961143494
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "trout .",
+    "generated_text": "fish .",
     "prompt_truncated": false,
     "reason": "Same, across two different categories.",
     "stage": "final",
@@ -447,14 +447,14 @@
     "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "open": 0.0068785627372562885,
-      "clean": 0.0006297299405559897,
-      "fill": 0.04417875036597252,
-      "buy": 0.003079883987084031
+      "open": 0.0004559371736831963,
+      "clean": 0.0006004780880175531,
+      "fill": 0.0010677644750103354,
+      "buy": 0.0008834381005726755
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "closed .",
+    "generated_text": "south of the store .",
     "prompt_truncated": false,
     "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs.",
     "stage": "final",

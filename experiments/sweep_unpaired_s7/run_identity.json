@@ -1,7 +1,7 @@
 {
-  "experiment": "unpaired",
+  "experiment": "seven",
   "seed": 7,
-  "notebook_run_dir": "20260920T055953_132888Z",
+  "notebook_run_dir": "20260920T231608_252221Z",
   "training_steps": 3000,
   "learning_rate": 0.004,
   "corpus_mode": "classroom",
@@ -19,5 +19,5 @@
     "corpus_unpaired/10_everyday_knowledge.txt",
     "corpus_unpaired/11_categories.txt"
   ],
-  "notebook_wall_clock_seconds": 36.7
+  "notebook_wall_clock_seconds": 36.0
 }

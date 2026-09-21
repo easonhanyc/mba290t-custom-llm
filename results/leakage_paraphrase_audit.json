@@ -2189,7 +2189,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -2198,7 +2198,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -2221,7 +2221,7 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
+          "passage": "diego did not buy rice . he bought bread . diego bought bread .",
           "coverage_content": 0.5,
           "coverage_all": 0.556,
           "shared_content_words": [
@@ -2243,21 +2243,19 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
-          "coverage_all": 0.75,
+          "passage": "the door of the office is wide and the window is narrow .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.5,
           "shared_content_words": [
-            "closed",
-            "open"
+            "door"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
+          "passage": "the lid is not shut . it is closed . the lid is closed .",
+          "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
-            "closed",
-            "open"
+            "closed"
           ]
         }
       },
@@ -2274,7 +2272,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the book was missing from the mat .",
+          "passage": "the book is on the bench .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -2420,7 +2418,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the spoon is inside the folder . the folder contains the spoon .",
+          "passage": "the tray contains the coin . the coin is inside the tray .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -2458,9 +2456,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the clock is above the cabinet . the cabinet is below the clock .",
+          "passage": "the picture hangs above the bench . the bench sits below the picture .",
           "coverage_content": 0.333,
-          "coverage_all": 0.667,
+          "coverage_all": 0.5,
           "shared_content_words": [
             "above"
           ]
@@ -2477,7 +2475,7 @@
           "left"
         ],
         "best_match_any": {
-          "passage": "the box and the ball are in the hall .",
+          "passage": "the ball and the box are in the hall .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -2486,7 +2484,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the pocket is left of the letter . the letter is to the right of the pocket .",
+          "passage": "the pocket is right of the brush . the brush is to the left of the pocket .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -3581,7 +3579,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -3590,7 +3588,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -3613,7 +3611,7 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
+          "passage": "diego did not buy rice . he bought bread . diego bought bread .",
           "coverage_content": 0.5,
           "coverage_all": 0.556,
           "shared_content_words": [
@@ -3635,21 +3633,19 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
-          "coverage_all": 0.75,
+          "passage": "the door of the office is wide and the window is narrow .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.5,
           "shared_content_words": [
-            "closed",
-            "open"
+            "door"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
+          "passage": "the lid is not shut . it is closed . the lid is closed .",
+          "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
-            "closed",
-            "open"
+            "closed"
           ]
         }
       },
@@ -3666,7 +3662,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the book and the bench are clean .",
+          "passage": "the book and the stool are clean .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -3690,9 +3686,9 @@
           "who"
         ],
         "best_match_any": {
-          "passage": "the hungry person is in the garden and the water is warm .",
+          "passage": "a person uses an umbrella beside the wet coat .",
           "coverage_content": 0.143,
-          "coverage_all": 0.273,
+          "coverage_all": 0.364,
           "shared_content_words": [
             "person"
           ]
@@ -3712,7 +3708,7 @@
           "omar"
         ],
         "best_match_any": {
-          "passage": "the bird called sparrow is here .",
+          "passage": "the tree called willow is here .",
           "coverage_content": 0.2,
           "coverage_all": 0.375,
           "shared_content_words": [
@@ -3735,7 +3731,7 @@
           "wash"
         ],
         "best_match_any": {
-          "passage": "first buy the card . then seal it . the last action is seal .",
+          "passage": "first lift the basket . then fill it . the last action is fill .",
           "coverage_content": 0.5,
           "coverage_all": 0.727,
           "shared_content_words": [
@@ -3745,9 +3741,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "she will wash and dry the basket .",
+          "passage": "we wash the crate and then we dry it .",
           "coverage_content": 0.333,
-          "coverage_all": 0.364,
+          "coverage_all": 0.545,
           "shared_content_words": [
             "dry",
             "wash"
@@ -3768,7 +3764,7 @@
           "meal"
         ],
         "best_match_any": {
-          "passage": "brunch happens after lunch . the earlier meal is lunch .",
+          "passage": "lunch happens after dinner . the earlier meal is dinner .",
           "coverage_content": 0.833,
           "coverage_all": 0.889,
           "shared_content_words": [
@@ -3804,9 +3800,9 @@
           "vehicle"
         ],
         "best_match_any": {
-          "passage": "the van arrived before the truck . the vehicle that arrived later was the truck .",
+          "passage": "the truck arrived before the car . the later vehicle was the car .",
           "coverage_content": 0.667,
-          "coverage_all": 0.8,
+          "coverage_all": 0.7,
           "shared_content_words": [
             "arrived",
             "before",
@@ -3837,7 +3833,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the spoon is inside the folder . the folder contains the spoon .",
+          "passage": "the tray contains the coin . the coin is inside the tray .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -3846,7 +3842,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the book and the bag are in the hall .",
+          "passage": "the bag and the book are in the hall .",
           "coverage_content": 0.5,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -3875,9 +3871,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the clock is above the cabinet . the cabinet is below the clock .",
+          "passage": "the picture hangs above the bench . the bench sits below the picture .",
           "coverage_content": 0.333,
-          "coverage_all": 0.667,
+          "coverage_all": 0.5,
           "shared_content_words": [
             "above"
           ]
@@ -3894,7 +3890,7 @@
           "left"
         ],
         "best_match_any": {
-          "passage": "the box and the ball are in the hall .",
+          "passage": "the ball and the box are in the hall .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -3903,7 +3899,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the pocket is left of the letter . the letter is to the right of the pocket .",
+          "passage": "the pocket is right of the brush . the brush is to the left of the pocket .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -3922,7 +3918,7 @@
           "water"
         ],
         "best_match_any": {
-          "passage": "the water freezes at night and the ice fills the basket .",
+          "passage": "cold water in the glass freezes and the ice is hard .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -3931,7 +3927,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the water freezes at night and the ice fills the basket .",
+          "passage": "cold water in the glass freezes and the ice is hard .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -3952,7 +3948,7 @@
           "uses"
         ],
         "best_match_any": {
-          "passage": "a person uses an umbrella beside the wet hill .",
+          "passage": "a person uses an umbrella beside the wet coat .",
           "coverage_content": 0.75,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -3962,9 +3958,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the umbrella keeps a person dry when the stone is wet .",
+          "passage": "water makes the hill wet but an umbrella keeps a person dry .",
           "coverage_content": 0.5,
-          "coverage_all": 0.429,
+          "coverage_all": 0.571,
           "shared_content_words": [
             "person",
             "umbrella"
@@ -3983,7 +3979,7 @@
           "turn"
         ],
         "best_match_any": {
-          "passage": "the room was dark and the light helped a person see .",
+          "passage": "without light the dark room is hard to see .",
           "coverage_content": 0.75,
           "coverage_all": 0.444,
           "shared_content_words": [
@@ -3993,7 +3989,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the room was dark and the light helped a person see .",
+          "passage": "without light the dark room is hard to see .",
           "coverage_content": 0.75,
           "coverage_all": 0.444,
           "shared_content_words": [
@@ -4014,7 +4010,7 @@
           "salmon"
         ],
         "best_match_any": {
-          "passage": "the robin and the sparrow are near the bird .",
+          "passage": "the robin and the hen are near the bird .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -4023,9 +4019,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the trout and the salmon are near the fish .",
+          "passage": "a carp and a salmon are fish .",
           "coverage_content": 0.333,
-          "coverage_all": 0.333,
+          "coverage_all": 0.5,
           "shared_content_words": [
             "salmon"
           ]
@@ -4044,7 +4040,7 @@
           "puppy"
         ],
         "best_match_any": {
-          "passage": "the puppy grows and the dog is in the street .",
+          "passage": "the puppy grows and the dog is near .",
           "coverage_content": 0.6,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -4084,9 +4080,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a apple and a peach are fruit .",
+          "passage": "the banana and the apple are near the fruit .",
           "coverage_content": 0.333,
-          "coverage_all": 0.429,
+          "coverage_all": 0.286,
           "shared_content_words": [
             "apple"
           ]
@@ -5035,7 +5031,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -5044,7 +5040,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -5067,7 +5063,7 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
+          "passage": "diego did not buy rice . he bought bread . diego bought bread .",
           "coverage_content": 0.5,
           "coverage_all": 0.556,
           "shared_content_words": [
@@ -5089,21 +5085,19 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
-          "coverage_all": 0.75,
+          "passage": "the door of the office is wide and the window is narrow .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.5,
           "shared_content_words": [
-            "closed",
-            "open"
+            "door"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
+          "passage": "the lid is not shut . it is closed . the lid is closed .",
+          "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
-            "closed",
-            "open"
+            "closed"
           ]
         }
       },
@@ -5120,7 +5114,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the book and the bench are clean .",
+          "passage": "the book and the stool are clean .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -5144,9 +5138,9 @@
           "who"
         ],
         "best_match_any": {
-          "passage": "the hungry person is in the garden and the water is warm .",
+          "passage": "a person uses an umbrella beside the wet coat .",
           "coverage_content": 0.143,
-          "coverage_all": 0.273,
+          "coverage_all": 0.364,
           "shared_content_words": [
             "person"
           ]
@@ -5166,7 +5160,7 @@
           "omar"
         ],
         "best_match_any": {
-          "passage": "the bird called sparrow is here .",
+          "passage": "the tree called willow is here .",
           "coverage_content": 0.2,
           "coverage_all": 0.375,
           "shared_content_words": [
@@ -5189,7 +5183,7 @@
           "wash"
         ],
         "best_match_any": {
-          "passage": "first buy the card . then seal it . the last action is seal .",
+          "passage": "first lift the basket . then fill it . the last action is fill .",
           "coverage_content": 0.5,
           "coverage_all": 0.727,
           "shared_content_words": [
@@ -5199,9 +5193,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "she will wash and dry the basket .",
+          "passage": "we wash the crate and then we dry it .",
           "coverage_content": 0.333,
-          "coverage_all": 0.364,
+          "coverage_all": 0.545,
           "shared_content_words": [
             "dry",
             "wash"
@@ -5222,7 +5216,7 @@
           "meal"
         ],
         "best_match_any": {
-          "passage": "brunch happens after lunch . the earlier meal is lunch .",
+          "passage": "lunch happens after dinner . the earlier meal is dinner .",
           "coverage_content": 0.833,
           "coverage_all": 0.889,
           "shared_content_words": [
@@ -5258,9 +5252,9 @@
           "vehicle"
         ],
         "best_match_any": {
-          "passage": "the van arrived before the truck . the vehicle that arrived later was the truck .",
+          "passage": "the truck arrived before the car . the later vehicle was the car .",
           "coverage_content": 0.667,
-          "coverage_all": 0.8,
+          "coverage_all": 0.7,
           "shared_content_words": [
             "arrived",
             "before",
@@ -5291,7 +5285,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the spoon is inside the folder . the folder contains the spoon .",
+          "passage": "the tray contains the coin . the coin is inside the tray .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -5300,7 +5294,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the book and the bag are in the hall .",
+          "passage": "the bag and the book are in the hall .",
           "coverage_content": 0.5,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -5329,9 +5323,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the clock is above the cabinet . the cabinet is below the clock .",
+          "passage": "the picture hangs above the bench . the bench sits below the picture .",
           "coverage_content": 0.333,
-          "coverage_all": 0.667,
+          "coverage_all": 0.5,
           "shared_content_words": [
             "above"
           ]
@@ -5348,7 +5342,7 @@
           "left"
         ],
         "best_match_any": {
-          "passage": "the box and the ball are in the hall .",
+          "passage": "the ball and the box are in the hall .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -5357,7 +5351,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the pocket is left of the letter . the letter is to the right of the pocket .",
+          "passage": "the pocket is right of the brush . the brush is to the left of the pocket .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -5376,7 +5370,7 @@
           "water"
         ],
         "best_match_any": {
-          "passage": "the water freezes at night and the ice fills the basket .",
+          "passage": "cold water in the glass freezes and the ice is hard .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -5385,7 +5379,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the water freezes at night and the ice fills the basket .",
+          "passage": "cold water in the glass freezes and the ice is hard .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -5406,7 +5400,7 @@
           "uses"
         ],
         "best_match_any": {
-          "passage": "a person uses an umbrella beside the wet hill .",
+          "passage": "a person uses an umbrella beside the wet coat .",
           "coverage_content": 0.75,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -5416,9 +5410,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the umbrella keeps a person dry when the stone is wet .",
+          "passage": "water makes the hill wet but an umbrella keeps a person dry .",
           "coverage_content": 0.5,
-          "coverage_all": 0.429,
+          "coverage_all": 0.571,
           "shared_content_words": [
             "person",
             "umbrella"
@@ -5437,7 +5431,7 @@
           "turn"
         ],
         "best_match_any": {
-          "passage": "the room was dark and the light helped a person see .",
+          "passage": "without light the dark room is hard to see .",
           "coverage_content": 0.75,
           "coverage_all": 0.444,
           "shared_content_words": [
@@ -5447,7 +5441,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the room was dark and the light helped a person see .",
+          "passage": "without light the dark room is hard to see .",
           "coverage_content": 0.75,
           "coverage_all": 0.444,
           "shared_content_words": [
@@ -5468,7 +5462,7 @@
           "salmon"
         ],
         "best_match_any": {
-          "passage": "the robin and the sparrow are near the bird .",
+          "passage": "the robin and the hen are near the bird .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -5477,9 +5471,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the trout and the salmon are near the fish .",
+          "passage": "a carp and a salmon are fish .",
           "coverage_content": 0.333,
-          "coverage_all": 0.333,
+          "coverage_all": 0.5,
           "shared_content_words": [
             "salmon"
           ]
@@ -5498,7 +5492,7 @@
           "puppy"
         ],
         "best_match_any": {
-          "passage": "the puppy grows and the dog is in the street .",
+          "passage": "the puppy grows and the dog is near .",
           "coverage_content": 0.6,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -5538,9 +5532,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a apple and a peach are fruit .",
+          "passage": "the banana and the apple are near the fruit .",
           "coverage_content": 0.333,
-          "coverage_all": 0.429,
+          "coverage_all": 0.286,
           "shared_content_words": [
             "apple"
           ]
@@ -6489,7 +6483,7 @@
           "red"
         ],
         "best_match_any": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -6498,7 +6492,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the hat is not red . it is blue . the hat is blue .",
+          "passage": "the cup is not blue . it is red . the cup is red .",
           "coverage_content": 0.667,
           "coverage_all": 0.875,
           "shared_content_words": [
@@ -6521,7 +6515,7 @@
           "tea"
         ],
         "best_match_any": {
-          "passage": "mateo did not buy coffee . he bought rice . mateo bought rice .",
+          "passage": "diego did not buy rice . he bought bread . diego bought bread .",
           "coverage_content": 0.5,
           "coverage_all": 0.556,
           "shared_content_words": [
@@ -6543,21 +6537,19 @@
           "open"
         ],
         "best_match_any": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
-          "coverage_all": 0.75,
+          "passage": "the door of the office is wide and the window is narrow .",
+          "coverage_content": 0.333,
+          "coverage_all": 0.5,
           "shared_content_words": [
-            "closed",
-            "open"
+            "door"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the window was not open . it was closed . the window was closed .",
-          "coverage_content": 0.667,
+          "passage": "the lid is not shut . it is closed . the lid is closed .",
+          "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
-            "closed",
-            "open"
+            "closed"
           ]
         }
       },
@@ -6574,7 +6566,7 @@
           "thanked"
         ],
         "best_match_any": {
-          "passage": "the box and the book are in the hall .",
+          "passage": "the book is on the cabinet .",
           "coverage_content": 0.2,
           "coverage_all": 0.25,
           "shared_content_words": [
@@ -6598,7 +6590,7 @@
           "who"
         ],
         "best_match_any": {
-          "passage": "a person will stay warm beside the stone .",
+          "passage": "a hungry person uses a spoon for the water in the street .",
           "coverage_content": 0.143,
           "coverage_all": 0.364,
           "shared_content_words": [
@@ -6620,7 +6612,7 @@
           "omar"
         ],
         "best_match_any": {
-          "passage": "the tree called elm is here .",
+          "passage": "the tree called willow is here .",
           "coverage_content": 0.2,
           "coverage_all": 0.375,
           "shared_content_words": [
@@ -6643,7 +6635,7 @@
           "wash"
         ],
         "best_match_any": {
-          "passage": "first pack the card . then seal it . the last action is seal .",
+          "passage": "first pack the card . then buy it . the last action is buy .",
           "coverage_content": 0.5,
           "coverage_all": 0.727,
           "shared_content_words": [
@@ -6653,9 +6645,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "we wash the basket and then we dry it .",
+          "passage": "she will wash and dry the basket .",
           "coverage_content": 0.333,
-          "coverage_all": 0.545,
+          "coverage_all": 0.364,
           "shared_content_words": [
             "dry",
             "wash"
@@ -6676,7 +6668,7 @@
           "meal"
         ],
         "best_match_any": {
-          "passage": "supper happens after lunch . the earlier meal is lunch .",
+          "passage": "brunch happens after lunch . the earlier meal is lunch .",
           "coverage_content": 0.833,
           "coverage_all": 0.889,
           "shared_content_words": [
@@ -6712,9 +6704,9 @@
           "vehicle"
         ],
         "best_match_any": {
-          "passage": "the truck arrived before the taxi . the vehicle that arrived later was the taxi .",
+          "passage": "the taxi arrived before the car . the later vehicle was the car .",
           "coverage_content": 0.667,
-          "coverage_all": 0.8,
+          "coverage_all": 0.7,
           "shared_content_words": [
             "arrived",
             "before",
@@ -6723,13 +6715,13 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the train and the bus arrived at the station .",
+          "passage": "a bus and a train are each a vehicle .",
           "coverage_content": 0.5,
-          "coverage_all": 0.5,
+          "coverage_all": 0.4,
           "shared_content_words": [
-            "arrived",
             "bus",
-            "train"
+            "train",
+            "vehicle"
           ]
         }
       },
@@ -6745,7 +6737,7 @@
           "inside"
         ],
         "best_match_any": {
-          "passage": "the brush is inside the tray . the tray contains the brush .",
+          "passage": "the tin contains the spoon . the spoon is inside the tin .",
           "coverage_content": 0.5,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -6754,7 +6746,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the book and the bag are in the hall .",
+          "passage": "the bag and the book are in the hall .",
           "coverage_content": 0.5,
           "coverage_all": 0.571,
           "shared_content_words": [
@@ -6783,9 +6775,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the picture hangs above the stool . the stool sits below the picture .",
+          "passage": "the bench is below the mirror . the mirror is above the bench .",
           "coverage_content": 0.333,
-          "coverage_all": 0.5,
+          "coverage_all": 0.667,
           "shared_content_words": [
             "above"
           ]
@@ -6802,7 +6794,7 @@
           "left"
         ],
         "best_match_any": {
-          "passage": "the box and the ball are in the hall .",
+          "passage": "the ball and the box are in the hall .",
           "coverage_content": 0.667,
           "coverage_all": 0.5,
           "shared_content_words": [
@@ -6811,7 +6803,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the spoon is left of the case . the case is to the right of the spoon .",
+          "passage": "the pen is right of the basket . the basket is to the left of the pen .",
           "coverage_content": 0.333,
           "coverage_all": 0.75,
           "shared_content_words": [
@@ -6830,7 +6822,7 @@
           "water"
         ],
         "best_match_any": {
-          "passage": "cold water in the jar freezes and the ice is hard .",
+          "passage": "cold water in the basket freezes and the ice is hard .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -6839,7 +6831,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "cold water in the jar freezes and the ice is hard .",
+          "passage": "cold water in the basket freezes and the ice is hard .",
           "coverage_content": 0.667,
           "coverage_all": 0.667,
           "shared_content_words": [
@@ -6860,7 +6852,7 @@
           "uses"
         ],
         "best_match_any": {
-          "passage": "a person uses an umbrella beside the wet bench .",
+          "passage": "a person uses an umbrella beside the wet hill .",
           "coverage_content": 0.75,
           "coverage_all": 0.714,
           "shared_content_words": [
@@ -6870,7 +6862,7 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the umbrella keeps a person dry when the path is wet .",
+          "passage": "the umbrella keeps a person dry when the road is wet .",
           "coverage_content": 0.5,
           "coverage_all": 0.429,
           "shared_content_words": [
@@ -6891,23 +6883,23 @@
           "turn"
         ],
         "best_match_any": {
-          "passage": "we turn the light on and the dark room is bright .",
+          "passage": "the room was dark and the light helped a person see .",
           "coverage_content": 0.75,
-          "coverage_all": 0.556,
+          "coverage_all": 0.444,
           "shared_content_words": [
             "dark",
             "room",
-            "turn"
+            "see"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "we turn the light on and the dark room is bright .",
+          "passage": "the room was dark and the light helped a person see .",
           "coverage_content": 0.75,
-          "coverage_all": 0.556,
+          "coverage_all": 0.444,
           "shared_content_words": [
             "dark",
             "room",
-            "turn"
+            "see"
           ]
         }
       },
@@ -6922,16 +6914,16 @@
           "salmon"
         ],
         "best_match_any": {
-          "passage": "the bird called robin is here .",
+          "passage": "the hen and the robin are near the bird .",
           "coverage_content": 0.667,
-          "coverage_all": 0.667,
+          "coverage_all": 0.5,
           "shared_content_words": [
             "bird",
             "robin"
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "the carp and the salmon are near the fish .",
+          "passage": "the salmon and the trout are fish .",
           "coverage_content": 0.333,
           "coverage_all": 0.333,
           "shared_content_words": [
@@ -6992,9 +6984,9 @@
           ]
         },
         "best_match_containing_the_answer": {
-          "passage": "a apple and a peach are fruit .",
+          "passage": "the peach and the apple are fruit .",
           "coverage_content": 0.333,
-          "coverage_all": 0.429,
+          "coverage_all": 0.286,
           "shared_content_words": [
             "apple"
           ]

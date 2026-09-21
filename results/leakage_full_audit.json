@@ -6,7 +6,7 @@
     "D": "ordered subsequence",
     "E": "held-out suite"
   },
-  "eval_continuations_checked": 1093,
+  "eval_continuations_checked": 1094,
   "chat_replies_checked": 37,
   "provenance": {
     "generator_reads_any_results_file": false,
@@ -88,7 +88,7 @@
           {
             "id": "held_02",
             "prompt": "the tools",
-            "passage": "a brush is one of the tools ."
+            "passage": "the tools and the blade are in the yard ."
           }
         ]
       },
@@ -119,7 +119,7 @@
           {
             "id": "held_02",
             "prompt": "the tools",
-            "passage": "a brush is one of the tools ."
+            "passage": "the tools and the blade are in the yard ."
           }
         ]
       },
@@ -143,27 +143,14 @@
     "unpaired": {
       "findings": {
         "A_answer_key_recited": [],
-        "B_eval_outputs_in_corpus": [
-          {
-            "text": "the ring is inside the drawer .",
-            "case": "lang_43",
-            "file": "experiments/expanded/llm_run/language_evals/final/eval_results.json",
-            "source": "eval generated_text"
-          },
-          {
-            "text": "the ring is inside the drawer .",
-            "case": "lang_43",
-            "file": "results/rerun/expanded-final/eval_results.json",
-            "source": "eval generated_text"
-          }
-        ],
+        "B_eval_outputs_in_corpus": [],
         "C_chat_outputs_in_corpus": [],
         "D_ordered_subsequence": [],
         "E_heldout_prompt_in_corpus": [
           {
             "id": "held_02",
             "prompt": "the tools",
-            "passage": "the tools and the spade are in the room ."
+            "passage": "the tools and the blade are in the yard ."
           }
         ]
       },
@@ -176,10 +163,7 @@
       },
       "introduced_by_my_teaching_material": {
         "A_answer_key_recited": [],
-        "B_eval_outputs_in_corpus": [
-          "the ring is inside the drawer .",
-          "the ring is inside the drawer ."
-        ],
+        "B_eval_outputs_in_corpus": [],
         "C_chat_outputs_in_corpus": [],
         "D_ordered_subsequence": [],
         "E_heldout_prompt_in_corpus": [

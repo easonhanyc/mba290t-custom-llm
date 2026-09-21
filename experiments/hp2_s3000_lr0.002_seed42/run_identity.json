@@ -1,0 +1,23 @@
+{
+  "experiment": "seven",
+  "seed": 42,
+  "notebook_run_dir": "20260920T184019_567900Z",
+  "training_steps": 3000,
+  "learning_rate": 0.002,
+  "corpus_mode": "classroom",
+  "corpus_dir": "corpus_seven",
+  "corpus_files": [
+    "corpus_seven/01_grammar_agreement.txt",
+    "corpus_seven/02_grammar_tense.txt",
+    "corpus_seven/03_opposites_frame.txt",
+    "corpus_seven/04_opposites_contrast.txt",
+    "corpus_seven/05_negation_corrections.txt",
+    "corpus_seven/06_spatial_relations.txt",
+    "corpus_seven/07_plain_descriptions.md",
+    "corpus_seven/08_printed_notes.pdf",
+    "corpus_seven/09_sequence_order.txt",
+    "corpus_seven/10_everyday_knowledge.txt",
+    "corpus_seven/11_categories.txt"
+  ],
+  "notebook_wall_clock_seconds": 21.3
+}

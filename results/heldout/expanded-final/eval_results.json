@@ -19,7 +19,7 @@
       "robin"
     ],
     "unknown_choices": [],
-    "generated_text": "another was full .",
+    "generated_text": "learned about the important subscriber was old .",
     "prompt_truncated": false,
     "reason": "Singular subject takes 'is'. 'robin' is taught only as a bird name, never inside the agreement frame, so the rule has to transfer to it.",
     "stage": "final",
@@ -45,7 +45,7 @@
       "tools"
     ],
     "unknown_choices": [],
-    "generated_text": "brush is under the bench .",
+    "generated_text": "in summer pear explains the shopper in detail .",
     "prompt_truncated": false,
     "reason": "Plural subject takes 'are'. 'tools' appears only as a category name, never as the subject of an agreement sentence.",
     "stage": "final",
@@ -67,14 +67,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "walks": 0.00010770268272608519,
-      "walk": 0.00011699218157446012,
-      "walked": 0.12204732745885849,
-      "walking": 3.5283377656014636e-05
+      "walks": 6.905214831931517e-05,
+      "walk": 8.89942966750823e-05,
+      "walked": 0.07352982461452484,
+      "walking": 2.5554985768394545e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "counted near the hall .",
+    "generated_text": "counted near the river .",
     "prompt_truncated": false,
     "reason": "A past-time adverb selects the past form. 'shopper' is a classroom-corpus noun that never appears as the subject of a tense sentence.",
     "stage": "final",
@@ -100,7 +100,7 @@
       "ducklings"
     ],
     "unknown_choices": [],
-    "generated_text": "the important buyer girl was looking earlier .",
+    "generated_text": "above the buyer helped too .",
     "prompt_truncated": false,
     "reason": "Plural agreement on a noun taught only in the young-animal material.",
     "stage": "final",
@@ -118,18 +118,18 @@
       "brown"
     ],
     "expected": "closed",
-    "predicted_choice": "closed",
-    "score": 1,
+    "predicted_choice": "wide",
+    "score": 0,
     "status": "scored",
     "choice_probabilities": {
-      "closed": 0.19542346894741058,
-      "wide": 0.002724449848756194,
-      "flat": 0.0009353665518574417,
-      "brown": 7.656217348994687e-05
+      "closed": 0.03112793155014515,
+      "wide": 0.03631537780165672,
+      "flat": 3.7172863812884316e-05,
+      "brown": 0.0008929901523515582
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "light .",
+    "generated_text": "hard .",
     "prompt_truncated": false,
     "reason": "open/closed is taught only as a negation correction, never inside the 'opposite of' frame, so the frame and the pair have to combine.",
     "stage": "final",
@@ -147,18 +147,18 @@
       "cool"
     ],
     "expected": "round",
-    "predicted_choice": "wide",
-    "score": 0,
+    "predicted_choice": "round",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "round": 0.005590212997049093,
-      "wide": 0.006945731583982706,
-      "grey": 8.400114893447608e-05,
-      "cool": 0.0012575156288221478
+      "round": 0.006008582655340433,
+      "wide": 0.00033655884908512235,
+      "grey": 0.0007133357576094568,
+      "cool": 0.0008444546838290989
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "old .",
+    "generated_text": "flat .",
     "prompt_truncated": false,
     "reason": "round/flat is taught only as a descriptive contrast, never inside the 'opposite of' frame.",
     "stage": "final",
@@ -176,18 +176,18 @@
       "late"
     ],
     "expected": "open",
-    "predicted_choice": "late",
-    "score": 0,
+    "predicted_choice": "open",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "open": 0.007101640570908785,
-      "flat": 0.00013511897122953087,
-      "grey": 0.0011492820922285318,
-      "late": 0.01255878433585167
+      "open": 0.025213656947016716,
+      "flat": 0.0014004093827679753,
+      "grey": 0.000910646456759423,
+      "late": 0.006865823641419411
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "red .",
+    "generated_text": "closed .",
     "prompt_truncated": false,
     "reason": "shut/open is taught only as a negation correction, and in that direction only.",
     "stage": "final",
@@ -209,10 +209,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "grey": 0.8780320882797241,
-      "brown": 0.001538258045911789,
-      "black": 0.004782551433891058,
-      "white": 0.003816364100202918
+      "grey": 0.8399699926376343,
+      "brown": 0.000943025283049792,
+      "black": 0.012551194056868553,
+      "white": 0.0017141285352408886
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -238,10 +238,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "black": 0.8237919211387634,
-      "white": 0.02236529253423214,
-      "green": 0.00010678821126930416,
-      "red": 0.004557555541396141
+      "black": 0.7749698162078857,
+      "white": 0.0003652245213743299,
+      "green": 0.040995411574840546,
+      "red": 0.0037607827689498663
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -267,10 +267,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "dirty": 0.8716130256652832,
-      "clean": 2.359835161769297e-05,
-      "wide": 0.02372584119439125,
-      "brown": 0.0003699292428791523
+      "dirty": 0.9263643622398376,
+      "clean": 0.000100660567113664,
+      "wide": 0.005210841540247202,
+      "brown": 2.3196527763502672e-05
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -292,18 +292,18 @@
       "inside"
     ],
     "expected": "below",
-    "predicted_choice": "beside",
-    "score": 0,
+    "predicted_choice": "below",
+    "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "below": 0.005209638271480799,
-      "above": 7.070102583384141e-05,
-      "beside": 0.006203193683177233,
-      "inside": 0.00012021132715744898
+      "below": 0.04344842582941055,
+      "above": 0.003071477171033621,
+      "beside": 0.003999237436801195,
+      "inside": 0.0021784002892673016
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "over the sign .",
+    "generated_text": "over the spoon .",
     "prompt_truncated": false,
     "reason": "Above/below inverse with two nouns that never appear in a relational frame in training.",
     "stage": "final",
@@ -325,10 +325,10 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "right": 0.3233811855316162,
-      "left": 0.0008770569693297148,
-      "north": 9.10379967535846e-05,
-      "south": 0.0001237905235029757
+      "right": 0.4745097756385803,
+      "left": 0.0005169577780179679,
+      "north": 0.0006323201232589781,
+      "south": 9.238969141733833e-06
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
@@ -354,14 +354,14 @@
     "score": 1,
     "status": "scored",
     "choice_probabilities": {
-      "spoon": 0.1376815140247345,
-      "sign": 7.90996909927344e-06,
-      "gate": 0.0005390975857153535,
-      "mat": 0.0007502540829591453
+      "spoon": 0.03495365008711815,
+      "sign": 3.679699875647202e-05,
+      "gate": 0.003953238483518362,
+      "mat": 0.0002692064445000142
     },
     "unknown_prompt_words": [],
     "unknown_choices": [],
-    "generated_text": "brush .",
+    "generated_text": "compared the right of the spoon .",
     "prompt_truncated": false,
     "reason": "Inside/contains inverse where the answer is a noun, with a container never used in that frame.",
     "stage": "final",
@@ -423,7 +423,7 @@
       "tool",
       "tree"
     ],
-    "generated_text": "discussion of service .",
+    "generated_text": "discussion of route .",
     "prompt_truncated": false,
     "reason": "Same, across two different categories.",
     "stage": "final",
@@ -453,7 +453,7 @@
     "unknown_choices": [
       "fill"
     ],
-    "generated_text": "hospital is",
+    "generated_text": "",
     "prompt_truncated": false,
     "reason": "The ordering frame is drilled, but with a closed list of verbs that excludes 'clean' and 'open', so the copy has to generalise to new verbs.",
     "stage": "final",

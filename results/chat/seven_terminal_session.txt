@@ -2,22 +2,22 @@ number of parameters: 0.13M
 Tiny language model: short continuations, not a general assistant.
 Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
 You: the opposite of heavy is
-Model: clean .
+Model: hot at midnight .
 You: the pen is inside the jar . the jar contains the
-Model: pen .
+Model: letter .
 You: yesterday the farmer
-Model: cleaned near the fence .
+Model: helped near the park .
 You: the cup is not red . it is green . the cup is
 Model: green .
 You: a hungry person uses a
-Model: spoon for the salt in the yard .
+Model: spoon for the salt in the garden .
 You: what do you think about the french revolution
-Model: at first first action is closed .
+Model: learning at the bank .
 Unknown words: do, french, revolution, think, what, you
 You: the team discussed the loan and the interest at the
-Model: school .
+Model: bank .
 You: the customer and the buyer and the shopper and the client and the consumer and the subscriber walked into the store and asked about the price and the delivery and the design and the quality of the package and the item and the brand and the offering and the merchandise before the order was finally ready to collect at the market
-Model: is bright .
+Model: .
 Unknown words: asked, collect, finally, ready
 Long prompt: only the most recent context tokens were used.
 You: /quit

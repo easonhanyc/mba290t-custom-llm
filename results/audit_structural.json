@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "check": "F starter: no 5-token run of any eval explanation appears (309 n-grams vs 6,200 passages)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "F expanded: no 5-token run of any eval explanation appears (309 n-grams vs 11,488 passages)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "F seven: no 5-token run of any eval explanation appears (309 n-grams vs 13,638 passages)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "F tuned: no 5-token run of any eval explanation appears (309 n-grams vs 13,638 passages)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "F unpaired: no 5-token run of any eval explanation appears (309 n-grams vs 14,141 passages)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "G starter: longest run shared with any prompt at any position is 7 tokens (lang_09), under the prompt lengths",
+      "pass": true,
+      "detail": "the team discussed the customer and the purchase at the store ."
+    },
+    {
+      "check": "G expanded: longest run shared with any prompt at any position is 7 tokens (lang_09), under the prompt lengths",
+      "pass": true,
+      "detail": "the team discussed the customer and the purchase at the store ."
+    },
+    {
+      "check": "G seven: longest run shared with any prompt at any position is 7 tokens (lang_09), under the prompt lengths",
+      "pass": true,
+      "detail": "the team discussed the customer and the purchase at the store ."
+    },
+    {
+      "check": "G tuned: longest run shared with any prompt at any position is 7 tokens (lang_09), under the prompt lengths",
+      "pass": true,
+      "detail": "the team discussed the customer and the purchase at the store ."
+    },
+    {
+      "check": "G unpaired: longest run shared with any prompt at any position is 7 tokens (lang_09), under the prompt lengths",
+      "pass": true,
+      "detail": "the team discussed the customer and the purchase at the store ."
+    },
+    {
+      "check": "H: corpus folders are flat, hold only .txt/.md/.pdf, contain no evals/ or docs/, and pass validate_corpus_location",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "I starter: executed notebook differs from the starter only in the documented cells (4 changed/added, 3 replaced)",
+      "pass": true,
+      "detail": "['added eval table cell', 'chat loop (section 10)', 'milestones (section 7)', 'settings (section 1)']"
+    },
+    {
+      "check": "I expanded: executed notebook differs from the starter only in the documented cells (4 changed/added, 3 replaced)",
+      "pass": true,
+      "detail": "['added eval table cell', 'chat loop (section 10)', 'milestones (section 7)', 'settings (section 1)']"
+    },
+    {
+      "check": "I seven: executed notebook differs from the starter only in the documented cells (4 changed/added, 3 replaced)",
+      "pass": true,
+      "detail": "['added eval table cell', 'chat loop (section 10)', 'milestones (section 7)', 'settings (section 1)']"
+    },
+    {
+      "check": "I tuned: executed notebook differs from the starter only in the documented cells (4 changed/added, 3 replaced)",
+      "pass": true,
+      "detail": "['added eval table cell', 'chat loop (section 10)', 'milestones (section 7)', 'settings (section 1)']"
+    },
+    {
+      "check": "I unpaired: executed notebook differs from the starter only in the documented cells (4 changed/added, 3 replaced)",
+      "pass": true,
+      "detail": "['added eval table cell', 'chat loop (section 10)', 'milestones (section 7)', 'settings (section 1)']"
+    },
+    {
+      "check": "J starter: no training passage is contained inside an eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "J expanded: no training passage is contained inside an eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "J seven: no training passage is contained inside an eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "J tuned: no training passage is contained inside an eval prompt",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "J unpaired: no training passage is contained inside an eval prompt",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "all_passed": true
+}

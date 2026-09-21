@@ -185,6 +185,8 @@ def main():
     parser.add_argument("--seed", type=int, default=None,
                         help="override the notebook's SEED (model init, data split, batch order)")
     parser.add_argument("--label", default=None, help="output subdirectory name")
+    parser.add_argument("--batch-size", type=int, default=None,
+                        help="override the notebook's BATCH_SIZE (optional experiment)")
     parser.add_argument("--summary-only", action="store_true",
                         help="keep only the eval summaries and config, not the weights")
     args = parser.parse_args()
@@ -213,6 +215,18 @@ def main():
                 patched = True
         if not patched:
             raise SystemExit("Could not find the SEED line to override.")
+    if args.batch_size is not None:
+        patched = False
+        for cell in nb.cells:
+            if cell.cell_type == "code" and "BATCH_SIZE = " in cell.source:
+                cell.source = cell.source.replace("BLOCK_SIZE, BATCH_SIZE = 42,",
+                                                  "BLOCK_SIZE, BATCH_SIZE = 42,")
+                import re as _re
+                cell.source = _re.sub(r"(BLOCK_SIZE, BATCH_SIZE = [^,]+, 64, 4, 2, 48, )\d+",
+                                      r"\g<1>" + str(args.batch_size), cell.source)
+                patched = True
+        if not patched:
+            raise SystemExit("Could not find the BATCH_SIZE line to override.")
 
     started = time.time()
     client = NotebookClient(nb, timeout=args.timeout, kernel_name="python3",
@@ -248,6 +262,7 @@ def main():
         "learning_rate": args.lr,
         "corpus_mode": args.corpus_mode,
         "corpus_dir": args.corpus_dir,
+        "batch_size": args.batch_size,
         "corpus_files": copied,
         "notebook_wall_clock_seconds": round(elapsed, 1),
     }, indent=2) + "\n")

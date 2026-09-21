@@ -1,6 +1,6 @@
 {
   "model": "experiments/seven/llm_run/model.pt",
-  "model_sha256": "f4f022e119fb5112c04d227b0b449c88405100e2d789e39d497707f1875598c0",
+  "model_sha256": "5420c14291c24398db6ec4c1deef69e687830bfe6a8e0b55be2540dd47913210",
   "completed_steps": 3000,
   "fresh_context_per_prompt": true,
   "temperature": 0.8,
@@ -9,21 +9,21 @@
     {
       "prompt": "the opposite of heavy is",
       "seed": 2026,
-      "response": "clean .",
+      "response": "hot at midnight .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
     {
       "prompt": "the pen is inside the jar . the jar contains the",
       "seed": 2027,
-      "response": "pen .",
+      "response": "letter .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
     {
       "prompt": "yesterday the farmer",
       "seed": 2028,
-      "response": "cleaned near the fence .",
+      "response": "helped near the park .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
@@ -37,14 +37,14 @@
     {
       "prompt": "a hungry person uses a",
       "seed": 2030,
-      "response": "spoon for the salt in the yard .",
+      "response": "spoon for the salt in the garden .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
     {
       "prompt": "what do you think about the french revolution",
       "seed": 2031,
-      "response": "at first first action is closed .",
+      "response": "learning at the bank .",
       "unknown_prompt_words": [
         "do",
         "french",
@@ -58,14 +58,14 @@
     {
       "prompt": "the team discussed the loan and the interest at the",
       "seed": 2032,
-      "response": "school .",
+      "response": "bank .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
     {
       "prompt": "the customer and the buyer and the shopper and the client and the consumer and the subscriber walked into the store and asked about the price and the delivery and the design and the quality of the package and the item and the brand and the offering and the merchandise before the order was finally ready to collect at the market",
       "seed": 2033,
-      "response": "is bright .",
+      "response": ".",
       "unknown_prompt_words": [
         "asked",
         "collect",

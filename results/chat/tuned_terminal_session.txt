@@ -6,13 +6,13 @@ Model: light .
 You: the pen is inside the jar . the jar contains the
 Model: pen .
 You: yesterday the farmer
-Model: cleaned near the river .
+Model: counted near the park .
 You: the cup is not red . it is green . the cup is
 Model: green .
 You: a hungry person uses a
-Model: spoon for the salt in the yard .
+Model: spoon for the salt in the garden .
 You: what do you think about the french revolution
-Model: at the hospital .
+Model: brown and discussion of risk .
 Unknown words: do, french, revolution, think, what, you
 You: the team discussed the loan and the interest at the
 Model: bank .

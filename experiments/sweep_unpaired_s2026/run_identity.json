@@ -1,7 +1,7 @@
 {
-  "experiment": "unpaired",
+  "experiment": "seven",
   "seed": 2026,
-  "notebook_run_dir": "20260920T060109_277047Z",
+  "notebook_run_dir": "20260920T231827_428759Z",
   "training_steps": 3000,
   "learning_rate": 0.004,
   "corpus_mode": "classroom",

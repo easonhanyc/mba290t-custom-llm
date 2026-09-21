@@ -2,7 +2,7 @@
   "untrained": {
     "suite_id": "synthetic-language-v1",
     "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-    "model_sha256": "0b3148c8ea779e5155103d77a03bf65a8ccd4836b9931281dc31c808370f6a1d",
+    "model_sha256": "0fef4d3d2c2326609e89804afc1e58d5467847df9699a3e099a5b769754826a6",
     "stage": "untrained",
     "settings": {
       "seed": 2026,
@@ -13,11 +13,11 @@
     "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
     "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
     "overall": {
-      "correct": 7,
+      "correct": 9,
       "total": 48,
       "scorable": 35,
-      "success_rate_all_cases": 0.14583333333333334,
-      "accuracy_scorable_cases": 0.2,
+      "success_rate_all_cases": 0.1875,
+      "accuracy_scorable_cases": 0.2571428571428571,
       "coverage": 0.7291666666666666
     },
     "by_group": {
@@ -30,19 +30,19 @@
         "coverage": 0.4583333333333333
       },
       "starter_patterns": {
-        "correct": 4,
+        "correct": 7,
         "total": 16,
         "scorable": 16,
-        "success_rate_all_cases": 0.25,
-        "accuracy_scorable_cases": 0.25,
+        "success_rate_all_cases": 0.4375,
+        "accuracy_scorable_cases": 0.4375,
         "coverage": 1.0
       },
       "starter_transfer": {
-        "correct": 1,
+        "correct": 0,
         "total": 8,
         "scorable": 8,
-        "success_rate_all_cases": 0.125,
-        "accuracy_scorable_cases": 0.125,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": 0.0,
         "coverage": 1.0
       }
     },
@@ -56,19 +56,19 @@
         "coverage": 0.0
       },
       "domain_context": {
+        "correct": 4,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 0.5,
+        "accuracy_scorable_cases": 0.5,
+        "coverage": 1.0
+      },
+      "domain_place": {
         "correct": 3,
         "total": 8,
         "scorable": 8,
         "success_rate_all_cases": 0.375,
         "accuracy_scorable_cases": 0.375,
-        "coverage": 1.0
-      },
-      "domain_place": {
-        "correct": 1,
-        "total": 8,
-        "scorable": 8,
-        "success_rate_all_cases": 0.125,
-        "accuracy_scorable_cases": 0.125,
         "coverage": 1.0
       },
       "everyday_knowledge": {
@@ -88,19 +88,19 @@
         "coverage": 1.0
       },
       "negation": {
-        "correct": 0,
+        "correct": 1,
         "total": 3,
         "scorable": 2,
-        "success_rate_all_cases": 0.0,
-        "accuracy_scorable_cases": 0.0,
+        "success_rate_all_cases": 0.3333333333333333,
+        "accuracy_scorable_cases": 0.5,
         "coverage": 0.6666666666666666
       },
       "new_wording": {
-        "correct": 1,
+        "correct": 0,
         "total": 8,
         "scorable": 8,
-        "success_rate_all_cases": 0.125,
-        "accuracy_scorable_cases": 0.125,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": 0.0,
         "coverage": 1.0
       },
       "opposites": {
@@ -128,11 +128,11 @@
         "coverage": 0.0
       },
       "spatial_relations": {
-        "correct": 1,
+        "correct": 0,
         "total": 3,
         "scorable": 3,
-        "success_rate_all_cases": 0.3333333333333333,
-        "accuracy_scorable_cases": 0.3333333333333333,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": 0.0,
         "coverage": 1.0
       }
     }
@@ -140,7 +140,7 @@
   "final": {
     "suite_id": "synthetic-language-v1",
     "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-    "model_sha256": "c63d79ada43611e2fb01da5844da88ed2813a5ff354d7acd544593b74091654f",
+    "model_sha256": "56dd0685e0f4f18bb8c993ab8a81b42cf4a66c4a21e8473d6d48949ba0b40c96",
     "stage": "final",
     "settings": {
       "seed": 2026,
@@ -151,20 +151,20 @@
     "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
     "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
     "overall": {
-      "correct": 32,
+      "correct": 33,
       "total": 48,
       "scorable": 35,
-      "success_rate_all_cases": 0.6666666666666666,
-      "accuracy_scorable_cases": 0.9142857142857143,
+      "success_rate_all_cases": 0.6875,
+      "accuracy_scorable_cases": 0.9428571428571428,
       "coverage": 0.7291666666666666
     },
     "by_group": {
       "extend_corpus": {
-        "correct": 10,
+        "correct": 9,
         "total": 24,
         "scorable": 11,
-        "success_rate_all_cases": 0.4166666666666667,
-        "accuracy_scorable_cases": 0.9090909090909091,
+        "success_rate_all_cases": 0.375,
+        "accuracy_scorable_cases": 0.8181818181818182,
         "coverage": 0.4583333333333333
       },
       "starter_patterns": {
@@ -176,11 +176,11 @@
         "coverage": 1.0
       },
       "starter_transfer": {
-        "correct": 6,
+        "correct": 8,
         "total": 8,
         "scorable": 8,
-        "success_rate_all_cases": 0.75,
-        "accuracy_scorable_cases": 0.75,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
         "coverage": 1.0
       }
     },
@@ -234,11 +234,11 @@
         "coverage": 0.6666666666666666
       },
       "new_wording": {
-        "correct": 6,
+        "correct": 8,
         "total": 8,
         "scorable": 8,
-        "success_rate_all_cases": 0.75,
-        "accuracy_scorable_cases": 0.75,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
         "coverage": 1.0
       },
       "opposites": {
@@ -266,11 +266,11 @@
         "coverage": 0.0
       },
       "spatial_relations": {
-        "correct": 2,
+        "correct": 1,
         "total": 3,
         "scorable": 3,
-        "success_rate_all_cases": 0.6666666666666666,
-        "accuracy_scorable_cases": 0.6666666666666666,
+        "success_rate_all_cases": 0.3333333333333333,
+        "accuracy_scorable_cases": 0.3333333333333333,
         "coverage": 1.0
       }
     }

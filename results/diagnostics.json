@@ -13,10 +13,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.8563,
-            "green": 0.00942,
-            "yellow": 5e-05,
-            "red": 0.00552
+            "blue": 0.83522,
+            "green": 0.0154,
+            "yellow": 0.05445,
+            "red": 0.02569
           }
         },
         {
@@ -24,10 +24,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94441,
-            "green": 0.0129,
-            "yellow": 4e-05,
-            "red": 0.00172
+            "blue": 0.89736,
+            "green": 0.00906,
+            "yellow": 0.02824,
+            "red": 0.01061
           }
         },
         {
@@ -35,10 +35,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94372,
-            "green": 0.00988,
-            "yellow": 4e-05,
-            "red": 0.00209
+            "blue": 0.9006,
+            "green": 0.00809,
+            "yellow": 0.02886,
+            "red": 0.01032
           }
         },
         {
@@ -46,10 +46,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9412,
-            "green": 0.01094,
-            "yellow": 4e-05,
-            "red": 0.00239
+            "blue": 0.90317,
+            "green": 0.00957,
+            "yellow": 0.02299,
+            "red": 0.01026
           }
         },
         {
@@ -57,10 +57,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9421,
-            "green": 0.01099,
-            "yellow": 4e-05,
-            "red": 0.00218
+            "blue": 0.90013,
+            "green": 0.00739,
+            "yellow": 0.03332,
+            "red": 0.00838
           }
         },
         {
@@ -68,10 +68,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94251,
-            "green": 0.01303,
-            "yellow": 4e-05,
-            "red": 0.00158
+            "blue": 0.91051,
+            "green": 0.0127,
+            "yellow": 0.01625,
+            "red": 0.0089
           }
         },
         {
@@ -79,10 +79,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93738,
-            "green": 0.01558,
-            "yellow": 4e-05,
-            "red": 0.00185
+            "blue": 0.89627,
+            "green": 0.0098,
+            "yellow": 0.02655,
+            "red": 0.01063
           }
         },
         {
@@ -90,10 +90,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93606,
-            "green": 0.01612,
-            "yellow": 4e-05,
-            "red": 0.00178
+            "blue": 0.88227,
+            "green": 0.0084,
+            "yellow": 0.0435,
+            "red": 0.01284
           }
         },
         {
@@ -101,10 +101,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94192,
-            "green": 0.01361,
-            "yellow": 5e-05,
-            "red": 0.0025
+            "blue": 0.88877,
+            "green": 0.01196,
+            "yellow": 0.02907,
+            "red": 0.01376
           }
         },
         {
@@ -112,10 +112,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93867,
-            "green": 0.01368,
-            "yellow": 4e-05,
-            "red": 0.0017
+            "blue": 0.8811,
+            "green": 0.01499,
+            "yellow": 0.03072,
+            "red": 0.01392
           }
         },
         {
@@ -123,10 +123,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93868,
-            "green": 0.01702,
-            "yellow": 5e-05,
-            "red": 0.00247
+            "blue": 0.87308,
+            "green": 0.01689,
+            "yellow": 0.03298,
+            "red": 0.01565
           }
         },
         {
@@ -134,10 +134,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.93642,
-            "green": 0.0111,
-            "yellow": 3e-05,
-            "red": 0.00234
+            "blue": 0.90623,
+            "green": 0.00653,
+            "yellow": 0.02265,
+            "red": 0.00843
           }
         },
         {
@@ -145,10 +145,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94415,
-            "green": 0.0126,
-            "yellow": 4e-05,
-            "red": 0.00152
+            "blue": 0.90383,
+            "green": 0.00974,
+            "yellow": 0.02001,
+            "red": 0.00966
           }
         },
         {
@@ -156,10 +156,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94334,
-            "green": 0.01552,
-            "yellow": 4e-05,
-            "red": 0.00179
+            "blue": 0.87811,
+            "green": 0.00997,
+            "yellow": 0.04707,
+            "red": 0.01282
           }
         },
         {
@@ -167,10 +167,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.85972,
-            "green": 0.02618,
-            "yellow": 6e-05,
-            "red": 0.00114
+            "blue": 0.81215,
+            "green": 0.00827,
+            "yellow": 0.05299,
+            "red": 0.03031
           }
         },
         {
@@ -178,10 +178,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.94139,
-            "green": 0.01265,
-            "yellow": 6e-05,
-            "red": 0.0019
+            "blue": 0.87069,
+            "green": 0.01401,
+            "yellow": 0.03753,
+            "red": 0.01685
           }
         }
       ]
@@ -194,12 +194,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.15038,
+          "margin_over_runner_up": 0.02757,
           "probabilities": {
-            "quiet": 0.16386,
-            "loud": 0.01348,
-            "late": 0.00089,
-            "round": 0.00235
+            "quiet": 0.02816,
+            "loud": 0.00022,
+            "late": 0.00035,
+            "round": 0.00059
           },
           "taught_in_the_opposite_frame": false
         },
@@ -208,26 +208,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.5386,
+          "margin_over_runner_up": 0.59615,
           "probabilities": {
-            "cold": 0.53901,
-            "warm": 0.00041,
-            "fast": 0.00034,
-            "heavy": 4e-05
+            "cold": 0.60679,
+            "warm": 0.01064,
+            "fast": 0.00305,
+            "heavy": 0.00128
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "soft",
-          "correct": false,
-          "margin_over_runner_up": 0.00192,
+          "argmax": "full",
+          "correct": true,
+          "margin_over_runner_up": 0.02813,
           "probabilities": {
-            "full": 0.00381,
-            "quiet": 0.0001,
-            "early": 0.00857,
-            "soft": 0.01049
+            "full": 0.03394,
+            "quiet": 0.00189,
+            "early": 0.00581,
+            "soft": 0.00152
           },
           "taught_in_the_opposite_frame": false
         },
@@ -236,12 +236,12 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.6916,
+          "margin_over_runner_up": 0.56914,
           "probabilities": {
-            "light": 0.69278,
-            "soft": 0.00118,
-            "small": 4e-05,
-            "slow": 0.00082
+            "light": 0.57982,
+            "soft": 0.0015,
+            "small": 0.00034,
+            "slow": 0.01068
           },
           "taught_in_the_opposite_frame": true
         },
@@ -250,12 +250,12 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.5476,
+          "margin_over_runner_up": 0.64368,
           "probabilities": {
-            "dry": 0.55163,
-            "clean": 0.0013,
-            "cold": 0.0026,
-            "warm": 0.00403
+            "dry": 0.64398,
+            "clean": 0.0003,
+            "cold": 0.00011,
+            "warm": 0.00025
           },
           "taught_in_the_opposite_frame": true
         },
@@ -264,12 +264,12 @@
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.14348,
+          "margin_over_runner_up": 0.32115,
           "probabilities": {
-            "late": 0.15153,
-            "slow": 0.00346,
-            "old": 0.00079,
-            "near": 0.00805
+            "late": 0.32654,
+            "slow": 0.00539,
+            "old": 0.00223,
+            "near": 0.00397
           },
           "taught_in_the_opposite_frame": true
         }
@@ -290,10 +290,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.86791,
-            "green": 0.00064,
-            "yellow": 0.00684,
-            "red": 0.03923
+            "blue": 0.42995,
+            "green": 0.00482,
+            "yellow": 0.00067,
+            "red": 0.00086
           }
         },
         {
@@ -301,10 +301,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.90829,
-            "green": 0.00058,
-            "yellow": 0.00162,
-            "red": 0.01302
+            "blue": 0.91294,
+            "green": 0.0088,
+            "yellow": 0.00629,
+            "red": 0.00632
           }
         },
         {
@@ -312,10 +312,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.90178,
-            "green": 0.00066,
-            "yellow": 0.00233,
-            "red": 0.01371
+            "blue": 0.88324,
+            "green": 0.01077,
+            "yellow": 0.01001,
+            "red": 0.00981
           }
         },
         {
@@ -323,10 +323,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.903,
-            "green": 0.00066,
-            "yellow": 0.00211,
-            "red": 0.01363
+            "blue": 0.89223,
+            "green": 0.0069,
+            "yellow": 0.00981,
+            "red": 0.00844
           }
         },
         {
@@ -334,10 +334,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.91179,
-            "green": 0.00059,
-            "yellow": 0.00167,
-            "red": 0.01309
+            "blue": 0.89552,
+            "green": 0.00587,
+            "yellow": 0.01149,
+            "red": 0.00859
           }
         },
         {
@@ -345,10 +345,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89396,
-            "green": 0.00067,
-            "yellow": 0.00217,
-            "red": 0.01061
+            "blue": 0.91152,
+            "green": 0.00733,
+            "yellow": 0.00571,
+            "red": 0.00555
           }
         },
         {
@@ -356,10 +356,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.91353,
-            "green": 0.00072,
-            "yellow": 0.00214,
-            "red": 0.01978
+            "blue": 0.86069,
+            "green": 0.00558,
+            "yellow": 0.0133,
+            "red": 0.00686
           }
         },
         {
@@ -367,10 +367,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.90675,
-            "green": 0.00047,
-            "yellow": 0.00154,
-            "red": 0.01347
+            "blue": 0.89084,
+            "green": 0.00509,
+            "yellow": 0.00646,
+            "red": 0.00479
           }
         },
         {
@@ -378,10 +378,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89578,
-            "green": 0.0009,
-            "yellow": 0.0026,
-            "red": 0.01465
+            "blue": 0.861,
+            "green": 0.01015,
+            "yellow": 0.01203,
+            "red": 0.0094
           }
         },
         {
@@ -389,10 +389,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9033,
-            "green": 0.00059,
-            "yellow": 0.00208,
-            "red": 0.01323
+            "blue": 0.91077,
+            "green": 0.01008,
+            "yellow": 0.00529,
+            "red": 0.00697
           }
         },
         {
@@ -400,10 +400,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89832,
-            "green": 0.001,
-            "yellow": 0.0026,
-            "red": 0.01367
+            "blue": 0.90716,
+            "green": 0.00609,
+            "yellow": 0.00684,
+            "red": 0.00544
           }
         },
         {
@@ -411,10 +411,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.91413,
-            "green": 0.0008,
-            "yellow": 0.00264,
-            "red": 0.01841
+            "blue": 0.90456,
+            "green": 0.00853,
+            "yellow": 0.00771,
+            "red": 0.00791
           }
         },
         {
@@ -422,10 +422,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.90906,
-            "green": 0.00067,
-            "yellow": 0.00199,
-            "red": 0.01441
+            "blue": 0.90339,
+            "green": 0.00572,
+            "yellow": 0.00816,
+            "red": 0.00489
           }
         },
         {
@@ -433,10 +433,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89148,
-            "green": 0.00095,
-            "yellow": 0.00285,
-            "red": 0.01478
+            "blue": 0.88968,
+            "green": 0.00874,
+            "yellow": 0.01009,
+            "red": 0.0074
           }
         },
         {
@@ -444,10 +444,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.76275,
-            "green": 0.00026,
-            "yellow": 0.00094,
-            "red": 0.01194
+            "blue": 0.77166,
+            "green": 0.00358,
+            "yellow": 0.00682,
+            "red": 0.00231
           }
         },
         {
@@ -455,10 +455,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.89727,
-            "green": 0.00036,
-            "yellow": 0.00119,
-            "red": 0.01198
+            "blue": 0.89157,
+            "green": 0.00757,
+            "yellow": 0.01082,
+            "red": 0.01021
           }
         }
       ]
@@ -471,12 +471,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.31336,
+          "margin_over_runner_up": 0.03528,
           "probabilities": {
-            "quiet": 0.31584,
-            "loud": 0.00248,
-            "late": 0.00031,
-            "round": 6e-05
+            "quiet": 0.03759,
+            "loud": 0.00231,
+            "late": 0.00107,
+            "round": 0.00021
           },
           "taught_in_the_opposite_frame": false
         },
@@ -485,26 +485,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.94349,
+          "margin_over_runner_up": 0.36551,
           "probabilities": {
-            "cold": 0.94459,
-            "warm": 0.0011,
-            "fast": 2e-05,
-            "heavy": 0.00028
+            "cold": 0.40275,
+            "warm": 0.03724,
+            "fast": 0.00391,
+            "heavy": 0.00629
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "quiet",
-          "correct": false,
-          "margin_over_runner_up": 0.05185,
+          "argmax": "full",
+          "correct": true,
+          "margin_over_runner_up": 0.01535,
           "probabilities": {
-            "full": 0.00378,
-            "quiet": 0.05609,
-            "early": 0.00424,
-            "soft": 0.00069
+            "full": 0.01706,
+            "quiet": 0.00011,
+            "early": 0.00171,
+            "soft": 0.00098
           },
           "taught_in_the_opposite_frame": false
         },
@@ -513,12 +513,12 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.81912,
+          "margin_over_runner_up": 0.8692,
           "probabilities": {
-            "light": 0.81949,
-            "soft": 4e-05,
-            "small": 0.00011,
-            "slow": 0.00037
+            "light": 0.87564,
+            "soft": 0.00023,
+            "small": 0.00077,
+            "slow": 0.00644
           },
           "taught_in_the_opposite_frame": true
         },
@@ -527,26 +527,26 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.55489,
+          "margin_over_runner_up": 0.51479,
           "probabilities": {
-            "dry": 0.58464,
-            "clean": 0.00712,
-            "cold": 0.00884,
-            "warm": 0.02975
+            "dry": 0.53424,
+            "clean": 0.01945,
+            "cold": 0.00035,
+            "warm": 0.00491
           },
           "taught_in_the_opposite_frame": true
         },
         {
           "word": "early",
           "expected": "late",
-          "argmax": "late",
-          "correct": true,
-          "margin_over_runner_up": 0.15471,
+          "argmax": "slow",
+          "correct": false,
+          "margin_over_runner_up": 0.00022,
           "probabilities": {
-            "late": 0.19084,
-            "slow": 0.00047,
-            "old": 0.00019,
-            "near": 0.03613
+            "late": 0.01249,
+            "slow": 0.01271,
+            "old": 0.00533,
+            "near": 0.00153
           },
           "taught_in_the_opposite_frame": true
         }
@@ -567,10 +567,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.97134,
-            "green": 0.00097,
-            "yellow": 0.00044,
-            "red": 0.00284
+            "blue": 0.98114,
+            "green": 0.0,
+            "yellow": 0.00142,
+            "red": 0.00224
           }
         },
         {
@@ -578,10 +578,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9927,
-            "green": 0.0002,
-            "yellow": 9e-05,
-            "red": 0.00205
+            "blue": 0.98449,
+            "green": 0.0,
+            "yellow": 0.00079,
+            "red": 0.00255
           }
         },
         {
@@ -589,10 +589,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99241,
-            "green": 0.00028,
-            "yellow": 0.00014,
-            "red": 0.00157
+            "blue": 0.98453,
+            "green": 0.0,
+            "yellow": 0.0012,
+            "red": 0.00265
           }
         },
         {
@@ -600,10 +600,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99244,
-            "green": 0.0002,
-            "yellow": 0.00011,
-            "red": 0.00224
+            "blue": 0.98516,
+            "green": 0.0,
+            "yellow": 0.00112,
+            "red": 0.00255
           }
         },
         {
@@ -611,10 +611,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99257,
-            "green": 0.0002,
-            "yellow": 9e-05,
-            "red": 0.00204
+            "blue": 0.98505,
+            "green": 0.0,
+            "yellow": 0.00112,
+            "red": 0.00224
           }
         },
         {
@@ -622,10 +622,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99396,
-            "green": 0.00015,
-            "yellow": 8e-05,
-            "red": 0.0018
+            "blue": 0.98601,
+            "green": 0.0,
+            "yellow": 0.00103,
+            "red": 0.00233
           }
         },
         {
@@ -633,10 +633,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99199,
-            "green": 0.0003,
-            "yellow": 0.00013,
-            "red": 0.00191
+            "blue": 0.98432,
+            "green": 0.0,
+            "yellow": 0.00079,
+            "red": 0.00214
           }
         },
         {
@@ -644,10 +644,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99295,
-            "green": 0.00019,
-            "yellow": 8e-05,
-            "red": 0.0018
+            "blue": 0.98436,
+            "green": 0.0,
+            "yellow": 0.00109,
+            "red": 0.00268
           }
         },
         {
@@ -655,10 +655,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99377,
-            "green": 0.00017,
-            "yellow": 6e-05,
-            "red": 0.00182
+            "blue": 0.98337,
+            "green": 0.0,
+            "yellow": 0.00132,
+            "red": 0.00234
           }
         },
         {
@@ -666,10 +666,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99435,
-            "green": 0.00015,
-            "yellow": 7e-05,
-            "red": 0.00143
+            "blue": 0.98489,
+            "green": 0.0,
+            "yellow": 0.00079,
+            "red": 0.00341
           }
         },
         {
@@ -677,10 +677,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9943,
-            "green": 0.00014,
-            "yellow": 8e-05,
-            "red": 0.00114
+            "blue": 0.98542,
+            "green": 0.0,
+            "yellow": 0.00138,
+            "red": 0.00319
           }
         },
         {
@@ -688,10 +688,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99314,
-            "green": 0.00022,
-            "yellow": 8e-05,
-            "red": 0.00157
+            "blue": 0.98484,
+            "green": 0.0,
+            "yellow": 0.00103,
+            "red": 0.00291
           }
         },
         {
@@ -699,10 +699,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9924,
-            "green": 0.00022,
-            "yellow": 0.0001,
-            "red": 0.00136
+            "blue": 0.98078,
+            "green": 0.0,
+            "yellow": 0.00131,
+            "red": 0.00313
           }
         },
         {
@@ -710,10 +710,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99376,
-            "green": 0.0001,
-            "yellow": 4e-05,
-            "red": 0.00213
+            "blue": 0.98585,
+            "green": 0.0,
+            "yellow": 0.00085,
+            "red": 0.00318
           }
         },
         {
@@ -721,10 +721,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.97808,
-            "green": 7e-05,
-            "yellow": 3e-05,
-            "red": 0.00175
+            "blue": 0.97891,
+            "green": 0.0,
+            "yellow": 0.00188,
+            "red": 0.00266
           }
         },
         {
@@ -732,10 +732,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99358,
-            "green": 0.00018,
-            "yellow": 7e-05,
-            "red": 0.00172
+            "blue": 0.98437,
+            "green": 0.0,
+            "yellow": 0.00126,
+            "red": 0.00216
           }
         }
       ]
@@ -748,12 +748,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.35552,
+          "margin_over_runner_up": 0.71232,
           "probabilities": {
-            "quiet": 0.35907,
-            "loud": 0.00355,
-            "late": 0.00018,
-            "round": 0.0002
+            "quiet": 0.71253,
+            "loud": 0.00021,
+            "late": 0.00011,
+            "round": 7e-05
           },
           "taught_in_the_opposite_frame": false
         },
@@ -762,26 +762,26 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.29129,
+          "margin_over_runner_up": 0.94362,
           "probabilities": {
-            "cold": 0.32913,
-            "warm": 0.03784,
-            "fast": 5e-05,
-            "heavy": 0.00158
+            "cold": 0.94366,
+            "warm": 4e-05,
+            "fast": 4e-05,
+            "heavy": 3e-05
           },
           "taught_in_the_opposite_frame": false
         },
         {
           "word": "empty",
           "expected": "full",
-          "argmax": "early",
-          "correct": false,
-          "margin_over_runner_up": 0.00359,
+          "argmax": "full",
+          "correct": true,
+          "margin_over_runner_up": 0.0591,
           "probabilities": {
-            "full": 0.00255,
-            "quiet": 0.00121,
-            "early": 0.00614,
-            "soft": 0.00033
+            "full": 0.09927,
+            "quiet": 0.02861,
+            "early": 0.00842,
+            "soft": 0.04017
           },
           "taught_in_the_opposite_frame": false
         },
@@ -790,12 +790,12 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.99053,
+          "margin_over_runner_up": 0.99881,
           "probabilities": {
-            "light": 0.99062,
-            "soft": 0.0,
+            "light": 0.99889,
+            "soft": 1e-05,
             "small": 0.0,
-            "slow": 9e-05
+            "slow": 8e-05
           },
           "taught_in_the_opposite_frame": true
         },
@@ -804,12 +804,12 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.97328,
+          "margin_over_runner_up": 0.83354,
           "probabilities": {
-            "dry": 0.97331,
-            "clean": 0.0,
-            "cold": 3e-05,
-            "warm": 3e-05
+            "dry": 0.84162,
+            "clean": 0.00592,
+            "cold": 5e-05,
+            "warm": 0.00808
           },
           "taught_in_the_opposite_frame": true
         },
@@ -818,12 +818,12 @@
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.72245,
+          "margin_over_runner_up": 0.79611,
           "probabilities": {
-            "late": 0.72429,
-            "slow": 6e-05,
-            "old": 1e-05,
-            "near": 0.00184
+            "late": 0.80275,
+            "slow": 4e-05,
+            "old": 5e-05,
+            "near": 0.00664
           },
           "taught_in_the_opposite_frame": true
         }
@@ -844,10 +844,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.96899,
-            "green": 1e-05,
-            "yellow": 0.00053,
-            "red": 0.00138
+            "blue": 0.99086,
+            "green": 0.00108,
+            "yellow": 0.00238,
+            "red": 0.00013
           }
         },
         {
@@ -855,10 +855,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98992,
-            "green": 0.0,
-            "yellow": 0.00048,
-            "red": 0.00069
+            "blue": 0.99338,
+            "green": 0.00077,
+            "yellow": 0.00249,
+            "red": 4e-05
           }
         },
         {
@@ -866,10 +866,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98935,
-            "green": 0.0,
-            "yellow": 0.0004,
-            "red": 0.0007
+            "blue": 0.99099,
+            "green": 0.00083,
+            "yellow": 0.00493,
+            "red": 4e-05
           }
         },
         {
@@ -877,10 +877,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98989,
-            "green": 0.0,
-            "yellow": 0.00042,
-            "red": 0.00065
+            "blue": 0.99237,
+            "green": 0.00077,
+            "yellow": 0.00333,
+            "red": 5e-05
           }
         },
         {
@@ -888,10 +888,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99114,
-            "green": 0.0,
-            "yellow": 0.00053,
-            "red": 0.00077
+            "blue": 0.99334,
+            "green": 0.00066,
+            "yellow": 0.00229,
+            "red": 5e-05
           }
         },
         {
@@ -899,10 +899,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9907,
-            "green": 0.0,
-            "yellow": 0.00058,
-            "red": 0.00068
+            "blue": 0.9896,
+            "green": 0.0009,
+            "yellow": 0.00556,
+            "red": 4e-05
           }
         },
         {
@@ -910,10 +910,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9913,
-            "green": 0.0,
-            "yellow": 0.00069,
-            "red": 0.0007
+            "blue": 0.9905,
+            "green": 0.00059,
+            "yellow": 0.00455,
+            "red": 4e-05
           }
         },
         {
@@ -921,10 +921,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99072,
-            "green": 0.0,
-            "yellow": 0.00062,
-            "red": 0.00068
+            "blue": 0.99187,
+            "green": 0.00059,
+            "yellow": 0.0039,
+            "red": 4e-05
           }
         },
         {
@@ -932,10 +932,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99077,
-            "green": 0.0,
-            "yellow": 0.0006,
-            "red": 0.00076
+            "blue": 0.9918,
+            "green": 0.00063,
+            "yellow": 0.00397,
+            "red": 5e-05
           }
         },
         {
@@ -943,10 +943,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9893,
-            "green": 0.0,
-            "yellow": 0.00049,
-            "red": 0.00106
+            "blue": 0.99203,
+            "green": 0.00059,
+            "yellow": 0.00381,
+            "red": 4e-05
           }
         },
         {
@@ -954,10 +954,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98966,
-            "green": 0.0,
-            "yellow": 0.00073,
-            "red": 0.00095
+            "blue": 0.98691,
+            "green": 0.00093,
+            "yellow": 0.00599,
+            "red": 6e-05
           }
         },
         {
@@ -965,10 +965,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98815,
-            "green": 0.0,
-            "yellow": 0.00046,
-            "red": 0.00061
+            "blue": 0.99321,
+            "green": 0.00103,
+            "yellow": 0.00289,
+            "red": 4e-05
           }
         },
         {
@@ -976,10 +976,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.9901,
-            "green": 0.0,
-            "yellow": 0.00063,
-            "red": 0.00057
+            "blue": 0.99414,
+            "green": 0.00061,
+            "yellow": 0.00308,
+            "red": 3e-05
           }
         },
         {
@@ -987,10 +987,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98762,
-            "green": 0.0,
-            "yellow": 0.0007,
-            "red": 0.0008
+            "blue": 0.98916,
+            "green": 0.00071,
+            "yellow": 0.00509,
+            "red": 4e-05
           }
         },
         {
@@ -998,10 +998,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.98222,
-            "green": 1e-05,
-            "yellow": 0.00045,
-            "red": 0.00131
+            "blue": 0.97358,
+            "green": 0.00166,
+            "yellow": 0.00874,
+            "red": 4e-05
           }
         },
         {
@@ -1009,10 +1009,10 @@
           "argmax_among_colours": "blue",
           "copies_the_correction": true,
           "probabilities": {
-            "blue": 0.99066,
-            "green": 0.0,
-            "yellow": 0.00051,
-            "red": 0.00075
+            "blue": 0.99337,
+            "green": 0.0008,
+            "yellow": 0.0033,
+            "red": 4e-05
           }
         }
       ]
@@ -1025,12 +1025,12 @@
           "expected": "quiet",
           "argmax": "quiet",
           "correct": true,
-          "margin_over_runner_up": 0.70272,
+          "margin_over_runner_up": 0.59034,
           "probabilities": {
-            "quiet": 0.70344,
-            "loud": 0.00072,
-            "late": 0.00029,
-            "round": 3e-05
+            "quiet": 0.5918,
+            "loud": 0.00146,
+            "late": 0.0,
+            "round": 0.00019
           },
           "taught_in_the_opposite_frame": false
         },
@@ -1039,12 +1039,12 @@
           "expected": "cold",
           "argmax": "cold",
           "correct": true,
-          "margin_over_runner_up": 0.96005,
+          "margin_over_runner_up": 0.35566,
           "probabilities": {
-            "cold": 0.96115,
-            "warm": 0.0011,
-            "fast": 0.0,
-            "heavy": 0.0
+            "cold": 0.35721,
+            "warm": 0.00155,
+            "fast": 1e-05,
+            "heavy": 0.00015
           },
           "taught_in_the_opposite_frame": false
         },
@@ -1053,12 +1053,12 @@
           "expected": "full",
           "argmax": "early",
           "correct": false,
-          "margin_over_runner_up": 0.03011,
+          "margin_over_runner_up": 0.1188,
           "probabilities": {
-            "full": 0.08795,
-            "quiet": 0.00298,
-            "early": 0.11806,
-            "soft": 0.0001
+            "full": 0.01739,
+            "quiet": 9e-05,
+            "early": 0.13619,
+            "soft": 0.00105
           },
           "taught_in_the_opposite_frame": false
         },
@@ -1067,12 +1067,12 @@
           "expected": "light",
           "argmax": "light",
           "correct": true,
-          "margin_over_runner_up": 0.99814,
+          "margin_over_runner_up": 0.98338,
           "probabilities": {
-            "light": 0.99814,
+            "light": 0.98343,
             "soft": 0.0,
-            "small": 0.0,
-            "slow": 0.0
+            "small": 5e-05,
+            "slow": 1e-05
           },
           "taught_in_the_opposite_frame": true
         },
@@ -1081,12 +1081,12 @@
           "expected": "dry",
           "argmax": "dry",
           "correct": true,
-          "margin_over_runner_up": 0.94724,
+          "margin_over_runner_up": 0.9567,
           "probabilities": {
-            "dry": 0.96745,
-            "clean": 5e-05,
-            "cold": 0.02021,
-            "warm": 0.00028
+            "dry": 0.95696,
+            "clean": 0.00015,
+            "cold": 0.00026,
+            "warm": 8e-05
           },
           "taught_in_the_opposite_frame": true
         },
@@ -1095,12 +1095,12 @@
           "expected": "late",
           "argmax": "late",
           "correct": true,
-          "margin_over_runner_up": 0.88292,
+          "margin_over_runner_up": 0.95033,
           "probabilities": {
-            "late": 0.88299,
-            "slow": 2e-05,
-            "old": 0.0,
-            "near": 7e-05
+            "late": 0.95072,
+            "slow": 0.00039,
+            "old": 0.00013,
+            "near": 3e-05
           },
           "taught_in_the_opposite_frame": true
         }

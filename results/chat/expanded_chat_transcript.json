@@ -1,6 +1,6 @@
 {
   "model": "experiments/expanded/llm_run/model.pt",
-  "model_sha256": "f7c390d82f935a546f9b472f8e587fd489ffe304bac511b8849ceda99a3069d3",
+  "model_sha256": "f4a561d786526619572c29385275346c13fcde2564f653726b1cd79f305919cc",
   "completed_steps": 3000,
   "fresh_context_per_prompt": true,
   "temperature": 0.8,
@@ -16,7 +16,7 @@
     {
       "prompt": "the pen is inside the jar . the jar contains the",
       "seed": 2027,
-      "response": "pen .",
+      "response": "brush .",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     },
@@ -37,7 +37,7 @@
     {
       "prompt": "a hungry person uses a",
       "seed": 2030,
-      "response": "small .",
+      "response": "application can cupboard salt .",
       "unknown_prompt_words": [
         "hungry",
         "person",
@@ -48,7 +48,7 @@
     {
       "prompt": "what do you think about the french revolution",
       "seed": 2031,
-      "response": "the key .",
+      "response": "in detail .",
       "unknown_prompt_words": [
         "do",
         "french",
@@ -69,7 +69,7 @@
     {
       "prompt": "the customer and the buyer and the shopper and the client and the consumer and the subscriber walked into the store and asked about the price and the delivery and the design and the quality of the package and the item and the brand and the offering and the merchandise before the order was finally ready to collect at the market",
       "seed": 2033,
-      "response": ".",
+      "response": "focused on the item was mentioned in the store a discussion of price .",
       "unknown_prompt_words": [
         "asked",
         "before",
