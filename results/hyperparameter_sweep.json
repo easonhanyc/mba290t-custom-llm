@@ -4,7 +4,7 @@
     "learning_rate": 0.001,
     "corpus": "corpus_seven"
   },
-  "method": "One variable changed per row; corpus, architecture, eval suite and all other settings identical. Two seeds per point.",
+  "method": "One variable changed per row; corpus, architecture, eval suite and all other settings identical. Three seeds per point (seeds 42, 7, 123). Run on corpus_seven before its final revision (young/grown category constructions); the leading points were re-measured on five seeds on the final corpus (README section 8).",
   "points": [
     {
       "training_steps": 3000,

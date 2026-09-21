@@ -364,8 +364,9 @@ def spatial_unpaired(rng):
     relation AND its inverse, so `left` and `right` (and above/below) are almost
     perfectly co-distributed: nearly every passage containing one contains the
     other. Next-token prediction then has little pressure to separate them, and
-    in experiment D the nearest neighbour of `right` is `left` at cosine 0.76 -
-    the mechanical reason the left/right eval case is a near-tie.
+    in experiment D the nearest neighbour of `right` is `left` at cosine 0.76,
+    which in earlier builds looked like the reason the left/right eval case
+    was a near-tie (the final D passes it on every seed; see README section 11).
 
     This variant adds single-relation passages that mention one direction word
     without its inverse, so the two words stop appearing in lockstep. The paired

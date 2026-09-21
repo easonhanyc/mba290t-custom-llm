@@ -26,8 +26,8 @@ python tools/make_extension_corpus.py --categories all-unpaired --out corpus_unp
 In `corpus_seven/` every relational passage states a relation **and** its inverse, so `left` and
 `right` (and above/below) are almost perfectly co-distributed: nearly every passage containing one
 contains the other. Next-token prediction then has little pressure to separate them. In experiment
-D the nearest neighbour of `right` is `left` at cosine **0.762** - the mechanical reason the
-left/right eval case comes out a near-tie.
+D the nearest neighbour of `right` is `left` at cosine **0.762** - which, in earlier builds, looked
+like the mechanical reason the left/right eval case came out a near-tie.
 
 This variant keeps all the paired passages (they are what teaches the inverse) and **adds ~500
 single-relation passages** that mention one direction word without its inverse, breaking the
@@ -41,9 +41,11 @@ five-seed mean would rise above 2.4/3.
 | all-case, five-seed mean | 37.4 | **37.2** |
 
 **The prediction was wrong.** The cosine moved in the predicted direction and nowhere near far
-enough, and nothing improved. The folder is kept because the negative result is the point: at 64
-dimensions the model cannot afford to separate two words that share a syntactic role, and 500
-extra passages do not change that. See section 11 of the main README.
+enough, and nothing improved. The premise did not survive either: on the final corpus, D passes the
+left/right case on all five seeds (`right` 0.876 against `left` 0.001 at seed 42) with the cosine
+still at 0.762, so a high cosine between the two input embeddings does not stop the network from
+telling them apart in context. The folder is kept because the falsified prediction is part of the
+record. See section 11 of the main README.
 
 ## Three things worth knowing before reading the files
 

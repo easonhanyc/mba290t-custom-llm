@@ -2,8 +2,9 @@
 
 Baseline: the 7-category corpus, 3,000 steps, learning rate 0.001. Each row below
 changes exactly one of those and nothing else - same corpus, same eval suite, same
-architecture. Two seeds per point, because a single seed moves the all-case score by
-up to 3 of 48 on its own (results/seed_sweep.json).
+architecture. Three seeds per point, because a single seed moves the all-case score by
+up to 3 of 48 on its own (results/seed_sweep.json). The top points are then
+re-measured on five seeds before any is adopted - a three-seed argmax is still noisy.
 
     python tools/hyperparameter_sweep.py
 """
@@ -62,7 +63,7 @@ def main():
         "baseline": {"training_steps": BASE_STEPS, "learning_rate": BASE_LR,
                      "corpus": "corpus_seven"},
         "method": "One variable changed per row; corpus, architecture, eval suite and all "
-                  "other settings identical. Two seeds per point.",
+                  "other settings identical. Three seeds per point.",
         "points": rows}, indent=2) + "\n")
     print("\nWrote", out.relative_to(ROOT))
 

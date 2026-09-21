@@ -1,4 +1,4 @@
-"""Regenerate every numeric table in the README from the committed artifacts.
+"""Regenerate every numeric table and sample block in the README from the committed artifacts.
 
 The README quotes a lot of numbers. Typing them by hand is how a write-up drifts
 from its evidence, so each table is built here from the run folders and the
@@ -165,13 +165,57 @@ def hyperparameter_table():
     return rows
 
 
+BLOCK_NAME = {"starter": "A starter", "expanded": "B ext-4", "seven": "C ext-7",
+              "tuned": "D ext-7 lr 0.004", "unpaired": "E unpaired"}
+
+
+def _numbered(lines):
+    body = [f"{i}. {line if line.strip() else '[empty string]'}" for i, line in enumerate(lines, 1)]
+    return ["```", *body, "```"]
+
+
+def samples_block():
+    """Section 5's untrained / halfway / final samples, verbatim from samples/."""
+    rows = []
+    for experiment in EXPERIMENTS:
+        rows += [f"**{BLOCK_NAME[experiment]}**", ""]
+        for label, step in (("untrained, step 0", "0000"), ("halfway, step 1500", "1500"),
+                            ("final, step 3000", "3000")):
+            path = run_dir(experiment) / "samples" / f"step_{step}.txt"
+            lines = path.read_text(encoding="utf-8").split("\n")
+            rows += [f"*{label}*", "", *_numbered(lines), ""]
+    return rows[:-1]
+
+
+def temperature_block():
+    """Section 5's temperature comparison, verbatim from temperature_comparison.json."""
+    rows = []
+    for experiment in EXPERIMENTS:
+        temps = json.loads((run_dir(experiment) / "temperature_comparison.json").read_text())
+        rows += [f"**{BLOCK_NAME[experiment]}**", ""]
+        for temperature in ("0.3", "0.8", "1.2"):
+            rows += [f"*T = {temperature}*", "", *_numbered(temps[temperature]), ""]
+        low, mid, high = temps["0.3"], temps["0.8"], temps["1.2"]
+        if low == mid == high:
+            note = "All three temperatures are identical."
+        elif mid == high:
+            note = "T=0.8 and T=1.2 are identical."
+        elif low == mid:
+            note = "T=0.3 and T=0.8 are identical."
+        else:
+            note = "All three temperatures produced different sample sets."
+        rows += [f"> {note}", ""]
+    return rows[:-1]
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     seed_rows, seed_cat, best = seed_tables()
     tables = {"results.md": results_table(), "by_group.md": group_table(),
               "by_category.md": category_table(), "loss.md": loss_table(),
               "seeds.md": seed_rows, "seeds_by_category.md": seed_cat,
-              "heldout.md": heldout_table(), "hyperparameters.md": hyperparameter_table()}
+              "heldout.md": heldout_table(), "hyperparameters.md": hyperparameter_table(),
+              "samples.md": samples_block(), "temperatures.md": temperature_block()}
     for name, rows in tables.items():
         (OUT / name).write_text("\n".join(rows) + "\n", encoding="utf-8")
         print(f"  {name:<24} {len(rows) - 2:>3} rows")

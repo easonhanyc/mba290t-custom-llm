@@ -36,17 +36,18 @@ design, so they are a development benchmark, not evidence of generalisation.
 | Corpus sources, permissions, choices | [§2](#2-the-corpus-sources-permissions-and-what-i-added): all text synthetic and self-authored. PDF extraction [checked](results/pdf_extraction_check.json). [§3](#3-my-three-choices-and-my-prediction): the three settings and my prediction before training |
 | Why these categories, and how the material fills their gaps | [§2 table](#what-i-added-and-the-categories-it-targets) · [`corpus/README.md`](corpus/README.md) |
 | Learning process, from real evidence | [§5](#5-loss-samples-and-temperature): loss curve with its full 31-row table, untrained/halfway/final samples, temperature. [§6](#6-from-a-word-to-a-prediction-tokens-ids-vectors-gradients): one word traced to its ID and 64-number vector, one real gradient and weight update, attention, probabilities |
+| The notebook's eight "explain in your own words" questions | [§13](#13-explain-in-your-own-words-the-notebooks-eight-questions): a short answer to each, tied to the evidence |
 | ***Testing & evaluation (3)*** | |
 | Four complete result sets | The table above. All ten sets (five experiments × two stages) are in [§7](#7-the-48-fixed-language-evals-all-ten-result-sets) |
 | Separation checks | `eval_separation.json` for [A](experiments/starter/llm_run/eval_separation.json) · [B](experiments/expanded/llm_run/eval_separation.json), plus five leakage audits with two consecutive clean passes: [§10](#10-keeping-the-exam-out-of-the-textbook) |
-| All-case success, scorable accuracy, coverage, group/category results, free continuations | [§7](#7-the-48-fixed-language-evals-all-ten-result-sets) |
+| All-case success, scorable accuracy, coverage, group/category results, free continuations | [§7](#7-the-48-fixed-language-evals-all-ten-result-sets), including [actual free continuations](#actual-free-continuations-a-vs-b) |
 | Failures explained: missing vocabulary vs. a learned pattern | [Coverage vs. skill](#vocabulary-coverage-is-the-gate-and-it-is-not-the-same-as-skill) · [§11](#11-what-failed-and-why) |
 | Beyond the minimum | Five-seed variance: [§8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds). Held-out suite: [§9](#9-a-held-out-suite-written-after-the-corpus-was-frozen) |
 | ***Working result (3)*** | |
 | Trained model and run identity | [`experiments/tuned/llm_run/model.pt`](experiments/tuned/llm_run/model.pt), run `20260920T232038_718861Z`, sha256 `26a8cc1215c4a293…` |
 | Evals rerun from the saved model | `python run_evals.py --model experiments/tuned/llm_run/model.pt --output results/my-evals`. [`results/rerun/`](results/rerun) reproduces all ten result sets exactly |
 | Chat interface, launch, 3+ real interactions | [`chat.py`](chat.py): `python chat.py --model experiments/tuned/llm_run/model.pt`. [Screenshot](results/chat/tuned_terminal_session.png) · [transcript](results/chat/tuned_chat_transcript.json): 8 real prompts, including two that show its limits. See [§12](#12-chat-interface-and-evidence) |
-| One limitation, one proposed next experiment | [§11](#11-what-failed-and-why) · [§13](#13-what-i-learned-one-limitation-and-my-next-experiment) |
+| One limitation, one proposed next experiment | [§11](#11-what-failed-and-why) · [§14](#14-what-i-learned-one-limitation-and-my-next-experiment) |
 
 **Eval separation.** No eval prompt, reference answer, answer key or eval output is in any training
 input. The box below explains the five audits that check this.
@@ -74,9 +75,11 @@ corpus. C, D and E are optional extras, each changing exactly one more thing.
 **The delivered model is D**: `corpus_seven`, 3,000 steps, learning rate 0.004, batch size 32,
 seed 42 — [`experiments/tuned/llm_run/model.pt`](experiments/tuned/llm_run/model.pt). It is the best
 configuration found on the public suite (five-seed mean 37.4) *and* the best on a held-out suite that
-never guided any choice (12/16). Every setting the assignment allows was swept and none improves on
-it: learning rate over 0.0005–0.02, steps over 1,500–12,000, batch size over 16/32/64, four versus
-seven taught categories, and paired versus unpaired relational material.
+never guided any choice (12/16). Every setting the assignment allows was explored across successive
+rounds — learning rate 0.0005–0.02, steps 1,500–12,000, batch size 16/32/64, four versus seven taught
+categories, paired versus unpaired relational material — and a five-seed comparison of the leading
+candidates on the final corpus found nothing better
+([Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds)).
 
 > ### Eval separation — read this first
 >
@@ -116,17 +119,22 @@ seven taught categories, and paired versus unpaired relational material.
 10. [Keeping the exam out of the textbook](#10-keeping-the-exam-out-of-the-textbook)
 11. [What failed, and why](#11-what-failed-and-why)
 12. [Chat interface and evidence](#12-chat-interface-and-evidence)
-13. [What I learned, one limitation, and my next experiment](#13-what-i-learned-one-limitation-and-my-next-experiment)
-14. [Repository map](#14-repository-map)
+13. [Explain in your own words: the notebook's eight questions](#13-explain-in-your-own-words-the-notebooks-eight-questions)
+14. [What I learned, one limitation, and my next experiment](#14-what-i-learned-one-limitation-and-my-next-experiment)
+15. [Repository map](#15-repository-map)
 
 ---
 
 ## 1. How to run everything
 
 **Requirements:** Python 3.12, no GPU, no API key, no pretrained weights. Every command below
-finishes in under a minute on an M2 MacBook Air.
+finishes in under a minute on an M2 MacBook Air. **The saved models come with the repository:** all five
+trained models (`model.pt`, about 0.5 MB each) and their untrained starting points
+(`model_untrained.pt`) are committed under `experiments/*/llm_run/`, so rerunning the evals or the
+chat needs no retraining and no download beyond the clone.
 
 ```bash
+git clone https://github.com/easonhanyc/mba290t-custom-llm && cd mba290t-custom-llm
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt                          # torch, pypdf, jupyter
 pip install nbclient nbformat pexpect reportlab pillow   # only needed for tools/
@@ -259,7 +267,7 @@ leaning on a frequency prior instead of doing the work:
 | any colour correction answered `yellow` | colours paired randomly, so one was commonest in the corrected slot | every object × every ordered colour pair | copy probe **3/16 → 16/16 objects** |
 | `a salmon is a` answered `bird`; `an apple is a` answered `vehicle` | `birds` had 6 members, `vehicle` 60 lines, other categories 12 | every group exactly 4 members, equal line budgets | both stopped defaulting to the frequent label |
 | `left`/`right` a dead tie | object pairs sampled, leaving the direction words at different frequencies | every relation emitted symmetrically | spatial five-seed mean **1.4 → 1.8/3** |
-| `left`/`right` *still* a near-tie | the two words are almost perfectly co-distributed | experiment E: add single-relation passages | **prediction falsified**, see [Section 11](#failure-1--spatial-relations-and-a-prediction-i-got-wrong) |
+| `left`/`right` *still* a near-tie | the two words are almost perfectly co-distributed | experiment E: add single-relation passages | **prediction falsified**; the final D no longer has this failure, see [Section 11](#failure-1--spatial-relations-and-a-prediction-i-got-wrong) |
 
 **4. The PDF extraction check.** `08_printed_notes.pdf` exercises the PDF import path in every
 extension corpus. Its plain-text original is kept in [`docs/`](docs) — **outside** every corpus
@@ -285,7 +293,7 @@ returned empty pages and the notebook would have printed a per-page warning nami
 | Choice | Value | Reason |
 |---|---|---|
 | **Corpus** | classroom; + 4-category; + 7-category; + 7-category with unpaired relations | The assignment requires the first two. Keeping `CORPUS="classroom"` in the extensions means the extension *adds to* the starter data, so the starter eval groups stay measurable and any damage is visible. |
-| **Training steps** | 3,000 | The suggested budget. [Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds) measures 1,500 / 3,000 / 6,000 / 12,000 and finds nothing above 3,000. |
+| **Training steps** | 3,000 | The suggested budget. [Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds) measures 1,500 to 9,000 steps (12,000 in an earlier round) and finds nothing better than 3,000; beyond it, validation loss and the eval score both get worse. |
 | **Learning rate** | 0.001 for A–C, **0.004** for D and E | 0.001 is the suggested default and is what the controlled A/B/C comparison uses. Section 8 measures seven learning rates; D is that one-variable change. |
 
 A, B and C hold steps and learning rate **identical on purpose** — with one variable changed the
@@ -328,8 +336,8 @@ loses 3 cases against the default, and past 0.006 the score falls away again.
 
 ## 4. The runs: what actually happened
 
-All five runs completed. **None was interrupted and none errored** (`"interrupted": false` in every
-[`training_summary.json`](experiments/seven/llm_run/training_summary.json)).
+All five runs completed. **None was interrupted and none errored** (`"interrupted": false` in every `training_summary.json`:
+[A](experiments/starter/llm_run/training_summary.json) · [B](experiments/expanded/llm_run/training_summary.json) · [C](experiments/seven/llm_run/training_summary.json) · [D](experiments/tuned/llm_run/training_summary.json) · [E](experiments/unpaired/llm_run/training_summary.json)).
 
 | | A — starter | B — ext. 4 | C — ext. 7 | D — ext. 7, lr .004 | E — unpaired |
 |---|---:|---:|---:|---:|---:|
@@ -383,6 +391,21 @@ is real evidence against memorising individual strings, and **not** evidence of 
 ability. [Section 9](#9-a-held-out-suite-written-after-the-corpus-was-frozen) is the closest thing
 here to the latter.
 
+### What stayed fixed, what training changed, and what changed only at inference
+
+- **Fixed everywhere:** the 48-case suite and its scoring, the architecture (2 blocks, 4 heads,
+  64-number embeddings, 48-token context), training seed 42, batch size 32, the fixed loss panels
+  (20 training and 20 validation documents, sampled with seeds 123 and 456), and the generation
+  settings: samples at temperature 0.8, seed 2026, four samples of at most 32 tokens; eval
+  continuations at 0.8 with a fixed per-case seed, at most 24 tokens.
+- **Fixed within an experiment, changed between them:** the corpus (A → B → C) and the learning rate
+  (C → D). Each experiment's 90/10 split, and its vocabulary (built from the training side only), are
+  fixed before training starts and never change during it.
+- **Changed by training, and only by training:** the weights — 111,872 to 135,808 numbers, each
+  updated 3,000 times by AdamW.
+- **Changed only at inference:** the prompt, the temperature (0.3 / 0.8 / 1.2), and the chat's sampling
+  seed. None of these touches a weight; the eval runner checks the model hash before and after.
+
 ---
 
 ## 5. Loss, samples, and temperature
@@ -397,19 +420,23 @@ here to the latter.
 and 20 validation documents, sampled once with fixed seeds (123 and 456) before training and never
 resampled, averaging the loss over non-padding next-token targets
 (`evaluation_panel_size: {"train": 20, "validation": 20}` in every `config.json`). Against
-4,132–10,223 training passages, a 20-document panel is a small estimate and its ±0.01 wobble
+4,132–10,381 training passages, a 20-document panel is a small estimate and its ±0.01 wobble
 between steps is noise, not learning.
 
 Curves from different corpora are **not comparable to each other**: different vocabularies mean
 different starting losses. The untrained losses are 4.9263, 6.0616 and 6.2549 against
 `ln(136) = 4.913`, `ln(426) = 6.054` and `ln(510) = 6.234` — every untrained model sits within
-0.020 of a uniform distribution over its own vocabulary, exactly what an untrained
+0.021 of a uniform distribution over its own vocabulary, exactly what an untrained
 network should be.
 
-C and D share a corpus and differ only in learning rate, so their curves *are* comparable: D
-reaches a lower **training** loss (0.7862 vs 0.9027) but a slightly *higher* validation loss
-(0.8262 vs 0.8695 — D is lower here too). Neither ordering predicts the eval score, which is the
-point [Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds) makes with the sweep.
+C and D share a corpus and differ only in learning rate, so their curves *are* comparable: D ends
+lower on both panels — training 0.9199 vs 0.9611, validation 0.7509 vs 0.8186 — and also scores higher
+on the evals. That agreement is not a rule: across learning rates 0.002–0.008 in
+[Section 8](#8-choosing-the-steps-and-the-learning-rate-and-five-seeds), validation loss stays within
+0.832–0.842 while the mean eval score ranges from 35.0 to 38.3.
+
+Raw values behind the curves and the table below: `history.json` [A](experiments/starter/llm_run/history.json) · [B](experiments/expanded/llm_run/history.json) · [C](experiments/seven/llm_run/history.json) · [D](experiments/tuned/llm_run/history.json) · [E](experiments/unpaired/llm_run/history.json);
+`training.csv` [A](experiments/starter/llm_run/training.csv) · [B](experiments/expanded/llm_run/training.csv) · [C](experiments/seven/llm_run/training.csv) · [D](experiments/tuned/llm_run/training.csv) · [E](experiments/unpaired/llm_run/training.csv).
 
 <details>
 <summary><b>Full measured loss table — all 31 rows, all five experiments</b> (from history.json / training.csv in each run folder)</summary>
@@ -511,19 +538,19 @@ at most 32 new tokens. Empty and garbled strings shown as saved.*
 *halfway, step 1500*
 
 ```
-1. our school has a question about the different lecturer and student .
-2. today the bank focused on risk and the different .
-3. the new customer was mentioned in the purchase report yesterday .
-4. a review of route helped us understand the important train .
+1. our school has a question about the different teacher and student .
+2. today the school focused on learning and the different instructor .
+3. today the school focused on learning and the important teacher .
+4. the card is in front of the table . the map is behind the card .
 ```
 
 *final, step 3000*
 
 ```
 1. our school has a question about the different teacher and course .
-2. today the school focused on learning and the different instructor .
-3. today the school focused on learning and the important teacher .
-4. the card is not red . it is red . the card is red .
+2. today the kitchen focused on juice and the different orange .
+3. today the school focused on student and the important teacher .
+4. the card is not black . it is red . the card is red .
 ```
 
 **C ext-7**
@@ -531,28 +558,28 @@ at most 32 new tokens. Empty and garbled strings shown as saved.*
 *untrained, step 0*
 
 ```
-1. hungry hill quality
-2. station basket bicycle design person looking duck spoon grows therapist am were owl cold horse shut another noisy jonas can red he bicycle puppy surgeon made was walks coin bridge umbrella summer
-3. shelf yellow bridge the shelf on dry cleans noisy near later plate horses room student pen pine far plate box owl breakfast with vegetable service ago stay horses stamp different pony ben
-4. hard opened was made detail report every i dirty sparrow boy fabric stone data we spoon moves ball cools sparrow right each kite when student <UNK> pack moving awake well us stay
+1. hot helps price went software arrived banana counter or lamp customer felt hungry went selected treatment moves recommended hill walks on ledge green bag water evening be nearby ring horse stack south
+2. willow in service puppy or street garden quickly one am bright <UNK> holds helping fence lambs dark black orange yard jumped boys three willow tin bread rope poster looking window moved clock
+3. mirror
+4. slow looked tree lecturer pea discussed slowly hot us carp discussion shopper elm pocket understand pocket onion kitten detail the fabric walking hammer table can north jumping young while cools opened missing
 ```
 
 *halfway, step 1500*
 
 ```
-1. the door is on the table .
-2. an hour ago i helped slowly .
-3. they compared the different bond with another mortgage at the bank .
-4. the cup is not blue . it is yellow . the cup is yellow .
+1. the lamb was a young horse was quiet .
+2. last night he helped and she helped too .
+3. the ledge is over the key . the ring is under the table .
+4. a person will stay clean beside the bright .
 ```
 
 *final, step 3000*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a owl is asleep .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on care and the important nurse .
+1. the lamb was a young horse and a quiet .
+2. a hungry person uses a spoon for the water in the hall .
+3. when something is not horse are tall .
+4. an hour ago he jumped quickly .
 ```
 
 **D ext-7 lr 0.004**
@@ -560,28 +587,28 @@ at most 32 new tokens. Empty and garbled strings shown as saved.*
 *untrained, step 0*
 
 ```
-1. hungry hill quality
-2. station basket bicycle design person looking duck spoon grows therapist am were owl cold horse shut another noisy jonas can red he bicycle puppy surgeon made was walks coin bridge umbrella summer
-3. shelf yellow bridge the shelf on dry cleans noisy near later plate horses room student pen pine far plate box owl breakfast with vegetable service ago stay horses stamp different pony ben
-4. hard opened was made detail report every i dirty sparrow boy fabric stone data we spoon moves ball cools sparrow right each kite when student <UNK> pack moving awake well us stay
+1. hot helps price went software arrived banana counter or lamp customer felt hungry went selected treatment moves recommended hill walks on ledge green bag water evening be nearby ring horse stack south
+2. willow in service puppy or street garden quickly one am bright <UNK> holds helping fence lambs dark black orange yard jumped boys three willow tin bread rope poster looking window moved clock
+3. mirror
+4. slow looked tree lecturer pea discussed slowly hot us carp discussion shopper elm pocket understand pocket onion kitten detail the fabric walking hammer table can north jumping young while cools opened missing
 ```
 
 *halfway, step 1500*
 
 ```
-1. the counter is below the map . the map is above the counter .
-2. a owl is awake .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on treatment and the important physician .
+1. the lamb was a young sheep .
+2. we turn the light on and the dark station is quiet .
+3. the report about the mango explains the fruit in detail .
+4. the mat is north of the spoon . the spoon is south of the mat .
 ```
 
 *final, step 3000*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a owl is awake .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on care and the important nurse .
+1. the lamb was a young sheep in the yard .
+2. a hungry person uses a spoon for the water in the hall .
+3. when something is not small it is loud .
+4. the van is not brown . it is yellow . the van is yellow .
 ```
 
 **E unpaired**
@@ -589,28 +616,28 @@ at most 32 new tokens. Empty and garbled strings shown as saved.*
 *untrained, step 0*
 
 ```
-1. hungry hill quality
-2. station basket bicycle design person looking duck spoon grows therapist am were owl cold horse shut another noisy jonas can red he bicycle puppy surgeon made was walks coin bridge umbrella summer
-3. shelf yellow bridge the shelf on dry cleans noisy near later plate horses room student pen pine far plate box owl breakfast with vegetable service ago stay horses stamp different pony ben
-4. hard opened was made detail report every i dirty sparrow boy fabric stone data we spoon moves ball cools sparrow right each kite when student <UNK> pack moving awake well us stay
+1. hot helps price went software arrived banana counter or lamp customer felt hungry went selected treatment moves recommended hill walks on ledge green bag water evening be nearby ring horse stack south
+2. willow in service puppy or street garden quickly one am bright <UNK> holds helping fence lambs dark black orange yard jumped boys three willow tin bread rope poster looking window moved clock
+3. mirror
+4. slow looked tree lecturer pea discussed slowly hot us carp discussion shopper elm pocket understand pocket onion kitten detail the fabric walking hammer table can north jumping young while cools opened missing
 ```
 
 *halfway, step 1500*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a review of interest helped us understand the different investment .
-3. the pen is beside the ledge . the ledge is beside the pen .
-4. the card is under the mat .
+1. the lamb was a young sheep .
+2. our school has a question about the new teacher and lesson .
+3. the report about the apple explains the harvest in detail .
+4. the mat is south of the spoon .
 ```
 
 *final, step 3000*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a owl is clean .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on care and the important physician .
+1. the lamb was a young sheep in the yard .
+2. a hungry person uses a spoon for the water in the hall .
+3. the clock is in front of the card . the card is behind the clock .
+4. the cup is not black . it is grey . the cup is grey .
 ```
 
 </details>
@@ -620,7 +647,7 @@ at most 32 new tokens. Empty and garbled strings shown as saved.*
 Lower temperature sharpens the distribution toward the most likely word; higher flattens it. Honest
 observation: **for experiment A, T=0.8 and T=1.2 produced byte-identical sample sets.** With 136
 words and eight rigid templates the distribution is so peaked that flattening it by 50% does not
-change which word wins the draw at this seed. The extension models, with 426–508 words and far more
+change which word wins the draw at this seed. The extension models, with 426–510 words and far more
 varied sentence shapes, diversify visibly across all three.
 
 <details>
@@ -665,28 +692,28 @@ logit divisor changes. All four saved samples per temperature.*
 *T = 0.3*
 
 ```
-1. the pen is north of the cabinet . the cabinet is south of the pen .
-2. the card is not white . it is red . the card is red .
-3. the important offering was mentioned in the delivery report yesterday .
-4. the new loan was mentioned in the risk report yesterday .
+1. the pen is right of the jar . the jar is to the left of the pen .
+2. the card is not green . it is green . the card is green .
+3. the new bus was mentioned in the travel report yesterday .
+4. the important system was mentioned in the data report yesterday .
 ```
 
 *T = 0.8*
 
 ```
 1. our school has a question about the different teacher and course .
-2. today the school focused on learning and the different instructor .
-3. today the school focused on learning and the important teacher .
-4. the card is not red . it is red . the card is red .
+2. today the kitchen focused on juice and the different orange .
+3. today the school focused on student and the important teacher .
+4. the card is not black . it is red . the card is red .
 ```
 
 *T = 1.2*
 
 ```
-1. our school has a question about the different teacher and care .
-2. today they street focused on evening the different credit .
-3. the plate is not black . it is brown . the plate is brown .
-4. the office is warm in summer and cool in winter .
+1. our school has a question about the different teacher and payment .
+2. today they street near the park .
+3. we learned about the new customer during a discussion of purchase .
+4. the picture is above the table . the report yesterday table is behind the hook .
 ```
 
 > All three temperatures produced different sample sets.
@@ -696,28 +723,28 @@ logit divisor changes. All four saved samples per temperature.*
 *T = 0.3*
 
 ```
-1. the team discussed the bus and the traffic at the station .
-2. the new offering was mentioned in the delivery report yesterday .
-3. the different investment was mentioned in the return report yesterday .
-4. the local bicycle was mentioned in the travel report yesterday .
+1. the report about the software explains the data in detail .
+2. the new bus was mentioned in the journey report yesterday .
+3. the team discussed the product and the design at the market .
+4. the team discussed the program and the code at the office .
 ```
 
 *T = 0.8*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a owl is asleep .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on care and the important nurse .
+1. the lamb was a young horse and a quiet .
+2. a hungry person uses a spoon for the water in the hall .
+3. when something is not horse are tall .
+4. an hour ago he jumped quickly .
 ```
 
 *T = 1.2*
 
 ```
-1. clean and far are opposites .
-2. the buyer ordered the package after checking the price .
-3. today the kitchen focused on kitchen and he bicycle .
-4. two crows are clean .
+1. hot water in the street is steam in the room .
+2. she went into the hall and she walks to the hall .
+3. when it is not grey . it is red . the van is red .
+4. the box and the counter are clean .
 ```
 
 > All three temperatures produced different sample sets.
@@ -727,28 +754,28 @@ logit divisor changes. All four saved samples per temperature.*
 *T = 0.3*
 
 ```
-1. the team discussed the bus and the traffic at the station .
-2. the new offering was mentioned in the price report yesterday .
-3. the different investment was mentioned in the return report yesterday .
-4. the local bicycle was mentioned in the travel report yesterday .
+1. the report about the software explains the security in detail .
+2. the new bus was mentioned in the traffic report yesterday .
+3. the team discussed the product and the design at the market .
+4. the team discussed the program and the code at the office .
 ```
 
 *T = 0.8*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a owl is awake .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on care and the important nurse .
+1. the lamb was a young sheep in the yard .
+2. a hungry person uses a spoon for the water in the hall .
+3. when something is not small it is loud .
+4. the van is not brown . it is yellow . the van is yellow .
 ```
 
 *T = 1.2*
 
 ```
-1. clean and dirty are opposites .
-2. the buyer ordered the brand after checking the price .
-3. today the kitchen focused on taste and the different pear .
-4. a review of fruit helped us understand the local pear .
+1. hot water in the software is in the bowl .
+2. a hungry person uses a spoon for the water in the hall .
+3. when something is not horse it is loud .
+4. puppy and a review of one goat are warm .
 ```
 
 > All three temperatures produced different sample sets.
@@ -758,28 +785,28 @@ logit divisor changes. All four saved samples per temperature.*
 *T = 0.3*
 
 ```
-1. the important taxi was mentioned in the traffic report yesterday .
-2. the important bond was mentioned in the interest report yesterday .
-3. the team discussed the surgeon and the care at the hospital .
-4. the local mango was mentioned in the taste report yesterday .
+1. the important customer was mentioned in the order report yesterday .
+2. the new apple was mentioned in the fruit report yesterday .
+3. the team discussed the peach and the harvest at the kitchen .
+4. the team discussed the merchandise and the delivery at the market .
 ```
 
 *T = 0.8*
 
 ```
-1. the counter is below the mirror . the mirror is above the counter .
-2. a owl is clean .
-3. we learned about the different bicycle during a discussion of route .
-4. today the hospital focused on care and the important physician .
+1. the lamb was a young sheep in the yard .
+2. a hungry person uses a spoon for the water in the hall .
+3. the clock is in front of the card . the card is behind the clock .
+4. the cup is not black . it is grey . the cup is grey .
 ```
 
 *T = 1.2*
 
 ```
-1. clean and dirty are opposites .
-2. the buyer ordered the package after checking the price .
-3. today the kitchen focused on taste and the different pear .
-4. a review of bridge helped us understand the local bicycle .
+1. hot water in the street is steam in the room .
+2. she went into the hall and he went into the hall .
+3. when something is not horse are light .
+4. an hour ago street near the boy looked too .
 ```
 
 > All three temperatures produced different sample sets.
@@ -801,12 +828,13 @@ Sources: [A tokenization](experiments/starter/llm_run/tokenization.json) ·
 ### Corpus → passage → tokens → IDs
 
 The **corpus** is the pile of text the model may learn from. It is cut into **passages** of at most
-47 word tokens, deduplicated, then split 90/10. One real training passage:
+47 word tokens, deduplicated, then split 90/10. One real training passage, with experiment D's
+vocabulary:
 
 ```
 text     warm and cool are opposites .
 tokens   [warm, and, cool, are, opposites, .]
-IDs      [1, 485, 12, 107, 16, 325, 3, 2]
+IDs      [1, 484, 12, 109, 16, 328, 3, 2]
           ▲                            ▲
           <BOS>                    .  <EOS>
 ```
@@ -845,11 +873,13 @@ Before training the neighbours are noise. After training, the five words *interc
 `customer` in the classroom templates* sit at cosine ≈ 0.97 and the sixth falls off a cliff — the
 model discovered those words play one role, purely from next-word prediction.
 
-The `right` rows are the most informative here, and they explain a failure and a failed fix. The
-nearest neighbour of `right` is `left`, far closer than anything else. The model placed the two
-direction words almost on top of each other, which is correct about their *role* and useless for
-telling them apart — precisely why the left/right eval case is a near-tie
-([Section 11](#failure-1--spatial-relations-and-a-prediction-i-got-wrong)).
+The `right` rows carry a warning. The nearest neighbour of `right` is `left`, far closer than
+anything else: the model placed the two direction words almost on top of each other because they fill
+the same slot. I once took that as the reason the left/right eval case was a near-tie, and built
+experiment E to pull them apart. Yet the final D separates them decisively in context — `right` 0.876
+against `left` 0.001 on `lang_42`, and the case passes on all five seeds — with the cosine still at
+0.762. Embedding neighbours describe how words are *used*; they do not by themselves say what the
+network can tell apart ([Section 11](#failure-1--spatial-relations-and-a-prediction-i-got-wrong)).
 
 ### One real gradient and one real weight update
 
@@ -983,6 +1013,36 @@ Machine-readable: [`results/comparison.json`](results/comparison.json) ·
 | `categories_and_analogies` | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 1/3 | **1/3** | 1/3 | **3/3** | 1/3 | **2/3** |
 | `reference` | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) | 0/3 (s0) |
 
+### Actual free continuations, A vs B
+
+The score reads the probability of four candidate words. Separately, the runner lets the model write
+freely from the same prompt (temperature 0.8, fixed per-case seed, at most 24 tokens), and saves it in
+the `generated_text` column of every result file. Selected cases, trained models, same prompts
+([A](experiments/starter/llm_run/language_evals/final/eval_results.csv) ·
+[B](experiments/expanded/llm_run/language_evals/final/eval_results.csv) — every case is there):
+
+| Case | Prompt | Answer | A picks → A writes | B picks → B writes |
+|---|---|---|---|---|
+| `lang_01` | `the report about the customer explains the` | service | service ✓ → `service in detail .` | service ✓ → `purchase in detail .` |
+| `lang_19` | `the bank report discussed the bond and the` | return | care ✗ → `new investment .` | return ✓ → `interest and explains the apple .` |
+| `lang_26` | `the dogs` | are | unscorable → `the new educator with another educator at the school .` | are ✓ → `are slow .` |
+| `lang_28` | `the opposite of hot is` | cold | unscorable → *(empty)* | cold ✓ → `cold .` |
+| `lang_30` | `the opposite of noisy is` | quiet | unscorable → *(empty)* | quiet ✓ → `flat .` |
+| `lang_31` | `the box is not red . it is blue . the box is` | blue | unscorable → *(empty)* | blue ✓ → `blue .` |
+| `lang_41` | `the lamp is above the desk . the desk is` | below | unscorable → *(empty)* | below ✓ → `narrow .` |
+| `lang_40` | `the book is inside the bag . the bag contains the` | book | unscorable → `new loan report yesterday .` | shelf ✗ → `coin .` |
+
+Three things the free text shows that the score cannot:
+
+- **A picking the right word is not A writing it.** B scores `lang_30` and `lang_41` correctly and
+  then writes `flat .` and `narrow .` — sampling at 0.8 can draw a lower-ranked word, and the score only
+  looks at four candidates while the free text chooses from all 426 words.
+- **Unknown words leave A with nothing to say.** When the prompt is mostly `<UNK>`, A either ends
+  immediately (an empty string) or falls back on one of its business templates.
+- **Where B is right and fluent, it is the taught frame.** `are slow .`, `cold .` and `blue .` are the
+  shapes its teaching material uses. `lang_40` fails in both views: B never writes `book`, because
+  `book` never follows `contains the` in training ([Failure 4](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy)).
+
 ### Vocabulary coverage is the gate, and it is not the same as skill
 
 Coverage goes 24 → 35 → 44 of 48. The cases that become scorable are **exactly** the cases in the
@@ -990,8 +1050,8 @@ categories each corpus teaches; **zero** untaught-category cases became scorable
 Coverage follows the teaching material precisely.
 
 But coverage alone proves nothing about skill, and the untrained models are the control. D's
-untrained model has the same 508-word vocabulary and the same 44 scorable cases as its trained
-counterpart, and scores far below it — barely above the 25% a coin flip would give. The vocabulary
+untrained model has the same 510-word vocabulary and the same 44 scorable cases as its trained
+counterpart, and scores far below it — barely above the 25% random guessing would give. The vocabulary
 makes a case *askable*; training is what makes it *answerable*.
 
 ---
@@ -1000,9 +1060,15 @@ makes a case *askable*; training is what makes it *answerable*.
 
 Steps and learning rate are two of the three choices the assignment asks me to make and justify. I
 measured them one at a time from the (3,000 steps, 0.001) baseline on the 7-category corpus, holding
-corpus, architecture and eval suite fixed, two seeds per point
+corpus, architecture and eval suite fixed, three seeds per point
 ([`results/hyperparameter_sweep.json`](results/hyperparameter_sweep.json), reproduce with
-`python tools/hyperparameter_sweep.py`):
+`python tools/hyperparameter_sweep.py`).
+
+> **This sweep ran on the 7-category corpus before its last revision** (the young/grown category
+> constructions in [Failure 4](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy)),
+> so its absolute numbers are not the final model's: seed 42 at lr 0.004 scores 36 here and 40 on the
+> final corpus. The sweep chose which settings to re-measure. The five-seed grid further down
+> re-measures them on the final corpus, and that grid is what selected the delivered model.
 
 | Training steps | Learning rate | Changed | Correct / 48 by seed | mean | Final val loss |
 |---:|---:|---|---|---:|---:|
@@ -1018,14 +1084,17 @@ corpus, architecture and eval suite fixed, two seeds per point
 | 6,000 | 0.004 | steps | [36, 38, 36] | 36.7 | 0.8470 |
 | 9,000 | 0.004 | steps | [31, 36, 39] | 35.3 | 0.8529 |
 
-**More steps do nothing.** 6,000 and 12,000 land where 3,000 does. Validation loss keeps creeping
-down and the eval score does not follow, so 3,000 is where I stopped.
+**More steps make it worse, not better.** At lr 0.004, going from 3,000 to 9,000 steps raises
+validation loss from 0.8324 to 0.8529 and lowers the mean score from 37.7 to 35.3; 1,500 steps is too
+few (36.0, 0.8555). An earlier round at lr 0.001 found no gain from 12,000 steps either (35.5 against
+35.5 at 3,000, two seeds). Past 3,000 steps the model keeps fitting its training passages while the
+held-out panel gets worse, so 3,000 is where I stopped.
 
 **Learning rate mattered more than any other setting**, peaking in a broad 0.004–0.008 band — four
 to eight times the suggested default. Three things make this interesting rather than just a number:
 
-- **Validation loss is nearly flat across that whole band** (0.832–0.842) while the eval score moves
-  by three cases. The loss and the benchmark measure different things, and the loss cannot be used
+- **Validation loss is nearly flat across learning rates 0.002–0.008** (0.832–0.842) while the mean
+  eval score moves from 35.0 to 38.3. The loss and the benchmark measure different things, and the loss cannot be used
   to pick this setting. I would not have found it by watching the curve.
 - **The same change hurts the starter corpus.** At lr 0.004 experiment A drops from a five-seed mean
   of 22.2 to **19.0**. The 7-category corpus is 2.4× larger, so at a fixed 3,000 steps each passage
@@ -1113,11 +1182,18 @@ files after reading per-case output. That makes them a **development benchmark**
 support a claim about unseen generalisation.
 
 So I wrote [`evals/heldout_language_evals.json`](evals/heldout_language_evals.json): **16 new cases,
-authored after the corpora were final, run once.** No corpus, setting or model was changed in
-response to them. Each uses the same *skill* as a public case with different lexical items, chosen so
-the item is not drilled — the fillers sit outside the word lists the generator enumerates for that
-frame. All prompt and choice words are already in the model's vocabulary, because an
-out-of-vocabulary item measures coverage, and coverage is already measured by the public suite.
+written after the corpora were first frozen.** Two later corpus revisions — the shared-run leak fix
+(check 9, [Section 10](#10-keeping-the-exam-out-of-the-textbook)) and the young/grown category
+constructions ([Failure 4](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy))
+— were driven by the leakage audits and the public suite. No corpus, setting or model choice was made
+in response to held-out results; the suite was simply re-scored on each rebuilt model.
+
+Each case uses the same *skill* as a public case with different words. For **12 of the 16**, the
+answer never follows the prompt's last two words anywhere in D's training text. The other four are
+frame words the corpus cannot avoid: `to the right`, `contains the spoon` (16 times), and
+`is a vegetable` / `is a fish` (45 times each) — and the last two fail anyway. I took prompt and choice
+words from the model's vocabulary, because an out-of-vocabulary case only measures coverage; one word,
+`ducklings` in `held_04`, is not in the final vocabulary, so C, D and E can read 15 of the 16.
 
 | Model | Untrained | Trained | Scorable / 16 | Accuracy among scorable |
 |---|---:|---:|---:|---:|
@@ -1132,18 +1208,18 @@ best of all five models on this suite** (B 9/16, C 9/16, E 9/16). That ordering 
 that never influenced any corpus, setting or model choice, and it independently agrees with the
 public suite's verdict that D is the configuration to ship. By category D scores **3/3 on negation**
 (on objects never colour-corrected in training), **3/3 on opposites**, **3/3 on spatial relations**
-and 3/4 on grammar.
+and 3/4 on grammar (the fourth is the unreadable `held_04`).
 
 **And one result here contradicts the public suite, which is exactly what a held-out set is for.**
-On the public cases D scores **3/3** on `categories_and_analogies` after the fix described in
-[Section 11](#failure-4--a-gain-that-did-not-transfer); on the held-out versions of the same skill it
-scores **0/2**. `an onion is a` and `a trout is a` both fail. So the category gain that looks solid
-on the benchmark I tuned against does not generalise to fresh items of the same kind — the model
-learned the specific memberships it was drilled on and the `is a <category>` frame, but not the
-ability to place a new member. I would not have known that from the 48 cases alone. `held_03`
-(`yesterday the shopper` → `walked`) passes even though the corpus never pairs `yesterday` with a
-following `she` at any distance and never uses `shopper` as the subject of a tense sentence — that is
-the clearest single piece of transfer evidence here.
+At seed 42, D scores **3/3** on the public `categories_and_analogies` cases after the fix described in
+[Section 11](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy); on
+the held-out versions of the same skill it scores **0/2**, and the output shows why.
+`a pear is a fruit . an onion is a` → `fruit`, and `an oak is a tree . a trout is a` → `tree`: it
+repeats the category from the first clause, although `an onion is a vegetable` and `a trout is a fish`
+each appear 15 times in training. I would not have seen this from the 48 cases alone. On the other
+side, `held_03` (`yesterday the shopper` → `walked`) passes, though the corpus never follows
+`yesterday` with `she` at any distance and my tense material never uses `shopper` at all — it
+appears only in the classroom's business templates.
 
 **I ran my separation checks against this suite too**, before running it, and I report the result
 rather than quietly fixing it:
@@ -1155,11 +1231,11 @@ rather than quietly fixing it:
 | Longest prompt-suffix of any held-out case found in training | 6 tokens, answer follows 0% of the time |
 | Maximum share of continuations equal to the answer | 50% — the balanced `left`/`right` floor |
 
-`held_02` fails, and it fails *because* of that overlap: `tools` appears in training only as a
-category label, so the model continues the phrase it knows instead of applying the agreement rule.
-**I deliberately did not edit the corpus to fix this.** Doing so would let my own test influence the
-corpus and destroy the independence that makes the suite worth running at all. The audit reports it
-as an advisory rather than a failure for the same reason.
+`held_02` passes (`are`) despite that overlap: `tools` appears in training only as a category label,
+never followed by its answer, so the overlap could not supply it. I still did not edit the corpus
+around it — changing training data in response to my own test would destroy the independence that
+makes the suite worth running. The audit reports it as an advisory rather than a failure for the same
+reason.
 
 **The limits of this.** I wrote both the corpus and the tests, so I cannot rule out having
 unconsciously chosen skills the corpus happens to cover. Sixteen cases is a small sample: at 15
@@ -1367,19 +1443,17 @@ corpus.
 ### Failure 1 — spatial relations, and a prediction I got wrong
 
 Before the leakage fix this scored 3/3 by recall. After it, the delivered model's five-seed mean is
-**2.0/3**, and no seed of any extension reaches 3/3.
+**2.0/3**, and no seed of any extension reaches 3/3. *What* fails has changed during the project, and
+the change is the interesting part.
 
-The embedding geometry says why: in experiment D the nearest neighbour of `right` is `left` at cosine
-**0.762**, with the next-nearest word (`inside`) far below at 0.535. The model learned that the two direction words fill
-the same slot and almost nothing that separates them.
+**What I believed, and the experiment it led to.** In earlier builds D's weak spot was `left`/`right`:
+the eval case came out a near-tie, and the embedding geometry seemed to say why — the nearest
+neighbour of `right` was `left` at cosine 0.79. Every spatial passage stated a relation *and* its
+inverse, so the two words were almost perfectly co-distributed. I predicted that adding
+single-relation passages, which mention one without the other, would push the cosine **below 0.6**
+and the spatial mean **above 2.4/3**, and I wrote down what the other outcome would mean.
 
-The previous version of this README proposed a specific fix as its next experiment, with a
-prediction: because every spatial passage stated a relation *and* its inverse, the two words were
-almost perfectly co-distributed; adding single-relation passages that mention one without the other
-should break that. I predicted the cosine would fall **below 0.6** and the spatial mean would rise
-**above 2.4/3**. I also wrote down what the alternative outcome would mean.
-
-**I ran it as experiment E. The prediction was wrong.**
+**I ran it as experiment E. The prediction was wrong.** At the final settings (lr 0.004 for both):
 
 | | D (paired) | E (unpaired) |
 |---|---:|---:|
@@ -1387,13 +1461,24 @@ should break that. I predicted the cosine would fall **below 0.6** and the spati
 | spatial relations, five-seed mean | 2.0/3 | **1.4/3** |
 | all-case, five-seed mean | 37.4 | **37.2** |
 
-The cosine moved in the predicted direction and nowhere near far enough, and nothing improved —
-spatial fell and the overall mean is within noise of D. (All numbers are at the final settings,
-lr 0.004 for both.) That
-is the branch I said would be more informative: **at 64 dimensions the model cannot afford to separate
-two words that share a syntactic role**, and 500 extra single-relation passages do not change that.
-The remaining fix is architectural, not data — which is the first result in this project that data
-alone could not move.
+The cosine moved in the predicted direction, nowhere near far enough, and spatial got worse.
+
+**And the premise did not survive either.** On the final corpus D no longer has the failure E was
+built for: it passes the left/right case on **all five seeds** — at seed 42, `right` 0.876 against
+`left` 0.001, and 0.978 on the held-out version — while the cosine between the two words is still
+0.762. A high cosine between two input embeddings did not stop the network from telling them apart
+in context, so the cosine was not the mechanism I took it for. I cannot say which of the final corpus
+changes removed the near-tie, because the per-case results of the intermediate builds were not kept.
+
+What D misses now differs by seed: `lang_40` (`the book is inside the bag . the bag contains the` →
+`book`) on three seeds and `lang_41` (above/below) on two. `lang_40` is a copy the model cannot make —
+`book` never follows `contains the` in training, because the eval's own nouns are kept out of the
+spatial frames — and it belongs with the sequence failures in
+[Failure 4](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy).
+Five-seed per-case data for D:
+[seed 42](experiments/tuned/llm_run/language_evals/final/eval_results.csv) is committed; seeds 7, 123,
+2026 and 31337 were re-run deterministically to read their per-case output (each reproduced its
+recorded total exactly).
 
 ### Failure 2 — negation: the model learned the frame, then learned the copy
 
@@ -1427,32 +1512,44 @@ copying the exam's vocabulary would not measure anything. The same rule is why t
 remedy in [Section 2](#2-the-corpus-sources-permissions-and-what-i-added) is always "remove my own
 incidental words", never "add the missing one".
 
-### Failure 4 — a gain that did not transfer
+### Failure 4 — a gain that did not transfer, and what the model will and will not copy
 
-`categories_and_analogies` is the clearest case in this project of a benchmark gain that is
-narrower than it looks, and the held-out suite is the only reason I know.
+`categories_and_analogies` is the clearest case in this project of a benchmark gain that is narrower
+than it looks, and the held-out suite is the only reason I know.
 
-The diagnosis was precise. The eval asks the model to continue `a salmon is a` and
-`a kitten grows into a`, and the corpus never showed either construction: `is a` was followed by
-`young` 60 times out of 110 and never by a category name, and `grows into` did not appear at all.
-Teaching both — with the eval's own members (`robin`, `salmon`, `apple`, `carrot`, and the
-`puppy`/`kitten` pairs) deliberately excluded from the frame — took D from 1.6/3 to **3/3** on the
-public cases, with `lang_46` → `fish` at 0.36 and `lang_48` → `fruit` at 0.90.
+The diagnosis was precise. The eval asks the model to continue `a robin is a bird . a salmon is a` and
+`a puppy grows into a dog . a kitten grows into a`, and the corpus never showed either construction:
+`is a` was followed by `young` 60 times out of 110 and never by a category name, and `grows into` did
+not appear at all. Teaching both — with the eval's own members (`robin`, `salmon`, `apple`, `carrot`,
+and the `puppy`/`kitten` pairs) deliberately excluded from those frames — took D to **3/3** on the
+public cases at seed 42 (`lang_46` → `fish` at 0.59), a five-seed mean of 2.2/3.
 
-Then the held-out suite scored the same skill on fresh members and got **0/2**: `an onion is a`
-and `a trout is a` both fail, even though onion and trout are *taught members* of their
-categories. The model learned the `is a <category>` frame and the specific memberships it was
-drilled on in that frame, and it did not learn to place a member it had only seen described in
-other sentences. On the benchmark I tuned against, that looks like mastery. It is not.
+Then the held-out suite scored the same skill on fresh members and got **0/2**, and the per-case
+output shows how. `a pear is a fruit . an onion is a` → `fruit`; `an oak is a tree . a trout is a` →
+`tree`. Both times the model answered with the category named in the first clause, although
+`an onion is a vegetable` and `a trout is a fish` each appear 15 times in training. It had the
+membership and copied the context instead. The same slip appears on the public suite on other seeds:
+`lang_46` → `bird` on seeds 7 and 31337. At seed 42, on the benchmark I tuned against, this looks like
+mastery. It is not.
 
-`sequence` never moved much (0.6–0.8/3 across configurations, 0/1 held-out). Its cases are copy
-operations over items the corpus deliberately never pairs — which vehicle arrived later when
-`train` and `bus` are excluded from that frame — and the margins are near-ties.
+**`sequence` shows the opposite problem: the model will not copy a word it has never seen in the
+answer slot.** D gets all three sequence cases wrong on all five seeds, and confidently:
+`first wash the cup . then dry it . the last action is` → `fill` (0.18, with `dry` at 0.006);
+`the earlier meal is` → `lunch`; `the vehicle that arrived later was the` → `car`. The sequence
+material is balanced — each of its eight actions fills the answer slot exactly 7 times — but the
+eval's answers (`dry`, `breakfast`, `bus`) never appear in that slot, because the eval's own words are
+kept out of those frames. So the model picks one of the slot's familiar fillers. `lang_40` is the same
+failure in spatial relations: `book` never follows `contains the` and the case fails on three of five
+seeds, while its held-out twin, whose answer `spoon` does follow `contains the` 16 times, passes at
+0.977.
 
-**The split is not "new categories don't work".** Operations the data forces (the negation copy,
-where every object × colour pair made association useless) transfer to fresh items: 3/3 held-out.
-Frames learned from a fixed list of fillers do not. That is the single most useful thing these
-experiments taught me, and it took an unseen test set to show it.
+**Negation is the case that works, and the contrast ties the three together.** There the answers are
+colours, which *do* fill the answer slot in training, and every object is paired with every colour so
+that association is useless. The model copies the corrected colour for 16 of 16 probe objects and
+passes all three held-out negation cases. What it learned is a copy **among words it has already seen
+in that slot**. Copying a word into a slot where it has never appeared — what `sequence` and `lang_40`
+ask — it mostly cannot do, and that is the experiment I would run next
+([Section 14](#one-proposed-next-experiment)).
 
 ---
 
@@ -1496,9 +1593,10 @@ Eight real interactions, of which five are worth calling out:
 
 **The chat limitation I would highlight**, beyond unknown words: this model has no notion of a
 question. Prompt 6 is ordinary English and the reply is a fragment, because every content word is
-`<UNK>` and the model falls back on frequent continuations. A subtler one visible in the transcripts:
-the model often produces the right answer and then keeps generating, sliding from one sentence frame
-into another within the same reply, because nothing enforces topical consistency across 24 tokens.
+`<UNK>` and the model falls back on frequent continuations. A subtler one: a reply can be well-formed and still not make sense. `yesterday the farmer` →
+`counted near the park .` has the right tense and no object, and `a hungry person uses a` →
+`spoon for the salt in the garden .` stitches two taught frames together, because nothing checks that a
+reply means anything.
 
 For comparison, the **same prompts against experiment A**
 ([log](results/chat/starter_terminal_session.txt) · [transcript](results/chat/starter_chat_transcript.json) ·
@@ -1509,7 +1607,131 @@ Sessions for B, C and E are also committed ([B](results/chat/expanded_terminal_s
 
 ---
 
-## 13. What I learned, one limitation, and my next experiment
+## 13. Explain in your own words: the notebook's eight questions
+
+The notebook ends (its section 11) with eight questions. A short answer to each, pointing to the
+evidence above.
+
+**1. What can my corpus teach? What does this particular held-out split test?**
+Only which word tends to follow which words, inside the sentence shapes the corpus contains. A's
+classroom corpus is a set of business templates (`the {noun} {verb} the {product} after checking the
+price .`), so A learns those slots and nothing else, and 24 of the 48 evals contain words it has never
+seen. B adds 5,005 passages I wrote for grammar, opposites, negation and spatial relations; D adds 6,440
+across seven categories. None of it is knowledge about the world: `umbrella → dry` is a word
+association, not an understanding of rain. The 90/10 split holds out *passages*, not source files or
+templates (D: 9,928 training, 1,104 validation), so a validation passage is a new sentence of a
+familiar shape. Validation loss therefore tests "can it handle another instance of a pattern it has
+seen", not "can it handle a new kind of sentence" — and it is measured on a fixed panel of only 20
+documents. The held-out eval suite in [Section 9](#9-a-held-out-suite-written-after-the-corpus-was-frozen)
+is my closer test of the second question.
+
+**2. Trace one word through token, ID and 64-number embedding.**
+In experiment A, `customer` is one token. It is entry **28** of A's 136-entry vocabulary, so wherever
+the text says `customer` the model receives the integer 28
+([tokenization.json](experiments/starter/llm_run/tokenization.json)); in D's 510-entry vocabulary the
+same word is 123, which shows the number is only a row index. The model uses 28 to look up row 28 of
+its embedding table: 64 numbers. Before training that row began `−0.0576, −0.0048, 0.0426, 0.0193, …`
+(random); after 3,000 steps it began `0.0366, −0.0182, 0.1330, 0.1059, …`, a total move of 0.661
+([inspection.json](experiments/starter/llm_run/inspection.json)). A whole passage goes the same way:
+`warm and cool are opposites .` becomes `[1, 484, 12, 109, 16, 328, 3, 2]` in D, where 1 and 2 mark its
+start and end.
+
+**3. Connect a prediction, loss, gradient and the saved parameter update.**
+Given `the customer`, trained A gives a probability to every word that could come next: `reviewed`
+0.178, `recommended` 0.171, `ordered` 0.169, and so on. The loss for that one prediction is minus the
+log of the probability it gave the word that actually came next: if that was `reviewed`, the loss is
+−ln 0.178 = 1.73, whereas an untrained model spreading its bets evenly pays about ln 136 = 4.91. The
+fixed training panel averaged 4.93 at step 0 and 0.68 at step 3,000. The gradient says, for each of
+the 111,872 numbers in the model, which way to move it to lower the loss. The saved example is
+coordinate 0 of `customer`: gradient +0.000693, so the optimizer lowered it, from −0.0575919 to
+−0.0576019. That change of −9.99 × 10⁻⁶ equals the learning rate at step 0 (1e-05, still in warm-up),
+because AdamW scales each step by the gradient's own typical size. Training is that one update,
+repeated for every number, 3,000 times.
+
+**4. Which neighbours changed? Why is 3D proximity imperfect?**
+By cosine similarity over all 64 numbers, `customer`'s nearest words before training were noise
+(`bus`, `educator`, `helped`, `bank`, `risk`). After training they are `shopper`, `client`, `buyer`,
+`subscriber` and `consumer`, all at 0.97–0.98: the words that fill the same slot in the classroom
+templates. In D, `walked` moved next to other past-tense verbs (`climbed` and `jumped`, 0.64) and
+`right` next to `left` (0.76). The embedding viewer's 3D map is a PCA projection that keeps only the
+three directions of greatest spread, and that throws most of the geometry away. For D those three
+directions keep **23.2%** of the variance (40.7% for A). A word's 5 nearest dots in D's 3D map share on
+average only **17%** with its 5 true neighbours in 64 dimensions, and its single nearest dot is the
+true nearest neighbour just 8% of the time. `walked` sits among `bread`, `rice` and `data` in the 3D
+map while its real neighbours are verbs
+([`results/pca_neighbour_check.json`](results/pca_neighbour_check.json)). Close in the picture does
+not mean close in the model.
+
+**5. What changed in samples and validation loss? What remains unconvincing?**
+At step 0 every model writes random words that never end (D: `hot helps price went software arrived
+banana …`). By step 1,500 every model writes complete sentences ending in ` .` (D:
+`the lamb was a young sheep .`), and at 3,000 they are similar (D: `the lamb was a young sheep in the
+yard .`). D's validation loss fell from 6.28 to 0.79 by step 1,500 and to 0.75 by step 3,000 (A: 4.93 →
+0.72 → 0.71). What remains unconvincing: validation passages share templates with training, so a low
+validation loss is not evidence of handling new sentence shapes; the panel is 20 documents and wobbles
+±0.01 between steps from noise alone; and good-looking samples can hide memorisation. **All four of A's
+final samples, and two of D's four, are sentences copied verbatim from the training text**, and A's
+first two samples are identical at step 1,500 and 3,000. D's `when something is not small it is loud .`
+is fluent and wrong.
+
+**6. Attention, temperature, and one next experiment.**
+Attention lets each position take a weighted average of what came before it, with weights the model
+computes from the words themselves. On `the customer` in A, the first head of block 1, predicting what
+follows `customer`, puts 0.485 of its weight on `<BOS>`, 0.423 on `the` and 0.092 on `customer`; later
+positions are masked, so it can never peek at the word it is predicting. Temperature divides the
+model's scores before they become probabilities: 0.3 lets the top word dominate, 1.2 flattens the
+choice. It changes sampling only, never weights. D at 0.3 writes classroom sentences
+(`the report about the software explains the security in detail .`), and at 1.2
+`puppy and a review of one goat are warm .`. More training is not automatically better: from 3,000 to
+9,000 steps validation loss rose (0.8324 → 0.8529) and the mean eval score fell (37.7 → 35.3). And a
+synthetic corpus is not general knowledge: asked about the French revolution, D knows 2 of the 8 words
+and replies `brown and discussion of risk .`. My next experiment is in
+[Section 14](#one-proposed-next-experiment): give the sequence material an open answer slot, to test
+whether the model can learn to copy a word it has never seen there.
+
+**7. Which eval skills improved, and which lacked vocabulary or examples?**
+The same 48 tests, starter A against extension B, both trained:
+
+| Category | A | B | What changed |
+|---|---:|---:|---|
+| `domain_context`, `domain_place` | 16/16 | 16/16 | nothing to gain; both models learned the classroom frames |
+| `new_wording` | 4/8 | **8/8** | the more varied extension text made rephrasings work (Section 3, point 5) |
+| `grammar` | 0/3, unreadable | **3/3** | vocabulary *and* pattern: B can read the cases and learned agreement |
+| `opposites` | 0/3, unreadable | **3/3** | the `opposite of` frame, transferred to pairs never shown in it |
+| `negation` | 0/3, unreadable | **2/3** | learned the correction; `lang_32` stays unreadable (a banned eval name) |
+| `spatial_relations` | 0/3, unreadable | **2/3** | inverses learned; `lang_40` needs a copy B never learned |
+| `everyday_knowledge`, `sequence`, `categories_and_analogies` | 0/9, unreadable | 0/9, unreadable | untaught in B: missing vocabulary and missing examples |
+| `reference` | 0/3, unreadable | 0/3, unreadable | never taught; needs eleven banned first names |
+
+A lacked vocabulary for all 24 extension cases (coverage 24/48). B reads 35/48: the four taught
+categories became readable, and nothing untaught did. Coverage alone did not produce the gain: B's
+untrained model can read the same 35 cases and scores 7/48, and training takes it to 34/48. The
+vocabulary made the cases askable; training made them answerable. The seven-category models (C, D, E)
+also read the everyday-knowledge, sequence and category cases, and D answers most of them — except
+`sequence`, which has vocabulary and examples but asks for a copy the model does not learn
+([Failure 4](#failure-4--a-gain-that-did-not-transfer-and-what-the-model-will-and-will-not-copy)).
+
+**8. Actual chat interactions, and one failure.**
+From [`chat.py`](chat.py) with the delivered model D
+([transcript](results/chat/tuned_chat_transcript.json) · [screenshot](results/chat/tuned_terminal_session.png)):
+
+| Prompt | Reply |
+|---|---|
+| `the opposite of heavy is` | `light .` |
+| `the pen is inside the jar . the jar contains the` | `pen .` |
+| `the cup is not red . it is green . the cup is` | `green .` |
+| `the team discussed the loan and the interest at the` | `bank .` |
+| `what do you think about the french revolution` | `brown and discussion of risk .` (6 of 8 words unknown) |
+| a 61-token prompt | `.` (only the last 48 tokens were used) |
+
+The failure: this is a sentence-continuer, not a question-answerer. The French-revolution prompt is
+ordinary English, but `what`, `do`, `you`, `think`, `french` and `revolution` are all `<UNK>`, so the
+model falls back on words it saw often and produces a fragment. Every prompt starts a fresh context,
+nothing is remembered between turns, and chatting never changes the weights.
+
+---
+
+## 14. What I learned, one limitation, and my next experiment
 
 **What the corpus is and why data is held out.** The corpus is everything the model may learn from;
 it defines both the vocabulary and every pattern available. Holding out 10% of passages gives a
@@ -1540,10 +1762,10 @@ experiment A's T=0.8 and T=1.2 samples coming out byte-identical.
 **What I can honestly conclude.** A 136k-parameter model trained for 22 seconds on self-authored
 teaching text learned several narrow, checkable patterns — subject-verb agreement, an `opposite of`
 frame that transfers to pairs never shown in it, a negation correction it can copy to objects it never
-saw corrected, and everyday-knowledge lookups. The held-out suite says those transferred rather than
-being recalled. It did not learn to choose a direction within a relation whose vocabulary it knows,
-and one deliberate attempt to fix that by changing the data failed in a way I had predicted was
-possible.
+saw corrected, and everyday-knowledge lookups. The held-out suite says the first three transferred
+rather than being recalled; it has no everyday-knowledge cases, so that one is unverified. It did not
+learn to place a new member in a category when the context names a different one, and it did not
+learn to copy a word into a slot where it has never seen that word.
 
 ### One observed limitation
 
@@ -1554,39 +1776,42 @@ reworded. A grammar case was backed by a passage that rebuilt the prompt with a 
 middle. Nothing in the eval output distinguished any of those from real learning — same prompts, same
 scoring, same high confidence. Only looking at the *training data around each prompt* did.
 
-The same caution applies to my own tuning: two seeds said a learning-rate change was worth +3.5 cases;
-five seeds against a rebalanced corpus said +0.4.
+The same caution applies to my own tuning: two seeds once said a learning-rate change was worth +3.5
+cases; on the final corpus five seeds say +1.4, and the three-seed sweep's own favourite (lr 0.006)
+fell to +0.4 when re-measured.
 
 ### One proposed next experiment
 
-**Change one thing: the embedding width, from 64 to 128.** Everything in this project that data could
-fix, data fixed — balancing the colours forced the negation copy, balancing the category groups
-removed the frequent-label default. The one failure data did *not* fix is `left`/`right`, and
-experiment E is the evidence: unpairing the two words moved their cosine only 0.762 → 0.730 and
-improved nothing. The remaining hypothesis is that 64 dimensions is too few to hold two words that
-share a syntactic role but must be distinguished.
+**Change one thing: open up the answer slot of the sequence material.** Failure 4 shows the model
+copies from context only among words it has already seen in the answer slot. Every sequence answer
+slot in the corpus is filled from a short fixed list — eight actions, four meals, four vehicles — and
+the eval's answers are deliberately never on it, so the model answers with a familiar filler: 0/3 on
+all five seeds. Negation was fixed by making association useless; here association is already useless
+(the eight actions are perfectly balanced), so what is missing is variety — the slot has never held an
+unfamiliar word.
 
-The experiment: set `N_EMBD = 128` with the 7-category corpus, 3,000 steps and lr 0.004 unchanged,
-five seeds, and measure both the eval score and the `right`/`left` cosine. This steps outside the
-supplied architecture, which is why it is proposed rather than run — the assignment asks for the
-supplied nanoGPT, and every experiment above keeps it.
+The experiment: rebuild `09_sequence_order.txt` so its answer slots draw from a large, open set —
+every verb and noun already in the vocabulary that is not an eval word, each used only a few times —
+keeping the eval's own words (`dry`, `breakfast`, `bus`, …) excluded exactly as now and every leakage
+audit unchanged. Same supplied nanoGPT, 3,000 steps, lr 0.004, five seeds, plus a copy probe like the
+negation one over 16 words never used in the slot. It is a data-only change, so it stays inside the
+assignment's architecture. I have not run it.
 
-**Prediction:** the cosine drops below 0.6 and the spatial mean rises above 2.4/3, while the
-categories already solved stay where they are. **If the cosine stays near 0.73 at 128 dimensions**,
-the problem is not capacity at all but the training objective — next-token prediction over a corpus
-where the two words are near-interchangeable simply has no gradient that separates them, and no amount
-of width or data will produce one.
+**Prediction:** if the model can learn a genuine copy, the sequence five-seed mean rises from 0.0 to at
+least 1.5/3 and the probe copies at least 12 of 16 unseen words. If the probe stays near zero, copying
+an unseen word is beyond this model at this size, and the next thing to change would be the
+architecture (the embedding width, for example), not the data.
 
 ---
 
-## 14. Repository map
+## 15. Repository map
 
 ```
 custom_llm.ipynb                    the starter notebook, unexecuted (run it yourself)
 nanogpt_model.py                    Karpathy's nanoGPT, pinned commit 3adf61e, unmodified
 run_evals.py  chat.py               the starter's eval runner and chat interface, unmodified
 evals/language_evals.json           the 48 fixed cases, unmodified (sha256 e8affcd7…)
-evals/heldout_language_evals.json   my 16 held-out cases, authored after the corpus was frozen
+evals/heldout_language_evals.json   my 16 held-out cases, written after the corpus was first frozen
 corpus/                             experiment B's teaching material - 4 categories
 corpus_seven/                       experiments C and D - 7 categories
 corpus_unpaired/                    experiment E - 7 categories, unpaired relations
@@ -1602,7 +1827,7 @@ experiments/unpaired/  E: same as D with corpus_unpaired/
                                       model_untrained.pt, checkpoint.json, language_evals/…
   *_results.zip                       the complete results ZIP
 experiments/sweep_*/   the five-seed sweeps (summaries only)
-experiments/hp_*/      the steps / learning-rate sweep (summaries only)
+experiments/hp_*/      the steps / learning-rate sweeps (summaries only; hp2_* is the latest)
 
 results/
   comparison.md / .json             every result set and the category breakdowns
@@ -1613,12 +1838,13 @@ results/
                                               <- found the answer list and the gapped prompt
   audit_structural.json             audit 5 - explanations, shared runs, topology, pipeline integrity
                                               <- found the over-long shared run
-  readme_tables/                    every numeric table in this README, regenerated from artifacts
+  readme_tables/                    every numeric table and sample block in this README, regenerated
   seed_sweep.json                   five seeds x six configurations
-  hyperparameter_sweep.json         one-variable steps and learning-rate study
-  heldout/                          the held-out suite's results, run once
+  hyperparameter_sweep.json         one-variable steps and learning-rate study (three seeds)
+  heldout/                          the held-out suite's results for all five models
   diagnostics.json                  the failure probes from Section 11
   embedding_neighbours.json         cosine neighbours before/after training
+  pca_neighbour_check.json          how much of the 64D geometry the viewer's 3D map keeps
   pdf_extraction_check.json         PDF extraction fidelity
   measurement_neutrality_check.json proof the section-7 change did not alter training
   rerun/                            all ten eval sets regenerated from the saved .pt files

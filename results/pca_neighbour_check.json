@@ -1,0 +1,254 @@
+{
+  "method": "PCA on the pooled initial+final embedding tables, as embedding-viewer.html does; neighbours compared over all non-special tokens.",
+  "k": 5,
+  "experiments": {
+    "starter": {
+      "vocabulary_size": 136,
+      "variance_retained_by_3d_map": 0.4073,
+      "mean_top5_overlap": 0.5429,
+      "nearest_neighbour_agreement": 0.2406,
+      "examples": {
+        "customer": {
+          "nearest_by_cosine_64d": [
+            "shopper",
+            "client",
+            "buyer",
+            "subscriber",
+            "consumer"
+          ],
+          "nearest_in_3d_map": [
+            "subscriber",
+            "shopper",
+            "consumer",
+            "buyer",
+            "client"
+          ]
+        }
+      }
+    },
+    "expanded": {
+      "vocabulary_size": 426,
+      "variance_retained_by_3d_map": 0.226,
+      "mean_top5_overlap": 0.374,
+      "nearest_neighbour_agreement": 0.1749,
+      "examples": {
+        "customer": {
+          "nearest_by_cosine_64d": [
+            "shopper",
+            "client",
+            "consumer",
+            "buyer",
+            "subscriber"
+          ],
+          "nearest_in_3d_map": [
+            "consumer",
+            "shopper",
+            "client",
+            "subscriber",
+            "buyer"
+          ]
+        },
+        "walked": {
+          "nearest_by_cosine_64d": [
+            "moved",
+            "cooked",
+            "counted",
+            "opened",
+            "climbed"
+          ],
+          "nearest_in_3d_map": [
+            "cooked",
+            "counted",
+            "moved",
+            "jumped",
+            "looked"
+          ]
+        },
+        "right": {
+          "nearest_by_cosine_64d": [
+            "left",
+            "inside",
+            "north",
+            "under",
+            "not"
+          ],
+          "nearest_in_3d_map": [
+            "we",
+            "they",
+            "many",
+            "missing",
+            "red"
+          ]
+        }
+      }
+    },
+    "seven": {
+      "vocabulary_size": 510,
+      "variance_retained_by_3d_map": 0.2194,
+      "mean_top5_overlap": 0.312,
+      "nearest_neighbour_agreement": 0.1558,
+      "examples": {
+        "customer": {
+          "nearest_by_cosine_64d": [
+            "subscriber",
+            "consumer",
+            "buyer",
+            "shopper",
+            "client"
+          ],
+          "nearest_in_3d_map": [
+            "consumer",
+            "shopper",
+            "tools",
+            "buyer",
+            "subscriber"
+          ]
+        },
+        "walked": {
+          "nearest_by_cosine_64d": [
+            "opened",
+            "climbed",
+            "counted",
+            "moved",
+            "jumped"
+          ],
+          "nearest_in_3d_map": [
+            "slow",
+            "short",
+            "tall",
+            "big",
+            "awake"
+          ]
+        },
+        "right": {
+          "nearest_by_cosine_64d": [
+            "left",
+            "north",
+            "front",
+            "not",
+            "yellow"
+          ],
+          "nearest_in_3d_map": [
+            "scarf",
+            "left",
+            "helped",
+            "but",
+            "flag"
+          ]
+        }
+      }
+    },
+    "tuned": {
+      "vocabulary_size": 510,
+      "variance_retained_by_3d_map": 0.2322,
+      "mean_top5_overlap": 0.1748,
+      "nearest_neighbour_agreement": 0.075,
+      "examples": {
+        "customer": {
+          "nearest_by_cosine_64d": [
+            "shopper",
+            "subscriber",
+            "buyer",
+            "consumer",
+            "client"
+          ],
+          "nearest_in_3d_map": [
+            "buyer",
+            "shopper",
+            "subscriber",
+            "consumer",
+            "brush"
+          ]
+        },
+        "walked": {
+          "nearest_by_cosine_64d": [
+            "climbed",
+            "jumped",
+            "counted",
+            "opened",
+            "cleaned"
+          ],
+          "nearest_in_3d_map": [
+            "bread",
+            "rice",
+            "data",
+            "climbed",
+            "bean"
+          ]
+        },
+        "right": {
+          "nearest_by_cosine_64d": [
+            "left",
+            "inside",
+            "blue",
+            "poster",
+            "umbrella"
+          ],
+          "nearest_in_3d_map": [
+            "yesterday",
+            "left",
+            "empty",
+            "shut",
+            "red"
+          ]
+        }
+      }
+    },
+    "unpaired": {
+      "vocabulary_size": 510,
+      "variance_retained_by_3d_map": 0.2359,
+      "mean_top5_overlap": 0.1712,
+      "nearest_neighbour_agreement": 0.0552,
+      "examples": {
+        "customer": {
+          "nearest_by_cosine_64d": [
+            "consumer",
+            "buyer",
+            "shopper",
+            "subscriber",
+            "client"
+          ],
+          "nearest_in_3d_map": [
+            "consumer",
+            "grey",
+            "in",
+            "buyer",
+            "banner"
+          ]
+        },
+        "walked": {
+          "nearest_by_cosine_64d": [
+            "looked",
+            "jumped",
+            "opened",
+            "counted",
+            "moved"
+          ],
+          "nearest_in_3d_map": [
+            "hammer",
+            "moved",
+            "window",
+            "hana",
+            "looked"
+          ]
+        },
+        "right": {
+          "nearest_by_cosine_64d": [
+            "left",
+            "inside",
+            "north",
+            "south",
+            "order"
+          ],
+          "nearest_in_3d_map": [
+            "chair",
+            "left",
+            "that",
+            "flag",
+            "hangs"
+          ]
+        }
+      }
+    }
+  }
+}
