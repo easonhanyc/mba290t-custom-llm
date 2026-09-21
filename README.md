@@ -1,10 +1,10 @@
-# Building a Custom LLM — MBA 290T Class 4
+# Building a Custom LLM
 
 Karpathy's nanoGPT trained from scratch at classroom scale, evaluated with the
 **unchanged 48-case language eval suite before and after training** in every experiment,
 plus a working terminal chat interface.
 
-## One-page summary for grading
+## One-page summary
 
 **What this is.** nanoGPT (2 blocks, 4 heads, 64-number embeddings, 48-token context) trained from
 scratch on a laptop CPU. The two required experiments are **A**, the classroom corpus only, and **B**,
